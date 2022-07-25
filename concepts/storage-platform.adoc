@@ -1,0 +1,13 @@
+---
+sidebar: sidebar
+permalink: concepts\storage-platform.html
+keywords: storage platform, deployment, installation platform
+summary: Supported storage platform for deployment
+---
+
+= Supported storage platforms for deployment
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/

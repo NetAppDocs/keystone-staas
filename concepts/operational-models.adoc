@@ -1,0 +1,13 @@
+---
+sidebar: sidebar
+permalink: concepts\operational-models.html
+keywords: Operational models, partner operations, customer operations, roles and responsibilities, r&r
+summary: Operational models in Keystone
+---
+
+= Operational models in Keystone
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/

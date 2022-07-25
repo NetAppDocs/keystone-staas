@@ -1,0 +1,13 @@
+---
+sidebar: sidebar
+permalink: concepts\committed-capacity-billing.html
+keywords: Billing based on committed capacity, committed capacity billing
+summary: Supported storage capacities
+---
+
+= Billing based on committed capacity
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/

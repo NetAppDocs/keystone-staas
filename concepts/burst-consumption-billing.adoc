@@ -1,0 +1,13 @@
+---
+sidebar: sidebar
+permalink: concepts\burst-consumption-billing.html
+keywords: burst consumption billing
+summary: Billing based on burst consumption
+---
+
+= Billing based on burst consumption
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/

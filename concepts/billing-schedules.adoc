@@ -1,0 +1,13 @@
+---
+sidebar: sidebar
+permalink: concepts\billing-schedules.html
+keywords: billing schedules, schedule for payment
+summary: Billing schedules in keystone
+---
+
+= Billing schedules in Keystone
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/

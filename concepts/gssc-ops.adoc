@@ -1,0 +1,13 @@
+---
+sidebar: sidebar
+permalink: concepts\gssc-ops.html
+keywords: NetApp support team operations, GSSC operations
+summary: NetApp support team operations
+---
+
+= NetApp support team operations
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/

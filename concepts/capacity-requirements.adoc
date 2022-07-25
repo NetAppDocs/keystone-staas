@@ -1,0 +1,13 @@
+---
+sidebar: sidebar
+permalink: concepts\capacity-requirements.html
+keywords: storage capacity requirement for service levels, capacity definition per PSL, 
+summary: Capacity requirements for Performance Service Levels
+---
+
+= Capacity requirements for Performance Service Levels
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/

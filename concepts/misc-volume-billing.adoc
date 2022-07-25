@@ -1,0 +1,13 @@
+---
+sidebar: sidebar
+permalink: concepts\misc-volume-billing.html
+keywords: Billing and miscellaneous volume types
+summary: Billing based on miscellaneous volume types
+---
+
+= Billing based on miscellaneous volume types
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/

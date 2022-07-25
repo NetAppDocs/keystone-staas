@@ -1,0 +1,13 @@
+---
+sidebar: sidebar
+permalink: concepts/metrics.html
+keywords: metrics, GiB, IOPS, latency, durability
+summary: Metrics calculations and definitions of Keystone Services
+---
+
+= Metrics and definitions of Keystone Services
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/

@@ -1,0 +1,13 @@
+---
+sidebar: sidebar
+permalink: concepts\supported-storage-capacity.html
+keywords: storage capacity, capacity definition, keystone STaaS storage capacity,
+summary: Supported storage capacities
+---
+
+= Supported storage capacity in Keystone
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/

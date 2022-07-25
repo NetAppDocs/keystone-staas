@@ -1,0 +1,13 @@
+---
+sidebar: sidebar
+permalink: concepts/supported-storage-types.html
+keywords: storage capacity, capacity definition, keystone STaaS storage capacity,
+summary: Supported storage capacities
+---
+
+= Supported storage types
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/

@@ -1,0 +1,13 @@
+---
+sidebar: sidebar
+permalink: concepts\components.html
+keywords: infrastructure component, deployment requirement, installation requirement
+summary: Infrastructure components
+---
+
+= Components for deployment
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/

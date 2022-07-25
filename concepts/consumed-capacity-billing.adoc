@@ -1,0 +1,13 @@
+---
+sidebar: sidebar
+permalink: concepts\consumed-capacity-billing.html
+keywords: consumed capacity billing, billing and consumed capacity
+summary: Billing based on consumed capacity
+---
+
+= Billing based on consumed capacity
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
