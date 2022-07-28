@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar
-permalink: concepts\remote-access.html
+permalink: concepts/remote-access.html
 keywords: remote access requirement, access for netapp, customer environment access
 summary: remote access requirement
 ---

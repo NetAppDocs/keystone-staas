@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar
-permalink: concepts\billing-schedules.html
+permalink: concepts/billing-schedules.html
 keywords: billing schedules, schedule for payment
 summary: Billing schedules in keystone
 ---

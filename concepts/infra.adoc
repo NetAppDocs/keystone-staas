@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar
-permalink: concepts\infra.html
+permalink: concepts/infra.html
 keywords: keystone infrastructure, infra
 summary: Keystone infrastructure
 ---

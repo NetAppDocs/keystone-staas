@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar
-permalink: concepts\rnr.html
+permalink: concepts/rnr.html
 keywords: roles and responsibilities, lifecycle service management, r&r, customer responsibility
 summary: Roles and responsibilities across the service lifecycle
 ---

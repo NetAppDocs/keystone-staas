@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar
-permalink: concepts\gssc.html
+permalink: concepts/gssc.html
 keywords: Global Services Support Center, GSSC, Keystone support
 summary: NetApp Global Services Support Center GSSC
 ---

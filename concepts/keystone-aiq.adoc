@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar
-permalink: concepts\keystone-aiq.html
+permalink: concepts/keystone-aiq.html
 keywords: Keystone, Active IQ	Digital Dashboard, keystone-aiq, aiq
 summary: Keystone and Active IQ	Digital Dashboard
 ---

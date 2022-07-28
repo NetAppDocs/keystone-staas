@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar
-permalink: concepts\opsramp.html
+permalink: concepts/opsramp.html
 keywords: OpsRamp, monitoring application
 summary: OpsRamp as a monitoring application
 ---

@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar
-permalink: concepts\components.html
+permalink: concepts/components.html
 keywords: infrastructure component, deployment requirement, installation requirement
 summary: Infrastructure components
 ---

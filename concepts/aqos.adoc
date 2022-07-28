@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar
-permalink: concepts\aqos.html
+permalink: concepts/aqos.html
 keywords: adaptive QoS, QoS and PSL
 summary: Adaptive Quality of Service
 ---
