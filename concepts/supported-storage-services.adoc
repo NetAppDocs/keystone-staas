@@ -1,0 +1,76 @@
+---
+sidebar: sidebar
+permalink: concepts/supported-storage-services.html
+keywords: storage service, service definition, keystone STaaS storage service,
+summary: Supported storage services
+---
+
+= Supported storage in Keystone services
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+Keystone service supports the base storage types of ONTAP, such as file and block storage. It also supports object storage for StorageGrid platform. Data management capabilities for Cloud Volumes ONTAP and Cloud Backup are also supported.
+
+For information about add-on services of Keystone, see link:../concepts/addon.html[Add-on storage services]
+
+For information about Performance Service Levels, see link:../concepts/performance-service-levels.html[Performance Service Levels in Keystone]
+
+== Base storage services
+|===
+a| Storage service |Basis |Supported features | Protocols
+
+a| File storage
+|Based on ONTAP technology
+|Supported ONTAP features:
+
+* FlexVol
+* FlexGroup
+* Snapshot copies
+* SnapMirror (Asynchronous)
+* SnapVault
+* SnapLock Enterprise
+* FabricPool/Cloud tiering
+* Restore
+* Clone
+* SnapCenter (the license is included but this is not a part of Keystone services and no guaranteed management is provided)
+|NFS, CIFS, iSCSI, FC, and S3 (used for FabricPool target)
+a| Block storage
+|Based on ONTAP technology
+|Supported ONTAP features:
+
+* FlexVol
+* FlexGroup
+* Snapshot copies
+* SnapMirror (Asynchronous)
+* SnapVault
+* SnapLock Enterprise
+* FabricPool/Cloud tiering
+* Restore
+* Clone
+* SnapCenter (the license is included but this is not a part of Keystone services and no guaranteed management is provided)
+|FC, iSCSI, and S3 (used for FabricPool target)
+a| Object storage
+|Based on the StorageGRID platform
+|Supports multiple information lifecycle management (ILM) policies across multiple sites.
+.Note:
+Each site must be separate subscription.
+|S3
+
+|===
+
+[NOTE]
+Data tiering to NetApp storage target is included by default in file and block storage service tiers.
+
+For more information on add-on services, see link:../concepts/addon.html[Add-on services]
+
+== Cloud storage services
+Keystone supports the following cloud services that can co-term with your existing subscriptions. The cloud services can be included at any point during the service term. However, if you do not plan to renew your subscription, you cannot include these cloud services during the last 90 days of your subscription.
+
+* Data management capabilities for Cloud Volumes ONTAP, supported on AWS, Azure and Google
+*	Data management capabilities for Cloud Backup service, supported on AWS, Azure and Google
+[NOTE]
+Hyperscalar-based compute and storage infrastructure are not provided by NetApp as a part of your Keystone subscriptions, and you need to procure them from a hyperscalar cloud service provider.

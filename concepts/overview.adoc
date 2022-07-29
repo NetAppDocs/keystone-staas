@@ -19,4 +19,4 @@ It enables customers to accelerate time to value by reducing the hurdles related
 
 image:nkfsosm_image2.png[Error: Missing Graphic Image]
 
-Flex Subscription is a subscription-based service offering that provides storage capacity, at predefined performance service levels, for block, file, and object data types that can be deployed on-premises and can be operated by NetApp, a partner, or the customer. In addition to this, it can be used in association with NetApp cloud services, such as Cloud Volumes ONTAP that can deployed on a  hyperscalar environment of your choice.
+Keystone is a subscription-based service offering that provides storage capacity, at predefined performance service levels, for block, file, and object data types that can be deployed on-premises and can be operated by NetApp, a partner, or the customer. In addition to this, it can be used in association with NetApp cloud services, such as Cloud Volumes ONTAP that can deployed on a  hyperscalar environment of your choice.

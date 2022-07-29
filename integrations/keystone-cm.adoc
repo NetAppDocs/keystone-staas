@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar
-permalink: concepts/keystone-cm.html
+permalink: integrations/keystone-cm.html
 keywords: Keystone-Cloud Manager
 summary: Keystone and Cloud Manager
 ---
