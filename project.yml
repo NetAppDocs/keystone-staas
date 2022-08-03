@@ -22,10 +22,12 @@ sidebar:
           url: /concepts/metrics.html
         - title: Supported storage types in Keystone
           url: /concepts/supported-storage-services.html
-        - title: Add-on Services
-          url: /concepts/addon.html
         - title: Performance Service Levels
           url: /concepts/performance-service-levels.html
+        - title: Add-on Services
+          url: /concepts/addon.html
+        - title: U.S. Citizen Support (USCS)
+          url: /concepts/uscs.html                    
     - title: More about Performance Service Levels
       entries:
         - title: Quality of Service

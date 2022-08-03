@@ -15,9 +15,9 @@ summary: Supported storage services
 [.lead]
 Keystone service supports the base storage types of ONTAP, such as file and block storage. It also supports object storage for StorageGrid platform. Data management capabilities for Cloud Volumes ONTAP and Cloud Backup are also supported.
 
-For information about add-on services of Keystone, see link:../concepts/addon.html[Add-on storage services]
+For information about add-on services of Keystone, see link:addon.html[Add-on storage services]
 
-For information about Performance Service Levels, see link:../concepts/performance-service-levels.html[Performance Service Levels in Keystone]
+For information about Performance Service Levels, see link:performance-service-levels.html[Performance Service Levels in Keystone]
 
 == Base storage services
 |===
@@ -65,7 +65,7 @@ Each site must be separate subscription.
 [NOTE]
 Data tiering to NetApp storage target is included by default in file and block storage service tiers.
 
-For more information on add-on services, see link:../concepts/addon.html[Add-on services]
+For more information on add-on services, see link:/addon.html[Add-on services]
 
 == Cloud storage services
 Keystone supports the following cloud services that can co-term with your existing subscriptions. The cloud services can be included at any point during the service term. However, if you do not plan to renew your subscription, you cannot include these cloud services during the last 90 days of your subscription.

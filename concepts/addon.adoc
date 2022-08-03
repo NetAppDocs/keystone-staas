@@ -14,9 +14,9 @@ summary: Add-on, additional Services Details
 
 [.lead]
 You can subscribe to these add-on services as a part of your Keystone subscription.
-For information about the base storage and cloud storage service, see link:../concepts/supported-storage-services.html[Supported storage services]
+For information about the base storage and cloud storage service, see link:supported-storage-services.html[Supported storage services]
 
-For information about Performance Service Levels, see link:../concepts/performance-service-levels.html[Performance Service Levels in Keystone]
+For information about Performance Service Levels, see link:performance-service-levels.html[Performance Service Levels in Keystone]
 
 == Data tiering
 NetApp Keystone (Keystone) service includes a tiering capability with your subscribed file and block services that identifies less-frequently used data and tiers it to a cold storage that is owned, deployed, and managed by NetApp.
@@ -41,10 +41,25 @@ This offering only provides the capability to tier cold data to cheaper target s
 Hyperscalar-based compute and storage infrastructure are not provided by NetApp as a part of your Keystone subscriptions, and you need to procure them from a hyperscalar cloud service provider.
 
 == Advanced data protection
-Keystone advanced data protection service can back up your data and is able to recover it if required. This features leverages the MetroCluster configuration between two sites to enable data protection. You can avail advanced data protection add-on services for only your file and block storage services. The add-on charges are applicable to all the capacities in the subscription, that is the source, mirrored copy, and unmirrored data.
+Keystone advanced data protection service can back up your data and is able to recover it if required. This features leverages the MetroCluster configuration between two sites to enable data protection. You can avail advanced data protection add-on services for only your file and block storage services.
+For information about ONTAP MetroCluster, see link:https://docs.netapp.com/us-en/ontap-metrocluster[MetroCluster Documentation]
+
+The add-on charges are applicable to all the capacities in the subscription, that is the source, mirrored copy, and unmirrored data.
+
+Note the following:
 
 * For this service,	100% of the committed capacity on an associated storage service is configured as committed capacity.
 *	Storage is charged for both the source and the destination clusters. This add-on service is also charged for both the primary and secondary volumes.
-*	The charges are applicable for only your file and block storage services.
+*	The charges are applicable to only your file and block storage services.
 
-== 
+== Non-returnable, non-volatile components (NRNVC)
+
+As a part of NetApp Keystone subscription, NetApp extends the non-returnable, non-volatile components (NRNVC) offering for your file, block, and object services.
+NetApp does not recover the physical storage media used during the entire service tenure or at service termination when NetApp otherwise recovers all of its physical assets used in the delivery of the service.
+
+If you have purchased this service, note the following:
+
+* You do not need to return any drives and nonvolatile memory at end of the service term or if they failed or found defective during the service term.
+* However, you need to produce a certificate of destruction for the drives and/or nonvolatile memory and cannot be used for any other purpose.
+* The additional cost associated with the NRNVC is charged as a percentage of the total storage service (includes storage service, Advanced Data Protection, and data tiering) monthly bill.
+* This service is applicable for only file, block, and object services.
