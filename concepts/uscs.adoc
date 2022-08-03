@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar
-permalink: nkfsosm_uscs.html
+permalink: /concepts/uscs.html
 keywords: netapp, keystone, US citizen support, USCS GSSC, Keystone Success Manager, USCS support
 summary: US Citizen Support (USCS)
 ---
