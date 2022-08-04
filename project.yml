@@ -25,9 +25,17 @@ sidebar:
         - title: Performance Service Levels
           url: /concepts/performance-service-levels.html
         - title: Add-on Services
-          url: /concepts/addon.html
-        - title: U.S. Citizen Support (USCS)
-          url: /concepts/uscs.html                    
+          entries:
+            - title: Data tiering
+              url: /concepts/tiering.html
+            - title: Advanced Data Protection
+              url: /concepts/adp.html
+            - title: U.S. Citizen Support (USCS)
+              url: /concepts/uscs.html
+            - title: Non-returnable, non-volatile components and SnapLock compliance
+              url: /concepts/nrnvc.html
+            - title: Keystone and Equinix
+              url: /concepts/equinix.html  
     - title: More about Performance Service Levels
       entries:
         - title: Quality of Service

@@ -5,7 +5,7 @@ keywords: storage service, service definition, keystone STaaS storage service,
 summary: Supported storage services
 ---
 
-= Supported storage in Keystone services
+= Supported storage services 
 :hardbreaks:
 :nofooter:
 :icons: font
