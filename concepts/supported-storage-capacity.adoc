@@ -10,8 +10,7 @@ summary: Supported storage capacities
 :nofooter:
 :icons: font
 :linkattrs:
-:image
-dir: ./media/
+:imagesdir: ./media/
 
 [.lead]
 The NetApp Keystone service capacities include:
@@ -48,5 +47,3 @@ This is the consumed capacity that has exceeded the committed capacity. Note the
 Monthly bill = (committed capacity [TiB] * committed rate [$/TiB]) + (daily average provisioned burst capacity [TiB] * burst rate [$/TiB]). The monthly bill contains a minimum charge based on the committed capacity.
 
 The monthly bill varies beyond the minimum charge based on daily average burst capacity consumption.
-
-For more information on billing, see ...
