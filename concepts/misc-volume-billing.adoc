@@ -21,7 +21,7 @@ If volumes are cloned in ONTAP and you use them for backing up and restoring you
 Note the following:
 
 * The consumption on the cloned volumes is not considered during the first 24 hours of the clone creation; and no charges are incurred during this time.
-*	Cloned volumes with the Standard and Value Performance Service Levels are not considered for consumption, if new data is not written to the volume. For example, in a backup or restore use case, backing up or restoring data from a cloned volume does not change the data in the cloned volume itself, and it is not considered as consumption.
+*	Cloned volumes with the Standard and Value Service Levels are not considered for consumption, if new data is not written to the volume. For example, in a backup or restore use case, backing up or restoring data from a cloned volume does not change the data in the cloned volume itself, and it is not considered as consumption.
 
 == Billing for Advanced Data Protection
 Advanced Data Protection uses NetApp MetroCluster to mirror data between two physically separated clusters. For MetroCluster mirrored aggregates, data is written twice, once on each cluster. The Keystone service charges for consumption on each side independently, resulting in two identical consumption records.
@@ -36,11 +36,11 @@ Additionally, all volumes created on a Keystone system with Advanced Data Protec
 Occasionally, temporary (TMP) volumes are created by ONTAP when moving volumes. These temporary volumes are short-lived, and the consumption on these volumes is not measured for billing.
 
 == Billing and adaptive QoS policies
-Keystone measures consumption based on Performance Service Levels. Each Performance Service Level is associated with a specific adaptive quality of service (QoS) policy. During deployment, you will be informed of the details of each QoS policy for your subscribed Keystone services. During storage management operations, ensure that your volumes have the appropriate QoS policies assigned as per your subscribed Performance Service Levels, to avoid unexpected billing.
+Keystone measures consumption based on Service Levels. Each Service Level is associated with a specific adaptive quality of service (QoS) policy. During deployment, you will be informed of the details of each QoS policy for your subscribed Keystone services. During storage management operations, ensure that your volumes have the appropriate QoS policies assigned as per your subscribed Service Levels, to avoid unexpected billing.
 For more information about QoS policies in ONTAP, see link:https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html[Guarantee throughput with QoS overview].
 
 == Billing for SnapMirror destinations
-The pricing for the SnapMirror destination volume governed by the QoS policy for the Performance Service Level (service level) assigned on the source. However, if the source does not have an associated QoS policy, the destination is billed based on the lowest available service level.
+The pricing for the SnapMirror destination volume governed by the QoS policy for the service level assigned on the source. However, if the source does not have an associated QoS policy, the destination is billed based on the lowest available service level.
 
 == Billing for LUNs
 For LUNs, usually the same billing pattern is followed as for the volumes that are governed by QoS policies. If separate QoS policies are set on LUNs, then:

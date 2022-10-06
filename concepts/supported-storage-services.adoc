@@ -17,7 +17,7 @@ Keystone service supports the base storage types of ONTAP, such as file and bloc
 
 For information about add-on services of Keystone, see link:addon.html[Add-on storage services]
 
-For information about Performance Service Levels, see link:performance-service-levels.html[Performance Service Levels in Keystone]
+For information about Service Levels, see link:service-levels.html[Service Levels in Keystone]
 
 == Base storage services
 |===

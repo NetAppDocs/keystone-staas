@@ -20,8 +20,8 @@ sidebar:
           url: /concepts/metrics.html
         - title: Supported storage types in Keystone
           url: /concepts/supported-storage-services.html
-        - title: Performance Service Levels
-          url: /concepts/performance-service-levels.html
+        - title: Service Levels in Keystone
+          url: /concepts/service-levels.html
         - title: Add-on Services
           entries:
             - title: Data tiering
@@ -34,13 +34,11 @@ sidebar:
               url: /concepts/nrnvc.html
             - title: Keystone and Equinix
               url: /concepts/equinix.html
-    - title: More about Performance Service Levels
+    - title: More about Service Levels
       entries:
         - title: Quality of Service
           url: /concepts/qos.html
-        - title: Adaptive Quality of Service
-          url: /concepts/aqos.html
-        - title: Capacity requirements for Performance Service Levels
+        - title: Capacity requirements for Service Levels
           url: /concepts/capacity-requirements.html
     - title: Billing
       entries:
@@ -99,15 +97,15 @@ homepage:
           url: /concepts/addon.html#data-tiering
         - title: Is my Keystone data protected?
           url: /concepts/addon.html#advanced-data-protection
-    - title: Performance Service Levels
+    - title: Service Levels in Keystone
       links:
-        - title: Keystone Performance Service Levels
+        - title: Keystone Service Levels
           url: /concepts/performance-service-levels.html
         - title: Quality of Service (QoS)
           url: /concepts/qos.html
         - title: Adaptive Quality of Service (AQoS)
           url: /concepts/aqos.html
-        - title: Capacity requirements for Performance Service Levels
+        - title: Capacity requirements for Service Levels
           url: /concepts/capacity-requirements.html
     - title: Keystone pricing
       links:

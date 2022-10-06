@@ -1,11 +1,11 @@
 ---
 sidebar: sidebar
-permalink: concepts/performance-service-levels.html
-keywords: performance service levels, service level
-summary: Supported performance service levels
+permalink: concepts/service-levels.html
+keywords: service levels, service level
+summary: Supported service levels
 ---
 
-= Performance Service Levels in Keystone
+= Service Levels in Keystone
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,14 +13,14 @@ summary: Supported performance service levels
 :imagesdir: ./media/
 
 [.lead]
-Keystone offers a service is a subscribed-to committed storage capacity with an associated performance service level.
+Keystone offers a service is a subscribed-to committed storage capacity with an associated service level.
 
-Each Performance Service Level is defined by its I/O density, which is the ratio of performance (input/output operations per second [IOPS]) and used storage (TiB of stored data) which is IOPS/TiB.
+Each service level is defined by its I/O density, which is the ratio of performance (input/output operations per second [IOPS]) and used storage (TiB of stored data) which is IOPS/TiB.
 
-Each volume managed by the Keystone services is associated with a performance service level. All I/O operations and all used storage used on the respective volume are factored into the volume’s I/O density calculation.
+Each volume managed by the Keystone services is associated with a service level. All I/O operations and all used storage used on the respective volume are factored into the volume’s I/O density calculation.
 
-== Performance service levels for difference storage types
-The performance service levels for file, block, object storage, and cloud services are listed here.
+== Service levels for difference storage types
+The service levels for file, block, object storage, and cloud services are listed here.
 
 I/O density calculations at the volume level are reported to show peak I/O density during the prior week. The peak performance is determined on an hourly time interval. I/O density reports by volume are generated monthly to gauge adherence to the respective service levels.
 

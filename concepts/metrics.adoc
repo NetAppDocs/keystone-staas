@@ -53,4 +53,4 @@ IO density calculated in IOPS/TiB and/or MBps/TiB may vary based on the followin
 *	When using the Advanced Data Protection add-on services, the target latency applies to only servicing IO requests from the local storage
 
 === Volume AQoS
-Each ONTAP volume should have the applicable adaptive quality of service (AQoS) policy applied. Otherwise, the capacity within each volume that does not have an AQoS policy applied is billed at the rate of the highest Performance Service Level.
+Each ONTAP volume should have the applicable adaptive quality of service (AQoS) policy applied. Otherwise, the capacity within each volume that does not have an AQoS policy applied is billed at the rate of the highest Service Level.
