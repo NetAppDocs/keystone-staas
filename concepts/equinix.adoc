@@ -49,3 +49,5 @@ a| Tokyo |Japan
 a| Toronto |Canada
 a| Washington DC |U.S.
 a| Zurich |Switzerland
+
+|===
