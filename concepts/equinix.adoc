@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: concepts/equinix.html
 keywords: netapp, keystone, Equinix
-summary: Keystone Flex Subscription and Equinix
+summary: Keystone and Equinix
 ---
 
 = Keystone co-location services powered by Equinix

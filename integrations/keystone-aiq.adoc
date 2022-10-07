@@ -16,4 +16,4 @@ If you have subscribed to NetApp Keystone services, you can view your usage repo
 
 For more information about Active IQ Digital Advisor, see https://docs.netapp.com/us-en/active-iq/task_view_keystone_capacity_utilization.html[Active IQ Digital Advisor documentation]
 
- For more information about data flow, see link:../concepts/infra.html[Monitoring tools].
+For more information about data flow, see link:../concepts/infra.html[Monitoring tools].

@@ -111,7 +111,7 @@ homepage:
         url: /concepts/committed-capacity-billing.html
       - title: Metering based on consumed capacity
         url: /concepts/consumed-capacity-billing.html
-      - title: Billing based on burst consumption
+      - title: What happens if I have consumed more than my committed capacity?
         url: /concepts/burst-consumption-billing.html
     - title: Do more with Keystone Services
       links:

@@ -20,5 +20,6 @@ As a Keystone customer, if you have Cloud Volumes ONTAP subscription, you can us
 For this, you should create one or more Cloud Manager accounts and link them with your Keystone account. While you purchase a cloud service through Keystone, you need to provide the details of your Cloud Manager accounts to your Keystone Success Manager. This enables proper metering and charging of your cloud service usage through your Keystone subscription.
 
 For more information, see the following links in the Cloud Manager documents:
-link:https://docs.netapp.com/us-en/occm/concept_licensing.html#keystone-flex-subscription[Keystone Subscription]
-link:https://docs.netapp.com/us-en/occm/task_managing_licenses.html#manage-keystone-flex-subscriptions[Manage Keystone Subscriptions]
+
+* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensing.html#keystone-flex-subscription[Keystone Subscription]
+* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-manage-keystone.html[Manage Keystone Subscriptions]
