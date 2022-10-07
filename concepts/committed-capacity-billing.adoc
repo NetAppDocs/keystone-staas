@@ -1,0 +1,20 @@
+---
+sidebar: sidebar
+permalink: concepts/committed-capacity-billing.html
+keywords: Billing based on committed capacity, committed capacity billing
+summary: Supported storage capacities
+---
+
+= Billing based on committed capacity
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ../media/
+
+[.lead]
+NetApp Keystone (Keystone) billing is based on the capacity committed to you as a part of Keystone service subscription.
+
+Committed capacity refers to the capacities for various services in a single subscription, as accepted by you and NetApp/partner. This capacity is stated on each Keystone order and is billed, regardless of the actual consumption.
+
+For information about different capacities supported in Keystone, see link:../concepts/supported-storage-capacity.html[Supported storage capacities in Keystone]

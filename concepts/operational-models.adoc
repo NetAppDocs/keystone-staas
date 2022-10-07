@@ -1,0 +1,64 @@
+---
+sidebar: sidebar
+permalink: concepts/operational-models.html
+keywords: Operational models, partner operations, customer operations, roles and responsibilities, r&r
+summary: Operational models in Keystone
+---
+
+= Operational models in Keystone
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ../media/
+
+[.lead]
+NetApp Keystone (Keystone) offers two operational models for service delivery: partner-operated model and customer-operated model.
+
+*	*Partner-operated model*: In this model, the partner or service provider operates the services for their end customers. For NetApp, the partner is the referenced contracted party. Tenants are customers of partners and have no billing relationship with NetApp. A partner-operated model usually has a multi-tenant environment where tenants and end customers/subtenants have their own subscriptions that are billed by the partner. The partner administrator performs the administrative tasks for all the tenants.
+*	*Customer-operated model*: In a customer-operated model, as a customer, you can subscribe to Keystone services according to your selected performance tiers and storage service types. NetApp defines the architecture and products and deploys Keystone at your premises. You need to manage the infrastructure through your storage and IT resources. As a customer, you are the tenant or subtenant to NetApp or a partner/service provider, and based on your contract, you can raise service requests to be addressed by NetApp or your service provider. A customer administrator from your end can perform the administrative tasks in a your site (environment). These tasks are tied to the users in your environment.
+
+== Roles and responsibilities across the service lifecycle
+
+* *Partner-operated model*: The share of roles and responsibilities depends on the SLA between you and the service provider or partner. Contact your service provider for information.
+* *Customer-operated model*: The following table summarizes the overall service lifecycle model and the roles and responsibilities associated with them in a customer-operated environment.
+
+
+|===
+|Task |NetApp |Customer
+
+a|Installation and related tasks
+
+* Install
+* Configure
+* Deploy
+* Onboard
+|image:check.png[]
+| None
+a|Administration and monitoring
+
+* Monitor
+* Report
+* Perform administrative tasks
+* Alert
+| None
+|image:check.png[]
+a|Operations and optimization
+
+* Manage capacity
+* Manage performance
+* Manage SLA
+| None
+|image:check.png[]
+a|Support
+
+* Support customer
+* Hardware break fix
+* Software support
+* Upgrades and patches
+|image:check.png[]
+| None
+
+|===
+
+For more information on deployment, see link:../concepts/infra.html[Keystone infrastructure] and link:..//concepts/components.html[Components for deployment]

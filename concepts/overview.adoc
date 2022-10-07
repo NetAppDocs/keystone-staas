@@ -1,0 +1,26 @@
+---
+sidebar: sidebar
+permalink: concepts/overview.html
+keywords: learn about keystone, keystone introduction, keystone, STaaS, service, offering, overview
+summary: Welcome to the Keystone
+---
+
+= Learn about NetApp Keystone
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ../media/
+
+
+[.lead]
+NetApp Keystone (Keystone) is a pay-as-you-grow subscription-based service model that delivers a seamless hybrid cloud experience for those preferring OpEx consumption models to upfront CapEx or leasing.
+
+It enables customers to accelerate time to value by reducing the hurdles related to managing the unpredictable capacity growth and going through the complex procurement cycles. Keystone allows customers to align economics and operations to their business priorities.
+
+image:nkfsosm_image2.png[Error: Missing Graphic Image]
+
+Keystone is a subscription-based service offering that provides storage capacity, at predefined service levels, for block, file, and object data types that can be deployed on-premises and can be operated by NetApp, a partner, or the customer. In addition to this, it can be used in association with NetApp cloud services, such as Cloud Volumes ONTAP that can deployed on a  hyperscalar environment of your choice.
+
+== Keystone Storage-as-a-Service (STaaS)
+While the majority of enterprises are still working on their strategy for hybrid cloud, you, as a customer, might not want to delay moving into an OpEx-based _pay-per-use_ consumption model. You might not have a view of when to move a certain portion or all of your workloads over to the cloud, though might have a mandate to move to the cloud eventually. Keystone Storage-as-a-Service provides flexibility in which you can start with on-premises services and decide later on the right workloads and point in time to move to the cloud. Keystone Storage-as-a-Service (STaaS) provides commitment protection across deployment models to you rather than stacking up more cloud service costs on top of on-premises—customers can reallocate their on-premises spending to add cloud services and essentially pay at least the same monthly bill that was committed prior to this reallocation. 

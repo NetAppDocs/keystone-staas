@@ -1,0 +1,20 @@
+---
+sidebar: sidebar
+permalink: concepts/burst-consumption-billing.html
+keywords: burst consumption billing
+summary: Billing based on burst consumption
+---
+
+= Billing based on burst consumption
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ../media/
+
+[.lead]
+NetApp Keystone (Keystone) billing is based on burst capacity, that is the capacity consumed by you, on top of the committed capacity of the Service Levels that you have subscribed to.
+
+When the consumed capacity is greater than the committed capacity for a Service Level, burst consumption is recorded, and charges are applied accordingly. This process occurs for each consumption record generated. Burst consumption, therefore, is a reflection of both the amount and tenure of your over-consumed capacities on top of your committed capacities.
+
+For information about different capacities supported in Keystone, see link:../concepts/supported-storage-capacity.html[Supported storage capacities in Keystone]

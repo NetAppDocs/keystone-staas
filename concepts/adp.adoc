@@ -1,0 +1,31 @@
+---
+sidebar: sidebar
+permalink: concepts/adp.html
+keywords: data protection advanced
+summary: Advanced Data Protection
+---
+
+= Advanced Data Protection
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ../media/
+
+[.lead]
+You can subscribe to the Advanced Data Protection add-on service as a part of your Keystone subscription.
+
+For information about the base storage and cloud storage service, see link:../concepts/supported-storage-services.html[Supported storage services]
+
+For information about Service Levels, see link:../concepts/service-levels.html[Service Levels in Keystone]
+
+Keystone advanced data protection service can synchronously mirror data to a secondary site and in case of disaster at primary site, the secondary site can take over, without any loss of data. This features leverages the MetroCluster configuration between two sites to enable data protection. You can avail advanced data protection add-on services for only your file and block storage services.
+For information about ONTAP MetroCluster, see link:https://docs.netapp.com/us-en/ontap-metrocluster[MetroCluster Documentation]
+
+The add-on charges are applicable to all the capacities in the subscription, that is the source, mirrored copy, and unmirrored data.
+
+Note the following:
+
+* For this service,	100% of the committed capacity on an associated storage service is configured as committed capacity.
+*	Storage is charged for both the source and the destination clusters. This add-on service is also charged for both the primary and secondary (mirrored) volumes.
+*	The charges are applicable to only your file and block storage services.

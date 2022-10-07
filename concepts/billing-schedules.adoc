@@ -1,0 +1,24 @@
+---
+sidebar: sidebar
+permalink: concepts/billing-schedules.html
+keywords: billing schedules, schedule for payment
+summary: Billing schedules in keystone
+---
+
+= Billing schedules
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ../media/
+
+[.lead]
+Keystone subscriptions are billed monthly and yearly.
+
+== Monthly billing
+Invoices are sent monthly. For the month in which the services are availed, an invoice is sent in the next month. For example, the invoice for the services you have used in January is delivered at the beginning of February. This invoice includes the charges for the committed capacity and if applicable, any burst usage.
+
+== Annual billing
+An invoice is generated at the beginning of each subscription year for the minimum payment of the committed capacity. It is generated on the start date of the subscription.
+Another invoice is sent at the end of a subscription quarter, summing up the applicable charges of any burst usage accrued in that quarter.
+If the committed capacity is changed during a subscription, then an invoice is sent on the same day the change in the committed capacity is effective, for the prorated minimum payments for the rest of that subscription year.

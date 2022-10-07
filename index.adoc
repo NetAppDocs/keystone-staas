@@ -1,0 +1,14 @@
+---
+layout: astra
+sidebar: sidebar
+permalink: index.html
+lead: NetApp Keystone is a flexible pay-as-you-grow subscription-based service that delivers a seamless hybrid cloud experience, for customers who prefer OPEX to CAPEX or leasing. It gives you the ability to accelerate time to value by removing the IT burden on managing resources and going through the lengthy procurement cycle.
+summary: Documentation for NetApp Keystone
+---
+
+= Keystone Documentation
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ../media/
