@@ -100,7 +100,7 @@ homepage:
     - title: Service Levels in Keystone
       links:
         - title: Keystone Service Levels
-          url: /concepts/performance-service-levels.html
+          url: /concepts/service-levels.html
         - title: Quality of Service (QoS)
           url: /concepts/qos.html
         - title: Adaptive Quality of Service (AQoS)
@@ -131,8 +131,6 @@ homepage:
           url: /concepts/uscs.html
     - title: Know more
       links:
-        - title: Additional videos
-          url: (from insight?)
         - title: Keystone Flex Subscription
           url: https://docs.netapp.com/us-en/keystone/
         - title: Active IQ Digital Advisor

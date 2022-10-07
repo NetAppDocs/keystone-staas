@@ -25,7 +25,7 @@ Keystone provides you with adaptive QoS polices that you can set up once your cl
 [NOTE]
 If you have not applied adaptive QoS policies on your volumes correctly, those volumes will be measured and charged at the highest service level as per your subscription. This may result in unintended burst charges.
 
-== Configuring adaptive QoS policy group
+== Configuration of adaptive QoS policy group
 You can configure adaptive QoS policies to automatically scale a throughput ceiling or floor to volume size. For configuring a policy, you should be aware of the following:
 
 * Policy group name: The name of the adaptive QoS policy group. For example, `Keystone_extreme`.
@@ -40,5 +40,72 @@ This is not IOPS density (for example, 75 IOPS/TiB), but an absolute minimum num
 
 For more information, see https://docs.netapp.com/us-en/ontap/performance-admin/adaptive-qos-policy-groups-task.html[Use adaptive QoS policy groups].
 
-=== Adaptive QoS settings
-The settings for adaptive QoS vary for each service level.
+== Settings of adaptive QoS policies
+The settings for adaptive QoS policies vary for each service level.
+
+=== Settings for Extreme service level
+For Extreme service level, these are the settings and commands:
+
+* Sample command: 
+....
+qos adaptive-policy-group create -policy group <Keystone_extreme> -vserver <SVM_name> -expected-iops 6144 -peak-iops 12288 -expected-iops-allocation used-space -peak-iops-allocation used-space -block-size 32K
+....
+* Minimum volume size: 100GiB, 0.1TiB
+* Maximum volume size: 10TiB
+
+=== Settings for Premium service level
+For Premium service level, these are the settings and commands:
+
+* Sample command: 
+....
+qos adaptive-policy-group create -policy group <Keystone_premium> -vserver <SVM_name> -expected-iops 2048 -peak-iops 4096 -expected-iops-allocation used-space -peak-iops-allocation used-space -block-size 32K
+....
+* Minimum volume size: 500GiB, 0.5TiB
+* Maximum volume size: 50TiB
+
+=== Settings for Performance service level
+For Performance service level, these are the settings and commands:
+
+* Sample command: 
+....
+qos adaptive-policy-group create -policy group <Keystone_performance> -vserver <SVM_name> -expected-iops 1024 -peak-iops 2048 -expected-iops-allocation used-space -peak-iops-allocation used-space -block-size 32K
+....
+* Minimum volume size: 500GiB, 0.5TiB
+* Maximum volume size: 80TiB
+
+=== Settings for Value service level
+For Value service level, these are the settings and commands:
+
+* Sample command: 
+....
+qos adaptive-policy-group create -policy group <Keystone_premium> -vserver <SVM_name> -expected-iops 64 -peak-iops 128 -expected-iops-allocation used-space -peak-iops-allocation used-space -block-size 32K
+....
+* Minimum volume size: 1TiB
+* Maximum volume size: 100TiB
+
+=== Recommendations of volume size
+The minimum and maximum volumes sizes for each service level described here allow for optimal IOPs and latency values for a volume. Creating too many volumes outside of these guidelines may negatively impact performance in those volumes.
+
+== Block size calculation
+
+Note these points before you calculate the block size by using these settings:
+
+*	IOPS/TiB = MBps/TiB divided by (block size * 1024)
+*	Block size is in KB/IO
+*	TiB = 1024GiB; GiB = 1024MiB; MiB = 1024KiB; KiB = 1024Bytes; as per base 2
+*	TB = 1000GB; GB = 1000MB; MB = 1000KB; KB = 1000Bytes; as per base 10
+
+.Sample block size calculation
+To calculate the throughput for the a service level, for example `Extreme` service level:
+
+*	Maximum IOPS: 12,288
+*	Block size per I/O: 32KB
+*	Maximum throughput = (12288 * 32 * 1024) / (1024*1024) = 384MBps/TiB
+
+If a volume has 700GiB of logical used data, the available throughput will be:
+
+`Maximum throughput = 384 * 0.7 = 268.8MBps`
+
+
+
+
