@@ -1,0 +1,36 @@
+---
+sidebar: sidebar
+permalink: concepts/nrnvc.html
+keywords: Non-returnable, non-volatile components, SnapLock compliance, add-on service
+summary: Non-returnable, non-volatile components and SnapLock compliance
+---
+
+= Non-returnable, non-volatile components and SnapLock compliance
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+As a part of NetApp Keystone subscription, NetApp extends the non-returnable, non-volatile components (NRNVC) offering for your file, block, and object services.
+
+You can subscribe to this add-on services as a part of your Keystone subscription.
+For information about the base storage and cloud storage service, see link:supported-storage-services.html[Supported storage services]
+
+For information about Service Levels, see link:service-levels.html[Service Levels in Keystone]
+
+NetApp does not recover the physical storage media used during the entire service tenure or at service termination when NetApp otherwise recovers all of its physical assets used in the delivery of the service.
+
+If you have purchased this service, note the following:
+
+* You do not need to return any drives and nonvolatile memory at end of the service term or if they failed or found defective during the service term.
+* However, you need to produce a certificate of destruction for the drives and/or nonvolatile memory and cannot be used for any other purpose.
+* The additional cost associated with the NRNVC is charged as a percentage of the total storage service (includes storage service, Advanced Data Protection, and data tiering) monthly bill.
+* This service is applicable for only file, block, and object services.
+
+== SnapLock compliance
+
+The SnapLock technology enables the NRNVC feature by making the drive unusable after the expiry date set in the volume. For using the  SnapLock technology on your volumes, you need to subscribe to NRNVC. This is applicable for only file and block services.
+
+For information about SnapLock technology, see https://docs.netapp.com/us-en/ontap/snaplock/snaplock-concept.html[What SnapLock is]

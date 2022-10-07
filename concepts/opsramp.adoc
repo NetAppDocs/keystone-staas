@@ -1,0 +1,13 @@
+---
+sidebar: sidebar
+permalink: concepts/opsramp.html
+keywords: OpsRamp, monitoring application
+summary: OpsRamp as a monitoring application
+---
+
+= OpsRamp as a monitoring application
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
