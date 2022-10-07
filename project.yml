@@ -66,12 +66,8 @@ sidebar:
           url: /concepts/opsramp.html
        -  title: Data flow
           url: /concepts/data-flow.html
-    - title: NetApp Support
-      entries:
-       -  title: NetApp Global Services Support Center
-          url: /concepts/gssc.html
-       -  title: NetApp support team operations
-          url: /concepts/gssc-ops.html
+    - title: NetApp Global Services Support Center
+      url: /concepts/gssc.html
     - title: Do more with Keystone Services
       entries:
        -  title: Keystone and Cloud Manager
@@ -85,8 +81,6 @@ homepage:
   tiles:
     - title: Get started
       links:
-        - title: What's new
-          url: ???
         - title: What is NetApp Keystone?
           url: /concepts/overview.html
         - title: What are the units of measurement?
@@ -96,17 +90,17 @@ homepage:
         - title: What is data tiering?
           url: /concepts/data-tiering.html
         - title: Is my Keystone data protected?
-          url: /concepts/addon.html#advanced-data-protection
+          url: /concepts/adp.html
     - title: Service Levels in Keystone
       links:
         - title: Keystone Service Levels
           url: /concepts/service-levels.html
         - title: Quality of Service (QoS)
           url: /concepts/qos.html
-        - title: Adaptive Quality of Service (AQoS)
-          url: /concepts/aqos.html
         - title: Capacity requirements for Service Levels
           url: /concepts/capacity-requirements.html
+        - title: How can I see my consumption data?
+          url: /integrations/keystone-aiq.html  
     - title: Keystone pricing
       links:
       - title: Know about Keystone billing
@@ -115,7 +109,7 @@ homepage:
         url: /concepts/billing-schedules.html
       - title: Billing based on committed capacity
         url: /concepts/committed-capacity-billing.html
-      - title: Billing based on consumed capacity
+      - title: Metering based on consumed capacity
         url: /concepts/consumed-capacity-billing.html
       - title: Billing based on burst consumption
         url: /concepts/burst-consumption-billing.html

@@ -18,7 +18,7 @@ The capacity requirement for each service level differs with the storage service
 
 == Minimum capacity requirements for file and block services
 
-The minimum capacity and incremental capacity allowed per subscription is described in the following table. The minimum capacity per service level is defined to be the same across direct, sell-with, and sell-to sales motions. The capacity above the minimum capacity either at the beginning of the subscription, or as an add-on service to the subscription, or after reallocation during the subscription is also structured in the table.
+The minimum capacity and incremental capacity allowed per subscription is described in the following table. The minimum capacity per service level is defined to be the same across Keystone sales motions. The capacity above the minimum capacity either at the beginning of the subscription, or as an add-on service to the subscription, or after reallocation during the subscription is also structured in the table.
 
 |===
 |Capacity |Extreme |Premium |Performance |Standard |Value

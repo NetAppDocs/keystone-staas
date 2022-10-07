@@ -37,7 +37,7 @@ FabricPool/Cloud tiering
 Restore
 Clone
 SnapCenter (the license is included but this is not a part of Keystone services and no guaranteed management is provided)
-|NFS, CIFS, iSCSI, FC, and S3 (used for FabricPool target)
+|NFS, CIFS, and S3 (used for FabricPool target)
 a| Block storage
 |Based on ONTAP technology
 |Supported ONTAP features:
@@ -68,9 +68,7 @@ Data tiering to NetApp storage target is included by default in file and block s
 For more information on add-on services, see link:../concepts/addon.html[Add-on services]
 
 == Cloud storage services
-Keystone supports the following cloud services that can co-term with your existing subscriptions. The cloud services can be included at any point during the service term. However, if you do not plan to renew your subscription, you cannot include these cloud services during the last 90 days of your subscription.
+Keystone supports the _Data management capabilities for Cloud Volumes ONTAP, supported on AWS, Azure and Google_. This service can co-term with your existing subscriptions. The cloud service can be included at any point during the service term. However, if you do not plan to renew your subscription, you cannot include the cloud service during the last 90 days of your subscription.
 
-* Data management capabilities for Cloud Volumes ONTAP, supported on AWS, Azure and Google
-*	Data management capabilities for Cloud Backup service, supported on AWS, Azure and Google
 [NOTE]
 Hyperscalar-based compute and storage infrastructure are not provided by NetApp as a part of your Keystone subscriptions, and you need to procure them from a hyperscalar cloud service provider.
