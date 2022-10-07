@@ -11,4 +11,4 @@ summary: Documentation for NetApp Keystone
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./media/
+:imagesdir: ../media/

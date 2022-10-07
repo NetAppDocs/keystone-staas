@@ -10,14 +10,12 @@ summary: Supported storage services
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 [.lead]
-Keystone service supports the base storage types of ONTAP, such as file and block storage. It also supports object storage for StorageGRID platform. Data management capabilities for Cloud Volumes ONTAP and Cloud Backup are also supported.
+Keystone service supports the base storage types of ONTAP, such as file and block storage. It also supports object storage for StorageGRID platform. Data management capabilities for Cloud Volumes ONTAP are also supported.
 
-For information about add-on services of Keystone, see link:addon.html[Add-on storage services]
-
-For information about Service Levels, see link:service-levels.html[Service Levels in Keystone]
+For information about Service Levels, see link:../concepts/service-levels.html[Service Levels in Keystone]
 
 == Base storage services
 |===
@@ -27,37 +25,37 @@ a| File storage
 |Based on ONTAP technology
 |Supported ONTAP features:
 
-* FlexVol
-* FlexGroup
-* Snapshot copies
-* SnapMirror (Asynchronous)
-* SnapVault
-* SnapLock Enterprise
-* FabricPool/Cloud tiering
-* Restore
-* Clone
-* SnapCenter (the license is included but this is not a part of Keystone services and no guaranteed management is provided)
-|NFS, CIFS, iSCSI, FC, and S3 (used for FabricPool target)
+FlexVol
+FlexGroup
+Snapshot copies
+SnapMirror (Asynchronous)
+SnapVault
+SnapLock Enterprise
+FabricPool/Cloud tiering
+Restore
+Clone
+SnapCenter (the license is included but this is not a part of Keystone services and no guaranteed management is provided)
+|NFS, CIFS, and S3 (used for FabricPool target)
 a| Block storage
 |Based on ONTAP technology
 |Supported ONTAP features:
 
-* FlexVol
-* FlexGroup
-* Snapshot copies
-* SnapMirror (Asynchronous)
-* SnapVault
-* SnapLock Enterprise
-* FabricPool/Cloud tiering
-* Restore
-* Clone
-* SnapCenter (the license is included but this is not a part of Keystone services and no guaranteed management is provided)
+FlexVol
+FlexGroup
+Snapshot copies
+SnapMirror (Asynchronous)
+SnapVault
+SnapLock Enterprise
+FabricPool/Cloud tiering
+Restore
+Clone
+SnapCenter (the license is included but this is not a part of Keystone services and no guaranteed management is provided)
 |FC, iSCSI, and S3 (used for FabricPool target)
 a| Object storage
 |Based on the StorageGRID platform
 |Supports multiple information lifecycle management (ILM) policies across multiple sites.
-.Note:
-Each site must be separate subscription.
+Note:
+Each site must have a separate subscription.
 |S3
 
 |===
@@ -65,12 +63,11 @@ Each site must be separate subscription.
 [NOTE]
 Data tiering to NetApp storage target is included by default in file and block storage service tiers.
 
-For more information on add-on services, see link:/addon.html[Add-on services]
+For more information on data tiering, see link:../concepts/data-tiering.html[Data Tiering]
+For information about data protection services, see link:../concepts/adp.html[Advanced Data Protection]
 
 == Cloud storage services
-Keystone supports the following cloud services that can co-term with your existing subscriptions. The cloud services can be included at any point during the service term. However, if you do not plan to renew your subscription, you cannot include these cloud services during the last 90 days of your subscription.
+Keystone supports the _Data management capabilities for Cloud Volumes ONTAP, supported on AWS, Azure and Google_. This service can co-term with your existing subscriptions. The cloud service can be included at any point during the service term. However, if you do not plan to renew your subscription, you cannot include the cloud service during the last 90 days of your subscription.
 
-* Data management capabilities for Cloud Volumes ONTAP, supported on AWS, Azure and Google
-*	Data management capabilities for Cloud Backup service, supported on AWS, Azure and Google
 [NOTE]
 Hyperscalar-based compute and storage infrastructure are not provided by NetApp as a part of your Keystone subscriptions, and you need to procure them from a hyperscalar cloud service provider.

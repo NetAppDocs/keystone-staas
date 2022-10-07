@@ -25,7 +25,7 @@ sidebar:
         - title: Add-on Services
           entries:
             - title: Data tiering
-              url: /concepts/tiering.html
+              url: /concepts/data-tiering.html
             - title: Advanced Data Protection
               url: /concepts/adp.html
             - title: U.S. Citizen Support (USCS)
@@ -46,7 +46,7 @@ sidebar:
           url: /concepts/pricing.html
         - title: Billing based on committed capacity
           url: /concepts/committed-capacity-billing.html
-        - title: Billing based on consumed capacity
+        - title: Metering based on consumed capacity
           url: /concepts/consumed-capacity-billing.html
         - title: Billing based on burst consumption
           url: /concepts/burst-consumption-billing.html
@@ -64,14 +64,10 @@ sidebar:
           url: /concepts/components.html
        -  title: OpsRamp as a monitoring application
           url: /concepts/opsramp.html
-       -  title: Data flows
-          url: data-flow.html
-    - title: NetApp Support
-      entries:
-       -  title: NetApp Global Services Support Center
-          url: /concepts/gssc.html
-       -  title: NetApp support team operations
-          url: /concepts/gssc-ops.html
+       -  title: Data flow
+          url: /concepts/data-flow.html
+    - title: NetApp Global Services Support Center
+      url: /concepts/gssc.html
     - title: Do more with Keystone Services
       entries:
        -  title: Keystone and Cloud Manager
@@ -85,8 +81,6 @@ homepage:
   tiles:
     - title: Get started
       links:
-        - title: What's new
-          url: ???
         - title: What is NetApp Keystone?
           url: /concepts/overview.html
         - title: What are the units of measurement?
@@ -94,19 +88,19 @@ homepage:
         - title: What is the supported base storage?
           url: /concepts/supported-storage-services.html
         - title: What is data tiering?
-          url: /concepts/addon.html#data-tiering
+          url: /concepts/data-tiering.html
         - title: Is my Keystone data protected?
-          url: /concepts/addon.html#advanced-data-protection
+          url: /concepts/adp.html
     - title: Service Levels in Keystone
       links:
         - title: Keystone Service Levels
           url: /concepts/service-levels.html
         - title: Quality of Service (QoS)
           url: /concepts/qos.html
-        - title: Adaptive Quality of Service (AQoS)
-          url: /concepts/aqos.html
         - title: Capacity requirements for Service Levels
           url: /concepts/capacity-requirements.html
+        - title: How can I see my consumption data?
+          url: /integrations/keystone-aiq.html  
     - title: Keystone pricing
       links:
       - title: Know about Keystone billing
@@ -115,9 +109,9 @@ homepage:
         url: /concepts/billing-schedules.html
       - title: Billing based on committed capacity
         url: /concepts/committed-capacity-billing.html
-      - title: Billing based on consumed capacity
+      - title: Metering based on consumed capacity
         url: /concepts/consumed-capacity-billing.html
-      - title: Billing based on burst consumption
+      - title: What happens if I have consumed more than my committed capacity?
         url: /concepts/burst-consumption-billing.html
     - title: Do more with Keystone Services
       links:

@@ -5,9 +5,86 @@ keywords: storage capacity requirement for service levels, capacity definition p
 summary: Capacity requirements for Service Levels
 ---
 
-= Capacity requirements for Service Levels
+= Capacity requirements for service levels
 :hardbreaks:
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./media/
+:imagesdir: ../media/
+
+[.lead]
+The capacity requirement for each service level differs with the storage service, such as file, block, and object storage.
+
+
+== Minimum capacity requirements for file and block services
+
+The minimum capacity and incremental capacity allowed per subscription is described in the following table. The minimum capacity per service level is defined to be the same across Keystone sales motions. The capacity above the minimum capacity either at the beginning of the subscription, or as an add-on service to the subscription, or after reallocation during the subscription is also structured in the table.
+
+|===
+|Capacity |Extreme |Premium |Performance |Standard |Value
+a|Minimum capacity [in TiB]
+3+|25
+2+|100
+a|Incremental capacity (and in multiples) allowed at start of subscription [in TiB]
+3+|25
+2+|25
+a|Incremental capacity (and in multiples) allowed as add-on during subscription [in TiB]
+3+|25
+2+|25
+
+|===
+
+== Minimum capacity requirements for object storage
+You can see the minimum capacity requirements for object storage service in the following table:
+
+|===
+|Capacity |Data tiering |Object |Cloud Volumes ONTAP |Cloud Backup service
+a|Minimum capacity [in TiB]
+a|Not applicable
+a|500
+a|4
+a|4
+a|Incremental capacity (and in multiples) allowed at start of subscription [in TiB]
+a|Not applicable
+a|100
+a|1
+a|1
+a|Incremental capacity (and in multiples) allowed as add-on during subscription [in TiB]
+a|Not applicable
+a|100
+a|1
+a|1
+
+|===
+
+== 	Capacity adjustments
+Note the following clauses for capacity adjustments:
+
+* Capacity can be added anytime during the term, except for the last 90 days of the contract term, in the increments per service level as described in the tables in the previous section. Addition of capacity and/or services is allowed within the last 90 days of the contract term as long as there is a consent of service renewal. Any addition in capacity, new service on-prem or cloud can co-term with the existing term. The invoice sent to you following the activation of the new services reflects the revised billing. Committed capacity of cloud services cannot be reduced at any point during the subscription term. Meanwhile, committed capacity and committed spend on the on-premises services during the term of the contract can be reduced based on certain criteria as defined in the following section _Capacity reduction_. 
+* 20% of burst capacity is available at each site. Any burst usage is billed only for that billing period. If you need an additional burst requirements that is greater than 20%, contact support.
+* Committed capacity can be altered during a contract term, only under certain conditions, as described in the following section _Capacity reduction_.
+* Increasing capacity or changing to higher service level during a subscription term is allowed. However, moving from a higher service level to a lower service level is not permitted.
+* Any change request in the last 90 days of the service term requires a renewal of the service for a minimum of one year.
+
+=== Capacity reduction
+Capacity reduction (annual) is applicable to the _Annual in Advance_ payment model and on-premises only deployments. It is not available for cloud services or hybrid cloud services. It provides provision for on-premises capacity, which can be reduced by up to 25% per service level per subscription. This reduction is allowed once every year to be made effective at the beginning of the next annual billing period. On-premises service-based annual payments must be >=$200K anytime during the term in order to take advantage of capacity reduction. Because it is supported only for on-premises deployments, this billing model does not provide reallocation in spending from on-premises to cloud services. An example of annual capacity reduction is illustrated in the following image.
+
+image:capacity-reduction.png[]
+
+=== Quarterly spend reallocation
+Requirements and conditions at a subscription level:
+
+*	Applies only to monthly billing in arrear model.
+*	Applies only for subscriptions with 1, 2, or 3-year term commitments.
+*	Cloud Volumes ONTAP and Cloud Backup service capacity must be purchased through Keystone.
+*	Up to 25% of the existing on-premises, service-based monthly payments can be used for reallocation to cloud services.
+*	On-premises, service-based monthly payments must be >=$16.7K anytime during the term in order to take advantage of reallocation.
+*	Reallocation requests are made effective only after 90 days from the previous activation date of the reallocation.
+*	Reallocation cannot be done from cloud services back to on-premises.
+*	A request to reallocate must be formally submitted by the customer or partner to Keystone Success Manager (KSM) at least one week before the next billing cycle.
+*	New requests go into effect only from the next billing cycle.
+
+An example of a quarterly spend reallocation is illustrated in the following image:
+
+
+image:spend-alloc.png[]

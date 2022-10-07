@@ -10,10 +10,10 @@ summary: Quality of Service in Keystone
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 [.lead]
-Storage quality of service (QoS) is a critical technology that ensures that applications obtain consistent and predictable performance. Without QoS, certain workloads like booting of multiple systems can take up entire resources for a period and affect other workloads. For information about QoS, see https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html#about-throughput-ceilings-qos-max[Guarantee throughput with QoS overview].
+Storage quality of service (QoS) is a critical technology that ensures that applications obtain consistent and predictable performance. Without QoS, certain workloads like booting of multiple systems can take up entire resources for a period and affect other workloads. For information about QoS, see https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html[Guarantee throughput with QoS overview].
 
 Applying QoS ensures that applications get consistent performance every time. NetApp ONTAP defines two parameters for QoS ceilings- https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html#about-throughput-ceilings-qos-max[QoS Max], and throughput floor- https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html#about-throughput-floors-qos-min[QoS Min]. QoS Max represents the maximum number of IOPS or MBps or IOPS and MBps a workload can achieve. On the other hand, QoS Min guarantees that throughput for a workload is not below a certain number of IOPS or Mbps, or IOPS and MBps. 
 

@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar
-permalink: /concepts/uscs.html
+permalink: concepts/uscs.html
 keywords: netapp, keystone, US citizen support, USCS GSSC, Keystone Success Manager, USCS support
 summary: US Citizen Support (USCS)
 ---
@@ -10,7 +10,7 @@ summary: US Citizen Support (USCS)
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 [.lead]
 United States Citizen Support (USCS) is an add-on offering for NetApp Keystone Subscriptions. It entitles you to receive delivery and support of ongoing Keystone services from U.S. citizens on U.S. soil.

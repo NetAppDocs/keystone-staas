@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: concepts/equinix.html
 keywords: netapp, keystone, Equinix
-summary: Keystone Flex Subscription and Equinix
+summary: Keystone and Equinix
 ---
 
 = Keystone co-location services powered by Equinix
@@ -10,7 +10,7 @@ summary: Keystone Flex Subscription and Equinix
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 [.lead]
 NetApp has partnered with Equinix for hosting NetApp Keystone services in an Equinix data center to ensure the delivery of a unified solution for you.
@@ -20,7 +20,7 @@ Keystone co-location (Co-Lo) services powered by Equinix is unchanged from the s
 In this service:
 
 * Equinix provides space, power, cooling, networking, and invoice, and storage, on a monthly basis.
-*	Support is provided for "Sell With", "Equinix Direct", and "Sell-To KSSC" opportunities only.
+*	Support is provided for to certain Keystone sales motions.
 *	The services are supported in 21 data centers across 11 countries.
 
 Equinix has the data centers at these locations:

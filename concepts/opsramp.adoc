@@ -10,4 +10,38 @@ summary: OpsRamp as a monitoring application
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./media/
+:imagesdir: ../media/
+
+[.lead]
+OpsRamp is a SaaS-based application Keystone uses to discover, monitor, and continuously manage assets. OpsRamp tool allows NetApp's monitoring team to remotely provide monitor and management services to the customers deploying Keystone. 
+
+This tool has rich and powerful features for discovering assets such as applications, servers, networking devices, containers, and other resources typically used in an IT environment. This remote management service is easy to deploy at different locations, quickly gathers data, and is easily viewed on a centralized dashboard. To obtain more information about the OpsRamp program, please visit https://docs.opsramp.com/.
+
+image:opsramp-1.png[]
+
+In the OpsRamp architecture, there are two distinct components of a centralized SaaS application as shown this image. At the monitoring site, there can either be the OpsRamp local gateway that collects the data from assets, or the OpsRamp agent in the resources that are to be monitored, or a combination of both the local gateway and agent. 
+
+OpsRamp cloud portal is a SaaS-based application that collects meta data from the agent or local gateway installed at the customer location, processes it, and displays it on its dashboard with observations. The Keystone monitoring team periodically monitors this dashboard for insights.
+
+The OpsRamp centralized tool and OpsRamp local gateway work in tandem to monitor and manage assets. The centralized tool issues the commands and the local gateway acts upon them, collects the data, and sends it back to the centralized portal.
+
+OpsRamp local gateway installed at the customer site provides several benefits, such as:
+
+*	Eliminating the need for installing the OpsRamp agent on all assets.
+*	The assets can point only to the local gateway, which can aggregate and send alerts to the centralized portal.
+*	Customers can restrict and monitor the incoming and outgoing traffic on the local gateway rather than allowing OpsRamp agent traffic deployed at different devices.
+
+== OpsRamp security
+
+OpsRamp is compliant with standards like SOC 2 Type II and is hosted in Tier 1 data center providers that are compliant with ISO 27001 and SOC 1 Type I standards for security, availability, and confidentiality.
+
+In addition, OpsRamp provides the Keystone team with following security features:
+
+*	OpsRamp maintains logs of user activity and the Keystone team can generate ad-hoc or scheduled reports on user-activity
+*	All communication from OpsRamp gateway to OpsRamp cloud portal is TLS encrypted
+*	Data-at-rest and Data-in-flight are encrypted using TLS
+*	OpsRamp provides two-factor authentication options for the Keystone engineering team
+*	OpsRamp implements role-based-access controls enabling the Keystone team to create multiple roles and assign appropriate privileges to users
+
+
+

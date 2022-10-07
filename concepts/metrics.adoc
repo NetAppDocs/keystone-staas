@@ -10,7 +10,7 @@ summary: Metrics calculations and definitions of Keystone Services
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 [.lead]
 The following terms and definitions are used within the NetApp Keystone (Keystone) service to measure metrics:
