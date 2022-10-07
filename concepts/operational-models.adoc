@@ -10,7 +10,7 @@ summary: Operational models in Keystone
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 [.lead]
 NetApp Keystone (Keystone) offers two operational models for service delivery: partner-operated model and customer-operated model.

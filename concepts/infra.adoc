@@ -10,7 +10,7 @@ summary: Keystone infrastructure
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 [.lead]
 This section describes the NetApp Keystone infrastructure, architecture, and management application for the NetApp and customer-operated environments.

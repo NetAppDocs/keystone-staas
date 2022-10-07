@@ -10,7 +10,7 @@ summary: Keystone pricing
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 [.lead]
 NetApp Keystone enables predictable and upfront pricing for your storage subscription.

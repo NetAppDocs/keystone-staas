@@ -10,7 +10,7 @@ summary: Add-on, additional Services Details, data tiering
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 [.lead]
 NetApp Keystone (Keystone) service includes a tiering capability with your subscribed file and block services that identifies less-frequently used data and tiers it to a cold storage that is owned, deployed, and managed by NetApp.

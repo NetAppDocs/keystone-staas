@@ -10,7 +10,7 @@ summary: Billing schedules in keystone
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 [.lead]
 Flex Subscription services are billed monthly and yearly.

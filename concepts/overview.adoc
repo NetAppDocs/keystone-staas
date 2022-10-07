@@ -10,7 +10,8 @@ summary: Welcome to the Keystone
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./media/
+:imagesdir: ../media/
+
 
 [.lead]
 NetApp Keystone (Keystone) is a pay-as-you-grow subscription-based service model that delivers a seamless hybrid cloud experience for those preferring OpEx consumption models to upfront CapEx or leasing.

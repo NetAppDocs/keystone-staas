@@ -10,4 +10,4 @@ summary: NetApp Global Services Support Center GSSC
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./media/
+:imagesdir: ../media/

@@ -10,7 +10,7 @@ summary: Keystone and Cloud Manager
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 [.lead]
 If you purchase a cloud service on your Keystone subscription, you can access and manage those services through Cloud Manager.

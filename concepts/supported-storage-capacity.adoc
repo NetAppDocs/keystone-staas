@@ -10,7 +10,7 @@ summary: Supported storage capacities
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 [.lead]
 The NetApp Keystone service capacities include:

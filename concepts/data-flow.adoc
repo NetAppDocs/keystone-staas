@@ -10,4 +10,4 @@ summary: Keystone data flows
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./media/
+:imagesdir: ../media/

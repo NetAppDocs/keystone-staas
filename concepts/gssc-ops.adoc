@@ -10,4 +10,4 @@ summary: NetApp support team operations
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./media/
+:imagesdir: ../media/

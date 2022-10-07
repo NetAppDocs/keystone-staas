@@ -10,7 +10,7 @@ summary: Billing based on burst consumption
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 [.lead]
 NetApp Keystone (Keystone) billing is based on burst capacity, that is the capacity consumed by you, on top of the committed capacity of the Service Levels that you have subscribed to.

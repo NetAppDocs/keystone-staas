@@ -10,7 +10,7 @@ summary: Infrastructure components
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 [.lead]
 There are multiple requirements for enabling NetApp Keystone services in your environment.

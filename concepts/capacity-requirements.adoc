@@ -10,4 +10,4 @@ summary: Capacity requirements for Service Levels
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./media/
+:imagesdir: ../media/

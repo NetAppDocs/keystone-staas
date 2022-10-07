@@ -10,7 +10,7 @@ summary: Advanced Data Protection
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 [.lead]
 You can subscribe to the Advanced Data Protection add-on service as a part of your Keystone subscription.

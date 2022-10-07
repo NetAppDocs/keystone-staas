@@ -10,7 +10,7 @@ summary: Keystone Flex Subscription and Equinix
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 [.lead]
 NetApp has partnered with Equinix for hosting NetApp Keystone services in an Equinix data center to ensure the delivery of a unified solution for you.

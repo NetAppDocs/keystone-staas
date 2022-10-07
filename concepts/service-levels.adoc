@@ -10,7 +10,7 @@ summary: Supported service levels
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 [.lead]
 Keystone offers a service is a subscribed-to committed storage capacity with an associated service level.

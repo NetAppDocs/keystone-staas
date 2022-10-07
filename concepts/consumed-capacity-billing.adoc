@@ -10,7 +10,7 @@ summary: Billing based on consumed capacity
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 [.lead]
 Keystone also has metering based on the capacity consumed by you during your service usage.

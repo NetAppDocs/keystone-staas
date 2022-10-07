@@ -10,4 +10,4 @@ summary: Keystone and Active IQ	Digital Dashboard
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./media/
+:imagesdir: ../media/

@@ -10,7 +10,7 @@ summary: Billing based on miscellaneous volume types
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 [.lead]
 There are several scenarios for Keystone billing and you should be familiar with those scenarios.
