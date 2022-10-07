@@ -28,10 +28,10 @@ The minimum logical capacity billed each month for the duration of the term:
 === Changes to committed capacity
 During the tenure of a subscription, you can change the committed capacities. However, there are certain preconditions:
 
-*	The committed capacity can be decreased based on certain conditions. For information, see ...
+*	The committed capacity can be decreased based on certain conditions. For information, see link:../concepts/capacity-requirements.html[Capacity reduction].
 *	The committed capacity cannot be increased 90 days prior to the expiry of your subscription, unless the subscription is to be renewed for an additional 12 month term.
 * You can request changes to committed capacity through the Cloud Manager interface or through Keystone Success Manager.
-For information about requesting changes, see ....
+For information about requesting changes, see link:../concepts/gssc.html[NetApp Global Services Support Center].
 
 == Consumed capacity
 Consumed capacity refers to the capacity in TiB of storage currently being consumed on the service. Keystone service considers the sum of the logical used sizes (not the physical capacity used) of all volumes on a particular service level to be considered as consumed capacity for that service level.

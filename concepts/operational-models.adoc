@@ -23,6 +23,7 @@ NetApp Keystone (Keystone) offers two operational models for service delivery: p
 * *Partner-operated model*: The share of roles and responsibilities depends on the SLA between you and the service provider or partner. Contact your service provider for information.
 * *Customer-operated model*: The following table summarizes the overall service lifecycle model and the roles and responsibilities associated with them in a customer-operated environment.
 
+
 |===
 |Task |NetApp |Customer
 
@@ -59,3 +60,5 @@ a|Support
 | None
 
 |===
+
+For more information on deployment, see link:../concepts/infra.html[Keystone infrastructure] and link:..//concepts/components.html[Components for deployment]

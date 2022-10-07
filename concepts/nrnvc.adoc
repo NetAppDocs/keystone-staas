@@ -18,7 +18,7 @@ As a part of NetApp Keystone subscription, NetApp extends the non-returnable, no
 You can subscribe to this add-on services as a part of your Keystone subscription.
 For information about the base storage and cloud storage service, see link:supported-storage-services.html[Supported storage services]
 
-For information about Service Levels, see link:service-levels.html[Service Levels in Keystone]
+For information about Service Levels, see link:../concepts/service-levels.html[Service Levels in Keystone]
 
 NetApp does not recover the physical storage media used during the entire service tenure or at service termination when NetApp otherwise recovers all of its physical assets used in the delivery of the service.
 

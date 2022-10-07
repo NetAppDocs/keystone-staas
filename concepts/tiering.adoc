@@ -16,9 +16,9 @@ summary: Add-on, additional Services Details, data tiering
 NetApp Keystone (Keystone) service includes a tiering capability with your subscribed file and block services that identifies less-frequently used data and tiers it to a cold storage that is owned, deployed, and managed by NetApp.
 
 You can subscribe to this add-on services as a part of your Keystone subscription.
-For information about the base storage and cloud storage service, see link:supported-storage-services.html[Supported storage services]
+For information about the base storage and cloud storage service, see link:../concepts/supported-storage-services.html[Supported storage services]
 
-For information about Service Levels, see link:service-levels.html[Service Levels in Keystone]
+For information about Service Levels, see link:../concepts/service-levels.html[Service Levels in Keystone]
 
 [NOTE]
 Data tiering to NetApp storage target is included by default in file and block storage service tiers. The add-on service is required only when data is tiered any non-NetApp storage, such as AWS S3, Azure Blob, and EMC ECS.
