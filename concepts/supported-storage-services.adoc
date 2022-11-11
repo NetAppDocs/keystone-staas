@@ -13,11 +13,12 @@ summary: Supported storage services
 :imagesdir: ../media/
 
 [.lead]
-Keystone service supports the base storage types of ONTAP, such as file and block storage. It also supports object storage for StorageGRID platform. Data management capabilities for Cloud Volumes ONTAP are also supported.
+Keystone service supports the base storage types of ONTAP, file and block. It also supports object storage for StorageGRID platform and data management capabilities for Cloud Volumes ONTAP.
 
-For information about Service Levels, see link:../concepts/service-levels.html[Service Levels in Keystone]
+For information about Service Levels, see link:../concepts/service-levels.html[Service Levels in Keystone].
 
 == Base storage services
+The base storage services of Keystone offer data protection services by leveraging NetApp technologies, such as SnapMirror, SnapVault, and Snapshot, and tiering capabilities on supported NetApp storage targets for file and block storage services. You can additionally opt for add-on services for data protection and tiering. For information about add-on services, see link:../concepts/adp.html[Advanced data protection] and link:../concepts/data-tiering.html[Data tiering].
 |===
 a| Storage service |Basis |Supported features | Protocols
 
@@ -63,11 +64,11 @@ Each site must have a separate subscription.
 [NOTE]
 Data tiering to NetApp storage target is included by default in file and block storage service tiers.
 
-For more information on data tiering, see link:../concepts/data-tiering.html[Data Tiering]
-For information about data protection services, see link:../concepts/adp.html[Advanced Data Protection]
+For more information on data tiering, see link:../concepts/data-tiering.html[Data Tiering].
+For information about data protection services, see link:../concepts/adp.html[Advanced Data Protection].
 
 == Cloud storage services
-Keystone supports the _Data management capabilities for Cloud Volumes ONTAP, supported on AWS, Azure and Google_. This service can co-term with your existing subscriptions. The cloud service can be included at any point during the service term. However, if you do not plan to renew your subscription, you cannot include the cloud service during the last 90 days of your subscription.
+Keystone supports _Data management capabilities for Cloud Volumes ONTAP on AWS, Microsoft Azure, and Google Cloud Platform_. This service can co-term with your existing subscriptions. The cloud service can be included at any point during the service term. However, if you do not plan to renew your subscription, you cannot include the cloud service during the last 90 days of your subscription.
 
 [NOTE]
-Hyperscalar-based compute and storage infrastructure are not provided by NetApp as a part of your Keystone subscriptions, and you need to procure them from a hyperscalar cloud service provider.
+Hyperscalar-based compute and storage infrastructure are not provided by NetApp as a part of your Keystone subscriptions; you need to procure them from a hyperscalar cloud service provider.

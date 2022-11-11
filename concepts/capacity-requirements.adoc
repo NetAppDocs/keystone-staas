@@ -75,7 +75,7 @@ image:capacity-reduction.png[]
 Requirements and conditions at a subscription level:
 
 *	Applies only to monthly billing in arrear model.
-*	Applies only for subscriptions with 1, 2, or 3-year term commitments.
+*	Applies only to subscriptions with 1, 2, or 3-year term commitments.
 *	Cloud Volumes ONTAP and Cloud Backup service capacity must be purchased through Keystone.
 *	Up to 25% of the existing on-premises, service-based monthly payments can be used for reallocation to cloud services.
 *	On-premises, service-based monthly payments must be >=$16.7K anytime during the term in order to take advantage of reallocation.

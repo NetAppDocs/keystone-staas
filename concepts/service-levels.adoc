@@ -13,14 +13,14 @@ summary: Supported service levels
 :imagesdir: ../media/
 
 [.lead]
-Keystone offers a service is a subscribed-to committed storage capacity with an associated service level.
+Keystone offers services to you in a subscription model by providing committed storage capacity and associating it with predefined service levels.
 
-Each service level is defined by its I/O density, which is the ratio of performance (input/output operations per second [IOPS]) and used storage (TiB of stored data) which is IOPS/TiB.
+Each service level is defined by its I/O density, which is the ratio of performance (input/output operations per second [IOPS]) and used storage (TiB of stored data), which is IOPS/TiB.
 
-Each volume managed by the Keystone services is associated with a service level. All I/O operations and all used storage used on the respective volume are factored into the volume’s I/O density calculation.
+Each volume managed by the Keystone services is associated with a service level. All I/O operations and all used storage on the respective volume are factored into the volume’s I/O density calculation.
 
 == Service levels for difference storage types
-The service levels for file, block, object storage, and cloud services are listed here.
+The service levels for file, block, object, and cloud services are listed here.
 
 I/O density calculations at the volume level are reported to show peak I/O density during the prior week. The peak performance is determined on an hourly time interval. I/O density reports by volume are generated monthly to gauge adherence to the respective service levels.
 
@@ -39,13 +39,13 @@ I/O density calculations at the volume level are reported to show peak I/O densi
 
 
 [NOTE]
-Note the following:
+Note:
 
-* Throughput performance metrics (applicable for only file and block services) are based on:
+* Throughput performance metrics (applicable only to file and block services) are based on:
 ** 32KB block sizes
 ** 70% read/30% write IO mix
-* Actual IOPS/TiB and/or MBps/TiB may vary based on workload characteristics
-* Latency does not include application, host, or customer network latency to or from the controller ports
+* Actual IOPS/TiB and/or MBps/TiB varies based on workload characteristics.
+* Latency does not include application, host, or customer network latency to or from the controller ports.
 
 === Object storage
 *Supported protocol*: S3
@@ -62,10 +62,10 @@ Note the following:
 |===
 
 [NOTE]
-Note the following:
+Note:
 
-* Actual IOPS/TiB and/or MBps/TiB may vary based on workload characteristics
-* Latency does not include application, host, or customer network latency to or from the controller ports
+* Actual IOPS/TiB and/or MBps/TiB varies based on workload characteristics.
+* Latency does not include application, host, or customer network latency to or from the controller ports.
 
 === Cloud storage
 *Supported protocol*: NFS, CIFS, iSCSI
@@ -83,7 +83,7 @@ Note the following:
 |===
 
 [NOTE]
-Note the following:
+Note:
 
-* Cloud native services, such as compute, storage, networking, are invoiced by the cloud providers
-* These services are dependent on the cloud storage and compute characteristics 
+* Cloud native services, such as compute, storage, networking, are invoiced by the cloud providers.
+* These services are dependent on the cloud storage and compute characteristics.

@@ -15,8 +15,8 @@ summary: Operational models in Keystone
 [.lead]
 NetApp Keystone (Keystone) offers two operational models for service delivery: partner-operated model and customer-operated model.
 
-*	*Partner-operated model*: In this model, the partner or service provider operates the services for their end customers. For NetApp, the partner is the referenced contracted party. Tenants are customers of partners and have no billing relationship with NetApp. A partner-operated model usually has a multi-tenant environment where tenants and end customers/subtenants have their own subscriptions that are billed by the partner. The partner administrator performs the administrative tasks for all the tenants.
-*	*Customer-operated model*: In a customer-operated model, as a customer, you can subscribe to Keystone services according to your selected performance tiers and storage service types. NetApp defines the architecture and products and deploys Keystone at your premises. You need to manage the infrastructure through your storage and IT resources. As a customer, you are the tenant or subtenant to NetApp or a partner/service provider, and based on your contract, you can raise service requests to be addressed by NetApp or your service provider. A customer administrator from your end can perform the administrative tasks in a your site (environment). These tasks are tied to the users in your environment.
+*	*Partner-operated model*: A partner or service provider operates the services for their end customers. For NetApp, the partner is the referenced contracted party. Tenants are customers of partners and have no billing relationship with NetApp. A partner-operated model has a multi-tenant environment where tenants and end customers/subtenants have their own subscriptions that are billed by the partner. The partner administrator performs the administrative tasks for all the tenants.
+*	*Customer-operated model*: As a customer, you can subscribe to Keystone services according to your selected performance tiers and storage service types. NetApp defines the architecture and products, and deploys Keystone at your premises. You need to manage the infrastructure through your storage and IT resources. As a customer, you are the tenant or subtenant to NetApp or a partner/service provider. Based on your contract, you can raise service requests to be addressed by NetApp or your service provider. An  administrator from your end can perform the administrative tasks at your site (environment). These tasks are tied to the users in your environment.
 
 == Roles and responsibilities across the service lifecycle
 
@@ -61,4 +61,4 @@ a|Support
 
 |===
 
-For more information on deployment, see link:../concepts/infra.html[Keystone infrastructure] and link:..//concepts/components.html[Components for deployment]
+For more information on deployment, see link:../concepts/infra.html[Keystone infrastructure] and link:..//concepts/components.html[Components for deployment].

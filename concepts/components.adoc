@@ -13,7 +13,7 @@ summary: Infrastructure components
 :imagesdir: ../media/
 
 [.lead]
-There are multiple requirements for enabling NetApp Keystone services in your environment.
+This section lists the components required to enable NetApp Keystone services in your environment.
 
 == Site requirements
 There are some site-specific requirements, such as space, racks, PDUs, power, and cooling, with additional network and security requirements discussed here.
@@ -25,7 +25,7 @@ Floor space to host the Keystone infrastructure equipment (to be provided by cus
 Four post racks in the customer-operated offering (to be provided by customers). In the NetApp-operated offering, either NetApp or the customer can provide the racks, depending on requirements. NetApp provides 42 deep racks.
 
 === PDUs
-You should be providing the power distribution units (PDUs), connected to two separate, protected circuits with sufficient C13 outlets. In the customer-operated offering, in some cases, C19 outlets are required. In the NetApp-operated offering, either NetApp or the customer can provide the PDUs, depending on requirements.
+You must provide the power distribution units (PDUs), connected to two separate, protected circuits with sufficient C13 outlets. In the customer-operated offering, in some cases, C19 outlets are required. In the NetApp-operated offering, either NetApp or the customer can provide the PDUs, depending on requirements.
 
 === Power
 You should provide the required power. NetApp will provide the power requirement specifications based on 200V rating (Typical A, Max A, Typical W, Max W, Power cord type, and quantity), based on the final configuration. All components have redundant power supplies. NetApp will provide the in-cabinet power cords.
@@ -66,11 +66,11 @@ Outbound access is required to the following services for operations and mainten
 *	keystone.netapp.com (software  updates)
 *	Hub.Docker.io (software updates)
 
-Depending on customer requirements and the storage controllers used, NetApp can provide 10 GB, 40 GB, and 100 GB connectivity at the customer site.
+Depending on customer requirements and the storage controllers used, NetApp can provide 10 GB, 40 GB, and 100 GB connectivity at the customer's site.
 
 NetApp provides the required transceivers for NetApp-provided infrastructure devices only. You should supply transceivers required for customer devices and cabling to the NetApp-provided Keystone infrastructure devices.
 
 == Remote access requirement
-Network connectivity is required between the storage infrastructure installed at customer data center or customer owned co-located services and Keystone operations center. Customer is responsible for providing the compute and virtual machines; and also the internet services. The network design will be over a secured protocol and firewall policies will be approved by both NetApp and customers.
+Network connectivity is required between the storage infrastructure installed at the customer data center or customer owned co-located services, and Keystone operations center. The customer is responsible for providing the compute and virtual machines, and the internet services. The network design must be over a secured protocol and firewall policies must be approved by both NetApp and customers.
 
 NetApp needs to access the hardware and software components installed for monitoring and management to provide services such as monitoring and billing to Keystone customers. The most common method is to establish a virtual private network (VPN) connection to the customer network and access the required data. To overcome any operational complexity perceived by customers to arise from opening firewall ports to new services, the monitoring tools initiate an external connection. NetApp cloud applications, such as OpsRamp and Zuora, use this connection to perform the respective services. This method meets the customer requirement of not opening firewall ports though providing access to the monitoring components that are part of this service. 

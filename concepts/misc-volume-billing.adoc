@@ -13,18 +13,18 @@ summary: Billing based on miscellaneous volume types
 :imagesdir: ../media/
 
 [.lead]
-There are several scenarios for Keystone billing and you should be familiar with those scenarios.
 
 == Billing for cloned volumes
-If volumes are cloned in ONTAP and you use them for backing up and restoring your data, you can continue using the clones without any additional payments. However, cloned volumes used for any other purpose in your business for an extensive duration are charged.
+If volumes are cloned in ONTAP and you use them for backing up and restoring your data, you can continue to use the clones without any additional payments. However, cloned volumes used for any other purpose in your business for an extensive duration are charged.
 
 Note the following:
 
 * The consumption on the cloned volumes is not considered during the first 24 hours of the clone creation; and no charges are incurred during this time.
-*	Cloned volumes with the Standard and Value Service Levels are not considered for consumption, if new data is not written to the volume. For example, in a backup or restore use case, backing up or restoring data from a cloned volume does not change the data in the cloned volume itself, and it is not considered as consumption.
+*	Cloned volumes with the Standard and Value Service Levels are not considered for consumption if new data is not written to the volume. For example, in a backup or restore use case, backing up or restoring data from a cloned volume does not change the data in the cloned volume itself, and it is not considered as consumption.
 
 == Billing for Advanced Data Protection
-Advanced Data Protection uses NetApp MetroCluster to mirror data between two physically separated clusters. For MetroCluster mirrored aggregates, data is written twice, once on each cluster. The Keystone service charges for consumption on each side independently, resulting in two identical consumption records.
+Advanced Data Protection uses NetApp MetroCluster to mirror data between two physically separated clusters. For MetroCluster mirrored aggregates, data is written twice, once on each cluster. The Keystone service charges for consumption on each side independently, resulting in two identical consumption records. The add-on charges are applied on all the capacities in the subscription, irrespective of whether the data is at the source, or it is mirrored or unmirrored data.
+
 If you monitor your clusters through ONTAP System Manager (System Manager) or Active IQ Unified Manager (Unified Manager), you might see a discrepancy between the consumption reported on these tools and Keystone. System Manager and Unified Manager do not report volumes on the mirrored (remote) cluster, and in doing so, reports half the consumption metrics that the Keystone service reports.
 
 .Example:
@@ -40,10 +40,10 @@ Keystone measures consumption based on Service Levels. Each Service Level is ass
 For more information about QoS policies in ONTAP, see link:https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html[Guarantee throughput with QoS overview].
 
 == Billing for SnapMirror destinations
-The pricing for the SnapMirror destination volume governed by the QoS policy for the service level assigned on the source. However, if the source does not have an associated QoS policy, the destination is billed based on the lowest available service level.
+The pricing for the SnapMirror destination volume is governed by the QoS policy for the service level assigned on the source. However, if the source does not have an associated QoS policy, the destination is billed based on the lowest available service level.
 
 == Billing for LUNs
-For LUNs, usually the same billing pattern is followed as for the volumes that are governed by QoS policies. If separate QoS policies are set on LUNs, then:
+For LUNs, the same billing pattern is followed as for the volumes that are governed by QoS policies. If separate QoS policies are set on LUNs, then:
 
 *	The size of the LUN is counted for consumption according to the associated service level of that LUN.
 *	The remainder of the space in the volume, if any, is charged according to the QoS policy of the service level set on the volume.

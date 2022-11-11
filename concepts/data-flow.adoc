@@ -13,31 +13,31 @@ summary: Keystone data flows
 :imagesdir: ../media/
 
 [.lead]
-Keystone systems encounter data flow through two systems, Keystone Collector traffic, and monitoring data flows.
+Keystone systems encounter data flow through Keystone Collector traffic and monitoring data flows.
 
 == Keystone Collector data flow
-Keystone Collector periodically initiates REST API calls to the storage controllers and obtains usage details of the controllers, as described in the following image:..
+Keystone Collector initiates REST API calls to the storage controllers and obtains usage details of the controllers periodically.
 
 image:collector-data-flow.png[]
 
 .Legend
 
-. NetApp Collector initiates an HTTPS session to the Active-IQ Cloud portal.
-. The firewall operated by the customer must allow this connection.
+. NetApp Collector initiates an HTTPS session to the Active-IQ cloud portal.
+. The firewall operated by the customer allows the connection.
 . The Active IQ Cloud portal accepts the connection and establishes a tunnel to the NetApp Collector.
 . The NetApp collector establishes a REST API session to the management connection of the storage controller, obtains the environmental data, and sends it to the Active IQ portal.
 
 == Monitoring data flows
 
-Monitoring the health of the storage infrastructure continuously is one of the most important features of Keystone service. For monitoring, Keystone uses OpsRamp, which needs remote access to customer network. The following image describes how remote access to the customer location is secured by the OpsRamp tool.
+Monitoring the health of the storage infrastructure continuously is one of the most important features of Keystone service. For monitoring, Keystone uses OpsRamp, which needs remote access to customer's network. The following image describes how remote access to the customer location is secured by the OpsRamp tool.
 
 image:monitoring-flow.png[]
 
 .Legend
 
 . The OpsRamp gateway initiates a TLS session to the OpsRamp cloud portal in the cloud.
-. The firewall operated by the customer must allow this connection.
+. The firewall operated by the customer allows the connection.
 . The OpsRamp server in the cloud accepts the connection.
-. The TLS tunnel is established between the OpsRamp cloud portal and the OpsRamp local gateway.
+. A TLS tunnel is established between the OpsRamp cloud portal and the OpsRamp local gateway.
 . The NetApp controllers send alerts using SNMP protocol or respond to API requests to the OpsRamp local gateway.
 . The OpsRamp local gateway sends these alerts to its cloud portal using the TLS session, which was established before.

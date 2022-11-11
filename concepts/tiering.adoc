@@ -13,29 +13,31 @@ summary: Add-on, additional Services Details, data tiering
 :imagesdir: ../media/
 
 [.lead]
-NetApp Keystone (Keystone) service includes a tiering capability with your subscribed file and block services that identifies less-frequently used data and tiers it to a cold storage that is owned, deployed, and managed by NetApp.
 
-You can subscribe to this add-on services as a part of your Keystone subscription.
-For information about the base storage and cloud storage service, see link:../concepts/supported-storage-services.html[Supported storage services]
+By default, Keystone base services include tiering capabilities with your subscribed file and block services that identify less-frequently used data, and tiers it to a cold storage that is owned, deployed, and managed by NetApp. You can avail tiering as an add-on service if you want to tier your cold data to any non-NetApp storage, such as any enterprise cloud storage. 
 
-For information about Service Levels, see link:../concepts/service-levels.html[Service Levels in Keystone]
+[Note]
+The tiering add-on service is required only when data is tiered to any non-NetApp storage such as AWS S3, Azure Blob, and EMC ECS.
 
-[NOTE]
-Data tiering to NetApp storage target is included by default in file and block storage service tiers. The add-on service is required only when data is tiered any non-NetApp storage, such as AWS S3, Azure Blob, and EMC ECS.
+For information about the base storage and cloud storage service, see link:../concepts/supported-storage-services.html[Supported storage services].
 
-The tiering capability leverages the NetApp FabricPool technology that enables automated tiering of data to low-cost object storage tiers either on or off premises. With this capability, infrequently accessed data is automatically tiered to a lower cost storage either on premises or in the cloud, based on the services agreed upon.
+For information about Service Levels, see link:../concepts/service-levels.html[Service Levels in Keystone].
 
-The tiering service enables tiering from Extreme, Premium, Performance, Standard, and Value tier to Object target. The hot tier and cold tier are metered and invoiced separately. Data tiering can be added any time, without change in pricing and adds more flexibility in terms of hot:cold ratio.
+The tiering capability leverages the NetApp FabricPool technology that enables automated tiering of data to low-cost object storage tiers either on or off premises. With this capability, infrequently accessed data is automatically tiered to a lower cost storage either on premises or in the cloud, based on the agreed services.
 
-Go through the following calculations for understanding this better:
+The add-on tiering service enables tiering from Extreme, Premium, Performance, Standard, and Value tier to Object target. The hot tier and cold tier are metered and invoiced separately. 
+
+Data tiering can be added any time, without change in pricing and it adds more flexibility in terms of hot:cold ratio. The ratio of hot:cold data to be tiered is not fixed, and the number of physical blocks tiered are measured separately.
+
+Go through the following calculations for more information:
 
 If the target for cold storage tier is:
 
-*	Value tier (up to 500TiB), Object Tier (>500TiB), existing SGWS grid (customer owned) – There is no additional charge, and it is part of basic storage service.
+*	Value tier (up to 500TiB), Object Tier (>500TiB), existing SGWS grid (customer owned) – There is no additional charge; it is part of basic storage service.
 *	Public cloud (AWS, Azure, Google) and any other third-party supported object storage – There is an additional charge for data capacity that is committed as a tier out charge.
 
-The charges involved in the add-on tiering subscription is not a one-time charge and you need to pay for it for the entire term to sustain the tiering relationship between Keystone on-premises file and block services and the third-party supported object storage target.
+The charges involved in the add-on tiering subscription is not a one-time charge. You need to pay for it for the entire term to sustain the tiering relationship between Keystone on-premises file and block services, and the third-party supported object storage target.
 
 This offering only provides the capability to tier cold data to cheaper target storage, not the public cloud/hyperscalar infrastructure costs.
 [NOTE]
-Hyperscalar-based compute and storage infrastructure are not provided by NetApp as a part of your Keystone subscriptions, and you need to procure them from a hyperscalar cloud service provider.
+Hyperscalar-based compute and storage infrastructure are not provided by NetApp as a part of your Keystone subscriptions; you need to procure them from a hyperscalar cloud service provider.

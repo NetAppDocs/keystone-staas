@@ -23,22 +23,22 @@ The following terms and definitions are used within the NetApp Keystone (Keyston
 
 == Metrics measurement
 
-* *Capacity measument in GiB, TiB, and PiB.* Measurements of data storage capacity using base of 1024 (1 GiB = 1024^3^ bytes, 1 TiB = 1024^4^ bytes, and 1PiB = 1024^5^ bytes).
+* *Capacity measument in GiB, TiB, and PiB.*: Measurements of data storage capacity using base of 1024 (1 GiB = 1024^3^ bytes, 1 TiB = 1024^4^ bytes, and 1PiB = 1024^5^ bytes).
 * *Operations counter chart: IOPS/TiB.* The protocol operations per second, requested by the application, divided by the size of the volume used by workloads.
-* *Availability* is measured as a percentage of the number of I/O requests successfully responded to by the service, divided by total number of I/O requests made to the service. This is measured at the service demarcation in a month, and does not include the scheduled service downtime or unavailability of the facilities, network, or other services provided by the customer.
-* *Durability* is the percentage of data accessed without loss of fidelity, excluding customer-caused deletion or corruption.
-* *Latency.* Time to service an I/O request received from a client, measured at the service demarcation (storage controller I/O port).
+* *Availability*: Measured as a percentage of the number of I/O requests successfully responded to by the service, divided by total number of I/O requests made to the service. This is measured at the service demarcation in a month, and does not include the scheduled service downtime or unavailability of the facilities, network, or other services provided by the customer.
+* *Durability*: Percentage of data accessed without loss of fidelity, excluding customer-caused deletion or corruption.
+* *Latency*: Time to service an I/O request received from a client, measured at the service demarcation (storage controller I/O port).
 
 === Throughput performance metrics
-Throughput performance metrics are applicable only for file and block services. They are based on:
+Throughput performance metrics are applicable only for file and block services based on:
 
 *	32 KB block sizes
 *	70% read/30% write I/O mix
 
 === Variations in IO density
-IO density calculated in IOPS/TiB and/or MBps/TiB may vary based on the following factors:
+IO density calculated in IOPS/TiB and/or MBps/TiB varies based on the following factors:
 
-*	Workload characteristics.
+*	Workload characteristics
 *	Latency, excluding the following:
 ** Application latency
 ** Host latency
@@ -46,11 +46,11 @@ IO density calculated in IOPS/TiB and/or MBps/TiB may vary based on the followin
 ** Overhead latency associated with data transfer to the object store in the case of FabricPool
 ** The latency automatically applied by the QoS to keep IO within service level maximums
 *	The user and Snapshot copy data that is counted as part of the used capacity
-*	The allocated absolute minimum IOPS on each ONTAP volume, regardless of the amount of data in them:
+*	The allocated absolute minimum IOPS on each ONTAP volume, regardless of the amount of data in the volume:
 ** Extreme: 1,000 IOPS
 ** Premium: 500 IOPS
 ** Performance, Standard, and Value: 75 IOPS
-*	When using the Advanced Data Protection add-on services, the target latency applies to only servicing IO requests from the local storage
+*	While using the Advanced Data Protection add-on services, the target latency applies only to servicing IO requests from the local storage.
 
 === Volume AQoS
-Each ONTAP volume should have the applicable adaptive quality of service (AQoS) policy applied. Otherwise, the capacity within each volume that does not have an AQoS policy applied is billed at the rate of the highest Service Level.
+Each ONTAP volume must have the applicable adaptive quality of service (AQoS) policy applied. Otherwise, the capacity within each volume that does not have an AQoS policy applied is billed at the rate of the highest Service Level.
