@@ -20,7 +20,7 @@ Keystone co-location (Co-Lo) services powered by Equinix is unchanged from the s
 In this service:
 
 * Equinix provides space, power, cooling, networking, and invoice, and storage, on a monthly basis.
-*	Support is provided for to certain Keystone sales motions.
+*	Support is provided for certain Keystone sales motions.
 *	The services are supported in 21 data centers across 11 countries.
 
 Equinix has the data centers at these locations:

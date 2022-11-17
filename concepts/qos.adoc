@@ -15,12 +15,12 @@ summary: Quality of Service in Keystone
 [.lead]
 Storage quality of service (QoS) is a critical technology that ensures that applications obtain consistent and predictable performance. Without QoS, certain workloads like booting of multiple systems can take up entire resources for a period and affect other workloads. For information about QoS, see https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html[Guarantee throughput with QoS overview].
 
-Applying QoS ensures that applications get consistent performance every time. NetApp ONTAP defines two parameters for QoS ceilings- https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html#about-throughput-ceilings-qos-max[QoS Max], and throughput floor- https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html#about-throughput-floors-qos-min[QoS Min]. QoS Max represents the maximum number of IOPS or MBps or IOPS and MBps a workload can achieve. On the other hand, QoS Min guarantees that throughput for a workload is not below a certain number of IOPS or Mbps, or IOPS and MBps. 
+Applying QoS ensures that applications get consistent performance every time. NetApp ONTAP defines two parameters for QoS ceilings- https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html#about-throughput-ceilings-qos-max[QoS Max], and throughput floor- https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html#about-throughput-floors-qos-min[QoS Min]. QoS Max represents the maximum number of IOPS or MBps or IOPS and MBps a workload can achieve. On the other hand, QoS Min guarantees that the throughput for a workload is not below a certain number of IOPS or Mbps, or IOPS and MBps. 
 
 == Adaptive QoS
-Adaptive QoS is used for Keystone services, which maintains the ratio of IOPS to TBs/GBs as the size varies the QoS policy is automatically applied. For information about adaptive QoS, see https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html#about-adaptive-qos[About adaptive QoS].
+Adaptive QoS is used for Keystone services to maintain the ratio of IOPS to TBs/GBs as the size varies the QoS policy is automatically applied. For information about adaptive QoS, see https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html#about-adaptive-qos[About adaptive QoS].
 
-Keystone provides you with adaptive QoS polices that you can set up once your cluster is in the production. You should ensure that all your volumes are associated with the correct adaptive QoS policy that are already created and available in your system. 
+Keystone provides you with adaptive QoS polices that you can set up once your cluster is in production. You should ensure that all your volumes are associated with the correct adaptive QoS policies that are already created and available in your system. 
 
 [NOTE]
 If you have not applied adaptive QoS policies on your volumes correctly, those volumes will be measured and charged at the highest service level as per your subscription. This may result in unintended burst charges.
@@ -44,7 +44,7 @@ For more information, see https://docs.netapp.com/us-en/ontap/performance-admin/
 The settings for adaptive QoS policies vary for each service level.
 
 === Settings for Extreme service level
-For Extreme service level, these are the settings and commands:
+Settings and commands for the Extreme service level:
 
 * Sample command: 
 ....
@@ -54,7 +54,7 @@ qos adaptive-policy-group create -policy group <Keystone_extreme> -vserver <SVM_
 * Maximum volume size: 10TiB
 
 === Settings for Premium service level
-For Premium service level, these are the settings and commands:
+  Settings and commands for the Premium service level:
 
 * Sample command: 
 ....
@@ -64,7 +64,7 @@ qos adaptive-policy-group create -policy group <Keystone_premium> -vserver <SVM_
 * Maximum volume size: 50TiB
 
 === Settings for Performance service level
-For Performance service level, these are the settings and commands:
+Settings and commands for the Performance service level:
 
 * Sample command: 
 ....
@@ -74,7 +74,7 @@ qos adaptive-policy-group create -policy group <Keystone_performance> -vserver <
 * Maximum volume size: 80TiB
 
 === Settings for Value service level
-For Value service level, these are the settings and commands:
+ Settings and commands for the Value  service level:
 
 * Sample command: 
 ....

@@ -13,7 +13,7 @@ summary: OpsRamp as a monitoring application
 :imagesdir: ../media/
 
 [.lead]
-OpsRamp is a SaaS-based application Keystone uses to discover, monitor, and continuously manage assets. OpsRamp tool allows NetApp's monitoring team to remotely provide monitor and management services to the customers deploying Keystone. 
+OpsRamp is a SaaS-based application that Keystone uses to discover, monitor, and continuously manage assets. OpsRamp allows NetApp's monitoring team to remotely provide remote monitoring and management services to the customers deploying Keystone. 
 
 This tool has rich and powerful features for discovering assets such as applications, servers, networking devices, containers, and other resources typically used in an IT environment. This remote management service is easy to deploy at different locations, quickly gathers data, and is easily viewed on a centralized dashboard. To obtain more information about the OpsRamp program, please visit https://docs.opsramp.com/.
 
@@ -35,13 +35,13 @@ OpsRamp local gateway installed at the customer site provides several benefits, 
 
 OpsRamp is compliant with standards like SOC 2 Type II and is hosted in Tier 1 data center providers that are compliant with ISO 27001 and SOC 1 Type I standards for security, availability, and confidentiality.
 
-In addition, OpsRamp provides the Keystone team with following security features:
+In addition, OpsRamp provides Keystone with following security features:
 
-*	OpsRamp maintains logs of user activity and the Keystone team can generate ad-hoc or scheduled reports on user-activity
-*	All communication from OpsRamp gateway to OpsRamp cloud portal is TLS encrypted
-*	Data-at-rest and Data-in-flight are encrypted using TLS
-*	OpsRamp provides two-factor authentication options for the Keystone engineering team
-*	OpsRamp implements role-based-access controls enabling the Keystone team to create multiple roles and assign appropriate privileges to users
+*	OpsRamp maintains logs of user activity and Keystone can generate ad-hoc or scheduled reports on user-activity.
+*	All communication from OpsRamp gateway to OpsRamp cloud portal is TLS encrypted.
+*	Data-at-rest and Data-in-flight are encrypted using TLS.
+*	OpsRamp provides two-factor authentication options for Keystone.
+*	OpsRamp implements role-based access controls, enabling Keystone to create multiple roles and assign appropriate privileges to users.
 
 
 
