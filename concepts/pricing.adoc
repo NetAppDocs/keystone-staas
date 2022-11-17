@@ -19,11 +19,11 @@ If you prefer operational expenditures (OpEx) consumption model to capital expen
 
 Keystone provides you with the following billing facilities:
 
-* You can pay based on IOPS and latency committed capacity to meet various workload needs. The different performance service tiers - Extreme, Premium, Performance, Standard, Value, and Object enable you to manage your storage based on your purchased service level for your Keystone.
+* You can pay based on IOPS and latency committed capacity to meet various workload needs. The different performance service tiers - Extreme, Premium, Performance, Standard, Value, and Object enable you to manage your storage based on your purchased service level.
 * It presents predictable billing for the committed capacity and pay-per-use for variable (burst) capacity usage.
 * You can select a bundle price for hardware, core OS, and support for one $/TiB price. You have a single invoice for each storage type, file, block, object, or cloud storage services.
-* Select a flexible term for the services and payment: You can opt for 12 months, 25TiB, or more per site. Thereafter you can auto renew for 12 months.
+* Select a flexible term for the services and payment: You can opt for 12 months, 25TiB, or more per site. Thereafter, you can auto renew for 12 months.
 
 Keystone billing is based on committed capacity and variable burst consumption.
 
-For information about different capacities supported in Keystone, see link:../concepts/supported-storage-capacity.html[Supported storage capacities in Keystone]
+For information about different capacities supported in Keystone, see link:../concepts/supported-storage-capacity.html[Supported storage capacities in Keystone].

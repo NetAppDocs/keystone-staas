@@ -15,7 +15,7 @@ summary: US Citizen Support (USCS)
 [.lead]
 United States Citizen Support (USCS) is an add-on offering for NetApp Keystone Subscriptions. It entitles you to receive delivery and support of ongoing Keystone services from U.S. citizens on U.S. soil.
 
-Read the following sections to understand which elements of your subscriptions are bound by this add-on service; and are provided under the terms of NetApp Keystone Agreement.footnote:disclaimer1[The services and offerings described here are subject to, and limited and governed by a fully-executed Keystone Agreement.]
+Read the following sections to understand which elements of your subscriptions are bound by this add-on service and are provided under the terms of NetApp Keystone Agreement.footnote:disclaimer1[The services and offerings described here are subject to, and limited and governed by a fully-executed Keystone Agreement.]
 
 == NetApp Global Services Support Center monitoring
 NetApp Global Services and Support Center (GSSC) monitors the health of your products and subscribed services, provides remote support, and collaborates with your Keystone Success Manager. All personnel monitoring the products associated with the relevant Keystone subscription orders are U.S citizens operating on U.S. soil.
