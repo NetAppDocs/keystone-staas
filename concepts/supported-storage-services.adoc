@@ -56,7 +56,7 @@ a| Object storage
 |Based on the StorageGRID platform
 |Supports multiple information lifecycle management (ILM) policies across multiple sites.
 Note:
-Each site must have a separate subscription.
+Each site should have a separate subscription.
 |S3
 
 |===
@@ -68,7 +68,7 @@ For more information on data tiering, see link:../concepts/data-tiering.html[Dat
 For information about data protection services, see link:../concepts/adp.html[Advanced Data Protection].
 
 == Cloud storage services
-Keystone supports _Data management capabilities for Cloud Volumes ONTAP on AWS, Microsoft Azure, and Google Cloud Platform_. This service can co-term with your existing subscriptions. The cloud service can be included at any point during the service term. However, if you do not plan to renew your subscription, you cannot include the cloud service during the last 90 days of your subscription.
+Keystone supports _Data management capabilities for Cloud Volumes ONTAP on Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform_. This service can co-term with your existing subscriptions. The cloud service can be included at any point during the service term. However, if you do not plan to renew your subscription, you cannot include the cloud service during the last 90 days of your subscription.
 
 [NOTE]
 Hyperscalar-based compute and storage infrastructure are not provided by NetApp as a part of your Keystone subscriptions; you need to procure them from a hyperscalar cloud service provider.

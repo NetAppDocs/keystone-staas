@@ -67,7 +67,7 @@ Note the following clauses for capacity adjustments:
 * Any change request in the last 90 days of the service term requires a renewal of the service for a minimum of one year.
 
 === Capacity reduction
-Capacity reduction (annual) is applicable to the _Annual in Advance_ payment model and on-premises only deployments. It is not available for cloud services or hybrid cloud services. It provides provision for on-premises capacity, which can be reduced by up to 25% per service level per subscription. This reduction is allowed once every year to be made effective at the beginning of the next annual billing period. On-premises service-based annual payments must be >=$200K anytime during the term in order to take advantage of capacity reduction. Because it is supported only for on-premises deployments, this billing model does not provide reallocation in spending from on-premises to cloud services. An example of annual capacity reduction is illustrated in the following image.
+Capacity reduction (annual) is applicable to the _Annual in Advance_ payment model and on-premises only deployments. It is not available for cloud services or hybrid cloud services. It provides provision for on-premises capacity, which can be reduced by up to 25% per service level per subscription. This reduction is allowed once every year to be made effective at the beginning of the next annual billing period. On-premises service-based annual payments should be >=$200K anytime during the term in order to take advantage of capacity reduction. Because it is supported only for on-premises deployments, this billing model does not provide reallocation in spending from on-premises to cloud services. An example of annual capacity reduction is illustrated in the following image.
 
 image:capacity-reduction.png[]
 
@@ -76,12 +76,12 @@ Requirements and conditions at a subscription level:
 
 *	Applies only to monthly billing in arrear model.
 *	Applies only to subscriptions with 1, 2, or 3-year term commitments.
-*	Cloud Volumes ONTAP and Cloud Backup service capacity must be purchased through Keystone.
+*	Cloud Volumes ONTAP and Cloud Backup service capacity should be purchased through Keystone.
 *	Up to 25% of the existing on-premises, service-based monthly payments can be used for reallocation to cloud services.
-*	On-premises, service-based monthly payments must be >=$16.7K anytime during the term in order to take advantage of reallocation.
+*	On-premises, service-based monthly payments should be >=$16.7K anytime during the term in order to take advantage of reallocation.
 *	Reallocation requests are made effective only after 90 days from the previous activation date of the reallocation.
 *	Reallocation cannot be done from cloud services back to on-premises.
-*	A request to reallocate must be formally submitted by the customer or partner to Keystone Success Manager (KSM) at least one week before the next billing cycle.
+*	A request to reallocate should be formally submitted by the customer or partner to Keystone Success Manager (KSM) at least one week before the next billing cycle.
 *	New requests go into effect only from the next billing cycle.
 
 An example of a quarterly spend reallocation is illustrated in the following image:

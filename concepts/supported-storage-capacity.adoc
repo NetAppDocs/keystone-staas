@@ -17,7 +17,7 @@ The NetApp Keystone service capacities include:
 
 == Logical capacity
 This is the data placed on the Keystone infrastructure by a customer. All Keystone capacities refer to a logical capacity.
-For example, if a 1 TiB file is stored on the Keystone infrastructure then a minimum of 1 TiB of capacity must be purchased.
+For example, if a 1 TiB file is stored on the Keystone infrastructure then a minimum of 1 TiB of capacity should be purchased.
 
 == Committed capacity
 The minimum logical capacity billed each month during the subscription:
@@ -38,7 +38,11 @@ Consumed capacity refers to the capacity (in TiB of storage) currently being con
 Keystone service considers the sum of the logical used sizes (not the physical capacity used) of all volumes on a particular service level to calculate the consumed capacity for that service level.
 
 == Burst capacity
-This is the consumed capacity that has exceeded the committed capacity. Note the following points:
+This is the consumed capacity that has exceeded the committed capacity.
+
+
+[NOTE]
+Note:
 
 ** Keystone service provides 20% capacity in excess of the committed capacity.
 ** Burst capacity can be consumed on an elastic basis and is charged on a daily basis for the consumed average.

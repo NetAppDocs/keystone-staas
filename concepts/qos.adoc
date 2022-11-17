@@ -26,7 +26,7 @@ Keystone provides you with adaptive QoS polices that you can set up once your cl
 If you have not applied adaptive QoS policies on your volumes correctly, those volumes will be measured and charged at the highest service level as per your subscription. This may result in unintended burst charges.
 
 == Configuration of adaptive QoS policy group
-You can configure adaptive QoS policies to automatically scale a throughput ceiling or floor to volume size. For configuring a policy, you must be aware of the following:
+You can configure adaptive QoS policies to automatically scale a throughput ceiling or floor to volume size. For configuring a policy, you should be aware of the following:
 
 * Policy group name: The name of the adaptive QoS policy group. For example, `Keystone_extreme`.
 * VServer: The name of the VServer or storage VM (storage virtual machine).

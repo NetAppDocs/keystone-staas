@@ -37,7 +37,6 @@ I/O density calculations at the volume level are reported to show peak I/O densi
 
 |===
 
-
 [NOTE]
 Note:
 

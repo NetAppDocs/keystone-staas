@@ -27,7 +27,8 @@ For information about ONTAP MetroCluster, see link:https://docs.netapp.com/us-en
 
 The add-on charges are applicable to all the capacities in the subscription: the source, mirrored copy, and unmirrored data.
 
-Note the following:
+[NOTE]
+Note:
 
 * For this service,	100% of the committed capacity on an associated storage service is configured as committed capacity.
 *	Storage is charged for both the source and the destination clusters. This add-on service is also charged for both the primary and secondary (mirrored) volumes.
