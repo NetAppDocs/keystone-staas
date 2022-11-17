@@ -6,7 +6,6 @@ settings:
   prod:
     pdf_enabled: true
     harmony_enabled: true
-    langs: us-en,ja-jp,ko-kr,zh-cn,zh-tw,de-de,fr-fr
 sidebar:
   entries:
     - title: Keystone docs
