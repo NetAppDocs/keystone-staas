@@ -23,8 +23,7 @@ Note the following:
 *	Cloned volumes with the Standard and Value Service Levels are not considered for consumption if new data is not written to the volume. For example, in a backup or restore use case, backing up or restoring data from a cloned volume does not change the data in the cloned volume itself, and it is not considered as consumption.
 
 == Billing for Advanced Data Protection
-Advanced Data Protection uses NetApp MetroCluster to mirror data between two physically separated clusters. For MetroCluster mirrored aggregates, data is written twice, once on each cluster. The Keystone service charges for consumption on each side independently, resulting in two identical consumption records. 
-## The add-on charges are applied on all the capacities in the subscription, irrespective of whether the data is at the source, or it is mirrored or unmirrored data. ##
+Advanced Data Protection uses NetApp MetroCluster to mirror data between two physically separated clusters. For MetroCluster mirrored aggregates, data is written twice, once on each cluster. The Keystone service charges for consumption on each side independently, resulting in two identical consumption records. The add-on charges are applied on all the capacities in the subscription, irrespective of whether the data is at the source, or it is mirrored or unmirrored data.
 
 If you monitor your clusters through ONTAP System Manager (System Manager) or Active IQ Unified Manager (Unified Manager), you might see a discrepancy between the consumption reported on these tools and Keystone. System Manager and Unified Manager do not report volumes on the mirrored (remote) cluster, and in doing so, reports half the consumption metrics that the Keystone service reports.
 
