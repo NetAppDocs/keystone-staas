@@ -36,7 +36,7 @@ FabricPool/Cloud tiering
 Restore
 Clone
 SnapCenter (the license is included but this is not a part of Keystone services and no guaranteed management is provided)
-|NFS, CIFS.
+|NFS and CIFS.
 a| Block storage
 |Based on ONTAP technology
 |Supported ONTAP features:

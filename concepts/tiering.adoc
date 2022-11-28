@@ -18,7 +18,7 @@ By default, Keystone base services include tiering capabilities with your subscr
 
 [Note]
 
-The tiering add-on service is required only when data is tiered to any non-NetApp storage such as AWS S3, Azure Blob, Google Cloud Platform (GCP), and other, supported S3-compatible third party object storage.
+The tiering add-on service is required only when data is tiered to any non-NetApp storage such as Amazon Web Services (AWS) S3, Azure Blob, Google Cloud Platform (GCP), and other, supported S3-compatible, third-party object storage.
 
 For information about the base storage and cloud storage service, see link:../concepts/supported-storage-services.html[Supported storage services].
 
