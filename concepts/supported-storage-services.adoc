@@ -36,7 +36,7 @@ FabricPool/Cloud tiering
 Restore
 Clone
 SnapCenter (the license is included but this is not a part of Keystone services and no guaranteed management is provided)
-|NFS, CIFS, and S3 (used for FabricPool target)
+|NFS, CIFS.
 a| Block storage
 |Based on ONTAP technology
 |Supported ONTAP features:
@@ -51,7 +51,7 @@ FabricPool/Cloud tiering
 Restore
 Clone
 SnapCenter (the license is included but this is not a part of Keystone services and no guaranteed management is provided)
-|FC, iSCSI, and S3 (used for FabricPool target)
+|FC and iSCSI
 a| Object storage
 |Based on the StorageGRID platform
 |Supports multiple information lifecycle management (ILM) policies across multiple sites.

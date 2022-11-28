@@ -1,19 +1,19 @@
 ---
 sidebar: sidebar
 permalink: integrations/keystone-aiq.html
-keywords: Keystone, Active IQ	Digital Advisor, keystone-aiq, aiq
-summary: Keystone and Active IQ	Digital Advisor
+keywords: Keystone, Digital Advisor, keystone-aiq, aiq
+summary: Keystone and Digital Advisor
 ---
 
-= Keystone and Active IQ Digital Advisor
+= Keystone and Digital Advisor
 :hardbreaks:
 :nofooter:
 :icons: font
 :linkattrs:
 :imagesdir: ../media/
 
-If you have subscribed to NetApp Keystone services, you can view your usage reports and graphs on the Active IQ Digital Advisor dashboard. Active IQ Digital Advisor enables you to view storage-as-a-service (STaaS) details and information on the NetApp infrastructure that you own. Active IQ Digital Advisor provides a single dashboard view with visibility into capacity usage and trend data with the ability to create detailed reports. You can also manage your Keystone subscriptions through Active IQ Digital Advisor with the ability to order new services for your subscription and update the capacity for any existing services.
+If you have subscribed to NetApp Keystone services, you can view your usage reports and graphs on the Digital Advisor dashboard. Digital Advisor enables you to view storage-as-a-service (STaaS) details and information on the NetApp infrastructure that you own. Digital Advisor provides a single dashboard view with visibility into capacity usage and trend data with the ability to create detailed reports. You can also manage your Keystone subscriptions through Digital Advisor with the ability to order new services for your subscription and update the capacity for any existing services.
 
-For more information about Active IQ Digital Advisor, see https://docs.netapp.com/us-en/active-iq/task_view_keystone_capacity_utilization.html[Active IQ Digital Advisor documentation].
+For more information about Digital Advisor, see https://docs.netapp.com/us-en/active-iq/task_view_keystone_capacity_utilization.html[Digital Advisor documentation].
 
 For more information about data flow, see link:../concepts/infra.html[Monitoring tools].

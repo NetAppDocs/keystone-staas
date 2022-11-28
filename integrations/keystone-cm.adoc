@@ -1,11 +1,11 @@
 ---
 sidebar: sidebar
 permalink: integrations/keystone-cm.html
-keywords: Keystone-Cloud Manager
-summary: Keystone and Cloud Manager
+keywords: Keystone-BlueXP
+summary: Keystone and BlueXP
 ---
 
-= Keystone and Cloud Manager
+= Keystone and BlueXP
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,13 +13,15 @@ summary: Keystone and Cloud Manager
 :imagesdir: ../media/
 
 [.lead]
-If you purchase a cloud service on your Keystone subscription, you can access and manage those services through Cloud Manager.
+If you purchase a cloud service on your Keystone subscription, you can access and manage those services through BlueXP.
 
-As a Keystone customer, if you have Cloud Volumes ONTAP subscription, you can use Keystone services to charge your Cloud Volumes ONTAP usage and view your billing and consumption details through Cloud Manager.
+As a Keystone customer, if you have Cloud Volumes ONTAP subscription, you can use Keystone services to charge your Cloud Volumes ONTAP usage and view your billing and consumption details through BlueXP.
 
-For this, you should create one or more Cloud Manager accounts and link them with your Keystone account. While you purchase a cloud service through Keystone, you need to provide the details of your Cloud Manager accounts to your Keystone Success Manager. This enables proper metering and charging of your cloud service usage through your Keystone subscription.
+For this, you should create one or more BlueXP accounts and link them with your Keystone account. While you purchase a cloud service through Keystone, you need to provide the details of your BlueXP accounts to your Keystone Success Manager. This enables proper metering and charging of your cloud service usage through your Keystone subscription.
 
-For more information, see the following links in the Cloud Manager documents:
+For more information, see the following links in the BlueXP documents:
 
-* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensing.html#keystone-flex-subscription[Keystone Subscription]
-* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-manage-keystone.html[Manage Keystone Subscriptions]
+* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensing.html#keystone-flex-subscription [Keystone Subscription]
+* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-manage-keystone.html [Manage Keystone Subscriptions]
+
+
