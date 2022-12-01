@@ -1,0 +1,16 @@
+---
+sidebar: sidebar
+permalink: installation/validation.html
+keywords: validate, validation
+summary: validate Keystone collector on Linux systems
+---
+
+= Keystone Collector installation overview
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ../media/
+
+[.lead]
+

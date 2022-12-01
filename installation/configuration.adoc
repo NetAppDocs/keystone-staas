@@ -1,0 +1,16 @@
+---
+sidebar: sidebar
+permalink: installation/configuration.html
+keywords: configuration keystone collector
+summary: configuration of Keystone collector
+---
+
+= Configure Keystone Collector
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ../media/
+
+[.lead]
+

@@ -1,0 +1,15 @@
+---
+sidebar: sidebar
+permalink: installation/installation-overview.html
+keywords: installation, Keystone Collector
+summary: installation overview of Keystone Collector
+---
+
+= Keystone Collector installation overview
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ../media/
+
+[.lead]

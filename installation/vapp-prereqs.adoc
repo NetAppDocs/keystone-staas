@@ -1,0 +1,15 @@
+---
+sidebar: sidebar
+permalink: installation/vapp-prereqs.html
+keywords: prerequisites, VMware vSphere, vApp
+summary: prerequisites for installing Keystone collector on VMware vSphere systems
+---
+
+= Keystone Collector installation overview
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ../media/
+
+[.lead]

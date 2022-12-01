@@ -1,0 +1,15 @@
+---
+sidebar: sidebar
+permalink: installation/generic-prereqs.html
+keywords: prerequisites, Linux, VMware vSphere
+summary: generic prerequisites for installing Keystone collector
+---
+
+= Additional prerequisites for installing Keystone Collector
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ../media/
+
+[.lead]

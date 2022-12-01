@@ -1,0 +1,16 @@
+---
+sidebar: sidebar
+permalink: installation/monitor-health.html
+keywords: monitoring system health
+summary: monitoring system health through Keystone collector
+---
+
+= Keystone Collector installation overview
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ../media/
+
+[.lead]
+

@@ -1,0 +1,16 @@
+---
+sidebar: sidebar
+permalink: installation/linux-installation.html
+keywords: install, Linux
+summary: installing Keystone collector on Linux systems
+---
+
+= Keystone Collector installation overview
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ../media/
+
+[.lead]
+
