@@ -5,7 +5,7 @@ keywords: prerequisites, Linux
 summary: prerequisites for installing Keystone collector on Linux systems
 ---
 
-= Keystone Collector installation overview
+= Linux system requirements
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,4 +13,19 @@ summary: prerequisites for installing Keystone collector on Linux systems
 :imagesdir: ../media/
 
 [.lead]
+The Linux system on which you are installing Keystone Collector should follow certain prerequisites.
+
+The following configurations are required:
+
+* Operating system: CentOS 7 or Red Hat Enterprise Linux 8.6 or later
+* Chronyd time synchronized
+* Access to the standard Linux standard software repositories
+The same server should also have the following third-party packages:
+*	Podman (POD Manager)
+*	SOS #What is the software name for this? Please give exact names#
+*	Chrony
+*	Python 3 (3.6.8 to 3.9.13)
+
+include::generic-prereqs.adoc[]
+
 
