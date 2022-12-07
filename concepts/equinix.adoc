@@ -13,7 +13,7 @@ summary: Keystone and Equinix
 :imagesdir: ../media/
 
 [.lead]
-NetApp has partnered with Equinix for hosting NetApp Keystone services in an Equinix data center to ensure the delivery of a unified solution for you.
+NetApp has partnered with Equinix for hosting NetApp Keystone STaaS services in an Equinix data center to ensure the delivery of a unified solution for you.
 
 Keystone co-location (Co-Lo) services powered by Equinix is unchanged from the standard Keystone service offering.
 

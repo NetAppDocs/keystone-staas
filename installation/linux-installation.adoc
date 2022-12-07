@@ -1,11 +1,11 @@
 ---
 sidebar: sidebar
 permalink: installation/linux-installation.html
-keywords: install, Linux
-summary: installing Keystone collector on Linux systems
+keywords: Linux installation Keystone, Linux Collector installation
+summary: installing Keystone collector on Linux
 ---
 
-= Keystone Collector installation overview
+= Installing Keystone Collector on Linux systems
 :hardbreaks:
 :nofooter:
 :icons: font

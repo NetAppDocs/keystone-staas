@@ -2,10 +2,10 @@
 sidebar: sidebar
 permalink: installation/installation-overview.html
 keywords: installation, Keystone Collector
-summary: installation overview of Keystone Collector
+summary: what is Keystone Collector
 ---
 
-= Keystone Collector installation overview
+= Keystone Collector overview
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,11 +13,11 @@ summary: installation overview of Keystone Collector
 :imagesdir: ../media/
 
 [.lead]
-For availing and enabling your Keystone subscription services, you should install Keystone Collector on a VMware vSphere or Linux system at your site.
+For availing and enabling your Keystone STaaS services, you should install Keystone Collector on a VMware vSphere or Linux system at your site.
 
 Keystone Collector is the main component of the Keystone billing platform that leverages Active IQ Unified Manager and other components to connect to ONTAP storage systems, and provides you with the means of monitoring the health of your storage environment, while sending your billing data for reporting. 
 
-This architecture diagram outlines the constituent components and their connectivity in a typical Keystone environment.
+This architecture diagram outlines the constituent components and their connectivity in a typical Keystone STaaS environment.
 
 image:collector-arch.png[]
 

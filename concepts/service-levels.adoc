@@ -13,11 +13,14 @@ summary: Supported service levels
 :imagesdir: ../media/
 
 [.lead]
-Keystone offers services to you in a subscription model by providing committed storage capacity and associating it with predefined service levels.
+Keystone STaaS offers data storage capacity at pre-defined performance service levels (service levels) on a subscription basis. 
 
-Each service level is defined by its I/O density, which is the ratio of performance (input/output operations per second [IOPS]) and used storage (TiB of stored data), which is IOPS/TiB.
+Service levels are defined by:
 
-Each volume managed by the Keystone services is associated with a service level. All I/O operations and all used storage on the respective volume are factored into the volume’s I/O density calculation.
+* Average latency
+* Maximum IOPS per logical TiB stored per volume
+
+Each volume needs to be associated with a service level.
 
 == Service levels for difference storage types
 The service levels for file, block, object, and cloud services are listed here.

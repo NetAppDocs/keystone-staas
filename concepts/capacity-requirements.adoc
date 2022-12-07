@@ -13,7 +13,7 @@ summary: Capacity requirements for Service Levels
 :imagesdir: ../media/
 
 [.lead]
-The capacity requirement for each service level differs with the storage service, such as file, block, and object storage.
+The capacity requirement for each Keystone STaaS service level differs with the storage service, such as file, block, and object storage.
 
 
 == Minimum capacity requirements for file and block services

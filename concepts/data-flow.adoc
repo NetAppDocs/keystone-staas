@@ -13,7 +13,7 @@ summary: Keystone data flows
 :imagesdir: ../media/
 
 [.lead]
-Keystone systems encounter data flow through Keystone Collector traffic and monitoring data flows.
+Keystone STaaS systems encounter data flow through Keystone Collector traffic and monitoring data flows.
 
 == Keystone Collector data flow
 Keystone Collector initiates REST API calls to the storage controllers and obtains usage details of the controllers periodically.

@@ -13,7 +13,7 @@ summary: Keystone pricing
 :imagesdir: ../media/
 
 [.lead]
-NetApp Keystone enables predictable and upfront pricing for your storage subscription.
+NetApp Keystone STaaS enables predictable and upfront pricing for your storage subscription.
 
 If you prefer operational expenditures (OpEx) consumption model to capital expenditure (CapEx) or leasing, you can opt for the Keystone pay-as-you-grow model for your flexible and scalable consumption needs.
 

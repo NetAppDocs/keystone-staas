@@ -20,11 +20,12 @@ For information about Service Levels, see link:../concepts/service-levels.html[S
 == Base storage services
 The base storage services for file and block offer default data protection services by leveraging NetApp technologies, such as SnapMirror, SnapVault, and Snapshot. Data tiering to NetApp storage target is also included by default in file and block storage service tiers. You can additionally opt for add-on services for data protection and tiering. For information about add-on services, see link:../concepts/adp.html[Advanced data protection] and link:../concepts/data-tiering.html[Data tiering].
 |===
-a| Storage service |Basis |Supported features | Protocols
+a| Storage service |Platform |Protocols |Supported features
 
 a| File storage
-|Based on ONTAP technology
-|Supported ONTAP features:
+a|ONTAP
+a|FC and iSCSI
+a|Supported ONTAP features:
 
 FlexVol
 FlexGroup
@@ -33,13 +34,13 @@ SnapMirror (Asynchronous)
 SnapVault
 SnapLock Enterprise
 FabricPool/Cloud tiering
-Restore
-Clone
-SnapCenter (the license is included but this is not a part of Keystone services and no guaranteed management is provided)
-|NFS and CIFS.
+SnapRestore
+FlexClone
+SnapCenter (license is included but is not a part of Keystone services, and management is not guaranteed)
 a| Block storage
-|Based on ONTAP technology
-|Supported ONTAP features:
+a|ONTAP
+a|NFS and CIFS
+a|Supported ONTAP features:
 
 FlexVol
 FlexGroup
@@ -48,21 +49,22 @@ SnapMirror (Asynchronous)
 SnapVault
 SnapLock Enterprise
 FabricPool/Cloud tiering
-Restore
-Clone
-SnapCenter (the license is included but this is not a part of Keystone services and no guaranteed management is provided)
-|FC and iSCSI
+SnapRestore
+FlexClone
+SnapCenter (license is included but is not a part of Keystone services, and management is not guaranteed)
+
 a| Object storage
-|Based on the StorageGRID platform
-|Supports multiple information lifecycle management (ILM) policies across multiple sites.
+a|StorageGRID
+a|S3
+a|Supports multiple information lifecycle management (ILM) policies across multiple sites.
 Note:
-Each site should have a separate subscription.
-|S3
+Each site requires a separate subscription.
+
 
 |===
 
 == Cloud storage services
-Keystone supports Data management capabilities for Cloud Volumes ONTAP on Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform. This service can co-term with your existing subscriptions. The cloud service can be included at any point during the service term. However, if you do not plan to renew your subscription, you cannot include the cloud service during the last 90 days of your subscription.
+Keystone STaaS supports Cloud Volumes ONTAP data management capabilities on Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform. This service can co-term with your existing subscriptions. The cloud service can be included at any point during the service term. However, if you do not plan to renew your subscription, you cannot include the cloud service during the last 90 days of your subscription.
 
 [NOTE]
-Hyperscalar-based compute and storage infrastructure are not provided by NetApp as a part of your Keystone subscriptions; you need to procure them from a hyperscalar cloud service provider.
+Hyperscalar-based compute, storage, and network services required by Cloud Volumes ONTAP are not provided by NetApp as a part of Keystone STaaS subscriptions; they need to be procured directly from hyperscalar cloud service providers.

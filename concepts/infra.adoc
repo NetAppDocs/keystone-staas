@@ -13,7 +13,7 @@ summary: Keystone infrastructure
 :imagesdir: ../media/
 
 [.lead]
-This section describes the NetApp Keystone infrastructure, architecture, and management application for the NetApp and customer-operated environments.
+This section describes the NetApp Keystone STaaS infrastructure, architecture, and management application for the NetApp and customer-operated environments.
 
 Keystone infrastructure, design, choice of technology, and component products reside solely with NetApp. NetApp reserves the rights to take the following actions:
 
