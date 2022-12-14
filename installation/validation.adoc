@@ -5,7 +5,7 @@ keywords: validate, validation
 summary: validate Keystone collector on Linux systems
 ---
 
-= Keystone Collector installation overview
+= Automatic validation of software integrity
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,4 +13,7 @@ summary: validate Keystone collector on Linux systems
 :imagesdir: ../media/
 
 [.lead]
+There is a reiterative process of validating the integrity of the Keystone software.
+
+The Keystone YUM repository client configuration provided in `keystonerepo.rpm` makes use of enforced GPG checking (gpgcheck=1) on all software downloaded through this repository. Any RPM downloaded through the Keystone repository that fails signature validation is prevented from being installed. This functionality is used in the scheduled auto-update capability of the Keystone Collector to ensure only valid and authentic software is installed at your site.
 

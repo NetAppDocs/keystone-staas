@@ -13,4 +13,119 @@ summary: configuration of Keystone collector
 :imagesdir: ../media/
 
 [.lead]
+You need to complete a few configuration tasks to enable Keystone Collector to collect usage data in your storage environment. This is a one-time activity to activate and associate the required collector component with Active IQ Unified Manager (Unified Manager). 
+
+All the ONTAP clusters that are managed by Unified Manager can be monitored. Follow these steps:
+
+.Steps
+
+. Open the Keystone Collector management TUI utility:
+`$ keystone-collector-tui`
+. Go to **Configure > KS-Collector** to open the Keystone Collector configuration screen and add the details for the Unified Manager server and service account. If Performance monitoring is required in this environment for SLA purposes, enable the **ONTAP Performance Data collection** option and provide the Unified Manager Database user account details. For information, see link:../aiqum-req.html[Create Unified Manager users].
+. Toggle the **Enable KS-Collector Service** field.
+. Click **Save**.
+image:tui-1.png[]
+. Ensure that Keystone Collector is in a healthy state by returning to the main screen of the TUI and verifying the **Service Status** information. The system should show that the services are in an **Overall: Healthy** status.
+image:tui-2.png[]
+. Exit the Keystone Collector management TUI by selecting the **Exit to Shell** option on the home screen.
+
+== Configure HTTP Proxy on Keystone Collector
+The Collector software supports using a HTTP proxy to communicate with the internet. This can be configured in the TUI.
+
+.Steps
+
+. Open the Keystone Collector management TUI utility if already closed:
+`$ keystone-collector-tui`
+. Toggle on the **HTTP Proxy** field, and add the details for the HTTP proxy server, port, and credentials, if authentication is required.
+. Click **Save**.
+image:tui-3.png[]
+
+== Limit collection of private data
+The Keystone Collector gathers limited configuration, status, and performance information required to perform Keystone STaaS subscription metering. There is an option to further limit the information collected by masking sensitive information from the content uploaded. This does not impact billing calculation. However, limiting the information might impact usability of the reporting information, as some elements, which can be easily identified by users, such as volume name are replaced with UUIDs. 
+
+The option to limiting the data, **Remove Private Data**, is configurable on the TUI configuration screen. This option is disabled by default.
+
+image:tui-4.png[]
+
+=== Sample list of information gathered for usage collection
+The following list is a representative sample of what is included in usage collection:
+
+* Cluster:
+**	ClusterUUID
+**	SerialNumber
+**	Location (based on value input in ONTAP cluster)
+**	Contact
+*	Nodes
+**	SerialNumber
+**	Node name
+*	Volumes
+**	Aggregate name
+**	Volume Name
+**	VolumeInstanceUUID
+**	IsCloneVolume flag
+**	IsFlexGroupConstituent flag
+**	IsSpaceEnforcementLogical flag
+**	IsSpaceReportingLogical flag
+**	LogicalSpaceUsedByAfs
+**	PercentSnapshotSpace
+**	PerformanceTierInactiveUserData
+**	PerformanceTierInactiveUserDataPercent
+**	QosAdaptivePolicyGroup Name
+**	QosPolicyGroup Name
+**	Size
+**	SizeUsedBySnapshots
+**	Type
+**	VolumeStyleExtended
+**	Vserver name
+**	IsVsRoot flag
+*	StorageAggrs
+**	StorageType
+**	Aggregate Name
+**	Aggregate UUID
+*	AggregateObjectStores
+**	ObjectStoreName
+**	ObjectStoreUUID
+**	ProviderType
+**	Aggregate Name
+*	StorageLuns
+**	Lun UUID
+**	Size
+**	Used
+**	IsReserved flag
+**	IsRequested flag
+**	LogicalUnit Name
+**	QosPolicyUUID
+**	QosPolicyName
+**	VolumeUUID
+**	VolumeName
+**	SvmUUID
+**	Svm Name
+*	Collector Observablility Metrics
+**	Collection Time
+**	AIQUM API Endpoint queried
+**	Response time
+**	Number of records
+**	AiqumInstance IP
+**	CollectorInstance ID
+
+=== List of items removed on limiting private data access
+When the *Remove Private Data* option is enabled, the following information is eliminated:
+
+*	Cluster Name
+*	Cluster Location
+*	Cluster Contact
+*	Node Name
+*	Aggregate name
+*	Volume Name
+*	QosAdaptivePolicyGroup Name
+*	QosPolicyGroup Name
+*	Vserver name
+*	Aggregate Name
+*	LogicalUnit Name
+*	Svm Name
+*	AiqumInstance IP
+
+
+
+
 
