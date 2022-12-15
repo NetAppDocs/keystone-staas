@@ -14,26 +14,26 @@ summary: Add-on, additional Services Details, data tiering
 
 [.lead]
 
-Keystone STaaS file and block services include tiering capabilities that identify less-frequently used data, and tiers it to Keystone STaaS supported NetApp cold storage. You can avail tiering as an add-on service if you want to tier your cold data to any Keystone STaaS-supported non-NetApp storage.
+Keystone STaaS standard services for file and block storage include tiering capabilities that identify less-frequently used data, and tiers it to Keystone STaaS-supported NetApp cold storage. You can avail data tiering as an add-on service if you want to tier your cold data to any Keystone STaaS-supported, non-NetApp storage.
+
+For information about standard and add-on services, see link:../concepts/supported-storage-services.html[Keystone STaaS services].
+For information about Service Levels, see link:../concepts/service-levels.html[Service Levels in Keystone].
+
 
 [Note]
 
-The tiering add-on service is required only when data is tiered to any non-NetApp storage such as Amazon Web Services (AWS) S3, Azure Blob, Google Cloud Platform (GCP), and other, supported S3-compatible, third-party object storage.
+The tiering add-on service is required only when data is tiered to any non-NetApp storage such as Amazon Web Services (AWS) S3, Azure Blob, Google Cloud Platform (GCP), and other, Keystone STaaS-supported S3-compatible, third-party object storage.
 
-For information about the base storage and cloud storage service, see link:../concepts/supported-storage-services.html[Supported storage services].
+The tiering capability leverages the NetApp FabricPool technology that enables automated tiering of infrequently accessed data to object storage tiers either on or off premises.
 
-For information about Service Levels, see link:../concepts/service-levels.html[Service Levels in Keystone].
-
-The tiering capability leverages NetApp FabricPool that enables automated tiering of infrequently accessed data to object storage tiers either on or off premises.
-
-The add-on tiering service enables tiering from Extreme, Premium, Performance, Standard, and Value tier to Object target. The ratio of hot:cold data to be tiered is not fixed and each tier is metered and invoiced separately. 
+The add-on data tiering service enables tiering from Extreme, Premium, Performance, Standard, and Value tier to an object storage target. The ratio of hot:cold data to be tiered is not fixed, and each tier is metered and invoiced separately. 
 
 For example, if the target for cold storage tier is:
 
-*	Keystone STaaS Value tier (up to 500TiB), Keystone STaaS StorageGrid Object Tier (>500TiB), or existing SGWS grid (customer owned) – There is no additional charge; it is part of basic storage service.
-*	Public cloud (AWS, Azure, Google) or Keystone STaaS supported third-party object storage – There is an additional charge for data capacity that is tiered to cold storage target.
+*	Keystone STaaS Value tier, Keystone STaaS StorageGrid Object Tier, or existing SGWS grid (customer owned) - There is no additional charge; it is part of standard service.
+*	Public cloud (AWS, Azure, Google) or Keystone STaaS-supported, third-party object storage - There is an additional charge for data capacity that is tiered to cold storage target.
 
-The charges involved in the add-on tiering subscription apply for the entire term of use.
+The charges for add-on tiering services apply through the entire subscription term.
 
 [NOTE]
-Hyperscalar-based compute, storage, and network services required by Cloud Volumes ONTAP are not provided by NetApp as a part of Keystone STaaS subscriptions; they need to be procured directly from hyperscalar cloud service providers.
+Hyperscalar-based compute, storage, and network services required by Cloud Volumes ONTAP are not provided by NetApp as a part of Keystone STaaS subscriptions; these services need to be procured directly from hyperscalar cloud service providers.

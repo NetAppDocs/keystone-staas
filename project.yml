@@ -42,7 +42,7 @@ sidebar:
           url: /concepts/supported-storage-capacity.html
         - title: Metrics and definitions of Keystone Services
           url: /concepts/metrics.html
-        - title: Supported storage services in Keystone
+        - title: Keystone STaaS services
           url: /concepts/supported-storage-services.html
         - title: Service Levels in Keystone
           url: /concepts/service-levels.html

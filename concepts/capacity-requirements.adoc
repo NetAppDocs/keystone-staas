@@ -13,7 +13,7 @@ summary: Capacity requirements for Service Levels
 :imagesdir: ../media/
 
 [.lead]
-The capacity requirement for each Keystone STaaS service level differs with the storage service, such as file, block, and object storage.
+The capacity requirements for Keystone STaaS service levels differ with the file, block, object, or cloud storage supported by the Keystone STaaS subscription.
 
 
 == Minimum capacity requirements for file and block services
@@ -35,7 +35,7 @@ a|Incremental capacity (and in multiples) allowed as add-on during subscription 
 |===
 
 == Minimum capacity requirements for object storage
-You can see the minimum capacity requirements for object storage service in the following table:
+You can see the minimum capacity requirements for object storage in the following table:
 
 |===
 |Capacity |Data tiering |Object |Cloud Volumes ONTAP |Cloud Backup service
