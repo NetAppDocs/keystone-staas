@@ -15,7 +15,7 @@ summary: monitoring system health through Keystone collector
 [.lead]
 You can monitor your system health through Keystone Collector services by using any monitoring system that supports HTTP requests. 
 
-By default, the Keystone health services do not accept connections from any IP other than localhost. The Keystone health endpoint is `/uber/health`, and it listens on all interfaces of the Keystone Collector server on port `7777`. On query a HTTP status code with a JSON output is returned from the endpoint as a response, describing the status of the Keystone Collector system. 
+By default, the Keystone health services do not accept connections from any IP other than localhost. The Keystone health endpoint is `/uber/health`, and it listens on all interfaces of the Keystone Collector server on port `7777`. On query, an HTTP request status code with a JSON output is returned from the endpoint as a response, describing the status of the Keystone Collector system. 
 The JSON body provides an overall health status for the `is_healthy` attribute, which is a boolean; and a detailed list of statuses per-component for the `component_details` attribute.
 Here is an example:
 ----

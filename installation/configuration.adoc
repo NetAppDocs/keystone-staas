@@ -21,7 +21,7 @@ All the ONTAP clusters that are managed by Unified Manager can be monitored. Fol
 
 . Open the Keystone Collector management TUI utility:
 `$ keystone-collector-tui`
-. Go to **Configure > KS-Collector** to open the Keystone Collector configuration screen and add the details for the Unified Manager server and service account. If Performance monitoring is required in this environment for SLA purposes, enable the **ONTAP Performance Data collection** option and provide the Unified Manager Database user account details. For information, see link:../aiqum-req.html[Create Unified Manager users].
+. Go to **Configure > KS-Collector** to open the Keystone Collector configuration screen and add the details for the Unified Manager server and service account. If Performance monitoring is required in this environment for SLA purposes, enable the **Collect ONTAP Performance Data** option, and provide the Unified Manager Database user account details. For information, see link:../aiqum-req.html[Create Unified Manager users].
 . Toggle the **Enable KS-Collector Service** field.
 . Click **Save**.
 image:tui-1.png[]
@@ -41,7 +41,7 @@ The Collector software supports using a HTTP proxy to communicate with the inter
 image:tui-3.png[]
 
 == Limit collection of private data
-The Keystone Collector gathers limited configuration, status, and performance information required to perform Keystone STaaS subscription metering. There is an option to further limit the information collected by masking sensitive information from the content uploaded. This does not impact billing calculation. However, limiting the information might impact usability of the reporting information, as some elements, which can be easily identified by users, such as volume name are replaced with UUIDs. 
+The Keystone Collector gathers limited configuration, status, and performance information required to perform Keystone STaaS subscription metering. There is an option to further limit the information collected by masking sensitive information from the content uploaded. This does not impact billing calculation. However, limiting the information might impact usability of the reporting information, as some elements, which can be easily identified by users, such as volume name, is replaced with UUIDs. 
 
 The option to limiting the data, **Remove Private Data**, is configurable on the TUI configuration screen. This option is disabled by default.
 
@@ -50,7 +50,7 @@ image:tui-4.png[]
 === Sample list of information gathered for usage collection
 The following list is a representative sample of what is included in usage collection:
 
-* Cluster:
+* Cluster
 **	ClusterUUID
 **	SerialNumber
 **	Location (based on value input in ONTAP cluster)

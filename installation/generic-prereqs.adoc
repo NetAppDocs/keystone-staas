@@ -20,7 +20,7 @@ a|Internet (as per URL requirements given later)
 a|HTTP, HTTPS
 a|TCP 80, TCP 443
 a|Mandatory (internet connectivity)
-a|Keystone Collector software, OS updates and metrics upload
+a|Keystone Collector software, OS updates, and metrics upload
 a|Keystone Collector
 a|Customer HTTP Proxy
 a|HTTP Proxy 
@@ -76,6 +76,6 @@ Keystone Collector needs access to the following internet hosts:
 a|https://keystone.netapp.com
 a|Keystone Collector software and usage reporting
 a|https://mirror.centos.org
-a|OS Updates (OVA Deployments Only)
+a|OS Updates (OVA deployments Only)
 
 |===

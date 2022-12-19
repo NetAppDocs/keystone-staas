@@ -13,16 +13,16 @@ summary: installing Keystone collector on VMware systems
 :imagesdir: ../media/
 
 [.lead]
-Deploying Keystone Collector on VMware vSphere systems includes downloading the OVA template, deploying it by using the *Deploy OVF Template* wizard, verifying the integrity of the certificates, deploying the template, and verifying the readiness of the VM.
+Deploying Keystone Collector on VMware vSphere systems includes downloading the OVA template, deploying the template by using the *Deploy OVF Template* wizard, verifying the integrity of the certificates, and verifying the readiness of the VM.
 
 == Deploying the OVA template
-Follow these steps
+Follow these steps:
 
 .Steps
 
-. Download the OVA file https://keystone.netapp.com/downloads/KeystoneCollector-latest.ova and store it on your VMware vSphere system.
+. Download the OVA file from https://keystone.netapp.com/downloads/KeystoneCollector-latest.ova and store it on your VMware vSphere system.
 . On your VMware vSphere system, navigate to the *VMs and Templates* view. 
-. Right click on the required folder for the virtual machine (VM) (or data center if not using VM folders) and select *Deploy OVF Template*.
+. Right click on the required folder for the virtual machine (VM) (or data center, if not using VM folders) and select *Deploy OVF Template*.
 . On _Step 1_ of the *Deploy OVF Template* wizard, click *Select and OVF template* to select the downloaded `KeystoneCollector-latest.ova` file.
 . On _Step 2_, specify the VM name and select the VM folder.
 . On _Step 3_, specify the required compute resource that is to run the VM.
@@ -47,9 +47,9 @@ After the VM has been deployed from the template and powered on, open an SSH ses
 Perform these steps on your VMware vSphere systems for an initial configuration of Keystone Collector servers deployed through OVA:
 
 [NOTE]
-On completing the deployment, you can use the Keystone Collector Management Terminal User Interface (TUI) utility to perform the configuration and monitoring activities. You use various keyboard controls, such as the Enter and arrow keys, to select the options and navigate across this TUI.
+On completing the deployment, you can use the Keystone Collector Management Terminal User Interface (TUI) utility to perform the configuration and monitoring activities. You can use various keyboard controls, such as the Enter and arrow keys, to select the options and navigate across this TUI.
 
-. Open an SSH session to the Keystone Collector server. On login, the TUI appears. You can also launch the TUI manually by running the `keystone-collector-tui` cli command.
+. Open an SSH session to the Keystone Collector server. On login, the TUI appears. You can also launch the TUI manually by running the `keystone-collector-tui` CLI command.
 . If required, configure the proxy details in the *Configuration > Network* section on the TUI. 
 . Update the system/collector by using the *Maintenance > Update System* option. Some mirrors that are selected might be unavailable, and the system details are updated after a few retries. 
 . Configure the system hostname, location, and NTP server in the *Configuration > System* section.

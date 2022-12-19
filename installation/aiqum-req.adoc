@@ -48,7 +48,7 @@ image:um-add-user.png[]
 == Enable API Gateway in Unified Manager
 Keystone Collector makes use of the Unified Manager API Gateway to communicate with ONTAP clusters. 
 
-You can enable API Gateway either from the web UI, or by running a few commands.
+You can enable API Gateway either from the web UI, or by running a few commands through Unified Manager CLI.
 
 === Enable API Gateway from web UI
 
@@ -66,16 +66,16 @@ For more information about supported commands, see https://docs.netapp.com/us-en
 
 .Steps
 
-. On the Unified Manager server, begin an SSH session and log in to Unified Manager CLI.
+. On the Unified Manager server, begin an SSH session and log into Unified Manager CLI.
 `um cli login -u _<umadmin>_`
 . Verify whether API Gateway is already enabled. 
 `um option list api.gateway.enabled`
 If the value returned is `true`, it indicates that the API Gateway functionality is enabled. 
-. If it is `false`, run this command to enable it:
+. If the value returned is `false`, run this command to enable the API Gateway functionality:
 `um option set api.gateway.enabled=true`
 . Restart the Unified Manager server to apply the setting. For information:
-* On Linux: see https://docs.netapp.com/us-en/active-iq-unified-manager/install-linux/task_restart_unified_manager.html[Restarting Unified Manager].
-* On VMware vSphere system: https://docs.netapp.com/us-en/active-iq-unified-manager/install-vapp/task_restart_unified_manager_virtual_machine.html[Restarting the Unified Manager virtual machine].
+* On Linux system, see https://docs.netapp.com/us-en/active-iq-unified-manager/install-linux/task_restart_unified_manager.html[Restarting Unified Manager].
+* On VMware vSphere system, see https://docs.netapp.com/us-en/active-iq-unified-manager/install-vapp/task_restart_unified_manager_virtual_machine.html[Restarting the Unified Manager virtual machine].
 
 
 
