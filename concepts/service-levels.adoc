@@ -20,14 +20,14 @@ Service levels are defined by:
 * Average latency
 * Maximum IOPS per logical TiB stored per volume
 
-Each volume needs to be associated with a service level.
+A volume must be associated with a service level.
 
-== Service levels for difference storage types
+== Service levels for supported storage
 The service levels for file, block, object, and cloud services are listed here.
 
 // I/O density calculations at the volume level are reported to show peak I/O density during the prior week. The peak performance is determined on an hourly time interval. I/O density reports by volume are generated monthly to gauge adherence to the respective service levels.
 
-=== File and block services
+=== File and block storage
 *Supported protocols*: NFS, CIFS, iSCSI, and FC
 
 |===
@@ -41,16 +41,13 @@ The service levels for file, block, object, and cloud services are listed here.
 |===
 
 [NOTE]
-Note:
+Note the following points for throughput performance metrics (applicable only for file and block services):
 
-Throughput performance metrics (applicable only to file and block services) are based on:
-
-* File and block service levels based on ONTAP 9.7 and later.
-* IOPS/TiB and latency values for service levels are based on the amount of logical data stored in the volume, 32KB block size, and a random IO mix of 70% Read/30% Write.
+* File and block service levels are based on ONTAP 9.7 and later.
+* IOPS/TiB and latency values for service levels are based on the amount of logical data stored in the volume, 32 KB block size, and a random mix of 70% read and /30% write IO.
 * Actual IOPS/TiB and/or MBps/TiB varies based on workload concurrency and usage patterns.
 * Latency does not include the following:
 ** The applications, hosts, or customer network latency to or from the controller ports.
-** Overheads associated with data transfer to the object store in case of FabricPool storage.
 ** The latency automatically applied by QoS to keep IO within service level maximums.
 * When using the Advanced Data Protection add-on service, the target latency applies to servicing IO requests from the local Keystone products only.
 
@@ -67,11 +64,14 @@ Throughput performance metrics (applicable only to file and block services) are 
 
 |===
 
+[NOTE]
+Latency does not include overheads associated with data transfer to the object store in case of FabricPool storage.
+
 === Cloud storage
-*Supported protocol*: NFS, CIFS, iSCSI, S3 (AWS and Azure only)
+*Supported protocol*: NFS, CIFS, iSCSI, and S3 (AWS and Azure only)
 
 |===
-|*Service level* | Cloud Volumes ONTAP®**
+|*Service level* | Cloud Volumes ONTAP®
 |*Workload type* |Disaster Recovery, software development/testing, business apps
 |*Maximum IOPS/logical TiB stored per volume*
 |N/A

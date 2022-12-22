@@ -5,7 +5,7 @@ keywords: storage, service, service definition, keystone STaaS services,
 summary: Keystone STaaS services
 ---
 
-= Keystone STaaS services 
+= Supported storage in Keystone STaaS services
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,25 +13,25 @@ summary: Keystone STaaS services
 :imagesdir: ../media/
 
 [.lead]
-Keystone STaaS supports file and block storage of ONTAP, object storage of StorageGRID platform, and data management capabilities of Cloud Volumes ONTAP.
+Keystone STaaS services support file and block storage of ONTAP, object storage of StorageGRID platform, and data management capabilities of Cloud Volumes ONTAP.
 
 Keystone STaaS provides standard and optional services for your storage. 
 
-*Keystone STaaS standard services*: Standard services are a part of the base subscription at no additional costs.  
+*Keystone STaaS standard services*: Standard services are included within the base subscription and are not charged separately.  
 
-*Keystone STaaS add-on services*: These are optional paid services that provide additional utilities and benefits on top of standard Keystone STaaS subscription services.
+*Keystone STaaS add-on services*: These are optional, chargeable services that provide additional utilities and benefits on top of standard Keystone STaaS subscription services.
 
 Keystone STaaS services can coexist with each other. For example, a cloud storage subscription can co-term with file, block, and object storage subscriptions. A cloud service can be included at any point during the service term of an existing storage subscription. However, if you do not plan to renew an existing file, block, and object subscription, a cloud storage subscription cannot be added during the last 90 days of the subscription.
 
 == Services for file, block, and object storage
-Keystone STaaS services for ONTAP file and block storage, and StorageGrid object storage, support multiple features and protocols. The below table describes them:
+Keystone STaaS services for ONTAP file and block storage, and StorageGrid object storage, support multiple features and protocols, and described in the following table:
 
 |===
 a| Storage |Platform |Protocols |Supported features
 
 a| File storage
 a|ONTAP
-a|FC and iSCSI
+a|NFS and CIFS
 a|Supported ONTAP features:
 
 * FlexVol
@@ -44,9 +44,9 @@ a|Supported ONTAP features:
 * SnapRestore
 * FlexClone
 * SnapCenter (license is included but is not a part of Keystone services, and management is not guaranteed)
-a| Block storage
+a|Block storage
 a|ONTAP
-a|NFS and CIFS
+a|FC and iSCSI 
 a|Supported ONTAP features:
 
 * FlexVol

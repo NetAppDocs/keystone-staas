@@ -38,11 +38,11 @@ sidebar:
           url: /installation/monitor-health.html
     - title: Learn about Keystone
       entries:    
-        - title: Supported storage capacity in Keystone
+        - title: Supported storage capacity
           url: /concepts/supported-storage-capacity.html
-        - title: Metrics and definitions of Keystone Services
+        - title: Metrics and definitions
           url: /concepts/metrics.html
-        - title: Keystone STaaS services
+        - title: Supported storage in Keystone
           url: /concepts/supported-storage-services.html
         - title: Service Levels in Keystone
           url: /concepts/service-levels.html
