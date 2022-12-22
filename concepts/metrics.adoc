@@ -16,7 +16,7 @@ summary: Metrics calculations and definitions of Keystone Services
 The following terms and definitions are used within the NetApp Keystone (Keystone) STaaS service to measure metrics:
 
 * Capacity measurement units: GiB, TiB, and PiB
-* IO density: IOPS/TiB: Number of input/output operations processed per second based on the total space that is being consumed by the workload, in terabytes.
+* IO density: IOPS/TiB: Number of input/output operations processed per second based on the total space that is being consumed by the workload, in tebibytes.
 * Service availability
 * Durability in accurate data access
 * Latency and speed
