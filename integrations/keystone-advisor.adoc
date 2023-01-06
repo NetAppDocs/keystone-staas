@@ -1,0 +1,22 @@
+---
+sidebar: sidebar
+permalink: integrations/keystone-advisor.html
+keywords: Keystone, Digital Advisor, keystone-aiq, digital advisor, keystone advisor
+summary: Keystone Advisor
+---
+
+= Keystone Advisor
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ../media/
+
+[.lead]
+If you have subscribed to NetApp Keystone services, you can view your usage reports and graphs on the Digital Advisor dashboard. 
+
+Digital Advisor enables you to view storage-as-a-service (STaaS) details and information on the NetApp infrastructure that you own. Digital Advisor provides a single dashboard view with visibility into capacity usage and trend data with the ability to create detailed reports. You can also manage your Keystone subscriptions through Digital Advisor with the ability to order new services for your subscription and update the capacity for any existing services.
+
+For more information about Digital Advisor, see https://docs.netapp.com/us-en/active-iq/task_view_keystone_capacity_utilization.html[Digital Advisor documentation].
+
+
