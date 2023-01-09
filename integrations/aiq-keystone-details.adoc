@@ -15,7 +15,14 @@ summary: Keystone Subscription details page
 [.lead]
 If you have subscribed to NetApp Keystone services, you can view your usage reports and graphs on the Digital Advisor dashboard, on the *Keystone Subscriptions* section.
 
-On clicking the *View more details* link, you can view the details of the subscription, the detailed graphs of your usage based on the subscribed service levels, and the volume details in the different tabs on this screen. 
+On clicking the *View more details* link, you can view the details of the subscription, the detailed graphs of your usage based on the subscribed service levels, and the volume details in the different tabs on this screen.
+
+The following usage indicators are used across tabs for marking consumptions within and outside of the committed capacity for a service level:
+
+image:usage-indicator.png[]
+
+[NOTE]
+When the capacity usage for a service level is maxed out above 80% of the committed capacity (within or above burst) there is an amber/orange indicator for the consumption column/graph. When the usage is within 80-120% of the committed capacity, the burst column/graph has a red indicator. For any usage above the limit (above the burst capacity of 120%), the burst usage columns/graphs are marked in purple.
 
 == Subscription Details
 This tab displays all your subscriptions. You can see the subscription number, tracking ID, billing period, such as quarterly or annual, start and end dates of the subscription, and how much of the subscription has been used or overused. 
@@ -27,7 +34,8 @@ For some subscriptions, you might be able to view notifications or warning messa
 
 image:aiq-ks-dtls.png[]
 
-You can expand a subscription to view the details of the service levels in the subscription. Based on whether your consumption is within the committed capacity for a service level or it is overused (burst), you can see green, orange, or violet usage indicators in the *Consumed* and *Current Burst* columns for that service level.
+You can expand a subscription to view the details of the service levels in the subscription. 
+
 
 == Subscription Time Series
 This tab displays historical data of your subscriptions for a specific period. The vertical graphs display the usage details across months with appropriate indicators for you to compare and generate reports.
