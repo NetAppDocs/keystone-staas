@@ -78,11 +78,6 @@ a|Keystone Collector software updates and usage reporting
 a|https://mirror.centos.org
 https://mirrorlist.centos.org 
 a|OS updates for Keystone Collector (OVA deployments only)
-a|https://auth.docker.io 	
-a|Docker registry authentication
-a|https://registry-1.docker.io 
-https://production.cloudflare.docker.com 
-a|General Docker Hub images including Keystone Collector pods
 a|https://support.netapp.com 
 a|NetApp HQ for billing information and AutoSupport delivery
 
