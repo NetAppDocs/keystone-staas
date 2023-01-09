@@ -1,5 +1,9 @@
 
-== Networking Requirements
+== Other requirements
+
+Endure that the following generic requirements are met:
+
+=== Networking Requirements
 
 The following table describes the networking requirements of Keystone Collector.
 [NOTE]
@@ -66,7 +70,7 @@ a|Keystone Collector health reporting
 
 |===
 
-== Requirement for URL access
+=== URL access
 
 Keystone Collector needs access to the following internet hosts:
 

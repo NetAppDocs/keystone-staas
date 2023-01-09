@@ -28,6 +28,6 @@ The same server should also have the following third-party packages:
 *	chrony 
 *	python 3 (3.6.8 to 3.9.13)
 
-include::generic-prereqs.adoc[]
+include::https://github.com/NetAppDocs/keystone-staas-internal/tree/installation/installation/generic-prereqs.adoc[]
 
 
