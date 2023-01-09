@@ -22,4 +22,4 @@ The Keystone Collector server virtual machine should have the following:
 * RAM: 12 GB RAM
 * Disk space: 200 GB vDisk
 
-include::generic-prereqs.adoc[]
+include::../installation/generic-prereqs.adoc[]
