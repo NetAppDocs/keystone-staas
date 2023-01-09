@@ -48,11 +48,11 @@ The Keystone Success Manager is a U.S. citizen operating on U.S. soil. The respo
 
 For information, see link:../concepts/uscs.html[U.S. Citizen Support (USCS)].
 
-== Generate service request
-During onboarding, if you were provided credentials for accessing and using the ServiceNow portal, you can raise service requests by generating support tickets: 
+== Generate service requests
+During onboarding, if you were provided credentials for accessing and using Netapp Keystone ServiceNow, you can use the portal to raise service requests for any service or system-related issues: 
 
 https://netappgssc.service-now.com/csm 
 
-Ensure that you have your system details, logs, and related information handy before raising the ticket. When you raise a ticket, the GSSC team can access the information for troubleshooting. You can follow your ServiceNow ticket for the status and resolution. 
+Ensure that you have the system details, logs, and related information handy before raising the service request. When you raise a service request, the GSSC team receives the support ticket and accesses the information for troubleshooting. You can follow your ServiceNow ticket for the status and resolution. 
 
-For information on adding support bundles, see link:../installation/monitor-health.html[Generate and collect support bundle]
+For information about adding support bundles, see link:../installation/monitor-health.html[Generate and collect support bundle]
