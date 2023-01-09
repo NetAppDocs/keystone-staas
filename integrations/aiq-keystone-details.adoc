@@ -47,7 +47,7 @@ This tab displays historical data of your subscriptions for a specific period. T
 . Click View Details. The historical consumption data for the selected time is displayed for each service level.
 
 
-image:aiq-ks-subtime.png[]
+image:aiq-ks-subtime-2.png[]
 
 == System Details
 Click this tab to view the details of the clusters in your environment.
