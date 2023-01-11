@@ -44,15 +44,13 @@ For more information, see:
 NetApp Global Services and Support Center (GSSC) monitors the health of your products and subscribed services, provides remote support, and collaborates with your Keystone Success Manager. All personnel monitoring the products associated with the relevant Keystone subscription orders are U.S citizens operating on U.S. soil.
 
 .Keystone Success Manager
-The Keystone Success Manager is a U.S. citizen operating on U.S. soil. The responsibilities are specified in your NetApp Keystone Agreement.
+The Keystone Success Manager (KSM) works closely with you on your Keystone services, and updates you on weekly or monthly billing and operational reports. The responsibilities are specified in your NetApp Keystone agreement.
 
-For information, see link:../concepts/uscs.html[U.S. Citizen Support (USCS)].
-
-== Generate service requests
-During onboarding, if you were provided credentials for accessing and using Netapp Keystone ServiceNow, you can use the portal to raise service requests for any service or system-related issues: 
+== Generating service requests
+During onboarding, if you were provided credentials for accessing and using Netapp Keystone ServiceNow, you can use the portal to generate service requests for issues related to your Keystone subscriptions: 
 
 https://netappgssc.service-now.com/csm 
 
-Ensure that you have the system details, logs, and related information handy before raising the service request. When you raise a service request, the GSSC team receives the support ticket and accesses the information for troubleshooting. You can follow your ServiceNow ticket for the status and resolution. 
+Ensure that you have the system details, logs, and related information ready before raising the service request. When you raise a service request, the GSSC team receives the support ticket and accesses the information for troubleshooting. You can follow your ServiceNow ticket for knowing the status and resolution.
 
-For information about adding support bundles, see link:../installation/monitor-health.html[Generate and collect support bundle]
+For information about adding support bundles, see link:../installation/monitor-health.html[Generate and collect support bundle].
