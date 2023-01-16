@@ -16,7 +16,7 @@ summary: Non-returnable, non-volatile components and SnapLock compliance
 As a part of NetApp Keystone subscription, NetApp extends the non-returnable, non-volatile components (NRNVC) offering for your file, block, and object services.
 
 You can subscribe to this add-on services as a part of your Keystone subscription.
-For information about the base storage and cloud storage service, see link:supported-storage-services.html[Supported storage services].
+For information about the standard and cloud services, see link:supported-storage-services.html[Keystone STaaS services].
 
 For information about Service Levels, see link:../concepts/service-levels.html[Service Levels in Keystone].
 
@@ -26,7 +26,7 @@ If you have purchased this service, note the following:
 
 * You do not need to return any drives and nonvolatile memory at end of the service term or if they failed or found defective during the service term.
 * However, you need to produce a certificate of destruction for the drives and/or nonvolatile memory and cannot be used for any other purpose.
-* The additional cost associated with the NRNVC is charged as a percentage of the total storage service (includes storage service, Advanced Data Protection, and data tiering) monthly bill.
+* The additional cost associated with the NRNVC is charged as a percentage of the total subscription service (includes standard service, Advanced Data Protection, and data tiering) monthly bill.
 * This service is applicable only to file, block, and object services.
 
 == SnapLock compliance

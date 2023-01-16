@@ -10,15 +10,39 @@ sidebar:
   entries:
     - title: Keystone docs
       url: "/index.html"
-    - title: Get started
+    - title: Welcome to Keystone
+      url: /concepts/overview.html
+    - title: Set up and configure Keystone
       entries:
-        - title: Learn about Keystone
-          url: /concepts/overview.html
-        - title: Supported storage capacity in Keystone
+        - title: What is Keystone Collector
+          url: /installation/installation-overview.html
+        - title: Prerequisites for installation
+          entries:
+            - title: VMware vSphere prerequisites
+              url: /installation/vapp-prereqs.html
+            - title: Linux prerequisites
+              url: /installation/linux-prereqs.html
+            - title: Active IQ Unified Manager configurations
+              url: /installation/aiqum-req.html
+        - title: Installation procedure
+          entries:
+            - title: VMware vSphere deployment
+              url: /installation/vapp-installation.html
+            - title: Linux installation
+              url: /installation/linux-installation.html
+            - title: Automatic integrity validation
+              url: /installation/validation.html
+        - title: Configure Keystone Collector
+          url: /installation/configuration.html
+        - title: Monitor system health
+          url: /installation/monitor-health.html
+    - title: Learn about Keystone
+      entries:    
+        - title: Supported storage capacity
           url: /concepts/supported-storage-capacity.html
-        - title: Metrics and definitions of Keystone Services
+        - title: Metrics and definitions
           url: /concepts/metrics.html
-        - title: Supported storage services in Keystone
+        - title: Supported storage in Keystone
           url: /concepts/supported-storage-services.html
         - title: Service Levels in Keystone
           url: /concepts/service-levels.html
@@ -83,24 +107,26 @@ homepage:
       links:
         - title: What is NetApp Keystone?
           url: /concepts/overview.html
+        - title: Installing Keystone Collector on VMware vSphere
+          url: /installation/vapp-installation.html
+        - title: Installing Keystone Collector on Linux
+          url: /installation/linux-installation.html    
         - title: What are the units of measurement?
           url: /concepts/metrics.html
         - title: What is the supported base storage?
           url: /concepts/supported-storage-services.html
-        - title: What is data tiering?
-          url: /concepts/data-tiering.html
-        - title: Is my Keystone data protected?
-          url: /concepts/adp.html
-    - title: Service Levels in Keystone
+        - title: How can I see my consumption data?
+          url: /integrations/keystone-aiq.html        
+    - title: Supported services in Keystone
       links:
         - title: Keystone Service Levels
           url: /concepts/service-levels.html
         - title: Quality of Service (QoS)
           url: /concepts/qos.html
-        - title: Capacity requirements for Service Levels
-          url: /concepts/capacity-requirements.html
-        - title: How can I see my consumption data?
-          url: /integrations/keystone-aiq.html  
+        - title: What is data tiering?
+          url: /concepts/data-tiering.html
+        - title: Is my Keystone data protected?
+          url: /concepts/adp.html
     - title: Keystone pricing
       links:
       - title: Know about Keystone billing

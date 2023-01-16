@@ -1,0 +1,57 @@
+---
+sidebar: sidebar
+permalink: installation/vapp-installation.html
+keywords: install, VMware
+summary: installing Keystone collector on VMware systems
+---
+
+= Deploy Keystone Collector on VMware vSphere systems
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ../media/
+
+[.lead]
+Deploying Keystone Collector on VMware vSphere systems includes downloading the OVA template, deploying the template by using the *Deploy OVF Template* wizard, verifying the integrity of the certificates, and verifying the readiness of the VM.
+
+== Deploying the OVA template
+Follow these steps:
+
+.Steps
+
+. Download the OVA file from https://keystone.netapp.com/downloads/KeystoneCollector-latest.ova and store it on your VMware vSphere system.
+. On your VMware vSphere system, navigate to the *VMs and Templates* view. 
+. Right click on the required folder for the virtual machine (VM) (or data center, if not using VM folders) and select *Deploy OVF Template*.
+. On _Step 1_ of the *Deploy OVF Template* wizard, click *Select and OVF template* to select the downloaded `KeystoneCollector-latest.ova` file.
+. On _Step 2_, specify the VM name and select the VM folder.
+. On _Step 3_, specify the required compute resource that is to run the VM.
+. On _Step 4: Review details_, verify the correctness and authenticity of the OVA. The product name should appear as _NetApp Keystone Collector_.
+image:ova-deploy.png[]
+vCentre validates the integrity of the OVA contents and that a valid code-signing digest is provided for the files contained in the OVA. However, it does not validate the authenticity of the code-signing certificate. For verifying the integrity, you should download the full signing digest certificate, and verify it against the public certificate published by Keystone.
+.. Click the *Publisher* link to download the full signing digest certificate.
+.. Download the _Keystone Billing_ public certificate: https://keystone.netapp.com/downloads/OVA-SSL-NetApp-Keystone-20221101.pem.
+.. Verify the authenticity of the OVA signing certificate against the public certificate by using OpenSSL:
+`openssl verify -CAfile OVA-SSL-NetApp-Keystone-20221101.pem keystone-collector.cert`
+. On _Step 5_ of the *Deploy OVF Template* wizard, specify the location for storing the VM.
+. On _Step 6_, select the destination network for the VM to utilize.
+. On _Step 7 Customize template_, specify the initial network address and password for the admin user account. 
+[NOTE]
+The admin password is stored in a reversible format in vCentre, and should be used as a bootstrap credential to gain initial access to the VMware vSphere system. During the initial software configuration, this admin password should be changed. The subnet mask for the IPv4 address should be supplied in CIDR notation. For example, use the value of 24 for a subnet mask of 255.255.255.0.
+. On _Step 8 Ready to complete_ of the *Deploy OVF Template* wizard, review the configuration and verify that you have correctly set the parameters for the OVA deployment.
+
+After the VM has been deployed from the template and powered on, open an SSH session to the VM and log in with the temporary admin credentials to verify that the VM is ready for configuration.
+
+
+== Initial System Configuration
+Perform these steps on your VMware vSphere systems for an initial configuration of Keystone Collector servers deployed through OVA:
+
+[NOTE]
+On completing the deployment, you can use the Keystone Collector Management Terminal User Interface (TUI) utility to perform the configuration and monitoring activities. You can use various keyboard controls, such as the Enter and arrow keys, to select the options and navigate across this TUI.
+
+. Open an SSH session to the Keystone Collector server. On login, the TUI appears. You can also launch the TUI manually by running the `keystone-collector-tui` CLI command.
+. If required, configure the proxy details in the *Configuration > Network* section on the TUI. 
+. Update the system/collector by using the *Maintenance > Update System* option. Some mirrors that are selected might be unavailable, and the system details are updated after a few retries. 
+. Configure the system hostname, location, and NTP server in the *Configuration > System* section.
+. Update the admin password in the *Maintenance > User* section.
+. Mark the initial OVA configuration as complete in the *Configuration > Advanced* section.

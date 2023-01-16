@@ -13,38 +13,43 @@ summary: Supported service levels
 :imagesdir: ../media/
 
 [.lead]
-Keystone offers services to you in a subscription model by providing committed storage capacity and associating it with predefined service levels.
+Keystone STaaS offers data storage capacity at pre-defined performance service levels (service levels) on a subscription basis. 
 
-Each service level is defined by its I/O density, which is the ratio of performance (input/output operations per second [IOPS]) and used storage (TiB of stored data), which is IOPS/TiB.
+Service levels are defined by:
 
-Each volume managed by the Keystone services is associated with a service level. All I/O operations and all used storage on the respective volume are factored into the volume’s I/O density calculation.
+* Average latency
+* Maximum IOPS per logical TiB stored per volume
 
-== Service levels for difference storage types
+A volume must be associated with a service level. 
+
+== Service levels for supported storage
 The service levels for file, block, object, and cloud services are listed here.
 
-I/O density calculations at the volume level are reported to show peak I/O density during the prior week. The peak performance is determined on an hourly time interval. I/O density reports by volume are generated monthly to gauge adherence to the respective service levels.
+// I/O density calculations at the volume level are reported to show peak I/O density during the prior week. The peak performance is determined on an hourly time interval. I/O density reports by volume are generated monthly to gauge adherence to the respective service levels.
 
-=== File and block services
+=== File and block storage
 *Supported protocols*: NFS, CIFS, iSCSI, and FC
 
 |===
 |*Service level* |*Extreme* |*Premium* | *Performance* |*Standard* |*Value*
-|*Workload type* |Analytics, databases, mission-critical apps |VDI, VSI, software development | OLTP, OLAP, containers, software development
+|*Sample workload types* |Analytics, databases, mission-critical apps |VDI, VSI, software development | OLTP, OLAP, containers, software development
  |File shares, web servers |Backup
-|*Max IOPS/TiB* |12,288 |4,096 |2,048 | 512 |128
-|*Max throughput MBps/TiB* |384 |128 |64 |16 |4
-|*Latency* |<1 ms |<1 ms |<1 ms |<17 ms |<17 ms
+|*Maximum IOPS/logical TiBs stored per volume* |12,288 |4,096 |2,048 | 512 |128
+|*Maximum MBps/logical TiBs stored per volume* |384 |128 |64 |16 |4
+|*Latency* |<1 ms |<2 ms |<4 ms |<17 ms |<17 ms
 
 |===
 
 [NOTE]
-Note:
+Note the following points for throughput performance metrics (applicable only for file and block services):
 
-* Throughput performance metrics (applicable only to file and block services) are based on:
-** 32KB block sizes
-** 70% read/30% write IO mix
-* Actual IOPS/TiB and/or MBps/TiB varies based on workload characteristics.
-* Latency does not include application, host, or customer network latency to or from the controller ports.
+* File and block service levels are based on ONTAP 9.7 and later.
+* IOPS/TiB and latency values for service levels are based on the amount of logical data stored in the volume, 32 KB block size, and a random mix of 70% read and /30% write IO.
+* Actual IOPS/TiB and/or MBps/TiB varies based on workload concurrency and usage patterns.
+* Latency does not include the following:
+** The applications, hosts, or customer network latency to or from the controller ports.
+** The latency automatically applied by QoS to keep IO within service level maximums.
+* When using the Advanced Data Protection add-on service, the target latency applies to servicing IO requests from the local Keystone products only.
 
 === Object storage
 *Supported protocol*: S3
@@ -52,32 +57,26 @@ Note:
 |===
 |*Service level* | Object
 |*Workload type* |Media repository, archiving
-|*Target IOPS/TiB*
+|*Maximum IOPS/logical TiB stored per volume*
 |N/A
-|*Max IOPS/TiB* |N/A
-|*Max throughput MBps (32KB/IOP)* |N/A
-|*Latency* |N/A
+|*Maximum MBps/logical TiB stored per volume* |N/A
+|*Average Latency* |N/A
 
 |===
 
 [NOTE]
-Note:
-
-* Actual IOPS/TiB and/or MBps/TiB varies based on workload characteristics.
-* Latency does not include application, host, or customer network latency to or from the controller ports.
+Latency does not include overheads associated with data transfer to the object store in case of FabricPool storage.
 
 === Cloud storage
-*Supported protocol*: NFS, CIFS, iSCSI
+*Supported protocol*: NFS, CIFS, iSCSI, and S3 (AWS and Azure only)
 
 |===
-|*Service level* | Cloud Volumes ONTAP®**
-(all cloud)
+|*Service level* | Cloud Volumes ONTAP®
 |*Workload type* |Disaster Recovery, software development/testing, business apps
-|*Target IOPS/TiB*
+|*Maximum IOPS/logical TiB stored per volume*
 |N/A
-|*Max IOPS/TiB* |N/A
-|*Max throughput MBps (32KB/IOP)* |N/A
-|*Latency* |N/A
+|*Maximum MBps/logical TiB stored per volume* |N/A
+|*Average Latency* |N/A
 
 |===
 

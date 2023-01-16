@@ -13,18 +13,18 @@ summary: Metrics calculations and definitions of Keystone Services
 :imagesdir: ../media/
 
 [.lead]
-The following terms and definitions are used within the NetApp Keystone (Keystone) service to measure metrics:
+The following terms and definitions are used within the NetApp Keystone (Keystone) STaaS service to measure metrics:
 
 * Capacity measurement units: GiB, TiB, and PiB
-* IO density: IOPS/TiB: Number of input/output operations processed per second based on the total space that is being consumed by the workload, in terabytes.
+* IO density: IOPS/TiB: Number of input/output operations processed per second based on the total space that is being consumed by the workload, in tebibytes.
 * Service availability
 * Durability in accurate data access
 * Latency and speed
 
 == Metrics measurement
 
-* *Capacity measument in GiB, TiB, and PiB.*: Measurements of data storage capacity using base of 1024 (1 GiB = 1024^3^ bytes, 1 TiB = 1024^4^ bytes, and 1PiB = 1024^5^ bytes).
-* *Operations counter chart: IOPS/TiB.* The protocol operations per second, requested by the application, divided by the size of the volume used by workloads.
+* *Capacity measurement in GiB, TiB, and PiB*: Measurements of data storage capacity using base of 1024 (1 GiB = 1024^3^ bytes, 1 TiB = 1024^4^ bytes, and 1PiB = 1024^5^ bytes).
+* *Operations counter chart in IOPS/TiB*: The protocol operations per second, requested by the application, divided by the size of the volume used by workloads.
 * *Availability*: Measured as a percentage of the number of I/O requests successfully responded to by the service, divided by total number of I/O requests made to the service. This is measured at the service demarcation in a month, and does not include the scheduled service downtime or unavailability of the facilities, network, or other services provided by the customer.
 * *Durability*: Percentage of data accessed without loss of fidelity, excluding customer-caused deletion or corruption.
 * *Latency*: Time to service an I/O request received from a client, measured at the service demarcation (storage controller I/O port).
