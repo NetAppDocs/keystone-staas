@@ -1,0 +1,90 @@
+
+== Other requirements
+
+Endure that the following generic requirements are met:
+
+=== Networking Requirements
+
+The following table describes the networking requirements of Keystone Collector.
+[NOTE]
+Keystone Collector requires internet connectivity. You can provide internet connectivity by direct routing through default Gateway (via NAT), or through HTTP Proxy. Both variants are described here.
+
+|===
+
+|Source |Destination |Service |Protocol and Ports |Category |Purpose
+
+a|Keystone Collector
+a|Active IQ Unified Manager (Unified Manager)
+a|HTTPS
+a|TCP 443
+a|Mandatory
+a|Keystone Collector usage metrics collection
+a|Keystone Collector
+a|Internet (as per URL requirements given later)
+a|HTTP, HTTPS
+a|TCP 80, TCP 443
+a|Mandatory (internet connectivity)
+a|Keystone Collector software, OS updates, and metrics upload
+a|Keystone Collector
+a|Customer HTTP Proxy
+a|HTTP Proxy 
+a|Customer Proxy Port
+a|Mandatory (internet connectivity)
+a|Keystone Collector software, OS updates, and metrics upload
+a|Keystone Collector
+a|Customer DNS Servers
+a|DNS
+a|TCP/UDP 53
+a|Mandatory 
+a|DNS resolution
+a|Keystone Collector
+a|Customer NTP Servers
+a|NTP
+a|UDP 123
+a|Mandatory
+a|Time synchronization
+a|Customer's Operations Workstations
+a|Keystone Collector
+a|SSH
+a|TCP 22
+a|Management
+a|Access to the Keystone Collector Management
+a|NetApp ONTAP Cluster and Node Management Addresses
+a|Keystone Collector
+a|HTTP_8000, PING
+a|TCP 8000, ICMP Echo Request/Reply
+a|Optional Functionality
+a|Webserver for ONTAP firmware updates
+a|Keystone Collector
+a|Unified Manager
+a|MYSQL
+a|TCP 3306
+a|Optional Functionality
+a|Performance metrics collection for Keystone Collector
+a|Keystone Collector
+a|Customer Monitoring System
+a|HTTP
+a|TCP 777
+a|Optional Functionality
+a|Keystone Collector health reporting
+
+|===
+
+=== URL access
+
+Keystone Collector needs access to the following internet hosts:
+
+|===
+
+|Address |Reason 
+a|https://keystone.netapp.com
+a|Keystone Collector software updates and usage reporting
+a|https://support.netapp.com 
+a|NetApp HQ for billing information and AutoSupport delivery
+a|https://mirror.centos.org
+https://mirrorlist.centos.org 
+a|OS updates for Keystone Collector (OVA deployments only)
+a|http://repo.mysql.com
+a|Download and update mysql dependencies (for Linux deployments only)
+
+|===

@@ -13,7 +13,7 @@ summary: Infrastructure components
 :imagesdir: ../media/
 
 [.lead]
-This section lists the components required to enable NetApp Keystone services in your environment.
+This section lists the components required to enable NetApp Keystone STaaS services in your environment.
 
 == Site requirements
 There are some site-specific requirements, such as space, racks, PDUs, power, and cooling, with additional network and security requirements discussed here.
