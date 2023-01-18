@@ -5,7 +5,7 @@ keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keys
 summary: Keystone Subscription details page
 ---
 
-= Keystone Subscription details page
+= Keystone Subscription dashboard and reporting
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,37 +13,43 @@ summary: Keystone Subscription details page
 :imagesdir: ../media/
 
 [.lead]
-If you have subscribed to NetApp Keystone services, you can view your usage reports and graphs on the *Keystone Subscriptions* panel on the Digital Advisor dashboard.
+If you have subscribed to NetApp Keystone STaaS services, you can monitor your usage on the *Keystone Subscriptions* panel on the Digital Advisor dashboard.
 
-image:ks-panel.png[]
-
-To view more details, click *View more details* link on the *Keystone Subscriptions* panel. Alternately, from the left navigation pane, go to *GENERAL > Keystone Subscription*. 
+Click *View More Details* to view more details on your usage and alerts on your volumes on the *Keystone Subscription* page. Alternately, from the left navigation pane, go to *GENERAL > Keystone Subscription*. 
 
 You can view the details of the subscriptions, usage charts for each service level, and volume details, in the different tabs on this screen.
 
 [NOTE]
-Capacity consumption values for Keystone subscriptions are displayed in TiBs on the dashboards and reports. If the usage is less than 0.01 TiB, then the value is shown as `0` or in the respective decimal value (up to two decimal places), or represented as `No Usage`.
+Capacity consumption for Keystone subscriptions is displayed in TiBs on the dashboards and reports, up to two decimal places. If the usage is less than 0.01 TiB, then the value is shown as 0 or `No Usage`. For other usage metrics, see link:../concepts/metrics.html#metrics-measurement[Metrics measurement].
 
 == Subscription Details
-This tab displays all your subscriptions. You can see the subscription number, tracking ID, billing period, such as quarterly or annual, start and end dates of the subscription, and how much of the subscription has been used or overused. 
-
-You can click the image:aiq-ks-time-icon.png[] icon to view the usage breakup in terms of service levels in the *Subscription Time Series* tab.
+This tab displays all the subscriptions on the account name.
 
 image:aiq-ks-dtls.png[]
 
-You can expand a subscription to view the details of the service levels in the subscription. 
+For each subscription you can see the following information:
 
-The following usage indicators are used across tabs for marking consumptions within and outside of the committed capacity for a service level.
+* *Subscription Number*: The subscription number of the Keystone subscription assigned by NetApp.
+* *Tracking ID*: The tracking ID assigned at the time of subscription activation. This is a unique ID for each subscription and site, used for tracking the subscription.
+* *Billing Period*: The billing period of the subscription, such as monthly, quarterly, or annual.
+* *Start Date*: The start date of the subscription.
+* *End date*: The end date of the subscription. You might see information messages for subscriptions that are about to expire or pass into a stipulated grace period, based on this date.
+* *Usage Status*: Indicates how much of the subscription has been used or overused. You can sort by this column if you want to view the highest consumption records.
+* image:aiq-ks-time-icon.png[]: You can click this icon to view the historical usage for all the service levels in this subscription in the *Subscription Time Series* tab. 
+
+You can see more details of a subscription record by clicking the downward arrow for the record. You can see the details, such as the service level name, committed, consumed, and available capacities, and current and accrued burst in TiB. Specific service levels that record higher consumption are highlighted.
+
+You can refer to the following usage indicators to check the usage status of each subscription.
 
 image:usage-indicator.png[]
 
 .Index
 
-image:icon-grey.png[]: Indicates that there has not been any capacity usage against the committed capacity of the service level. This color is applicable for the consumption charts and columns.
-image:icon-green.png[]: Indicates that the consumption is normal, within 80% of the committed capacity. This color is applicable for the consumption charts and columns.
-image:icon-amber.png[]: Indicates maximum consumption, that is the usage is about to reach 100% or more of the committed capacity. This color is applicable for the *Usage Status* and *Consumed* columns.
-image:icon-red.png[]: Indicates burst consumption, that is within 80-120% of the committed capacity. This color is applicable for the *Usage Status* and *Current Burst* columns.
-image:icon-purple.png[]: Indicates consumption above limit or above burst usage, that is over 120% of the committed capacity. This color is applicable for the *Usage Status* and *Current Burst* columns.
+image:icon-grey.png[]: Indicates that there has not been any capacity usage against the committed capacity of the service level. 
+image:icon-green.png[]: Indicates that the consumption is normal, within 80% of the committed capacity. 
+image:icon-amber.png[]: Indicates maximum consumption, that is the usage is about to reach 100% or more of the committed capacity. The *Consumed* column displays this indicator for maximum (100%), burst, and above burst consumption.
+image:icon-red.png[]: Indicates that the consumption is within the burst consumption limit. The burst consumption is the consumption that tops the 100% committed capacity of a service level, and is within the agreed-upon burst usage limit, such as 120%.
+image:icon-purple.png[]: Indicates consumption above limit or above the stipulated burst usage capacity.
 
 == Subscription Time Series
 This tab displays historical data of your subscriptions for a specific period. The vertical graphs display the usage details for the selected time range with appropriate indicators for you to compare and generate reports. 
@@ -52,25 +58,34 @@ This tab displays historical data of your subscriptions for a specific period. T
 . Click the *Subscription Time Series* tab.
 . Select the required subscription for which you want to view the details.
 . Select the time range from the calendar icons in the *From Date* and *To Date* fields. The default time range selected is from the start date of the billing period to the current date.
-. Click *View Details*. The historical consumption data of the subscription for each service level is displayed based on the selected time range.
+. Click *View Details*. The historical consumption data of the subscription for each service level is displayed based on the selected time range. You can hover your mouse cursor over the charts to view the usage breakdown in terms of committed, consumed, burst, and above limit at that data collection point.
 
 image:aiq-ks-subtime-2.png[]
 
 The following details are displayed:
 
-* *Current Consumed*: This gauge/donut chart indicates the consumed capacity for a service level for the billing period. This chart is grey, green, or amber color-coded to indicate none, normal, or max usage respectively.
-* *Current Burst*: This gauge/donut chart indicates the consumed capacity for a service level that is within or above the burst limit. for a service level, any usage between 100 and 120% of the committed capacity is within burst, and above that is `Above Limit`. This chart can be grey, red, or purple to indicate none, burst, or above limit usage respectively.
-* *Accrued Burst*: The accrued burst capacity is calculated per month for the current billing period. The accrued burst usage is calculated based on the committed and provisioned capacity for a service level as `(Provisioned - Committed)/365.25/12`.
-* *Time Series*: The bar charts display the capacity usage for the time selected. The date and time of the collection is displayed at the bottom of the chart. The charts can be of the following colors:
-** Green: Indicating usage within 80% of the committed capacity.
-** Red: Indicating burst usage (80%-120% of the committed capacity for the service level).
-** Purple: Indicating usage above the burst limit.
-** Grey: Indicating provisional usage. Provisional usage data is recorded when the exact data for the time period is not available and is substituted by the data collected at the previous data collection point.
+* *Current Consumed*: This gauge/donut chart indicates the consumed capacity for a service level for the billing period. This chart uses specific color codes:
+** Grey: None
+** Green: Usage within 80% of the committed capacity
+** Amber: Above 80%, burst, or above burst usage
+* *Current Burst*: This gauge/donut chart indicates the consumed capacity for a service level that is within or above the burst limit. For a service level, any usage between 100% and burst capacity agreed upon, for example 120% of the committed capacity, is within burst. Capacity usage above burst is `Above Limit`. This chart can display specific colors to indicate the following usage:
+** Grey: None
+** Red: Burst 
+** Purple: Above burst limit 
+* *Accrued Burst*: The accrued burst usage or used capacity is calculated per month for the current billing period. The accrued burst usage is calculated based on the committed and consumed capacity for a service level as `(consumed - committed)/365.25/12`.
+* *Time Series*: The bar charts display the capacity usage for the time selected. The date and time of the collection is displayed at the bottom of the chart. The charts can be of the following colors indicating usage with respect to the committed capacity for the service level:
+** Green: Within 80% 
+** Amber: 80% - 100% 
+** Red: Burst usage (100% to the agreed burst capacity)
+** Purple: Above the burst limit
+** Grey: Provisional usage - usage recorded when the exact data for the time period is unavailable and is substituted by the data collected at the previous data collection point
 
 == System Details
-Click this tab to view the volume details for the clusters in your storage environment managed by a Keystone subscription.
+Click this tab to view the details of each volume in your storage environment managed by a Keystone subscription.
 
 image:aiq-ks-sysdtls.png[]
+
+You can sort by and filter the list by the columns and view specific information. You can copy individual node serial numbers by clicking the *Copy Node Serials* button.
 
 
 == Generating reports
@@ -83,11 +98,14 @@ A sample report for the *Subscription Time Series* tab, where the graphical data
 image:report.png[]
 
 == Alerts
-If certain issues or events are detected in the storage system that is managed by your Keystone STaaS subscriptions, you can see alerts informing or cautioning you of these issues. 
+Alerts on the dashboard send caution messages that enable you to understand any issues occurring in the storage environment. 
 
-For example, you can see an information icon for subscriptions nearing an end or reaching the grace period.
+The alerts can be of two types:
 
-Issues, such as non compliance, are displayed as warnings. For example, if there are volumes within your managed clusters that do not have AQoS policies attached, you can view a warning message. For information about AQoS policies, see link:../concepts/qos.html[Adaptive QoS].
+* Information: For issues, such as your subscriptions nearing an end or reaching the grace period, you can see information alerts. Hover your cursor over them to understand more about the issue.
+* Warning: Issues, such as non compliance, are displayed as warnings. For example, if there are volumes within your managed clusters that do not have AQoS policies attached, you can see a warning message. You can click the link on the warning message to see the list of the non-compliant volumes on the *System Details* tab.
+
+For information about AQoS policies, see link:../concepts/qos.html[Adaptive QoS].
 
 image:alert-aiq.png[]
 

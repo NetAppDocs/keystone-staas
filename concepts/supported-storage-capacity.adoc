@@ -38,15 +38,15 @@ Consumed capacity refers to the capacity (in TiB of storage) currently being con
 Keystone service considers the sum of the logical used sizes (not the physical capacity used) of all volumes on a particular service level to calculate the consumed capacity for that service level.
 
 == Burst capacity
-This is the consumed capacity that has exceeded the committed capacity.
+Any consumption exceeding the committed capacity for a service level is the burst capacity.
 
 
 [NOTE]
 Note:
 
-** Keystone service provides additional capacity for use on top of the committed capacity. This is the burst capacity.
+** Keystone service enables you to use additional capacity on top of the committed capacity for a service level. This is the burst capacity.
 ** Burst capacity can be consumed on an elastic basis and is charged on a daily basis for the consumed average.
-** Burst capacity usually up to 20% above the committed capacity, and is charged at the same rate as the committed capacity.
+** Burst capacity is agreed upon in the Keystone agreement. It is usually set up to 20% above the committed capacity, and is charged at the same rate as the committed capacity.
 
 == Billed capacity
 Monthly bill = (committed capacity [TiB] * committed rate [$/TiB]) + (daily average provisioned burst capacity [TiB] * burst rate [$/TiB]). The monthly bill contains a minimum charge based on the committed capacity.
