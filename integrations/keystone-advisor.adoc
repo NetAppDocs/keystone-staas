@@ -13,10 +13,15 @@ summary: Keystone Advisor
 :imagesdir: ../media/
 
 [.lead]
-If you have subscribed to NetApp Keystone services, you can view your usage reports and graphs on the Digital Advisor dashboard. 
-
-Digital Advisor enables you to view storage-as-a-service (STaaS) details and information on the NetApp infrastructure that you own. Digital Advisor provides a single dashboard view with visibility into capacity usage and trend data with the ability to create detailed reports. You can also manage your Keystone subscriptions through Digital Advisor with the ability to order new services for your subscription and update the capacity for any existing services.
+Keystone is a pay-as-you-grow subscription-based service model that delivers a seamless hybrid cloud experience for those preferring OPEX consumption models to upfront CAPEX or leasing. Keystone Advisor, embedded in Digital Advisor, calculates, and provides recommendations and price related details of different subscription plans of Keystone.
 
 For more information about Digital Advisor, see https://docs.netapp.com/us-en/active-iq/task_view_keystone_capacity_utilization.html[Digital Advisor documentation].
+
+.Steps
+. From the *Subscription Cluster Advisor*, select a cluster to view the pricing details for the subscriptions.
+. From *Subscription Options*, select the currency and the number of years.
+. Click *Calculate Price*. Based on the selection, the price and the capacity details are updated for each subscription.
+. Click *Consult* to navigate to Fusion for more information.
+
 
 
