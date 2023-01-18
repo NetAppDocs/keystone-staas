@@ -13,7 +13,7 @@ summary: Supported storage capacities
 :imagesdir: ../media/
 
 [.lead]
-The NetApp Keystone service capacities include:
+The NetApp Keystone STaaS service capacities include:
 
 == Logical capacity
 This is the data placed on the Keystone infrastructure by a customer. All Keystone capacities refer to a logical capacity.
