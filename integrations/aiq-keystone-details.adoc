@@ -35,11 +35,11 @@ For each subscription number, you can see the following information:
 * *Tracking ID*: The tracking ID assigned at the time of subscription activation. This is a unique ID for each subscription and site, used for tracking the subscription.
 * *Billing Period*: The billing period of the subscription, such as monthly, quarterly, or annual.
 * *Start Date*: The start date of the subscription.
-* *End date*: The end date of the subscription. Based on this date, you might see information messages for subscriptions that are about to expire or pass into a stipulated grace period.
-* *Usage Status*: Indicates how much of the subscription has been used or overused. You can sort by this column if you want to view the highest consumption records.
+* *End date*: The end date of the subscription. Based on this date, you might see information messages for subscriptions that are nearing expiry or a stipulated grace period.
+* *Usage Status*: Indicates how much of the subscription has been used or overused. You can sort the list by this column if you want to view the highest consumption records.
 * image:aiq-ks-time-icon.png[]: Clicking this icon opens the *Subscription Time Series* tab where you can see the historical usage data for each service level included in this subscription
 
-You can see more details by clicking the downward arrow for the subscription record. Details, such as the service level name, committed, consumed, available capacities, and current and accrued burst usage are displayed in TiB. Specific service levels that record higher consumption are highlighted. Any warnings and alerts generated for your volumes are also displayed.
+You can see more details by clicking the downward arrow for a subscription record. Details, such as the service level name, committed, consumed, available capacities, and current and accrued burst usage are displayed in TiB. Specific service levels that record higher consumption are highlighted. Any warnings and alerts generated for your volumes are also displayed.
 
 You can refer to the following usage indicators to check the usage status of each subscription:
 
@@ -47,11 +47,11 @@ image:usage-indicator.png[]
 
 .Index
 
-image:icon-grey.png[]: Indicates that there has not been any capacity usage against the committed capacity of the service level. 
-image:icon-green.png[]: Indicates that the consumption is normal, within 80% of the committed capacity. 
-image:icon-amber.png[]: Indicates maximum consumption, that is the usage is about to reach 100% or more of the committed capacity. The *Consumed* column displays this indicator for any consumption above 80% of the committed capacity.
-image:icon-red.png[]: Indicates that the consumption is within the burst limit. The burst consumption is the consumption that tops the 100% committed capacity of a service level, and is within the agreed-upon burst usage limit, such as 120%.
-image:icon-purple.png[]: Indicates consumption above the stipulated burst limit.
+image:icon-grey.png[]: No capacity usage recorded against the committed capacity of the service level
+image:icon-green.png[]: The consumption is normal, within 80% of the committed capacity
+image:icon-amber.png[]: Maximum consumption, that is the usage is about to reach 100% or more of the committed capacity. The *Consumed* column displays this indicator for any consumption above 80% of the committed capacity
+image:icon-red.png[]: The consumption is within the burst limit. The burst consumption is the consumption that tops the 100% committed capacity of a service level, and is within the agreed-upon burst usage limit, such as 120%
+image:icon-purple.png[]: Indicates consumption above the stipulated burst limit
 
 == Subscription Time Series
 This tab displays historical data of your subscriptions for a specific period. The vertical graphs display the usage details for the selected time range with appropriate indicators for you to compare and generate reports. 
@@ -74,13 +74,13 @@ The following details are displayed:
 ** Grey: None
 ** Red: Burst 
 ** Purple: Above the burst limit 
-* *Accrued Burst*: The accrued burst usage or used capacity is calculated per month for the current billing period. The accrued burst usage is calculated based on the committed and consumed capacity for a service level as `(consumed - committed)/365.25/12`.
+* *Accrued Burst*: The accrued burst usage or used capacity is calculated per month for the current billing period. The accrued burst usage is calculated based on the committed and consumed capacity for a service level: `(consumed - committed)/365.25/12`
 * *Time Series*: The bar charts display the capacity usage for the time selected. The date and time of the collection are displayed at the bottom of the chart. The bar charts appear in these colors to indicate usage:
 ** Green: Within 80% 
 ** Amber: 80% - 100% 
 ** Red: Burst usage (100% of the committed capacity to the agreed burst limit)
 ** Purple: Above the burst limit or `Above Limit`
-** Grey: Provisional usage - usage recorded when the exact data for the time period is unavailable and is substituted by the data collected at the previous data collection point
+** Grey: Provisional usage - usage recorded when the exact data for the time period is unavailable and is substituted by the data available at the previous data collection point
 
 == System Details
 Click this tab to view the details of each volume in your storage environment managed by a Keystone subscription.
@@ -111,4 +111,4 @@ For information about AQoS policies, see link:../concepts/qos.html[Adaptive QoS]
 
 image:alert-aiq.png[]
 
-Contact support for more information on these caution and warning messages. See link:../concepts/gssc.html[Generating service requests].
+Contact support for more information on these caution and warning messages. For information, see link:../concepts/gssc.html[Generating service requests].

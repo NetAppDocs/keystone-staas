@@ -129,7 +129,7 @@ homepage:
           url: /concepts/data-tiering.html
         - title: Is my Keystone data protected?
           url: /concepts/adp.html
-        - title: How can I see my consumptions per service level?
+        - title: How can I see my consumption per service level?
           url: /integrations/aiq-keystone-details.html 
     - title: Keystone pricing
       links:
