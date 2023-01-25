@@ -13,12 +13,12 @@ summary: Quality of Service in Keystone
 :imagesdir: ../media/
 
 [.lead]
-Storage quality of service (QoS) is a critical technology that ensures that applications obtain consistent and predictable performance. Without QoS, certain workloads like booting of multiple systems can take up entire resources for a period and affect other workloads. For information about QoS, see https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html[Guarantee throughput with QoS overview].
+Storage quality of service (QoS) is a critical technology that ensures that applications obtain consistent and predictable performance. Without QoS, certain workloads like booting of multiple systems can take up entire resources for a period and affect other workloads. For information about QoS, see https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html[Guarantee throughput with QoS overview^].
 
-Applying QoS ensures that applications get consistent performance every time. NetApp ONTAP defines two parameters for QoS: ceilings- https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html#about-throughput-ceilings-qos-max[QoS Max], and throughput floor- https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html#about-throughput-floors-qos-min[QoS Min]. QoS Max represents the maximum number of IOPS or MBps or IOPS and MBps a workload can achieve. On the other hand, QoS Min guarantees that the throughput for a workload is not below a certain number of IOPS or Mbps, or IOPS and MBps. 
+Applying QoS ensures that applications get consistent performance every time. NetApp ONTAP defines two parameters for QoS: ceilings- https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html#about-throughput-ceilings-qos-max[QoS Max^], and throughput floor- https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html#about-throughput-floors-qos-min[QoS Min^]. QoS Max represents the maximum number of IOPS or MBps or IOPS and MBps a workload can achieve. On the other hand, QoS Min guarantees that the throughput for a workload is not below a certain number of IOPS or Mbps, or IOPS and MBps. 
 
 == Adaptive QoS
-Adaptive QoS (AQoS) is used for Keystone services to maintain the ratio of IOPS to TBs/GBs as the size varies the QoS policy is automatically applied. For information about adaptive QoS, see https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html#about-adaptive-qos[About adaptive QoS].
+Adaptive QoS (AQoS) is used for Keystone services to maintain the ratio of IOPS to TBs/GBs as the size varies the QoS policy is automatically applied. For information about adaptive QoS, see https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html#about-adaptive-qos[About adaptive QoS^].
 
 Keystone provides you with adaptive QoS polices that you can set up once your cluster is in production. You should ensure that all your volumes are associated with the correct adaptive QoS policies that are already created and available in your system. 
 
@@ -38,7 +38,7 @@ You can configure adaptive QoS policies to automatically scale a throughput ceil
 [NOTE]
 This is not IOPS density (for example, 75 IOPS/TiB), but an absolute minimum number of IOPS.
 
-For more information, see https://docs.netapp.com/us-en/ontap/performance-admin/adaptive-qos-policy-groups-task.html[Use adaptive QoS policy groups].
+For more information, see https://docs.netapp.com/us-en/ontap/performance-admin/adaptive-qos-policy-groups-task.html[Use adaptive QoS policy groups^].
 
 == Settings of adaptive QoS policies
 The settings for adaptive QoS policies for each service level are described in the following sections. The minimum and maximum volume sizes for each service level provided here allow for optimal IOPs and latency values for a volume. Creating too many volumes outside of these guidelines may negatively impact performance in those volumes.

@@ -31,7 +31,7 @@ The _allow_ list uses the network CIDR method to control which network devices a
 
 [NOTE]
 .Linux users, note this known issue: 
-*Issue description*: Keystone Collector runs a number of containers as part of the usage metering system. When the Red Hat Enterprise Linux 8.x server is hardened with USA Defense Information Systems Agency (DISA) Security Technical Implementation Guides (STIG) policies, a known issue with fapolicyd (File Access Policy Daemon) has been seen intermittently. This issue is identified as link:https://bugzilla.redhat.com/show_bug.cgi?id=1907870[bug 1907870].
+*Issue description*: Keystone Collector runs a number of containers as part of the usage metering system. When the Red Hat Enterprise Linux 8.x server is hardened with USA Defense Information Systems Agency (DISA) Security Technical Implementation Guides (STIG) policies, a known issue with fapolicyd (File Access Policy Daemon) has been seen intermittently. This issue is identified as link:https://bugzilla.redhat.com/show_bug.cgi?id=1907870[bug 1907870^].
 *Workaround*: Until resolved by Red Hat Enterprise, NetApp recommends that you work around this issue by putting `fapolicyd` into permissive mode. In /`etc/fapolicyd/fapolicyd.conf`, set the value of `permissive = 1`.
 
 == View system logs

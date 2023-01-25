@@ -17,7 +17,7 @@ If you have subscribed to NetApp Keystone services, you can view your usage repo
 
 Digital Advisor enables you to view storage-as-a-service (STaaS) details and information on the NetApp infrastructure that you own. Digital Advisor provides a single dashboard with visibility into your subscriptions, service levels, and capacity usage with the ability to create detailed reports.
 
-For more information about Digital Advisor dashboard widget for Keystone, see https://docs.netapp.com/us-en/active-iq/task_view_keystone_capacity_utilization.html[Digital Advisor documentation].
+For more information about Digital Advisor dashboard widget for Keystone, see https://docs.netapp.com/us-en/active-iq/task_view_keystone_capacity_utilization.html[Digital Advisor documentation^].
 
 For more information about Keystone dashboard and reporting, see link:../integrations/aiq-keystone-details.html[Keystone Subscription dashboard and reporting].
 
