@@ -24,8 +24,8 @@ The details of the subscriptions, usage charts for each service level, and volum
 [NOTE]
 Capacity consumption in Keystone subscriptions is displayed in TiBs on the dashboards and reports, up to two decimal places. If the usage is less than 0.01 TiB, then the value is shown as 0 or `No Usage`. For other usage metrics, see link:../concepts/metrics.html#metrics-measurement[Metrics measurement]. For information about different capacities used in Keystone, see link:../concepts/supported-storage-capacity.html[Supported storage capacities].
 
-== Subscription Details
-This tab displays all the subscriptions for an account name.
+== View subscription details
+You can view all the subscriptions for an account name in the *Subscription Details* tab.
 
 image:aiq-ks-dtls.png[]
 
@@ -53,8 +53,8 @@ image:icon-amber.png[]: Maximum consumption, that is the usage is about to reach
 image:icon-red.png[]: The consumption is within the burst limit. The burst consumption is the consumption that tops the 100% committed capacity of a service level, and is within the agreed-upon burst usage limit, such as 120%
 image:icon-purple.png[]: Indicates consumption above the stipulated burst limit
 
-== Subscription Time Series
-This tab displays historical data of your subscriptions for a specific period. The vertical graphs display the usage details for the selected time range with appropriate indicators for you to compare and generate reports. 
+== View historical subscription data
+The *Subscription Time Series* tab displays historical data of your subscriptions for a specific period. The vertical graphs display the usage details for the selected time range with appropriate indicators for you to compare and generate reports. 
 
 .Steps
 . Click the *Subscription Time Series* tab.
@@ -82,15 +82,15 @@ The following details are displayed:
 ** Purple: Above the burst limit or `Above Limit`
 ** Grey: Provisional usage - usage recorded when the exact data for the time period is unavailable and is substituted by the data available at the previous data collection point
 
-== System Details
-Click this tab to view the details of each volume in your storage environment managed by a Keystone subscription.
+== View volume details
+Click the *System Details* tab to view the details of each volume in your storage environment managed by a Keystone subscription.
 
 image:aiq-ks-sysdtls.png[]
 
 You can sort by the columns and filter the lists to view specific information. You can copy individual node serial numbers by clicking the *Copy Node Serials* button.
 
 
-== Reports
+== Generate reports
 You can generate and view reports for your subscription details, historical usage data for a time range, and system details from each of the tabs by clicking the download button: image:download-icon.png[]
 
 The details are generated in CSV format that you can save for future use.
@@ -99,7 +99,7 @@ A sample report for the *Subscription Time Series* tab, where the graphical data
 
 image:report.png[]
 
-== Alerts
+== View alerts
 Alerts on the dashboard send caution messages that enable you to understand the issues occurring in your storage environment. 
 
 The alerts can be of two types:
