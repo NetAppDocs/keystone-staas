@@ -23,7 +23,7 @@ The following terms and definitions are used within the NetApp Keystone (Keyston
 
 == Metrics measurement
 
-* *Capacity measurement in GiB, TiB, and PiB*: Measurements of data storage capacity using base of 1024 (1 GiB = 1024^3^ bytes, 1 TiB = 1024^4^ bytes, and 1PiB = 1024^5^ bytes).
+* *Capacity measurement in gibibyte (GiB), tebibyte (TiB), and pebibyte (PiB)*: Measurements of data storage capacity using base of 1024 (1 GiB = 1024^3^ bytes, 1 TiB = 1024^4^ bytes, and 1PiB = 1024^5^ bytes).
 * *Operations counter chart in IOPS/TiB*: The protocol operations per second, requested by the application, divided by the size of the volume used by workloads.
 * *Availability*: Measured as a percentage of the number of I/O requests successfully responded to by the service, divided by total number of I/O requests made to the service. This is measured at the service demarcation in a month, and does not include the scheduled service downtime or unavailability of the facilities, network, or other services provided by the customer.
 * *Durability*: Percentage of data accessed without loss of fidelity, excluding customer-caused deletion or corruption.
