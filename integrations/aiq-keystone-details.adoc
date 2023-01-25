@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar
 permalink: integrations/aiq-keystone-details.html
-keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, keystone usage graphs charts
-summary: Keystone Subscription details page
+keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, keystone usage graphs charts, generate reports
+summary: Keystone Subscription reports and graphs
 ---
 
 = Keystone Subscription dashboard and reporting
@@ -90,8 +90,8 @@ image:aiq-ks-sysdtls.png[]
 You can sort by the columns and filter the lists to view specific information. You can copy individual node serial numbers by clicking the *Copy Node Serials* button.
 
 
-== Generating reports
-You can generate reports for your subscription details, historical usage data for a time range, and system details from each of the tabs by clicking the download button: image:download-icon.png[]
+== Reports
+You can generate and view reports for your subscription details, historical usage data for a time range, and system details from each of the tabs by clicking the download button: image:download-icon.png[]
 
 The details are generated in CSV format that you can save for future use.
 
