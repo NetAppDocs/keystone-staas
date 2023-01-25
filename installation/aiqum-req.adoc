@@ -19,8 +19,8 @@ Ensure that a Unified Manager server is configured where Unified Manager 9.7 or 
 
 For information about installing Unified Manager, see these links:
 
-* https://docs.netapp.com/us-en/active-iq-unified-manager/install-vapp/concept_requirements_for_installing_unified_manager.html[Installing Unified Manager on VMware vSphere systems]
-* https://docs.netapp.com/us-en/active-iq-unified-manager/install-linux/concept_requirements_for_install_unified_manager.html[Installing Unified Manager on Linux systems]
+* https://docs.netapp.com/us-en/active-iq-unified-manager/install-vapp/concept_requirements_for_installing_unified_manager.html[Installing Unified Manager on VMware vSphere systems^]
+* https://docs.netapp.com/us-en/active-iq-unified-manager/install-linux/concept_requirements_for_install_unified_manager.html[Installing Unified Manager on Linux systems^]
 
 
 
@@ -32,16 +32,16 @@ You should create the following users in Unified Manager for usage and performan
 
 For information about user creation, user types, and user roles, see these links:
 
-* https://docs.netapp.com/us-en/active-iq-unified-manager/config/reference_definitions_of_user_types.html[Definitions of user types]
-* https://docs.netapp.com/us-en/active-iq-unified-manager/config/reference_definitions_of_user_roles.html[Definitions of user roles]
-* https://docs.netapp.com/us-en/active-iq-unified-manager/config/reference_unified_manager_roles_and_capabilities.html[Unified Manager user roles and capabilities]
+* https://docs.netapp.com/us-en/active-iq-unified-manager/config/reference_definitions_of_user_types.html[Definitions of user types^]
+* https://docs.netapp.com/us-en/active-iq-unified-manager/config/reference_definitions_of_user_roles.html[Definitions of user roles^]
+* https://docs.netapp.com/us-en/active-iq-unified-manager/config/reference_unified_manager_roles_and_capabilities.html[Unified Manager user roles and capabilities^]
 
 
 .Steps
 
-. Log into the Unified Manager web UI with your application administrator user credentials. A default administrator user is created during installation. See https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_access_unified_manager_web_ui.html[Accessing the Unified Manager web UI].
-. Create the user with the `Operator role`. See https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_add_users.html[Adding users].
-. Create the `Database` user. See https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_create_database_user.html[Creating a database user].
+. Log into the Unified Manager web UI with your application administrator user credentials. A default administrator user is created during installation. See https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_access_unified_manager_web_ui.html[Accessing the Unified Manager web UI^].
+. Create the user with the `Operator role`. See https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_add_users.html[Adding users^].
+. Create the `Database` user. See https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_create_database_user.html[Creating a database user^].
 
 image:um-add-user.png[]
 
@@ -56,13 +56,13 @@ To enable API Gateway from the Unified Manager web UI, follow these steps:
 
 .Steps
 
-. Log into the Unified Manager web UI with your application administrator user credentials. A default administrator user is created during installation. See https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_access_unified_manager_web_ui.html[Accessing the Unified Manager web UI].
-. For information about enabling API Gateway, see https://docs.netapp.com/us-en/active-iq-unified-manager/config/concept_api_gateway.html[Enabling API Gateway].
+. Log into the Unified Manager web UI with your application administrator user credentials. A default administrator user is created during installation. See https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_access_unified_manager_web_ui.html[Accessing the Unified Manager web UI^].
+. For information about enabling API Gateway, see https://docs.netapp.com/us-en/active-iq-unified-manager/config/concept_api_gateway.html[Enabling API Gateway^].
 
 === Enable API Gateway through Unified Manager CLI
 These steps describe how you can enable API Gateway access through Unified Manager CLI. 
 
-For more information about supported commands, see https://docs.netapp.com/us-en/active-iq-unified-manager/events/reference_supported_unified_manager_cli_commands.html[Supported Unified Manager CLI commands].
+For more information about supported commands, see https://docs.netapp.com/us-en/active-iq-unified-manager/events/reference_supported_unified_manager_cli_commands.html[Supported Unified Manager CLI commands^].
 
 .Steps
 
@@ -74,8 +74,8 @@ If the value returned is `true`, it indicates that the API Gateway functionality
 . If the value returned is `false`, run this command to enable the API Gateway functionality:
 `um option set api.gateway.enabled=true`
 . Restart the Unified Manager server to apply the setting. For information:
-* On Linux system, see https://docs.netapp.com/us-en/active-iq-unified-manager/install-linux/task_restart_unified_manager.html[Restarting Unified Manager].
-* On VMware vSphere system, see https://docs.netapp.com/us-en/active-iq-unified-manager/install-vapp/task_restart_unified_manager_virtual_machine.html[Restarting the Unified Manager virtual machine].
+* On Linux system, see https://docs.netapp.com/us-en/active-iq-unified-manager/install-linux/task_restart_unified_manager.html[Restarting Unified Manager^].
+* On VMware vSphere system, see https://docs.netapp.com/us-en/active-iq-unified-manager/install-vapp/task_restart_unified_manager_virtual_machine.html[Restarting the Unified Manager virtual machine^].
 
 
 

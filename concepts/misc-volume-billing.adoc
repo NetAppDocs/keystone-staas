@@ -38,7 +38,7 @@ Occasionally, temporary (TMP) volumes are created by ONTAP when moving volumes. 
 
 == Billing and adaptive QoS policies
 Keystone measures consumption based on Service Levels. Each Service Level is associated with a specific adaptive quality of service (QoS) policy. During deployment, you will be informed of the details of each QoS policy for your subscribed Keystone services. During storage management operations, ensure that your volumes have the appropriate QoS policies assigned as per your subscribed Service Levels, to avoid unexpected billing.
-For more information about QoS policies in ONTAP, see link:https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html[Guarantee throughput with QoS overview].
+For more information about QoS policies in ONTAP, see link:https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html[Guarantee throughput with QoS overview^].
 
 == Billing for SnapMirror destinations
 The pricing for the SnapMirror destination volume is governed by the QoS policy for the service level assigned on the source. However, if the source does not have an associated QoS policy, the destination is billed based on the lowest available service level.

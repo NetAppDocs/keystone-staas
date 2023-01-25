@@ -13,12 +13,12 @@ summary: Quality of Service in Keystone
 :imagesdir: ../media/
 
 [.lead]
-Storage quality of service (QoS) is a critical technology that ensures that applications obtain consistent and predictable performance. Without QoS, certain workloads like booting of multiple systems can take up entire resources for a period and affect other workloads. For information about QoS, see https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html[Guarantee throughput with QoS overview].
+Storage quality of service (QoS) is a critical technology that ensures that applications obtain consistent and predictable performance. Without QoS, certain workloads like booting of multiple systems can take up entire resources for a period and affect other workloads. For information about QoS, see https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html[Guarantee throughput with QoS overview^].
 
-Applying QoS ensures that applications get consistent performance every time. NetApp ONTAP defines two parameters for QoS ceilings- https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html#about-throughput-ceilings-qos-max[QoS Max], and throughput floor- https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html#about-throughput-floors-qos-min[QoS Min]. QoS Max represents the maximum number of IOPS or MBps or IOPS and MBps a workload can achieve. On the other hand, QoS Min guarantees that the throughput for a workload is not below a certain number of IOPS or Mbps, or IOPS and MBps. 
+Applying QoS ensures that applications get consistent performance every time. NetApp ONTAP defines two parameters for QoS: ceilings- https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html#about-throughput-ceilings-qos-max[QoS Max^], and throughput floor- https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html#about-throughput-floors-qos-min[QoS Min^]. QoS Max represents the maximum number of IOPS or MBps or IOPS and MBps a workload can achieve. On the other hand, QoS Min guarantees that the throughput for a workload is not below a certain number of IOPS or Mbps, or IOPS and MBps. 
 
 == Adaptive QoS
-Adaptive QoS is used for Keystone services to maintain the ratio of IOPS to TBs/GBs as the size varies the QoS policy is automatically applied. For information about adaptive QoS, see https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html#about-adaptive-qos[About adaptive QoS].
+Adaptive QoS (AQoS) is used for Keystone services to maintain the ratio of IOPS to TBs/GBs as the size varies the QoS policy is automatically applied. For information about adaptive QoS, see https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html#about-adaptive-qos[About adaptive QoS^].
 
 Keystone provides you with adaptive QoS polices that you can set up once your cluster is in production. You should ensure that all your volumes are associated with the correct adaptive QoS policies that are already created and available in your system. 
 
@@ -28,37 +28,37 @@ If you have not applied adaptive QoS policies on your volumes correctly, those v
 == Configuration of adaptive QoS policy group
 You can configure adaptive QoS policies to automatically scale a throughput ceiling or floor to volume size. For configuring a policy, you should be aware of the following:
 
-* Policy group name: The name of the adaptive QoS policy group. For example, `Keystone_extreme`.
-* VServer: The name of the VServer or storage VM (storage virtual machine).
-* Expected IOPS: The number of IOPS/TiB that ONTAP provides as a minimum as long as there is performance guarantee.
-* Peak IOPS. The maximum number of IOPS/TiB that will be available to a volume before performance is limited.
-* Expected IOPS allocation: Whether allocated space or used space is considered for expected IOPS. This field controls whether the expected IOPS available to the volume is based on the provisioned or used size of the volume. In Keystone, all QoS calculations are based on the used space.
-* Peak IOPS allocation: Whether allocated space or used space is considered for peak IOPS. This field controls whether the peak IOPS available to the volume is based on the provisioned or used size of the volume. In Keystone, all QoS calculations are based on the used space.
-* Absolute minimum IOPS: The lowest number of expected IOPS that will be applied to a volume if the volume size is very small and would otherwise result in an unacceptable number of IOPS. This value defaults to 1,000 for `Extreme`, 500 for `Premium`, and 75 for other service levels. 
+* *Policy group name*: The name of the adaptive QoS policy group. For example, `Keystone_extreme`.
+* *VServer*: The name of the VServer or storage VM (storage virtual machine).
+* *Expected IOPS*: The number of IOPS/TiB that ONTAP provides as a minimum as long as there is performance guarantee.
+* *Peak IOPS*: The maximum number of IOPS/TiB that will be available to a volume before performance is limited.
+* *Expected IOPS allocation*: This field controls whether the expected IOPS available to the volume is based on the allocated or used size of the volume. In Keystone, this is based on the allocated space.
+* *Peak IOPS allocation*: This field controls whether the peak IOPS available to the volume is based on the allocated or used size of the volume. In Keystone, this is based on the used space.
+* *Absolute minimum IOPS*: The lowest number of expected IOPS that will be applied to a volume if the volume size is very small and would otherwise result in an unacceptable number of IOPS. This value defaults to 1,000 for `Extreme`, 500 for `Premium`, and 75 for other service levels. 
 [NOTE]
-This is not IOPS density (for example, 75 IOPS/TiB), but an absolute minimum number of IOPS.
+This is not IOPS density (for example, 75 IOPS/TiB), but an absolute minimum number of IOPS. 
 
-For more information, see https://docs.netapp.com/us-en/ontap/performance-admin/adaptive-qos-policy-groups-task.html[Use adaptive QoS policy groups].
+For information about IO density, see link:../concepts/metrics.html[Metrics and definitions used in Keystone Services]. For more information about AQoS policy groups, see https://docs.netapp.com/us-en/ontap/performance-admin/adaptive-qos-policy-groups-task.html[Use adaptive QoS policy groups^].
 
 == Settings of adaptive QoS policies
-The settings for adaptive QoS policies vary for each service level.
+The settings for adaptive QoS policies for each service level are described in the following sections. The minimum and maximum volume sizes for each service level provided here allow for optimal IOPs and latency values for a volume. Creating too many volumes outside of these guidelines may negatively impact performance in those volumes.
 
 === Settings for Extreme service level
 Settings and commands for the Extreme service level:
 
 * Sample command: 
 ....
-qos adaptive-policy-group create -policy group <Keystone_extreme> -vserver <SVM_name> -expected-iops 6144 -peak-iops 12288 -expected-iops-allocation used-space -peak-iops-allocation used-space -block-size 32K
+qos adaptive-policy-group create -policy-group <Keystone_extreme> -vserver <SVM_name> -expected-iops 6144 -peak-iops 12288 -expected-iops-allocation allocated-space -peak-iops-allocation used-space -block-size Any -absolute-min-iops 1000
 ....
 * Minimum volume size: 100GiB, 0.1TiB
 * Maximum volume size: 10TiB
 
 === Settings for Premium service level
-  Settings and commands for the Premium service level:
+Settings and commands for the Premium service level:
 
 * Sample command: 
 ....
-qos adaptive-policy-group create -policy group <Keystone_premium> -vserver <SVM_name> -expected-iops 2048 -peak-iops 4096 -expected-iops-allocation used-space -peak-iops-allocation used-space -block-size 32K
+qos adaptive-policy-group create -policy-group <Keystone_premium> -vserver <SVM_name> -expected-iops 2048 -peak-iops 4096 -expected-iops-allocation allocated-space -peak-iops-allocation used-space -block-size Any -absolute-min-iops 500
 ....
 * Minimum volume size: 500GiB, 0.5TiB
 * Maximum volume size: 50TiB
@@ -68,23 +68,30 @@ Settings and commands for the Performance service level:
 
 * Sample command: 
 ....
-qos adaptive-policy-group create -policy group <Keystone_performance> -vserver <SVM_name> -expected-iops 1024 -peak-iops 2048 -expected-iops-allocation used-space -peak-iops-allocation used-space -block-size 32K
+qos adaptive-policy-group create -policy-group <Keystone_performance> -vserver <SVM_name> -expected-iops 1024 -peak-iops 2048 -expected-iops-allocation allocated-space -peak-iops-allocation used-space -block-size Any -absolute-min-iops 250
 ....
 * Minimum volume size: 500GiB, 0.5TiB
 * Maximum volume size: 80TiB
 
-=== Settings for Value service level
- Settings and commands for the Value  service level:
+=== Settings for Standard service level
+Settings and commands for the Standard service level:
 
 * Sample command: 
 ....
-qos adaptive-policy-group create -policy group <Keystone_premium> -vserver <SVM_name> -expected-iops 64 -peak-iops 128 -expected-iops-allocation used-space -peak-iops-allocation used-space -block-size 32K
+qos adaptive-policy-group create -policy-group <Keystone_standard> -vserver <SVM_name> -expected-iops 256 -peak-iops 512 -expected-iops-allocation allocated-space -peak-iops-allocation used-space -block-size Any -absolute-min-iops 77
 ....
 * Minimum volume size: 1TiB
 * Maximum volume size: 100TiB
 
-=== Recommendations of volume size
-The minimum and maximum volumes sizes for each service level described here allow for optimal IOPs and latency values for a volume. Creating too many volumes outside of these guidelines may negatively impact performance in those volumes.
+=== Settings for Value service level
+Settings and commands for the Value service level:
+
+* Sample command: 
+....
+qos adaptive-policy-group create -policy-group <Keystone_value> -vserver <SVM_name> -expected-iops 64 -peak-iops 128 -expected-iops-allocation allocated-space -peak-iops-allocation used-space -block-size Any -absolute-min-iops 59
+....
+* Minimum volume size: 1TiB
+* Maximum volume size: 100TiB
 
 == Block size calculation
 

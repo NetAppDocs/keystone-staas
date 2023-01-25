@@ -41,16 +41,17 @@ The service levels for file, block, object, and cloud services are listed here.
 |===
 
 [NOTE]
-Note the following points for throughput performance metrics (applicable only for file and block services):
+====
+Note the following points for throughput performance metrics (applicable only for file 
 
-* File and block service levels are based on ONTAP 9.7 and later.
-* IOPS/TiB and latency values for service levels are based on the amount of logical data stored in the volume, 32 KB block size, and a random mix of 70% read and /30% write IO.
-* Actual IOPS/TiB and/or MBps/TiB varies based on workload concurrency and usage patterns.
-* Latency does not include the following:
-** The applications, hosts, or customer network latency to or from the controller ports.
-** The latency automatically applied by QoS to keep IO within service level maximums.
-* When using the Advanced Data Protection add-on service, the target latency applies to servicing IO requests from the local Keystone products only.
-
+- File and block service levels are based on ONTAP 9.7 and later.
+- IOPS/TiB and latency values for service levels are based on the amount of logical data stored in the volume, 32 KB block size, and a random mix of 70% read and /30% write IO.
+- Actual IOPS/TiB and/or MBps/TiB varies based on workload concurrency and usage patterns.
+- Latency does not include the following:
+-- The applications, hosts, or customer network latency to or from the controller ports.
+-- The latency automatically applied by QoS to keep IO within service level maximums.
+- When using the Advanced Data Protection add-on service, the target latency applies to servicing IO requests from the local Keystone products only.
+====
 === Object storage
 *Supported protocol*: S3
 
@@ -81,7 +82,7 @@ Latency does not include overheads associated with data transfer to the object s
 |===
 
 [NOTE]
-Note:
-
-* Cloud native services, such as compute, storage, networking, are invoiced by the cloud providers.
-* These services are dependent on the cloud storage and compute characteristics.
+====
+- Cloud native services, such as compute, storage, networking, are invoiced by the cloud providers.
+- These services are dependent on the cloud storage and compute characteristics.
+====

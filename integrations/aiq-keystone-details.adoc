@@ -1,0 +1,114 @@
+---
+sidebar: sidebar
+permalink: integrations/aiq-keystone-details.html
+keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, keystone usage graphs charts, generate reports
+summary: Keystone Subscription reports and graphs
+---
+
+= Keystone Subscription dashboard and reporting
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ../media/
+
+[.lead]
+If you have subscribed to NetApp Keystone STaaS services, you can monitor your usage on the *Keystone Subscriptions* widget on the Digital Advisor dashboard. 
+
+For information about the Digital Advisor widget, see https://docs.netapp.com/us-en/active-iq/task_view_keystone_capacity_utilization.html[View capacity utilization with NetApp Keystone Subscription^].
+
+Click *View More Details* on the widget to view the usage details and alerts on your volumes on the *Keystone Subscription* page. Alternately, from the left navigation pane, go to *GENERAL > Keystone Subscription*.
+
+The details of the subscriptions, usage charts for each service level, and volume details are displayed in the different tabs on this screen.
+
+[NOTE]
+Capacity consumption in Keystone subscriptions is displayed in TiBs on the dashboards and reports, up to two decimal places. If the usage is less than 0.01 TiB, then the value is shown as 0 or `No Usage`. For other usage metrics, see link:../concepts/metrics.html#metrics-measurement[Metrics measurement]. For information about different capacities used in Keystone, see link:../concepts/supported-storage-capacity.html[Supported storage capacities].
+
+== View subscription details
+You can view all the subscriptions for an account name in the *Subscription Details* tab.
+
+image:aiq-ks-dtls.png[]
+
+For each subscription number, you can see the following information:
+
+* *Subscription Number*: The subscription number of the Keystone subscription assigned by NetApp.
+* *Tracking ID*: The tracking ID assigned at the time of subscription activation. This is a unique ID for each subscription and site, used for tracking the subscription.
+* *Billing Period*: The billing period of the subscription, such as monthly, quarterly, or annual.
+* *Start Date*: The start date of the subscription.
+* *End date*: The end date of the subscription. Based on this date, you might see information messages for subscriptions that are nearing expiry or a stipulated grace period.
+* *Usage Status*: Indicates how much of the subscription has been used or overused. You can sort the list by this column if you want to view the highest consumption records.
+* image:aiq-ks-time-icon.png[]: Clicking this icon opens the *Subscription Time Series* tab where you can see the historical usage data for each service level included in this subscription
+
+You can see more details by clicking the downward arrow for a subscription record. Details, such as the service level name, committed, consumed, available capacities, and current and accrued burst usage are displayed in TiB. Specific service levels that record higher consumption are highlighted. Any warnings and alerts generated for your volumes are also displayed.
+
+You can refer to the following usage indicators to check the usage status of each subscription:
+
+image:usage-indicator.png[]
+
+.Index
+
+image:icon-grey.png[]: No capacity usage recorded against the committed capacity of the service level
+image:icon-green.png[]: The consumption is normal, within 80% of the committed capacity
+image:icon-amber.png[]: Maximum consumption, that is the usage is about to reach 100% or more of the committed capacity. The *Consumed* column displays this indicator for any consumption above 80% of the committed capacity
+image:icon-red.png[]: The consumption is within the burst limit. The burst consumption is the consumption that tops the 100% committed capacity of a service level, and is within the agreed-upon burst usage limit, such as 120%
+image:icon-purple.png[]: Indicates consumption above the stipulated burst limit
+
+== View historical subscription data
+The *Subscription Time Series* tab displays historical data of your subscriptions for a specific period. The vertical graphs display the usage details for the selected time range with appropriate indicators for you to compare and generate reports. 
+
+.Steps
+. Click the *Subscription Time Series* tab.
+. Select the required subscription for which you want to view the details. The first subscription in your account name is selected by default.
+. Select the time range from the calendar icons in the *From Date* and *To Date* fields. The default time range selected is from the start date of the billing period to the current date.
+. Click *View Details*. The historical consumption data of the subscription for each service level is displayed based on the selected time range. You can hover your mouse cursor over the charts to view the usage breakdown in terms of committed, consumed, burst, and above the burst limit data at that point.
+
+image:aiq-ks-subtime-2.png[]
+
+The following details are displayed:
+
+* *Current Consumed*: This gauge/donut chart on the left indicates the consumed capacity for a service level for the billing period. This chart displays specific colors to indicate the following usage:
+** Grey: None
+** Green: Within 80% of the committed capacity
+** Amber: Any consumption above 80% of the committed capacity
+* *Current Burst*: This gauge/donut chart indicates the consumed capacity for a service level that is within or above the burst limit. For a service level, any usage between 100% and the burst limit agreed upon, for example 20% above the committed capacity, is within the burst limit. Further usage is considered as usage above the burst limit . This chart displays specific colors to indicate the following usage:
+** Grey: None
+** Red: Burst 
+** Purple: Above the burst limit 
+* *Accrued Burst*: The accrued burst usage or used capacity is calculated per month for the current billing period. The accrued burst usage is calculated based on the committed and consumed capacity for a service level: `(consumed - committed)/365.25/12`
+* *Time Series*: The bar charts display the capacity usage for the time selected. The date and time of the collection are displayed at the bottom of the chart. The bar charts appear in these colors to indicate usage:
+** Green: Within 80% 
+** Amber: 80% - 100% 
+** Red: Burst usage (100% of the committed capacity to the agreed burst limit)
+** Purple: Above the burst limit or `Above Limit`
+** Grey: Provisional usage - usage recorded when the exact data for the time period is unavailable and is substituted by the data available at the previous data collection point
+
+== View volume details
+Click the *System Details* tab to view the details of each volume in your storage environment managed by a Keystone subscription.
+
+image:aiq-ks-sysdtls.png[]
+
+You can sort by the columns and filter the lists to view specific information. You can copy individual node serial numbers by clicking the *Copy Node Serials* button.
+
+
+== Generate reports
+You can generate and view reports for your subscription details, historical usage data for a time range, and system details from each of the tabs by clicking the download button: image:download-icon.png[]
+
+The details are generated in CSV format that you can save for future use.
+
+A sample report for the *Subscription Time Series* tab, where the graphical data is converted:
+
+image:report.png[]
+
+== View alerts
+Alerts on the dashboard send caution messages that enable you to understand the issues occurring in your storage environment. 
+
+The alerts can be of two types:
+
+* *Information*: For issues, such as your subscriptions nearing an end or reaching the grace period, you can see information alerts. Hover your cursor over the information icon to understand more about the issue.
+* *Warning*: Issues, such as non-compliance, are displayed as warnings. For example, if there are volumes within your managed clusters that do not have adaptive QoS (AQoS) policies attached, you can see a warning message. You can click the link on the warning message to see the list of the non-compliant volumes in the *System Details* tab.
++
+For information about AQoS policies, see link:../concepts/qos.html[Adaptive QoS].
+
+image:alert-aiq.png[]
+
+Contact support for more information on these caution and warning messages. For information, see link:../concepts/gssc.html[Generating service requests].
