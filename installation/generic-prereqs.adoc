@@ -1,3 +1,4 @@
+These additional prerequisites should be fulfilled:
 
 == Other requirements
 
