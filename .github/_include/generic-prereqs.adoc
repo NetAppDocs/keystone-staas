@@ -1,5 +1,3 @@
-These additional prerequisites should be fulfilled:
-
 == Other requirements
 
 Endure that the following generic requirements are met:
