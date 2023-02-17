@@ -22,8 +22,10 @@ sidebar:
               url: /installation/vapp-prereqs.html
             - title: Linux prerequisites
               url: /installation/linux-prereqs.html
-            - title: Active IQ Unified Manager configurations
+            - title: (ONTAP only) Active IQ Unified Manager configurations
               url: /installation/aiqum-req.html
+            - title: (StorageGRID only) Additional requirements in StorageGRID
+              url: /installation/sg-prereqs.html  
         - title: Installation procedure
           entries:
             - title: VMware vSphere deployment

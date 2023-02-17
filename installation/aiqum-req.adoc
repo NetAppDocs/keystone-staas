@@ -5,7 +5,7 @@ keywords: keystone unified manager prerequisites, aiqum config keystone
 summary: keystone unified manager prerequisites
 ---
 
-= Prerequisites for Active IQ Unified Manager
+= Prerequisites for Active IQ Unified Manager (ONTAP only)
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,7 +13,7 @@ summary: keystone unified manager prerequisites
 :imagesdir: ../media/
 
 [.lead]
-For setting up and enabling Keystone Collector, Active IQ Unified Manager (Unified Manager) should be installed with specific configurations.
+For setting up and enabling Keystone Collector in ONTAP environments, Active IQ Unified Manager (Unified Manager) should be installed with specific configurations.
 
 Ensure that a Unified Manager server is configured where Unified Manager 9.7 or later is installed with the API Gateway functionality enabled. 
 

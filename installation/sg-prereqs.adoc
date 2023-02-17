@@ -1,0 +1,16 @@
+---
+sidebar: sidebar
+permalink: installation/sg-prereqs.html
+keywords: prerequisites, Linux
+summary: prerequisites for installing Keystone collector on Linux systems
+---
+
+= Additional requirements in StorageGRID
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ../media/
+
+[.lead]
+There are a few configurations that are required for installing Keystone Collector on StorageGRID. Ensure that you have completed these specific prerequisites in addition to the Linux/VMware vSphere system requirements.
