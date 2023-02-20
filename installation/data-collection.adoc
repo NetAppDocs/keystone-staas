@@ -1,0 +1,166 @@
+---
+sidebar: sidebar
+permalink: installation/data-collection.html
+keywords: type of data collected by Keystone collector
+summary: data collection by Keystone collector for ONTAP and StorageGRID
+---
+
+= Types of user data that Keystone collects
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ../media/
+
+[.lead]
+Keystone collects performance and metrics data for your Keystone subscriptions for ONTAP and StoragGRID. 
+
+== (ONTAP only) Sample list of information gathered for usage collection
+The following list is a representative sample of what is included in usage collection for ONTAP:
+
+* Cluster
+**	ClusterUUID
+**	SerialNumber
+**	Location (based on value input in ONTAP cluster)
+**	Contact
+**  Version
+*	Nodes
+**	SerialNumber
+**	Node name
+*	Volumes
+**	Aggregate name
+**	Volume Name
+**	VolumeInstanceUUID
+**	IsCloneVolume flag
+**	IsFlexGroupConstituent flag
+**	IsSpaceEnforcementLogical flag
+**	IsSpaceReportingLogical flag
+**	LogicalSpaceUsedByAfs
+**	PercentSnapshotSpace
+**	PerformanceTierInactiveUserData
+**	PerformanceTierInactiveUserDataPercent
+**	QosAdaptivePolicyGroup Name
+**	QosPolicyGroup Name
+**	Size
+**	SizeUsedBySnapshots
+**	Type
+**	VolumeStyleExtended
+**	Vserver name
+**	IsVsRoot flag
+* Vservers
+** VserverName
+** VserverUUID
+** Subtype
+* StorageAggrs
+**	StorageType
+**	Aggregate Name
+**	Aggregate UUID
+*	AggregateObjectStores
+**	ObjectStoreName
+**	ObjectStoreUUID
+**	ProviderType
+**	Aggregate Name
+* CloneVolumes
+** Flexclone
+** Size
+** Used
+** Vserver
+** Type
+** ParentVolume
+** ParentVserver
+** IsConstituent
+** SplitEstimate
+** State
+** FlexcloneUsedPercent
+*	StorageLuns
+**	Lun UUID
+**	Size
+**	Used
+**	IsReserved flag
+**	IsRequested flag
+**	LogicalUnit Name
+**	QosPolicyUUID
+**	QosPolicyName
+**	VolumeUUID
+**	VolumeName
+**	SvmUUID
+**	Svm Name
+* StorageVolumes
+** VolumeInstanceUUID
+** VolumeName
+** SvmName
+** SvmUUID
+** QosPolicyUUID
+** QosPolicyName
+** CapacityTierFootprint
+** PerformanceTierFootprint
+** TotalFootprint
+** TieringPolicy
+** IsProtected flag
+** IsDestination flag
+** Used
+** PhysicalUsed
+** CloneParentUUID
+** LogicalSpaceUsedByAfs
+* QosPolicyGroups
+** PolicyGroup
+** QosPolicyUUID
+** MaxThroughput
+** MinThroughput
+** MaxThroughputIops
+** MaxThroughputMbps
+** MinThroughputIops
+** MinThroughputMbps
+** IsShared flag
+*   OntapQosAdaptivePolicyGroups
+**  QosPolicyName
+**  QosPolicyUUID
+**  PeakIops
+**  PeakIopsAllocation
+**  AbsoluteMinIops
+**  ExpectedIops
+**  ExpectedIopsAllocation
+**  BlockSize
+*   Footprints
+**  Vserver
+**  Volume
+**  TotalFootprint
+**  VolumeBlocksFootprintBin0
+**  VolumeBlocksFootprintBin1
+*   MetroCluster
+**  ClusterUUID
+**  ClusterName
+**  RemoteClusterUUID
+**  RemoteCluserName
+**  LocalConfigurationState
+**  RemoteConfigurationState
+**  Mode
+* Collector Observablility Metrics
+**	Collection Time
+**	AIQUM API Endpoint queried
+**	Response time
+**	Number of records
+**	AiqumInstance IP
+**	CollectorInstance ID
+
+=== List of items removed on limiting private data access
+When the *Remove Private Data* option is enabled, the following information is eliminated:
+
+*	Cluster Name
+*	Cluster Location
+*	Cluster Contact
+*	Node Name
+*	Aggregate name
+*	Volume Name
+*	QosAdaptivePolicyGroup Name
+*	QosPolicyGroup Name
+*	Vserver name
+*	Aggregate Name
+*	LogicalUnit Name
+*	Svm Name
+*	AiqumInstance IP
+
+
+
+
+

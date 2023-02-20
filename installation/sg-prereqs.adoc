@@ -14,3 +14,18 @@ summary: prerequisites for installing Keystone collector on Linux systems
 
 [.lead]
 There are a few configurations that are required for installing Keystone Collector on StorageGRID. Ensure that you have completed these specific prerequisites in addition to the Linux/VMware vSphere system requirements.
+
+For setting up and enabling Keystone Collector for usage metering of StorageGRID, ensure that: 
+
+* the minimum StorageGRID version is `11.4.0`. For information about upgrade, see link:https://docs.netapp.com/us-en/storagegrid-116/upgrade/index.html[Upgrade StorageGRID software: Overview].
+* a StorageGRID user is created for usage data collection by Keystone Collector. The Keystone Collector service communicates with the GRID through administrator node APIs. This service account is used for this communication. Follow these steps:
++
+.Steps
+. Log into the Grid Manager. See https://docs.netapp.com/us-en/storagegrid-116/admin/signing-in-to-grid-manager.html[Sign in to the Grid Manager].
+. Create an Admin Group user with `access-mode: Read-Only`. See https://docs.netapp.com/us-en/storagegrid-116/admin/managing-admin-groups.html#create-an-admin-group[Create an admin group].
+. Add the following permissions:
+**	Tenant Accounts
+**	Maintenance
+**	Metrics Query
+. Create a Keystone service account user and associate it with the admin group. See https://docs.netapp.com/us-en/storagegrid-116/admin/managing-users.html[Manage users].
+

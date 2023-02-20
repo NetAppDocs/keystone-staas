@@ -16,12 +16,14 @@ sidebar:
       entries:
         - title: What is Keystone Collector
           url: /installation/installation-overview.html
-        - title: Prerequisites for installation
+        - title: Prerequisites for Linux and VMware vSphere systems
           entries:
             - title: VMware vSphere prerequisites
               url: /installation/vapp-prereqs.html
             - title: Linux prerequisites
               url: /installation/linux-prereqs.html
+        - title: Specific prerequisites for ONTAP and StorageGRID
+          entries:
             - title: (ONTAP only) Active IQ Unified Manager configurations
               url: /installation/aiqum-req.html
             - title: (StorageGRID only) Additional requirements in StorageGRID
