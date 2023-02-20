@@ -20,7 +20,7 @@ The JSON body provides an overall health status for the `is_healthy` attribute, 
 Here is an example:
 ----
 $ curl http://127.0.0.1:7777/uber/health
-{"is_healthy": true, "component_details": {"vicmet": "Running", "minio": "Running", "ks-collector": "Running", "ks-billing": "Running", "chronyd": "Running"}}
+{"is_healthy": true, "component_details": {"vicmet": "Running", "ks-collector": "Running", "ks-billing": "Running", "chronyd": "Running"}}
 ----
 These status codes are returned:
 

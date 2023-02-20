@@ -143,8 +143,9 @@ The following list is a representative sample of what is included in usage colle
 **	AiqumInstance IP
 **	CollectorInstance ID
 
-=== List of items removed on limiting private data access
-When the *Remove Private Data* option is enabled, the following information is eliminated:
+== (ONTAP only) List of items removed on limiting private data access
+
+When the *Remove Private Data* option is enabled, the following information is eliminated for ONTAP:
 
 *	Cluster Name
 *	Cluster Location
@@ -160,7 +161,14 @@ When the *Remove Private Data* option is enabled, the following information is e
 *	Svm Name
 *	AiqumInstance IP
 
+== (StorageGRID only) List of items removed on limiting private data access
 
+When the *Remove Private Data* option is enabled, the following information is eliminated for StorageGRID:
+
+* AccountName
+* BucketName 
+* SiteName 
+* Instance/NodeName 
 
 
 
