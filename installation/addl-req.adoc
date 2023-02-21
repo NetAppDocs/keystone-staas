@@ -59,23 +59,21 @@ You can enable API Gateway either from the web UI, or by running a few commands 
 
 |===
 
-|Web UI |CLI 
+|*Web UI* |*CLI* 
 a|
 To enable API Gateway from the Unified Manager web UI, follow these steps:
 
-.Steps
 . Log into the Unified Manager web UI with your application administrator user credentials. A default administrator user is created during installation. See https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_access_unified_manager_web_ui.html[Accessing the Unified Manager web UI^].
 . For information about enabling API Gateway, see https://docs.netapp.com/us-en/active-iq-unified-manager/config/concept_api_gateway.html[Enabling API Gateway^].
 
 a|
-These steps describe how you can enable API Gateway access through Unified Manager CLI. 
-
-For more information about supported commands, see https://docs.netapp.com/us-en/active-iq-unified-manager/events/reference_supported_unified_manager_cli_commands.html[Supported Unified Manager CLI commands^].
-
-.Steps
+To enable API Gateway through Unified Manager CLI, follow these steps:
 
 . On the Unified Manager server, begin an SSH session and log into Unified Manager CLI.
 `um cli login -u _<umadmin>_`
++
+For information about CLI commands, see https://docs.netapp.com/us-en/active-iq-unified-manager/events/reference_supported_unified_manager_cli_commands.html[Supported Unified Manager CLI commands^].
++
 . Verify whether API Gateway is already enabled. 
 `um option list api.gateway.enabled`
 If the value returned is `true`, it indicates that the API Gateway functionality is enabled. 
