@@ -85,6 +85,7 @@ If the value returned is `true`, it indicates that the API Gateway functionality
 * On Linux system, see https://docs.netapp.com/us-en/active-iq-unified-manager/install-linux/task_restart_unified_manager.html[Restarting Unified Manager^].
 * On VMware vSphere system, see https://docs.netapp.com/us-en/active-iq-unified-manager/install-vapp/task_restart_unified_manager_virtual_machine.html[Restarting the Unified Manager virtual machine^].
 
+|====
 --
 
 
