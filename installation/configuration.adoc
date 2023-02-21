@@ -15,13 +15,13 @@ summary: configuration of Keystone collector
 [.lead]
 You need to complete a few configuration tasks to enable Keystone Collector to collect usage data in your storage environment. This is a one-time activity to activate and associate the required collector component with Active IQ Unified Manager (Unified Manager). 
 
-All the ONTAP clusters that are managed by Unified Manager can be monitored. Follow these steps:
+All the ONTAP clusters and StorageGRID nodes that are managed by Unified Manager can be monitored. Follow these steps:
 
 .Steps
 
 . Open the Keystone Collector management TUI utility:
 `$ keystone-collector-tui`
-. Go to **Configure > KS-Collector** to open the Keystone Collector configuration screen and add the details for the Unified Manager server and service account. If Performance monitoring is required in this environment for SLA purposes, enable the **Collect ONTAP Performance Data** option, and provide the Unified Manager Database user account details. For information, see link:../aiqum-req.html[Create Unified Manager users].
+. Go to **Configure > KS-Collector** to open the Keystone Collector configuration screen and add the details for the Unified Manager server and service account. If Performance monitoring is required in this environment for SLA purposes, enable the **Collect ONTAP Performance Data** option, and provide the Unified Manager Database user account details. For information, see link:../addl-req.html[Create Unified Manager users].
 . Toggle the **Enable KS-Collector Service** field.
 . Click **Save**.
 image:tui-1.png[]

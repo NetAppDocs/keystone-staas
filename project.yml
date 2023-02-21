@@ -22,12 +22,8 @@ sidebar:
               url: /installation/vapp-prereqs.html
             - title: Linux prerequisites
               url: /installation/linux-prereqs.html
-        - title: Specific prerequisites for ONTAP and StorageGRID
-          entries:
-            - title: (ONTAP only) Active IQ Unified Manager configurations
-              url: /installation/aiqum-req.html
-            - title: (StorageGRID only) Additional requirements in StorageGRID
-              url: /installation/sg-prereqs.html  
+            - title: Specific prerequisites for ONTAP and StorageGRID
+              url: /installation/addl-req.html
         - title: Installation procedure
           entries:
             - title: VMware vSphere deployment
@@ -40,6 +36,8 @@ sidebar:
           url: /installation/configuration.html
         - title: Monitor system health
           url: /installation/monitor-health.html
+        - title: Data collected for billing
+          url: /installation/data-collection.html
     - title: Learn about Keystone
       entries:    
         - title: Supported storage capacity
