@@ -24,38 +24,22 @@ You should complete a few additional prerequisites for ONTAP and StorageGRID. En
 --
 For setting up and enabling Keystone Collector in ONTAP environments, Active IQ Unified Manager (Unified Manager) should be installed with specific configurations.
 
-Ensure that a Unified Manager server is configured where Unified Manager 9.7 or later is installed with the API Gateway functionality enabled. 
-
+. Ensure that a Unified Manager server is configured where Unified Manager 9.7 or later is installed with the API Gateway functionality enabled. 
++
 For information about installing Unified Manager, see these links:
-
++
 * https://docs.netapp.com/us-en/active-iq-unified-manager/install-vapp/concept_requirements_for_installing_unified_manager.html[Installing Unified Manager on VMware vSphere systems^]
 * https://docs.netapp.com/us-en/active-iq-unified-manager/install-linux/concept_requirements_for_install_unified_manager.html[Installing Unified Manager on Linux systems^]
-
-.Create Unified Manager users
-You should create the following users in Unified Manager for usage and performance data collection by Keystone Collector:
-
+. Create Unified Manager users. You should create the following users in Unified Manager for usage and performance data collection by Keystone Collector:
++
 * A service account for Keystone Collector with `Operator` user role. This user is required for the collection of usage data. The Keystone Collector service communicates with Unified Manager through APIs. This service account is required for the communication.
 * A `Database` user account, with the `Report Schema` role. This user is required for the performance data collection.
-
-For information about user creation, user types, and user roles, see these links:
-
-* https://docs.netapp.com/us-en/active-iq-unified-manager/config/reference_definitions_of_user_types.html[Definitions of user types^]
-* https://docs.netapp.com/us-en/active-iq-unified-manager/config/reference_definitions_of_user_roles.html[Definitions of user roles^]
-* https://docs.netapp.com/us-en/active-iq-unified-manager/config/reference_unified_manager_roles_and_capabilities.html[Unified Manager user roles and capabilities^]
-
-
-.Steps
-
-. Log into the Unified Manager web UI with your application administrator user credentials. A default administrator user is created during installation. See https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_access_unified_manager_web_ui.html[Accessing the Unified Manager web UI^].
-. Create the user with the `Operator role`. See https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_add_users.html[Adding users^].
-. Create the `Database` user. See https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_create_database_user.html[Creating a database user^].
-
-image:um-add-user.png[]
-
-.Enable API Gateway in Unified Manager
-Keystone Collector makes use of the Unified Manager API Gateway to communicate with ONTAP clusters. 
-
-You can enable API Gateway either from the web UI, or by running a few commands through Unified Manager CLI.
++
+.. Log into the Unified Manager web UI with your application administrator user credentials. A default administrator user is created during installation. See https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_access_unified_manager_web_ui.html[Accessing the Unified Manager web UI^].
+.. Create the user with the `Operator role`. See https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_add_users.html[Adding users^] and https://docs.netapp.com/us-en/active-iq-unified-manager/config/reference_definitions_of_user_roles.html[Definitions of user roles^].
+.. Create the `Database` user. See https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_create_database_user.html[Creating a database user^].
+. Enable API Gateway in Unified Manager:
+Keystone Collector makes use of the Unified Manager API Gateway to communicate with ONTAP clusters. You can enable API Gateway either from the web UI, or by running a few commands through Unified Manager CLI.
 
 |===
 
