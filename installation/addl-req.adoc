@@ -57,11 +57,8 @@ Keystone Collector makes use of the Unified Manager API Gateway to communicate w
 
 You can enable API Gateway either from the web UI, or by running a few commands through Unified Manager CLI.
 
-//tabbed blocks start here again
-[role="tabbed-block"]
-====
+
 .Web UI
---
 
 To enable API Gateway from the Unified Manager web UI, follow these steps:
 
@@ -69,11 +66,9 @@ To enable API Gateway from the Unified Manager web UI, follow these steps:
 . Log into the Unified Manager web UI with your application administrator user credentials. A default administrator user is created during installation. See https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_access_unified_manager_web_ui.html[Accessing the Unified Manager web UI^].
 . For information about enabling API Gateway, see https://docs.netapp.com/us-en/active-iq-unified-manager/config/concept_api_gateway.html[Enabling API Gateway^].
 
---
-//end web UI, begin CLI
 
 .Enable API Gateway through Unified Manager CLI
---
+
 These steps describe how you can enable API Gateway access through Unified Manager CLI. 
 
 For more information about supported commands, see https://docs.netapp.com/us-en/active-iq-unified-manager/events/reference_supported_unified_manager_cli_commands.html[Supported Unified Manager CLI commands^].
@@ -90,12 +85,9 @@ If the value returned is `true`, it indicates that the API Gateway functionality
 . Restart the Unified Manager server to apply the setting. For information:
 * On Linux system, see https://docs.netapp.com/us-en/active-iq-unified-manager/install-linux/task_restart_unified_manager.html[Restarting Unified Manager^].
 * On VMware vSphere system, see https://docs.netapp.com/us-en/active-iq-unified-manager/install-vapp/task_restart_unified_manager_virtual_machine.html[Restarting the Unified Manager virtual machine^].
-
-====
-
-//end tabbed blocks
-
 --
+
+
 //end ONTAP, begin StorageGRID
 
 .StorageGRID
@@ -115,7 +107,7 @@ For setting up and enabling Keystone Collector for usage metering of StorageGRID
 **	Maintenance
 **	Metrics Query
 . Create a Keystone service account user and associate it with the admin group. See https://docs.netapp.com/us-en/storagegrid-116/admin/managing-users.html[Manage users].
-
+--
 ====
 //end tabbed blocks
 
