@@ -13,9 +13,11 @@ summary: configuration of Keystone collector
 :imagesdir: ../media/
 
 [.lead]
-You need to complete a few configuration tasks to enable Keystone Collector to collect usage data in your storage environment. This is a one-time activity to activate and associate the required collector component with Active IQ Unified Manager (Unified Manager). 
+You need to complete a few configuration tasks to enable Keystone Collector to collect usage data in your storage environment. This is a one-time activity to activate and associate the required collector component with your storage environment. 
 
-All the ONTAP clusters and StorageGRID nodes that are managed by Unified Manager can be monitored. Follow these steps:
+
+[NOTE]
+The Keystone Collector provides you with the Keystone Collector Management Terminal User Interface (TUI) utility to perform the configuration and monitoring activities.You can use various keyboard controls, such as the Enter and arrow keys, to select the options and navigate across this TUI.
 
 .Steps
 

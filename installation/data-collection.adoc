@@ -13,9 +13,12 @@ summary: billing data collection by Keystone collector for ONTAP and StorageGRID
 :imagesdir: ../media/
 
 [.lead]
-Keystone collects performance and metrics data for your Keystone subscriptions for ONTAP and StoragGRID. 
+Keystone collects usage data for your Keystone subscriptions for ONTAP and StoragGRID. It can also collect performance data for only ONTAP, if the option is enabled in Keystone Collector.
 
-== (ONTAP only) Sample list of information gathered for usage collection
+== ONTAP usage data
+.Sample list of information gathered for usage collection in ONTAP
+[%collapsible]
+====
 The following list is a representative sample of what is included in usage collection for ONTAP:
 
 * Cluster
@@ -142,10 +145,12 @@ The following list is a representative sample of what is included in usage colle
 **	Number of records
 **	AiqumInstance IP
 **	CollectorInstance ID
+====
 
-== (ONTAP only) List of items removed on limiting private data access
-
-When the *Remove Private Data* option is enabled, the following information is eliminated for ONTAP:
+.List of usage data removed on limiting private data access
+[%collapsible]
+====
+When the *Remove Private Data* option is enabled on Keystone Collector, the following usage information is eliminated for ONTAP:
 
 *	Cluster Name
 *	Cluster Location
@@ -161,9 +166,13 @@ When the *Remove Private Data* option is enabled, the following information is e
 *	Svm Name
 *	AiqumInstance IP
 
-== (StorageGRID only) List of items removed on limiting private data access
+====
 
-When the *Remove Private Data* option is enabled, the following information is eliminated for StorageGRID:
+== StorageGRID usage data
+.List of usage data removed on limiting private data access
+[%collapsible]
+====
+When the *Remove Private Data* option is enabled on Keystone Collector, the following usage information is eliminated for StorageGRID:
 
 * AccountName
 * BucketName 
