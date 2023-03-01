@@ -21,7 +21,7 @@ Keystone collects usage data for your Keystone subscriptions for ONTAP and Stora
 ====
 The following list is a representative sample of the capacity consumption data collected for ONTAP:
 
-* Cluster
+* Clusters
 ** ClusterUUID
 ** ClusterName
 ** SerialNumber
@@ -53,11 +53,11 @@ The following list is a representative sample of the capacity consumption data c
 **	VolumeStyleExtended
 **	Vserver name
 **	IsVsRoot flag
-* Vservers
+* VServers
 ** VserverName
 ** VserverUUID
 ** Subtype
-* StorageAggrs
+* Storage aggregates
 **	StorageType
 **	Aggregate Name
 **	Aggregate UUID
@@ -66,7 +66,7 @@ The following list is a representative sample of the capacity consumption data c
 **	ObjectStoreUUID
 **	ProviderType
 **	Aggregate Name
-* CloneVolumes
+* Clone volumes
 ** Flexclone
 ** Size
 ** Used
@@ -78,7 +78,7 @@ The following list is a representative sample of the capacity consumption data c
 ** SplitEstimate
 ** State
 ** FlexcloneUsedPercent
-*	StorageLuns
+*	Storage LUNs
 **	Lun UUID
 **  Lun Name
 **	Size
@@ -92,7 +92,7 @@ The following list is a representative sample of the capacity consumption data c
 **	VolumeName
 **	SvmUUID
 **	Svm Name
-* StorageVolumes
+* Storage volumes
 ** VolumeInstanceUUID
 ** VolumeName
 ** SvmName
@@ -109,7 +109,7 @@ The following list is a representative sample of the capacity consumption data c
 ** PhysicalUsed
 ** CloneParentUUID
 ** LogicalSpaceUsedByAfs
-* QosPolicyGroups
+* QoS policy groups
 ** PolicyGroup
 ** QosPolicyUUID
 ** MaxThroughput
@@ -119,7 +119,7 @@ The following list is a representative sample of the capacity consumption data c
 ** MinThroughputIops
 ** MinThroughputMbps
 ** IsShared flag
-* OntapQosAdaptivePolicyGroups
+* ONTAP adaptive QoS policy groups
 ** QosPolicyName
 ** QosPolicyUUID
 ** PeakIops
@@ -134,7 +134,7 @@ The following list is a representative sample of the capacity consumption data c
 ** TotalFootprint
 ** VolumeBlocksFootprintBin0
 ** VolumeBlocksFootprintBin1
-* MetroCluster
+* MetroCluster clusters
 ** ClusterUUID
 ** ClusterName
 ** RemoteClusterUUID
@@ -144,7 +144,7 @@ The following list is a representative sample of the capacity consumption data c
 ** Mode
 * Collector Observablility Metrics
 **	Collection Time
-**	AIQUM API Endpoint queried
+**	Active IQ Unified Manager API endpoint queried
 **	Response time
 **	Number of records
 **	AiqumInstance IP
@@ -223,7 +223,7 @@ When the*Remove Private Data* option is enabled on Keystone Collector, the follo
 
 ====
 
-== StorageGRID usage data
+== StorageGRID data collection
 .Usage data collected for StorageGRID
 [%collapsible]
 ====
