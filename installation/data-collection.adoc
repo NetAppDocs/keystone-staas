@@ -199,7 +199,7 @@ The following list is a representative sample of the performance data collected 
 *	WriteIops
 ====
 
-.List of data removed on limiting private data access
+.List of items removed on limiting private data access
 [%collapsible]
 ====
 When the *Remove Private Data* option is enabled on Keystone Collector, the following usage information is eliminated for ONTAP:
@@ -250,7 +250,7 @@ The following list is a representative sample of the `Physical Data` collected f
 
 ====
 
-.List of data removed on limiting private data access
+.List of items removed on limiting private data access
 [%collapsible]
 ====
 When the *Remove Private Data* option is enabled on Keystone Collector, the following usage information is eliminated for StorageGRID:
