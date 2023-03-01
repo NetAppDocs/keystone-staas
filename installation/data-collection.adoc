@@ -61,7 +61,7 @@ The following list is a representative sample of the capacity consumption data c
 **	StorageType
 **	Aggregate Name
 **	Aggregate UUID
-*	AggregateObjectStores
+*	Aggregate object stores
 **	ObjectStoreName
 **	ObjectStoreUUID
 **	ProviderType
@@ -199,10 +199,10 @@ The following list is a representative sample of the performance data collected 
 *	WriteIops
 ====
 
-.List of usage data removed on limiting private data access
+.List of data removed on limiting private data access
 [%collapsible]
 ====
-When the*Remove Private Data* option is enabled on Keystone Collector, the following usage information is eliminated for ONTAP:
+When the *Remove Private Data* option is enabled on Keystone Collector, the following usage information is eliminated for ONTAP:
 
 *	Cluster Name
 *	Cluster Location
@@ -250,15 +250,16 @@ The following list is a representative sample of the `Physical Data` collected f
 
 ====
 
-.List of usage data removed on limiting private data access
+.List of data removed on limiting private data access
 [%collapsible]
 ====
-When the*Remove Private Data* option is enabled on Keystone Collector, the following usage information is eliminated for StorageGRID:
+When the *Remove Private Data* option is enabled on Keystone Collector, the following usage information is eliminated for StorageGRID:
 
 * AccountName
 * BucketName 
 * SiteName 
 * Instance/NodeName 
 
+====
 
 

@@ -17,7 +17,7 @@ You need to complete a few configuration tasks to enable Keystone Collector to c
 
 
 [NOTE]
-The Keystone Collector provides you with the Keystone Collector Management Terminal User Interface (TUI) utility to perform the configuration and monitoring activities.You can use various keyboard controls, such as the Enter and arrow keys, to select the options and navigate across this TUI.
+The Keystone Collector provides you with the Keystone Collector Management Terminal User Interface (TUI) utility to perform the configuration and monitoring activities. You can use various keyboard controls, such as the Enter and arrow keys, to select the options and navigate across this TUI.
 
 .Steps
 
@@ -52,7 +52,7 @@ The following options are available:
 
 * For `Collect ONTAP usage`, add the details for the Unified Manager server and service account. 
 * If Performance monitoring is required in this environment for SLA purposes, enable the `Collect ONTAP Performance Data` option, and provide the Unified Manager Database user account details. For information, see For information, see link:../addl-req.html[Create Unified Manager users].
-* For the option `Remove Private Data`, see the section later in this topic _Limit collection of private data_.
+* For the option `Remove Private Data`, see link:../installation/configuration.html#limit-collection-of-private-data[Limit collection of private data].
 ====
 +
 .For StorageGRID, follow these steps.
@@ -60,7 +60,7 @@ The following options are available:
 ====
 
 * For `Collect StorageGRID usage`, add the StorageGRID node address and user details.
-* For the option `Remove Private Data`, see the section later in this topic _Limit collection of private data_.
+* For the option `Remove Private Data`, see For the option `Remove Private Data`, see link:../installation/configuration.html#limit-collection-of-private-data[Limit collection of private data].
 ====
 +
 . Toggle the **Start KS-Collector with System** field. 
@@ -88,5 +88,5 @@ The option to limiting the data, **Remove Private Data**, is configurable on the
 
 image:tui-4.png[]
 
-For information about the items removed on limiting private data access, see link:../installation//data-collection.html[List of items removed on limiting private data access].
+For information about the items removed on limiting private data access, see link:../installation/data-collection.html[List of items removed on limiting private data access].
 

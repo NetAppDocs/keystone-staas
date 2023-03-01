@@ -5,7 +5,7 @@ keywords: keystone unified manager prerequisites, aiqum config keystone
 summary: keystone unified manager prerequisites
 ---
 
-= Additional prerequisites
+= Additional prerequisites for ONTAP and StorageGRID
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -28,10 +28,10 @@ For installing Keystone Collector in ONTAP, perform these steps as prerequisites
 +
 * https://docs.netapp.com/us-en/active-iq-unified-manager/install-vapp/concept_requirements_for_installing_unified_manager.html[Installing Unified Manager on VMware vSphere systems^]
 * https://docs.netapp.com/us-en/active-iq-unified-manager/install-linux/concept_requirements_for_install_unified_manager.html[Installing Unified Manager on Linux systems^]
-. Create Unified Manager users with specific roles for usage and performance data collection. For information, see https://docs.netapp.com/us-en/active-iq-unified-manager/config/reference_definitions_of_user_roles.html[Definitions of user roles^]. Perform these steps:
+. Create Unified Manager users with specific roles for usage and performance data collection. Perform these steps. For information about user roles, see https://docs.netapp.com/us-en/active-iq-unified-manager/config/reference_definitions_of_user_roles.html[Definitions of user roles^]. 
 .. Log into the Unified Manager web UI with the default application administrator user credentials that are generated during installation. See https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_access_unified_manager_web_ui.html[Accessing the Unified Manager web UI^].
 .. Create a service account for Keystone Collector with `Operator` user role. The Keystone Collector service APIs use this service account to communicate with Unified Manager and collect usage data. See https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_add_users.html[Adding users^].
-.. Create a `Database` user account, with the `Report Schema` role. This user is required for performance data collection.. See https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_create_database_user.html[Creating a database user^].
+.. Create a `Database` user account, with the `Report Schema` role. This user is required for performance data collection. See https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_create_database_user.html[Creating a database user^].
 . Enable API Gateway in Unified Manager. Keystone Collector makes use of the API Gateway feature to communicate with ONTAP clusters. You can enable API Gateway either from the web UI, or by running a few commands through Unified Manager CLI.
 +
 .Web UI
@@ -60,9 +60,9 @@ A `true` value indicates that the API Gateway is enabled.
 
 .StorageGRID
 --
-There are a few configurations that are required for installing Keystone Collector on StorageGRID. 
+The following configurations are required for installing Keystone Collector on StorageGRID. 
 
-* StorageGRID `11.4.0` or later is supported. For information about upgrading StorageGRID, see link:https://docs.netapp.com/us-en/storagegrid-116/upgrade/index.html[Upgrade StorageGRID software: Overview].
+* StorageGRID `11.4.0` or later should be installed. For information about upgrading StorageGRID, see link:https://docs.netapp.com/us-en/storagegrid-116/upgrade/index.html[Upgrade StorageGRID software: Overview].
 * A StorageGRID local admin user account should be created for usage data collection. This service account is used by the Keystone Collector service for communicating with StorageGRID through administrator node APIs.
 +
 .Steps
