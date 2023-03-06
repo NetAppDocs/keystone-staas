@@ -62,12 +62,12 @@ A `true` value indicates that the API Gateway is enabled.
 --
 The following configurations are required for installing Keystone Collector on StorageGRID. 
 
-* StorageGRID `11.4.0` or later should be installed. For information about upgrading StorageGRID, see link:https://docs.netapp.com/us-en/storagegrid-116/upgrade/index.html[Upgrade StorageGRID software: Overview].
+* StorageGRID `11.4.0` or later should be installed. For information about upgrading StorageGRID, see link:https://docs.netapp.com/us-en/storagegrid-116/upgrade/index.html[Upgrade StorageGRID software: Overview^].
 * A StorageGRID local admin user account should be created for usage data collection. This service account is used by the Keystone Collector service for communicating with StorageGRID through administrator node APIs.
 +
 .Steps
-. Log into the Grid Manager. See https://docs.netapp.com/us-en/storagegrid-116/admin/signing-in-to-grid-manager.html[Sign in to the Grid Manager].
-. Create a local admin group with `Access mode: Read-only`. See https://docs.netapp.com/us-en/storagegrid-116/admin/managing-admin-groups.html#create-an-admin-group[Create an admin group].
+. Log into the Grid Manager. See https://docs.netapp.com/us-en/storagegrid-116/admin/signing-in-to-grid-manager.html[Sign in to the Grid Manager^].
+. Create a local admin group with `Access mode: Read-only`. See https://docs.netapp.com/us-en/storagegrid-116/admin/managing-admin-groups.html#create-an-admin-group[Create an admin group^].
 . Add the following permissions:
 **	Tenant Accounts
 **	Maintenance
