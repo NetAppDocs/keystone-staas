@@ -34,7 +34,7 @@ You can configure adaptive QoS (AQoS) policies to automatically scale a throughp
 * *Peak IOPS*: The maximum number of IOPS/TiB that will be available to a volume before performance is limited.
 * *Expected IOPS allocation*: This field controls whether the expected IOPS available to the volume is based on the allocated or used size of the volume. In Keystone, this is based on the allocated space.
 * *Peak IOPS allocation*: This field controls whether the peak IOPS available to the volume is based on the allocated or used size of the volume. In Keystone, this is based on the used space.
-* *Absolute minimum IOPS*: The lowest number of expected IOPS that will be applied to a volume if the volume size is very small and would otherwise result in an unacceptable number of IOPS. This value defaults to 1,000 for `Extreme`, 500 for `Premium`, and 75 for other service levels. 
+* *Absolute minimum IOPS*: The lowest number of expected IOPS that will be applied to a volume if the volume size is very small and would otherwise result in an unacceptable number of IOPS. This value defaults to 1,000 for `Extreme`, 500 for `Premium`, and 250 for `Performance`, and 75 for `Standard` and `Value` service levels. 
 [NOTE]
 This is not IOPS density (for example, 75 IOPS/TiB), but an absolute minimum number of IOPS. 
 
