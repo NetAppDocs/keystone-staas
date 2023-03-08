@@ -96,7 +96,7 @@ The Keystone Collector TUI enables you to generate support bundles and add then 
 image:tui-sup-bundl.png[]
 . When generated, the location where the bundle is saved is displayed. Use FTP, SFTP, or SCP to connect to the location and download the log file to a local system.
 image:tui-sup-bundl-2.png[]
-. When the file is downloaded, you can attach it to the Keystone ServiceNow support ticket. For information, see link:../concepts/gssc.html[Generating service requests].
+. When the file is downloaded, you can attach it to the Keystone ServiceNow support ticket. For information about raising tickets, see link:../concepts/gssc.html[Generating service requests].
 
 
 
