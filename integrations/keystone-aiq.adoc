@@ -13,7 +13,7 @@ summary: Keystone and Digital Advisor
 :imagesdir: ../media/
 
 [.lead]
-If you have subscribed to NetApp Keystone services, you can view your usage reports and graphs on the Digital Advisor dashboard. 
+If you have subscribed to NetApp Keystone services, you can view your usage reports and graphs on the Active IQ Digital Advisor (Digital Advisor) dashboard. 
 
 Digital Advisor enables you to view storage-as-a-service (STaaS) details and information on the NetApp infrastructure that you own. Digital Advisor provides a single dashboard with visibility into your subscriptions, service levels, and capacity usage with the ability to create detailed reports.
 

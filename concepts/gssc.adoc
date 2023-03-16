@@ -33,7 +33,7 @@ keystone.escalations@netapp.com
 [NOTE]
 In a partner-operated model, the tenant and subtenant's service requests are assigned to the partner's service desk. The partner's support tool might have integration with OpsRamp and GSSC applications. Only L3 issues are escalated to NetApp through GSSC.
 
-For more information, see:
+For more information about Keystone services, see:
 
 * NetApp Keystone
  https://www.netapp.com/us/solutions/keystone/index.aspx[https://www.netapp.com/us/solutions/keystone/index.aspx^]

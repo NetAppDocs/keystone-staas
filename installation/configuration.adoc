@@ -31,7 +31,7 @@ The Keystone Collector provides you with the Keystone Collector Management Termi
 ====
 
 * *Collect ONTAP usage*: This option enables collection of usage data for ONTAP. Add the details of the Active IQ Unified Manager (Unified Manager) server and service account.
-* *Collect ONTAP Performance Data*: This option enables collection of performance data for ONTAP. This is disabled by default. Enable this option if performance monitoring is required in your environment for SLA purposes. Provide the Unified Manager Database user account details. For information, see For information, see link:../addl-req.html[Create Unified Manager users].
+* *Collect ONTAP Performance Data*: This option enables collection of performance data for ONTAP. This is disabled by default. Enable this option if performance monitoring is required in your environment for SLA purposes. Provide the Unified Manager Database user account details. For information about creating database users, see link:../addl-req.html[Create Unified Manager users].
 * *Remove Private Data*: This option removes specific private data of customers and is enabled by default. For information about what data is excluded from the metrics if this option is enabled, see _Limit collection of private data_ later in this topic.
 ====
 +
