@@ -64,7 +64,7 @@ image:tui-3.png[]
 == Limit collection of private data
 The Keystone Collector gathers limited configuration, status, and performance information required to perform subscription metering. There is an option to further limit the information collected by masking sensitive information from the content uploaded. This does not impact billing calculation. However, limiting the information might impact usability of the reporting information, as some elements, which can be easily identified by users, such as volume name, is replaced with UUIDs. 
 
-The Keystone Collector TUI configuration screen has the option *Remove Private Data* that limits the collection of specific customer data. This option is enabled by default.
+Limiting the collection of specific customer data is a configurable option on the Keystone Collector TUI screen. This option, *Remove Private Data*, is enabled by default.
 
 image:tui-4.png[]
 

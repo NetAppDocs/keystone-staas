@@ -28,7 +28,7 @@ For installing Keystone Collector in ONTAP, perform these steps as prerequisites
 +
 * https://docs.netapp.com/us-en/active-iq-unified-manager/install-vapp/concept_requirements_for_installing_unified_manager.html[Installing Unified Manager on VMware vSphere systems^]
 * https://docs.netapp.com/us-en/active-iq-unified-manager/install-linux/concept_requirements_for_install_unified_manager.html[Installing Unified Manager on Linux systems^]
-. Ensure that the ONTAP cluster has been added to Unified Manager. For information about adding clusters, see https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_add_clusters.html[Adding clusters].
+. Ensure that the ONTAP cluster has been added to Unified Manager. For information about adding clusters, see https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_add_clusters.html[Adding clusters^].
 . Create Unified Manager users with specific roles for usage and performance data collection. Perform these steps. For information about user roles, see https://docs.netapp.com/us-en/active-iq-unified-manager/config/reference_definitions_of_user_roles.html[Definitions of user roles^]. 
 .. Log into the Unified Manager web UI with the default application administrator user credentials that are generated during installation. See https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_access_unified_manager_web_ui.html[Accessing the Unified Manager web UI^].
 .. Create a service account for Keystone Collector with `Operator` user role. The Keystone Collector service APIs use this service account to communicate with Unified Manager and collect usage data. See https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_add_users.html[Adding users^].
