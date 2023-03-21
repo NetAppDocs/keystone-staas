@@ -12,36 +12,54 @@ Keystone Collector requires internet connectivity. You can provide internet conn
 
 |Source |Destination |Service |Protocol and Ports |Category |Purpose
 
-a|Keystone Collector
+a|Keystone Collector (for Keystone ONTAP)
 a|Active IQ Unified Manager (Unified Manager)
 a|HTTPS
 a|TCP 443
-a|Mandatory
-a|Keystone Collector usage metrics collection
-a|Keystone Collector
+a|Mandatory (if using Keystone ONTAP)
+a|Keystone Collector usage metrics collection for ONTAP
+a|Keystone Collector (for Keystone StorageGRID)
+a|StorageGRID Admin Nodes
+a|HTTPS
+a|TCP 443
+a|Mandatory (if using Keystone StorageGRID)
+a|Keystone Collector usage metrics collection for StorageGRID
+a|Keystone Collector (generic)
 a|Internet (as per URL requirements given later)
 a|HTTP, HTTPS
 a|TCP 80, TCP 443
 a|Mandatory (internet connectivity)
 a|Keystone Collector software, OS updates, and metrics upload
-a|Keystone Collector
+a|Keystone Collector (generic)
 a|Customer HTTP Proxy
 a|HTTP Proxy 
 a|Customer Proxy Port
 a|Mandatory (internet connectivity)
 a|Keystone Collector software, OS updates, and metrics upload
-a|Keystone Collector
+a|Keystone Collector (generic)
 a|Customer DNS Servers
 a|DNS
 a|TCP/UDP 53
 a|Mandatory 
 a|DNS resolution
-a|Keystone Collector
+a|Keystone Collector (generic)
 a|Customer NTP Servers
 a|NTP
 a|UDP 123
 a|Mandatory
 a|Time synchronization
+a|Keystone Collector (for Keystone ONTAP)
+a|Unified Manager
+a|MYSQL
+a|TCP 3306
+a|Optional Functionality
+a|Performance metrics collection for Keystone Collector
+a|Keystone Collector (generic)
+a|Customer Monitoring System
+a|HTTP
+a|TCP 777
+a|Optional Functionality
+a|Keystone Collector health reporting
 a|Customer's Operations Workstations
 a|Keystone Collector
 a|SSH
@@ -54,18 +72,7 @@ a|HTTP_8000, PING
 a|TCP 8000, ICMP Echo Request/Reply
 a|Optional Functionality
 a|Webserver for ONTAP firmware updates
-a|Keystone Collector
-a|Unified Manager
-a|MYSQL
-a|TCP 3306
-a|Optional Functionality
-a|Performance metrics collection for Keystone Collector
-a|Keystone Collector
-a|Customer Monitoring System
-a|HTTP
-a|TCP 777
-a|Optional Functionality
-a|Keystone Collector health reporting
+
 
 |===
 
