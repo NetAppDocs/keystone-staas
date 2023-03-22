@@ -13,9 +13,9 @@ summary: Keystone Subscription reports and graphs
 :imagesdir: ../media/
 
 [.lead]
-If you have subscribed to NetApp Keystone STaaS services, you can monitor your usage on the *Keystone Subscriptions* widget on the Digital Advisor dashboard. 
+If you have subscribed to NetApp Keystone STaaS services, you can monitor your usage on the *Keystone Subscriptions* widget on the Active IQ Digital Advisor (Digital Advisor) dashboard. 
 
-For information about the Digital Advisor widget, see https://docs.netapp.com/us-en/active-iq/task_view_keystone_capacity_utilization.html[View capacity utilization with NetApp Keystone Subscription^].
+For information about the Digital Advisor widget, see https://docs.netapp.com/us-en/active-iq/view_keystone_capacity_utilization.html[View capacity utilization with NetApp Keystone Subscription^].
 
 Click *View More Details* on the widget to view the usage details and alerts on your volumes on the *Keystone Subscription* page. Alternately, from the left navigation pane, go to *GENERAL > Keystone Subscription*.
 

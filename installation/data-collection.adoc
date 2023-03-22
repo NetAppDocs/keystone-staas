@@ -1,0 +1,265 @@
+---
+sidebar: sidebar
+permalink: installation/data-collection.html
+keywords: type of data collected by Keystone collector
+summary: billing data collection by Keystone collector for ONTAP and StorageGRID
+---
+
+= Types of user data that Keystone collects
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ../media/
+
+[.lead]
+Keystone collects configuration, status, and usage information for your Keystone ONTAP and Keystone StoragGRID subscriptions. It can also collect performance data for only ONTAP, if the option is enabled in Keystone Collector.
+
+== ONTAP data collection
+.Usage data collected for ONTAP
+[%collapsible]
+====
+The following list is a representative sample of the capacity consumption data collected for ONTAP:
+
+* Clusters
+** ClusterUUID
+** ClusterName
+** SerialNumber
+** Location (based on value input in ONTAP cluster)
+** Contact
+** Version
+* Nodes
+** SerialNumber
+** Node name
+* Volumes
+** Aggregate name
+** Volume Name
+** VolumeInstanceUUID
+** IsCloneVolume flag
+** IsFlexGroupConstituent flag
+** IsSpaceEnforcementLogical flag
+** IsSpaceReportingLogical flag
+** LogicalSpaceUsedByAfs
+** PercentSnapshotSpace
+** PerformanceTierInactiveUserData
+**	PerformanceTierInactiveUserDataPercent
+** QoSAdaptivePolicyGroup Name
+** QoSPolicyGroup Name
+** Size
+** Used
+** PhysicalUsed	
+**	SizeUsedBySnapshots
+**	Type
+**	VolumeStyleExtended
+**	Vserver name
+**	IsVsRoot flag
+* VServers
+** VserverName
+** VserverUUID
+** Subtype
+* Storage aggregates
+**	StorageType
+**	Aggregate Name
+**	Aggregate UUID
+*	Aggregate object stores
+**	ObjectStoreName
+**	ObjectStoreUUID
+**	ProviderType
+**	Aggregate Name
+* Clone volumes
+** FlexClone
+** Size
+** Used
+** Vserver
+** Type
+** ParentVolume
+** ParentVserver
+** IsConstituent
+** SplitEstimate
+** State
+** FlexCloneUsedPercent
+*	Storage LUNs
+**	LUN UUID
+**  LUN Name
+**	Size
+**	Used
+**	IsReserved flag
+**	IsRequested flag
+**	LogicalUnit Name
+**	QoSPolicyUUID
+**	QoSPolicyName
+**	VolumeUUID
+**	VolumeName
+**	SVMUUID
+**	SVM Name
+* Storage volumes
+** VolumeInstanceUUID
+** VolumeName
+** SVMName
+** SVMUUID
+** QoSPolicyUUID
+** QoSPolicyName
+** CapacityTierFootprint
+** PerformanceTierFootprint
+** TotalFootprint
+** TieringPolicy
+** IsProtected flag
+** IsDestination flag
+** Used
+** PhysicalUsed
+** CloneParentUUID
+** LogicalSpaceUsedByAfs
+* QoS policy groups
+** PolicyGroup
+** QoSPolicyUUID
+** MaxThroughput
+** MinThroughput
+** MaxThroughputIOPS
+** MaxThroughputMBps
+** MinThroughputIOPS
+** MinThroughputMBps
+** IsShared flag
+* ONTAP adaptive QoS policy groups
+** QoSPolicyName
+** QoSPolicyUUID
+** PeakIOPS
+** PeakIOPSAllocation
+** AbsoluteMinIOPS
+** ExpectedIOPS
+** ExpectedIOPSAllocation
+** BlockSize
+* Footprints
+** Vserver
+** Volume
+** TotalFootprint
+** VolumeBlocksFootprintBin0
+** VolumeBlocksFootprintBin1
+* MetroCluster clusters
+** ClusterUUID
+** ClusterName
+** RemoteClusterUUID
+** RemoteCluserName
+** LocalConfigurationState
+** RemoteConfigurationState
+** Mode
+* Collector Observablility Metrics
+**	Collection Time
+**	Active IQ Unified Manager API endpoint queried
+**	Response time
+**	Number of records
+**	AIQUMInstance IP
+**	CollectorInstance ID
+====
+
+.Performance data collected for ONTAP
+[%collapsible]
+====
+The following list is a representative sample of the performance data collected for ONTAP:
+
+*	Cluster Name
+*	Cluster UUID
+*	ObjectID
+*	VolumeName
+*	Volume Instance UUID
+*	Vserver
+*	VserverUUID
+*	Node Serial
+*	ONTAPVersion
+*	AIQUM version
+*	Aggregate
+*	AggregateUUID
+*	ResourceKey
+*	TimeStamp
+*	IOPSPerTb
+*	Latency
+*	ReadLatency
+*	WriteMBps
+*	QoSMinThroughputLatency
+*	QoSNBladeLatency
+*	UsedHeadRoom
+*	CacheMissRatio
+*	OtherLatency
+*	QoSAggregateLatency
+*	IOPS
+*	QoSNetworkLetency
+*	AvailableOps
+*	WriteLatency
+*	QoSCloudLatency
+*	QoSClusterInterconnectLatency
+*	OtherMBps
+*	QoSCopLatency
+*	QoSDBladeLatency
+*	Utilization
+*	ReadIOPS
+*	MBps
+*	OtherIOPS
+*	QoSPolicyGroupLatency
+*	ReadMBps
+*	QoSSyncSnapmirrorLatency
+*	WriteIOPS
+====
+
+.List of items removed on limiting private data access
+[%collapsible]
+====
+When the *Remove Private Data* option is enabled on Keystone Collector, the following usage information is eliminated for ONTAP. This option is enabled by default. 
+
+*	Cluster Name
+*	Cluster Location
+*	Cluster Contact
+*	Node Name
+*	Aggregate name
+*	Volume Name
+*	QoSAdaptivePolicyGroup Name
+*	QoSPolicyGroup Name
+*	Vserver name
+*	Storage LUN name
+*	Aggregate Name
+*	LogicalUnit Name
+*	SVM Name
+*	AIQUMInstance IP
+*	FlexClone
+*	RemoteClusterName
+
+====
+
+== StorageGRID data collection
+.Usage data collected for StorageGRID
+[%collapsible]
+====
+
+The following list is a representative sample of the `Logical Data` collected for StorageGRID:
+
+*	StorageGRID ID
+*	Account ID
+*	Account Name
+*	Account Quota Bytes
+*	Bucket Name
+*	Bucket Object Count
+*	Bucket Data Bytes
+
+The following list is a representative sample of the `Physical Data` collected for StorageGRID:
+
+*	StorageGRID ID
+*	Node ID
+*	Site ID
+*	Site Name
+*	Instance
+*	StorageGRID storage utilization Bytes
+*	StorageGRID storage utilization metadata Bytes
+
+====
+
+.List of items removed on limiting private data access
+[%collapsible]
+====
+When the *Remove Private Data* option is enabled on Keystone Collector, the following usage information is eliminated for StorageGRID. This option is enabled by default. 
+
+* AccountName
+* BucketName 
+* SiteName 
+* Instance/NodeName 
+
+====
+
+

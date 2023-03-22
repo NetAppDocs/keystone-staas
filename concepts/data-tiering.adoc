@@ -30,7 +30,7 @@ The add-on data tiering service enables tiering from Extreme, Premium, Performan
 
 For example, if the target for cold storage tier is:
 
-*	Keystone STaaS Value tier, Keystone STaaS StorageGrid Object Tier, or existing SGWS grid (customer owned) - There is no additional charge; it is part of the standard service.
+*	Keystone STaaS Value tier, Keystone STaaS StorageGRID Object Tier, or existing SGWS grid (customer owned) - There is no additional charge; it is part of the standard service.
 *	Public cloud (AWS, Azure, Google) or Keystone STaaS-supported, third party object storage - There is an additional charge for data capacity that is tiered to cold storage target.
 
 The charges for add-on tiering services apply through the entire subscription term.

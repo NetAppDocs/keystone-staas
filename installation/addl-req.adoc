@@ -1,0 +1,86 @@
+---
+sidebar: sidebar
+permalink: installation/addl-req.html
+keywords: keystone unified manager prerequisites, aiqum config keystone
+summary: keystone unified manager prerequisites
+---
+
+= Additional prerequisites for ONTAP and StorageGRID
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ../media/
+
+[.lead]
+You should complete a few additional prerequisites for ONTAP and StorageGRID. Ensure that you have completed these specific prerequisites in addition to the Linux/VMware vSphere system requirements. Click the required tab to learn more.
+
+//tabbed blocks start here
+
+[role="tabbed-block"]
+====
+
+.ONTAP
+--
+For installing Keystone Collector in ONTAP, perform these steps as prerequisites:
+
+. Ensure that an Active IQ Unified Manager (Unified Manager) server is configured with Unified Manager 9.7 or later. For information about installing Unified Manager, see these links:
++
+* https://docs.netapp.com/us-en/active-iq-unified-manager/install-vapp/concept_requirements_for_installing_unified_manager.html[Installing Unified Manager on VMware vSphere systems^]
+* https://docs.netapp.com/us-en/active-iq-unified-manager/install-linux/concept_requirements_for_install_unified_manager.html[Installing Unified Manager on Linux systems^]
+. Ensure that the ONTAP cluster has been added to Unified Manager. For information about adding clusters, see https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_add_clusters.html[Adding clusters^].
+. Create Unified Manager users with specific roles for usage and performance data collection. Perform these steps. For information about user roles, see https://docs.netapp.com/us-en/active-iq-unified-manager/config/reference_definitions_of_user_roles.html[Definitions of user roles^]. 
+.. Log into the Unified Manager web UI with the default application administrator user credentials that are generated during installation. See https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_access_unified_manager_web_ui.html[Accessing the Unified Manager web UI^].
+.. Create a service account for Keystone Collector with `Operator` user role. The Keystone Collector service APIs use this service account to communicate with Unified Manager and collect usage data. See https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_add_users.html[Adding users^].
+.. Create a `Database` user account, with the `Report Schema` role. This user is required for performance data collection. See https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_create_database_user.html[Creating a database user^].
+. Enable API Gateway in Unified Manager. Keystone Collector makes use of the API Gateway feature to communicate with ONTAP clusters. You can enable API Gateway either from the web UI, or by running a few commands through Unified Manager CLI.
++
+.Web UI
+To enable API Gateway from the Unified Manager web UI, log into the Unified Manager web UI and enable API Gateway. For information, see https://docs.netapp.com/us-en/active-iq-unified-manager/config/concept_api_gateway.html[Enabling API Gateway^].
++
+.CLI
+To enable API Gateway through Unified Manager CLI, follow these steps:
+
+.. On the Unified Manager server, begin an SSH session and log into Unified Manager CLI.
+`um cli login -u _<umadmin>_`
+For information about CLI commands, see https://docs.netapp.com/us-en/active-iq-unified-manager/events/reference_supported_unified_manager_cli_commands.html[Supported Unified Manager CLI commands^].
+.. Verify whether API Gateway is already enabled. 
+`um option list api.gateway.enabled`
+A `true` value indicates that the API Gateway is enabled. 
+.. If the value returned is `false`, run this command:
+`um option set api.gateway.enabled=true`
+.. Restart the Unified Manager server:
+
+* Linux: https://docs.netapp.com/us-en/active-iq-unified-manager/install-linux/task_restart_unified_manager.html[Restarting Unified Manager^].
+* VMware vSphere: https://docs.netapp.com/us-en/active-iq-unified-manager/install-vapp/task_restart_unified_manager_virtual_machine.html[Restarting the Unified Manager virtual machine^].
+
+--
+
+
+//end ONTAP, begin StorageGRID
+
+.StorageGRID
+--
+The following configurations are required for installing Keystone Collector on StorageGRID. 
+
+* StorageGRID `11.4.0` or later should be installed. For information about upgrading StorageGRID, see link:https://docs.netapp.com/us-en/storagegrid-116/upgrade/index.html[Upgrade StorageGRID software: Overview^].
+* A StorageGRID local admin user account should be created for usage data collection. This service account is used by the Keystone Collector service for communicating with StorageGRID through administrator node APIs.
++
+.Steps
+. Log into the Grid Manager. See https://docs.netapp.com/us-en/storagegrid-116/admin/signing-in-to-grid-manager.html[Sign in to the Grid Manager^].
+. Create a local admin group with `Access mode: Read-only`. See https://docs.netapp.com/us-en/storagegrid-116/admin/managing-admin-groups.html#create-an-admin-group[Create an admin group^].
+. Add the following permissions:
+**	Tenant Accounts
+**	Maintenance
+**	Metrics Query
+. Create a Keystone service account user and associate it with the admin group. See https://docs.netapp.com/us-en/storagegrid-116/admin/managing-users.html[Manage users].
+--
+====
+//end tabbed blocks
+
+
+
+
+
+
+
