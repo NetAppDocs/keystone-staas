@@ -43,8 +43,8 @@ The following list is a representative sample of the capacity consumption data c
 ** PercentSnapshotSpace
 ** PerformanceTierInactiveUserData
 **	PerformanceTierInactiveUserDataPercent
-** QosAdaptivePolicyGroup Name
-** QosPolicyGroup Name
+** QoSAdaptivePolicyGroup Name
+** QoSPolicyGroup Name
 ** Size
 ** Used
 ** PhysicalUsed	
@@ -67,7 +67,7 @@ The following list is a representative sample of the capacity consumption data c
 **	ProviderType
 **	Aggregate Name
 * Clone volumes
-** Flexclone
+** FlexClone
 ** Size
 ** Used
 ** Vserver
@@ -77,28 +77,28 @@ The following list is a representative sample of the capacity consumption data c
 ** IsConstituent
 ** SplitEstimate
 ** State
-** FlexcloneUsedPercent
+** FlexCloneUsedPercent
 *	Storage LUNs
-**	Lun UUID
-**  Lun Name
+**	LUN UUID
+**  LUN Name
 **	Size
 **	Used
 **	IsReserved flag
 **	IsRequested flag
 **	LogicalUnit Name
-**	QosPolicyUUID
-**	QosPolicyName
+**	QoSPolicyUUID
+**	QoSPolicyName
 **	VolumeUUID
 **	VolumeName
-**	SvmUUID
-**	Svm Name
+**	SVMUUID
+**	SVM Name
 * Storage volumes
 ** VolumeInstanceUUID
 ** VolumeName
-** SvmName
-** SvmUUID
-** QosPolicyUUID
-** QosPolicyName
+** SVMName
+** SVMUUID
+** QoSPolicyUUID
+** QoSPolicyName
 ** CapacityTierFootprint
 ** PerformanceTierFootprint
 ** TotalFootprint
@@ -111,22 +111,22 @@ The following list is a representative sample of the capacity consumption data c
 ** LogicalSpaceUsedByAfs
 * QoS policy groups
 ** PolicyGroup
-** QosPolicyUUID
+** QoSPolicyUUID
 ** MaxThroughput
 ** MinThroughput
-** MaxThroughputIops
-** MaxThroughputMbps
-** MinThroughputIops
-** MinThroughputMbps
+** MaxThroughputIOPS
+** MaxThroughputMBps
+** MinThroughputIOPS
+** MinThroughputMBps
 ** IsShared flag
 * ONTAP adaptive QoS policy groups
-** QosPolicyName
-** QosPolicyUUID
-** PeakIops
-** PeakIopsAllocation
-** AbsoluteMinIops
-** ExpectedIops
-** ExpectedIopsAllocation
+** QoSPolicyName
+** QoSPolicyUUID
+** PeakIOPS
+** PeakIOPSAllocation
+** AbsoluteMinIOPS
+** ExpectedIOPS
+** ExpectedIOPSAllocation
 ** BlockSize
 * Footprints
 ** Vserver
@@ -147,7 +147,7 @@ The following list is a representative sample of the capacity consumption data c
 **	Active IQ Unified Manager API endpoint queried
 **	Response time
 **	Number of records
-**	AiqumInstance IP
+**	AIQUMInstance IP
 **	CollectorInstance ID
 ====
 
@@ -170,33 +170,33 @@ The following list is a representative sample of the performance data collected 
 *	AggregateUUID
 *	ResourceKey
 *	TimeStamp
-*	IopsPerTb
+*	IOPSPerTb
 *	Latency
 *	ReadLatency
-*	WriteMbps
-*	QosMinThroughputLatency
-*	QosNBladeLatency
+*	WriteMBps
+*	QoSMinThroughputLatency
+*	QoSNBladeLatency
 *	UsedHeadRoom
 *	CacheMissRatio
 *	OtherLatency
-*	QosAggregateLatency
-*	Iops
-*	QosNetworkLetency
+*	QoSAggregateLatency
+*	IOPS
+*	QoSNetworkLetency
 *	AvailableOps
 *	WriteLatency
-*	QosCloudLatency
-*	QosClusterInterconnectLatency
-*	OtherMbps
-*	QosCopLatency
-*	QosDBladeLatency
+*	QoSCloudLatency
+*	QoSClusterInterconnectLatency
+*	OtherMBps
+*	QoSCopLatency
+*	QoSDBladeLatency
 *	Utilization
-*	ReadIops
-*	Mbps
-*	OtherIops
-*	QosPolicyGroupLatency
-*	ReadMbps
-*	QosSyncSnapmirrorLatency
-*	WriteIops
+*	ReadIOPS
+*	MBps
+*	OtherIOPS
+*	QoSPolicyGroupLatency
+*	ReadMBps
+*	QoSSyncSnapmirrorLatency
+*	WriteIOPS
 ====
 
 .List of items removed on limiting private data access
@@ -210,15 +210,15 @@ When the *Remove Private Data* option is enabled on Keystone Collector, the foll
 *	Node Name
 *	Aggregate name
 *	Volume Name
-*	QosAdaptivePolicyGroup Name
-*	QosPolicyGroup Name
+*	QoSAdaptivePolicyGroup Name
+*	QoSPolicyGroup Name
 *	Vserver name
-*	Storage lun name
+*	Storage LUN name
 *	Aggregate Name
 *	LogicalUnit Name
-*	Svm Name
+*	SVM Name
 *	AiqumInstance IP
-*	Flexclone
+*	FlexClone
 *	RemoteClusterName
 
 ====
@@ -230,8 +230,8 @@ When the *Remove Private Data* option is enabled on Keystone Collector, the foll
 
 The following list is a representative sample of the `Logical Data` collected for StorageGRID:
 
-*	Storagegrid Id
-*	Account Id
+*	StorageGRID ID
+*	Account ID
 *	Account Name
 *	Account Quota Bytes
 *	Bucket Name
@@ -240,13 +240,13 @@ The following list is a representative sample of the `Logical Data` collected fo
 
 The following list is a representative sample of the `Physical Data` collected for StorageGRID:
 
-*	Storagegrid Id
-*	Node Id
-*	Site Id
+*	StorageGRID ID
+*	Node ID
+*	Site ID
 *	Site Name
 *	Instance
-*	Storagegrid storage utilization Bytes
-*	Storagegrid storage utilization metadata Bytes
+*	StorageGRID storage utilization Bytes
+*	StorageGRID storage utilization metadata Bytes
 
 ====
 
