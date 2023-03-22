@@ -158,13 +158,13 @@ The following list is a representative sample of the performance data collected 
 
 *	Cluster Name
 *	Cluster UUID
-*	ObjectId
+*	ObjectID
 *	VolumeName
 *	Volume Instance UUID
 *	Vserver
 *	VserverUUID
 *	Node Serial
-*	OntapVersion
+*	ONTAPVersion
 *	AIQUM version
 *	Aggregate
 *	AggregateUUID
@@ -217,7 +217,7 @@ When the *Remove Private Data* option is enabled on Keystone Collector, the foll
 *	Aggregate Name
 *	LogicalUnit Name
 *	SVM Name
-*	AiqumInstance IP
+*	AIQUMInstance IP
 *	FlexClone
 *	RemoteClusterName
 
