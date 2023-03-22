@@ -25,7 +25,7 @@ Follow these steps to install the software on your Linux server:
 The correct fingerprint looks like this:
 `90B3 83AF E07B 658A 6058  5B4E 76C2 45E4 33B6 C17D`
 . Download the `keystonerepo.rpm` file:
-`curl -O https://keystone.netapp.com/repo/keystonerepo.rpm
+`curl -O https://keystone.netapp.com/repo/keystonerepo.rpm`
 . Verify the authenticity of the file:
 `rpm --checksig -v keystonerepo.rpm`
 A signature for an authentic file looks like this:
