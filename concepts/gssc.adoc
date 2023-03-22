@@ -13,7 +13,7 @@ summary: NetApp Global Services Support Center GSSC
 :imagesdir: ../media/
 
 [.lead]
-NetApp Keystone services are run by leveraging the NetApp Global Services and Support Center (GSSC), NetApp Keystone Success Manager, and NetApp Keystone Service Delivery Manager.
+NetApp Global Services and Support Center (GSSC) and NetApp Keystone Success Manager (KSM) are responsible for providing you services for Keystone subscriptions.
 
 == NetApp Global Services and Support Center (GSSC)
 NetApp provides operational services remotely to NetApp Keystone customers. These services encompass a range of operational disciplines across storage management activities. These services include asset and configuration management, capacity and performance management, change management, event, incident and problem management, service request fulfillment, and reporting. NetApp demonstrates a state of control and supporting evidences as required.
@@ -33,7 +33,7 @@ keystone.escalations@netapp.com
 [NOTE]
 In a partner-operated model, the tenant and subtenant's service requests are assigned to the partner's service desk. The partner's support tool might have integration with OpsRamp and GSSC applications. Only L3 issues are escalated to NetApp through GSSC.
 
-For more information, see:
+For more information about Keystone services, see:
 
 * NetApp Keystone
  https://www.netapp.com/us/solutions/keystone/index.aspx[https://www.netapp.com/us/solutions/keystone/index.aspx^]

@@ -16,14 +16,14 @@ sidebar:
       entries:
         - title: What is Keystone Collector
           url: /installation/installation-overview.html
-        - title: Prerequisites for installation
+        - title: Prerequisites for installing Keystone Collector
           entries:
             - title: VMware vSphere prerequisites
               url: /installation/vapp-prereqs.html
             - title: Linux prerequisites
               url: /installation/linux-prereqs.html
-            - title: Active IQ Unified Manager configurations
-              url: /installation/aiqum-req.html
+            - title: Specific prerequisites for ONTAP and StorageGRID
+              url: /installation/addl-req.html
         - title: Installation procedure
           entries:
             - title: VMware vSphere deployment
@@ -36,6 +36,8 @@ sidebar:
           url: /installation/configuration.html
         - title: Monitor system health
           url: /installation/monitor-health.html
+        - title: Data collected for billing
+          url: /installation/data-collection.html
     - title: Learn about Keystone
       entries:    
         - title: Supported storage capacity
@@ -96,9 +98,9 @@ sidebar:
       entries:
        -  title: Keystone and BlueXP
           url: /integrations/keystone-cm.html
-       -  title: Keystone and Digital Advisor
+       -  title: Keystone and Active IQ Digital Advisor
           url: /integrations/keystone-aiq.html
-       - title: Digital Advisor Keystone dashboard and reporting
+       - title: Active IQ Digital Advisor reporting for Keystone
          url: /integrations/aiq-keystone-details.html
     - title: Legal notices
       url: /legal-notices.html
@@ -149,7 +151,7 @@ homepage:
           url: /concepts/gssc.html
         - title: Keystone and BlueXP
           url: /integrations/keystone-cm.html
-        - title: Keystone and Digital Advisor
+        - title: Keystone and Active IQ Digital Advisor
           url: /integrations/keystone-aiq.html
         - title: US Citizen Support
           url: /concepts/uscs.html
@@ -157,7 +159,7 @@ homepage:
       links:
         - title: Keystone Flex Subscription
           url: https://docs.netapp.com/us-en/keystone/
-        - title: Digital Advisor
+        - title: Active IQ Digital Advisor
           url: https://docs.netapp.com/us-en/active-iq/index.html
         - title: BlueXP
           url: https://docs.netapp.com/us-en/cloud-manager-family/

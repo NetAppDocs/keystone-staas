@@ -25,7 +25,7 @@ Follow these steps to install the software on your Linux server:
 The correct fingerprint looks like this:
 `90B3 83AF E07B 658A 6058  5B4E 76C2 45E4 33B6 C17D`
 . Download the `keystonerepo.rpm` file:
-`# wget https://keystone.netapp.com/repo/keystonerepo.rpm`
+`curl -O https://keystone.netapp.com/repo/keystonerepo.rpm`
 . Verify the authenticity of the file:
 `rpm --checksig -v keystonerepo.rpm`
 A signature for an authentic file looks like this:
@@ -34,3 +34,6 @@ A signature for an authentic file looks like this:
 `# yum install keystonerepo.rpm`
 . When the Keystone repo is installed, install the keystone-collector package through the YUM package manager:
 `# yum install keystone-collector`
+
+[NOTE]
+On completing the installation, you can use the Keystone Collector Management Terminal User Interface (TUI) utility to perform the configuration and monitoring activities. You can use various keyboard controls, such as the Enter and arrow keys, to select the options and navigate across this TUI. See link:../installation/configuration.html[Configure Keystone Collector] and link:../installation/monitor-health.html[Monitor system health].
