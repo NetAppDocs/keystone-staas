@@ -13,13 +13,20 @@ summary: Keystone Subscription reports and graphs
 :imagesdir: ../media/
 
 [.lead]
-If you have subscribed to NetApp Keystone STaaS services, you can monitor your usage on the *Keystone Subscriptions* widget on the Active IQ Digital Advisor (Digital Advisor) dashboard. 
+The Active IQ Digital Advisor (Digital Advisor) dashboard provides you with the capability of monitoring the usage pertaining to your NetApp Keystone subscriptions and generating reports. On subscribing to Keystone services, you can view the details of your subscription and usage on the *Keystone Subscriptions* widget on the Digital Advisor dashboard.
 
-For information about the Digital Advisor widget, see https://docs.netapp.com/us-en/active-iq/view_keystone_capacity_utilization.html[View capacity utilization with NetApp Keystone Subscription^].
+[NOTE]
+The information available here applies to both ONTAP and StorageGRID. Exceptions have been pointed out in the relevant sections.
 
-Click *View More Details* on the widget to view the usage details and alerts on your volumes on the *Keystone Subscription* page. Alternately, from the left navigation pane, go to *GENERAL > Keystone Subscription*.
+For information about the Keystone Digital Advisor widget, see https://docs.netapp.com/us-en/active-iq/view_keystone_capacity_utilization.html[View capacity utilization with NetApp Keystone Subscription^].
 
-The details of the subscriptions, usage charts for each service level, and volume details are displayed in the different tabs on this screen.
+To view the details, perform the following steps:
+
+.Steps
+
+. On Digital Advisor, click *View More Details* on the widget to view the usage details and alerts on your volumes on the *Keystone Subscriptions* page. Alternately, from the left navigation pane, go to *GENERAL > Keystone Subscriptions*.
+
+The details of the subscriptions, usage charts for each service level, and volume details are displayed in the different tabs on the *Keystone Subscriptions* screen.
 
 [NOTE]
 Capacity consumption in Keystone subscriptions is displayed in TiBs on the dashboards and reports, up to two decimal places. If the usage is less than 0.01 TiB, then the value is shown as 0 or `No Usage`. For other usage metrics, see link:../concepts/metrics.html#metrics-measurement[Metrics measurement]. For information about different capacities used in Keystone, see link:../concepts/supported-storage-capacity.html[Supported storage capacities].
@@ -157,4 +164,4 @@ For information about AQoS policies, see link:../concepts/qos.html[Adaptive QoS]
 
 image:alert-aiq.png[]
 
-Contact support for more information on these caution and warning messages. For information, see link:../concepts/gssc.html[Generating service requests].
+Contact NetApp support for more information on these caution and warning messages. For information about raising service requests, see link:../concepts/gssc.html#generating-service-requests[Generating service requests].
