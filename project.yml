@@ -88,8 +88,6 @@ sidebar:
           url: /concepts/infra.html
        -  title: Components
           url: /concepts/components.html
-       -  title: OpsRamp as a monitoring application
-          url: /concepts/opsramp.html
        -  title: Data flow
           url: /concepts/data-flow.html
     - title: NetApp Global Services Support Center
