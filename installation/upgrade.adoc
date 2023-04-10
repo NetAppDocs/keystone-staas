@@ -1,0 +1,40 @@
+---
+sidebar: sidebar
+permalink: installation/upgrade.html
+keywords: Keystone Collector upgrade
+summary: upgrade Keystone Collector
+---
+
+= Manually upgrade Keystone Collector
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ../media/
+
+[.lead]
+The auto-update feature in Keystone Collector is enabled by default, which automatically upgrades the Keystone Collector software with every new release. You can, however, disable this feature and manually upgrade the software.
+
+.Steps
+
+. Open the Keystone Collector management TUI utility:
+`$ keystone-collector-tui`
+. On the maintenance screen, selecting the *Update collectors now* option.
++
+image:upgrade-1.png[]
++
+Alternately, run this command to upgrade the version:
++
+----
+sudo yum clean metadata && sudo yum install keystone-collector
+----
++
+image:upgrade-2.png[]
++
+. Restart Keystone Collector management TUI, you can see the latest version on the upper left portion of the home screen.
++
+Alternately, run this command to view the latest version:
+----
+rpm -q keystone-collector
+----
+

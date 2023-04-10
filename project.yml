@@ -36,6 +36,8 @@ sidebar:
           url: /installation/configuration.html
         - title: Monitor system health
           url: /installation/monitor-health.html
+        - title: Upgrade Keystone Collector
+          url: /installation/upgrade.html
         - title: Data collected for billing
           url: /installation/data-collection.html
     - title: Learn about Keystone
