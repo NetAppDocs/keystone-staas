@@ -13,10 +13,10 @@ summary: Keystone data flows
 :imagesdir: ../media/
 
 [.lead]
-Keystone STaaS systems encounter data flow through Keystone Collector traffic and monitoring data flows.
+The data in Keystone STaaS systems flows through Keystone Collector and monitoring systems.
 
 == Keystone Collector data flow
-Keystone Collector initiates REST API calls to the storage controllers and obtains usage details of the controllers periodically.
+Keystone Collector initiates REST API calls to the storage controllers and obtains usage details of the controllers periodically, as indicated in this flow diagram:
 
 image:collector-data-flow.png[]
 
@@ -24,8 +24,8 @@ image:collector-data-flow.png[]
 
 . NetApp Collector initiates an HTTPS session to the Active-IQ cloud portal.
 . The firewall operated by the customer allows the connection.
-. The Active IQ Cloud portal accepts the connection and establishes a tunnel to the NetApp Collector.
-. The NetApp collector establishes a REST API session to the management connection of the storage controller, obtains the environmental data, and sends it to the Active IQ portal.
+. The Active IQ cloud portal accepts the connection and establishes a tunnel to the NetApp Collector.
+. The NetApp collector establishes a REST API session to the management connection of the storage controller, obtains environmental data, and sends it to the Active IQ portal.
 
 == Monitoring data flows
 

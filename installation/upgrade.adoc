@@ -31,7 +31,7 @@ sudo yum clean metadata && sudo yum install keystone-collector
 +
 image:upgrade-2.png[]
 +
-. Restart Keystone Collector management TUI, you can see the latest version on the upper left portion of the home screen.
+. Reopen Keystone Collector management TUI, you can see the latest version on the upper left portion of the home screen.
 +
 Alternately, run this command to view the latest version:
 +
