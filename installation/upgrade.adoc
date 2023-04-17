@@ -17,7 +17,7 @@ The auto-update feature in Keystone Collector is enabled by default, which autom
 
 .Steps
 
-. Open the Keystone Collector management TUI utility:
+. Start the Keystone Collector management TUI utility:
 `$ keystone-collector-tui`
 . On the maintenance screen, selecting the *Update collectors now* option.
 +
@@ -31,7 +31,7 @@ sudo yum clean metadata && sudo yum install keystone-collector
 +
 image:upgrade-2.png[]
 +
-. Reopen Keystone Collector management TUI, you can see the latest version on the upper left portion of the home screen.
+. Restart Keystone Collector management TUI, you can see the latest version on the upper left portion of the home screen.
 +
 Alternately, run this command to view the latest version:
 +

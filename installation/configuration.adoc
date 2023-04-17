@@ -21,7 +21,7 @@ The Keystone Collector provides you with the Keystone Collector Management Termi
 
 .Steps
 
-. Open the Keystone Collector management TUI utility:
+. Start the Keystone Collector management TUI utility:
 `$ keystone-collector-tui`
 . Go to **Configure > KS-Collector** to open the Keystone Collector configuration screen to view the available options for update.
 . Update the required options. 
@@ -55,7 +55,7 @@ The Collector software supports using a HTTP proxy to communicate with the inter
 
 .Steps
 
-. Open the Keystone Collector management TUI utility if already closed:
+. Restart the Keystone Collector management TUI utility if already closed:
 `$ keystone-collector-tui`
 . Toggle on the **HTTP Proxy** field, and add the details for the HTTP proxy server, port, and credentials, if authentication is required.
 . Click **Save**.
