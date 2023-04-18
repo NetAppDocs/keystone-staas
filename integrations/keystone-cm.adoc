@@ -13,7 +13,9 @@ summary: Keystone and BlueXP
 :imagesdir: ../media/
 
 [.lead]
-If you purchase a cloud service on your Keystone subscription, you can access and manage those services through BlueXP.
+NetApp BlueXP is a complete platform for monitoring hundreds of data sources, with its own interactive visualization dashboard. If you purchase a cloud service on your NetApp Keystone subscription, you can access and manage those services through BlueXP.
+
+The BlueXP Digital Advisor dashboard provides you with a graphical view and drill-down capabilities to monitor your Keystone subscription usage and generate reports. For more information about Digital Advisor dashboard and Keystone, see link:../integrations/aiq-keystone-details.html[Keystone Subscription dashboard and reporting].
 
 As a Keystone customer, if you have Cloud Volumes ONTAP subscription, you can use Keystone services to charge your Cloud Volumes ONTAP usage and view your billing and consumption details through BlueXP.
 

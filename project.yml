@@ -36,6 +36,8 @@ sidebar:
           url: /installation/configuration.html
         - title: Monitor system health
           url: /installation/monitor-health.html
+        - title: Upgrade Keystone Collector
+          url: /installation/upgrade.html
         - title: Data collected for billing
           url: /installation/data-collection.html
     - title: Learn about Keystone
@@ -88,8 +90,6 @@ sidebar:
           url: /concepts/infra.html
        -  title: Components
           url: /concepts/components.html
-       -  title: OpsRamp as a monitoring application
-          url: /concepts/opsramp.html
        -  title: Data flow
           url: /concepts/data-flow.html
     - title: NetApp Global Services Support Center
