@@ -34,24 +34,15 @@ You should provide the required power. NetApp will provide the power requirement
 NetApp can provide the cooling requirement specifications (Typical BTU, Max BTU), based on the final configuration and requirement.
 
 === Storage virtual machines
-Storage virtual machines (storage VMs) should be deployed with the following to support the monitoring and metering of Keystone subscriptions. One storage VM is required for theKeystone Collector; another is required for the OpsRamp Gateway
-
-* Keystone Collector- Used to collect usage metrics:
-**	vCPU: 4
-**	vRAM: 16 GB
-**	vDisk: 200 GB
-* OpsRamp Gateway – Used to real time monitor + remote support ONTAP by Keystone GSSC:
-**	vCPU: 8 
-**	vRAM: 16 GB
-**	vDisk: 100 GB
+A storage virtual machine (storage VM) is required for the deployment of the Keystone Collector and the AIOPs solution gateway. The prerequisites for installing Keystone Collector are available here: link:..//installation/installation-overview.html[Installation guide for Keystone Collector]. The other requirements are shared during deployment.
 
 === Deployment Options
 The Keystone Collector can be deployed through the following methods:
 
 *	VMware OVA template (VMware vCenter Server 6.7 or later is required)
-*	Customer provides Red Hat Enterprise Linux 7 or 8 or CentOS 7 Linux server, and Keystone software is installed via `.rpm` installation process.
+*	Customer provides Red Hat Enterprise Linux 7 or 8 or CentOS 7 Linux server. The Keystone software is installed via `.rpm` installation process.
 
-OpsRamp Gateway is deployed on the following configuration:
+AIOPs solution gateway is deployed on the following configuration:
 
 *	VMware OVA template (VMware vCenter Server 6.7 or later is required)
 *	Bootable .iso installer for 
@@ -60,7 +51,7 @@ OpsRamp Gateway is deployed on the following configuration:
 **	Kernel-based Virtual Machine (Linux KVM)
 
 === Networking 
-Outbound access is required to the following services for operations and maintenance of the Keystone Collector and OpsRamp Gateway:
+Outbound access is required to the following services for operations and maintenance of the Keystone Collector and AIOPs solution gateway:
 
 *	support.netapp.com (usage data upload)
 *	keystone.netapp.com (software  updates)
@@ -73,4 +64,4 @@ NetApp provides the required transceivers for NetApp-provided infrastructure dev
 == Remote access requirement
 Network connectivity is required between the storage infrastructure installed at the customer data center or customer owned co-located services, and Keystone operations center. The customer is responsible for providing the compute and virtual machines, and the internet services. The network design should be over a secured protocol and firewall policies will be approved by both NetApp and customers.
 
-NetApp needs to access the hardware and software components installed for monitoring and management to provide services such as monitoring and billing to Keystone customers. The most common method is to establish a virtual private network (VPN) connection to the customer network and access the required data. To overcome any operational complexity perceived by customers to arise from opening firewall ports to new services, the monitoring tools initiate an external connection. NetApp cloud applications, such as OpsRamp and Zuora, use this connection to perform the respective services. This method meets the customer requirement of not opening firewall ports though providing access to the monitoring components that are part of this service. 
+NetApp needs to access the hardware and software components installed for monitoring and management to provide services such as monitoring and billing to Keystone customers. The most common method is to establish a virtual private network (VPN) connection to the customer network and access the required data. To overcome any operational complexity perceived by customers to arise from opening firewall ports to new services, the monitoring tools initiate an external connection. NetApp cloud applications, such as AIOPs solution and Zuora, use this connection to perform the respective services. This method meets the customer requirement of not opening firewall ports though providing access to the monitoring components that are part of this service. 

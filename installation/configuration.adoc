@@ -21,7 +21,7 @@ The Keystone Collector provides you with the Keystone Collector Management Termi
 
 .Steps
 
-. Open the Keystone Collector management TUI utility:
+. Start the Keystone Collector management TUI utility:
 `$ keystone-collector-tui`
 . Go to **Configure > KS-Collector** to open the Keystone Collector configuration screen to view the available options for update.
 . Update the required options. 
@@ -31,7 +31,7 @@ The Keystone Collector provides you with the Keystone Collector Management Termi
 ====
 
 * *Collect ONTAP usage*: This option enables collection of usage data for ONTAP. Add the details of the Active IQ Unified Manager (Unified Manager) server and service account.
-* *Collect ONTAP Performance Data*: This option enables collection of performance data for ONTAP. This is disabled by default. Enable this option if performance monitoring is required in your environment for SLA purposes. Provide the Unified Manager Database user account details. For information about creating database users, see link:../addl-req.html[Create Unified Manager users].
+* *Collect ONTAP Performance Data*: This option enables collection of performance data for ONTAP. This is disabled by default. Enable this option if performance monitoring is required in your environment for SLA purposes. Provide the Unified Manager Database user account details. For information about creating database users, see link:../installation/addl-req.html[Create Unified Manager users].
 * *Remove Private Data*: This option removes specific private data of customers and is enabled by default. For information about what data is excluded from the metrics if this option is enabled, see link:../installation/configuration.html#limit-collection-of-private-data[Limit collection of private data].
 ====
 +
@@ -40,7 +40,7 @@ The Keystone Collector provides you with the Keystone Collector Management Termi
 ====
 
 * *Collect StorageGRID usage*: This option enables collection of node usage details. Add the StorageGRID node address and user details.
-* *Remove Private Data*: This option removes specific private data of customers and is enabled by default. For information about what data is excluded from the metrics if this option is enabled, see link:../configuration.html#limit-collection-of-private-data[Limit collection of private data].
+* *Remove Private Data*: This option removes specific private data of customers and is enabled by default. For information about what data is excluded from the metrics if this option is enabled, see link:../installation/configuration.html#limit-collection-of-private-data[Limit collection of private data].
 ====
 +
 . Toggle the **Start KS-Collector with System** field. 
@@ -55,7 +55,7 @@ The Collector software supports using a HTTP proxy to communicate with the inter
 
 .Steps
 
-. Open the Keystone Collector management TUI utility if already closed:
+. Restart the Keystone Collector management TUI utility if already closed:
 `$ keystone-collector-tui`
 . Toggle on the **HTTP Proxy** field, and add the details for the HTTP proxy server, port, and credentials, if authentication is required.
 . Click **Save**.

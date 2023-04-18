@@ -90,7 +90,7 @@ The following is an example of a successful job for optional performance data co
 The Keystone Collector TUI enables you to generate support bundles and add then to service requests for resolving support issues. Follow this procedure:
 
 .Steps
-. Open the Keystone Collector management TUI utility:
+. Start the Keystone Collector management TUI utility:
 `$ keystone-collector-tui`
 . Go to *Troubleshooting > Generate Support Bundle*.
 image:tui-sup-bundl.png[]
