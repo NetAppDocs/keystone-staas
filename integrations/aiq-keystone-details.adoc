@@ -110,13 +110,13 @@ The *Current Consumed*, *Current Burst*, and *Accrued Burst* indicators determin
 If the clusters in your ONTAP storage environment are configured in a MetroCluster setup, the consumption data of your Keystone subscription is split in the same time series chart to display the consumption at the primary and mirror sites. 
 
 [NOTE]
-The splitting of the consumption bar charts for the cluster peers in a MetroCluster configuration occurs for only base service levels. For Advanced Data Protection service levels, this demarcation does not appear, and the charts appear as in a regular non-MetroCluster ONTAP configuration.
+The splitting of the consumption bar charts for the cluster peers in a MetroCluster configuration occurs for only base service levels. For Advanced Data Protection service levels, this demarcation does not appear, and the charts appear as in a regular ONTAP non-MetroCluster configuration.
 
-In the following image, you can see a same time series chart marks off the consumption at the mirror site in a lighter shade of the same color code used for the primary site.
+In the following image, you can see the same time series chart marks off the mirror site consumption in a lighter shade of the color code used for the primary site.
 
 image:mcc-chart.png[]
 
-The tool-tip on mouse hover displays the consumption breakdown at the respective primary and mirror sites in TiB.
+The tool-tip on mouse hover displays the consumption breakdown (in TiB) for the respective primary and mirror sites.
 
 image:mcc-pop-up.png[]
 
@@ -139,7 +139,7 @@ For ONTAP, the *System Details* tab displays information, such as the capacity u
 . Click the *System Details* tab.
 . Select the subscription number. By default, the first available subscription number is selected. 
 +
-The volume details are displayed. You can scroll across the columns and learn more about them by hovering your mouse on the information icons beside the column headings. You can sort by the columns and filter the lists to view specific information. ##For MetroCluster configurations, an additional column appears to indicate whether the volume occurs in a primary or mirror site in the MetroCluster setup.## You can copy individual node serial numbers by clicking the *Copy Node Serials* button. 
+The volume details are displayed. You can scroll across the columns and learn more about them by hovering your mouse on the information icons beside the column headings. You can sort by the columns and filter the lists to view specific information. ##For MetroCluster configurations, an additional column appears to indicate whether the volume is a primary or mirror volume in the high-availability (HA) cluster pair.## You can copy individual node serial numbers by clicking the *Copy Node Serials* button. 
 
 image:aiq-ks-sysdtls.png[]
 
