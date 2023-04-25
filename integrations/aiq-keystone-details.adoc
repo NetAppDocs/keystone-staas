@@ -129,7 +129,7 @@ For information about Advanced Data Protection, see link:../concepts/adp.html[Ad
 == View system details
 On the *System Details* tab, you can view the consumption and other details for your volumes in ONTAP. For StorageGRID, this tab displays the nodes and their individual usage in your object storage environment.
 
-.*ONTAP volume details* 
+.##*ONTAP volume details*##
 [%collapsible]
 ====
 For ONTAP, the *System Details* tab displays information, such as the capacity usage, volume type, cluster, aggregate, and service level of the volumes in your storage environment managed by your Keystone subscription.
@@ -139,7 +139,7 @@ For ONTAP, the *System Details* tab displays information, such as the capacity u
 . Click the *System Details* tab.
 . Select the subscription number. By default, the first available subscription number is selected. 
 +
-The volume details are displayed. You can scroll across the columns and learn more about them by hovering your mouse on the information icons beside the column headings. You can sort by the columns and filter the lists to view specific information. For MetroCluster configurations, an additional column appears to indicate whether the volume occurs in a primary or mirror site in the MetroCluster setup. You can copy individual node serial numbers by clicking the *Copy Node Serials* button. 
+The volume details are displayed. You can scroll across the columns and learn more about them by hovering your mouse on the information icons beside the column headings. You can sort by the columns and filter the lists to view specific information. ##For MetroCluster configurations, an additional column appears to indicate whether the volume occurs in a primary or mirror site in the MetroCluster setup.## You can copy individual node serial numbers by clicking the *Copy Node Serials* button. 
 
 image:aiq-ks-sysdtls.png[]
 
