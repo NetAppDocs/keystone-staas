@@ -62,14 +62,14 @@ image:icon-amber.png[]: Maximum consumption, that is the usage is about to reach
 image:icon-red.png[]: The consumption is within the burst limit. The burst consumption is the consumption that tops the 100% committed capacity of a service level, and is within the agreed-upon burst usage limit, such as 120%
 image:icon-purple.png[]: Indicates consumption above the stipulated burst limit
 
-== View historical subscription data
+== View historical subscription data charts
 The *Subscription Time Series* tab displays historical data of your subscriptions for a specific period. The vertical graphs display the usage details for the selected time range with appropriate indicators for you to compare and generate reports. 
 
 .Steps
 . Click the *Subscription Time Series* tab.
 . Select the required subscription for which you want to view the details. The first subscription in your account name is selected by default.
 . Select the time range from the calendar icons in the *From Date* and *To Date* fields. The default time range is from the start date of the billing period to the current date.
-. Click *View Details*. The historical consumption data of the subscription for each service level is displayed based on the selected time range. You can hover your mouse cursor over the charts to view the usage breakdown in terms of committed, consumed, burst, and above the burst limit data at that data point.
+. Click *View Details*. The historical consumption data of the subscription for each service level is displayed based on the selected time range. You can hover your mouse cursor over the charts to view the usage breakdown in terms of committed, consumed, burst, and above the burst limit data at that point.
 
 image:aiq-ks-subtime-2.png[]
 
@@ -79,7 +79,7 @@ The following details are displayed:
 * *Usage charts*: The bar charts display the service level name and the capacity consumed against that service level for the date range. The date and time of the collection are displayed at the bottom of the chart.
 +
 [NOTE]
-Based on the date range of your query, the usage charts are displayed in a range of 30 data points.
+Based on the date range of your query, the usage charts are displayed in a range of 30 data collection points.
 +
 The following colors in the bar charts indicate the consumed capacity as defined within the service level:
 
@@ -104,6 +104,28 @@ On hovering the mouse over a bar chart, you might view the _Provisional usage_ d
 [NOTE]
 The *Current Consumed*, *Current Burst*, and *Accrued Burst* indicators determine the consumption with respect to the billing period of the subscription, and are not based on the date range of the query.
 
+.##*MetroCluster configurations: Additional details for protected clusters*##
+[%collapsible]
+====
+If the clusters in your ONTAP storage environment are configured in a MetroCluster setup, the consumption data of your Keystone subscription is split in the same time series chart to display the consumption at the primary and mirror sites. 
+
+[NOTE]
+The splitting of the consumption bar charts for the cluster peers in a MetroCluster configuration occurs for only base service levels. For Advanced Data Protection service levels, this demarcation does not appear, and the charts appear as in a regular non-MetroCluster ONTAP configuration.
+
+In the following image, you can see a same time series chart marks off the consumption at the mirror site in a lighter shade of the same color code used for the primary site.
+
+image:mcc-chart.png[]
+
+The tool-tip on mouse hover displays the consumption breakdown at the respective primary and mirror sites in TiB.
+
+image:mcc-pop-up.png[]
+
+For information about how MetroCluster protects your data, see https://docs.netapp.com/us-en/ontap-metrocluster/manage/concept_understanding_mcc_data_protection_and_disaster_recovery.html[Understanding MetroCluster data protection and disaster recovery^].
+
+For information about Advanced Data Protection, see link:../concepts/adp.html[Advanced Data Protection].
+
+====
+
 == View system details
 On the *System Details* tab, you can view the consumption and other details for your volumes in ONTAP. For StorageGRID, this tab displays the nodes and their individual usage in your object storage environment.
 
@@ -117,7 +139,7 @@ For ONTAP, the *System Details* tab displays information, such as the capacity u
 . Click the *System Details* tab.
 . Select the subscription number. By default, the first available subscription number is selected. 
 +
-The volume details are displayed. You can scroll across the columns and learn more about them by hovering your mouse on the information icons beside the column headings. You can sort by the columns and filter the lists to view specific information. You can copy individual node serial numbers by clicking the *Copy Node Serials* button.
+The volume details are displayed. You can scroll across the columns and learn more about them by hovering your mouse on the information icons beside the column headings. You can sort by the columns and filter the lists to view specific information. For MetroCluster configurations, an additional column appears to indicate whether the volume occurs in a primary or mirror site in the MetroCluster setup. You can copy individual node serial numbers by clicking the *Copy Node Serials* button. 
 
 image:aiq-ks-sysdtls.png[]
 
