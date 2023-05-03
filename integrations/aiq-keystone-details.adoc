@@ -118,7 +118,7 @@ The consumption bar charts are split for only base service levels. For ADP servi
 
 .Advanced data protection service levels
 
-For ADP service levels, the total consumption is split, and the usage at each site is reflected and billed in a separate subscription; that is one subscription for the primary site, and another for the mirror site. That is why, when you select the subscription number for the primary site on the *Subscription Time Series* tab, the consumption charts for the ADP service levels display the discrete consumption details for only the primary site.
+For ADP service levels, the total consumption is split, and the usage at each site is reflected and billed in a separate subscription; that is one subscription for the primary site, and another for the mirror site. That is why, when you select the subscription number for the primary site on the *Subscription Time Series* tab, the consumption charts for the ADP service levels display the discrete consumption details for only the primary site. Because each site in a MetroCluster configuration acts as a source and a mirror, for the ADP service levels, the consumption at each site includes the source and the mirror volumes created at that site.
 
 .Base service levels
 
