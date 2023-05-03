@@ -130,7 +130,7 @@ The following image displays the charts for the _Extreme_ service level and a pr
 
 image:mcc-chart.png[]
 
-For the _Advanced Data-Protect Extreme_ service level, the charts appear as this:
+For the _Advanced Data-Protect Extreme_ service level, the charts appear like this:
 
 image:adp-src.png[]
 
@@ -140,7 +140,7 @@ When you check the secondary subscription, you can see the bar chart for the _Ex
 
 image:mcc-chart-mirror.png[]
 
-For the _Advanced Data-Protect Extreme_ service level and the same data collection point, the chart appears as this:
+For the _Advanced Data-Protect Extreme_ service level and the same data collection point, the chart appears like this:
 
 image:adp-mir.png[]
 
