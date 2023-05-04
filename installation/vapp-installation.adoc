@@ -27,7 +27,7 @@ Follow these steps:
 . On _Step 2_, specify the VM name and select the VM folder.
 . On _Step 3_, specify the required compute resource that is to run the VM.
 . On _Step 4: Review details_, verify the correctness and authenticity of the OVA file. The product name should appear as _NetApp Keystone Collector_.
-image:ova-deploy.png[]
+image:ova-deploy.png[ova UI]
 vCentre validates the integrity of the OVA file contents and that a valid code-signing digest is provided for the files contained in the OVA file. However, it does not validate the authenticity of the code-signing certificate. For verifying the integrity, you should download the full signing digest certificate, and verify it against the public certificate published by Keystone. Follow these steps:
 .. Click the *Publisher* link to download the full signing digest certificate.
 .. Download the _Keystone Billing_ public certificate: https://keystone.netapp.com/downloads/OVA-SSL-NetApp-Keystone-20221101.pem.
