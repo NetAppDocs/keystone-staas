@@ -46,7 +46,10 @@ For each subscription number, you can see the following information:
 * *Usage Status*: Indicates how much of the subscription has been used or overused. You can sort the list by this column if you want to view the highest consumption records.
 * image:aiq-ks-time-icon.png[]: Clicking this icon opens the *Subscription Time Series* tab where you can see the historical usage data for each service level included in this subscription
 
-You can see more details by clicking the downward arrow for a subscription record. Details, such as the service level name, committed, consumed, available capacities, and current and accrued burst usage are displayed in TiB. Specific service levels that record higher consumption are highlighted. Any warnings and alerts generated for your volumes are also displayed.
+You can see more details by clicking the downward arrow for a subscription record. Details, such as the service level name, committed, consumed, available capacities, and current and accrued burst usage are displayed in TiB.
+
+[NOTE]
+Specific service levels that record higher consumption are highlighted. You can also view warnings and alerts generated for your volumes.
 
 For information about your Keystone storage services and the relevant service levels, see link:../concepts/service-levels.html[Service Levels in Keystone].
 
@@ -136,11 +139,11 @@ image:adp-src.png[]
 
 .What you can see for the secondary (mirror site) subscription
 
-When you check the secondary subscription, you can see the bar chart for the _Extreme_ service level at the same data collection point is reversed, and the consumption breakup at the primary and mirror sites is 1.05 TiB and 1.02 TiB respectively.
+When you check the secondary subscription, you can see that the bar chart for the _Extreme_ service level at the same data collection point is reversed, and the consumption breakup at the primary and mirror sites is 1.05 TiB and 1.02 TiB respectively.
 
 image:mcc-chart-mirror.png[]
 
-For the _Advanced Data-Protect Extreme_ service level and the same data collection point, the chart appears like this:
+For the _Advanced Data-Protect Extreme_ service level, the chart appears like this at the same collection point:
 
 image:adp-mir.png[]
 
@@ -161,7 +164,10 @@ For ONTAP, the *System Details* tab displays information, such as the capacity u
 . Click the *System Details* tab.
 . Select the subscription number. By default, the first available subscription number is selected. 
 +
-The volume details are displayed. You can scroll across the columns and learn more about them by hovering your mouse on the information icons beside the column headings. You can sort by the columns and filter the lists to view specific information. For Advanced Data Protection add-on services, an additional column appears to indicate whether the volume is a primary or mirror volume in the MetroCluster configuration. You can copy individual node serial numbers by clicking the *Copy Node Serials* button. 
+The volume details are displayed. You can scroll across the columns and learn more about them by hovering your mouse on the information icons beside the column headings. You can sort by the columns and filter the lists to view specific information.
++
+[NOTE]
+For Advanced Data Protection add-on services, an additional column appears to indicate whether the volume is a primary or mirror volume in the MetroCluster configuration. You can copy individual node serial numbers by clicking the *Copy Node Serials* button. 
 
 image:aiq-ks-sysdtls.png[]
 
