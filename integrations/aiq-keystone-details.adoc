@@ -107,8 +107,6 @@ On hovering the mouse over a bar chart, you might view the _Provisional usage_ d
 [NOTE]
 The *Current Consumed*, *Current Burst*, and *Accrued Burst* indicators determine the consumption with respect to the billing period of the subscription, and are not based on the date range of the query.
 
-====
-
 == View system details
 On the *System Details* tab, you can view the consumption and other details for your volumes in ONTAP. For StorageGRID, this tab displays the nodes and their individual usage in your object storage environment.
 
