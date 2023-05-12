@@ -13,21 +13,14 @@ summary: Supported service levels
 :imagesdir: ../media/
 
 [.lead]
-Keystone STaaS offers data storage capacity at pre-defined performance service levels (service levels) on a subscription basis. 
+Keystone STaaS offers data storage capacity at pre-defined performance service levels (service levels) on a subscription basis. Each volume managed by the Keystone services is associated with a service level.
 
-Service levels are defined by:
+Each service level is defined by its I/O density, that is IOPS/TiB/volume. This is the ratio of performance (input/output operations per second [IOPS]) and used storage capacity (TiB) which is IOPS/TiB at average latency per volume.
 
-* Average latency
-* Maximum IOPS per logical TiB stored per volume
+The service levels for the supported storage types, file, block, object, and cloud services are listed here.
 
-A volume must be associated with a service level. 
+== Service levels for file and block storage
 
-== Service levels for supported storage
-The service levels for file, block, object, and cloud services are listed here.
-
-// I/O density calculations at the volume level are reported to show peak I/O density during the prior week. The peak performance is determined on an hourly time interval. I/O density reports by volume are generated monthly to gauge adherence to the respective service levels.
-
-=== File and block storage
 *Supported protocols*: NFS, CIFS, iSCSI, and FC
 
 |===
@@ -35,24 +28,31 @@ The service levels for file, block, object, and cloud services are listed here.
 |*Sample workload types* |Analytics, databases, mission-critical apps |VDI, VSI, software development | OLTP, OLAP, containers, software development
  |File shares, web servers |Backup
 |*Maximum IOPS/logical TiBs stored per volume* |12,288 |4,096 |2,048 | 512 |128
-|*Maximum MBps/logical TiBs stored per volume* |384 |128 |64 |16 |4
-|*Latency* |<1 ms |<2 ms |<4 ms |<17 ms |<17 ms
-
+|*Maximum IOPS/logical TiBs allocated per volume* |6,144 |2,048 |1,024 |256 |64
+|*Maximum MBps/logical TiBs stored per volume @ 32K B/S* |384 |128 |64 |16 |4
+|*Average Latency* |1 ms |2 ms |4 ms |17 ms |17 ms
+|*Block size* 
+5+|32K
 |===
 
-[NOTE]
-====
-Note the following points for throughput performance metrics (applicable only for file 
+=== More on service levels for file and block storage
 
-- File and block service levels are based on ONTAP 9.7 and later.
-- IOPS/TiB and latency values for service levels are based on the amount of logical data stored in the volume, 32 KB block size, and a random mix of 70% read and /30% write IO.
-- Actual IOPS/TiB and/or MBps/TiB varies based on workload concurrency and usage patterns.
-- Latency does not include the following:
--- The applications, hosts, or customer network latency to or from the controller ports.
--- The latency automatically applied by QoS to keep IO within service level maximums.
-- When using the Advanced Data Protection add-on service, the target latency applies to servicing IO requests from the local Keystone products only.
-====
-=== Object storage
+The service level metrics depend on the following conditions:
+
+* The service levels for file and block storage support ONTAP 9.7 and later.
+* IOPS/TiB/volume, MBps/TiB/volume, and latency values for service levels are based on the amount of data stored in the volume, 32KB block size, and a random combination of 70% read and 30% write IO operations.
+* Actual IOPS/TiB/volume and MBps/TiB/volume may vary based on the actual or assumed block size, system workload concurrency, or input-output operations.
+* Latency does not include the following: 
+** application or host latency
+** customer network latency to or from the controller ports
+** overheads associated with the data transfer to the object store in case of FabricPool
+** latency automatically applied by QoS to keep IO within service level maximums
+* Latency values are not applicable to MetroCluster write operations. These write operations are dependent on the distance of remote systems.
+* If one or more volumes on a storage system do not have an AQoS policy assigned, then these volumes are considered as non-compliant volumes, and no target service levels are applicable for those systems.
+* _Expected IOPS_ is targeted for FabricPool only if the tiering policy is set to "none" and no blocks are in the cloud. _Expected IOPS_ is targeted for volumes that are not in a SnapMirror synchronous relationship.
+* Workload IO operations need to be balanced across all deployed controllers, as determined by the Keystone order.
+
+== Object storage
 *Supported protocol*: S3
 
 |===
@@ -68,7 +68,7 @@ Note the following points for throughput performance metrics (applicable only fo
 [NOTE]
 Latency does not include overheads associated with data transfer to the object store in case of FabricPool storage.
 
-=== Cloud storage
+== Cloud storage
 *Supported protocol*: NFS, CIFS, iSCSI, and S3 (AWS and Azure only)
 
 |===
@@ -86,3 +86,4 @@ Latency does not include overheads associated with data transfer to the object s
 - Cloud native services, such as compute, storage, networking, are invoiced by the cloud providers.
 - These services are dependent on the cloud storage and compute characteristics.
 ====
+

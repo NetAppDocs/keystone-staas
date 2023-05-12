@@ -13,27 +13,45 @@ summary: Quality of Service in Keystone
 :imagesdir: ../media/
 
 [.lead]
-Storage quality of service (QoS) is a critical technology that ensures that applications obtain consistent and predictable performance. Without QoS, certain workloads like booting of multiple systems can take up entire resources for a period and affect other workloads. For information about QoS, see https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html[Guarantee throughput with QoS overview^].
+Storage quality of service (QoS) is a critical technology that ensures that applications obtain consistent and predictable performance. Without QoS, certain workloads, such as those for booting of multiple systems, may consume most or all of of the resources for a period, and affect other workloads. For information about QoS, see https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html[Guarantee throughput with QoS overview^].
 
-Applying QoS ensures that applications get consistent performance every time. NetApp ONTAP defines two parameters for QoS: ceilings- https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html#about-throughput-ceilings-qos-max[QoS Max^], and throughput floor- https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html#about-throughput-floors-qos-min[QoS Min^]. QoS Max represents the maximum number of IOPS or MBps or IOPS and MBps a workload can achieve. On the other hand, QoS Min guarantees that the throughput for a workload is not below a certain number of IOPS or MBps, or IOPS and MBps. 
 
 == Adaptive QoS
-Adaptive QoS (AQoS) is used for Keystone services to maintain the ratio of IOPS to TBs/GBs as the size varies the QoS policy is automatically applied. For information about AQoS policies, see https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html#about-adaptive-qos[About adaptive QoS^].
+Adaptive QoS (AQoS) is used by Keystone services to dynamically maintain the IOPS/TiB ratio based on the volume size. For information about AQoS policies, see https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html#about-adaptive-qos[About adaptive QoS^].
 
 Keystone provides you with AQoS polices that you can set up once your cluster is in production. You should ensure that all your volumes are associated with the correct AQoS policies that are already created and available in your system. 
 
+An ONTAP volume is non-compliant if it does not have an AQoS policy applied. A volume without a QoS policy is the last on the list of priority for the system to provide any available input-output operations. However, if any input-output operations are available, then the volume could consume all available IOs.
+
 [NOTE]
-If you have not applied AQoS policies on your volumes correctly, those volumes will be measured and charged at the highest service level as per your subscription. This may result in unintended burst charges.
+If you have not applied AQoS policies to your volumes, those volumes will be measured and charged at the highest service level as per your subscription. This may result in unintended burst charges.
+
+== Adaptive QoS settings
+
+The Adaptive QoS (AQoS) settings vary with service levels.
+
+|===
+|*Policy name* | *Extreme* |*Premium* |*Performance* |*Standard* |*Value*
+|*Expected IOPS* |6,144 |2,048 |1,024 |256 |64
+|*Expected IOPS Allocation* 
+5+| Allocated space
+|*Peak IOPS* |12,288 |4,096 |2,048 |512 |128
+|*Peak IOPS Allocation*
+5+| Used space
+|*Block Size*
+5+| 32K
+
+|===
 
 == Configuration of adaptive QoS policy group
-You can configure adaptive QoS (AQoS) policies to automatically scale a throughput ceiling or floor to volume size. For configuring a policy, you should be aware of the following:
+You can configure adaptive QoS (AQoS) policies to automatically scale a throughput ceiling or floor to volume size. Not all Keystone service levels are aligned with the default ONTAP QoS policies. You can create custom QoS policies for them. For configuring a policy, you should be aware of the following:
 
-* *Policy group name*: The name of the AQoS policy group. For example, `Keystone_extreme`.
+* *Policy group name*: The name of the AQoS policy group. For example, `Keystone_extreme`. 
 * *VServer*: The name of the VServer or storage VM (storage virtual machine).
-* *Expected IOPS*: The number of IOPS/TiB that ONTAP provides as a minimum as long as there is performance guarantee.
-* *Peak IOPS*: The maximum number of IOPS/TiB that will be available to a volume before performance is limited.
-* *Expected IOPS allocation*: This field controls whether the expected IOPS available to the volume is based on the allocated or used size of the volume. In Keystone, this is based on the allocated space.
-* *Peak IOPS allocation*: This field controls whether the peak IOPS available to the volume is based on the allocated or used size of the volume. In Keystone, this is based on the used space.
+* *Expected IOPS*: The minimum number of IOPS, per allocated TiB per volume, that the system attempts to provide when enough system IOPS are available. 
+* *Peak IOPS*: The maximum number of IOPS, per used TiB per volume, that the system allows the volume to reach before it throttles the IOPS through injection of latency. 
+* *Expected IOPS allocation*: This parameter controls whether the expected IOPS available to the volume is based on the allocated or used size of the volume. In Keystone, this is based on the allocated space.
+* *Peak IOPS allocation*: This parameter controls whether the peak IOPS available to the volume is based on the allocated or used size of the volume. In Keystone, this is based on the used space.
 * *Absolute minimum IOPS*: The lowest number of expected IOPS that will be applied to a volume if the volume size is very small and would otherwise result in an unacceptable number of IOPS. This value defaults to 1,000 for `Extreme`, 500 for `Premium`, and 250 for `Performance`, and 75 for `Standard` and `Value` service levels. 
 [NOTE]
 This is not IOPS density (for example, 75 IOPS/TiB), but an absolute minimum number of IOPS. 

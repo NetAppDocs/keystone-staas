@@ -69,7 +69,7 @@ Note the following clauses for capacity adjustments:
 === Capacity reduction
 Capacity reduction (annual) is applicable to the _Annual in Advance_ payment model and on-premises only deployments. It is not available for cloud services or hybrid cloud services. It provides provision for on-premises capacity, which can be reduced by up to 25% per service level per subscription. This reduction is allowed once every year to be made effective at the beginning of the next annual billing period. On-premises service-based annual payments should be >=$200K anytime during the term in order to take advantage of capacity reduction. Because it is supported only for on-premises deployments, this billing model does not provide reallocation in spending from on-premises to cloud services. An example of annual capacity reduction is illustrated in the following image.
 
-image:capacity-reduction.png[]
+image:capacity-reduction.png[image displaying capacity reduction]
 
 === Quarterly spend reallocation
 Requirements and conditions at a subscription level:
@@ -87,4 +87,4 @@ Requirements and conditions at a subscription level:
 An example of a quarterly spend reallocation is illustrated in the following image:
 
 
-image:spend-alloc.png[]
+image:spend-alloc.png[how spend is allocated]

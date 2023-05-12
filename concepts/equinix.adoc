@@ -21,7 +21,7 @@ In this service:
 
 * Equinix provides space, power, cooling, networking, and invoice, and storage, on a monthly basis.
 *	Support is provided for certain Keystone sales motions.
-*	The services are supported in 21 data centers across 11 countries.
+*	The services are supported in the data centers across 11 countries.
 
 Equinix has the data centers at these locations:
 
@@ -35,7 +35,7 @@ a| Dallas |U.S.
 a| Denver |U.S.
 a| Frankfurt |Germany
 a| London |U.K.
-a| Lost Angeles |U.S.
+a| Los Angeles |U.S.
 a| Madrid |Spain
 a| Melbourne |Australia
 a| Miami |U.S.

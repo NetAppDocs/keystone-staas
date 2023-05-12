@@ -45,9 +45,9 @@ The Keystone Collector provides you with the Keystone Collector Management Termi
 +
 . Toggle the **Start KS-Collector with System** field. 
 . Click **Save**.
-image:tui-1.png[]
+image:tui-1.png[tui screen]
 . Ensure that Keystone Collector is in a healthy state by returning to the main screen of the TUI and verifying the **Service Status** information. The system should show that the services are in an **Overall: Healthy** status.
-image:tui-2.png[]
+image:tui-2.png[tui screen]
 . Exit the Keystone Collector management TUI by selecting the **Exit to Shell** option on the home screen.
 
 == Configure HTTP Proxy on Keystone Collector
@@ -59,14 +59,14 @@ The Collector software supports using a HTTP proxy to communicate with the inter
 `$ keystone-collector-tui`
 . Toggle on the **HTTP Proxy** field, and add the details for the HTTP proxy server, port, and credentials, if authentication is required.
 . Click **Save**.
-image:tui-3.png[]
+image:tui-3.png[tui screen]
 
 == Limit collection of private data
 The Keystone Collector gathers limited configuration, status, and performance information required to perform subscription metering. There is an option to further limit the information collected by masking sensitive information from the content uploaded. This does not impact billing calculation. However, limiting the information might impact usability of the reporting information, as some elements, which can be easily identified by users, such as volume name, is replaced with UUIDs. 
 
 Limiting the collection of specific customer data is a configurable option on the Keystone Collector TUI screen. This option, *Remove Private Data*, is enabled by default.
 
-image:tui-4.png[]
+image:tui-4.png[tui screen]
 
 For information about the items removed on limiting private data access in both ONTAP and StorageGRID, see link:../installation/data-collection.html[List of items removed on limiting private data access].
 

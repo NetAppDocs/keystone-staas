@@ -22,5 +22,5 @@ Keystone Collector is the usage acquisition component of the Keystone billing pl
 
 This architecture diagram outlines the constituent components and their connectivity in a typical Keystone environment.
 
-image:collector-arch.png[]
+image:collector-arch.png[collector architecture]
 
