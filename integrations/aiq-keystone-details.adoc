@@ -34,7 +34,7 @@ Capacity consumption in Keystone subscriptions is displayed in TiBs on the dashb
 == View subscription details
 You can view all the subscriptions for an account name in the *Subscription Details* tab.
 
-image:aiq-ks-dtls.png[]
+image:aiq-ks-dtls.png[subscription details tab]
 
 For each subscription number, you can see the following information:
 
@@ -44,34 +44,37 @@ For each subscription number, you can see the following information:
 * *Start Date*: The start date of the subscription.
 * *End date*: The end date of the subscription. Based on this date, you might see information messages for subscriptions that are nearing expiry.
 * *Usage Status*: Indicates how much of the subscription has been used or overused. You can sort the list by this column if you want to view the highest consumption records.
-* image:aiq-ks-time-icon.png[]: Clicking this icon opens the *Subscription Time Series* tab where you can see the historical usage data for each service level included in this subscription
+* image:aiq-ks-time-icon.png[icon]: Clicking this icon opens the *Subscription Time Series* tab where you can see the historical usage data for each service level included in this subscription
 
-You can see more details by clicking the downward arrow for a subscription record. Details, such as the service level name, committed, consumed, available capacities, and current and accrued burst usage are displayed in TiB. Specific service levels that record higher consumption are highlighted. Any warnings and alerts generated for your volumes are also displayed.
+You can see more details by clicking the downward arrow for a subscription record. Details, such as the service level name, committed, consumed, available capacities, and current and accrued burst usage are displayed in TiB.
+
+[NOTE]
+Specific service levels that record higher consumption are highlighted. You can also view warnings and alerts generated for your volumes.
 
 For information about your Keystone storage services and the relevant service levels, see link:../concepts/service-levels.html[Service Levels in Keystone].
 
 You can refer to the following usage indicators to check the usage status of each subscription:
 
-image:usage-indicator.png[]
+image:usage-indicator.png[icon]
 
 .Index
 
-image:icon-grey.png[]: No capacity usage recorded against the committed capacity of the service level
-image:icon-green.png[]: The consumption is normal, within 80% of the committed capacity
-image:icon-amber.png[]: Maximum consumption, that is the usage is about to reach 100% or more of the committed capacity. The *Consumed* column displays this indicator for any consumption above 80% of the committed capacity
-image:icon-red.png[]: The consumption is within the burst limit. The burst consumption is the consumption that tops the 100% committed capacity of a service level, and is within the agreed-upon burst usage limit, such as 120%
-image:icon-purple.png[]: Indicates consumption above the stipulated burst limit
+image:icon-grey.png[grey dot icon]: No capacity usage recorded against the committed capacity of the service level
+image:icon-green.png[green dot icon]: The consumption is normal, within 80% of the committed capacity
+image:icon-amber.png[amber dot icon]: Maximum consumption, that is the usage is about to reach 100% or more of the committed capacity. The *Consumed* column displays this indicator for any consumption above 80% of the committed capacity
+image:icon-red.png[red dot icon]: The consumption is within the burst limit. The burst consumption is the consumption that tops the 100% committed capacity of a service level, and is within the agreed-upon burst usage limit, such as 120%
+image:icon-purple.png[purple dot icon]: Indicates consumption above the stipulated burst limit
 
-== View historical subscription data
+== View historical subscription data charts
 The *Subscription Time Series* tab displays historical data of your subscriptions for a specific period. The vertical graphs display the usage details for the selected time range with appropriate indicators for you to compare and generate reports. 
 
 .Steps
 . Click the *Subscription Time Series* tab.
 . Select the required subscription for which you want to view the details. The first subscription in your account name is selected by default.
 . Select the time range from the calendar icons in the *From Date* and *To Date* fields. The default time range is from the start date of the billing period to the current date.
-. Click *View Details*. The historical consumption data of the subscription for each service level is displayed based on the selected time range. You can hover your mouse cursor over the charts to view the usage breakdown in terms of committed, consumed, burst, and above the burst limit data at that data point.
+. Click *View Details*. The historical consumption data of the subscription for each service level is displayed based on the selected time range. You can hover your mouse cursor over the charts to view the usage breakdown in terms of committed, consumed, burst, and above the burst limit data at that point.
 
-image:aiq-ks-subtime-2.png[]
+image:aiq-ks-subtime-2.png[time series tab]
 
 The following details are displayed:
 
@@ -79,7 +82,7 @@ The following details are displayed:
 * *Usage charts*: The bar charts display the service level name and the capacity consumed against that service level for the date range. The date and time of the collection are displayed at the bottom of the chart.
 +
 [NOTE]
-Based on the date range of your query, the usage charts are displayed in a range of 30 data points.
+Based on the date range of your query, the usage charts are displayed in a range of 30 data collection points.
 +
 The following colors in the bar charts indicate the consumed capacity as defined within the service level:
 
@@ -107,7 +110,7 @@ The *Current Consumed*, *Current Burst*, and *Accrued Burst* indicators determin
 == View system details
 On the *System Details* tab, you can view the consumption and other details for your volumes in ONTAP. For StorageGRID, this tab displays the nodes and their individual usage in your object storage environment.
 
-.*ONTAP volume details* 
+.*ONTAP volume details*
 [%collapsible]
 ====
 For ONTAP, the *System Details* tab displays information, such as the capacity usage, volume type, cluster, aggregate, and service level of the volumes in your storage environment managed by your Keystone subscription.
@@ -117,9 +120,12 @@ For ONTAP, the *System Details* tab displays information, such as the capacity u
 . Click the *System Details* tab.
 . Select the subscription number. By default, the first available subscription number is selected. 
 +
-The volume details are displayed. You can scroll across the columns and learn more about them by hovering your mouse on the information icons beside the column headings. You can sort by the columns and filter the lists to view specific information. You can copy individual node serial numbers by clicking the *Copy Node Serials* button.
+The volume details are displayed. You can scroll across the columns and learn more about them by hovering your mouse on the information icons beside the column headings. You can sort by the columns and filter the lists to view specific information.
++
+[NOTE]
+You can copy individual node serial numbers by clicking the *Copy Node Serials* button. 
 
-image:aiq-ks-sysdtls.png[]
+image:aiq-ks-sysdtls.png[system details tab]
 
 
 ==== 
@@ -134,23 +140,23 @@ For StorageGRID, this tab displays the physical usage for the nodes in the objec
 . Click the *System Details* tab.
 . Select the subscription number. By default, the first available subscription number is selected. On selecting the subscription number, the link for object storage details is enabled.
 +
-image:sg-link.png[]
+image:sg-link.png[StorageGRID pop-up]
 +
 . Click the link to view the node names and physical usage details for each node.
 +
-image:sg-link-2.png[]
+image:sg-link-2.png[StorageGRID pop-up]
 
 
 ====
 
 == Generate reports
-You can generate and view reports for your subscription details, historical usage data for a time range, and system details from each of the tabs by clicking the download button: image:download-icon.png[]
+You can generate and view reports for your subscription details, historical usage data for a time range, and system details from each of the tabs by clicking the download button: image:download-icon.png[report download icon]
 
 The details are generated in CSV format that you can save for future use.
 
 A sample report for the *Subscription Time Series* tab, where the graphical data is converted:
 
-image:report.png[]
+image:report.png[csv of report]
 
 == View alerts
 Alerts on the dashboard send caution messages that enable you to understand the issues occurring in your storage environment. 
@@ -162,6 +168,6 @@ The alerts can be of two types:
 +
 For information about AQoS policies, see link:../concepts/qos.html[Adaptive QoS].
 
-image:alert-aiq.png[]
+image:alert-aiq.png[alert]
 
 Contact NetApp support for more information on these caution and warning messages. For information about raising service requests, see link:../concepts/gssc.html#generating-service-requests[Generating service requests].

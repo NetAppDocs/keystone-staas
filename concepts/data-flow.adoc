@@ -18,7 +18,7 @@ The data in Keystone STaaS systems flows through Keystone Collector and the asso
 == Keystone Collector data flow
 Keystone Collector initiates REST API calls to the storage controllers and obtains usage details of the controllers periodically, as indicated in this flow diagram:
 
-image:collector-data-flow.png[]
+image:collector-data-flow.png[shows data flow within collector components]
 
 .Legend
 
@@ -31,7 +31,7 @@ image:collector-data-flow.png[]
 
 Monitoring the health of the storage infrastructure continuously is one of the most important features of Keystone service. For monitoring and reporting, Keystone uses AIOPs solution, which needs remote access to customer's network. The following image describes how remote access to the customer location is secured by the AIOPs solution tool.
 
-image:monitoring-flow.png[]
+image:monitoring-flow.png[data flow]
 
 .Legend
 

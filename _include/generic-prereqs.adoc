@@ -1,10 +1,11 @@
 == Other requirements
 
-Endure that the following generic requirements are met:
+Ensure that the following generic requirements are met:
 
 === Networking Requirements
 
-The following table describes the networking requirements of Keystone Collector.
+The networking requirements of Keystone Collector are listed in the following table.
+
 [NOTE]
 Keystone Collector requires internet connectivity. You can provide internet connectivity by direct routing through default Gateway (via NAT), or through HTTP Proxy. Both variants are described here.
 
@@ -90,7 +91,7 @@ a|NetApp HQ for billing information and AutoSupport delivery
 a|https://mirror.centos.org
 https://mirrorlist.centos.org 
 a|OS updates for Keystone Collector (OVA deployments only)
-a|http://repo.mysql.com
-a|Download and update mysql dependencies (for Linux deployments only)
+a|https://repo.mysql.com
+a|Download and update MySQL dependencies (for Linux deployments only)
 
 |===
