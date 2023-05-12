@@ -107,48 +107,6 @@ On hovering the mouse over a bar chart, you might view the _Provisional usage_ d
 [NOTE]
 The *Current Consumed*, *Current Burst*, and *Accrued Burst* indicators determine the consumption with respect to the billing period of the subscription, and are not based on the date range of the query.
 
-.*Additional details for Advanced Data Protection*
-[%collapsible]
-====
-If you have subscribed to the Advanced Data Protection (ADP) add-on service, you can view the breakup of the consumption data according to the MetroCluster primary and mirror sites on the *Subscription Time Series* tab. 
-
-For information about Advanced Data Protection, see link:../concepts/adp.html[Advanced Data Protection].
-
-If the clusters in your ONTAP storage environment are configured in a MetroCluster setup, the consumption data of your Keystone subscription is split in the same time series chart to display the consumption at the primary and mirror sites for the base service levels.
-
-[NOTE]
-The consumption bar charts are split for only base service levels. For ADP service levels, this demarcation does not appear.
-
-.Advanced data protection service levels
-
-For ADP service levels, the total consumption is split, and the usage at each site is reflected and billed in a separate subscription; that is one subscription for the primary site, and another for the mirror site. That is why, when you select the subscription number for the primary site on the *Subscription Time Series* tab, the consumption charts for the ADP service levels display the discrete consumption details for only the primary site. Because each site in a MetroCluster configuration acts as a source and a mirror, the total consumption at each site includes the source and the mirror volumes created at that site.
-
-.Base service levels
-
-For the base service levels, however, each volumes is charged as provisioned at the primary and mirror sites, and hence the same bar chart is split according to the consumption at the primary and mirror sites.
-
-.What you can see for the primary subscription
-
-The following image displays the charts for the _Extreme_ service level and a primary subscription number. The same time series chart marks off the mirror site consumption in a lighter shade of the color code used for the primary site. The tool-tip on mouse hover displays the consumption breakup (in TiB) for the primary and mirror sites, 1.02 TiB and 1.05 TiB respectively.
-
-image:mcc-chart.png[split chart]
-
-For the _Advanced Data-Protect Extreme_ service level, the charts appear like this:
-
-image:adp-src.png[data protection SL chart]
-
-.What you can see for the secondary (mirror site) subscription
-
-When you check the secondary subscription, you can see that the bar chart for the _Extreme_ service level at the same data collection point is reversed, and the consumption breakup at the primary and mirror sites is 1.05 TiB and 1.02 TiB respectively.
-
-image:mcc-chart-mirror.png[split chart]
-
-For the _Advanced Data-Protect Extreme_ service level, the chart appears like this at the same collection point:
-
-image:adp-mir.png[data protection SL chart]
-
-For information about how MetroCluster protects your data, see https://docs.netapp.com/us-en/ontap-metrocluster/manage/concept_understanding_mcc_data_protection_and_disaster_recovery.html[Understanding MetroCluster data protection and disaster recovery^].
-
 ====
 
 == View system details
@@ -167,7 +125,7 @@ For ONTAP, the *System Details* tab displays information, such as the capacity u
 The volume details are displayed. You can scroll across the columns and learn more about them by hovering your mouse on the information icons beside the column headings. You can sort by the columns and filter the lists to view specific information.
 +
 [NOTE]
-For Advanced Data Protection add-on services, an additional column appears to indicate whether the volume is a primary or mirror volume in the MetroCluster configuration. You can copy individual node serial numbers by clicking the *Copy Node Serials* button. 
+You can copy individual node serial numbers by clicking the *Copy Node Serials* button. 
 
 image:aiq-ks-sysdtls.png[system details tab]
 

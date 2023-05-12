@@ -27,8 +27,8 @@ The service levels for the supported storage types, file, block, object, and clo
 |*Service level* |*Extreme* |*Premium* | *Performance* |*Standard* |*Value*
 |*Sample workload types* |Analytics, databases, mission-critical apps |VDI, VSI, software development | OLTP, OLAP, containers, software development
  |File shares, web servers |Backup
-|*Maximum IOPS/logical TiBs stored per volume* |12,288 |4096 |2048 | 512 |128
-|*Maximum IOPS/logical TiBs allocated per volume* |6144 |2048 |1024 |256 |64
+|*Maximum IOPS/logical TiBs stored per volume* |12,288 |4,096 |2,048 | 512 |128
+|*Maximum IOPS/logical TiBs allocated per volume* |6,144 |2,048 |1,024 |256 |64
 |*Maximum MBps/logical TiBs stored per volume @ 32K B/S* |384 |128 |64 |16 |4
 |*Average Latency* |1 ms |2 ms |4 ms |17 ms |17 ms
 |*Block size* 
