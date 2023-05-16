@@ -72,6 +72,10 @@ The *Subscription Time Series* tab displays historical data of your subscription
 . Click the *Subscription Time Series* tab.
 . Select the required subscription for which you want to view the details. The first subscription in your account name is selected by default.
 . Select the time range from the calendar icons in the *From Date* and *To Date* fields. The default time range is from the start date of the billing period to the current date.
++
+[NOTE]
+For optimal performance and user experience, limit the date range of your query to three months or less.
++
 . Click *View Details*. The historical consumption data of the subscription for each service level is displayed based on the selected time range. You can hover your mouse cursor over the charts to view the usage breakdown in terms of committed, consumed, burst, and above the burst limit data at that point.
 
 image:aiq-ks-subtime-2.png[time series tab]
