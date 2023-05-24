@@ -42,7 +42,7 @@ For each subscription number, you can see the following information:
 * *Tracking ID*: The tracking ID assigned at the time of subscription activation. This is a unique ID for each subscription and site, used for tracking the subscription.
 * *Billing Period*: The billing period of the subscription, such as monthly, quarterly, or annual.
 * *Start Date*: The start date of the subscription.
-* *End date*: The end date of the subscription. Based on this date, you might see information messages for subscriptions that are nearing expiry.
+* *End date*: The end date of the subscription. A blank date indicates that the subscription has no end date, and it gets renewed automatically. Based on this date, you might see information messages for subscriptions that are nearing expiry or have auto-renewal policies attached. 
 * *Usage Status*: Indicates how much of the subscription has been used or overused. You can sort the list by this column if you want to view the highest consumption records.
 * image:aiq-ks-time-icon.png[icon]: Clicking this icon opens the *Subscription Time Series* tab where you can see the historical usage data for each service level included in this subscription
 
@@ -96,7 +96,7 @@ The following colors in the bar charts indicate the consumed capacity as defined
 ** Purple: Above the burst limit or `Above Limit`.
 +
 [NOTE]
-On hovering the mouse over a bar chart, you might view the _Provisional usage_ data. This is the usage recorded when the exact data for the time period is unavailable and is substituted by the data available at the previous data collection point. 
+A blank chart indicates that there was no data available in your environment at that data collection point.
 +
 * *Current Consumed*: Indicator for the consumed capacity (in TiB) defined for the service level. This field uses specific colors for usage:
 ** Grey: None.
