@@ -26,13 +26,31 @@ Follow these steps:
 . On _Step 1_ of the *Deploy OVF Template* wizard, click *Select and OVF template* to select the downloaded `KeystoneCollector-latest.ova` file.
 . On _Step 2_, specify the VM name and select the VM folder.
 . On _Step 3_, specify the required compute resource that is to run the VM.
-. On _Step 4: Review details_, verify the correctness and authenticity of the OVA file. The product name should appear as _NetApp Keystone Collector_.
-image:ova-deploy.png[ova UI]
-vCentre validates the integrity of the OVA file contents and that a valid code-signing digest is provided for the files contained in the OVA file. However, it does not validate the authenticity of the code-signing certificate. For verifying the integrity, you should download the full signing digest certificate, and verify it against the public certificate published by Keystone. Follow these steps:
+. On _Step 4: Review details_, verify the correctness and authenticity of the OVA file. 
+vCentre versions prior to 7.0u2 are unable to automatically verify the authenticity of the code signing certificate. vCentre 7.0u2 and later can perform the verifications, however, for this, the signing certificate authority should be added to vCentre. Follow these instructions for your version of vCentre:
++
+.vCentre 7.0u1 and earlier:
+[%collapsible]
+====
+vCentre validates the integrity of the OVA file contents and that a valid code-signing digest is provided for the files contained in the OVA file. However, it does not validate the authenticity of the code-signing certificate. For verifying the integrity, you should download the full signing digest certificate, and verify it against the public certificate published by Keystone.
+
 .. Click the *Publisher* link to download the full signing digest certificate.
 .. Download the _Keystone Billing_ public certificate: https://keystone.netapp.com/downloads/OVA-SSL-NetApp-Keystone-20221101.pem.
 .. Verify the authenticity of the OVA signing certificate against the public certificate by using OpenSSL:
 `openssl verify -CAfile OVA-SSL-NetApp-Keystone-20221101.pem keystone-collector.cert`
+====
++
+.vCentre 7.0u2 and later:
+[%collapsible]
+====
+7.0u2 and later versions of vCenter are capable of validating the integrity of the OVA file contents and the authenticity of the code-signing certificate, when a valid code-signing digest is provided. The vCenter root trust store contains only VMware certificates. NetApp uses Entrust as a certifying authority, and those certificates need to be added to the vCenter trust store.
+
+.. Download the code-signing CA certificate from Entrust https://web.entrust.com/subca-certificates/OVCS2-CSBR1-crosscert.cer[here].
+.. Follow the steps in the `Resolution` section of this knowledge base (KB) article: https://kb.vmware.com/s/article/84240[].
+====
+When the integrity and authenticity of the Keystone Collector OVA are validated, you can see the text `(Trusted certificate)` with the publisher.
+image:ova-deploy.png[ova UI]
++
 . On _Step 5_ of the *Deploy OVF Template* wizard, specify the location for storing the VM.
 . On _Step 6_, select the destination network for the VM to use.
 . On _Step 7 Customize template_, specify the initial network address and password for the admin user account. 
