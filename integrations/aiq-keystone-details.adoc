@@ -40,9 +40,10 @@ For each subscription number, you can see the following information:
 
 * *Subscription Number*: The subscription number of the Keystone subscription assigned by NetApp.
 * *Tracking ID*: The tracking ID assigned at the time of subscription activation. This is a unique ID for each subscription and site, used for tracking the subscription.
+* *Usage Type*: You might have subscribed to multiple Keystone (V1) or Keystone STaaS (V2) subscriptions. The rate plan rules for the service levels might vary for the two subscription types. By looking at the value in this column, you know whether the usage type is billed as per the provisioned or logical usage for either `V1` or `V2`. For more information about Keystone V1 subscriptions, see https://docs.netapp.com/us-en/keystone/index.html[Documentation for NetApp Keystone].
 * *Billing Period*: The billing period of the subscription, such as monthly, quarterly, or annual.
 * *Start Date*: The start date of the subscription.
-* *End date*: The end date of the subscription. A blank date indicates that the subscription has no end date, and it gets renewed automatically. Based on this date, you might see information messages for subscriptions that are nearing expiry or have auto-renewal policies attached. 
+* *End date*: The end date of the subscription. A blank date indicates that the subscription has no end date, and it gets renewed automatically. Based on this date, you might see information messages for subscriptions that are nearing expiry or have auto-renewal policies attached.
 * *Usage Status*: Indicates how much of the subscription has been used or overused. You can sort the list by this column if you want to view the highest consumption records.
 * image:aiq-ks-time-icon.png[icon]: Clicking this icon opens the *Subscription Time Series* tab where you can see the historical usage data for each service level included in this subscription
 
@@ -169,6 +170,8 @@ The alerts can be of two types:
 
 * *Information*: For issues, such as your subscriptions nearing an end, you can see information alerts. Hover your cursor over the information icon to learn more about the issue.
 * *Warning*: Issues, such as non-compliance, are displayed as warnings. For example, if there are volumes within your managed clusters that do not have adaptive QoS (AQoS) policies attached, you can see a warning message. You can click the link on the warning message to see the list of the non-compliant volumes in the *System Details* tab.
+[NOTE]
+If you have subscribed to a single service level or rate plan, and have not assigned any AQoS policies to the volumes, you won't be able to see the alert for non-compliant volumes.
 +
 For information about AQoS policies, see link:../concepts/qos.html[Adaptive QoS].
 
