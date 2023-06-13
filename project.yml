@@ -24,7 +24,7 @@ sidebar:
               url: /installation/linux-prereqs.html
             - title: Specific prerequisites for ONTAP and StorageGRID
               url: /installation/addl-req.html
-        - title: Installation procedure
+        - title: Install Keystone Collector
           entries:
             - title: VMware vSphere deployment
               url: /installation/vapp-installation.html
@@ -157,7 +157,7 @@ homepage:
           url: /concepts/uscs.html
     - title: Know more
       links:
-        - title: Keystone Flex Subscription
+        - title: Keystone Subscription-V1 (originally Keystone Flex Subscription)
           url: https://docs.netapp.com/us-en/keystone/
         - title: Active IQ Digital Advisor
           url: https://docs.netapp.com/us-en/active-iq/index.html
