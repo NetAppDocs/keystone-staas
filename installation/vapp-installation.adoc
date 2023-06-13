@@ -20,7 +20,7 @@ Follow these steps:
 
 .Steps
 
-. Download the OVA file from https://keystone.netapp.com/downloads/KeystoneCollector-latest.ova and store it on your VMware vSphere system.
+. Download the OVA file from https://keystone.netapp.com/downloads/KeystoneCollector-latest.ova[this link^] and store it on your VMware vSphere system.
 . On your VMware vSphere system, navigate to the *VMs and Templates* view. 
 . Right click on the required folder for the virtual machine (VM) (or data center, if not using VM folders) and select *Deploy OVF Template*.
 . On _Step 1_ of the *Deploy OVF Template* wizard, click *Select and OVF template* to select the downloaded `KeystoneCollector-latest.ova` file.
@@ -35,7 +35,7 @@ vCentre versions prior to 7.0u2 are unable to automatically verify the authentic
 vCentre validates the integrity of the OVA file contents and that a valid code-signing digest is provided for the files contained in the OVA file. However, it does not validate the authenticity of the code-signing certificate. For verifying the integrity, you should download the full signing digest certificate, and verify it against the public certificate published by Keystone.
 
 .. Click the *Publisher* link to download the full signing digest certificate.
-.. Download the _Keystone Billing_ public certificate: https://keystone.netapp.com/downloads/OVA-SSL-NetApp-Keystone-20221101.pem.
+.. Download the _Keystone Billing_ public certificate from https://keystone.netapp.com/downloads/OVA-SSL-NetApp-Keystone-20221101.pem[this link^].
 .. Verify the authenticity of the OVA signing certificate against the public certificate by using OpenSSL:
 `openssl verify -CAfile OVA-SSL-NetApp-Keystone-20221101.pem keystone-collector.cert`
 ====
@@ -45,11 +45,11 @@ vCentre validates the integrity of the OVA file contents and that a valid code-s
 ====
 7.0u2 and later versions of vCenter are capable of validating the integrity of the OVA file contents and the authenticity of the code-signing certificate, when a valid code-signing digest is provided. The vCenter root trust store contains only VMware certificates. NetApp uses Entrust as a certifying authority, and those certificates need to be added to the vCenter trust store.
 
-.. Download the code-signing CA certificate from Entrust https://web.entrust.com/subca-certificates/OVCS2-CSBR1-crosscert.cer[here].
-.. Follow the steps in the `Resolution` section of this knowledge base (KB) article: https://kb.vmware.com/s/article/84240[].
+.. Download the code-signing CA certificate from Entrust https://web.entrust.com/subca-certificates/OVCS2-CSBR1-crosscert.cer[here^].
+.. Follow the steps in the `Resolution` section of this knowledge base (KB) article: https://kb.vmware.com/s/article/84240[^].
 ====
 When the integrity and authenticity of the Keystone Collector OVA are validated, you can see the text `(Trusted certificate)` with the publisher.
-image:ova-deploy.png[ova UI]
+image:ova-deploy.png[OVA UI displaying a verified certificate]
 +
 . On _Step 5_ of the *Deploy OVF Template* wizard, specify the location for storing the VM.
 . On _Step 6_, select the destination network for the VM to use.

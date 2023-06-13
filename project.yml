@@ -157,7 +157,7 @@ homepage:
           url: /concepts/uscs.html
     - title: Know more
       links:
-        - title: Keystone Subscription-V1 (originally Keystone Flex Subscription)
+        - title: Keystone Subscriptions-V1 (previously Keystone Flex Subscriptions)
           url: https://docs.netapp.com/us-en/keystone/
         - title: Active IQ Digital Advisor
           url: https://docs.netapp.com/us-en/active-iq/index.html

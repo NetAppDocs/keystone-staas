@@ -115,7 +115,7 @@ The *Current Consumed*, *Current Burst*, and *Accrued Burst* indicators determin
 == View system details
 On the *System Details* tab, you can view the consumption and other details for your volumes in ONTAP. For StorageGRID, this tab displays the nodes and their individual usage in your object storage environment.
 
-.*ONTAP volume details*
+.*ONTAP volume details: click here*
 [%collapsible]
 ====
 For ONTAP, the *System Details* tab displays information, such as the capacity usage, volume type, cluster, aggregate, and service level of the volumes in your storage environment managed by your Keystone subscription.
@@ -135,7 +135,7 @@ image:aiq-ks-sysdtls.png[system details tab]
 
 ==== 
 
-.*StorageGRID nodes and consumption details*
+.*StorageGRID nodes and consumption details: click here*
 [%collapsible]
 ====
 For StorageGRID, this tab displays the physical usage for the nodes in the object storage environment.
