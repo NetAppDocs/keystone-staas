@@ -40,15 +40,16 @@ For each subscription number, you can see the following information:
 
 * *Subscription Number*: The subscription number of the Keystone subscription assigned by NetApp.
 * *Tracking ID*: The tracking ID assigned at the time of subscription activation. This is a unique ID for each subscription and site, used for tracking the subscription.
+* *Usage Type*: You might have subscribed to multiple Keystone (version 1) or Keystone STaaS (version 2) subscriptions. The rate plan rules for the service levels might vary for the two subscription types. By looking at the value in this column, you know whether the usage type is billed as per the provisioned or logical usage for either `v1` or `v2`. For more information about Keystone Subscriptions version 1, see https://docs.netapp.com/us-en/keystone/index.html[Documentation for NetApp Keystone].
 * *Billing Period*: The billing period of the subscription, such as monthly, quarterly, or annual.
 * *Start Date*: The start date of the subscription.
-* *End date*: The end date of the subscription. A blank date indicates that the subscription has no end date, and it gets renewed automatically. Based on this date, you might see information messages for subscriptions that are nearing expiry or have auto-renewal policies attached. 
+* *End date*: The end date of the subscription. A blank date indicates that the subscription has no end date, and it gets renewed automatically. Based on this date, you might see information messages for subscriptions that are nearing expiry or have auto-renewal policies attached.
 * *Usage Status*: Indicates how much of the subscription has been used or overused. You can sort the list by this column if you want to view the highest consumption records.
 * image:aiq-ks-time-icon.png[icon]: Clicking this icon opens the *Subscription Time Series* tab where you can see the historical usage data for each service level included in this subscription
 
 You can see more details by clicking the downward arrow for a subscription record. Details, such as the service level name, committed, consumed, available capacities, and current and accrued burst usage are displayed in TiB.
 
-[NOTE]
+[TIP]
 Specific service levels that record higher consumption are highlighted. You can also view warnings and alerts generated for your volumes.
 
 For information about your Keystone storage services and the relevant service levels, see link:../concepts/service-levels.html[Service Levels in Keystone].
@@ -114,7 +115,8 @@ The *Current Consumed*, *Current Burst*, and *Accrued Burst* indicators determin
 == View system details
 On the *System Details* tab, you can view the consumption and other details for your volumes in ONTAP. For StorageGRID, this tab displays the nodes and their individual usage in your object storage environment.
 
-.*ONTAP volume details*
+=== ONTAP volume details 
+.Click here
 [%collapsible]
 ====
 For ONTAP, the *System Details* tab displays information, such as the capacity usage, volume type, cluster, aggregate, and service level of the volumes in your storage environment managed by your Keystone subscription.
@@ -134,7 +136,8 @@ image:aiq-ks-sysdtls.png[system details tab]
 
 ==== 
 
-.*StorageGRID nodes and consumption details*
+=== StorageGRID nodes and consumption details
+.Click here
 [%collapsible]
 ====
 For StorageGRID, this tab displays the physical usage for the nodes in the object storage environment.
@@ -169,6 +172,8 @@ The alerts can be of two types:
 
 * *Information*: For issues, such as your subscriptions nearing an end, you can see information alerts. Hover your cursor over the information icon to learn more about the issue.
 * *Warning*: Issues, such as non-compliance, are displayed as warnings. For example, if there are volumes within your managed clusters that do not have adaptive QoS (AQoS) policies attached, you can see a warning message. You can click the link on the warning message to see the list of the non-compliant volumes in the *System Details* tab.
+[NOTE]
+If you have subscribed to a single service level or rate plan, you won't be able to see the alert for non-compliant volumes.
 +
 For information about AQoS policies, see link:../concepts/qos.html[Adaptive QoS].
 
