@@ -40,7 +40,7 @@ For each subscription number, you can see the following information:
 
 * *Subscription Number*: The subscription number of the Keystone subscription assigned by NetApp.
 * *Tracking ID*: The tracking ID assigned at the time of subscription activation. This is a unique ID for each subscription and site, used for tracking the subscription.
-* *Usage Type*: You might have subscribed to multiple Keystone (V1) or Keystone STaaS (V2) subscriptions. The rate plan rules for the service levels might vary for the two subscription types. By looking at the value in this column, you know whether the usage type is billed as per the provisioned or logical usage for either `V1` or `V2`. For more information about Keystone V1 subscriptions, see https://docs.netapp.com/us-en/keystone/index.html[Documentation for NetApp Keystone].
+* *Usage Type*: You might have subscribed to multiple Keystone (version 1) or Keystone STaaS (version 2) subscriptions. The rate plan rules for the service levels might vary for the two subscription types. By looking at the value in this column, you know whether the usage type is billed as per the provisioned or logical usage for either `v1` or `v2`. For more information about Keystone Subscriptions version 1, see https://docs.netapp.com/us-en/keystone/index.html[Documentation for NetApp Keystone].
 * *Billing Period*: The billing period of the subscription, such as monthly, quarterly, or annual.
 * *Start Date*: The start date of the subscription.
 * *End date*: The end date of the subscription. A blank date indicates that the subscription has no end date, and it gets renewed automatically. Based on this date, you might see information messages for subscriptions that are nearing expiry or have auto-renewal policies attached.
