@@ -125,7 +125,7 @@ For information about advanced data protection add-on service, see link:../conce
 If the clusters in your ONTAP storage environment are configured in a MetroCluster setup, the consumption data of your Keystone subscription is split in the same time series chart to display the consumption at the primary and mirror sites for the base service levels.
 
 [NOTE]
-The consumption bar charts are split for only base service levels. For the _Advanced Data-Protect_ service level, this demarcation does not appear.
+The consumption bar charts are split for only base service levels. For advanced data protection add-on service, that is the _Advanced Data-Protect_ service level, this demarcation does not appear.
 
 .Advanced data protection service level
 
@@ -144,17 +144,17 @@ The following image displays the charts for the _Extreme_ service level (base se
 
 image:mcc-chart.png[mcc primary]
 
-For the _Advanced Data-Protect_ service level  (service level for advanced data protection add-on service), the charts appear like this:
+For the _Advanced Data-Protect_ service level, the charts appear like this:
 
 image:adp-src.png[mcc primary base]
 
 .What you can see for the secondary (mirror site) subscription
 
-When you check the secondary subscription, you can see that the bar chart for the _Extreme_ service level (base service level) at the same data collection point is reversed, and the consumption breakup at the primary and mirror sites is 1.05 TiB and 1.02 TiB respectively.
+When you check the secondary subscription, you can see that the bar chart for the _Extreme_ service level (base service level) at the same data collection point as the partner site is reversed, and the consumption breakup at the primary and mirror sites is 1.05 TiB and 1.02 TiB respectively.
 
 image:mcc-chart-mirror.png[mcc mirror]
 
-For the _Advanced Data-Protect_ service level (service level for advanced data protection add-on service), the chart appears like this at the same collection point:
+For the _Advanced Data-Protect_ service level, the chart appears like this for the same collection point as at the partner site:
 
 image:adp-mir.png[mcc mirror base]
 
@@ -179,7 +179,7 @@ For ONTAP, the *System Details* tab displays information, such as the capacity u
 The volume details are displayed. You can scroll across the columns and learn more about them by hovering your mouse on the information icons beside the column headings. You can sort by the columns and filter the lists to view specific information.
 +
 [NOTE]
-For data protection services, an additional column appears to indicate whether the volume is a primary or mirror volume in the MetroCluster configuration. You can copy individual node serial numbers by clicking the *Copy Node Serials* button. 
+For advanced data protection add-on service, an additional column appears to indicate whether the volume is a primary or mirror volume in the MetroCluster configuration. You can copy individual node serial numbers by clicking the *Copy Node Serials* button. 
 
 image:aiq-ks-sysdtls.png[system details tab]
 
