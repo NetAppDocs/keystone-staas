@@ -54,7 +54,7 @@ sidebar:
           entries:
             - title: Data tiering
               url: /concepts/data-tiering.html
-            - title: Advanced Data Protection
+            - title: Advanced data protection
               url: /concepts/adp.html
             - title: U.S. Citizen Support (USCS)
               url: /concepts/uscs.html

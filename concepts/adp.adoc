@@ -2,10 +2,10 @@
 sidebar: sidebar
 permalink: concepts/adp.html
 keywords: data protection advanced
-summary: Advanced Data Protection
+summary: Advanced data protection
 ---
 
-= Advanced Data Protection
+= Advanced data protection
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -14,16 +14,14 @@ summary: Advanced Data Protection
 
 [.lead]
 
-You can subscribe to Advanced Data Protection add-on service as a part of your Keystone STaaS subscription. This add-on service leverages NetApp MetroCluster technology to ensure efficient data protection for your mission-critical workloads at 0 Recovery Point Objective (RPO).
+You can subscribe to advanced data protection add-on service as a part of your Keystone STaaS subscription. This add-on service leverages NetApp MetroCluster technology to ensure efficient data protection for your mission-critical workloads at 0 Recovery Point Objective (RPO).
 
 [NOTE]
 Keystone STaaS standard services for file and block storage offer default data protection services by leveraging NetApp technologies, such as SnapMirror, SnapVault, and Snapshot. 
 
 For information about the standard and cloud service, see link:../concepts/supported-storage-services.html[Keystone STaaS services].
 
-For information about Service Levels, see link:../concepts/service-levels.html[Service Levels in Keystone].
-
-Keystone advanced data protection service can synchronously mirror data to a secondary site. In case of a disaster at the primary site, the secondary site can take over, without any loss of data. This features leverages the MetroCluster configuration between two sites to enable data protection. You can avail the advanced data protection add-on services for only your file and block storage services.
+Keystone advanced data protection service can synchronously mirror data to a secondary site. In case of a disaster at the primary site, the secondary site can take over, without any loss of data. This features leverages the MetroCluster configuration between two sites to enable data protection. You can avail the advanced data protection add-on services for only your file and block storage services. As a part of this add-on service, the `Advanced Data-Protect` service level is assigned to your subscription.
 For information about ONTAP MetroCluster, see link:https://docs.netapp.com/us-en/ontap-metrocluster[MetroCluster Documentation^].
 
 The add-on charges are applicable to all the capacities in the subscription: the source, mirrored copy, and unmirrored data.

@@ -53,6 +53,7 @@ The service level metrics depend on the following conditions:
 * If one or more volumes on a storage system do not have an AQoS policy assigned, then these volumes are considered as non-compliant volumes, and no target service levels are applicable for those systems.
 * _Expected IOPS_ is targeted for FabricPool only if the tiering policy is set to "none" and no blocks are in the cloud. _Expected IOPS_ is targeted for volumes that are not in a SnapMirror synchronous relationship.
 * Workload IO operations need to be balanced across all deployed controllers, as determined by the Keystone order.
+* For the advanced data protection add-on service, the _Advanced Data-Protect_ service level is assigned to your subscription. For more information, see link:../integrations/aiq-keystone-details.html#additional-details-for-advanced-data-protection[Additional details for advanced data protection].
 
 == Object storage
 *Supported protocol*: S3
