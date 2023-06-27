@@ -19,7 +19,9 @@ A subscription can have multiple rate plans and each rate plan corresponds to a 
 
 Each service level is defined by its I/O density, that is IOPS/TiB/volume. This is the ratio of performance (input/output operations per second [IOPS]) and used storage capacity (TiB) which is IOPS/TiB at average latency per volume. 
 
-The service levels for the supported storage types, file, block, object, and cloud services are listed here.
+You select service levels based on your storage environment, and storage and consumption needs. The base service levels are available for you by default. Specific service levels are additionally available, if you have opted for add-on services. For example, for the advanced data protection add-on service, the _Advanced Data-Protect_ service level is assigned to your subscription.
+
+The base service levels for the supported storage types, file, block, object, and cloud services are listed here.
 
 == Service levels for file and block storage
 
@@ -39,7 +41,7 @@ The service levels for the supported storage types, file, block, object, and clo
 
 === More on service levels for file and block storage
 
-The service level metrics depend on the following conditions:
+The base service level metrics depend on the following conditions:
 
 * The service levels for file and block storage support ONTAP 9.7 and later.
 * IOPS/TiB/volume, MBps/TiB/volume, and latency values for service levels are based on the amount of data stored in the volume, 32KB block size, and a random combination of 70% read and 30% write IO operations.
