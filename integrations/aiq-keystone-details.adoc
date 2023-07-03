@@ -47,7 +47,7 @@ If you have subscribed to advanced data protection add-on service, then you can 
 * *Start Date*: The start date of the subscription.
 * *End date*: The end date of the subscription. A blank date indicates that the subscription has no end date, and it gets renewed automatically. Based on this date, you might see information messages for subscriptions that are nearing expiry or have auto-renewal policies attached.
 * *Usage Status*: Indicates how much of the subscription has been used or overused. You can sort the list by this column if you want to view the highest consumption records.
-* image:aiq-ks-time-icon.png[icon]: Clicking this icon opens the *Subscription Time Series* tab where you can see the historical usage data for each service level included in this subscription
+* image:aiq-ks-time-icon.png[icon]: Clicking this icon opens the *Time Series* tab where you can see the historical usage data for each service level included in this subscription
 
 You can see more details by clicking the downward arrow for a subscription record. Details, such as the service level name, committed, consumed, available capacities, and current and accrued burst usage are displayed in TiB.
 
@@ -69,10 +69,10 @@ image:icon-red.png[red dot icon]: The consumption is within the burst limit. The
 image:icon-purple.png[purple dot icon]: Indicates consumption above the stipulated burst limit
 
 == View historical subscription data charts
-The *Subscription Time Series* tab displays historical data of your subscriptions for a specific period. The vertical graphs display the usage details for the selected time range with appropriate indicators for you to compare and generate reports. 
+The *Time Series* tab displays historical data of your subscriptions for a specific period. The vertical graphs display the usage details for the selected time range with appropriate indicators for you to compare and generate reports. 
 
 .Steps
-. Click the *Subscription Time Series* tab.
+. Click the *Time Series* tab.
 . Select the required subscription for which you want to view the details. The first subscription in your account name is selected by default.
 . Select the time range from the calendar icons in the *From Date* and *To Date* fields. The default time range is from the start date of the billing period to the current date.
 +
@@ -118,7 +118,7 @@ The *Current Consumed*, *Current Burst*, and *Accrued Burst* indicators determin
 .Click here
 [%collapsible]
 ====
-If you have subscribed to the advanced data protection add-on service, you can view the breakup of the consumption data for the MetroCluster partner sites on the *Subscription Time Series* tab. 
+If you have subscribed to the advanced data protection add-on service, you can view the breakup of the consumption data for the MetroCluster partner sites on the *Time Series* tab. 
 
 For information about advanced data protection add-on service, see link:../concepts/adp.html[Advanced data protection].
 
@@ -129,7 +129,7 @@ The consumption bar charts are split for only base service levels. For advanced 
 
 .Advanced data protection service level
 
-For the _Advanced Data-Protect_ service level, the total consumption is split between the partner sites, and the usage at each partner site is reflected and billed in a separate subscription; that is one subscription for the primary site, and another for the mirror site. That is why, when you select the subscription number for the primary site on the *Subscription Time Series* tab, the consumption charts for the advanced data protection add-on service display the discrete consumption details for only the primary site. Because each partner site in a MetroCluster configuration acts as a source and a mirror, the total consumption at each site includes the source and the mirror volumes created at that site.
+For the _Advanced Data-Protect_ service level, the total consumption is split between the partner sites, and the usage at each partner site is reflected and billed in a separate subscription; that is one subscription for the primary site, and another for the mirror site. That is why, when you select the subscription number for the primary site on the *Time Series* tab, the consumption charts for the advanced data protection add-on service display the discrete consumption details for only the primary site. Because each partner site in a MetroCluster configuration acts as a source and a mirror, the total consumption at each site includes the source and the mirror volumes created at that site.
 
 [TIP]
 The tooltip beside the tacking ID of your subscription in the *Subscription Details* tab helps you identify the partner subscription in the MetroCluster setup.
@@ -211,7 +211,7 @@ You can generate and view reports for your subscription details, historical usag
 
 The details are generated in CSV format that you can save for future use.
 
-A sample report for the *Subscription Time Series* tab, where the graphical data is converted:
+A sample report for the *Time Series* tab, where the graphical data is converted:
 
 image:report.png[csv of report]
 
