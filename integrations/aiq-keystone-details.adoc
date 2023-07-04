@@ -20,21 +20,21 @@ The information available here applies to both ONTAP and StorageGRID. Exceptions
 
 For information about the Keystone Digital Advisor widget, see https://docs.netapp.com/us-en/active-iq/view_keystone_capacity_utilization.html[View capacity utilization with NetApp Keystone Subscription^].
 
-To view the details, perform the following steps:
+To view your Keystone subscription and usage details, perform the following steps:
 
 .Steps
 
-. On Digital Advisor, click *View More Details* on the widget to view the usage details and alerts on your volumes on the *Keystone Subscriptions* page. Alternately, from the left navigation pane, go to *GENERAL > Keystone Subscriptions*.
-
+. Log in to Digital Advisor. You can see the *Keystone Subscriptions* widget that summarizes the capacity usage against your purchased Keystone services.
+. On the *Keystone Subscriptions* widget, click *View More Details* to view the usage details and alerts on your volumes on the *Keystone Subscriptions* page. Alternately, from the left navigation pane, go to *GENERAL > Keystone Subscriptions*.
 The details of the subscriptions, usage charts for each service level, and volume details are displayed in the different tabs on the *Keystone Subscriptions* screen.
 
 [NOTE]
 Capacity consumption in Keystone subscriptions is displayed in TiBs on the dashboards and reports, and is rounded off to two decimal places. If the usage is less than 0.01 TiB, then the value is shown as 0 or `No Usage`. For other usage metrics, see link:../concepts/metrics.html#metrics-measurement[Metrics measurement]. For information about different capacities used in Keystone, see link:../concepts/supported-storage-capacity.html[Supported storage capacities].
 
-== View subscription details
-You can view all the subscriptions for an account name in the *Subscription Details* tab.
+== View all subscriptions
+You can view a list of all your subscriptions in the *All Subscriptions* tab. 
 
-image:aiq-ks-dtls.png[subscription details tab]
+image:all-subs.png[an image of the all subscriptions tab]
 
 For each subscription number, you can see the following information:
 
@@ -47,15 +47,8 @@ If you have subscribed to advanced data protection add-on service, then you can 
 * *Start Date*: The start date of the subscription.
 * *End date*: The end date of the subscription. A blank date indicates that the subscription has no end date, and it gets renewed automatically. Based on this date, you might see information messages for subscriptions that are nearing expiry or have auto-renewal policies attached.
 * *Usage Status*: Indicates how much of the subscription has been used or overused. You can sort the list by this column if you want to view the highest consumption records.
+* image:subs-dtls-icon.png[icon]: Clicking this icon for a subscription opens the *Subscription Details* tab with additional details of that subscription.
 * image:aiq-ks-time-icon.png[icon]: Clicking this icon opens the *Time Series* tab where you can see the historical usage data for each service level included in this subscription
-
-You can see more details by clicking the downward arrow for a subscription record. Details, such as the service level name, committed, consumed, available capacities, and current and accrued burst usage are displayed in TiB.
-
-[TIP]
-Specific service levels that record higher consumption are highlighted. You can also view warnings and alerts generated for your volumes.
-
-For information about your Keystone storage services and the relevant service levels, see link:../concepts/service-levels.html[Service Levels in Keystone].
-
 You can refer to the following usage indicators to check the usage status of each subscription:
 
 image:usage-indicator.png[icon]
@@ -67,6 +60,27 @@ image:icon-green.png[green dot icon]: The consumption is normal, within 80% of t
 image:icon-amber.png[amber dot icon]: Maximum consumption, that is the usage is about to reach 100% or more of the committed capacity. The *Consumed* column displays this indicator for any consumption above 80% of the committed capacity
 image:icon-red.png[red dot icon]: The consumption is within the burst limit. The burst consumption is the consumption that tops the 100% committed capacity of a service level, and is within the agreed-upon burst usage limit, such as 120%
 image:icon-purple.png[purple dot icon]: Indicates consumption above the stipulated burst limit
+
+== View subscription details
+To know the details of your subscriptions, click the *Subscription Details* tab, and select the required subscription number.
+
+image:aiq-ks-dtls.png[subscription details tab]
+
+Details, such as the service level name, committed, consumed, available capacities, and current and accrued burst usage are displayed in TiB.
+
+[TIP]
+The image:icon-info.png[information icon] icon next to each column provides comprehensive information about that column. Specific service levels that record higher consumption are highlighted. You can also view warnings and alerts generated for your volumes.
+
+For information about your Keystone storage services and the relevant service levels, see link:../concepts/service-levels.html[Service Levels in Keystone].
+
+== View sustainability SLA details
+.Learn more
+[%collapsible]
+====
+This tab is available if you have a service level agreement with NetApp that relates to sustainability in your environment.
+
+====
+
 
 == View historical subscription data charts
 The *Time Series* tab displays historical data of your subscriptions for a specific period. The vertical graphs display the usage details for the selected time range with appropriate indicators for you to compare and generate reports. 
@@ -115,7 +129,7 @@ A blank chart indicates that there was no data available in your environment at 
 The *Current Consumed*, *Current Burst*, and *Accrued Burst* indicators determine the consumption with respect to the billing period of the subscription, and are not based on the date range of the query.
 
 === Additional details for advanced data protection 
-.Click here
+.Learn more
 [%collapsible]
 ====
 If you have subscribed to the advanced data protection add-on service, you can view the breakup of the consumption data for the MetroCluster partner sites on the *Time Series* tab. 
@@ -165,8 +179,8 @@ For information about how MetroCluster protects your data, see https://docs.neta
 == View system details
 On the *System Details* tab, you can view the consumption and other details for your volumes in ONTAP. For StorageGRID, this tab displays the nodes and their individual usage in your object storage environment.
 
-=== ONTAP volume details 
-.Click here
+=== ONTAP volume details
+.Learn more
 [%collapsible]
 ====
 For ONTAP, the *System Details* tab displays information, such as the capacity usage, volume type, cluster, aggregate, and service level of the volumes in your storage environment managed by your Keystone subscription.
@@ -187,7 +201,7 @@ image:aiq-ks-sysdtls.png[system details tab]
 ==== 
 
 === StorageGRID nodes and consumption details
-.Click here
+.Learn more
 [%collapsible]
 ====
 For StorageGRID, this tab displays the physical usage for the nodes in the object storage environment.
