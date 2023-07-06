@@ -96,12 +96,12 @@ The following details are displayed:
 * *Average Sustainability*: The average power consumed in watts/TiB over the last billing period of this subscription.
 * *Day*: The day of the month when this data item is retrieved.
 * *Generated Date*: The actual date of the month.
-* *Average Watts*: The average watts consumed for that day for the cluster.
+* *Average Watts*: The average watts of power consumed that day by the cluster.
 * *Effective Capacity (TiB*): The sum of the committed capacity and the allocated burst capacity for the service level.
-* *Actual Watts (TiB*): The actual watts/TiB is the actual power consumption per TiB for the day by the cluster. You can compare it against the SLA watts/TiB value to analyze any overshoot.
+* *Actual Watts (TiB*): The actual watts/TiB is the actual power consumption per TiB for that day by the cluster. You can compare it against the value in *SLA Watts/TiB* to analyze any overshoot.
 * *SLA Watts/TiB*: The watts/TiB value for the service level defined in the SLA.
-* *Average Temperature (^o^C)*: The average ambient temperature for the day while taking the reading for power usage.
-* *Storage Efficiency Ratio*: The storage efficiency ratio in your environment. This is the ratio of the total logical space that is used by the system after using the storage efficiency settings to the total physical space that is used to store this data.
+* *Average Temperature (^o^C)*: The average ambient temperature for the day.
+* *Storage Efficiency Ratio*: The storage efficiency ratio in your environment. This is the ratio of the total logical space used by the system after enabling the storage efficiency settings to the total physical space used to store the data.
 ##Reviewer: Please review these descriptions##
 
 ====

@@ -13,11 +13,11 @@ summary: sustainability, sla, service level agreement
 :imagesdir: ../media/
 
 [.lead]
-As a part of the Keystone STaaS offering, NetApp establishes a service level agreement (SLA) with you to guarantee accurate reporting of your sustainability score. It provides you with insights to environmental sustainability of your storage assets supported by Keystone services.
+Sustainability, in Keystone STaaS provides you with insights to environmental sustainability of your storage assets supported by Keystone services. As a part of Keystone STaaS, NetApp enters into a service level agreement (SLA) with you to guarantee accurate reporting of your sustainability score. 
 
 NetApp enables you to perform sustainable operations and align your storage systems with eco-friendly practices to achieve sustainability targets. By leveraging various storage efficiency features in ONTAP, cloud tiering, and cloud backup, you can effectively decrease the carbon footprint within your data centers, and attain your sustainability objectives.
 
-Keystone STaaS, as a part of the SLA, ensures accurate assessment of your sustainability score by providing guaranteed measurements of the sustainability parameters in your storage systems. Factors, such as power efficiency, storage efficiency, and ambient temperature are considered. Power consumption is measured as actual watts per tebibyte (W/TiB) in your Flash storage systems. If there is a violation of the SLA, you are notified through alerts.
+Keystone STaaS ensures accurate assessment of your sustainability score by providing guaranteed measurements of the sustainability parameters in your storage systems. Factors, such as power efficiency, storage efficiency, and ambient temperature are considered. Power consumption is measured as actual watts per tebibyte (w/TiB) in your Flash storage systems for each service level, and defined in the SLA. If there is a violation of the SLA, you are notified through alerts.
 
 [NOTE]
 This service is available only for ONTAP Flash platforms, that is on NetApp AFF all-flash storage systems.
@@ -46,7 +46,7 @@ The following sustainability settings are taken into consideration:
 
 * Watts: Measures the power usage gathered from daily AutoSupport reports. This includes the power usage in both the controller and attached disk shelves, that is the daily consumption measured from the controller and the weekly consumption measured from the disk shelves
 * TiB: It is the maximum of the:
-** the sum of the committed capacity and allocated burst capacity for the service level
+** sum of the committed capacity and allocated burst capacity for the service level
 ** effective capacity that is a minimum of 2:1 ratio of the deployed hardware
 * Service levels: Extreme, Premium, and Performance
 
@@ -58,7 +58,7 @@ Keystone SLA considers the following range when calculating the sustainability s
 * The storage efficiency ratio should be at least 2:1. For information, https://docs.netapp.com/us-en/ontap-cli-9131//storage-aggregate-show-efficiency.html[storage aggregate show-efficiency].
 --
 
-Sustainability SLA guarantees the following metrics: 
+The following table summarizes the sustainability SLA metrics: 
 
 |===
 |*Service level* | *SLA criteria* |*Minimum committed capacity* |*Platform*
@@ -79,4 +79,4 @@ For more information about Keystone dashboard and reporting, see link:../integra
 
 == What do I do if my sustainability score exceeds the SLA criteria?
 
-You receive alerts when SLA obligations are not met. Any deviation from the criteria defined in your SLA is considered a departure from the sustenance guarantee. If the watts/TiB consumption reported for a billing period exceeds or fails to meet the criteria specified in the SLA, contact and inform NetApp Global Services Support Center (GSSC). For information, see link:../concepts/gssc.html[NetApp Global Services Support Center].
+You receive alerts when SLA obligations are not met. Any deviation from the criteria defined in your SLA is considered a departure from the sustainability guarantee. If the watts/TiB consumption reported for a billing period exceeds or fails to meet the criteria specified in the SLA, contact and inform NetApp Global Services Support Center (GSSC). For information, see link:../concepts/gssc.html[NetApp Global Services Support Center].
