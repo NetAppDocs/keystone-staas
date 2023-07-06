@@ -17,7 +17,7 @@ As a part of the Keystone STaaS offering, NetApp establishes a service level agr
 
 NetApp enables you to perform sustainable operations and align your storage systems with eco-friendly practices to achieve sustainability targets. By leveraging various storage efficiency features in ONTAP, cloud tiering, and cloud backup, you can effectively decrease the carbon footprint within your data centers, and attain your sustainability objectives.
 
-Keystone STaaS, as a part of the SLA, ensures accurate assessment of your sustainability score by providing guaranteed measurements of the power consumption in your storage systems. Power efficiency is measured as actual watts per tebibyte (W/TiB) in your Flash storage systems. If there is a violation of the SLA, you are notified through alerts.
+Keystone STaaS, as a part of the SLA, ensures accurate assessment of your sustainability score by providing guaranteed measurements of the sustainability parameters in your storage systems. Factors, such as power efficiency, storage efficiency, and ambient temperature are considered. Power consumption is measured as actual watts per tebibyte (W/TiB) in your Flash storage systems. If there is a violation of the SLA, you are notified through alerts.
 
 [NOTE]
 This service is available only for ONTAP Flash platforms, that is on NetApp AFF all-flash storage systems.
@@ -42,11 +42,11 @@ Your Keystone STaaS subscriptions are eligible for sustainability SLAs if they f
 == How is sustainability measured?
 The sustainability score for a specific billing period reports the maximum number of actual watts per tebibyte (TiB) for the service levels in your subscriptions.
 
-The following power efficiency settings are taken into consideration: 
+The following sustainability settings are taken into consideration: 
 
 * Watts: Measures the power usage gathered from daily AutoSupport reports. This includes the power usage in both the controller and attached disk shelves, that is the daily consumption measured from the controller and the weekly consumption measured from the disk shelves
 * TiB: It is the maximum of the:
-** committed capacity + 20% burst usage over the committed capacity
+** the sum of the committed capacity and allocated burst capacity for the service level
 ** effective capacity that is a minimum of 2:1 ratio of the deployed hardware
 * Service levels: Extreme, Premium, and Performance
 

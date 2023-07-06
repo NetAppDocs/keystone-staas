@@ -16,7 +16,7 @@ summary: what is Keystone Collector
 For availing your Keystone services and viewing your usage data, you should install Keystone Collector on a VMware vSphere or Linux system at your site.
 
 [NOTE]
-Keystone Collector represents the standard approach of collecting data for Keystone systems. At sites where Keystone Collector is not deployed, an alternative collector, AutoSupport Collector, accumulates the data. NetApp recommends utilizing Keystone Collector as the default mechanism though.
+Keystone Collector represents the standard approach of collecting data for Keystone systems. At sites where Keystone Collector is not deployed, an alternative collector, AutoSupport Collector, accumulates the data. However, NetApp recommends utilizing Keystone Collector as the default mechanism.
 
 Keystone Collector is the usage acquisition component of the Keystone billing platform that leverages Active IQ Unified Manager and other applications to connect to ONTAP and StorageGRID systems to collect metadata required for usage and SLA performance metering of your Keystone subscriptions. It provides you with the ability to monitor system health, while sending your billing data for reporting.
 
