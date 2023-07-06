@@ -78,7 +78,9 @@ For information about your Keystone storage services and the relevant service le
 .Learn more
 [%collapsible]
 ====
-This tab is available if you have a service level agreement with NetApp that relates to sustainability in your environment.
+The *SLA Details* tab is available only if you have a valid sustainability service level agreement (SLA) with NetApp. For information about sustainability SLA in Keystone STaaS, see link:../concepts/sla-sustainability.html[Sustainability SLA for Keystone].
+
+The *SLA Details* tab provides you with a generic 
 
 ====
 
