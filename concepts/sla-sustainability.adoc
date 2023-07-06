@@ -13,16 +13,18 @@ summary: sustainability, sla, service level agreement
 :imagesdir: ../media/
 
 [.lead]
-Sustainability, in Keystone STaaS, enables you to achieve sustainable operations within your Keystone services. It provides you with insights to environmental sustainability of your storage assets supported by Keystone services.
+As a part of the Keystone STaaS offering, NetApp establishes a service level agreement (SLA) with you to guarantee accurate reporting of your sustainability score. It provides you with insights to environmental sustainability of your storage assets supported by Keystone services.
 
-In Keystone STaaS, your sustainability service level agreements (SLA) with NetApp guarantees the maximum number of actual watts per tebibyte (TiB) for each service level. 
+NetApp enables you to perform sustainable operations and align your storage systems with eco-friendly practices to achieve sustainability targets. By leveraging various storage efficiency features in ONTAP, cloud tiering, and cloud backup, you can effectively decrease the carbon footprint within your data centers, and attain your sustainability objectives.
+
+Keystone STaaS, as a part of the SLA, ensures accurate assessment of your sustainability score by providing guaranteed measurements of the power consumption in your storage systems. Power efficiency is measured as actual watts per tebibyte (W/TiB) in your Flash storage systems. If there is a violation of the SLA, you are notified through alerts.
 
 [NOTE]
 This service is available only for ONTAP Flash platforms, that is on NetApp AFF all-flash storage systems.
 
 Sustainability SLA ensures the following:
 
-* Delivering a guaranteed measurement of maximum number of actual watts per tebibyte (W/TiB) for Storage services based on Flash systems for the Extreme, Premium, and Performance service levels.
+* Delivering a guaranteed measurement of maximum number of actual watts per tebibyte (W/TiB) for storage services based on Flash systems for the Extreme, Premium, and Performance service levels.
 * Payment of service credit for the missed sustenance guarantees during a billing period, for all eligible subscriptions.
 
 Sustainability builds upon the storage efficiency features of ONTAP, and is applicable for both file and block services. For more information about ONTAP storage efficiency settings, see the concepts under https://docs.netapp.com/us-en/ontap/concepts/thin-provisioning-concept.html[Storage efficiency] and https://docs.netapp.com/us-en/netapp-solutions/virtualization/vsphere_admin_storage_efficiencies.html#about-storage-efficiencies[ONTAP storage efficiencies].
@@ -37,14 +39,6 @@ Your Keystone STaaS subscriptions are eligible for sustainability SLAs if they f
 * The arrear payment schedule for your subscription is monthly.
 * There is no customizations on your subscriptions. Your subscriptions become ineligible for sustainability SLA if there are customizations, such as those pertaining to burst capacity sizing or co-mingling. 
 
-[NOTE]
---
-Sustainability SLA considers the following range for calculations:
-
-* When reading the power consumption, the ambient temperature should be between 25 and 27 degrees of Celsius. For information, see https://docs.netapp.com/us-en/ontap-cli-9131//storage-shelf-show.html[storage shelf show].
-* The storage efficiency ratio should be at least 2:1. For information, https://docs.netapp.com/us-en/ontap-cli-9131//storage-aggregate-show-efficiency.html[storage aggregate show-efficiency].
---
-
 == How is sustainability measured?
 The sustainability score for a specific billing period reports the maximum number of actual watts per tebibyte (TiB) for the service levels in your subscriptions.
 
@@ -55,6 +49,14 @@ The following power efficiency settings are taken into consideration:
 ** committed capacity + 20% burst usage over the committed capacity
 ** effective capacity that is a minimum of 2:1 ratio of the deployed hardware
 * Service levels: Extreme, Premium, and Performance
+
+[NOTE]
+--
+Keystone SLA considers the following range when calculating the sustainability score:
+
+* When reading the power consumption, the ambient temperature should be between 25 and 27 degrees of Celsius. For information, see https://docs.netapp.com/us-en/ontap-cli-9131//storage-shelf-show.html[storage shelf show].
+* The storage efficiency ratio should be at least 2:1. For information, https://docs.netapp.com/us-en/ontap-cli-9131//storage-aggregate-show-efficiency.html[storage aggregate show-efficiency].
+--
 
 Sustainability SLA guarantees the following metrics: 
 
