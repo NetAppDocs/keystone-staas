@@ -85,7 +85,7 @@ The *SLA Details* tab provides you with the sustainability SLA details.
 
 .Steps
 . Click the *SLA Details* tab.
-. Select the required subscription for which you want to view the details. You can view only those subscriptions that meet the criteria for sustainability SLA. For information about the criteria, see link:../concepts/sla-sustainability.html#are-my-subscriptions-eligible-for-sustainability-sla[Are my subscriptions eligible for sustainability SLA?]
+. Select the required subscription for which you want to view the details. You can view only those subscriptions that meet the criteria for sustainability SLA. For information about the criteria, see link:../concepts/sla-sustainability.html#eligibility-criteria-for-sustainability-sla[Eligibility criteria for sustainability SLA].
 
 You can see a daily breakdown of measured sustainability-related metrics for the current month:
 
