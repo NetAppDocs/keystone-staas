@@ -13,50 +13,43 @@ summary: sustainability, sla, service level agreement
 :imagesdir: ../media/
 
 [.lead]
-Sustainability, in Keystone STaaS provides you with insights to environmental sustainability of your storage assets supported by Keystone services. As a part of Keystone STaaS, NetApp enters into a service level agreement (SLA) with you to guarantee accurate reporting of your sustainability score. 
+Sustainability services are delivered as part of Keystone STaaS subscription services on NetApp ONTAP® Flash storage arrays. Sustainability entails a service level agreement (SLA) that guarantees adherence to specific limits for power consumption across different service levels of Keystone STaaS subscriptions. 
 
-NetApp enables you to perform sustainable operations on your storage systems and implement eco-friendly practices to achieve sustainability targets. By leveraging various storage efficiency features in ONTAP, cloud tiering, and cloud backup, you can effectively decrease the carbon footprint within your data centers, and attain your sustainability objectives.
+NetApp offers storage systems for your Keystone STaaS subscriptions that avail features, such as power efficiency, storage efficiency, and ambient temperature, resulting in a reduced carbon footprint and sustainable operations. 
 
-Keystone STaaS ensures an accurate assessment of your sustainability score by providing guaranteed measurements of the sustainability parameters in your storage systems. Factors, such as power efficiency, storage efficiency, and ambient temperature are considered. Power consumption is measured as actual watts per tebibyte (w/TiB) in your Flash storage systems for each service level, and defined in the SLA. If there is a violation of the SLA, you are notified through alerts.
+Power consumption for your Keystone subscriptions is measured as watts per tebibyte (w/TiB) for each subscription service level, and defined in the SLA. If the watts/TiB consumption exceeds or fails to meet the criteria specified in the SLA for a service level, NetApp offers a payment of service credit for the differences reported during a billing period, for all eligible subscriptions. In the event of any breach of the SLA, you receive alerts.
 
-[NOTE]
-This service is available only for ONTAP Flash platforms, that is on NetApp AFF all-flash storage systems.
-
-Sustainability SLA ensures the following:
-
-* A guaranteed measurement of maximum number of actual watts per tebibyte (W/TiB) for storage services based on Flash systems for the Extreme, Premium, and Performance service levels.
-* Offering a payment of service credit for the missed sustenance guarantees during a billing period, for all eligible subscriptions.
-
-Sustainability builds upon the storage efficiency features of ONTAP, and is applicable for both file and block services. For more information about ONTAP storage efficiency settings, see the concepts under https://docs.netapp.com/us-en/ontap/concepts/thin-provisioning-concept.html[Storage efficiency^] and https://docs.netapp.com/us-en/netapp-solutions/virtualization/vsphere_admin_storage_efficiencies.html#about-storage-efficiencies[ONTAP storage efficiencies^].
 
 == Eligibility criteria for sustainability SLA
-Your Keystone STaaS subscriptions are eligible for sustainability SLAs if they fulfill these criteria:
+The sustainability SLA is subject to the following terms and conditions:
 
-* You have NetApp AFF all-flash storage platform, for example, NetApp AFF A900 or AFF A800 all-flash storage system. For information, see https://www.netapp.com/data-storage/aff-a-series[AFF A-Series^].
-* Your environment consists of a two-node cluster. MetroCluster configurations are not supported.
-* AutoSupport has been enabled in your environment. For information, see https://docs.netapp.com/us-en/active-iq/concept_autosupport.html[AutoSupport^].
-* Your subscriptions consist of only one service level (Extreme, Premium, or Performance). Also, the minimum capacity in the service level definition should be met. For more clarity, see the next section *_How is sustainability measured_*.
-* Your subscription follows a monthly arrear payment schedule.
-* Your subscriptions do not have any customizations. Your subscriptions become ineligible for sustainability SLA if there are customizations, such as those pertaining to burst capacity sizing or co-mingling. 
+* Sustainability SLA is applicable for NetApp AFF all-flash storage platform, for example, NetApp AFF A900 or AFF A800 all-flash storage system. For information, see https://www.netapp.com/data-storage/aff-a-series[AFF A-Series^]. 
++
+Specifically, applicable for a non-customized, sustainable hardware configurations consisting of:
+** ONTAP AFF A-Series storage arrays.
+** Two-node switchless cluster.
+** Non-commingled configurations.
+** Non-MetroCluster configurations.
+*  The consumption metrics are collected through the NetApp AutoSupport® monitoring tool. A complete version of the AutoSupport monitoring tool should be installed and operational on all the Flash storage arrays used. For information, see https://docs.netapp.com/us-en/active-iq/concept_autosupport.html[AutoSupport^].
+* Capacity (in TiB) is the greater of either:
+** the sum of the committed capacity and allocated burst capacity for the service level, or
+** the effective deployed capacity, considering the data efficiency factor of the effective deployed capacity.
+* The STaaS subscriptions should consist of only one service level (Extreme, Premium, or Performance). 
+* Also, the minimum capacity in the service level definition should be met. The data stored must achieve a minimum average data efficiency factor of the effective deployed capacity.
+* The subscription follows a monthly arrear payment schedule.
+* The subscriptions do not have any customizations. The subscriptions become ineligible for sustainability SLA if there are customizations, such as those pertaining to burst capacity sizing or co-mingling.
+* The ambient operating environment temperature must be between 25°C and 27°C.
 
 == Sustainability metrics
 The sustainability score for a specific billing period reports the maximum number of actual watts per tebibyte (TiB) for the service levels in your subscriptions.
 
-The following sustainability settings are taken into consideration: 
+The following metrics are taken into consideration: 
 
-* Watts: Measures the power usage gathered from daily AutoSupport reports. This includes the power usage in both the controller and attached disk shelves, that is the daily consumption measured from the controller and the weekly consumption measured from the disk shelves.
+* Watts: The daily power consumption of the controllers and weekly consumption of the disk shelves in the ONTAP AFF storage arrays are measured in `watts`. 
 * TiB: It is the maximum of the:
-** sum of the committed capacity and allocated burst capacity for the service level.
-** effective capacity that is a minimum of 2:1 ratio of the deployed hardware.
+** the sum of the committed capacity and allocated burst capacity for the service level, or
+** the effective deployed capacity, considering the data efficiency factor of the effective deployed capacity.
 * Service levels: Extreme, Premium, and Performance.
-
-[NOTE]
---
-The SLA considers the following range when calculating the sustainability score:
-
-* When reading the power consumption, the ambient temperature should be between 25 and 27 degrees of Celsius. For information, see https://docs.netapp.com/us-en/ontap-cli-9131//storage-shelf-show.html[storage shelf show^].
-* The storage efficiency ratio should be at least 2:1. For information, https://docs.netapp.com/us-en/ontap-cli-9131//storage-aggregate-show-efficiency.html[storage aggregate show-efficiency^].
---
 
 The following table summarizes the sustainability SLA metrics: 
 
@@ -73,10 +66,9 @@ Performance |<=4 watts/TiB |300 TiB |AFF A800 and AFF A900
 
 
 == Sustainability reports
-The SLA tab on the Active IQ Digital Advisor (Digital Advisor) Keystone dashboard provides a detailed view of the sustainability score for your Keystone subscriptions. You can access the matrix and generate reports for future analysis and actions.
+The SLA tab on the Active IQ Digital Advisor (Digital Advisor) Keystone dashboard provides a detailed view of the sustainability metrics for your Keystone subscriptions. You can access the matrix and generate reports for future analysis and actions.
 
 For more information about Keystone dashboard and reporting, see link:../integrations/aiq-keystone-details.html[Keystone Subscription dashboard and reporting].
 
-== SLA violations 
-
-You receive alerts when SLA obligations are not met. Any deviation from the criteria defined in your SLA is considered a departure from the sustainability guarantee. If the watts/TiB consumption reported for a billing period exceeds or fails to meet the criteria specified in the SLA, contact and inform NetApp Global Services Support Center (GSSC). For information, see link:../concepts/gssc.html[NetApp Global Services Support Center].
+== Breach of SLA 
+If the watts/TiB consumption reported for a billing period exceeds or fails to meet the criteria specified in the SLA, contact NetApp Global Services Support Center (GSSC). For information, see link:../concepts/gssc.html[NetApp Global Services Support Center].

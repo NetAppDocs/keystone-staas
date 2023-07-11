@@ -103,7 +103,6 @@ The following details are displayed:
 * *SLA Watts/TiB*: The watts/TiB value for the service level defined in the SLA.
 * *Average Temperature (^o^C)*: The average ambient temperature for the day.
 * *Storage Efficiency Ratio*: The storage efficiency ratio in your environment. This is the ratio of the total logical space used by the system after enabling the storage efficiency settings to the total physical space used to store the data.
-##Reviewer: Please review these descriptions##
 
 ====
 
