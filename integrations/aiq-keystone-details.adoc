@@ -104,6 +104,9 @@ The following details are displayed:
 * *Average Temperature (^o^C)*: The average ambient temperature for the day.
 * *Storage Efficiency Ratio*: The storage efficiency ratio in your environment. This is the ratio of the total logical space used by the system after enabling the storage efficiency settings to the total physical space used to store the data.
 
+[TIP]
+If there is an SLA breach, an icon image:warning.png[icon for warning] adjacent to the column informs you of the nature of the breach.
+
 ====
 
 

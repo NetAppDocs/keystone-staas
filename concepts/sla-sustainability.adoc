@@ -17,7 +17,7 @@ Sustainability services are delivered as part of Keystone STaaS subscription ser
 
 NetApp offers storage systems for your Keystone STaaS subscriptions that avail features, such as power efficiency, storage efficiency, and ambient temperature, resulting in a reduced carbon footprint and sustainable operations. 
 
-Power consumption for your Keystone subscriptions is measured as watts per tebibyte (w/TiB) for each subscription service level, and defined in the SLA. If the watts/TiB consumption exceeds or fails to meet the criteria specified in the SLA for a service level, NetApp offers a payment of service credit for the differences reported during a billing period, for all eligible subscriptions. In the event of any breach of the SLA, you receive alerts.
+Power consumption for your Keystone subscriptions is measured as watts per tebibyte (w/TiB) for each subscription service level, and defined in the SLA. If the watts/TiB consumption exceeds or fails to meet the criteria specified in the SLA for a service level, NetApp offers a payment of service credit for the differences reported during a billing period, for all eligible subscriptions. 
 
 
 == Eligibility criteria for sustainability SLA
@@ -35,7 +35,8 @@ Specifically, applicable for a non-customized, sustainable hardware configuratio
 ** the sum of the committed capacity and allocated burst capacity for the service level, or
 ** the effective deployed capacity, considering the data efficiency factor of the effective deployed capacity.
 * The STaaS subscriptions should consist of only one service level (Extreme, Premium, or Performance). 
-* Also, the minimum capacity in the service level definition should be met. The data stored must achieve a minimum average data efficiency factor of the effective deployed capacity.
+* Also, the minimum committed capacity per service level should be met. 
+* The data stored must achieve a minimum average data efficiency factor of the effective deployed capacity.
 * The subscription follows a monthly arrear payment schedule.
 * The subscriptions do not have any customizations. The subscriptions become ineligible for sustainability SLA if there are customizations, such as those pertaining to burst capacity sizing or co-mingling.
 * The ambient operating environment temperature must be between 25°C and 27°C.
@@ -71,4 +72,6 @@ The SLA tab on the Active IQ Digital Advisor (Digital Advisor) Keystone dashboar
 For more information about Keystone dashboard and reporting, see link:../integrations/aiq-keystone-details.html[Keystone Subscription dashboard and reporting].
 
 == Breach of SLA 
-If the watts/TiB consumption reported for a billing period exceeds or fails to meet the criteria specified in the SLA, contact NetApp Global Services Support Center (GSSC). For information, see link:../concepts/gssc.html[NetApp Global Services Support Center].
+If the watts/TiB consumption reported for a billing period exceeds or fails to meet the criteria specified in the SLA, contact NetApp Global Services Support Center (GSSC). You should inform GSSC before seven days to the service month end. Credits are calculated based on the committed capacity of the service level. Credits are added to next month's invoice.
+
+For information, see link:../concepts/gssc.html[NetApp Global Services Support Center].
