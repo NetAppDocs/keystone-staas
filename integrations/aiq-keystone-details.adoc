@@ -1,7 +1,8 @@
 ---
 sidebar: sidebar
 permalink: integrations/aiq-keystone-details.html
-keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, keystone usage graphs charts, generate reports
+keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, keystone usage graphs charts, generate reports, iq sustainability, digital advisor sustainability, metrocluster, storagegrid, ontap, tracking id, burst usage, alerts
+summary: Keystone and Digital Advisor
 summary: Keystone Subscription reports and graphs
 ---
 
@@ -20,41 +21,35 @@ The information available here applies to both ONTAP and StorageGRID. Exceptions
 
 For information about the Keystone Digital Advisor widget, see https://docs.netapp.com/us-en/active-iq/view_keystone_capacity_utilization.html[View capacity utilization with NetApp Keystone Subscription^].
 
-To view the details, perform the following steps:
+To view your Keystone subscription and usage details, perform the following steps:
 
 .Steps
 
-. On Digital Advisor, click *View More Details* on the widget to view the usage details and alerts on your volumes on the *Keystone Subscriptions* page. Alternately, from the left navigation pane, go to *GENERAL > Keystone Subscriptions*.
-
+. Log in to Digital Advisor. You can see the *Keystone Subscriptions* widget that summarizes the capacity usage against your purchased Keystone services.
+. On the *Keystone Subscriptions* widget, click *View More Details* to view the usage details and alerts on your volumes on the *Keystone Subscriptions* page. Alternately, from the left navigation pane, go to *GENERAL > Keystone Subscriptions*.
 The details of the subscriptions, usage charts for each service level, and volume details are displayed in the different tabs on the *Keystone Subscriptions* screen.
 
 [NOTE]
 Capacity consumption in Keystone subscriptions is displayed in TiBs on the dashboards and reports, and is rounded off to two decimal places. If the usage is less than 0.01 TiB, then the value is shown as 0 or `No Usage`. For other usage metrics, see link:../concepts/metrics.html#metrics-measurement[Metrics measurement]. For information about different capacities used in Keystone, see link:../concepts/supported-storage-capacity.html[Supported storage capacities].
 
-== View subscription details
-You can view all the subscriptions for an account name in the *Subscription Details* tab.
+== View all subscriptions
+You can view a list of all your subscriptions in the *All Subscriptions* tab. 
 
-image:aiq-ks-dtls.png[subscription details tab]
+image:all-subs.png[an image of the all subscriptions tab]
 
-For each subscription number, you can see the following information:
+For each subscription, you can see the following information:
 
 * *Subscription Number*: The subscription number of the Keystone subscription assigned by NetApp.
 * *Tracking ID*: The tracking ID assigned at the time of subscription activation. This is a unique ID for each subscription and site, used for tracking the subscription.
 [TIP]
 If you have subscribed to advanced data protection add-on service, then you can click the tooltip against your subscription number to view the tracking ID of the partner subscription in a MetroCluster setup. To know how to view detailed consumption by partner subscriptions in a MetroCluster configuration, see link:../integrations/aiq-keystone-details.html#additional-details-for-advanced-data-protection[Additional details for advanced data protection].
 * *Usage Type*: You might have subscribed to multiple Keystone (version 1) or Keystone STaaS (version 2) subscriptions. The rate plan rules for the service levels might vary for the two subscription types. By looking at the value in this column, you know whether the usage type is billed as per the provisioned or logical usage for either `v1` or `v2`. For more information about Keystone Subscriptions version 1, see https://docs.netapp.com/us-en/keystone/index.html[Documentation for NetApp Keystone].
-* *Billing Period*: The billing period of the subscription, such as monthly, quarterly, or annual.
+* *Billing Period*: The billing period of the subscription, such as monthly, quarterly, or yearly.
 * *Start Date*: The start date of the subscription.
-* *End date*: The end date of the subscription. A blank date indicates that the subscription has no end date, and it gets renewed automatically. Based on this date, you might see information messages for subscriptions that are nearing expiry or have auto-renewal policies attached.
-* *Usage Status*: Indicates how much of the subscription has been used or overused. You can sort the list by this column if you want to view the highest consumption records.
-* image:aiq-ks-time-icon.png[icon]: Clicking this icon opens the *Subscription Time Series* tab where you can see the historical usage data for each service level included in this subscription
-
-You can see more details by clicking the downward arrow for a subscription record. Details, such as the service level name, committed, consumed, available capacities, and current and accrued burst usage are displayed in TiB.
-
-[TIP]
-Specific service levels that record higher consumption are highlighted. You can also view warnings and alerts generated for your volumes.
-
-For information about your Keystone storage services and the relevant service levels, see link:../concepts/service-levels.html[Service Levels in Keystone].
+* *End Date*: The end date of the subscription. An empty date field indicates that the subscription has no end date, and it gets renewed automatically. Based on this date, you might see notifications for subscriptions that are about to end or have auto-renewal policies attached.
+* *Usage Status*: Displays the usage indicator to indicate whether the consumption is within or exceeding the subscription limit. You can sort the list by this column if you want to view the highest consumption records.
+* image:subs-dtls-icon.png[icon]: Clicking this icon for a subscription opens the *Subscription Details* tab with additional details of that subscription.
+* image:aiq-ks-time-icon.png[icon]: Clicking this icon opens the *Time Series* tab where you can see the historical usage data for each service level included in this subscription.
 
 You can refer to the following usage indicators to check the usage status of each subscription:
 
@@ -68,11 +63,62 @@ image:icon-amber.png[amber dot icon]: Maximum consumption, that is the usage is 
 image:icon-red.png[red dot icon]: The consumption is within the burst limit. The burst consumption is the consumption that tops the 100% committed capacity of a service level, and is within the agreed-upon burst usage limit, such as 120%
 image:icon-purple.png[purple dot icon]: Indicates consumption above the stipulated burst limit
 
-== View historical subscription data charts
-The *Subscription Time Series* tab displays historical data of your subscriptions for a specific period. The vertical graphs display the usage details for the selected time range with appropriate indicators for you to compare and generate reports. 
+== View subscription details
+To know the details of your subscriptions, click the *Subscription Details* tab, and select the required subscription number.
+
+image:aiq-ks-dtls.png[subscription details tab]
+
+Details, such as the service level name, committed, consumed, available capacities, and current and accrued burst usage are displayed in TiB.
+
+[TIP]
+The image:icon-info.png[information icon] icon next to each column provides comprehensive information about that column. Specific service levels that record higher consumption are highlighted. You can also view warnings and alerts generated for your volumes.
+
+For information about your Keystone storage services and the relevant service levels, see link:../concepts/service-levels.html[Service Levels in Keystone].
+
+== View sustainability SLA details
+.Learn more
+[%collapsible]
+====
+The *SLA Details* tab is available only if you have a valid sustainability service level agreement (SLA) with NetApp. For information about sustainability SLA in Keystone STaaS, see link:../concepts/sla-sustainability.html[Sustainability SLA for Keystone].
+
+The *SLA Details* tab provides you with the sustainability SLA details.
 
 .Steps
-. Click the *Subscription Time Series* tab.
+. Click the *SLA Details* tab.
+. Select the required subscription for which you want to view the details. You can view only those subscriptions that meet the criteria for sustainability SLA. For information about the criteria, see link:../concepts/sla-sustainability.html#eligibility-criteria-for-sustainability-sla[Eligibility criteria for sustainability SLA].
+
+You can see a daily breakdown of measured sustainability-related metrics for the current month:
+
+image:sla-sustainability.png[sla details tab listing sustainability details]
+
+The following details are displayed:
+
+* *Subscription*: The subscription number, and the start date, end date, and billing period of the subscription that you have selected.
+* *Average Sustainability*: The average power consumed in watts/TiB over the last billing period of this subscription.
+* *Day*: The day of the month when this data item is retrieved.
+* *Generated Date*: The actual date of the month.
+* *Average Watts*: The average watts of power consumed that day by the cluster.
+* *Effective Capacity (TiB*): The sum of the committed capacity and the allocated burst capacity for the service level.
+* *Actual Watts (TiB*): The actual watts/TiB is the actual power consumption per TiB for that day by the cluster. You can compare it against the value in *SLA Watts/TiB* to analyze any overshoot.
+* *SLA Watts/TiB*: The watts/TiB value for the service level defined in the SLA.
+* *Average Temperature (^o^C)*: The average ambient temperature for the day.
+* *Storage Efficiency Ratio*: The storage efficiency ratio in the Keystone storage environment. This is the ratio of the total logical space used by the system after enabling the storage efficiency settings to the total physical space used to store the data. For information about storage efficiency ratio, see https://docs.netapp.com/us-en/active-iq/concept_overview_storage_efficiency.html[Understand storage efficiency^].
+
+If there is an SLA breach, an icon image:warning.png[icon for warning] adjacent to the column informs you of the nature of the breach. The following warnings are displayed:
+
+* Ambient temperature: If the temperature is outside of the range of 25^o^C - 27^o^C.
+* SLA Watts/TiB: If the service level SLA metrics are not met. For information, see link:../concepts/sla-sustainability.html#sustainability-service-level[Sustainability service level].
+* Storage efficiency ratio: If the storage efficiency is less than 2:1.
+
+
+====
+
+
+== View historical subscription data charts
+The *Time Series* tab displays historical data of your subscriptions for a specific period. The vertical graphs display the usage details for the selected time range with appropriate indicators for you to compare and generate reports. 
+
+.Steps
+. Click the *Time Series* tab.
 . Select the required subscription for which you want to view the details. The first subscription in your account name is selected by default.
 . Select the time range from the calendar icons in the *From Date* and *To Date* fields. The default time range is from the start date of the billing period to the current date.
 +
@@ -85,8 +131,8 @@ image:aiq-ks-subtime-2.png[time series tab]
 
 The following details are displayed:
 
-* *Subscription details*: The start and end date of the subscription, and the billing period, for example, quarterly, yearly, and so forth.
-* *Usage charts*: The bar charts display the service level name and the capacity consumed against that service level for the date range. The date and time of the collection are displayed at the bottom of the chart.
+* Subscription details: The start and end date of the subscription, and the billing period, for example, quarterly, yearly, and so forth.
+* Usage charts: The bar charts display the service level name and the capacity consumed against that service level for the date range. The date and time of the collection are displayed at the bottom of the chart.
 +
 [NOTE]
 Based on the date range of your query, the usage charts are displayed in a range of 30 data collection points.
@@ -115,10 +161,10 @@ A blank chart indicates that there was no data available in your environment at 
 The *Current Consumed*, *Current Burst*, and *Accrued Burst* indicators determine the consumption with respect to the billing period of the subscription, and are not based on the date range of the query.
 
 === Additional details for advanced data protection 
-.Click here
+.Learn more
 [%collapsible]
 ====
-If you have subscribed to the advanced data protection add-on service, you can view the breakup of the consumption data for the MetroCluster partner sites on the *Subscription Time Series* tab. 
+If you have subscribed to the advanced data protection add-on service, you can view the breakup of the consumption data for the MetroCluster partner sites on the *Time Series* tab. 
 
 For information about advanced data protection add-on service, see link:../concepts/adp.html[Advanced data protection].
 
@@ -129,7 +175,7 @@ The consumption bar charts are split for only base service levels. For advanced 
 
 .Advanced data protection service level
 
-For the _Advanced Data-Protect_ service level, the total consumption is split between the partner sites, and the usage at each partner site is reflected and billed in a separate subscription; that is one subscription for the primary site, and another for the mirror site. That is why, when you select the subscription number for the primary site on the *Subscription Time Series* tab, the consumption charts for the advanced data protection add-on service display the discrete consumption details for only the primary site. Because each partner site in a MetroCluster configuration acts as a source and a mirror, the total consumption at each site includes the source and the mirror volumes created at that site.
+For the _Advanced Data-Protect_ service level, the total consumption is split between the partner sites, and the usage at each partner site is reflected and billed in a separate subscription; that is one subscription for the primary site, and another for the mirror site. That is why, when you select the subscription number for the primary site on the *Time Series* tab, the consumption charts for the advanced data protection add-on service display the discrete consumption details for only the primary site. Because each partner site in a MetroCluster configuration acts as a source and a mirror, the total consumption at each site includes the source and the mirror volumes created at that site.
 
 [TIP]
 The tooltip beside the tacking ID of your subscription in the *Subscription Details* tab helps you identify the partner subscription in the MetroCluster setup.
@@ -165,8 +211,8 @@ For information about how MetroCluster protects your data, see https://docs.neta
 == View system details
 On the *System Details* tab, you can view the consumption and other details for your volumes in ONTAP. For StorageGRID, this tab displays the nodes and their individual usage in your object storage environment.
 
-=== ONTAP volume details 
-.Click here
+=== ONTAP volume details
+.Learn more
 [%collapsible]
 ====
 For ONTAP, the *System Details* tab displays information, such as the capacity usage, volume type, cluster, aggregate, and service level of the volumes in your storage environment managed by your Keystone subscription.
@@ -187,7 +233,7 @@ image:aiq-ks-sysdtls.png[system details tab]
 ==== 
 
 === StorageGRID nodes and consumption details
-.Click here
+.Learn more
 [%collapsible]
 ====
 For StorageGRID, this tab displays the physical usage for the nodes in the object storage environment.
@@ -211,7 +257,7 @@ You can generate and view reports for your subscription details, historical usag
 
 The details are generated in CSV format that you can save for future use.
 
-A sample report for the *Subscription Time Series* tab, where the graphical data is converted:
+A sample report for the *Time Series* tab, where the graphical data is converted:
 
 image:report.png[csv of report]
 
