@@ -56,8 +56,6 @@ sidebar:
               url: /concepts/data-tiering.html
             - title: Advanced data protection
               url: /concepts/adp.html
-            - title: Sustainability SLA
-              url: /concepts/sla-sustainability.html  
             - title: U.S. Citizen Support (USCS)
               url: /concepts/uscs.html
             - title: Non-returnable, non-volatile components and SnapLock compliance
@@ -69,7 +67,9 @@ sidebar:
         - title: Quality of Service
           url: /concepts/qos.html
         - title: Capacity requirements for Service Levels
-          url: /concepts/capacity-requirements.html  
+          url: /concepts/capacity-requirements.html
+        - title: Sustainability SLA service levels
+          url: /concepts/sla-sustainability.html          
     - title: Billing
       entries:
         - title: Keystone pricing
