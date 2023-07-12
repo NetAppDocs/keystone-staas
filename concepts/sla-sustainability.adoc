@@ -19,9 +19,9 @@ NetApp Keystone STaaS provides service level agreement or SLA-backed sustainabil
 The following metrics, as measured and reported by NetApp AutoSupport (ASUP), are used to define and measure sustainability:
 
 * Watts: The daily power consumption of the ONTAP AFF A-series arrays and attached SSD shelves. 
-* TiB: The greater of the:
-** The committed capacity and allocated burst capacity for the service level, or
-** The effective deployed capacity, assuming a data efficiency factor of 2.
+* TiB: The greater of:
+** the committed capacity and allocated burst capacity for the service level, or
+** the effective deployed capacity, assuming a storage efficiency factor of 2. For information about storage efficiency ratio, see https://docs.netapp.com/us-en/active-iq/concept_overview_storage_efficiency.html[Understand storage efficiency].
 
 == Sustainability service level
 The following table summarizes the sustainability service levels: Extreme, Premium, and Performance: 
