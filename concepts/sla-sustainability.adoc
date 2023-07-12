@@ -13,17 +13,17 @@ summary: sustainability, sla, service level agreement
 :imagesdir: ../media/
 
 [.lead]
-NetApp Keystone STaaS provides service level agreement or SLA-backed sustainability service levels that define maximum Watts/TiB consumed per service level, to help customers plan, monitor, and meet their IT sustainability goals.
+NetApp Keystone STaaS provides Service Level Agreement or SLA-backed sustainability service levels that define maximum Watts/TiB consumed per service level, to help you plan, monitor, and meet your IT sustainability goals.
 
 == Sustainability metrics
-The following metrics, as measured and reported by NetApp AutoSupport (ASUP), are used to define and measure sustainability:
+The following metrics are used to define and measure sustainability:
 
 * Watts: The daily power consumption of the ONTAP AFF A-series arrays and attached SSD shelves. 
 * TiB: The greater of:
 ** the committed capacity and allocated burst capacity for the service level, or
-** the effective deployed capacity, assuming a storage efficiency factor of 2. For information about storage efficiency ratio, see https://docs.netapp.com/us-en/active-iq/concept_overview_storage_efficiency.html[Understand storage efficiency].
+** the effective deployed capacity, assuming a storage efficiency factor of two. For information about storage efficiency ratio, see https://docs.netapp.com/us-en/active-iq/concept_overview_storage_efficiency.html[Understand storage efficiency^].
 
-== Sustainability service level
+== Sustainability service levels
 The following table summarizes the sustainability service levels: Extreme, Premium, and Performance: 
 
 |===
@@ -44,11 +44,10 @@ Keystone STaaS subscriptions meeting the following criteria are eligible for SLA
 *	Non-customized, reference Keystone sustainable hardware configurations, consisting of:
 **	ONTAP AFF A-Series storage arrays, for example, NetApp AFF A900 or AFF A800 all-flash storage platform. For information, see https://www.netapp.com/data-storage/aff-a-series[AFF A-Series^]. 
 **	Two-node switchless cluster.
-**	Non-commingled configurations.
-**	Non-MetroCluster™ configurations.
-*	A complete version of the AutoSupport monitoring tool should be installed and operational on all the ONTAP AFF storage arrays. For information, see https://docs.netapp.com/us-en/active-iq/concept_autosupport.html[AutoSupport^].
-*	Customer data stored must achieve a minimum average data efficiency factor of two (2).
-*	The ambient operating environment temperature must be between 25°C and 27°C.
+Commingled and MetroCluster configurations are not supported.
+*	Keystone uses AutoSupport telemetry data and transport mechanism to collect sustainability data. AutoSupport should be enabled and operational on all the ONTAP AFF storage arrays. For more information, see https://docs.netapp.com/us-en/active-iq/concept_autosupport.html[AutoSupport^]. 
+*	The stored data should achieve a minimum average storage efficiency factor of two.
+*	The ambient operating environment temperature should be between 25°C and 27°C.
 *	The minimum committed capacity per service level should be met.
 
 == Sustainability reports
@@ -57,6 +56,6 @@ The SLA tab on the Active IQ Digital Advisor (Digital Advisor) Keystone dashboar
 For more information about Keystone dashboard and reporting, see link:../integrations/aiq-keystone-details.html[Keystone Subscription dashboard and reporting].
 
 == Sustainability service credits
-If the watts/TiB consumption exceeds or fails to meet the criteria specified in the SLA for a service level, NetApp offers a payment of service credit for the differences reported during a billing period, for all eligible subscriptions. If the watts/TiB consumption reported for a billing period exceeds or fails to meet the criteria specified in the SLA, contact NetApp Global Services Support Center (GSSC). You should inform GSSC before seven days to the service month end. On determining the service level breach, the credits are calculated based on the committed capacity of the service level, and credited to the next month's invoice.
+If the watts/TiB consumption exceeds or fails to meet the criteria specified in the SLA for a service level, NetApp offers a payment of service credit for the differences reported during a billing period, for all eligible subscriptions. If the service level SLA metrics are not met, contact NetApp Global Services Support Center (GSSC) no later than one week prior to the service month end. On determining the service level breach, the credits are calculated based on the committed capacity of the service level, and credited with the next month's invoice.
 
 For information, see link:../concepts/gssc.html[NetApp Global Services Support Center].

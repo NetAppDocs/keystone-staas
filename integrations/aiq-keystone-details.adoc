@@ -102,11 +102,11 @@ The following details are displayed:
 * *Actual Watts (TiB*): The actual watts/TiB is the actual power consumption per TiB for that day by the cluster. You can compare it against the value in *SLA Watts/TiB* to analyze any overshoot.
 * *SLA Watts/TiB*: The watts/TiB value for the service level defined in the SLA.
 * *Average Temperature (^o^C)*: The average ambient temperature for the day.
-* *Storage Efficiency Ratio*: The storage efficiency ratio in the Keystone storage environment. This is the ratio of the total logical space used by the system after enabling the storage efficiency settings to the total physical space used to store the data. For information about storage efficiency ratio, see https://docs.netapp.com/us-en/active-iq/concept_overview_storage_efficiency.html[Understand storage efficiency].
+* *Storage Efficiency Ratio*: The storage efficiency ratio in the Keystone storage environment. This is the ratio of the total logical space used by the system after enabling the storage efficiency settings to the total physical space used to store the data. For information about storage efficiency ratio, see https://docs.netapp.com/us-en/active-iq/concept_overview_storage_efficiency.html[Understand storage efficiency^].
 
 If there is an SLA breach, an icon image:warning.png[icon for warning] adjacent to the column informs you of the nature of the breach. The following warnings are displayed:
 
-* Ambient temperature: If the temperature is outside of the range of 25-27 ^o^C.
+* Ambient temperature: If the temperature is outside of the range of 25^o^C - 27^o^C.
 * SLA Watts/TiB: If the service level SLA metrics are not met. For information, see link:../concepts/sla-sustainability.html#sustainability-service-level[Sustainability service level].
 * Storage efficiency ratio: If the storage efficiency is less than 2:1.
 
