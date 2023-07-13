@@ -16,7 +16,7 @@ summary: billing data collection by Keystone collector for ONTAP and StorageGRID
 Keystone collects configuration, status, and usage information for your Keystone ONTAP and Keystone StoragGRID subscriptions. It can also collect performance data for only ONTAP, if the option is enabled in Keystone Collector.
 
 == ONTAP data collection
-.*Usage data collected for ONTAP: click here*
+.*Usage data collected for ONTAP: Learn more*
 [%collapsible]
 ====
 The following list is a representative sample of the capacity consumption data collected for ONTAP:
@@ -151,7 +151,7 @@ The following list is a representative sample of the capacity consumption data c
 **	CollectorInstance ID
 ====
 
-.*Performance data collected for ONTAP: click here*
+.*Performance data collected for ONTAP: Learn more*
 [%collapsible]
 ====
 The following list is a representative sample of the performance data collected for ONTAP:
@@ -199,7 +199,7 @@ The following list is a representative sample of the performance data collected 
 *	WriteIOPS
 ====
 
-.*List of items removed on limiting private data access: click here*
+.*List of items removed on limiting private data access: Learn more*
 [%collapsible]
 ====
 When the *Remove Private Data* option is enabled on Keystone Collector, the following usage information is eliminated for ONTAP. This option is enabled by default. 
@@ -224,7 +224,7 @@ When the *Remove Private Data* option is enabled on Keystone Collector, the foll
 ====
 
 == StorageGRID data collection
-.*Usage data collected for StorageGRID: click here*
+.*Usage data collected for StorageGRID: Learn more*
 [%collapsible]
 ====
 
@@ -250,7 +250,7 @@ The following list is a representative sample of the `Physical Data` collected f
 
 ====
 
-.*List of items removed on limiting private data access: click here*
+.*List of items removed on limiting private data access: Learn more*
 [%collapsible]
 ====
 When the *Remove Private Data* option is enabled on Keystone Collector, the following usage information is eliminated for StorageGRID. This option is enabled by default. 
