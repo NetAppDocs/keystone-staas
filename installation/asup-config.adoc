@@ -1,0 +1,19 @@
+---
+sidebar: sidebar
+permalink: installation/asup-config.html
+keywords: ASUP, AutoSupport configuration
+summary: procedure for configuring AutoSupport for Keystone
+---
+
+= Configure AutoSupport collector
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ../media/
+
+[.lead]
+You should follow a few configuration steps for enabling AutoSupport telemetry mechanism to collect Keystone data.
+
+.Prerequisites 
+
