@@ -13,7 +13,31 @@ summary: procedure for configuring AutoSupport for Keystone
 :imagesdir: ../media/
 
 [.lead]
-You should follow a few configuration steps for enabling AutoSupport telemetry mechanism to collect Keystone data.
+The function of the AutoSupport collector service is to retrieve Keystone data and send the data for accurate billing. If you are using the AutoSupport collector service, you need to configure the AutoSupport telemetry mechanism to include specific Keystone data in the daily support bundles sent by the ONTAP clusters.
 
-.Prerequisites 
+.Prerequisites
+
+For an accurate collection of Keystone data for billing, the following subsystems need to be included within the AutoSupport data. 
+
+|===
+|Subsystem name |Data items for Keystone billing
+
+a| wafl | VOLUME-CLONE-SHOW.XML
+a| performance | QOS-POLICY-GROUP.XML, QOS-ADAPTIVE-POLICY.XML
+a| snapshot | SNAPSHOT.XML
+a| platform | 	ENVIRONMENT.txt
+
+|===
+
+These subsystems are included by default in the weekly bundles, where the ~asup_type~ is `DOT-REGULAR`, and the ~asup_subject~ is `HA Group Notification (WEEKLY_LOG) NOTICE`. However, you can add them to daily bundles for accurate reporting of Keystone usage.
+
+.Steps
+You should verify that the manifest file contains the subsystems that you need, and add the ones that are excluded.
+
+* Log in to the https://smartsolve.netapp.com/#home[SmartSolve] portal.
+* From *All Sections* section, search for the data items that you need. The data item can either be an XML file, for example, `VSERVER-INFO.XML`, or a command, such as `SYSCONFIG-A`.
+* From *All Sections > MANIFEST.XML*, open the `MANIFEST.XML` file and search for the same data items.
+* 
+
+
 
