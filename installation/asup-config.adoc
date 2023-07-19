@@ -15,9 +15,11 @@ summary: procedure for configuring AutoSupport for Keystone
 [.lead]
 The function of the AutoSupport collector service is to retrieve Keystone data and send the data for accurate billing. If you are using the AutoSupport collector service, you need to configure the AutoSupport telemetry mechanism to include specific Keystone data in the daily support bundles sent by the ONTAP clusters.
 
+For information about AutoSupport, see https://docs.netapp.com/us-en/ontap/system-admin/manage-autosupport-concept.html[Manage AutoSupport overview^].
+
 .Prerequisites
 
-For an accurate collection of Keystone data for billing, the following subsystems need to be included within the AutoSupport data. 
+For an accurate collection of Keystone data for billing, the following subsystems need to be included within the AutoSupport data. For information about AutoSupport subsystems, see https://docs.netapp.com/us-en/ontap/system-admin/autosupport-subsystem-collection-reference.html[What AutoSupport subsystems are^].
 
 |===
 |Subsystem name |Data items for Keystone billing
@@ -29,15 +31,25 @@ a| platform | 	ENVIRONMENT.txt
 
 |===
 
-These subsystems are included by default in the weekly bundles, where the ~asup_type~ is `DOT-REGULAR`, and the ~asup_subject~ is `HA Group Notification (WEEKLY_LOG) NOTICE`. However, you can add them to daily bundles for accurate reporting of Keystone usage.
+These subsystems are included by default in the weekly bundles, where the ~asup_type~ is `DOT-REGULAR`, and the ~asup_subject~ is `HA Group Notification (WEEKLY_LOG) NOTICE`. However, you can add them to daily bundles for accurate reporting of Keystone usage. 
+
+Follow these steps:
 
 .Steps
-You should verify that the manifest file contains the subsystems that you need, and add the ones that are excluded.
 
-* Log in to the https://smartsolve.netapp.com/#home[SmartSolve] portal.
-* From *All Sections* section, search for the data items that you need. The data item can either be an XML file, for example, `VSERVER-INFO.XML`, or a command, such as `SYSCONFIG-A`.
-* From *All Sections > MANIFEST.XML*, open the `MANIFEST.XML` file and search for the same data items.
-* 
+* As a system administrator user, log in to the Keystone ONTAP cluster by using SSH. For information, see https://docs.netapp.com/us-en/ontap/system-admin/access-cluster-ssh-task.html[Access the cluster by using SSH].
+* Run the following command and verify the existing configuration:
+====
+autosupport trigger show -node * -autosupport-message management.log -instance
+====
+
+For more information about this command, see https://docs.netapp.com/us-en/ontap-cli-9131/system-node-autosupport-manifest-show.html#parameters[system node autosupport manifest show].
+
+* Modify the daily log content by running this command:
+====
+autosupport trigger modify -node * -autosupport-message management.log -basic-additional <existing comma-separated subsystems>, <new subsystems>
+====
+For more information about these commands, see https://docs.netapp.com/us-en/ontap-cli-9131/system-node-autosupport-trigger-modify.html[system node autosupport trigger modify].
 
 
 
