@@ -5,7 +5,7 @@ keywords: ASUP, AutoSupport configuration
 summary: procedure for configuring AutoSupport for Keystone
 ---
 
-= Configure AutoSupport collector
+= Configure AutoSupport collector for Keystone
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -19,15 +19,15 @@ For information about managing AutoSupport services by using ONTAP CLI, see http
 
 .Prerequisites
 
-For an accurate collection of Keystone data for billing, the following subsystems need to be included within the AutoSupport data. For information about AutoSupport subsystems, see https://docs.netapp.com/us-en/ontap/system-admin/autosupport-subsystem-collection-reference.html[What AutoSupport subsystems are^].
+To ensure precise data collection for Keystone billing, it is essential to incorporate the following subsystems into the the AutoSupport collector. For information about AutoSupport subsystems, see https://docs.netapp.com/us-en/ontap/system-admin/autosupport-subsystem-collection-reference.html[What AutoSupport subsystems are^].
 
 |===
-|Subsystem name |Data items for Keystone billing
+|Subsystem name |Data item required for Keystone billing
 
-a| wafl | VOLUME-CLONE-SHOW.XML
-a| performance | QOS-POLICY-GROUP.XML, QOS-ADAPTIVE-POLICY.XML
-a| snapshot | SNAPSHOT.XML
-a| platform | 	ENVIRONMENT.txt
+a| wafl | `VOLUME-CLONE-SHOW.XML`
+a| performance | `QOS-POLICY-GROUP.XML` and `QOS-ADAPTIVE-POLICY.XML`
+a| snapshot | `SNAPSHOT.XML`
+a| platform | `ENVIRONMENT.txt`
 
 |===
 
