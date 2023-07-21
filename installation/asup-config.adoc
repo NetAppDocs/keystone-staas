@@ -35,14 +35,14 @@ a| platform | `ENVIRONMENT.txt`
 
 .Steps
 
-* As a system administrator user, log in to the Keystone ONTAP cluster by using SSH. For information, see https://docs.netapp.com/us-en/ontap/system-admin/access-cluster-ssh-task.html[Access the cluster by using SSH^].
-* Run the following command and verify the existing configuration:
+. As a system administrator user, log in to the Keystone ONTAP cluster by using SSH. For information, see https://docs.netapp.com/us-en/ontap/system-admin/access-cluster-ssh-task.html[Access the cluster by using SSH^].
+. Run the following command and verify the existing configuration:
 
 `autosupport trigger show -node * -autosupport-message management.log -instance`
 
 For more information about this command, see https://docs.netapp.com/us-en/ontap-cli-9131/system-node-autosupport-manifest-show.html#parameters[system node autosupport manifest show^].
 
-* Modify the daily log content by running this command:
+. Modify the daily log content by running this command:
 
 `autosupport trigger modify -node * -autosupport-message management.log -basic-additional _<existing comma-separated subsystems>_, _<new subsystems>_`
 
