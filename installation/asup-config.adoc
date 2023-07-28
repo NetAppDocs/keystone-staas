@@ -13,11 +13,11 @@ summary: procedure for configuring AutoSupport for Keystone
 :imagesdir: ../media/
 
 [.lead]
-When using AutoSupport telemetry mechanism, the Keystone service performs usage metering based on the AutoSupport telemetry data. To achieve the necessary level of granularity, you should configure AutoSupport to incorporate Keystone data in the daily support bundles sent by the ONTAP clusters.
+When using the AutoSupport telemetry mechanism, the Keystone service performs usage metering based on the AutoSupport telemetry data. To achieve the necessary level of granularity, you should configure AutoSupport to incorporate Keystone data in the daily support bundles sent by the ONTAP clusters.
 
 .Before you begin
 
-You need to edit the AutoSupport telemetry options by using ONTAP CLI. For information about managing AutoSupport services and system (cluster) administrator role, see https://docs.netapp.com/us-en/ontap/system-admin/manage-autosupport-concept.html[Manage AutoSupport overview^] and https://docs.netapp.com/us-en/ontap/system-admin/cluster-svm-administrators-concept.html[Cluster and SVM administrators^].
+You can edit the AutoSupport telemetry options by using ONTAP CLI. For information about managing AutoSupport services and system (cluster) administrator role, see https://docs.netapp.com/us-en/ontap/system-admin/manage-autosupport-concept.html[Manage AutoSupport overview^] and https://docs.netapp.com/us-en/ontap/system-admin/cluster-svm-administrators-concept.html[Cluster and SVM administrators^].
 
 To ensure precise data collection for Keystone billing, you should include the following subsystems into AutoSupport. For information about AutoSupport subsystems, see https://docs.netapp.com/us-en/ontap/system-admin/autosupport-subsystem-collection-reference.html[What AutoSupport subsystems are^].
 
@@ -46,7 +46,7 @@ For more information about this command, see https://docs.netapp.com/us-en/ontap
 +
 `autosupport trigger modify -node * -autosupport-message management.log -basic-additional _<existing comma-separated subsystems>_, _<new subsystems>_`
 +
-For more information about these commands, see https://docs.netapp.com/us-en/ontap-cli-9131/system-node-autosupport-trigger-modify.html[system node autosupport trigger modify^].
+For more information about this command, see https://docs.netapp.com/us-en/ontap-cli-9131/system-node-autosupport-trigger-modify.html[system node autosupport trigger modify^].
 
 
 
