@@ -171,22 +171,22 @@ For information about advanced data protection add-on service, see link:../conce
 If the clusters in your ONTAP storage environment are configured in a MetroCluster setup, the consumption data of your Keystone subscription is split in the same time series chart to display the consumption at the primary and mirror sites for the base service levels.
 
 [NOTE]
-The consumption bar charts are split for only base service levels. For advanced data protection add-on service, that is the _Advanced Data-Protect_ service level, this demarcation does not appear.
+The consumption bar charts are split for only the base service levels. For advanced data protection add-on service, that is the _Advanced Data-Protect_ service level, this demarcation does not appear.
 
 .Advanced data protection service level
 
-For the _Advanced Data-Protect_ service level, the total consumption is split between the partner sites, and the usage at each partner site is reflected and billed in a separate subscription; that is one subscription for the primary site, and another for the mirror site. That is why, when you select the subscription number for the primary site on the *Time Series* tab, the consumption charts for the advanced data protection add-on service display the discrete consumption details for only the primary site. Because each partner site in a MetroCluster configuration acts as a source and a mirror, the total consumption at each site includes the source and the mirror volumes created at that site.
+For the _Advanced Data-Protect_ service level, the total consumption is split between the partner sites, and the usage at each partner site is reflected and billed in a separate subscription; one subscription for the primary site, and another for the mirror site. That is the reason why, when you select the subscription number for the primary site on the *Time Series* tab, the consumption charts for the advanced data protection add-on service display the discrete consumption details of only the primary site. Because each partner site in a MetroCluster configuration acts both as a source and mirror, the total consumption at each site includes the source and the mirror volumes created at that site.
 
 [TIP]
-The tooltip beside the tacking ID of your subscription in the *Subscription Details* tab helps you identify the partner subscription in the MetroCluster setup.
+The tooltip next to the tracking ID of your subscription in the *Subscription Details* tab helps you identify the partner subscription in the MetroCluster setup.
 
 .Base service levels
 
-For the base service levels, each volumes is charged as provisioned at the primary and mirror sites, and hence the same bar chart is split according to the consumption at the primary and mirror sites.
+For the base service levels, each volume is charged as provisioned at the primary and mirror sites, and hence the same bar chart is split according to the consumption at the primary and mirror sites.
 
 .What you can see for the primary subscription
 
-The following image displays the charts for the _Extreme_ service level (base service level) and a primary subscription number. The same time series chart marks off the mirror site consumption in a lighter shade of the color code used for the primary site. The tool-tip on mouse hover displays the consumption breakup (in TiB) for the primary and mirror sites, 1.02 TiB and 1.05 TiB respectively.
+The following image displays the charts for the _Extreme_ service level (base service level) and a primary subscription number. The same time series chart also indicates the mirror site consumption in a lighter shade of the same color code used for the primary site. The tooltip on mouse hover displays the consumption breakup (in TiB) for the primary and mirror sites, 1.02 TiB and 1.05 TiB respectively.
 
 image:mcc-chart.png[mcc primary]
 
