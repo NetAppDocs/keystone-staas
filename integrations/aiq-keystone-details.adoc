@@ -29,6 +29,9 @@ To view your Keystone subscription and usage details, perform the following step
 . On the *Keystone Subscriptions* widget, click *View More Details* to view the usage details and alerts on your volumes on the *Keystone Subscriptions* page. Alternately, from the left navigation pane, go to *GENERAL > Keystone Subscriptions*.
 The details of the subscriptions, usage charts for each service level, and volume details are displayed in the different tabs on the *Keystone Subscriptions* screen.
 
+[TIP]
+For certain fields and columns, you might see information or warning icons and tooltips that provide you with additional information about the data.
+
 [NOTE]
 Capacity consumption in Keystone subscriptions is displayed in TiBs on the dashboards and reports, and is rounded off to two decimal places. If the usage is less than 0.01 TiB, then the value is shown as 0 or `No Usage`. For other usage metrics, see link:../concepts/metrics.html#metrics-measurement[Metrics measurement]. For information about different capacities used in Keystone, see link:../concepts/supported-storage-capacity.html[Supported storage capacities].
 
@@ -95,8 +98,7 @@ The following details are displayed:
 
 * *Subscription*: The subscription number, and the start date, end date, and billing period of the subscription that you have selected.
 * *Average Sustainability*: The average power consumed in watts/TiB over the last billing period of this subscription.
-* *Day*: The day of the month when this data item is retrieved.
-* *Generated Date*: The actual date of the month.
+* *Date*: The date of the month for the reference SLA data.
 * *Average Watts*: The average watts of power consumed that day by the cluster.
 * *Effective Capacity (TiB*): The sum of the committed capacity and the allocated burst capacity for the service level.
 * *Actual Watts (TiB*): The actual watts/TiB is the actual power consumption per TiB for that day by the cluster. You can compare it against the value in *SLA Watts/TiB* to analyze any overshoot.
