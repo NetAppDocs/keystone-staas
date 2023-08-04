@@ -211,15 +211,19 @@ For information about how MetroCluster protects your data, see https://docs.neta
 == View volumes and objects details
 On the *Volumes & Objects* tab, you can view the consumption and other details for your volumes in ONTAP. For StorageGRID, this tab displays the nodes and their individual usage in your object storage environment.
 
+[NOTE]
+The name of this tab varies with the nature of deployment at your site. If you have both volumes and object storage, you can see the *Volumes & Objects* tab. If you have only ONTAP volumes in your storage environment, the name changes to *Volumes*. For StorageGRID object storage, you can see the *Objects* tab.
+
 === ONTAP volume details
 .Learn more
 [%collapsible]
 ====
-For ONTAP, the *Volumes & Objects* tab displays information, such as the capacity usage, volume type, cluster, aggregate, and service level of the volumes in your storage environment managed by your Keystone subscription.
+For ONTAP, the *Volumes* tab displays information, such as the capacity usage, volume type, cluster, aggregate, and service level of the volumes in your storage environment managed by your Keystone subscription.
+
 
 .Steps
 
-. Click the *Volumes & Objects* tab.
+. Click the *Volumes* tab.
 . Select the subscription number. By default, the first available subscription number is selected. 
 +
 The volume details are displayed. You can scroll across the columns and learn more about them by hovering your mouse on the information icons beside the column headings. You can sort by the columns and filter the lists to view specific information.
@@ -240,7 +244,7 @@ For StorageGRID, this tab displays the physical usage for the nodes in the objec
 
 .Steps
 
-. Click the *Volumes & Objects* tab.
+. Click the *Objects* tab.
 . Select the subscription number. By default, the first available subscription number is selected. On selecting the subscription number, the link for object storage details is enabled.
 +
 image:sg-link.png[StorageGRID pop-up]
@@ -267,7 +271,7 @@ Alerts on the dashboard send caution messages that enable you to understand the 
 The alerts can be of two types:
 
 * *Information*: For issues, such as your subscriptions nearing an end, you can see information alerts. Hover your cursor over the information icon to learn more about the issue.
-* *Warning*: Issues, such as non-compliance, are displayed as warnings. For example, if there are volumes within your managed clusters that do not have adaptive QoS (AQoS) policies attached, you can see a warning message. You can click the link on the warning message to see the list of the non-compliant volumes in the *Volumes & Objects* tab.
+* *Warning*: Issues, such as non-compliance, are displayed as warnings. For example, if there are volumes within your managed clusters that do not have adaptive QoS (AQoS) policies attached, you can see a warning message. You can click the link on the warning message to see the list of the non-compliant volumes in the *Volumes* tab.
 [NOTE]
 If you have subscribed to a single service level or rate plan, you won't be able to see the alert for non-compliant volumes.
 +
