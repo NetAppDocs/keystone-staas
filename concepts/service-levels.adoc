@@ -21,6 +21,9 @@ Each service level is defined by its I/O density, that is IOPS/TiB/volume. This 
 
 You select service levels based on your storage environment, and storage and consumption needs. The base service levels are available for you by default. Specific service levels are additionally available, if you have opted for add-on services. For example, for the advanced data protection add-on service, the _Advanced Data-Protect_ service level is assigned to your subscription.
 
+[TIP]
+The detailed service description for NetApp Keystone STaaS is available https://www.netapp.com/pdf.html?item=/media/77179-Keystone-STaaS-Service-Description-On-Prem.pdf[here].
+
 The base service levels for the supported storage types, file, block, object, and cloud services are listed here.
 
 == Service levels for file and block storage
@@ -34,7 +37,7 @@ The base service levels for the supported storage types, file, block, object, an
 |*Maximum IOPS/logical TiBs stored per volume* |12,288 |4,096 |2,048 | 512 |128
 |*Maximum IOPS/logical TiBs allocated per volume* |6,144 |2,048 |1,024 |256 |64
 |*Maximum MBps/logical TiBs stored per volume @ 32K B/S* |384 |128 |64 |16 |4
-|*Average Latency* |1 ms |2 ms |4 ms |17 ms |17 ms
+|*Target 90^th^ percentile latency* | <1 ms | <2 ms | <4 ms | <4 ms | <17 ms
 |*Block size* 
 5+|32K
 |===

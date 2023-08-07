@@ -44,6 +44,7 @@ a|Supported ONTAP features:
 * SnapRestore
 * FlexClone
 * SnapCenter (license is included but is not a part of Keystone services, and management is not guaranteed)
+* Autonomous ransomware protection^1^
 a|Block storage
 a|ONTAP
 a|FC and iSCSI 
@@ -63,11 +64,13 @@ a|Supported ONTAP features:
 a| Object storage
 a|StorageGRID
 a|S3
-a|Supports multiple information lifecycle management (ILM) policies across multiple sites.
-*Note*: Each site requires a separate subscription.
-
+a|Supports multiple information lifecycle management (ILM) policies across multiple sites^2^
 
 |===
+
+[NOTE]
+^1^ For information about ransomware protection in ONTAP, see https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html[Autonomous Ransomware Protection].
+^2^ Each site requires a separate subscription.
 
 == Services for cloud storage
 Keystone STaaS provides cloud storage services. Keystone STaaS supports Cloud Volumes ONTAP data management capabilities on Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform. 
