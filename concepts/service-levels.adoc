@@ -24,10 +24,9 @@ You select service levels based on your storage environment, and storage and con
 [TIP]
 The detailed service description for NetApp Keystone STaaS is available https://www.netapp.com/pdf.html?item=/media/77179-Keystone-STaaS-Service-Description-On-Prem.pdf[here].
 
-The base service levels for the supported storage types, file, block, object, and cloud services are listed here.
+The base service levels for the supported storage types, file, block, object, and cloud services are described in the following sections:
 
 == Service levels for file and block storage
-
 *Supported protocols*: NFS, CIFS, iSCSI, and FC
 
 |===
@@ -76,6 +75,7 @@ The base service level metrics depend on the following conditions:
 Latency does not include overheads associated with data transfer to the object store in case of FabricPool storage.
 
 == Cloud storage
+
 *Supported protocol*: NFS, CIFS, iSCSI, and S3 (AWS and Azure only)
 
 |===
