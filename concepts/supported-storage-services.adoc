@@ -69,7 +69,7 @@ a|Supports multiple information lifecycle management (ILM) policies across multi
 |===
 
 [NOTE]
-^1^ For information about ransomware protection in ONTAP, see https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html[Autonomous Ransomware Protection].
+^1^ For information about ransomware protection in ONTAP, see https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html[Autonomous Ransomware Protection^].
 ^2^ Each site requires a separate subscription.
 
 == Services for cloud storage
