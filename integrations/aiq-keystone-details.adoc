@@ -89,16 +89,16 @@ The *SLA Details* tab provides you with the sustainability SLA details.
 .Steps
 . Click the *SLA Details* tab.
 . Select the required subscription for which you want to view the details. You can view only those subscriptions that meet the criteria for sustainability SLA. For information about the criteria, see link:../concepts/sla-sustainability.html#eligibility-criteria-for-sustainability-sla[Eligibility criteria for sustainability SLA].
+. Select the year and month for which you want to view the details. You can select the year and month during which the subscription has been active.
 
-You can see a daily breakdown of measured sustainability-related metrics for the current month:
+You can see a daily breakdown of measured sustainability-related metrics for the selected month:
 
 image:sla-sustainability.png[sla details tab listing sustainability details]
 
 The following details are displayed:
 
-* *Subscription*: The subscription number, and the start date, end date, and billing period of the subscription that you have selected.
 * *Average Sustainability*: The average power consumed in watts/TiB over the last billing period of this subscription.
-* *Date*: The date of the month for the reference SLA data.
+* *Date*: The date of the collected SLA data.
 * *Average Watts*: The average watts of power consumed that day by the cluster.
 * *Effective Capacity (TiB*): The sum of the committed capacity and the allocated burst capacity for the service level.
 * *Actual Watts (TiB*): The actual watts/TiB is the actual power consumption per TiB for that day by the cluster. You can compare it against the value in *SLA Watts/TiB* to analyze any overshoot.

@@ -21,6 +21,8 @@ Digital Advisor offers a unified dashboard that provides  you with insights into
 
 You can see your account name, subscription number, start and end dates of the subscription, and the capacity usage graphs as per your subscribed service levels. 
 
+image:old-db.png[old dashboard]
+
 .Alternative (new) dashboard 
 
 You can see the breakup of the capacity usage as per your subscriptions, and warnings or alerts that require immediate attention or action. The information appears selectively depending on your subscriptions and the status of your usage. You can view this information:
@@ -38,6 +40,8 @@ You can see the breakup of the capacity usage as per your subscriptions, and war
 +
 [TIP]
 Click the *Subscriptions* link to view the list of filtered subscriptions in the *Subscriptions* tab.
+
+image:new-db.png[new dashboard]
 
 For more information about Digital Advisor dashboard widget for Keystone, see https://docs.netapp.com/us-en/active-iq/view_keystone_capacity_utilization.html[Digital Advisor documentation^].
 
