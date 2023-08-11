@@ -29,9 +29,6 @@ To view your Keystone subscription and usage details, perform the following step
 . On the *Keystone Subscriptions* widget, click *View More Details* to view the usage details and alerts on your volumes on the *Keystone Subscriptions* page. Alternately, from the left navigation pane, go to *GENERAL > Keystone Subscriptions*.
 The details of the subscriptions, usage charts for each service level, and volume details are displayed in the different tabs on the *Keystone Subscriptions* screen.
 
-[TIP]
-For certain fields and columns, you might see information or warning icons and tooltips that provide you with additional information about the data.
-
 [NOTE]
 Capacity consumption in Keystone subscriptions is displayed in TiBs on the dashboards and reports, and is rounded off to two decimal places. If the usage is less than 0.01 TiB, then the value is shown as 0 or `No Usage`. For other usage metrics, see link:../concepts/metrics.html#metrics-measurement[Metrics measurement]. For information about different capacities used in Keystone, see link:../concepts/supported-storage-capacity.html[Supported storage capacities].
 
@@ -40,12 +37,12 @@ You can view a list of all your subscriptions in the *Subscriptions* tab.
 
 image:all-subs.png[an image of the Subscriptions tab]
 
-For each subscription, you can see the following information:
+You can see the following information. For certain fields and columns, you might see information or warning icons and tooltips that provide you with additional information about the data.
 
 * *Subscription Number*: The subscription number of the Keystone subscription assigned by NetApp.
 * *Tracking ID*: The tracking ID assigned at the time of subscription activation. This is a unique ID for each subscription and site, used for tracking the subscription.
 [TIP]
-If you have subscribed to advanced data protection add-on service, then you can click the tooltip against your subscription number to view the tracking ID of the partner subscription in a MetroCluster setup. To know how to view detailed consumption by partner subscriptions in a MetroCluster configuration, see link:../integrations/aiq-keystone-details.html#additional-details-for-advanced-data-protection[Additional details for advanced data protection].
+If you have subscribed to advanced data protection add-on service, then you can click the tooltip against your subscription number to view the tracking ID of the partner subscription in a MetroCluster setup. To know how to view detailed consumption by partner subscriptions in a MetroCluster configuration, see link:../integrations/aiq-keystone-details.html#reference-charts-for-advanced-data-protection[Reference charts for advanced data protection].
 * *Usage Type*: You might have subscribed to multiple Keystone (version 1) or Keystone STaaS (version 2) subscriptions. The rate plan rules for the service levels might vary for the two subscription types. By looking at the value in this column, you know whether the usage type is billed as per the provisioned or logical usage for either `v1` or `v2`. For more information about Keystone Subscriptions version 1, see https://docs.netapp.com/us-en/keystone/index.html[Documentation for NetApp Keystone].
 * *Billing Period*: The billing period of the subscription, such as monthly, quarterly, or yearly.
 * *Start Date*: The start date of the subscription.
@@ -95,7 +92,7 @@ You can see a daily breakdown of measured sustainability-related metrics for the
 
 image:sla-sustainability.png[sla details tab listing sustainability details]
 
-The following details are displayed:
+The following details are displayed. For certain fields and columns, you might see information or warning icons and tooltips that provide you with additional information about the data.
 
 * *Average Sustainability*: The average power consumed in watts/TiB over the last billing period of this subscription.
 * *Date*: The date of the collected SLA data.
@@ -114,7 +111,6 @@ If there is an SLA breach, an icon image:warning.png[icon for warning] adjacent 
 
 
 ====
-
 
 == View historical usage data
 The *Capacity Trend* tab displays historical data of your subscriptions for a specific period. The vertical graphs display the usage details for the selected time range with appropriate indicators for you to compare and generate reports. 
@@ -162,7 +158,7 @@ A blank chart indicates that there was no data available in your environment at 
 [NOTE]
 The *Current Consumed*, *Current Burst*, and *Accrued Burst* indicators determine the consumption with respect to the billing period of the subscription, and are not based on the date range of the query.
 
-=== Additional details for advanced data protection 
+=== Reference charts for advanced data protection 
 .Learn more
 [%collapsible]
 ====
