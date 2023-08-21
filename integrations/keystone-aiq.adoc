@@ -32,7 +32,7 @@ You can see the breakup of the capacity usage as per your subscriptions, and war
 ** Consumption exceeding 80% of the committed capacity.
 ** Burst usage.
 ** Consumptions above the burst capacity.
-* SLA (impact): Whether the subscriptions meet the sustainability goals defined in your SLA. If your subscriptions meet the SLA criteria, you can see the status as _All OK_.
+* Service Level Agreement: Whether the subscriptions meet the sustainability goals defined in your Service Level Agreement (SLA). If your subscriptions meet the SLA criteria, you can see the status as _All OK_.
 * Miscellaneous warnings are displayed if they are applicable to you.
 ** *Expiring soon*: In case your subscriptions expire within 90 days.
 ** *Critical Hardware Upgrades*: Any critical hardware upgrades are pending.
