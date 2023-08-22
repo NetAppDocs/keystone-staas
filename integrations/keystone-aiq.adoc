@@ -13,13 +13,38 @@ summary: Keystone and Digital Advisor
 :imagesdir: ../media/
 
 [.lead]
-If you have subscribed to NetApp Keystone services, you can view your usage reports and graphs on the Active IQ Digital Advisor (Digital Advisor) dashboard. 
+If you have subscribed to NetApp Keystone STaaS services, you get an overview of your subscriptions on the *Keystone Subscriptions* widget of the Active IQ Digital Advisor (Digital Advisor) dashboard.
 
-Digital Advisor enables you to view storage-as-a-service (STaaS) details and information on the NetApp infrastructure that you own. Digital Advisor provides a single dashboard with visibility into your subscriptions, service levels, and capacity usage with the ability to create detailed reports.
+Digital Advisor offers a unified dashboard that gives insights into various levels of your subscription data and usage information through the *Switch to old/new dashboard* button.
+
+.Default (old) dashboard 
+
+You can see your subscription number, account name, start and end dates of the subscription, and the capacity usage graphs as per your subscribed service levels. 
+
+image:old-db.png[old dashboard]
+
+.Alternative (new) dashboard 
+
+You can see the breakup of the capacity usage as per your subscriptions, and warnings and alerts that require immediate attention or action. The information appears selectively, depending on your subscriptions and the status of your usage. You can view this information:
+
+* Capacity usage, such as:
+** No usage.
+** Consumption exceeding 80% of the committed capacity.
+** Burst usage.
+** Consumptions above the burst capacity.
+* Service Level Agreement: Whether the subscriptions meet the sustainability goals defined in your Service Level Agreement (SLA). If your subscriptions meet the SLA criteria, you can see the status as _All OK_.
+* Miscellaneous warnings are displayed if they are applicable to you.
+** *Expiring soon*: In case your subscriptions expire within 90 days.
+** *Critical Hardware Upgrades*: If any critical hardware upgrades are pending.
+** *AQoS Warnings*: You have volumes without AQoS policies assigned.
++
+[TIP]
+Click the *Subscriptions* link to view the list of filtered subscriptions in the *Subscriptions* tab.
+
+image:new-db.png[new dashboard]
 
 For more information about Digital Advisor dashboard widget for Keystone, see https://docs.netapp.com/us-en/active-iq/view_keystone_capacity_utilization.html[Digital Advisor documentation^].
 
 For more information about Keystone dashboard and reporting, see link:../integrations/aiq-keystone-details.html[Keystone Subscription dashboard and reporting].
 
-For more information about data flow, see link:../concepts/infra.html[Monitoring tools].
 
