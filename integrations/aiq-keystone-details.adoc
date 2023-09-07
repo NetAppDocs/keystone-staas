@@ -118,7 +118,7 @@ The *Capacity Trend* tab displays historical data of your subscriptions for a sp
 .Steps
 . Click the *Capacity Trend* tab.
 . Select the required subscription for which you want to view the details. The first subscription in your account name is selected by default.
-. Select the time range from the calendar icons in the *From Date* and *To Date* fields. The default time range is from the start date of the billing period to the current date.
+. Select the time range from the calendar icons in the *From Date* and *To Date* fields. The default time range is from the start date of the billing period to the current date. You can select a date only up to the subscription end date.
 +
 [NOTE]
 For optimal performance and user experience, limit the date range of your query to three months or less.
