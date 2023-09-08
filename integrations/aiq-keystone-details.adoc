@@ -145,7 +145,7 @@ The following colors in the bar charts indicate the consumed capacity as defined
 [NOTE]
 A blank chart indicates that there was no data available in your environment at that data collection point.
 +
-* *Current Consumed*: Indicator for the consumed capacity (in TiB) defined for the service level. This field uses specific colors for usage:
+* *Current Consumed*: Indicator for the consumed capacity (in TiB) defined for the service level. You cannot view the current consumed capacity if the consumption is in burst. This field uses specific colors for usage:
 ** Grey: None.
 ** Green: Within 80% of the committed capacity.
 ** Amber: Any consumption above 80% of the committed capacity.

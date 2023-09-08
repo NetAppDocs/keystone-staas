@@ -40,6 +40,8 @@ sidebar:
           url: /installation/upgrade.html
         - title: Configure AutoSupport for Keystone
           url: /installation/asup-config.html
+        - title: Modify security settings for root certificates
+          url: /installation/security-kc.html 
         - title: Data collected for billing
           url: /installation/data-collection.html
     - title: Learn about Keystone
