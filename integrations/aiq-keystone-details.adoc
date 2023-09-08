@@ -245,11 +245,11 @@ For StorageGRID, this tab displays the physical usage for the nodes in the objec
 . Click the *Objects* tab.
 . Select the subscription number. By default, the first available subscription number is selected. On selecting the subscription number, the link for object storage details is enabled.
 +
-image:sg-link.png[StorageGRID pop-up]
+image:sg-link.png[StorageGRID dialog box]
 +
 . Click the link to view the node names and physical usage details for each node.
 +
-image:sg-link-2.png[StorageGRID pop-up]
+image:sg-link-2.png[StorageGRID dialog box]
 
 
 ====
