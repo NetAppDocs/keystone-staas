@@ -1,0 +1,37 @@
+---
+sidebar: sidebar
+permalink: installation/security-kc.html
+keywords: Custom CA Certificate, keystone collector security configuration
+summary: security feature Keystone collector 
+---
+
+= Configuring security for Keystone Collector
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ../media/
+
+[.lead]
+As a part of the security feature of Keystone Collector, you can configure the Collector software to trust a root certificate issues by a custom certificate authority (CA).
+
+If you use of SSL/TLS inspection at the border firewall in your environment, it results in internet-based traffic to be re-encrypted with your custom CA certificate. Since this is not a trusted public CA, you should configure Keystone Collector to accept the root certificate and allow the connection to happen. Follow these steps:
+
+.Steps
+. Prepare the CA certificate. It should be in _base64-encoded X.509_ file format.
+[NOTE]
+The supported file extensions are `.pem`, `.crt`, `.cert`. Ensure that your file is in one of these formats.
+. Copy the certificate to the Keystone Collector server. Make a note of the location where the file is copied.
+. Open a terminal on the server and run the  Keystone Collector management TUI utility.
+`$ keystone-collector-tui`
+. Go to *Configuration > Advanced*.
+. Enable the option *Enable custom root certificate*.
+. For *Select custom root certificate path:*, select `- Unset -`
+. Press Enter. A screen for selecting the certificate path is displayed.
+. Select the root certificate from the file system browser or enter the exact path. 
+. Press Enter. You return to the *Advanced* screen.
+. Select *Save*. the configuration is applied.
+
+image:kc-custom-ca.png[TUI screen for CA customization]
+
+
