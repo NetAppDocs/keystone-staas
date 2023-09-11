@@ -46,7 +46,7 @@ If you have subscribed to advanced data protection add-on service, then you can 
 * *Usage Type*: You might have subscribed to multiple Keystone (version 1) or Keystone STaaS (version 2) subscriptions. The rate plan rules for the service levels might vary for the two subscription types. By looking at the value in this column, you know whether the usage type is billed as per the provisioned or logical usage for either `v1` or `v2`. For more information about Keystone Subscriptions version 1, see https://docs.netapp.com/us-en/keystone/index.html[Documentation for NetApp Keystone^].
 * *Billing Period*: The billing period of the subscription, such as monthly, quarterly, or yearly.
 * *Start Date*: The start date of the subscription.
-* *End Date*: The end date of the subscription. If a subscription has no end date, and it gets renewed automatically, you see `Month-on-month` instead of the date. Based on this date, you might see notifications for subscriptions that are about to end or have auto-renewal policies attached.
+* *End Date*: The end date of the subscription. If you have a monthly-billable subscription that renews automatically every month, you see `Month-on-month` instead of the end date. Based on this date, you might see notifications for subscriptions that are about to end or have auto-renewal policies attached.
 * *Usage Status*: Displays the usage indicator to indicate whether the consumption is within or exceeding the subscription limit. You can sort the list by this column if you want to view the highest consumption records.
 * image:subs-dtls-icon.png[icon]: Clicking this icon for a subscription opens the *Current Usage* tab with the usage details of that subscription.
 * image:aiq-ks-time-icon.png[icon]: Clicking this icon opens the *Capacity Trend* tab where you can see the historical usage data for each service level included in this subscription.
@@ -118,7 +118,7 @@ The *Capacity Trend* tab displays historical data of your subscriptions for a sp
 .Steps
 . Click the *Capacity Trend* tab.
 . Select the required subscription for which you want to view the details. The first subscription in your account name is selected by default.
-. Select the time range from the calendar icons in the *From Date* and *To Date* fields. The default time range is from the start date of the billing period to the current date. You can select a date only up to the subscription end date.
+. Select the time range from the calendar icons in the *From Date* and *To Date* fields. Only dates until the subscription end date can be selected. The default time range is from the start date of the billing period to the current date.
 +
 [NOTE]
 For optimal performance and user experience, limit the date range of your query to three months or less.
@@ -145,7 +145,7 @@ The following colors in the bar charts indicate the consumed capacity as defined
 [NOTE]
 A blank chart indicates that there was no data available in your environment at that data collection point.
 +
-* *Current Consumed*: Indicator for the consumed capacity (in TiB) defined for the service level. You cannot view the current consumed capacity if the consumption is in burst. This field uses specific colors for usage:
+* *Current Consumed*: Indicator for the consumed capacity (in TiB) defined for the service level. You cannot see this indicator if the current consumption is in burst. This field uses specific colors for usage:
 ** Grey: None.
 ** Green: Within 80% of the committed capacity.
 ** Amber: Any consumption above 80% of the committed capacity.
