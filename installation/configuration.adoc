@@ -71,9 +71,9 @@ image:tui-4.png[tui screen]
 For information about the items removed on limiting private data access in both ONTAP and StorageGRID, see link:../installation/data-collection.html[List of items removed on limiting private data access].
 
 == Trust a custom root CA
-Verification of certificates against public root Certificate Authorities (CA) is a part of the Keystone Collector security features. However, if required, you can configure Keystone Collector to trust a custom root CA.
+Verification of certificates against a public root certificate authority (CA) is a part of the Keystone Collector security features. However, if required, you can configure Keystone Collector to trust a custom root CA.
 
-If you use of SSL/TLS inspection at the border firewall in your environment, it results in internet-based traffic to be re-encrypted with your custom CA certificate. It is necessary to configure the settings to verify the source as a trusted CA before accepting the root certificate and allowing connections to occur. Follow these steps:
+If you use SSL/TLS inspection in you system firewall, it results in the internet-based traffic to be re-encrypted with your custom CA certificate. It is necessary to configure the settings to verify the source as a trusted CA before accepting the root certificate and allowing connections to occur. Follow these steps:
 
 .Steps
 . Prepare the CA certificate. It should be in _base64-encoded X.509_ file format.
