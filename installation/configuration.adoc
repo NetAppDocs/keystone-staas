@@ -70,3 +70,25 @@ image:tui-4.png[tui screen]
 
 For information about the items removed on limiting private data access in both ONTAP and StorageGRID, see link:../installation/data-collection.html[List of items removed on limiting private data access].
 
+== Trust a custom root CA
+Verification of certificates against public root Certificate Authorities (CA) is a part of the Keystone Collector security features. However, if required, you can configure Keystone Collector to trust a custom root CA.
+
+If you use of SSL/TLS inspection at the border firewall in your environment, it results in internet-based traffic to be re-encrypted with your custom CA certificate. It is necessary to configure the settings to verify the source as a trusted CA before accepting the root certificate and allowing connections to occur. Follow these steps:
+
+.Steps
+. Prepare the CA certificate. It should be in _base64-encoded X.509_ file format.
+[NOTE]
+The supported file extensions are `.pem`, `.crt`, `.cert`. Ensure that the certificate is in one of these formats.
+. Copy the certificate to the Keystone Collector server. Make a note of the location where the file is copied.
+. Open a terminal on the server and run the management TUI utility.
+`$ keystone-collector-tui`
+. Go to *Configuration > Advanced*.
+. Enable the option *Enable custom root certificate*.
+. For *Select custom root certificate path:*, select `- Unset -`
+. Press Enter. A dialog box for selecting the certificate path is displayed.
+. Select the root certificate from the file system browser or enter the exact path. 
+. Press Enter. You return to the *Advanced* screen.
+. Select *Save*. the configuration is applied.
+
+image:kc-custom-ca.png[TUI screen for CA customization]
+
