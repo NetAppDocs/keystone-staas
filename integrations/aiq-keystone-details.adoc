@@ -121,7 +121,7 @@ The *Capacity Trend* tab displays historical data of your subscriptions for a sp
 . Select the time range from the calendar icons in the *From Date* and *To Date* fields. For subscriptions that have expired, the default date range is the subscription start and end dates. For existing subscriptions, the default time range is from the start date of the billing period to the current date. You cannot select a future date.
 +
 [NOTE]
-For optimal performance and user experience, limit the date range of your query to three months or less.
+For optimal performance and user experience, limit the date range of your query to three months.
 +
 . Click *View Details*. The historical consumption data of the subscription for each service level is displayed based on the selected time range. You can hover your mouse cursor over the charts to view the usage breakdown in terms of committed, consumed, burst, and above the burst limit data at that point.
 
