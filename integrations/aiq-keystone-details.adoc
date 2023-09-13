@@ -145,13 +145,14 @@ The following colors in the bar charts indicate the consumed capacity as defined
 [NOTE]
 A blank chart indicates that there was no data available in your environment at that data collection point.
 +
-* *Current Consumed*: Indicator for the consumed capacity (in TiB) defined for the service level. This field uses specific colors for usage. For burst usage, no color is displayed in this field.
-** Grey: None.
+* *Current Consumed*: Indicator for the consumed capacity (in TiB) defined for the service level. This field uses specific colors:
+** No color: Burst or above burst usage.
+** Grey: No usage.
 ** Green: Within 80% of the committed capacity.
-** Amber: Any consumption above 80% of the committed capacity.
-* *Current Burst*: Indicator for the consumed capacity within or above the defined burst limit. Any usage within the burst limit agreed upon, for example, 20% above the committed capacity is within the burst limit. Further usage is considered as usage above the burst limit. This field uses specific colors for usage:
-** Grey: None.
-** Red: Burst.
+** Amber: 80% of the committed to the burst capacity.
+* *Current Burst*: Indicator for the consumed capacity within or above the defined burst limit. Any usage within the burst limit agreed upon, for example, 20% above the committed capacity is within the burst limit. Further usage is considered as usage above the burst limit. This field displays specific colors:
+** No color: No burst usage.
+** Red: Burst usage.
 ** Purple: Above the burst limit.
 * *Accrued Burst*: Indicator for the accrued burst usage or consumed capacity calculated per month for the current billing period. The accrued burst usage is calculated based on the committed and consumed capacity for a service level: `(consumed - committed)/365.25/12`.
 +
