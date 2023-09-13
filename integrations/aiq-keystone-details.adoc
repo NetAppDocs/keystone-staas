@@ -118,7 +118,7 @@ The *Capacity Trend* tab displays historical data of your subscriptions for a sp
 .Steps
 . Click the *Capacity Trend* tab.
 . Select the required subscription for which you want to view the details. The first subscription in your account name is selected by default.
-. Select the time range from the calendar icons in the *From Date* and *To Date* fields. Only dates until the subscription end date can be selected. The default time range is from the start date of the billing period to the current date.
+. Select the time range from the calendar icons in the *From Date* and *To Date* fields. For subscriptions that have expired, the default date range is the subscription start and end dates. For existing subscriptions, the default time range is from the start date of the billing period to the current date. You cannot select a future date.
 +
 [NOTE]
 For optimal performance and user experience, limit the date range of your query to three months or less.
@@ -145,7 +145,7 @@ The following colors in the bar charts indicate the consumed capacity as defined
 [NOTE]
 A blank chart indicates that there was no data available in your environment at that data collection point.
 +
-* *Current Consumed*: Indicator for the consumed capacity (in TiB) defined for the service level. You cannot see this indicator if the current consumption is in burst. This field uses specific colors for usage:
+* *Current Consumed*: Indicator for the consumed capacity (in TiB) defined for the service level. This field uses specific colors for usage. For burst usage, no color is displayed in this field.
 ** Grey: None.
 ** Green: Within 80% of the committed capacity.
 ** Amber: Any consumption above 80% of the committed capacity.
