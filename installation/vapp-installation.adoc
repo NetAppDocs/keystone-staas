@@ -69,7 +69,7 @@ On completing the deployment, you can use the Keystone Collector Management Term
 
 . Open an SSH session to the Keystone Collector server. On login, the TUI appears. Alternately, you can launch the TUI manually by running the `keystone-collector-tui` CLI command.
 . If required, configure the proxy details in the *Configuration > Network* section on the TUI. 
-. Update the collector by using the *Maintenance > Update System* option. Some selected mirrors might be unavailable, and the system details are updated after a few retries. 
+. Update Keystone Collector by using the *Maintenance > Update System* option. Some selected mirrors might be unavailable, and the system details are updated after a few retries. 
 . Configure the system hostname, location, and NTP server in the *Configuration > System* section.
 . Update the admin password in the *Maintenance > User* section.
 . Mark the initial OVA configuration as complete in the *Configuration > Advanced* section.
