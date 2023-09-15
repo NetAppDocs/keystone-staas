@@ -24,7 +24,7 @@ NetApp Global Services and Support Center (GSSC) monitors the health of your pro
 The Keystone Success Manager (KSM) is a U.S. citizen operating on U.S. soil. Their responsibilities are specified in your NetApp Keystone Agreement.
 
 == Deployment activities
-Where available, onsite and remote deployment and installation activities are conducted by U.S. citizens on U.S. soil. footnote:disclaimer[Availability of appropriate personnel for onsite activities is dependent of the geographical location at which the Keystone systems are deployed.]
+Where available, onsite and remote deployment and installation activities are conducted by U.S. citizens on U.S. soil. footnote:disclaimer[Availability of appropriate personnel for onsite activities is dependent on the geographical location at which the Keystone systems are deployed.]
 
 == Support
 Where available, the necessary onsite troubleshooting and support activities are conducted by U.S. citizens on U.S. soil. footnote:disclaimer[]

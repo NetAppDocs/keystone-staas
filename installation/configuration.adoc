@@ -17,7 +17,7 @@ You need to complete a few configuration tasks to enable Keystone Collector to c
 
 
 [NOTE]
-The Keystone Collector provides you with the Keystone Collector Management Terminal User Interface (TUI) utility to perform the configuration and monitoring activities. You can use various keyboard controls, such as the Enter and arrow keys, to select the options and navigate across this TUI.
+The Keystone Collector provides you with the Keystone Collector Management Terminal User Interface (TUI) utility to perform configuration and monitoring activities. You can use various keyboard controls, such as the Enter and arrow keys, to select the options and navigate across this TUI.
 
 .Steps
 
@@ -73,7 +73,7 @@ For information about the items removed on limiting private data access in both 
 == Trust a custom root CA
 Verification of certificates against a public root certificate authority (CA) is a part of the Keystone Collector security features. However, if required, you can configure Keystone Collector to trust a custom root CA.
 
-If you use SSL/TLS inspection in you system firewall, it results in the internet-based traffic to be re-encrypted with your custom CA certificate. It is necessary to configure the settings to verify the source as a trusted CA before accepting the root certificate and allowing connections to occur. Follow these steps:
+If you use SSL/TLS inspection in your system firewall, it results in the internet-based traffic to be re-encrypted with your custom CA certificate. It is necessary to configure the settings to verify the source as a trusted CA before accepting the root certificate and allowing connections to occur. Follow these steps:
 
 .Steps
 . Prepare the CA certificate. It should be in _base64-encoded X.509_ file format.
@@ -88,7 +88,7 @@ The supported file extensions are `.pem`, `.crt`, `.cert`. Ensure that the certi
 . Press Enter. A dialog box for selecting the certificate path is displayed.
 . Select the root certificate from the file system browser or enter the exact path. 
 . Press Enter. You return to the *Advanced* screen.
-. Select *Save*. the configuration is applied.
+. Select *Save*. The configuration is applied.
 
 image:kc-custom-ca.png[TUI screen for CA customization]
 

@@ -35,7 +35,7 @@ image:monitoring-flow.png[data flow]
 
 .Legend
 
-. The AIOPs solution gateway initiates a TLS session to the its cloud portal.
+. The AIOPs solution gateway initiates a TLS session to the cloud portal.
 . The firewall operated by the customer allows the connection.
 . The AIOPs solution server in the cloud accepts the connection.
 . A TLS tunnel is established between the cloud portal and the local gateway.

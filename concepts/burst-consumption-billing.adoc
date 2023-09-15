@@ -15,10 +15,10 @@ summary: Billing based on burst consumption
 [.lead]
 NetApp Keystone (Keystone) STaaS billing is based on burst capacity, that is the capacity consumed by you, on top of the committed capacity of your subscription.
 
-Your burst limit is determined and specified in your Keystone agreement. Usually it is 20% above the committed capacity.
+Your burst limit is determined and specified in your Keystone agreement. Usually, it is 20% above the committed capacity.
 
 Committed capacity is the capacity committed to you while purchasing the subscription. The committed capacity and burst capacity are measured per service level. Consumed capacity is the capacity that your workloads actually use.
-When the consumed capacity is greater than the committed capacity for a service level, burst consumption is recorded, and charged accordingly. Usually it is 20% above the committed capacity. The usage above the burst capacity is indicated as "Above Burst Limit". 
+When the consumed capacity is greater than the committed capacity for a service level, burst consumption is recorded, and charged accordingly. Usually, it is 20% above the committed capacity. The usage above the burst capacity is indicated as "Above Burst Limit". 
 
 This process occurs for each consumption record generated. Burst consumption, therefore, is a reflection of both the amount and tenure of your over-consumed capacities on top of your committed capacities.
 
