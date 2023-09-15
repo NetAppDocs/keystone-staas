@@ -13,7 +13,7 @@ summary: Quality of Service in Keystone
 :imagesdir: ../media/
 
 [.lead]
-Storage quality of service (QoS) is a critical technology that ensures that applications obtain consistent and predictable performance. Without QoS, certain workloads, such as those for booting of multiple systems, may consume most or all of of the resources for a period, and affect other workloads. For information about QoS, see https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html[Guarantee throughput with QoS overview^].
+Storage quality of service (QoS) is a critical technology that ensures that applications obtain consistent and predictable performance. Without QoS, certain workloads, such as those for booting of multiple systems, may consume most or all of the resources for a period, and affect other workloads. For information about QoS, see https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html[Guarantee throughput with QoS overview^].
 
 
 == Adaptive QoS
@@ -121,7 +121,7 @@ Note these points before you calculate the block size by using these settings:
 *	TB = 1000GB; GB = 1000MB; MB = 1000KB; KB = 1000Bytes; as per base 10
 
 .Sample block size calculation
-To calculate the throughput for the a service level, for example `Extreme` service level:
+To calculate the throughput for a service level, for example `Extreme` service level:
 
 *	Maximum IOPS: 12,288
 *	Block size per I/O: 32KB
