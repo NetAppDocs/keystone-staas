@@ -90,7 +90,7 @@ Latency does not include overheads associated with data transfer to the object s
 
 [NOTE]
 ====
-- Cloud native services, such as compute, storage, networking, are invoiced by the cloud providers.
-- These services are dependent on the cloud storage and compute characteristics.
+- Cloud native services, such as compute, storage, networking, are invoiced by cloud providers.
+- These services are dependent on cloud storage and compute characteristics.
 ====
 

@@ -24,7 +24,7 @@ Keystone infrastructure, design, choice of technology, and component products re
 
 The Keystone infrastructure includes multiple components, such as the following, among others:
 
-*	The Keystone infrastructure that includes storage controllers.
+*	The Keystone infrastructure, including storage controllers.
 *	Tools to manage and operate the service such as AIOPs solution, Active IQ, and Active IQ Unified Manager.
 
 == Storage Platforms 

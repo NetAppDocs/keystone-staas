@@ -55,7 +55,7 @@ image:ova-deploy.png[OVA UI displaying a verified certificate]
 . On _Step 6_, select the destination network for the VM to use.
 . On _Step 7 Customize template_, specify the initial network address and password for the admin user account. 
 [NOTE]
-The admin password is stored in a reversible format in vCentre, and should be used as a bootstrap credential to gain initial access to the VMware vSphere system. During the initial software configuration, this admin password should be changed. The subnet mask for the IPv4 address should be supplied in CIDR notation. For example, use the value of 24 for a subnet mask of 255.255.255.0.
+The admin password is stored in a reversible format in vCentre and should be used as a bootstrap credential to gain initial access to the VMware vSphere system. During the initial software configuration, this admin password should be changed. The subnet mask for the IPv4 address should be supplied in CIDR notation. For example, use the value of 24 for a subnet mask of 255.255.255.0.
 . On _Step 8 Ready to complete_ of the *Deploy OVF Template* wizard, review the configuration and verify that you have correctly set the parameters for the OVA deployment.
 
 After the VM has been deployed from the template and powered on, open an SSH session to the VM and log in with the temporary admin credentials to verify that the VM is ready for configuration.
