@@ -259,21 +259,25 @@ image:sg-link-2.png[StorageGRID dialog box]
 
 You can click the *Performance Details* tab for viewing the performance details for the ONTAP volumes managed by your Keystone subscriptions.
 
+This tab might not be available to you for viewing the performance metrics on your ONTAP volumes. Contact support for viewing this tab.
+
 .Steps
 . Click the *Performance Details* tab.
 . Select the subscription number. By default, the first subscription number is selected.
 . Select the required volume name from the list.
 +
-Alternately, you can click the image:aiq-ks-time-icon.png[] icon against an ONTAP volume in the *System Details* tab to navigate to this tab.
+Alternately, you can click the image:aiq-ks-time-icon.png[] icon against an ONTAP volume in the *Volumes* tab to navigate to this tab.
 +
-. Select the date range for the query.
+. Select the date range for the query. The date range can be the beginning of the month or the subscription start date to the current date or the subscription end date.
 
 You can view and compare the performance metrics in the following sections based on the combination of the subscription number, volume name, and the date range selected. The details are displayed as per service level assigned to the volume. You can see the cluster name and volume type, that is, the read and write permissions assigned to the volume. Any warning message associated with the volume is also displayed.
 
 [NOTE]
-The retrieved details are based on the service level objective for each service level. For example, the peak IOPS, maximum throughput, target latency, and other metrics are determined by the individual settings for the service level. For more information about the settings, see https://docs.netapp.com/us-en/keystone/nkfsosm_performance.html[Service levels]. 
+The retrieved details are based on the service level objective for each service level. For example, the peak IOPS, maximum throughput, target latency, and other metrics are determined by the individual settings for the service level. If you select the *SLO Reference Line* check box, the IOPS, throughput, and latency graphs are rendered based on the service level objective for the service level. Else, they are displayed in actual numbers. 
 
-The performance data displayed on the horizontal graph is averaged out every 5 minutes and arranged as per the date range of the query. You can scroll across the graphs and hover your mouse over specific data points to drill further down into the collected data. You can view the _provisional data_ when the exact usage data is unavailable at that point and is substituted by the data available at the previous data collection point.
+For more information about the settings, see ../concepts/service-levels.html[Service levels]. 
+
+The performance data displayed on the horizontal graph is an average at every five-minute interval, and arranged as per the date range of the query. You can scroll across the graphs and hover your mouse over specific data points to drill further down into the collected data.
 
 === IOPS/TiB
 This section displays the input-output graphs for the workloads in the volume based on the date range of the query. The peak IOPS for the service level and the current IOPS (in the last five minutes, not based on the date range of the query) are displayed, along with the minimum, maximum, and average IOPS for the time range, in IOPS/TiB.
