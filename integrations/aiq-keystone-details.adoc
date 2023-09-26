@@ -255,6 +255,51 @@ image:sg-link-2.png[StorageGRID dialog box]
 
 ====
 
+== View ONTAP volume performance
+
+You can click the *Performance Details* tab for viewing the performance details for the ONTAP volumes managed by your Keystone subscriptions.
+
+.Steps
+. Click the *Performance Details* tab.
+. Select the subscription number. By default, the first subscription number is selected.
+. Select the required volume name from the list.
++
+Alternately, you can click the image:aiq-ks-time-icon.png[] icon against an ONTAP volume in the *System Details* tab to navigate to this tab.
++
+. Select the date range for the query.
+
+You can view and compare the performance metrics in the following sections based on the combination of the subscription number, volume name, and the date range selected. The details are displayed as per service level assigned to the volume. You can see the cluster name and volume type, that is, the read and write permissions assigned to the volume. Any warning message associated with the volume is also displayed.
+
+[NOTE]
+The retrieved details are based on the service level objective for each service level. For example, the peak IOPS, maximum throughput, target latency, and other metrics are determined by the individual settings for the service level. For more information about the settings, see https://docs.netapp.com/us-en/keystone/nkfsosm_performance.html[Service levels]. 
+
+The performance data displayed on the horizontal graph is averaged out every 5 minutes and arranged as per the date range of the query. You can scroll across the graphs and hover your mouse over specific data points to drill further down into the collected data. You can view the _provisional data_ when the exact usage data is unavailable at that point and is substituted by the data available at the previous data collection point.
+
+=== IOPS/TiB
+This section displays the input-output graphs for the workloads in the volume based on the date range of the query. The peak IOPS for the service level and the current IOPS (in the last five minutes, not based on the date range of the query) are displayed, along with the minimum, maximum, and average IOPS for the time range, in IOPS/TiB.
+
+image:perf-iops.png[]
+
+=== Throughput (MBps/TiB)
+This section displays the throughput graphs for the workloads in the volume based on the date range of the query. The maximum throughput for the service level (SLO Max), and current throughput (in the last five minutes, not based on the date range of the query) are displayed, along with the minimum, maximum, and average throughput for the time range, in MBps/TiB.
+
+image:perf-thr.png[]
+
+=== Latency (ms)
+This section displays the latency graphs for the workloads in the volume based on the date range of the query. The maximum latency for service level (SLO Target), and current latency (in the last five minutes, not based on the date range of the query) are displayed, along with the minimum, maximum, and average latency for the time range, in milliseconds.
+
+This graph has the following colors:
+
+* Light blue: _Latency_. This is the actual latency that includes any latency other than your Keystone service. This might include additional latency, such as the latency occurring between your network and client.
+* Dark blue: _Effective latency_. Effective latency is the latency applicable only to your Keystone service with respect to your SLA.
+
+image:perf-lat.png[]
+
+=== Logical Used (TiB)
+This section displays the provisioned and the logical used capacities of the volume. The current logical used capacity (in the last five minutes, not based on the date range of the query), along with the minimum, maximum, and average usage for the time range are displayed in TiBs. On this graph, the grey area represents the committed capacity, and the yellow graph indicates the logical use.
+
+image:perf-log-usd.png[]
+
 == Generate reports
 You can generate and view reports for your subscription details, historical usage data for a time range, and volume details from each of the tabs by clicking the download button: image:download-icon.png[report download icon]
 
