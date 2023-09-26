@@ -257,12 +257,12 @@ image:sg-link-2.png[StorageGRID dialog box]
 
 == View ONTAP volume performance
 
-You can click the *Performance Details* tab for viewing the performance details for the ONTAP volumes managed by your Keystone subscriptions.
+You can click the *Performance* tab for viewing the performance details for the ONTAP volumes managed by your Keystone subscriptions.
 
 This tab might not be available to you for viewing the performance metrics on your ONTAP volumes. Contact support for viewing this tab.
 
 .Steps
-. Click the *Performance Details* tab.
+. Click the *Performance* tab.
 . Select the subscription number. By default, the first subscription number is selected.
 . Select the required volume name from the list.
 +
@@ -270,7 +270,7 @@ Alternately, you can click the image:aiq-ks-time-icon.png[graph icon] icon again
 +
 . Select the date range for the query. The date range can be the beginning of the month or the subscription start date to the current date or the subscription end date.
 
-The retrieved details are based on the service level objective for each service level. For example, the peak IOPS, maximum throughput, target latency, and other metrics are determined by the individual settings for the service level. For more information about the settings, see link:../concepts/service-levels.html[Service levels]. 
+The retrieved details are based on the service level objective for each service level. For example, the peak IOPS, maximum throughput, target latency, and other metrics are determined by the individual settings for the service level. For more information about the settings, see link:../concepts/service-levels.html[Service levels in Keystone]. 
 
 [NOTE]
 If you select the *SLO Reference Line* check box, the IOPS, throughput, and latency graphs are rendered based on the service level objective for the service level. Else, they are displayed in actual numbers. 
