@@ -15,13 +15,13 @@ summary: Billing based on miscellaneous volume types
 [.lead]
 
 == Billing for cloned volumes
-If volumes are cloned in ONTAP and you use them for backing up and restoring your data, you can continue to use the clones without any additional payments. However, cloned volumes used for any other purpose in your business for an extensive duration are charged.
+If volumes are cloned in ONTAP and you use them for backing up and restoring your data, you can continue using the clones without any additional payments. However, cloned volumes used for any other purpose in your business for an extensive duration are charged.
 
-[NOTE]
-Note:
+Note the following:
 
-* The consumption on the cloned volumes is not considered during the first 24 hours of the clone creation; and no charges are incurred during this time.
-*	Cloned volumes with the Standard and Value Service Levels are not considered for consumption if new data is not written to the volume. For example, in a backup or restore use case, backing up or restoring data from a cloned volume does not change the data in the cloned volume itself, and it is not considered as consumption.
+* Clone volumes are free from charging as long as their size is less than 10% of the parent volume (the physical capacity used in the clone volume compared to the physical capacity used in the parent volume).
+* There is no 24-hour grace period for cloned volumes, only the size of the clone is considered.
+* Once the clone volume exceeds 10% of the physical size of the parent, the clone is billed as a standard volume (logical used capacity).
 
 == Billing for Advanced Data Protection
 Advanced Data Protection uses NetApp MetroCluster to mirror data between two physically separated clusters. For MetroCluster mirrored aggregates, data is written twice, once on each cluster. The Keystone service charges for consumption on each side independently, resulting in two identical consumption records. The add-on charges are applied on all the capacities in the subscription, irrespective of whether the data is at the source, or it is mirrored or unmirrored data.
