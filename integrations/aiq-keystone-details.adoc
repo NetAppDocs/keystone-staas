@@ -30,7 +30,9 @@ To view your Keystone subscription and usage details, perform the following step
 The details of the subscriptions, usage charts for each service level, and volume details are displayed in the different tabs on the *Keystone Subscriptions* screen.
 
 [NOTE]
-Capacity consumption in Keystone subscriptions is displayed in TiBs on the dashboards and reports, and is rounded off to two decimal places. If the usage is less than 0.01 TiB, then the value is shown as 0 or `No Usage`. For other usage metrics, see link:../concepts/metrics.html#metrics-measurement[Metrics measurement]. For information about different capacities used in Keystone, see link:../concepts/supported-storage-capacity.html[Supported storage capacities].
+Capacity consumption in Keystone subscriptions is displayed in TiBs on the dashboards and reports, and is rounded off to two decimal places. If the usage is less than 0.01 TiB, then the value is shown as 0 or `No Usage`. The local time entered for query in these tabs is converted to UTC time. Therefore, you might see minor differences in the data returned based on the queried time.
+
+For information about usage metrics, see link:../concepts/metrics.html#metrics-measurement[Metrics measurement]. For information about different capacities used in Keystone, see link:../concepts/supported-storage-capacity.html[Supported storage capacities].
 
 == View subscriptions
 You can view a list of all your subscriptions in the *Subscriptions* tab. 
@@ -113,38 +115,43 @@ If there is an SLA breach, a image:warning.png[icon for warning] warning icon ad
 ====
 
 == View historical usage data
-The *Capacity Trend* tab displays historical data of your subscriptions for a specific period. The vertical graphs display the usage details for the selected time range with appropriate indicators for you to compare and generate reports. 
+The *Capacity Trend* tab displays historical data of your Keystone subscriptions for a specific period. The vertical graphs display the usage details for the selected time range with appropriate indicators for you to compare and generate reports. 
 
 .Steps
 . Click the *Capacity Trend* tab.
 . Select the required subscription for which you want to view the details. The first subscription in your account name is selected by default.
-. Select the time range from the calendar icons in the *From Date* and *To Date* fields. For subscriptions that have expired, the default date range is the subscription start and end dates. For existing subscriptions, the default time range is from the start date of the billing period to the current date. You cannot select a future date.
+. Select *Capacity Trend* if you want to view the historical data and analyze the capacity usage trend. Select *Accrued Burst* if you want to view the historical burst usage data, and analyze the billed usage as per your invoice. 
+
+=== View capacity trend
+.Learn more
+[%collapsible]
+====
+If you have selected the *Capacity Trend* option, follow these steps:
+
+.Steps
+. Select the time range from the calendar icons in the *From Date* and *To Date* fields. Select the date range for the query. The date range can be the beginning of the month or the subscription start date to the current date or the subscription end date. You cannot select a future date.
 +
-[NOTE]
+[TIP]
 For optimal performance and user experience, limit the date range of your query to three months.
 +
-. Click *View Details*. The historical consumption data of the subscription for each service level is displayed based on the selected time range. You can hover your mouse cursor over the charts to view the usage breakdown in terms of committed, consumed, burst, and above the burst limit data at that point.
+. Click *View Details*. The historical consumption data of the subscription for each service level is displayed based on the selected time range. 
 
-image:aiq-ks-subtime-2.png[Capacity Trend tab]
+The bar charts display the service level name and the capacity consumed against that service level for the date range. The date and time of the collection are displayed at the bottom of the chart. Based on the date range of your query, the usage charts are displayed in a range of 30 data collection points. You can hover your mouse cursor over the charts to view the usage breakdown in terms of committed, consumed, burst, and above the burst limit data at that data collection point.
 
-The following details are displayed:
+image:aiq-ks-subtime-2.png[Capacity Trend tab with details]
 
-* *Current Usage*: The start and end date of the subscription, and the billing period, for example, quarterly, yearly, and so forth.
-* *Usage charts*: The bar charts display the service level name and the capacity consumed against that service level for the date range. The date and time of the collection are displayed at the bottom of the chart.
-+
-[NOTE]
-Based on the date range of your query, the usage charts are displayed in a range of 30 data collection points.
-+
-The following colors in the bar charts indicate the consumed capacity as defined within the service level:
+The following colors in the bar charts indicate the consumed capacity as defined within the service level. Monthly data across the charts is separated by a vertical line.
 
 ** Green: Within 80%.
 ** Amber: 80% - 100%.
 ** Red: Burst usage (100% of the committed capacity to the agreed burst limit)
 ** Purple: Above the burst limit or `Above Limit`.
-+
+
 [NOTE]
 A blank chart indicates that there was no data available in your environment at that data collection point.
-+
+
+You can click the toggle button *Show Current Usage* to view the current consumption and burst usage with respect to the billing period of the subscription. These are not based on the date range of the query.
+
 * *Current Consumed*: Indicator for the consumed capacity (in TiB) defined for the service level. This field uses specific colors:
 ** No color: Burst or above burst usage.
 ** Grey: No usage.
@@ -154,10 +161,24 @@ A blank chart indicates that there was no data available in your environment at 
 ** No color: No burst usage.
 ** Red: Burst usage.
 ** Purple: Above the burst limit.
-* *Accrued Burst*: Indicator for the accrued burst usage or consumed capacity calculated per month for the current billing period. The accrued burst usage is calculated based on the committed and consumed capacity for a service level: `(consumed - committed)/365.25/12`.
-+
-[NOTE]
-The *Current Consumed*, *Current Burst*, and *Accrued Burst* indicators determine the consumption with respect to the billing period of the subscription, and are not based on the date range of the query.
+
+====
+
+=== View historical burst data
+.Learn more
+[%collapsible]
+====
+
+If you have selected the *Accrued Burst* option, by default, you can see the monthly accrued burst usage data for the last 12 months. You can query by the date range of up to past 30 months. 
+
+[TIP]
+Accrued burst usage or consumed capacity is calculated per month for the current billing period. The accrued burst usage is calculated based on the committed and consumed capacity for a service level by this formula: `(consumed - committed)/365.25/12`.
+
+image:accr-burst.png[accrued burst usage charts]
+
+This functionality is available in a preview-only mode. Contact your KSM to learn more about this feature.
+
+====
 
 === Reference charts for advanced data protection 
 .Learn more
@@ -268,7 +289,7 @@ This tab might not be available to you for viewing the performance metrics on yo
 +
 Alternately, you can click the image:aiq-ks-time-icon.png[graph icon] icon against an ONTAP volume in the *Volumes* tab to navigate to this tab.
 +
-. Select the date range for the query. The date range can be the beginning of the month or the subscription start date to the current date or the subscription end date.
+. Select the date range for the query. The date range can be the beginning of the month or the subscription start date to the current date or the subscription end date. You cannot select a future date.
 
 The retrieved details are based on the service level objective for each service level. For example, the peak IOPS, maximum throughput, target latency, and other metrics are determined by the individual settings for the service level. For more information about the settings, see link:../concepts/service-levels.html[Service levels in Keystone]. 
 
