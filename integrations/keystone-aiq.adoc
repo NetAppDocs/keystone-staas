@@ -17,6 +17,9 @@ If you have subscribed to NetApp Keystone STaaS services, you get an overview of
 
 Digital Advisor offers a unified dashboard that gives insights into various levels of your subscription data and usage information through the *Switch to old/new dashboard* button.
 
+[NOTE]
+If you have created watchlists for your subscriptions, you can see the details of all the subscriptions that you have configured in the watchlists. For information about watchlists, see https://docs.netapp.com/us-en/active-iq/concept_overview_dashboard.html[Understand watchlist].
+
 .Default (old) dashboard 
 
 You can see your subscription number, account name, start and end dates of the subscription, and the capacity usage graphs as per your subscribed service levels. 

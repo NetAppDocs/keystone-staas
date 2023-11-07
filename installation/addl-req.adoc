@@ -5,7 +5,7 @@ keywords: keystone unified manager prerequisites, aiqum config keystone
 summary: keystone unified manager prerequisites
 ---
 
-= Additional prerequisites for ONTAP and StorageGRID
+= Requirements for ONTAP and StorageGRID
 :hardbreaks:
 :nofooter:
 :icons: font
