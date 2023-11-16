@@ -79,7 +79,7 @@ Latency does not include overheads associated with data transfer to the object s
 *Supported protocol*: NFS, CIFS, iSCSI, and S3 (AWS and Azure only)
 
 |===
-|*Service level* | Cloud Volumes ONTAP®
+|*Service level* | Cloud Volumes ONTAP
 |*Workload type* |Disaster Recovery, software development/testing, business apps
 |*Maximum IOPS/logical TiB stored per volume*
 |N/A

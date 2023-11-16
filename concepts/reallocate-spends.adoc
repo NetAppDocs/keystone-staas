@@ -5,7 +5,7 @@ keywords: pricing, reallocation of spends, on-prem to cloud spends
 summary: Keystone pricing
 ---
 
-= Reallocate expenses from on-premises services to cloud service
+= Reallocation of expenses from on-premises to cloud service
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,13 +13,13 @@ summary: Keystone pricing
 :imagesdir: ../media/
 
 [.lead]
-Keystone STaaS offers you the option to allocate a portion of your designated expenses towards the subscribed file, block, or object storage service levels to hybrid cloud storage services. 
+Keystone STaaS offers you the option to allocate a portion of the designated expenses towards your subscribed file, block, or object storage service levels to hybrid cloud storage service. 
 
-This functionality is available on the Extreme, Premium, Performance, Standard, Value, Data Tiering, and Object service levels for your on-premises storage services. Up to 25% of the Annual Contract Value (ACV) could be reallocated at a quarterly basis to Cloud Volumes ONTAP Primary and Cloud Volumes ONTAP Secondary service:
+This functionality is available for the Extreme, Premium, Performance, Standard, Value, Data Tiering, and Object service levels on your on-premises storage services. Up to 25% of the Annual Contract Value (ACV) could be reallocated at a quarterly basis to Cloud Volumes ONTAP Primary and Cloud Volumes ONTAP Secondary services:
 
 image:reallocation.png[reallocation logic explained]
 
-The following table provides a set of sample values to demonstrate how the reallocation of expenses works. In this example, `$5000` from the monthly spend is to be reallocated to hybrid cloud storage services.
+The following table provides a set of sample values to demonstrate how the reallocation of expenses works. In this example, `$5000` from the monthly spend is reallocated to hybrid cloud storage service.
 
 
 |===
@@ -32,7 +32,6 @@ The following table provides a set of sample values to demonstrate how the reall
 
 |===
 
-[NOTE]
-Reducing the capacity allocated for the Extreme service level from 125 TiB to 108 TiB is a reduction by 17 TiB. On spend reallocation, the allotted hybrid cloud storage capacity is not of 17 TiB but an equivalent cloud storage that $5000 can purchase. An amount of $5000 can purchase 17 TiB on-prem storage capacity for the Extreme service level and 47 TiB hybrid cloud capacity of Cloud Volumes ONTAP service level. Therefore, the reallocation is with respect to the spend, not capacity.
+The reduction is of (125-108) = 17 TiB of the capacity allocated for the Extreme service level. On spend reallocation, the allotted hybrid cloud storage is not of 17 TiB but an equivalent capacity that $5000 can purchase. In this example, for $5000, you can get 17 TiB on-prem storage capacity for the Extreme service level and 47 TiB hybrid cloud capacity of Cloud Volumes ONTAP service level. Therefore, the reallocation is with respect to the spend, not capacity.
 
-Contact your Keystone Success Manager (KSM) if you want to reallocate expenses from your on-premises services to cloud services. 
+Contact your Keystone Success Manager (KSM) if you want to reallocate expenses from your on-premises services to cloud services.
