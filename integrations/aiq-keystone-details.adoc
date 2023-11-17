@@ -30,7 +30,9 @@ To view your Keystone subscription and usage details, perform the following step
 The details of the subscriptions, usage charts for each service level, and volume details are displayed in the different tabs on the *Keystone Subscriptions* screen.
 
 [NOTE]
-Capacity consumption in Keystone subscriptions is displayed in TiBs on the dashboards and reports, and is rounded off to two decimal places. If the usage is less than 0.01 TiB, then the value is shown as 0 or `No Usage`. The local time entered for query in these tabs is converted to UTC time. Therefore, you might see minor differences in the data returned based on the queried time.
+Capacity consumption in Keystone subscriptions is displayed in TiBs on the dashboards and reports, and is rounded off to two decimal places. If the usage is less than 0.01 TiB, then the value is shown as 0 or `No Usage`. The data returned on these tabs has the server timestamp (UTC time zone). When you enter a date for query, you might have to convert your local time to UTC time.
+
+//NSEKEY-8547 
 
 For information about usage metrics, see link:../concepts/metrics.html#metrics-measurement[Metrics measurement]. For information about different capacities used in Keystone, see link:../concepts/supported-storage-capacity.html[Supported storage capacities].
 
@@ -88,7 +90,7 @@ The *SLA Details* tab provides you with the sustainability SLA details.
 .Steps
 . Click the *SLA Details* tab.
 . Select the required subscription for which you want to view the details. You can view only those subscriptions that meet the criteria for sustainability SLA. For information about the criteria, see link:../concepts/sla-sustainability.html#eligibility-criteria-for-sustainability-sla[Eligibility criteria for sustainability SLA].
-. Select the year and month for which you want to view the details. You can select the year and month during which the subscription has been active.
+. Select the year and month for which you want to view the details. By default, he data for the current month is displayed. You can select the year and month during which the subscription has been active.
 
 You can see a daily breakdown of measured sustainability-related metrics for the selected month:
 
