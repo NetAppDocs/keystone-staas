@@ -38,11 +38,7 @@ Consumed capacity refers to the capacity (in TiB of storage) currently being con
 Keystone service considers the sum of the logical used sizes (not the physical capacity used) of all volumes on a particular service level to calculate the consumed capacity for that service level.
 
 == Burst capacity
-Any consumption exceeding the committed capacity for a service level is the burst capacity.
-
-
-[NOTE]
-Note:
+Any consumption exceeding the committed capacity for a service level is the burst capacity. The following points help you to understand burst consumption:
 
 ** Keystone service enables you to use additional capacity on top of the committed capacity for a service level. This is the burst capacity.
 ** Burst capacity can be consumed on an elastic basis and is charged on a daily basis for the consumed average.
