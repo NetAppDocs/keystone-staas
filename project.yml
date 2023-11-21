@@ -16,13 +16,13 @@ sidebar:
       entries:
         - title: What is Keystone Collector
           url: /installation/installation-overview.html
-        - title: Prerequisites for installing Keystone Collector
+        - title: Prepare your system for installing Keystone Collector
           entries:
-            - title: VMware vSphere prerequisites
+            - title: VMware vSphere requirements
               url: /installation/vapp-prereqs.html
-            - title: Linux prerequisites
+            - title: Linux requirements
               url: /installation/linux-prereqs.html
-            - title: Specific prerequisites for ONTAP and StorageGRID
+            - title: ONTAP and StorageGRID requirements
               url: /installation/addl-req.html
         - title: Install Keystone Collector
           entries:
@@ -70,6 +70,8 @@ sidebar:
           url: /concepts/qos.html
         - title: Capacity requirements for Service Levels
           url: /concepts/capacity-requirements.html
+        - title: Reallocation of expenses from on-premises to cloud service
+          url: /concepts/reallocate-spends.html  
         - title: Sustainability SLA service levels
           url: /concepts/sla-sustainability.html          
     - title: Billing
