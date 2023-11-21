@@ -17,7 +17,7 @@ If you have subscribed to NetApp Keystone STaaS services, you get an overview of
 
 You can search for Keystone subscription details by searching by a customer name or a watchlist name that includes multiple customers. For information about watchlists, see https://docs.netapp.com/us-en/active-iq/concept_overview_dashboard.html[Understand watchlist].
 
-[NOTE]
+[TIP]
 If you search for a watchlist that includes multiple customers, the customers in the watchlist are available for selection from the *Subscription* drop-down list on the *Keystone Subscriptions* widget.
 
 Digital Advisor offers a unified dashboard that gives insights into various levels of your subscription data and usage information through the *Switch to old/new dashboard* button.
