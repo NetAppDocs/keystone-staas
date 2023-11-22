@@ -1,0 +1,42 @@
+---
+sidebar: sidebar
+permalink: whats-new.html
+keywords: new features, release notes, enhancements
+summary: Keystone STaaS new features and enhancements.
+---
+
+= What's new in Keystone STaaS
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+Cloud Volumes ONTAP 9.11.0 includes a new enhancement.
+
+Additional features and enhancements are also introduced in the latest versions of BlueXP. See the https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/whats-new.html[BlueXP Release Notes^] for details.
+
+== Support for Elastic Volumes (7 June 2022)
+
+Support for the Amazon EBS Elastic Volumes feature with a Cloud Volumes ONTAP aggregate provides better performance and additional capacity, while enabling BlueXP to automatically increase the underlying disk capacity as needed.
+
+Support for Elastic Volumes is available starting with the 3.9.19 release of the BlueXP Connector and is supported with specific Cloud Volumes ONTAP versions and specific EBS disk types.
+
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-aws-elastic-volumes.html[Learn more about support for Elastic Volumes^]
+
+== 9.11.0 P1 (2 May 2022)
+
+The Cloud Volumes ONTAP 9.11.0 P1 release is now available in AWS, Azure, and Google Cloud. This release includes the following enhancement.
+
+=== ONTAP S3 support in AWS
+
+You can now provide S3 object storage from Cloud Volumes ONTAP in AWS (Microsoft Azure is already supported). Cloud Volumes ONTAP supports S3 as an option for scale-out storage, in addition to classic file-based protocols like NFS and SMB.
+
+Note the following:
+
+* The main use case for ONTAP S3 with Cloud Volumes ONTAP is a general purpose object store.
+* At this time, the S3 protocol is not supported with Cloud Volumes ONTAP in Google Cloud.
+* BlueXP doesn't provide any management capabilities for the ONTAP S3 feature.
+
+https://docs.netapp.com/us-en/ontap/object-storage-management/index.html[Learn how to configure and manage S3 object storage services in ONTAP^].

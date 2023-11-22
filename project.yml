@@ -10,6 +10,12 @@ sidebar:
   entries:
     - title: Keystone docs
       url: "/index.html"
+    - title: Release notices
+      entries:
+        - title: What's new in Keystone STaaS
+          url: /release-notes/whats-new.html
+        - title: Known limitations
+          url: /release-notes/known-limitations.html
     - title: Welcome to Keystone
       url: /concepts/overview.html
     - title: Set up and configure Keystone

@@ -1,0 +1,38 @@
+---
+sidebar: sidebar
+permalink: known-limitations.html
+keywords: limitations, known limitations in Keystone STaaS
+summary: Known limitations identify platforms, devices, or functions that are not supported by this release of the product, or that do not interoperate correctly with it. Review these limitations carefully.
+---
+
+= Known limitations
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+Known limitations identify platforms, devices, or functions that are not supported by this release of the product, or that do not interoperate correctly with it. Review these limitations carefully.
+
+These limitations are specific to BlueXP set up and administration: the Connector, the SaaS platform, and more.
+
+== Connector limitations
+
+=== Default EC2 instance settings should not be changed
+
+When you deploy the Connector in AWS, the following EC2 instance settings are configured by default:
+
+* IMDSv2 is set to optional
+* HttpTokens is set to optional
+
+These settings should not be changed to required. Changing these settings to required impacts the Connector and Cloud Volumes ONTAP availability.
+
+=== Possible conflict with IP addresses in the 172 range
+
+BlueXP deploys the Connector with two interfaces that have IP addresses in the 172.17.0.0/16 and 172.18.0.0/16 ranges.
+
+If your network has a subnet configured with either of these ranges, then you might experience connectivity failures from BlueXP. For example, discovering on-prem ONTAP clusters in BlueXP might fail.
+
+See Knowledge Base article link:https://kb.netapp.com/Advice_and_Troubleshooting/Cloud_Services/Cloud_Manager/Cloud_Manager_shows_inactive_as_Connector_IP_range_in_172.x.x.x_conflict_with_docker_network[BlueXP Connector IP conflict with existing network] for instructions on how to change the IP address of the Connector’s interfaces.
+
