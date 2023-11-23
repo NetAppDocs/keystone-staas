@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar
-permalink: known-limitations.html
+permalink: release-notes/known-limitations.html
 keywords: limitations, known limitations in Keystone STaaS
 summary: Known limitations identify platforms, devices, or functions that are not supported by this release of the product, or that do not interoperate correctly with it. Review these limitations carefully.
 ---

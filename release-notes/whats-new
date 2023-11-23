@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar
-permalink: whats-new.html
+permalink: release-notes/whats-new.html
 keywords: new features, release notes, enhancements
 summary: Keystone STaaS new features and enhancements.
 ---
@@ -15,7 +15,7 @@ summary: Keystone STaaS new features and enhancements.
 [.lead]
 Cloud Volumes ONTAP 9.11.0 includes a new enhancement.
 
-Additional features and enhancements are also introduced in the latest versions of BlueXP. See the https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/whats-new.html[BlueXP Release Notes^] for details.
+Additional features and enhancements are also introduced in the latest versions of BlueXP. See the for details.
 
 == Support for Elastic Volumes (7 June 2022)
 
