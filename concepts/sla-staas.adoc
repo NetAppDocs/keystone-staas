@@ -1,0 +1,18 @@
+---
+sidebar: sidebar
+permalink: concepts/sla-staas.html
+keywords: staas sla, sla, service level agreement
+summary: What is SLA in Keystone STaaS?
+---
+
+= SLAs in Keystone STaaS
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ../media/
+
+[.lead]
+Service Level Agreements (SLAs) are a key component of NetApp's cloud storage solutions. SLAs aim to provide effective, high-quality, and reliable storage solution as a part of Keystone STaaS service offerings. Keystone STaaS has three SLAs to guarantee performance, availability, and sustainability.
+
+
