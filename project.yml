@@ -77,7 +77,11 @@ sidebar:
         - title: Capacity requirements for Service Levels
           url: /concepts/capacity-requirements.html
         - title: Reallocation of expenses from on-premises to cloud service
-          url: /concepts/reallocate-spends.html  
+          url: /concepts/reallocate-spends.html 
+        - title: Availability SLA service levels
+          url: /concepts/sla-availability.html
+        - title: Performance SLA service levels
+          url: /concepts/sla-performance.html                       
         - title: Sustainability SLA service levels
           url: /concepts/sla-sustainability.html          
     - title: Billing
