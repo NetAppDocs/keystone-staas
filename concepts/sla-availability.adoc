@@ -13,7 +13,7 @@ summary: availability, sla, service level agreement
 :imagesdir: ../media/
 
 [.lead]
-NetApp Keystone STaaS provides Service Level Agreement or SLA-backed sustainability service levels that define maximum Watts/TiB consumed per service level, to help you plan, monitor, and meet your IT sustainability goals.
+The performance-based Service Level Agreement (SLA) of NetApp Keystone STaaS ensures guaranteed performance based on the target latency for the subscribed performance service levels (service levels).
 
 == Sustainability metrics
 The following metrics are used to define and measure sustainability:
