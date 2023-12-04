@@ -37,7 +37,7 @@ Performance |<=4 watts/TiB |300 TiB |AFF A800 and AFF A900
 |===
 
 == Eligibility criteria for sustainability SLA
-Keystone STaaS subscriptions meeting the following criteria are eligible for SLAs:
+Keystone STaaS subscriptions meeting the following criteria are eligible for sustainability SLAs:
 
 *	Standard, non-customized Keystone STaaS subscriptions with a single service level, invoiced monthly in arrears.
 *	Subscriptions with the following service levels are eligible: Extreme, Premium, and Performance service levels.

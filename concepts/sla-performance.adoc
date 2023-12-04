@@ -13,49 +13,81 @@ summary: performance, sla, service level agreement
 :imagesdir: ../media/
 
 [.lead]
-NetApp Keystone STaaS provides Service Level Agreement or SLA-backed sustainability service levels that define maximum Watts/TiB consumed per service level, to help you plan, monitor, and meet your IT sustainability goals.
+Performance-based Service Level Agreement (SLA) offers to ensure 99.999% percentile of the latency 
 
-== Sustainability metrics
-The following metrics are used to define and measure sustainability:
 
-* Watts: The daily power consumption of the ONTAP AFF A-series arrays and attached SSD shelves. 
-* TiB: The greater of:
-** the committed capacity and allocated burst capacity for the service level, or
-** the effective deployed capacity, assuming a storage efficiency factor of two. For information about storage efficiency ratio, see https://docs.netapp.com/us-en/active-iq/concept_overview_storage_efficiency.html[Understand storage efficiency^].
 
-== Sustainability service levels
-The following table summarizes the sustainability service levels: Extreme, Premium, and Performance: 
+* Performance SLAs are applicable to the designated burst usage limit, for example, 120% of the committed capacity of a service level.
+* For each service level, IOPS/TiB and latency values are based on the amount of logical data stored in a volume, data operations IOPS, 32KB block size, and a random mix of 70% read and 30% write IO operations.
+* For each service level, the MBps values are based on the amount of logical data stored in a volume, 100% sequential read IO operations, and 32KB block size.
+
+
+== Performance service levels
+The performance service levels (service levels) for NetApp AFF Storage platform are eligible for performance SLA. This includes the service levels for file and block storage, that is Extreme, Performance, Premium, and Standard service levels. 
+
+For information about the latency requirements of the service levels, see link:../concepts/service-levels.html[Service Levels in Keystone].
 
 |===
-|*Service level* | *SLA criteria* |*Minimum committed capacity* |*Platform*
+|*Service level* | *Extreme* |*Premium* |*Performance* |*Standard*
 a|
-Extreme |<=8 watts/TiB |200 TiB |AFF A800 and AFF A900
-a|
-Premium |<=4 watts/TiB |300 TiB |AFF A800 and AFF A900 
-a|
-Performance |<=4 watts/TiB |300 TiB |AFF A800 and AFF A900 
+Target 90^th^ percentile latency |<1ms |<2ms |<4ms |<4ms
+
 |===
 
-== Eligibility criteria for sustainability SLA
-Keystone STaaS subscriptions meeting the following criteria are eligible for SLAs:
+== Target Latency measurement
 
-*	Standard, non-customized Keystone STaaS subscriptions with a single service level, invoiced monthly in arrears.
-*	Subscriptions with the following service levels are eligible: Extreme, Premium, and Performance service levels.
-*	Non-customized, reference Keystone sustainable hardware configurations, consisting of:
-**	ONTAP AFF A-Series storage arrays, for example, NetApp AFF A900 or AFF A800 all-flash storage platform. For information, see https://www.netapp.com/data-storage/aff-a-series[AFF A-Series^]. 
-**	Two-node switchless cluster.
-Commingled and MetroCluster configurations are not supported.
-*	Keystone uses AutoSupport telemetry data and transport mechanism to collect sustainability data. AutoSupport should be enabled and operational on all the ONTAP AFF storage arrays. For more information, see https://docs.netapp.com/us-en/active-iq/concept_autosupport.html[AutoSupport^]. 
-*	The stored data should achieve a minimum average storage efficiency factor of two.
-*	The ambient operating environment temperature should be between 25°C and 27°C.
-*	The minimum committed capacity per service level should be met.
+Target latency is measured by the performance service level (service level) for a volume, and for all the volumes in your Keystone subscription. Latency is sampled every five minutes and the 90^th^ percentile value over a 24-hour period is used as the daily measure. 
 
-== Sustainability reports
-The SLA tab on the Active IQ Digital Advisor (Digital Advisor) Keystone dashboard provides a detailed view of the sustainability metrics for your Keystone subscriptions. You can view the metrics and generate reports for future analysis and actions.
+The following points help you understand the metrics collection and measurement:
+
+* Only those volumes that record at least five IOPS at the time of metrics collection are considered for the sample.
+* Volumes with greater than 30% write IO operations at the time of metrics collection are excluded from the sample.
+* Latency injected by AQoS for the requested IOPs/TiB that is greater than target IOPs/TiB are excluded from the sample set.
+* Latency injected by AQoS to maintain minimum IOPs per volume is not considered. 
+* For volumes that have FabricPool enabled, the latency incurred due to the transfer of data to/from the target (cold) storage is not considered. 
+* Latency caused by the application, host, or customer network outside of the ONTAP cluster is excluded.
+* When using the Advanced Data Protection add-on service, the target latency includes only IO to/from local storage array.
+* During a 24-hour period, at least ten valid metrics should be available. Else, the measurements are discarded.
+
+
+== Eligibility criteria for performance SLA
+Keystone STaaS subscriptions meeting the following criteria are eligible for performance SLAs:
+
+* Supported service levels for ONTAP 9.10 and later.
+* Only new STaaS subscriptions that are nominated and approved by the Keystone sales and internal teams.
+* The minimum Annual Contract Value (ACV) of $150,000.
+* The service levels for performance SLA supporting AQoS policies and all the eligible volumes governed by the AQoS policies.
+* All relevant storage arrays are fully utilized, and the CPU load equally distributed across all controllers.
+* Monitoring tools, data collectors, and AutoSupport tools are installed and enabled.
+* The minimum size of the FlexVol volume is 100 GiB.
+* There is a maximum of 1,000 volumes per controller.
+
+
+== Performance SLA reports
+The SLA tab on the Active IQ Digital Advisor (Digital Advisor) Keystone dashboard provides a detailed view of the performance metrics for your Keystone subscriptions. You can view the metrics and generate reports for future analysis and actions.
 
 For more information about Keystone dashboard and reporting, see link:../integrations/aiq-keystone-details.html[Keystone Subscription dashboard and reporting].
 
-== Sustainability service credits
-If the watts/TiB consumption exceeds or fails to meet the criteria specified in the SLA for a service level, NetApp offers payment of service credit for the differences reported during a billing period, for all eligible subscriptions. If the service level SLA metrics are not met, contact NetApp Global Services Support Center (GSSC) no later than one week prior to the service month end. Having determined the service level breach, the credits are calculated based on the committed capacity of the service level, and credited with the next month's invoice.
+== Performance service credits
+For requesting service credit, follow these steps:
 
-For information, see link:../concepts/gssc.html[NetApp Global Services Support Center].
+. Open a priority 3 (P3) support ticket with Keystone Global Services and Support Center (GSSC). For information, see link:../concepts/gssc.html[NetApp Global Services Support Center].
+. Wait up to 36 hours for the support team to monitor and troubleshoot incidents. Allow up to 96 hours for the team to fix the incident.
+. Meanwhile, for any query, you may contact with GSSC with this information:
+** Support ticket number.
+** Keystone subscription number. 
+** The volumes and storage controllers. 
+** Site, time, date, and description of the issue. 
+** Calculated time duration of the breach of the SLA. 
+** Measurement tools and method.
+** Any other applicable document.
+. If there is an SLA breach that is acknowledged by NetApp, initiate a service credit request within six weeks of the validation of the SLA breach.
+
+Note these points:
+
+* The service credit is applicable to the invoice raised for your consumed capacity in the next billing cycle for the specific Keystone subscription.
+* Service credit is not applicable after the expiration of the Keystone subscription.
+* Customer inquiries regarding this SLA should be directed to NetApp Keystone Global Services and Support Centre and should include the following information:
+
+
+
