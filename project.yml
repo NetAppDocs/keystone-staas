@@ -102,11 +102,11 @@ sidebar:
          url: /integrations/aiq-keystone-details.html
     - title: Keystone STaaS SLA
       entries:
-        - title: Availability SLA service levels
+        - title: Availability SLA
           url: /concepts/sla-availability.html
-        - title: Performance SLA service levels
+        - title: Performance SLA
           url: /concepts/sla-performance.html                       
-        - title: Sustainability SLA service levels
+        - title: Sustainability SLA
           url: /concepts/sla-sustainability.html         
     - title: Partner and customer-operated environments
       url: /concepts/operational-models.html
