@@ -34,9 +34,9 @@ a|
 
 |===
 
-== Target Latency measurement
+== Target latency measurement
 
-Target latency is measured by the performance service level (service level) for a volume, and for all the volumes in your Keystone subscription. Latency is sampled every five minutes, and the 90^th^ percentile value over a 24-hour period is used as the daily measure. From the records filtered based on the specified criteria, the 90^th^ percentile of the latency is selected, and if that value is less than the target latency for a service level, performance SLA is considered to have been breached.
+Target latency is measured by the performance service level (service level) for a volume, and for all the volumes in your Keystone subscription. Latency is sampled every five minutes, and the 90^th^ percentile value over a 24-hour period is used as the daily measure. From the records filtered based on the specified criteria, the 90^th^ percentile of the latency is selected, and if that value is less than the target latency for a service level, performance SLA is considered to have been breached. On an SLA breach credits would be calculated and issues proportionately based on the target latency of the respective service level.
 
 The following points help you understand the metrics collection and measurement:
 
@@ -50,7 +50,7 @@ The following points help you understand the metrics collection and measurement:
 * During a 24-hour period, at least ten valid metrics should be available. Else, the metrics are discarded.
 
 
-== Eligibility criteria for performance SLA
+== Eligibility criteria
 Keystone STaaS subscriptions meeting the following criteria are eligible for performance SLAs:
 
 * Service levels supported on ONTAP 9.10 and later.
@@ -83,7 +83,7 @@ If there is an SLA breach that is acknowledged by NetApp, initiate a service cre
 ** Any other applicable document.
 
 [NOTE]
-The service credit is applicable to the invoice raised for your consumed capacity in the next billing cycle for the specific Keystone subscription. Service credit is not applicable after the expiration of the Keystone subscription.
+The service credit is applicable to the invoice raised for your consumed capacity in the next billing cycle for the specific Keystone subscription. Service credit do not apply to expired Keystone subscriptions.
 
 
 
