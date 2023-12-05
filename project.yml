@@ -92,6 +92,22 @@ sidebar:
           url: /concepts/misc-volume-billing.html
         - title: Billing schedules
           url: /concepts/billing-schedules.html
+    - title: Do more with Keystone Services
+      entries:
+       -  title: Keystone and BlueXP
+          url: /integrations/keystone-cm.html
+       -  title: Keystone and Active IQ Digital Advisor
+          url: /integrations/keystone-aiq.html
+       - title: Active IQ Digital Advisor reporting for Keystone
+         url: /integrations/aiq-keystone-details.html
+    - title: Keystone STaaS SLA
+      entries:
+        - title: Availability SLA service levels
+          url: /concepts/sla-availability.html
+        - title: Performance SLA service levels
+          url: /concepts/sla-performance.html                       
+        - title: Sustainability SLA service levels
+          url: /concepts/sla-sustainability.html         
     - title: Partner and customer-operated environments
       url: /concepts/operational-models.html
     - title: Keystone infrastructure
@@ -102,24 +118,8 @@ sidebar:
           url: /concepts/components.html
        -  title: Data flow
           url: /concepts/data-flow.html
-    - title: Keystone STaaS SLA
-      entries:
-        - title: Availability SLA service levels
-          url: /concepts/sla-availability.html
-        - title: Performance SLA service levels
-          url: /concepts/sla-performance.html                       
-        - title: Sustainability SLA service levels
-          url: /concepts/sla-sustainability.html         
     - title: NetApp Global Services Support Center
       url: /concepts/gssc.html
-    - title: Do more with Keystone Services
-      entries:
-       -  title: Keystone and BlueXP
-          url: /integrations/keystone-cm.html
-       -  title: Keystone and Active IQ Digital Advisor
-          url: /integrations/keystone-aiq.html
-       - title: Active IQ Digital Advisor reporting for Keystone
-         url: /integrations/aiq-keystone-details.html
     - title: Legal notices
       url: /legal-notices.html
 

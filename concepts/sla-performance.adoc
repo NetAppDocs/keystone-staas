@@ -68,7 +68,7 @@ The SLA tab on the Active IQ Digital Advisor (Digital Advisor) Keystone dashboar
 
 For more information about Keystone dashboard and reporting, see link:../integrations/aiq-keystone-details.html[Keystone Subscription dashboard and reporting].
 
-== Performance service credits
+== Service credits
 If there is an SLA breach that is acknowledged by NetApp, initiate a service credit request within six weeks of the validation of the SLA breach. For requesting service credit, follow these steps:
 
 . Open a priority 3 (P3) support ticket with Keystone Global Services and Support Center (GSSC). For information, see link:../concepts/gssc.html[NetApp Global Services Support Center].

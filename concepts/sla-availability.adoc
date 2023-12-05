@@ -15,20 +15,21 @@ summary: availability, sla, service level agreement
 [.lead]
 NetApp offers Service Level Agreements (SLAs) for ensuring continuous uptime of your systems governed by Keystone STaaS. Availability SLA ensures to provide at least 99.999% average uptime during a billing period across all NetApp AFF storage arrays for your Keystone StaaS subscriptions.
 
-The failover events are calculated 15 seconds after the failover till the HA failover is complete, after which it is considered as a system downtime. The capacity affected during the downtime is also measured, in terms of the affected nodes and volumes, and on an SLA breach credits would be calculated and issues proportionately based on the committed capacity of the respective service level. 
+The events are calculated 15 seconds after the failover is detected, till the HA failover is complete, which is consequently considered as a system downtime. The capacity affected during the downtime is also measured, in terms of the affected nodes and volumes, and on an SLA breach credits would be calculated and issues proportionately based on the committed capacity of the respective service level. 
 
+[TIP]
+Downtime is the period of time during which both the controllers within an HA pair of a storage array are unavailable, with an exception of the amount of time when the subscription services are unavailable due to scheduled maintenance, upgrades, support activities, or situations outside of the control or responsibilities of Keystone services.
 
 == Service levels of availability SLA
 The service levels for NetApp AFF Storage platform are eligible for availability SLA. This includes the service levels for file and block storage, that is Extreme, Performance, Premium, and Standard service levels. 
 
 For information about service levels, see link:../concepts/service-levels.html[Service Levels in Keystone].
 
-== Availability metrics
-The metrics for availability and uptime SLA is considered 
+=== Availability metrics
+The metrics for availability and uptime SLA are calculated as this: 
 
-monthly uptime percentage = [(maximum available minutes – downtime) / maximum available minutes] x 100%
-maximum available minutes = total number of minutes in a billing period
-downtime = the period of time during which both controllers, within an HA pair of a Storage Array, are unavailable, as determined by NetApp, excluding a period of time when the Subscription Services are not available due to scheduled or mutually agreed upon time period for NetApp to perform maintenance, upgrades, or support activities, or due to situations outside of NetApp or Keystone Service control or responsibilities.
+* *Monthly uptime percentage* = [(maximum available minutes - downtime) / maximum available minutes] x 100%
+* *Maximum available minutes* = total number of minutes in a billing period
 
 == Eligibility criteria
 Keystone STaaS subscriptions should meet following criteria for being eligible for availability SLAs:
@@ -46,7 +47,7 @@ The SLA tab on the Active IQ Digital Advisor (Digital Advisor) Keystone dashboar
 
 For more information about Keystone dashboard and reporting, see link:../integrations/aiq-keystone-details.html[Keystone Subscription dashboard and reporting].
 
-== Availability service credits
+== Service credits
 If there is an SLA breach that is acknowledged by NetApp, initiate a service credit request within six weeks of the validation of the SLA breach. For requesting service credit, follow these steps:
 
 . Open a priority 3 (P3) support ticket with Keystone Global Services and Support Center (GSSC). For information, see link:../concepts/gssc.html[NetApp Global Services Support Center].
