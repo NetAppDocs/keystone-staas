@@ -19,6 +19,7 @@ The performance-based Service Level Agreement (SLA) of NetApp Keystone STaaS ens
 * The MBps values for a service level are based on the amount of logical data stored in a volume, 100% sequential read IO operations, and 32KB block size.
 * Performance SLAs are applicable to the designated burst usage limit, for example, 120% of the committed capacity of a service level. For information about burst usage, see link:../concepts/supported-storage-capacity.html#burst-capacity[Burst capacity].
 
+You can learn about any issues related to SLA from the Keystone widget on the Active IQ Digital Advisor dashboard.
 
 == Service levels of performance SLA
 The service levels for NetApp AFF storage platform are eligible for performance SLA. This includes the service levels for file and block storage, that is Extreme, Performance, Premium, and Standard service levels. 
@@ -50,7 +51,7 @@ The following points help you understand the metrics collection and measurement:
 * During a 24-hour period, at least ten valid metrics should be available. Else, the metrics are discarded.
 
 
-== Eligibility criteria
+== Eligibility criteria for performance SLA
 Keystone STaaS subscriptions meeting the following criteria are eligible for performance SLAs:
 
 * Service levels supported on ONTAP 9.10 and later.

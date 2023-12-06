@@ -17,6 +17,8 @@ NetApp offers Service Level Agreements (SLAs) for ensuring continuous uptime of 
 
 Events are calculated from 15 seconds after a failover is detected, till the HA failover is over, which is consequently considered as a system downtime. The capacity affected during the downtime is also calculated in terms of the affected nodes and volumes. NetApp offers payment of service credit that is calculated and issued proportionately based on the committed capacity of the respective performance service level (service level) during a billing period, for all eligible subscriptions.
 
+You can learn about any issues related to SLA from the Keystone widget on the Active IQ Digital Advisor dashboard.
+
 [TIP]
 Downtime is the period of time during which both the controllers within an HA pair of a storage array are unavailable, with an exception of the amount of time when the subscription services are unavailable due to scheduled maintenance, upgrades, support activities, or situations outside of the control or responsibilities of Keystone services.
 
@@ -31,7 +33,7 @@ The metrics for availability and uptime SLA are calculated as this:
 * *Monthly uptime percentage* = [(maximum available minutes - downtime) / maximum available minutes] x 100%
 * *Maximum available minutes* = total number of minutes in a billing period
 
-== Eligibility criteria
+== Eligibility criteria for availability SLA
 Keystone STaaS subscriptions should meet following criteria for being eligible for availability SLAs:
 
 * ONTAP 9.10 and later should be installed. The ONTAP version should not be upgraded or modified during the reported event.
