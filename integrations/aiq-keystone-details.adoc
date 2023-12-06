@@ -86,17 +86,28 @@ Service Level Agreements (SLAs) are a key component of NetApp's cloud storage so
 .Learn more
 [%collapsible]
 ====
-The *Availability SLA* tab is available only if you have a valid availability SLA with NetApp. For information about availability SLA in Keystone STaaS, see link:../concepts/sla-availability.html[Availability SLA for Keystone].
-
-The *Availability SLA* tab provides you with the availability SLA details on a monthly basis.
+The *Availability SLA* tab is available only if you have a valid availability SLA with NetApp. For information about availability SLA in Keystone STaaS, see link:../concepts/sla-availability.html[Availability SLA for Keystone]. The *Availability SLA* tab displays the uptime data on a monthly basis.
 
 .Steps
 . Click *SLA Details > Availability SLA*.
-. Select the required subscription and volume for which you want to view the availability data. You can view only those subscriptions and volumes on the list that meet the criteria for availability SLA. For information about the criteria, see link:../concepts/sla-availability.html#eligibility-criteria-for-availability-sla[Eligibility criteria for availability SLA].
+. Select the required subscription and volume for which you want to view the availability data. You can view only those subscriptions on the list that meet the criteria for availability SLA. For information about the criteria, see link:../concepts/sla-availability.html#eligibility-criteria-for-availability-sla[Eligibility criteria for availability SLA].
 . Select the months for which you want to view the details. By default, the data for last one year is displayed. You can only select the date range during which the subscription has been active.
 . Click *View Details*. You can see a monthly breakdown of the availability metrics for the selected months:
 
+[TIP]
+A downtime record that breaches the availability SLA for a subscription and service level is highlighted. Because the data displayed is on a monthly basis, the availability data for an ongoing month might not be displayed on the screen.
+
 image:avl-sla.png[screen displaying availability sla details]
+
+You can view the following details, along with the name of the service level and cluster, and also the type of the volume, whether it has read and write permissions enabled.
+
+* *Month-Year*: The name of the month in a year.
+* *Total days*: The number of days in the month.
+* *AutoSupport*: The number of days when telemetry data was received in the form of AutoSupport bundles by NetApp support for a node. This data is used for calculating uptime and downtime during the month. 
+* *Total Uptime (seconds)*: Total time period broken down in seconds for the month.
+* *Outage time*: Number of reported outage during the month.
+* *Effective Uptime*: This is the total uptime (in seconds) for which there was constant availability in the system. The time period is derived by deducting the downtime, if any, from the total uptime.
+* *Uptime*: The percentage of total time when the system was up.
 
 ====
 
@@ -104,17 +115,25 @@ image:avl-sla.png[screen displaying availability sla details]
 .Learn more
 [%collapsible]
 ====
-The *Performance SLA* tab is available only if you have a valid performance SLA with NetApp. For information about performance SLA in Keystone STaaS, see link:../concepts/sla-performance.html[Performance SLA for Keystone].
-
-The *Performance SLA* tab provides you with the performance SLA details.
+The *Performance SLA* tab is available only if you have a valid performance SLA with NetApp. For information about performance SLA in Keystone STaaS, see link:../concepts/sla-performance.html[Performance SLA for Keystone]. The *Performance SLA* tab displays the daily graph indicating the 90^th^ percentile of latency for a specific date range.
 
 .Steps
 . Click *SLA Details > Performance SLA*.
-. Select the required subscription for which you want to view the details. You can view only those subscriptions that meet the criteria for performance SLA. For information about the criteria, see link:../concepts/sla-performance.html#eligibility-criteria-for-performance-sla[Eligibility criteria for performance SLA].
-. Select the year and month for which you want to view the details. By default, the data for the current month is displayed. You can select the year and month during which the subscription has been active.
+. Select the required subscription and volume for which you want to view the details. You can view only those subscriptions that meet the criteria for performance SLA. For information about the criteria, see link:../concepts/sla-performance.html#eligibility-criteria-for-performance-sla[Eligibility criteria for performance SLA].
+. Select the date range for which you want to view the details. By default, the date range for the current month is displayed. You can select a date range during which the subscription has been active.
 . Click *View Details*.
 
 image:perf-sla.png[screen displaying performance sla details]
+
+You view the following details, along with the name of the service level and cluster, and also the type of the volume, whether it has read and write permissions enabled. If there are any warnings for the volume, you can also view that.
+
+* *Latency (ms)*: The Y axis displays the latency graph for the day in milliseconds, starting with `0`.
+* X axis: The X axis displays the dates of the daily metrics when the data was collected.
+* *SLA*: The target latency for the SLA that is determined for the respective service level. 
+* *Minimum*: The minimum latency (in milliseconds) as collected for the date range of the query. 
+* *Maximum*: The maximum latency (in milliseconds) as collected for the date range of the query.
+* *Average*: The average latency (in milliseconds) as collected for the date range of the query.
+* *SLA Reference Line*: If you click this check box, a grey line appears on the graph to indicate the deviation in terms of the target latency defined in the SLA.
 
 ====
 
@@ -122,7 +141,7 @@ image:perf-sla.png[screen displaying performance sla details]
 .Learn more
 [%collapsible]
 ====
-The *Sustainability SLA* tab is available only if you have a valid sustainability service level agreement (SLA) with NetApp. For information about sustainability SLA in Keystone STaaS, see link:../concepts/sla-sustainability.html[Sustainability SLA for Keystone].
+The *Sustainability SLA* tab is available only if you have a valid sustainability service level agreement (SLA) with NetApp. For information about sustainability in Keystone STaaS, see link:../concepts/sla-sustainability.html[Sustainability SLA for Keystone].
 
 The *Sustainability SLA* tab provides you with the sustainability SLA details.
 
