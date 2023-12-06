@@ -88,13 +88,15 @@ Service Level Agreements (SLAs) are a key component of NetApp's cloud storage so
 ====
 The *Availability SLA* tab is available only if you have a valid availability SLA with NetApp. For information about availability SLA in Keystone STaaS, see link:../concepts/sla-availability.html[Availability SLA for Keystone].
 
-The *Availability SLA* tab provides you with the availability SLA details.
+The *Availability SLA* tab provides you with the availability SLA details on a monthly basis.
 
 .Steps
 . Click *SLA Details > Availability SLA*.
-. Select the required subscription and volume for which you want to view the details. You can view only those subscriptions that meet the criteria for availability SLA. For information about the criteria, see link:../concepts/sla-sustainability.html#eligibility-criteria-for-sustainability-sla[Eligibility criteria for sustainability SLA].
-. Select the year and month for which you want to view the details. By default, the data for the current month is displayed. You can select the year and month during which the subscription has been active.
+. Select the required subscription and volume for which you want to view the availability data. You can view only those subscriptions and volumes on the list that meet the criteria for availability SLA. For information about the criteria, see link:../concepts/sla-availability.html#eligibility-criteria-for-availability-sla[Eligibility criteria for availability SLA].
+. Select the months for which you want to view the details. By default, the data for last one year is displayed. You can only select the date range during which the subscription has been active.
+. Click *View Details*. You can see a monthly breakdown of the availability metrics for the selected months:
 
+image:avl-sla.png[screen displaying availability sla details]
 
 ====
 
@@ -104,12 +106,15 @@ The *Availability SLA* tab provides you with the availability SLA details.
 ====
 The *Performance SLA* tab is available only if you have a valid performance SLA with NetApp. For information about performance SLA in Keystone STaaS, see link:../concepts/sla-performance.html[Performance SLA for Keystone].
 
-The *Performance SLA* tab provides you with the sustainability SLA details.
+The *Performance SLA* tab provides you with the performance SLA details.
 
 .Steps
-. Click *SLA Details > Sustainability SLA*.
-. Select the required subscription for which you want to view the details. You can view only those subscriptions that meet the criteria for sustainability SLA. For information about the criteria, see link:../concepts/sla-sustainability.html#eligibility-criteria-for-sustainability-sla[Eligibility criteria for sustainability SLA].
+. Click *SLA Details > Performance SLA*.
+. Select the required subscription for which you want to view the details. You can view only those subscriptions that meet the criteria for performance SLA. For information about the criteria, see link:../concepts/sla-performance.html#eligibility-criteria-for-performance-sla[Eligibility criteria for performance SLA].
 . Select the year and month for which you want to view the details. By default, the data for the current month is displayed. You can select the year and month during which the subscription has been active.
+. Click *View Details*.
+
+image:perf-sla.png[screen displaying performance sla details]
 
 ====
 
@@ -125,8 +130,9 @@ The *Sustainability SLA* tab provides you with the sustainability SLA details.
 . Click *SLA Details > Sustainability SLA*.
 . Select the required subscription for which you want to view the details. You can view only those subscriptions that meet the criteria for sustainability SLA. For information about the criteria, see link:../concepts/sla-sustainability.html#eligibility-criteria-for-sustainability-sla[Eligibility criteria for sustainability SLA].
 . Select the year and month for which you want to view the details. By default, the data for the current month is displayed. You can select the year and month during which the subscription has been active.
+. Click *View Details*.
 
-You can see a daily breakdown of measured sustainability-related metrics for the selected month:
+You can see a daily breakdown of the sustainability metrics for the selected month:
 
 image:sla-sustainability.png[sla details tab listing sustainability details]
 
