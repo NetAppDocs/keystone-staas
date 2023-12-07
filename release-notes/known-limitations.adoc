@@ -13,26 +13,21 @@ summary: Known limitations identify platforms, devices, or functions that are no
 :imagesdir: ./media/
 
 [.lead]
-Known limitations identify platforms, devices, or functions that are not supported by this release of the product, or that do not interoperate correctly with it. Review these limitations carefully.
+Known limitations identify platforms, devices, or functions that are not supported by Keystone STaaS services or components, or that do not interoperate correctly. Review these limitations carefully.
 
-These limitations are specific to BlueXP set up and administration: the Connector, the SaaS platform, and more.
+== Keystone Collector limitations
 
-== Connector limitations
+=== Keystone Collector cannot start on vSphere 8.0 Update 1 
+A Keystone Collector virtual machine (VM) with VMware vSphere version 8.0 Update 1 cannot be switched on, and the following error is displayed:
 
-=== Default EC2 instance settings should not be changed
+`Property 'Gateway' must be configured for the VM to power on.`
 
-When you deploy the Connector in AWS, the following EC2 instance settings are configured by default:
+See Knowledge Base article link:https://kb.netapp.com/hybrid/Keystone/Collector/Keystone_Collector_fails_to_start_on_vSphere_8.0_U1[Keystone Collector fails to start on vSphere 8.0 U1] for information and resolution.
 
-* IMDSv2 is set to optional
-* HttpTokens is set to optional
+=== Keystone Collector cannot verify CA certificate
+The Keystone Collector service is unable to communicate with the internet, and the following error is displayed:
 
-These settings should not be changed to required. Changing these settings to required impacts the Connector and Cloud Volumes ONTAP availability.
+`tls: failed to verify certificate: x509: certificate signed by unknown authority`
 
-=== Possible conflict with IP addresses in the 172 range
-
-BlueXP deploys the Connector with two interfaces that have IP addresses in the 172.17.0.0/16 and 172.18.0.0/16 ranges.
-
-If your network has a subnet configured with either of these ranges, then you might experience connectivity failures from BlueXP. For example, discovering on-prem ONTAP clusters in BlueXP might fail.
-
-See Knowledge Base article link:https://kb.netapp.com/Advice_and_Troubleshooting/Cloud_Services/Cloud_Manager/Cloud_Manager_shows_inactive_as_Connector_IP_range_in_172.x.x.x_conflict_with_docker_network[BlueXP Connector IP conflict with existing network] for instructions on how to change the IP address of the Connector’s interfaces.
+See Knowledge Base article link:https://kb.netapp.com/hybrid/Keystone/Collector/Keystone_Collector_fails_to_verify_CA_certificate[Keystone Collector fails to verify CA certificate] for information and resolution.
 

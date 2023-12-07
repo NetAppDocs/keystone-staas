@@ -1,0 +1,25 @@
+---
+sidebar: sidebar
+permalink: release-notes/fixed-issues.html
+keywords: fixed issues
+summary: issues fixed in different releases of Keystone STaaS
+---
+
+= Fixed issues
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+Issues that were found in previous releases of NetApp Keystone STaaS services have been fixed in later releases. The following table lists the fixes.
+
+[cols="3*",options="header"]
+|===
+|Issue Description |After the fix |Fixed in release
+a|
+a|
+a|December 13, 2023
+a|
+a|

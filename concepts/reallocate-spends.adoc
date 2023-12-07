@@ -13,13 +13,13 @@ summary: Keystone pricing
 :imagesdir: ../media/
 
 [.lead]
-Keystone STaaS offers you the option to allocate a portion of the designated expenses towards your subscribed file, block, or object storage service levels to hybrid cloud storage service. 
+Keystone STaaS offers you the option to reallocate on-premises service spend to Cloud Volumes ONTAP spend.
 
-This functionality is available for the Extreme, Premium, Performance, Standard, Value, Data Tiering, and Object service levels on your on-premises storage services. Up to 25% of the Annual Contract Value (ACV) could be reallocated at a quarterly basis to Cloud Volumes ONTAP Primary and Cloud Volumes ONTAP Secondary services:
+You can allocate a portion of your expenses towards your subscribed file, block, or object storage service levels to hybrid cloud storage services. Up to 25% of the Annual Contract Value (ACV) can be reallocated on a quarterly basis to Cloud Volumes ONTAP Primary and Cloud Volumes ONTAP Secondary services: 
 
 image:reallocation.png[reallocation logic explained]
 
-The following table provides a set of sample values to demonstrate how the reallocation of expenses works. In this example, `$5000` from the monthly spend is reallocated to hybrid cloud storage service.
+This table provides a set of sample values to demonstrate how the reallocation of expenses works. In this example, `$5000` from the monthly spend is reallocated to hybrid cloud storage service.
 
 
 |===
