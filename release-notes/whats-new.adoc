@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: release-notes/whats-new.html
-keywords: new features, release notes, enhancements
+keywords: new features, release notes, enhancements, what's new
 summary: Keystone STaaS new features and enhancements.
 ---
 
@@ -13,16 +13,16 @@ summary: Keystone STaaS new features and enhancements.
 :imagesdir: ./media/
 
 [.lead]
-NetApp offers you new and enhanced features in the following releases of the Keystone STaaS services.
+NetApp offers you new and enhanced features in every release of Keystone STaaS services.
 
 == New features and enhancements for December 13, 2023
 
-This release contains the following enhancements
+Learn what's new with this release.
 
 === Ability to search by watchlists
-The support for watchlists in Active IQ Digital Advisor has been extended to include Keystone systems. You can now view the details of the subscriptions for multiple customers and node serial numbers by searching with watchlists. For more information about the use of watchilists in Keystone STaaS, see link:../integrations/keystone-aiq.html[Keystone and Digital Advisor].
+The support for watchlists in Active IQ Digital Advisor has been extended to include Keystone systems. You can now view the details of the subscriptions for multiple customers and node serial numbers by searching with watchlists. For more information about the use of watchlists in Keystone STaaS, see link:../integrations/keystone-aiq.html[Keystone and Digital Advisor].
 
-== Data converted to UTC timezone
+== Date converted to UTC timezone
 The data returned on the tabs of the *Keystone Subscriptions* screen on Active IQ Digital Advisor is displayed in UTC time (server timezone). When you enter a date for query, you might have to convert your local time to UTC time. For more information, see link:../integrations/aiq-keystone-details.html[Keystone Subscription dashboard and reporting].
 
 

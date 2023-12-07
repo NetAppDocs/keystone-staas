@@ -21,8 +21,8 @@ Issues that were found in previous releases of NetApp Keystone STaaS services ha
 a|The usage indicator for a burst consumption record was being displayed in amber.
 a|The indicator appears in red.
 a|December 13, 2023
-a|Issues in displaying data in Capacity Trend, Current Usage, and Performance tabs to UTC timezone.
-a|The data in all the tabs is displayed in UTC time (server timezone).
+a|The date range and data in the Capacity Trend, Current Usage, and Performance tabs were not converted to UTC timezone.
+a|The date range for query and date stamp of the data in all the tabs are displayed in UTC time (server timezone).
 a|December 13, 2023
 a|There was a mismatch in the *Start date* and *End date* between the data displayed on the tabs and the downloaded CSV report.
 a|Fixed.
