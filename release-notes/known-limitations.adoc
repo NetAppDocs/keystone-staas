@@ -22,12 +22,12 @@ A Keystone Collector virtual machine (VM) with VMware vSphere version 8.0 Update
 
 `Property 'Gateway' must be configured for the VM to power on.`
 
-See Knowledge Base article link:https://kb.netapp.com/hybrid/Keystone/Collector/Keystone_Collector_fails_to_start_on_vSphere_8.0_U1[Keystone Collector fails to start on vSphere 8.0 U1] for information and resolution.
+See Knowledge Base article link:https://kb.netapp.com/hybrid/Keystone/Collector/Keystone_Collector_fails_to_start_on_vSphere_8.0_U1[Keystone Collector fails to start on vSphere 8.0 U1^] for information and resolution.
 
 === Keystone Collector cannot verify CA certificate
 The Keystone Collector service is unable to communicate with the internet, and the following error is displayed:
 
 `tls: failed to verify certificate: x509: certificate signed by unknown authority`
 
-See Knowledge Base article link:https://kb.netapp.com/hybrid/Keystone/Collector/Keystone_Collector_fails_to_verify_CA_certificate[Keystone Collector fails to verify CA certificate] for information and resolution.
+See Knowledge Base article link:https://kb.netapp.com/hybrid/Keystone/Collector/Keystone_Collector_fails_to_verify_CA_certificate[Keystone Collector fails to verify CA certificate^] for information and resolution.
 
