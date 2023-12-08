@@ -78,8 +78,8 @@ sidebar:
           url: /concepts/qos.html
         - title: Capacity requirements for Service Levels
           url: /concepts/capacity-requirements.html
-        - title: Reallocation of expenses from on-premises to cloud service
-          url: /concepts/reallocate-spends.html      
+        - title: Sustainability SLA
+          url: /concepts/sla-sustainability.html    
     - title: Billing
       entries:
         - title: Keystone pricing
@@ -102,14 +102,6 @@ sidebar:
           url: /integrations/keystone-aiq.html
        - title: Active IQ Digital Advisor reporting for Keystone
          url: /integrations/aiq-keystone-details.html
-    - title: Keystone STaaS SLA
-      entries:
-        - title: Availability SLA
-          url: /concepts/sla-availability.html
-        - title: Performance SLA
-          url: /concepts/sla-performance.html                       
-        - title: Sustainability SLA
-          url: /concepts/sla-sustainability.html         
     - title: Partner and customer-operated environments
       url: /concepts/operational-models.html
     - title: Keystone infrastructure
@@ -151,8 +143,8 @@ homepage:
           url: /concepts/data-tiering.html
         - title: Is my Keystone data protected?
           url: /concepts/adp.html
-        - title: How can I see my consumption per service level?
-          url: /integrations/aiq-keystone-details.html 
+        - title: Can I reallocate my spend from on-premises to cloud?
+          url: /concepts/capacity-requirements.html#capacity-adjustments
     - title: Keystone pricing
       links:
       - title: Know about Keystone billing
@@ -167,12 +159,12 @@ homepage:
         url: /concepts/burst-consumption-billing.html
     - title: Do more with Keystone Services
       links:
+        - title: View usage and generate reports from Digital Advisor
+          url: /integrations/keystone-aiq.html
         - title: Know your support team (Keystone GSSC)
           url: /concepts/gssc.html
         - title: Keystone and BlueXP
           url: /integrations/keystone-cm.html
-        - title: Keystone and Active IQ Digital Advisor
-          url: /integrations/keystone-aiq.html
         - title: US Citizen Support
           url: /concepts/uscs.html
     - title: Know more
