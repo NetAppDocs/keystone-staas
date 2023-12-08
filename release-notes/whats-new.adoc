@@ -17,7 +17,7 @@ NetApp offers you new and enhanced features in every release of Keystone STaaS s
 
 == New features and enhancements for December 13, 2023
 
-Learn what's new with this release.
+Learn what's new in this release.
 
 === Ability to search by watchlists
 The support for watchlists in Active IQ Digital Advisor has been extended to include Keystone systems. You can now view the details of the subscriptions for multiple customers and node serial numbers by searching with watchlists. For more information about the use of watchlists in Keystone STaaS, see link:../integrations/keystone-aiq.html[Keystone and Digital Advisor^].
