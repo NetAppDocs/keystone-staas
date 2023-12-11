@@ -71,7 +71,7 @@ Capacity reduction (annual) is applicable to the _Annual in Advance_ payment mod
 
 image:capacity-reduction.png[image displaying capacity reduction]
 
-=== Quarterly spend reallocation
+=== ##Quarterly spend reallocation##
 Keystone STaaS offers you the option to reallocate on-premises service spend to Cloud Volumes ONTAP spend.
 
 Requirements and conditions at a subscription level:

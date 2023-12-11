@@ -30,7 +30,7 @@ To view your Keystone subscription and usage details, perform the following step
 The details of the subscriptions, usage charts for each service level, and volume details are displayed in the different tabs on the *Keystone Subscriptions* screen.
 
 [NOTE]
-Capacity consumption in Keystone subscriptions is displayed in TiBs on the dashboards and reports, and is rounded off to two decimal places. If the usage is less than 0.01 TiB, then the value is shown as 0 or `No Usage`. The data on these screens is displayed in UTC time (server timezone). When you enter a date for query, you might have to convert your local time to UTC time.
+Capacity consumption in Keystone subscriptions is displayed in TiBs on the dashboards and reports, and is rounded off to two decimal places. If the usage is less than 0.01 TiB, then the value is shown as 0 or `No Usage`. ##The data on these screens is displayed in UTC time (server timezone). When you enter a date for query, you might have to convert your local time to UTC time.##
 
 //NSEKEY-8547 
 
@@ -80,7 +80,7 @@ The image:icon-info.png[information icon] icon next to each column provides comp
 For information about your Keystone storage services and the relevant service levels, see link:../concepts/service-levels.html[Service Levels in Keystone].
 
 == SLA Details
-Service Level Agreements (SLAs) are a key component of NetApp's cloud storage solutions. SLAs aim to provide effective, high-quality, and reliable storage solution as a part of Keystone STaaS service offerings. The *SLA Details* tab is available only if you have a valid sustainability SLA with NetApp.
+##Service Level Agreements (SLAs) are a key component of NetApp's cloud storage solutions. SLAs aim to provide effective, high-quality, and reliable storage solution as a part of Keystone STaaS service offerings. The *SLA Details* tab is available only if you have a valid sustainability SLA with NetApp.##
 
 === View sustainability SLA details
 .Learn more
@@ -93,7 +93,7 @@ The *Sustainability SLA* tab provides you with the sustainability SLA details.
 .Steps
 . Click *SLA Details > Sustainability SLA*.
 . Select the required subscription for which you want to view the details. You can view only those subscriptions that meet the criteria for sustainability SLA. For information about the criteria, see link:../concepts/sla-sustainability.html#eligibility-criteria-for-sustainability-sla[Eligibility criteria for sustainability SLA].
-. Select the year and month for which you want to view the details. By default, the data for the current month is displayed. You can select the year and month during which the subscription has been active.
+. ##Select the year and month for which you want to view the details. By default, the data for the current month is displayed. You can select the year and month during which the subscription has been active.##
 . Click *View Details*.
 
 You can see a daily breakdown of the sustainability metrics for the selected month:
