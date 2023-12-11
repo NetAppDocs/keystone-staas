@@ -24,10 +24,16 @@ A Keystone Collector virtual machine (VM) with VMware vSphere version 8.0 Update
 
 See Knowledge Base article link:https://kb.netapp.com/hybrid/Keystone/Collector/Keystone_Collector_fails_to_start_on_vSphere_8.0_U1[Keystone Collector fails to start on vSphere 8.0 U1^] for information and resolution.
 
-=== Keystone Collector cannot verify CA certificate
-The Keystone Collector service is unable to communicate with the internet, and the following error is displayed:
+=== Issues in support bundle generation on Kerberos
+If the Keystone Collector home directory is mounted over NFSv4 using Kerberos, the support bundle is not generated, and the following error message is displayed:
 
-`tls: failed to verify certificate: x509: certificate signed by unknown authority`
+`subprocess.CalledProcessError: Command '['sosreport', '--batch', '-q', '--tmp-dir', '/home/<user>']' returned non-zero exit status 1.`
 
-See Knowledge Base article link:https://kb.netapp.com/hybrid/Keystone/Collector/Keystone_Collector_fails_to_verify_CA_certificate[Keystone Collector fails to verify CA certificate^] for information and resolution.
+See Knowledge Base article https://kb.netapp.com/hybrid/Keystone/Collector/Keystone_Collector_fails_to_generate_support_bundle_on_Kerberized_home_directory[Keystone Collector fails to generate support bundle on Kerberized home directory^] for information and resolution.
+
+=== Issue for Keystone Collector in communicating within specific network range
+Keystone Collector is unable to communicate with devices within the 10.88.0.0/16 network range when the `ks-collector` service is running. See Knowledge Base article link:https://kb.netapp.com/hybrid/Keystone/Collector/Keystone_Collector_container_conflict_with_customer_network[Keystone Collector container conflict with customer network^] for information and resolution.
+
+=== Keystone Collector cannot verify CA certificate when SSL is enabled for MitM attacks
+If, in an environment, SSL/TLS inspection is enabled at the border firewall to stop man-in-the-middle (MitM) attacks, Keystone Collector is unable to establish an HTTPS connection because the certificate is not from a trusted certificate authority (CA). See Knowledge Base article link:https://kb.netapp.com/hybrid/Keystone/Collector/Keystone_Collector_cannot_verify_Customer_Root_SSL_CA_certificate[Keystone Collector cannot verify Customer Root SSL CA certificate^] for information and resolution.
 
