@@ -56,8 +56,7 @@ Watchlist is a feature of Active IQ Digital Advisor. For information, see https:
 Keystone STaaS supports creation of watchlists and searching by them to view subscription details of multiple customers. Follow these steps to create a watchlist for Keystone customers:
 
 . On the *Create Watchlist* screen, provide a name for the Keystone watchlist.
-. Select *Category* in the *Add Systems by* field.
-. Select *Customer* in the *Choose Category* field.
+. Select *Category* in the *Add Systems by* field. *Customer* is selected by default in the *Choose Category* field.
 . Search for the required customers by their names and add them. You can add customers whose details you are entitled to view.
 . Click *Create Watchlist*. The Digital Advisor screen displays the data for the new watchlist.
 
