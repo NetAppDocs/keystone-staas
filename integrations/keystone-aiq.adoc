@@ -62,5 +62,7 @@ Keystone STaaS supports creation of watchlists and searching by them to view sub
 
 Searching by a watchlist on the Digital Advisor dashboard displays the Keystone customers and their subscriptions in the *Subscription* drop-down list on the *Keystone Subscriptions* widget. 
 
+image:watchlist.png[watchlist screen]
+
 [TIP]
 If you are viewing the new dashboard on the *Keystone Subscriptions* widget, click *Switch to New Dashboard* to view the list.
