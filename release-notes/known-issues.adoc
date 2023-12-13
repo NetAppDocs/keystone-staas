@@ -18,7 +18,7 @@ The following known issues have been reported in NetApp Keystone STaaS. You migh
 [cols="3*",options="header"]
 |===
 |Known Issue |Description |Workaround
-a|Incorrect service level derived for mirror volumes
+a|Incorrect service level derived for mirror volumes.
 a|If both MetroCluster and FabricPool are enabled in an environment where rate plans for both tiering and object storage are applicable, the service levels derived for the mirror volumes (both constituent and FabricPool volumes) might be incorrect.
 a|None.
 
