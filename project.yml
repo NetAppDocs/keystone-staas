@@ -18,6 +18,8 @@ sidebar:
           url: /release-notes/fixed-issues.html  
         - title: Known limitations
           url: /release-notes/known-limitations.html
+        - title: Known issues
+          url: /release-notes/known-issues.html  
     - title: Welcome to Keystone
       url: /concepts/overview.html
     - title: Set up and configure Keystone
