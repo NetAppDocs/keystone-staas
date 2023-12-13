@@ -161,8 +161,10 @@ homepage:
         url: /concepts/burst-consumption-billing.html
     - title: Do more with Keystone Services
       links:
-        - title: View usage and generate reports from Digital Advisor
+        - title: View usage on Digital Advisor
           url: /integrations/keystone-aiq.html
+        - title: Generate reports of your consumption and usage trend
+          url: /integrations/aiq-keystone-details.html  
         - title: Know your support team (Keystone GSSC)
           url: /concepts/gssc.html
         - title: Keystone and BlueXP

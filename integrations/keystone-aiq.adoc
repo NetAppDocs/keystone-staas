@@ -65,4 +65,4 @@ Searching by a watchlist on the Digital Advisor screen displays the Keystone cus
 image:watchlist.png[watchlist screen]
 
 [TIP]
-If you are viewing the new dashboard on the *Keystone Subscriptions* widget, click *Switch to Old Dashboard* to view the list.
+If you are viewing the _new_ dashboard on the *Keystone Subscriptions* widget, click *Switch to Old Dashboard* to view the list.
