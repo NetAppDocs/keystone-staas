@@ -23,7 +23,7 @@ Learn what's new in this release.
 The support for watchlists in Active IQ Digital Advisor (Digital Advisor) has been extended to include Keystone systems. You can now view the details of the subscriptions for multiple customers by searching with watchlists. For more information about the use of watchlists in Keystone STaaS, see link:../integrations/keystone-aiq.html#search-by-using-keystone-watchlists[Search by using Keystone watchlists^].
 
 === Date converted to UTC timezone
-The data returned on the tabs of the *Keystone Subscriptions* screen on Active IQ Digital Advisor is displayed in UTC time (server timezone). When you enter a date for query, it is automatically converted to UTC time. For more information, see link:../integrations/aiq-keystone-details.html[Keystone Subscription dashboard and reporting^].
+The data returned on the tabs of the *Keystone Subscriptions* screen on Active IQ Digital Advisor is displayed in UTC time (server timezone). When you enter a date for query, it is automatically considered in UTC time. For more information, see link:../integrations/aiq-keystone-details.html[Keystone Subscription dashboard and reporting^].
 
 
 
