@@ -30,7 +30,7 @@ To view your Keystone subscription and usage details, perform the following step
 The details of the subscriptions, usage charts for each service level, and volume details are displayed in the different tabs on the *Keystone Subscriptions* screen.
 
 [NOTE]
-Capacity consumption in Keystone subscriptions is displayed in TiBs on the dashboards and reports, and is rounded off to two decimal places. If the usage is less than 0.01 TiB, then the value is shown as 0 or `No Usage`. ##The data on these screens is displayed in UTC time (server timezone). When you enter a date for query, it is automatically considered in UTC time.##
+Capacity consumption in Keystone subscriptions is displayed in TiBs on the dashboards and reports, and is rounded off to two decimal places. If the usage is less than 0.01 TiB, then the value is shown as 0 or `No Usage`. ##The data on these screens is displayed in UTC time (server timezone). When you enter a date for query, it is automatically considered to be in UTC time.##
 
 //NSEKEY-8547 
 
