@@ -13,7 +13,7 @@ summary: known issues in NetApp Service Engine
 :imagesdir: ./media/
 
 [.lead]
-The following known issues have been reported in NetApp Keystone STaaS. You might encounter these issues when you provision or use your storage as a part of your Keystone subscriptions.
+The following known issue has been reported in NetApp Keystone STaaS. You might encounter this issue when you provision or use your storage as a part of your Keystone subscriptions.
 
 [cols="3*",options="header"]
 |===
