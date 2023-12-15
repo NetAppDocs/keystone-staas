@@ -36,4 +36,4 @@ A signature for an authentic file looks like this:
 `# yum install keystone-collector`
 
 [NOTE]
-On completing the installation, you can use the Keystone Collector Management Terminal User Interface (TUI) utility to perform the configuration and monitoring activities. You can use various keyboard controls, such as the Enter and arrow keys, to select the options and navigate across this TUI. See link:../installation/configuration.html[Configure Keystone Collector] and link:../installation/monitor-health.html[Monitor system health].
+On completing the installation, you can use the Keystone Collector Management Terminal User Interface (TUI) utility to perform the configuration and monitoring activities. You can use various keyboard controls, such as the Enter and arrow keys, to select the options and navigate across this TUI. See link:../installation/configuration.html[Configure Keystone Collector] and link:../installation/monitor-health.html[Monitor system health] for information.

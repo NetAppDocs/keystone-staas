@@ -84,14 +84,14 @@ Keystone Collector needs access to the following internet hosts:
 |===
 
 |Address |Reason 
-a|https://keystone.netapp.com
+a|https://keystone.netapp.com[^]
 a|Keystone Collector software updates and usage reporting
-a|https://support.netapp.com 
+a|https://support.netapp.com[^]
 a|NetApp HQ for billing information and AutoSupport delivery
-a|https://mirror.centos.org
-https://mirrorlist.centos.org 
+a|http://mirror.centos.org[^] 
+http://mirrorlist.centos.org[^]
 a|OS updates for Keystone Collector (OVA deployments only)
-a|https://repo.mysql.com
+a|https://repo.mysql.com[^]
 a|Download and update MySQL dependencies (for Linux deployments only)
 
 |===

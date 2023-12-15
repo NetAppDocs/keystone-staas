@@ -69,22 +69,39 @@ Note the following clauses for capacity adjustments:
 === Capacity reduction
 Capacity reduction (annual) is applicable to the _Annual in Advance_ payment model and on-premises only deployments. It is not available for cloud services or hybrid cloud services. It provides provision for on-premises capacity, which can be reduced by up to 25% per service level per subscription. This reduction is allowed once every year to be made effective at the beginning of the next annual billing period. On-premises service-based annual payments should be >=$200K anytime during the term in order to take advantage of capacity reduction. Because it is supported only for on-premises deployments, this billing model does not provide reallocation in spending from on-premises to cloud services. An example of annual capacity reduction is illustrated in the following image.
 
-image:capacity-reduction.png[image displaying capacity reduction]
+image:reallocation.png[reallocation logic explained]
 
 === Quarterly spend reallocation
+Keystone STaaS offers you the option to reallocate on-premises service spend to Cloud Volumes ONTAP spend.
+
 Requirements and conditions at a subscription level:
 
 *	Applies only to monthly billing in arrear model.
 *	Applies only to subscriptions with 1, 2, or 3-year term commitments.
-*	Cloud Volumes ONTAP and Cloud Backup service capacity should be purchased through Keystone.
+*	Capacity for Cloud Volumes ONTAP and Cloud Backup service should be purchased through Keystone.
 *	Up to 25% of the existing on-premises, service-based monthly payments can be used for reallocation to cloud services.
-*	On-premises, service-based monthly payments should be >=$16.7K anytime during the term in order to take advantage of reallocation.
 *	Reallocation requests are made effective only after 90 days from the previous activation date of the reallocation.
-*	Reallocation cannot be done from cloud services back to on-premises.
+*	Reallocation cannot be done from cloud services back to on-premises services.
 *	A request to reallocate should be formally submitted by the customer or partner to Keystone Success Manager (KSM) at least one week before the next billing cycle.
-*	New requests go into effect only from the next billing cycle.
+*	New requests go into effect only from the consecutive billing cycle.
 
-An example of a quarterly spend reallocation is illustrated in the following image:
+You can allocate a portion of your expenses towards your subscribed file, block, or object storage service levels to hybrid cloud storage services. Up to 25% of the Annual Contract Value (ACV) can be reallocated on a quarterly basis to Cloud Volumes ONTAP Primary and Cloud Volumes ONTAP Secondary services: 
+
+image:reallocation.png[reallocation logic explained]
+
+This table provides a set of sample values to demonstrate how the reallocation of expenses works. In this example, `$5000` from the monthly spend is reallocated to hybrid cloud storage service.
 
 
-image:spend-alloc.png[how spend is allocated]
+|===
+|*Before allocation* | *Capacity (TiB)* |*Monthly designated expense* 
+| Extreme |125 | 37,376 
+|*After reallocation* | *Capacity (TiB)* |*Monthly designated expense* 
+| Extreme |108 | 37,376 
+| Cloud Volumes ONTAP |47 | 5,000 
+|||37,376 
+
+|===
+
+The reduction is of (125-108) = 17 TiB of the capacity allocated for the Extreme service level. On spend reallocation, the allotted hybrid cloud storage is not of 17 TiB but an equivalent capacity that $5000 can purchase. In this example, for $5000, you can get 17 TiB on-prem storage capacity for the Extreme service level and 47 TiB hybrid cloud capacity of Cloud Volumes ONTAP service level. Therefore, the reallocation is with respect to the spend, not capacity.
+
+Contact your Keystone Success Manager (KSM) if you want to reallocate expenses from your on-premises services to cloud services.
