@@ -5,7 +5,7 @@ keywords: Keystone-BlueXP
 summary: Keystone and BlueXP
 ---
 
-= Keystone and BlueXP
+= Learn about Keystone and BlueXP
 :hardbreaks:
 :nofooter:
 :icons: font

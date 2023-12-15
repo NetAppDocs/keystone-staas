@@ -6,7 +6,7 @@ summary: Keystone and Digital Advisor
 summary: Keystone Subscription reports and graphs
 ---
 
-= Keystone Subscription dashboard and reporting
+= Use Keystone dashboard and reporting
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -30,11 +30,13 @@ To view your Keystone subscription and usage details, perform the following step
 The details of the subscriptions, usage charts for each service level, and volume details are displayed in the different tabs on the *Keystone Subscriptions* screen.
 
 [NOTE]
-Capacity consumption in Keystone subscriptions is displayed in TiBs on the dashboards and reports, and is rounded off to two decimal places. If the usage is less than 0.01 TiB, then the value is shown as 0 or `No Usage`. The local time entered for query in these tabs is converted to UTC time. Therefore, you might see minor differences in the data returned based on the queried time.
+Capacity consumption in Keystone subscriptions is displayed in TiBs on the dashboards and reports, and is rounded off to two decimal places. If the usage is less than 0.01 TiB, then the value is shown as 0 or `No Usage`. The data on these screens is displayed in UTC time (server timezone). When you enter a date for query, it is automatically considered to be in UTC time.
+
+//NSEKEY-8547 
 
 For information about usage metrics, see link:../concepts/metrics.html#metrics-measurement[Metrics measurement]. For information about different capacities used in Keystone, see link:../concepts/supported-storage-capacity.html[Supported storage capacities].
 
-== View subscriptions
+== Subscriptions
 You can view a list of all your subscriptions in the *Subscriptions* tab. 
 
 image:all-subs.png[an image of the Subscriptions tab]
@@ -65,7 +67,7 @@ image:icon-amber.png[amber dot icon]: Maximum consumption, that is the usage is 
 image:icon-red.png[red dot icon]: The consumption is within the burst limit. The burst consumption is the consumption that tops the 100% committed capacity of a service level, and is within the agreed-upon burst usage limit, such as 120%
 image:icon-purple.png[purple dot icon]: Indicates consumption above the stipulated burst limit
 
-== View usage details for your subscriptions
+== Current Usage
 To know the usage details of your subscriptions, click the *Current Usage* tab, and select the required subscription number.
 
 image:aiq-ks-dtls.png[Current Usage tab]
@@ -77,20 +79,24 @@ The image:icon-info.png[information icon] icon next to each column provides comp
 
 For information about your Keystone storage services and the relevant service levels, see link:../concepts/service-levels.html[Service Levels in Keystone].
 
-== View sustainability SLA details
+== SLA Details
+Service Level Agreements (SLAs) are a key component of NetApp's cloud storage solutions. SLAs aim to provide effective, high-quality, and reliable storage solution as a part of Keystone STaaS service offerings. The *SLA Details* tab is available only if you have a valid sustainability SLA with NetApp.
+
+=== View sustainability SLA details
 .Learn more
 [%collapsible]
 ====
-The *SLA Details* tab is available only if you have a valid sustainability service level agreement (SLA) with NetApp. For information about sustainability SLA in Keystone STaaS, see link:../concepts/sla-sustainability.html[Sustainability SLA for Keystone].
+The *Sustainability SLA* tab is available only if you have a valid sustainability service level agreement (SLA) with NetApp. For information about sustainability in Keystone STaaS, see link:../concepts/sla-sustainability.html[Sustainability SLA for Keystone].
 
-The *SLA Details* tab provides you with the sustainability SLA details.
+The *Sustainability SLA* tab provides you with the sustainability SLA details.
 
 .Steps
-. Click the *SLA Details* tab.
+. Click *SLA Details > Sustainability SLA*.
 . Select the required subscription for which you want to view the details. You can view only those subscriptions that meet the criteria for sustainability SLA. For information about the criteria, see link:../concepts/sla-sustainability.html#eligibility-criteria-for-sustainability-sla[Eligibility criteria for sustainability SLA].
-. Select the year and month for which you want to view the details. You can select the year and month during which the subscription has been active.
+. Select the year and month for which you want to view the details. By default, the data for the current month is displayed. You can select the year and month during which the subscription has been active.
+. Click *View Details*.
 
-You can see a daily breakdown of measured sustainability-related metrics for the selected month:
+You can see a daily breakdown of the sustainability metrics for the selected month:
 
 image:sla-sustainability.png[sla details tab listing sustainability details]
 
@@ -114,7 +120,7 @@ If there is an SLA breach, a image:warning.png[icon for warning] warning icon ad
 
 ====
 
-== View historical usage data
+== Capacity Trend 
 The *Capacity Trend* tab displays historical data of your Keystone subscriptions for a specific period. The vertical graphs display the usage details for the selected time range with appropriate indicators for you to compare and generate reports. 
 
 .Steps
@@ -229,13 +235,13 @@ For information about how MetroCluster protects your data, see https://docs.neta
 
 ====
 
-== View volumes and objects details
+== Volumes & Objects
 On the *Volumes & Objects* tab, you can view the consumption and other details for your volumes in ONTAP. For StorageGRID, this tab displays the nodes and their individual usage in your object storage environment.
 
 [NOTE]
 The name of this tab varies with the nature of deployment at your site. If you have both volumes and object storage, you can see the *Volumes & Objects* tab. If you have only ONTAP volumes in your storage environment, the name changes to *Volumes*. For StorageGRID object storage, you can see the *Objects* tab.
 
-=== ONTAP volume details
+=== View ONTAP volume details
 .Learn more
 [%collapsible]
 ====
@@ -254,14 +260,15 @@ For advanced data protection add-on service, an additional column appears to ind
 
 image:aiq-ks-sysdtls.png[Volumes & Objects tab]
 
+//NSEKEY-8747
 
 ==== 
 
-=== StorageGRID nodes and consumption details
+=== View StorageGRID nodes and consumption
 .Learn more
 [%collapsible]
 ====
-For StorageGRID, this tab displays the physical usage for the nodes in the object storage environment.
+For StorageGRID, this tab displays the physical usage for the nodes for object storage.
 
 .Steps
 
@@ -277,11 +284,11 @@ image:sg-link-2.png[StorageGRID dialog box]
 
 ====
 
-== View ONTAP volume performance
+== Performance 
+The *Performance* tab enables you to view the performance metrics of the ONTAP volumes managed by your Keystone subscriptions.
 
-You can click the *Performance* tab for viewing the performance details for the ONTAP volumes managed by your Keystone subscriptions.
-
-This tab might not be available to you for viewing the performance metrics on your ONTAP volumes. Contact support for viewing this tab.
+[TIP]
+This tab is optionally available to you. Contact support for viewing this tab.
 
 .Steps
 . Click the *Performance* tab.
