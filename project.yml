@@ -131,7 +131,7 @@ homepage:
           url: /installation/linux-installation.html    
         - title: View your usage on Digital Advisor
           url: /integrations/keystone-aiq.html
-        - title: Generate reports of your consumption and usage trend
+        - title: Generate reports of your consumption
           url: /integrations/aiq-keystone-details.html
     - title: Supported services in Keystone
       links:
@@ -161,7 +161,7 @@ homepage:
       links:
         - title: Know your support team (Keystone GSSC)
           url: /concepts/gssc.html
-        - title: What can I do with my old or less-used data?
+        - title: What can I do with my cold or less-used data?
           url: /concepts/data-tiering.html
         - title: How can I protect my Keystone data?
           url: /concepts/adp.html

@@ -15,7 +15,7 @@ summary: Keystone and Digital Advisor
 [.lead]
 If you have subscribed to NetApp Keystone STaaS services, you get an overview of your subscriptions on the *Keystone Subscriptions* widget of the Active IQ Digital Advisor (Digital Advisor) dashboard.
 
-You can search for Keystone subscription details by searching by a customer name or a watchlist name that includes multiple customers. For information about how to search by watchlists, see link:../integrations/keystone-aiq.html#search-by-using-keystone-watchlists[Search by using Keystone watchlists].
+You can search for Keystone subscription details by searching by a customer name or a watchlist name that includes multiple customers. For information about how to search Keystone STaaS subscriptions by watchlists, see link:../integrations/keystone-aiq.html#search-by-using-keystone-watchlists[Search by using Keystone watchlists].
 
 Digital Advisor offers a unified dashboard that gives insights into various levels of your subscription data and usage information through the *Switch to old/new dashboard* button.
 
@@ -57,12 +57,13 @@ Keystone STaaS supports creation of watchlists and searching by them to view sub
 
 . On the *Create Watchlist* screen, provide a name for the Keystone watchlist.
 . Select *Category* in the *Add Systems by* field. *Customer* is selected by default in the *Choose Category* field.
-. Search for the required customers by their names and add them. You can add customers whose details you are entitled to view.
+. Search for the required customers by their names and add them. You can only add customers whose details you are entitled to view.
 . Click *Create Watchlist*. The Digital Advisor screen displays the data for the new watchlist.
 
-Searching by a watchlist on the Digital Advisor screen displays the Keystone customers and their subscriptions in the *Subscription* drop-down list on the *Keystone Subscriptions* widget. 
-
-image:watchlist.png[watchlist screen]
+On searching by a watchlist on the Digital Advisor screen, you can view the customers and their subscriptions in the *Subscription* drop-down list on the *Keystone Subscriptions* widget.
 
 [TIP]
 If you are viewing the _new_ dashboard on the *Keystone Subscriptions* widget, click *Switch to Old Dashboard* to view the list.
+
+image:watchlist.png[watchlist screen]
+
