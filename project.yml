@@ -52,6 +52,14 @@ sidebar:
           url: /installation/asup-config.html
         - title: Data collected for billing
           url: /installation/data-collection.html
+    - title: Do more with Keystone Services
+      entries:
+        - title: View Keystone dashboard on Active IQ Digital Advisor
+          url: /integrations/keystone-aiq.html
+        - title: View consumption details and generate reports
+          url: /integrations/aiq-keystone-details.html
+        - title: Manage Keystone subscriptions from BlueXP
+          url: /integrations/keystone-cm.html 
     - title: Learn about Keystone
       entries:    
         - title: Supported storage capacity
@@ -96,14 +104,6 @@ sidebar:
           url: /concepts/misc-volume-billing.html
         - title: Billing schedules
           url: /concepts/billing-schedules.html
-    - title: Do more with Keystone Services
-      entries:
-       -  title: Keystone and BlueXP
-          url: /integrations/keystone-cm.html
-       -  title: Keystone and Active IQ Digital Advisor
-          url: /integrations/keystone-aiq.html
-       - title: Active IQ Digital Advisor reporting for Keystone
-         url: /integrations/aiq-keystone-details.html
     - title: Partner and customer-operated environments
       url: /concepts/operational-models.html
     - title: Keystone infrastructure
@@ -129,27 +129,25 @@ homepage:
           url: /installation/vapp-installation.html
         - title: Installing Keystone Collector on Linux
           url: /installation/linux-installation.html    
-        - title: What are the units of measurement?
-          url: /concepts/metrics.html
-        - title: What is the supported base storage?
-          url: /concepts/supported-storage-services.html
-        - title: How can I see my consumption data?
-          url: /integrations/keystone-aiq.html        
+        - title: View your usage on Digital Advisor
+          url: /integrations/keystone-aiq.html
+        - title: Generate reports of your consumption and usage trend
+          url: /integrations/aiq-keystone-details.html
     - title: Supported services in Keystone
       links:
         - title: Keystone Service Levels
           url: /concepts/service-levels.html
         - title: Quality of Service (QoS)
           url: /concepts/qos.html
-        - title: What is data tiering?
-          url: /concepts/data-tiering.html
-        - title: Is my Keystone data protected?
-          url: /concepts/adp.html
+        - title: What are the units of measurement?
+          url: /concepts/metrics.html
+        - title: What is the supported base storage?
+          url: /concepts/supported-storage-services.html 
         - title: Can I reallocate my spend from on-premises to cloud?
           url: /concepts/capacity-requirements.html#capacity-adjustments
-    - title: Keystone pricing
+    - title: Keystone pricing and billing
       links:
-      - title: Know about Keystone billing
+      - title: Know about Keystone pricing
         url: /concepts/pricing.html
       - title: My billing schedules
         url: /concepts/billing-schedules.html
@@ -161,12 +159,12 @@ homepage:
         url: /concepts/burst-consumption-billing.html
     - title: Do more with Keystone Services
       links:
-        - title: View usage on Digital Advisor
-          url: /integrations/keystone-aiq.html
-        - title: Generate reports of your consumption and usage trend
-          url: /integrations/aiq-keystone-details.html  
         - title: Know your support team (Keystone GSSC)
           url: /concepts/gssc.html
+        - title: What can I do with my old or less-used data?
+          url: /concepts/data-tiering.html
+        - title: How can I protect my Keystone data?
+          url: /concepts/adp.html
         - title: Keystone and BlueXP
           url: /integrations/keystone-cm.html
         - title: US Citizen Support
