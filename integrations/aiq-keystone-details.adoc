@@ -6,7 +6,7 @@ summary: Keystone and Digital Advisor
 summary: Keystone Subscription reports and graphs
 ---
 
-= Keystone Subscription dashboard and reporting
+= Use Keystone dashboard and reporting
 :hardbreaks:
 :nofooter:
 :icons: font
