@@ -285,10 +285,10 @@ image:sg-link-2.png[StorageGRID dialog box]
 ====
 
 == Performance 
+The *Performance* tab enables you to view the performance metrics of the ONTAP volumes managed by your Keystone subscriptions.
 
-You can click the *Performance* tab for viewing the performance details for the ONTAP volumes managed by your Keystone subscriptions.
-
-This tab might not be available to you for viewing the performance metrics on your ONTAP volumes. Contact support for viewing this tab.
+[TIP]
+This tab is optionally available to you. Contact support for viewing this tab.
 
 .Steps
 . Click the *Performance* tab.
