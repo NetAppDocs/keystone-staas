@@ -27,7 +27,7 @@ The labels for *Accrued Burst* are now renamed as *Invoiced Accrued Burst* in th
 === Ability to view subscriptions linked to a primary subscription
 If secondary subscriptions are linked to your primary subscriptions, you can see the linked subscription numbers listed against the primary subscription in the *Subscriptions* tab. For more information, see For more information, see link:../integrations/aiq-keystone-details.html#subscriptions[Subscriptions^].
 
-=== Ability to view accrued consumption details
+=== Accrued consumption details for specific rate plans
 If you have a subscription with `0` rate plans, you can view the accrued consumption details in the *Capacity Trend* tab.
 
 
