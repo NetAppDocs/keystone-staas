@@ -15,7 +15,7 @@ summary: sustainability, sla, service level agreement
 [.lead]
 NetApp Keystone STaaS provides Service Level Agreement or SLA-backed sustainability service levels that define maximum Watts/TiB consumed per service level, to help you plan, monitor, and meet your IT sustainability goals.
 
-You can learn about any issues related to SLA from the Keystone widget on the Active IQ Digital Advisor dashboard.
+You can learn about any issues related to SLA from the Keystone widget on the Active IQ Digital Advisor (also known as Digital Advisor) dashboard.
 
 == Sustainability metrics
 The following metrics are used to define and measure sustainability:
@@ -53,7 +53,7 @@ Commingled and MetroCluster configurations are not supported.
 *	The minimum committed capacity per service level should be met.
 
 == Sustainability reports
-The SLA tab on the Active IQ Digital Advisor (Digital Advisor) Keystone dashboard provides a detailed view of the sustainability metrics for your Keystone subscriptions. You can view the metrics and generate reports for future analysis and actions.
+The SLA tab Keystone dashboard of Digital Advisor provides a detailed view of the sustainability metrics for your Keystone subscriptions. You can view the metrics and generate reports for future analysis and actions.
 
 For more information about Keystone dashboard and reporting, see link:../integrations/aiq-keystone-details.html[Keystone Subscription dashboard and reporting].
 

@@ -13,7 +13,7 @@ summary: Keystone and Digital Advisor
 :imagesdir: ../media/
 
 [.lead]
-If you have subscribed to NetApp Keystone STaaS services, you get an overview of your subscriptions on the *Keystone Subscriptions* widget of the Active IQ Digital Advisor (Digital Advisor) dashboard.
+If you have subscribed to NetApp Keystone STaaS services, you get an overview of your subscriptions on the *Keystone Subscriptions* widget of the Active IQ Digital Advisor (also known as Digital Advisor) dashboard.
 
 You can search for Keystone subscription details by searching by a customer name or a watchlist name that includes multiple customers. For information about how to search Keystone STaaS subscriptions by watchlists, see link:../integrations/keystone-aiq.html#search-by-using-keystone-watchlists[Search by using Keystone watchlists].
 
@@ -51,7 +51,7 @@ For more information about Keystone dashboard and reporting, see link:../integra
 
 
 == Search by using Keystone watchlists
-Watchlist is a feature of Active IQ Digital Advisor (Digital Advisor). For information, see https://docs.netapp.com/us-en/active-iq/concept_overview_dashboard.html[Understand watchlist^]. For information about creating watchlists, see https://docs.netapp.com/us-en/active-iq/task_add_watchlist.html[Create a watchlist^].
+Watchlist is a feature of Active IQ Digital Advisor ((also known as Digital Advisor). For information, see https://docs.netapp.com/us-en/active-iq/concept_overview_dashboard.html[Understand watchlist^]. For information about creating watchlists, see https://docs.netapp.com/us-en/active-iq/task_add_watchlist.html[Create a watchlist^].
 
 Keystone STaaS supports creation of watchlists and searching by them to view subscription details of multiple customers. Follow these steps to create a watchlist for Keystone customers:
 
