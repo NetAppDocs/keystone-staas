@@ -172,7 +172,7 @@ You can click the toggle button *Show Current Usage* to view the consumption,  b
 
 ====
 
-=== ##View invoiced accrued burst##
+=== View invoiced accrued burst
 .Learn more
 [%collapsible]
 ====
@@ -180,7 +180,7 @@ You can click the toggle button *Show Current Usage* to view the consumption,  b
 If you have selected the *Invoiced Accrued Burst* option, by default, you can see the monthly accrued burst usage data for the last 12 months that has been billed. You can query by the date range of up to past 30 months. Bar charts are displayed for invoiced data, and if the usage has not yet been billed, you see _Pending_ for that month.
 
 [TIP]
-The invoiced accrued burst usage is calculated per month for the current billing period, based on the committed and consumed capacity for a service level.
+The invoiced accrued burst usage is calculated per billing period, based on the committed and consumed capacity for a service level.
 
 image:accr-burst.png[accrued burst usage charts]
 
