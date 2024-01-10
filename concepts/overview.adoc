@@ -14,9 +14,9 @@ summary: Welcome to the Keystone
 
 
 [.lead]
-NetApp Keystone (Keystone) is a pay-as-you-grow, subscription-based service model that delivers  seamless hybrid cloud experience for businesses preferring OpEx consumption models to upfront CapEx or leasing.
+NetApp Keystone (Keystone) is a pay-as-you-grow, subscription-based service model that delivers seamless hybrid cloud experience for businesses preferring OpEx consumption models to upfront CapEx or leasing.
 
-Keystone enables customers to accelerate time to value by reducing the hurdles in managing  unpredictable capacity growth and complex procurement cycles. Keystone allows customers to align economics and operations to their business priorities.
+Keystone enables customers to accelerate time to value by reducing the hurdles in managing unpredictable capacity growth and complex procurement cycles. Keystone allows customers to align economics and operations to their business priorities.
 
 image:nkfsosm_image2.png[keystone]
 
