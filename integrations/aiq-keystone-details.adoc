@@ -14,7 +14,7 @@ summary: Keystone Subscription reports and graphs
 :imagesdir: ../media/
 
 [.lead]
-The Active IQ Digital Advisor (Digital Advisor) dashboard provides you with the capability of monitoring the usage pertaining to your NetApp Keystone subscriptions and generating reports. On subscribing to Keystone services, you can view the details of your subscription and usage on the *Keystone Subscriptions* widget on the Digital Advisor dashboard.
+The Active IQ Digital Advisor (also known as Digital Advisor) dashboard provides you with the capability of monitoring the usage pertaining to your NetApp Keystone subscriptions and generating reports. On subscribing to Keystone services, you can view the details of your subscription and usage on the *Keystone Subscriptions* widget on the Digital Advisor dashboard.
 
 [NOTE]
 The information available here applies to both ONTAP and StorageGRID. Exceptions have been pointed out in the relevant sections.
@@ -44,6 +44,7 @@ image:all-subs.png[an image of the Subscriptions tab]
 You can see the following information. For certain fields and columns, you might see information or warning icons and tooltips that provide you with additional information about the data.
 
 * *Subscription Number*: The subscription number of the Keystone subscription assigned by NetApp.
+//*Linked Subscriptions*: This column is optionally available to you. If you have any secondary subscriptions linked to your primary subscription, this column lists the linked subscription numbers for the primary subscription. This subscription number can be of your primary or secondary (linked) subscription.
 * *Tracking ID*: The tracking ID assigned at the time of subscription activation. This is a unique ID for each subscription and site, used for tracking the subscription.
 [TIP]
 If you have subscribed to advanced data protection add-on service, then you can click the tooltip against your subscription number to view the tracking ID of the partner subscription in a MetroCluster setup. To know how to view detailed consumption by partner subscriptions in a MetroCluster configuration, see link:../integrations/aiq-keystone-details.html#reference-charts-for-advanced-data-protection[Reference charts for advanced data protection].
@@ -126,7 +127,7 @@ The *Capacity Trend* tab displays historical data of your Keystone subscriptions
 .Steps
 . Click the *Capacity Trend* tab.
 . Select the required subscription for which you want to view the details. The first subscription in your account name is selected by default.
-. Select *Capacity Trend* if you want to view the historical data and analyze the capacity usage trend. Select *Accrued Burst* if you want to view the historical burst usage data, and analyze the billed usage as per your invoice. 
+. Select *Capacity Trend* if you want to view the historical data and analyze the capacity usage trend. Select *Invoiced Accrued Burst* if you want to view the historical burst usage data, for which invoices have been generated. You can use this data to analyze the billed usage as per your invoice. 
 
 === View capacity trend
 .Learn more
@@ -156,7 +157,7 @@ The following colors in the bar charts indicate the consumed capacity as defined
 [NOTE]
 A blank chart indicates that there was no data available in your environment at that data collection point.
 
-You can click the toggle button *Show Current Usage* to view the consumption,  burst usage, and accrual burst data for the current billing period. These details are not based on the date range of the query.
+You can click the toggle button *Show Current Usage* to view the consumption, burst usage, and accrual burst data for the current billing period. These details are not based on the date range of the query.
 
 * *Current Consumed*: Indicator for the consumed capacity (in TiB) defined for the service level. This field uses specific colors:
 ** No color: Burst or above burst usage.
@@ -171,15 +172,15 @@ You can click the toggle button *Show Current Usage* to view the consumption,  b
 
 ====
 
-=== View historical burst data
+=== View invoiced accrued burst
 .Learn more
 [%collapsible]
 ====
 
-If you have selected the *Accrued Burst* option, by default, you can see the monthly accrued burst usage data for the last 12 months. You can query by the date range of up to past 30 months. 
+If you have selected the *Invoiced Accrued Burst* option, by default, you can see the monthly accrued burst usage data for the last 12 months that has been billed. You can query by the date range of up to past 30 months. Bar charts are displayed for invoiced data, and if the usage has not yet been billed, you see _Pending_ for that month.
 
 [TIP]
-Accrued burst usage or consumed capacity is calculated per month for the current billing period. The accrued burst usage is calculated based on the committed and consumed capacity for a service level by this formula: `(consumed - committed)/365.25/12`.
+The invoiced accrued burst usage is calculated per billing period, based on the committed and consumed capacity for a service level.
 
 image:accr-burst.png[accrued burst usage charts]
 

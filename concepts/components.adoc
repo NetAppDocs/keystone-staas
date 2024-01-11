@@ -54,7 +54,7 @@ AIOPs solution gateway is deployed on the following configuration:
 Outbound access is required to the following services for operations and maintenance of the Keystone Collector and AIOPs solution gateway:
 
 *	support.netapp.com (usage data upload)
-*	keystone.netapp.com (software  updates)
+*	keystone.netapp.com (software updates)
 *	Hub.Docker.io (software updates)
 
 Depending on customer requirements and the storage controllers used, NetApp can provide 10 GB, 40 GB, and 100 GB connectivity at the customer's site.
