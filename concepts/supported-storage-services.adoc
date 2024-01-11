@@ -17,7 +17,7 @@ Keystone STaaS services support file and block storage of ONTAP, object storage 
 
 Keystone STaaS provides standard and optional services for your storage. 
 
-*Keystone STaaS standard services*: Standard services are included within the base subscription and are not charged separately.  
+*Keystone STaaS standard services*: Standard services are included within the base subscription and are not charged separately.
 
 *Keystone STaaS add-on services*: These are optional, chargeable services that provide additional utilities and benefits on top of standard Keystone STaaS subscription services.
 

@@ -14,9 +14,9 @@ summary: Welcome to the Keystone
 
 
 [.lead]
-NetApp Keystone (Keystone) is a pay-as-you-grow, subscription-based service model that delivers  seamless hybrid cloud experience for businesses preferring OpEx consumption models to upfront CapEx or leasing.
+NetApp Keystone (Keystone) is a pay-as-you-grow, subscription-based service model that delivers seamless hybrid cloud experience for businesses preferring OpEx consumption models to upfront CapEx or leasing.
 
-Keystone enables customers to accelerate time to value by reducing the hurdles in managing  unpredictable capacity growth and complex procurement cycles. Keystone allows customers to align economics and operations to their business priorities.
+Keystone enables customers to accelerate time to value by reducing the hurdles in managing unpredictable capacity growth and complex procurement cycles. Keystone allows customers to align economics and operations to their business priorities.
 
 image:nkfsosm_image2.png[keystone]
 
@@ -26,3 +26,12 @@ A Keystone subscription is associated with rate plans. There can be multiple rat
 
 == Keystone Storage-as-a-Service (STaaS)
 Storage-as-a-service (STaaS) offerings aim to deliver a public cloud-like model for the procurement, deployment, and management of storage infrastructure. While the majority of enterprises are still working on their strategy for hybrid cloud, you, as a customer, can opt for an OpEx-based _pay-per-use_ consumption model. You might have a mandate to move all your workloads to cloud eventually, and yet not have a clear plan or schedule to migrate specific portions or all of your workloads over to the cloud. Keystone STaaS provides you with the flexibility to start with on-premises services and decide later on the right workloads and point in time to move to the cloud. Keystone STaaS provides commitment protection across deployment models. Instead of paying more for cloud services, you, as an on-premises customer, can reallocate your on-premises spending to add cloud services and essentially pay the same monthly bill that was committed prior to this reallocation.
+
+
+*Related information*
+
+* link:../concepts/pricing.html[Keystone pricing]
+* link:../concepts/add-on.html[Add-on services in Keystone STaaS]
+* link:../concepts/service-levels.html[Service levels in Keystone]
+* link:../concepts/infra.html[Keystone infrastructure]
+* link:../concepts/operational-models.html[Operational models in Keystone]

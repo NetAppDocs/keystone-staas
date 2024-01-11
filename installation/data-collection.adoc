@@ -80,8 +80,8 @@ The following list is a representative sample of the capacity consumption data c
 ** FlexCloneUsedPercent
 *	Storage LUNs
 **	LUN UUID
-**  LUN Name
-**	Size
+** LUN Name
+** Size
 **	Used
 **	IsReserved flag
 **	IsRequested flag

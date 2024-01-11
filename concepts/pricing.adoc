@@ -27,3 +27,11 @@ Keystone provides you with the following billing facilities:
 Keystone billing is based on committed capacity and variable burst consumption.
 
 For information about different capacities supported in Keystone, see link:../concepts/supported-storage-capacity.html[Supported storage capacities in Keystone].
+
+*Related information*
+
+* link:../concepts/committed-capacity-billing.html[Billing based on committed capacity]
+* link:../concepts/consumed-capacity-billing.html[Metering based on consumed capacity]
+* link:../concepts/burst-consumption-billing.html[Billing based on burst consumption]
+* link:../concepts/misc-volume-billing.html[Billing based on miscellaneous volume types]
+* link:../concepts/billing-schedules.html[Billing schedules]
