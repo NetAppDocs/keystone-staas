@@ -52,7 +52,7 @@ sidebar:
           url: /installation/asup-config.html
         - title: Data collected for billing
           url: /installation/data-collection.html
-    - title: Do more with Keystone Services
+    - title: View Keystone dashboard
       entries:
         - title: View Keystone dashboard on Active IQ Digital Advisor
           url: /integrations/keystone-aiq.html
