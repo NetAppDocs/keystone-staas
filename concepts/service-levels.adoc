@@ -5,7 +5,7 @@ keywords: service levels, service level, rate plan or service level
 summary: Supported service levels
 ---
 
-= Service Levels in Keystone
+= Service levels in Keystone
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -94,3 +94,9 @@ Latency does not include overheads associated with data transfer to the object s
 - These services are dependent on cloud storage and compute characteristics.
 ====
 
+*Related information*
+
+* link:../concepts/supported-storage-capacity.html[Supported storage capacities]
+* link:..//concepts/metrics.html[Metrics and definitions used in Keystone Services]
+* link:../concepts/qos.html[Quality of Service (QoS) in Keystone]
+* link:../concepts/pricing.html[Keystone pricing]

@@ -68,10 +68,12 @@ sidebar:
           url: /concepts/metrics.html
         - title: Supported storage in Keystone
           url: /concepts/supported-storage-services.html
-        - title: Service Levels in Keystone
+        - title: Service levels in Keystone
           url: /concepts/service-levels.html
         - title: Add-on Services
           entries:
+            - title: Add-on services in Keystone STaaS
+              url: /concepts/add-on.html          
             - title: Data tiering
               url: /concepts/data-tiering.html
             - title: Advanced data protection
