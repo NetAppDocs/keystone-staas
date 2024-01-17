@@ -1,0 +1,32 @@
+---
+sidebar: sidebar
+permalink: integrations/current-usage-tab.html
+keywords: keystone-aiq, digital advisor keystone, current usage tab
+summary: Current Usage tab on the AIQ DA Keystone dashboard
+---
+
+= Current Usage tab
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ../media/
+
+[.lead]
+The *Current Usage* tab displays the usage details of your subscriptions.
+
+To view this tab, from the left navigation pane, go to *GENERAL > Keystone Subscriptions > Current Usage*, and select the required subscription number.
+
+image:aiq-ks-dtls.png[Current Usage tab]
+
+For the selected subscription, you can view details, such as the start and end dates of the subscription, and the billing period, such as monthly or annual. As  a part of the subscription usage, you can view the service level name, committed, consumed, available capacities, and current and accrued burst usage (in TiB).
+
+[TIP]
+The image:icon-info.png[information icon] icon next to each column provides comprehensive information about that column. Specific service levels that record higher consumption are highlighted. You can also view warnings and alerts generated for your volumes.
+
+For information about your Keystone storage services and the relevant service levels, see link:../concepts/service-levels.html[Service Levels in Keystone].
+
+Coupled with the current usage, you might want to view the historical usage data for comparison. Click the *View Historical Data* button to navigate to the *Capacity Trend* tab to view the historical data for the same subscription.
+
+For more information, see 
+

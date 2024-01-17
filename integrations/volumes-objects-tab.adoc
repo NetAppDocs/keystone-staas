@@ -1,0 +1,53 @@
+---
+sidebar: sidebar
+permalink: integrations/volumes-objects-tab.html
+keywords: keystone-aiq, digital advisor keystone, volumes-objects-tab, StorageGRID objects details, ONTAP volumes
+summary: volumes-objects-tab
+---
+
+= Volumes & Objects tab
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ../media/
+
+[.lead]
+On the *Volumes & Objects* tab, you can view the consumption and other details for your volumes in ONTAP. For StorageGRID, this tab displays the nodes and their individual usage in your object storage environment.
+
+[NOTE]
+The name of this tab varies with the nature of deployment at your site. If you have both volumes and object storage, you can see the *Volumes & Objects* tab. If you have only ONTAP volumes in your storage environment, the name changes to *Volumes*. For StorageGRID object storage, you can see the *Objects* tab.
+
+== View ONTAP volume details
+For ONTAP, the *Volumes* tab displays information, such as the capacity usage, volume type, cluster, aggregate, and service level of the volumes in your storage environment managed by your Keystone subscription.
+
+.Steps
+
+. Click *GENERAL > Keystone Subscriptions > Volumes*.
+. Select the subscription number. By default, the first available subscription number is selected. 
++
+The volume details are displayed. You can scroll across the columns and learn more about them by hovering your mouse on the information icons beside the column headings. You can sort by the columns and filter the lists to view specific information.
++
+[NOTE]
+For advanced data protection add-on service, an additional column appears to indicate whether the volume is a primary or mirror volume in the MetroCluster configuration. You can copy individual node serial numbers by clicking the *Copy Node Serials* button. 
+
+image:aiq-ks-sysdtls.png[Volumes & Objects tab]
+
+//NSEKEY-8747
+
+== View StorageGRID nodes and consumption
+
+For StorageGRID, this tab displays the physical usage for the nodes for object storage.
+
+.Steps
+
+. Click *GENERAL > Keystone Subscriptions > Objects*.
+. Select the subscription number. By default, the first available subscription number is selected. On selecting the subscription number, the link for object storage details is enabled.
++
+image:sg-link.png[StorageGRID dialog box]
++
+. Click the link to view the node names and physical usage details for each node.
++
+image:sg-link-2.png[StorageGRID dialog box]
+
+

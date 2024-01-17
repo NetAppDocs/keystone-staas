@@ -55,9 +55,23 @@ sidebar:
     - title: View Keystone dashboard and manage subscriptions
       entries:
         - title: View Keystone dashboard on Active IQ Digital Advisor
-          url: /integrations/keystone-aiq.html
-        - title: View consumption details and generate reports
-          url: /integrations/aiq-keystone-details.html
+          entries:
+            - title: Keystone and Digital Advisor dashboard
+              url: /integrations/keystone-aiq.html
+            - title: View consumption details and generate reports
+              url: /integrations/aiq-keystone-details.html
+            - title: Subscriptions tab
+              url: /integrations/subscriptions-tab.html
+            - title: Current Usage
+              url: /integrations/current-usage-tab.html
+            - title: SLA Details tab
+              url: /integrations/sla-details-tab.html
+            - title: Capacity Trend tab
+              url: /integrations/capacity-trend-tab.html
+            - title: Volumes & Objects tab
+              url: /integrations/volumes-objects-tab.html
+            - title: Performance tab
+              url: /integrations/performance-tab.html                                                                           
         - title: Manage Keystone subscriptions from BlueXP
           url: /integrations/keystone-cm.html 
     - title: Learn about Keystone

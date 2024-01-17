@@ -1,0 +1,48 @@
+---
+sidebar: sidebar
+permalink: integrations/subscriptions-tab.html
+keywords: keystone-aiq, digital advisor keystone, subscriptions-tab
+summary: Subscriptions tab on the AIQ DA Keystone dashboard
+---
+
+= Subscriptions tab
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ../media/
+
+[.lead]
+You can view a list of all your subscriptions in the *Subscriptions* tab.
+
+To view this tab, from the left navigation pane, go to *GENERAL > Keystone Subscriptions > Subscriptions*.
+
+image:all-subs.png[an image of the Subscriptions tab]
+
+You can see the following information. For certain fields and columns, you might see information or warning icons and tooltips that provide you with additional information about the data.
+
+* *Subscription Number*: The subscription number of the Keystone subscription assigned by NetApp.
+//*Linked Subscriptions*: This column is optionally available to you. If you have any secondary subscriptions linked to your primary subscription, this column lists the linked subscription numbers for the primary subscription. This subscription number can be of your primary or secondary (linked) subscription.
+* *Tracking ID*: The tracking ID assigned at the time of subscription activation. This is a unique ID for each subscription and site, used for tracking the subscription.
+[TIP]
+If you have subscribed to advanced data protection add-on service, then you can click the tooltip against your subscription number to view the tracking ID of the partner subscription in a MetroCluster setup. To know how to view detailed consumption by partner subscriptions in a MetroCluster configuration, see link:../integrations/aiq-keystone-details.html#reference-charts-for-advanced-data-protection[Reference charts for advanced data protection].
+* *Usage Type*: You might have subscribed to multiple Keystone (version 1) or Keystone STaaS (version 2) subscriptions. The rate plan rules for the service levels might vary for the two subscription types. By looking at the value in this column, you know whether the usage type is billed as per the provisioned or logical usage for either `v1` or `v2`. For more information about Keystone Subscriptions version 1, see https://docs.netapp.com/us-en/keystone/index.html[Documentation for NetApp Keystone^].
+* *Billing Period*: The billing period of the subscription, such as monthly, quarterly, or yearly.
+* *Start Date*: The start date of the subscription.
+* *End Date*: The end date of the subscription. If you have a monthly-billable subscription that renews automatically every month, you see `Month-on-month` instead of the end date. Based on this date, you might see notifications for subscriptions that are about to end or have auto-renewal policies attached.
+* *Usage Status*: Displays the usage indicator to indicate whether the consumption is within or exceeding the subscription limit. You can sort the list by this column if you want to view the highest consumption records.
+* image:subs-dtls-icon.png[icon]: Clicking this icon for a subscription opens the *Current Usage* tab with the usage details of that subscription.
+* image:aiq-ks-time-icon.png[icon]: Clicking this icon opens the *Capacity Trend* tab where you can see the historical usage data for each service level included in this subscription.
+
+You can refer to the following usage indicators to check the usage status of each subscription:
+
+image:usage-indicator.png[icon]
+
+.Index
+
+image:icon-grey.png[grey dot icon]: No capacity usage recorded against the committed capacity of the service level
+image:icon-green.png[green dot icon]: The consumption is normal, within 80% of the committed capacity
+image:icon-amber.png[amber dot icon]: Maximum consumption, that is the usage is about to reach 100% or more of the committed capacity. The *Consumed* column displays this indicator for any consumption above 80% of the committed capacity
+image:icon-red.png[red dot icon]: The consumption is within the burst limit. The burst consumption is the consumption that tops the 100% committed capacity of a service level, and is within the agreed-upon burst usage limit, such as 120%
+image:icon-purple.png[purple dot icon]: Indicates consumption above the stipulated burst limit
+
