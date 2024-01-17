@@ -62,7 +62,7 @@ sidebar:
               url: /integrations/aiq-keystone-details.html
             - title: Subscriptions tab
               url: /integrations/subscriptions-tab.html
-            - title: Current Usage
+            - title: Current Usage tab
               url: /integrations/current-usage-tab.html
             - title: SLA Details tab
               url: /integrations/sla-details-tab.html

@@ -61,27 +61,12 @@ This section displays the provisioned and the logical used capacities of the vol
 
 image:perf-log-usd.png[logical used capacity graph]
 
-== Generate reports
-You can generate and view reports for your subscription details, historical usage data for a time range, and volume details from each of the tabs by clicking the download button: image:download-icon.png[report download icon]
+*Related information*
 
-The details are generated in CSV format that you can save for future use.
+* link:../integrations/aiq-keystone-details.html[Use Keystone dashboard and reporting]
+* link:../integrations/subscriptions-tab.html[Subscriptions]
+* link:../integrations/current-usage-tab.html[Current Usage]
+* link:../integrations/sla-details-tab.html[SLA Details]
+* link:../integrations/capacity-trend-tab.html[Capacity Trend]
+* link:../integrations/volumes-objects-tab.html[Volumes & Objects]
 
-A sample report for the *Capacity Trend* tab, where the graphical data is converted:
-
-image:report.png[csv of report]
-
-== View alerts
-Alerts on the dashboard send caution messages that enable you to understand the issues occurring in your storage environment. 
-
-The alerts can be of two types:
-
-* *Information*: For issues, such as your subscriptions nearing an end, you can see information alerts. Hover your cursor over the information icon to learn more about the issue.
-* *Warning*: Issues, such as non-compliance, are displayed as warnings. For example, if there are volumes within your managed clusters that do not have adaptive QoS (AQoS) policies attached, you can see a warning message. You can click the link on the warning message to see the list of the non-compliant volumes in the *Volumes* tab.
-[NOTE]
-If you have subscribed to a single service level or rate plan, you won't be able to see the alert for non-compliant volumes.
-+
-For information about AQoS policies, see link:../concepts/qos.html[Adaptive QoS].
-
-image:alert-aiq.png[alert]
-
-Contact NetApp support for more information on these caution and warning messages. For information about raising service requests, see link:../concepts/gssc.html#generating-service-requests[Generating service requests].
