@@ -15,6 +15,13 @@ summary: Keystone STaaS new features and enhancements.
 [.lead]
 NetApp offers you new and enhanced features in every release of Keystone STaaS services.
 
+== New features and enhancements for January 31, 2024
+The following change has been made on the *Keystone Subscriptions* screen of Active IQ Digital Advisor (also known as Digital Advisor).
+
+=== Ability to view subscriptions linked to a primary subscription
+If secondary subscriptions are linked to a primary subscription, you can see the linked subscription numbers listed against the primary subscription in the *Linked Subscriptions* column of the *Subscriptions* tab. This column is available to you only if you have any subscription linked to your primary subscription that is displayed in the *Subscription Number* column.
+
+
 == New features and enhancements for January 11, 2024
 
 Learn what's new in this release.
@@ -23,9 +30,6 @@ The following changes have been made on the *Keystone Subscriptions* screen of A
 
 === Invoiced data returned for accrued burst
 The labels for *Accrued Burst* are now modified to *Invoiced Accrued Burst* in the *Capacity Trend* tab. Selecting this option enables you to view the the monthly charts for the billed accrued burst data. For more information, see link:../integrations/aiq-keystone-details.html#view-invoiced-accrued-burst[View invoiced accrued burst^].
-
-//=== Ability to view subscriptions linked to a primary subscription
-//If secondary subscriptions are linked to your primary subscriptions, you can see the linked subscription numbers listed against the primary subscription in the *Subscriptions* tab. For more information, see For more information, see link:../integrations/aiq-keystone-details.html#subscriptions[Subscriptions^].
 
 === Accrued consumption details for specific rate plans
 If you have a subscription that has rate plans with _zero_ committed capacity, you can view the accrued consumption details in the *Capacity Trend* tab. On selecting the *Invoiced Accrued Consumption* option, you can view the the monthly charts for the billed accrued consumption data.
