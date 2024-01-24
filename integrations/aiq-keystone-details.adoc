@@ -69,3 +69,5 @@ For information about AQoS policies, see link:../concepts/qos.html[Adaptive QoS]
 image:alert-aiq.png[alert]
 
 Contact NetApp support for more information on these caution and warning messages. For information about raising service requests, see link:../concepts/gssc.html#generating-service-requests[Generating service requests].
+
+//Manini: This topic is linked to the UI and should not be deleted. If at all required, the redirects and information to the AIQ engineering teams should be appropriately conducted.
