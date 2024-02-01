@@ -37,9 +37,9 @@ These subsystems are included by default in the weekly AutoSupport bundles, wher
 .Steps
 
 . As a system administrator user, log in to the Keystone ONTAP cluster by using SSH. For information, see https://docs.netapp.com/us-en/ontap/system-admin/access-cluster-ssh-task.html[Access the cluster by using SSH^].
-. Run the following command and verify the existing configuration:
+. Run the following command and verify the existing configuration with respect to the existing subsystems:
 +
-`autosupport trigger show -node * -autosupport-message management.log -instance`
+`autosupport trigger show -node * -autosupport-message management.log -fields basic-additional`
 +
 For more information about this command, see https://docs.netapp.com/us-en/ontap-cli-9131/system-node-autosupport-manifest-show.html#parameters[system node autosupport manifest show^].
 +
@@ -50,36 +50,14 @@ For more information about this command, see https://docs.netapp.com/us-en/ontap
 For more information about this command, see https://docs.netapp.com/us-en/ontap-cli-9131/system-node-autosupport-trigger-modify.html[system node autosupport trigger modify^].
  
 .Example 
-In this example, when the `autosupport trigger show` command is run for the following nodes, information is returned for the _wafl_ and _nfs_ subsystems daily. But the information for the _performance_, _snapshot_, and _platform_ subsystems is missing.
+In this example, when the `autosupport trigger show` command is run, the returned values indicate that daily information is returned for the _wafl_ and _nfs_ subsystems. But the information for the _performance_, _snapshot_, and _platform_ subsystems is missing.
 
 ----
-_NODE_::> autosupport trigger show -node * -autosupport-message management.log -instance
- 
-                                             Node: _NODE_-01
-                                      EMS Message: management.log
-             Deliver to AutoSupport -to Addresses: disabled
-(DEPRECATED) Deliver to AutoSupport -noteto Addresses: disabled
-          Default Subsystems Reporting Basic Info: mandatory, log_files, nwd,
-                                                   memevt, storage_stats,
-                                                   splog_latest
-Default Subsystems Reporting Troubleshooting Info: mandatory, log_files
-                          Additional Content Flag: basic
-       Additional Subsystems Reporting Basic Info: wafl, nfs
-Additional Subsystems Reporting Troubleshooting Info: -
-         Suppress all occurrences of this trigger: -
- 
-                                             Node: _NODE_-02
-                                      EMS Message: management.log
-             Deliver to AutoSupport -to Addresses: disabled
-(DEPRECATED) Deliver to AutoSupport -noteto Addresses: disabled
-          Default Subsystems Reporting Basic Info: mandatory, log_files, nwd,
-                                                   memevt, storage_stats,
-                                                   splog_latest
-Default Subsystems Reporting Troubleshooting Info: mandatory, log_files
-                          Additional Content Flag: basic
-       Additional Subsystems Reporting Basic Info: wafl, nfs
-Additional Subsystems Reporting Troubleshooting Info: -
-         Suppress all occurrences of this trigger: -
+_CLUSTER_::> autosupport trigger show -node * -autosupport-message management.log -fields basic-additional
+node        autosupport-message basic-additional
+----------- ------------------- --------------------------------------
+_NODE_01 management.log      wafl,nfs
+_NODE_02 management.log      wafl,nfs
 
 ----
 
@@ -89,35 +67,11 @@ You should modify the controllers to include the missing subsystems:
 On rerunning the command, you can see the information for all the required subsystems:
 
 ----
-_NODE_::> autosupport trigger show -node * -autosupport-message management.log -instance
-
-                                             Node: _NODE_-01
-                                      EMS Message: management.log
-             Deliver to AutoSupport -to Addresses: disabled
-(DEPRECATED) Deliver to AutoSupport -noteto Addresses: disabled
-          Default Subsystems Reporting Basic Info: mandatory, log_files, nwd,
-                                                   memevt, storage_stats,
-                                                   splog_latest
-Default Subsystems Reporting Troubleshooting Info: mandatory, log_files
-                          Additional Content Flag: basic
-       Additional Subsystems Reporting Basic Info: wafl, nfs, performance,
-                                                   snapshot, platform
-Additional Subsystems Reporting Troubleshooting Info: -
-         Suppress all occurrences of this trigger: -
-
-                                             Node: _NODE_-02
-                                      EMS Message: management.log
-             Deliver to AutoSupport -to Addresses: disabled
-(DEPRECATED) Deliver to AutoSupport -noteto Addresses: disabled
-          Default Subsystems Reporting Basic Info: mandatory, log_files, nwd,
-                                                   memevt, storage_stats,
-                                                   splog_latest
-Default Subsystems Reporting Troubleshooting Info: mandatory, log_files
-                          Additional Content Flag: basic
-       Additional Subsystems Reporting Basic Info: wafl, nfs, performance,
-                                                   snapshot, platform
-Additional Subsystems Reporting Troubleshooting Info: -
-         Suppress all occurrences of this trigger: -
+_CLUSTER_::> autosupport trigger show -node * -autosupport-message management.log -fields basic-additional
+node        autosupport-message basic-additional
+----------- ------------------- --------------------------------------
+_NODE_01 management.log      wafl,nfs,performance,snapshot,platform
+_NODE_02 management.log      wafl,nfs,performance,snapshot,platform
 
 ----
 
