@@ -80,7 +80,7 @@ Default Subsystems Reporting Troubleshooting Info: mandatory, log_files
        Additional Subsystems Reporting Basic Info: wafl, nfs
 Additional Subsystems Reporting Troubleshooting Info: -
          Suppress all occurrences of this trigger: -
-2 entries were displayed.
+
 ----
 
 You should modify the controllers to include the missing subsystems:
@@ -118,7 +118,7 @@ Default Subsystems Reporting Troubleshooting Info: mandatory, log_files
                                                    snapshot, platform
 Additional Subsystems Reporting Troubleshooting Info: -
          Suppress all occurrences of this trigger: -
-2 entries 
+
 ----
 
 // NSEKEY-9000 Feb 2024
