@@ -48,6 +48,78 @@ For more information about this command, see https://docs.netapp.com/us-en/ontap
 `autosupport trigger modify -node * -autosupport-message management.log -basic-additional _<existing comma-separated subsystems>_, _<new subsystems>_`
 +
 For more information about this command, see https://docs.netapp.com/us-en/ontap-cli-9131/system-node-autosupport-trigger-modify.html[system node autosupport trigger modify^].
+ 
+.Example 
+In this example, when the `autosupport trigger show` command is run for the following nodes, information is returned for the _wafl_ and _nfs_ subsystems daily. But the information for the _performance_, _snapshot_, and _platform_ subsystems is missing.
 
+----
+_NODE_::> autosupport trigger show -node * -autosupport-message management.log -instance
+ 
+                                             Node: _NODE_-01
+                                      EMS Message: management.log
+             Deliver to AutoSupport -to Addresses: disabled
+(DEPRECATED) Deliver to AutoSupport -noteto Addresses: disabled
+          Default Subsystems Reporting Basic Info: mandatory, log_files, nwd,
+                                                   memevt, storage_stats,
+                                                   splog_latest
+Default Subsystems Reporting Troubleshooting Info: mandatory, log_files
+                          Additional Content Flag: basic
+       Additional Subsystems Reporting Basic Info: wafl, nfs
+Additional Subsystems Reporting Troubleshooting Info: -
+         Suppress all occurrences of this trigger: -
+ 
+                                             Node: _NODE_-02
+                                      EMS Message: management.log
+             Deliver to AutoSupport -to Addresses: disabled
+(DEPRECATED) Deliver to AutoSupport -noteto Addresses: disabled
+          Default Subsystems Reporting Basic Info: mandatory, log_files, nwd,
+                                                   memevt, storage_stats,
+                                                   splog_latest
+Default Subsystems Reporting Troubleshooting Info: mandatory, log_files
+                          Additional Content Flag: basic
+       Additional Subsystems Reporting Basic Info: wafl, nfs
+Additional Subsystems Reporting Troubleshooting Info: -
+         Suppress all occurrences of this trigger: -
+2 entries were displayed.
+----
 
+You should modify the controllers to include the missing subsystems:
+`autosupport trigger modify -node * -autosupport-message management.log -basic-additional wafl,nfs,performance,snapshot,platform`
+
+On rerunning the command, you can see the information for all the required subsystems:
+
+----
+_NODE_::> autosupport trigger show -node * -autosupport-message management.log -instance
+
+                                             Node: _NODE_-01
+                                      EMS Message: management.log
+             Deliver to AutoSupport -to Addresses: disabled
+(DEPRECATED) Deliver to AutoSupport -noteto Addresses: disabled
+          Default Subsystems Reporting Basic Info: mandatory, log_files, nwd,
+                                                   memevt, storage_stats,
+                                                   splog_latest
+Default Subsystems Reporting Troubleshooting Info: mandatory, log_files
+                          Additional Content Flag: basic
+       Additional Subsystems Reporting Basic Info: wafl, nfs, performance,
+                                                   snapshot, platform
+Additional Subsystems Reporting Troubleshooting Info: -
+         Suppress all occurrences of this trigger: -
+
+                                             Node: _NODE_-02
+                                      EMS Message: management.log
+             Deliver to AutoSupport -to Addresses: disabled
+(DEPRECATED) Deliver to AutoSupport -noteto Addresses: disabled
+          Default Subsystems Reporting Basic Info: mandatory, log_files, nwd,
+                                                   memevt, storage_stats,
+                                                   splog_latest
+Default Subsystems Reporting Troubleshooting Info: mandatory, log_files
+                          Additional Content Flag: basic
+       Additional Subsystems Reporting Basic Info: wafl, nfs, performance,
+                                                   snapshot, platform
+Additional Subsystems Reporting Troubleshooting Info: -
+         Suppress all occurrences of this trigger: -
+2 entries 
+----
+
+// NSEKEY-9000 Feb 2024
 
