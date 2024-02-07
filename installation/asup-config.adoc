@@ -49,31 +49,31 @@ For more information about this command, see https://docs.netapp.com/us-en/ontap
 +
 For more information about this command, see https://docs.netapp.com/us-en/ontap-cli-9131/system-node-autosupport-trigger-modify.html[system node autosupport trigger modify^].
  
-.Example 
-In this example, when the `autosupport trigger show` command is run, the returned values indicate that daily information is returned for the _wafl_ and _nfs_ subsystems. But the information for the _performance_, _snapshot_, and _platform_ subsystems is missing.
+//.Example 
+//In this example, when the `autosupport trigger show` command is run, the returned values indicate that daily information is returned for the _wafl_ and _nfs_ subsystems. But the information for the _performance_, _snapshot_, and _platform_ subsystems is missing.
 
-----
-_CLUSTER_::> autosupport trigger show -node * -autosupport-message management.log -fields basic-additional
-node        autosupport-message basic-additional
------------ ------------------- --------------------------------------
-_NODE_01 management.log      wafl,nfs
-_NODE_02 management.log      wafl,nfs
+//----
+//_CLUSTER_::> autosupport trigger show -node * -autosupport-message management.log -fields basic-additional
+//node        autosupport-message basic-additional
+//----------- ------------------- --------------------------------------
+//_NODE_01 management.log      wafl,nfs
+//_NODE_02 management.log      wafl,nfs
 
-----
+//----
 
-You should modify the controllers to include the missing subsystems:
-`autosupport trigger modify -node * -autosupport-message management.log -basic-additional wafl,nfs,performance,snapshot,platform`
+//You should modify the controllers to include the missing subsystems:
+//`autosupport trigger modify -node * -autosupport-message management.log -basic-additional wafl,nfs,performance,snapshot,platform`
 
-On rerunning the command, you can see the information for all the required subsystems:
+//On rerunning the command, you can see the information for all the required subsystems:
 
-----
-_CLUSTER_::> autosupport trigger show -node * -autosupport-message management.log -fields basic-additional
-node        autosupport-message basic-additional
------------ ------------------- --------------------------------------
-_NODE_01 management.log      wafl,nfs,performance,snapshot,platform
-_NODE_02 management.log      wafl,nfs,performance,snapshot,platform
+//----
+//_CLUSTER_::> autosupport trigger show -node * -autosupport-message management.log -fields basic-additional
+//node        autosupport-message basic-additional
+//----------- ------------------- --------------------------------------
+//_NODE_01 management.log      wafl,nfs,performance,snapshot,platform
+//_NODE_02 management.log      wafl,nfs,performance,snapshot,platform
 
-----
+//----
 
 // NSEKEY-9000 Feb 2024
 
