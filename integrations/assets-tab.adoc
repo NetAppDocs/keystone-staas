@@ -1,0 +1,13 @@
+---
+sidebar: sidebar
+permalink: integrations/assets-tab.html
+keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, keystone assets tab
+summary: Keystone Subscription reports and graphs
+---
+
+= Assets tab
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ../media/
