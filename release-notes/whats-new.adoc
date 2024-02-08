@@ -15,7 +15,7 @@ summary: Keystone STaaS new features and enhancements.
 [.lead]
 NetApp offers you new and enhanced features in every release of Keystone STaaS services.
 
-== New features and enhancements for January 31, 2024
+== New features and enhancements for February 12, 2024
 The following change has been made on the *Keystone Subscriptions* screen of Active IQ Digital Advisor (also known as Digital Advisor).
 
 === Ability to view subscriptions linked to a primary subscription

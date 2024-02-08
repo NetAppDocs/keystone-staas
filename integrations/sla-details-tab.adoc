@@ -44,8 +44,8 @@ If there is an SLA breach, a image:warning.png[icon for warning] warning icon ad
 * SLA Watts/TiB: If the service level SLA metrics are not met. For information, see link:../concepts/sla-sustainability.html#sustainability-service-level[Sustainability service level].
 * Storage efficiency ratio: If the storage efficiency is less than 2:1.
 
-*Related information*
 
+*Related information*
 * link:../integrations/aiq-keystone-details.html[Use Keystone dashboard and reporting]
 * link:../integrations/subscriptions-tab.html[Subscriptions]
 * link:../integrations/current-usage-tab.html[Current Usage]
