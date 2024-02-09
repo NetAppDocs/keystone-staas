@@ -13,7 +13,7 @@ summary: issues fixed in different releases of Keystone STaaS
 :imagesdir: ./media/
 
 [.lead]
-Issues that were found in previous releases of NetApp Keystone STaaS services have been fixed in later releases. The following table lists the fixes.
+Issues that were found in previous releases of NetApp Keystone STaaS services have been fixed in later releases. The following table lists those fixes.
 
 [cols="3*",options="header"]
 |===

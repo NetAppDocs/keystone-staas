@@ -113,8 +113,8 @@ image:adp-mir.png[mcc mirror base]
 
 For information about how MetroCluster protects your data, see https://docs.netapp.com/us-en/ontap-metrocluster/manage/concept_understanding_mcc_data_protection_and_disaster_recovery.html[Understanding MetroCluster data protection and disaster recovery^].
 
-*Related information*
 
+*Related information*
 * link:../integrations/aiq-keystone-details.html[Use Keystone dashboard and reporting]
 * link:../integrations/subscriptions-tab.html[Subscriptions]
 * link:../integrations/current-usage-tab.html[Current Usage]
