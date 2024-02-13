@@ -11,3 +11,6 @@ summary: Keystone Subscription reports and graphs
 :icons: font
 :linkattrs:
 :imagesdir: ../media/
+
+[.lead]
+Use the *Assets* tab to gain visibility into the volumes and clusters deployed in your storage environment and assess them on the same dashboard.
