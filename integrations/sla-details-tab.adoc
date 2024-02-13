@@ -46,6 +46,7 @@ If there is an SLA breach, a image:warning.png[icon for warning] warning icon ad
 
 
 *Related information*
+
 * link:../integrations/aiq-keystone-details.html[Use Keystone dashboard and reporting]
 * link:../integrations/subscriptions-tab.html[Subscriptions]
 * link:../integrations/current-usage-tab.html[Current Usage]
