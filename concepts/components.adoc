@@ -34,7 +34,7 @@ You should provide the required power. NetApp will provide the power requirement
 NetApp can provide the cooling requirement specifications (Typical BTU, Max BTU), based on the final configuration and requirement.
 
 === Storage virtual machines
-A storage virtual machine (storage VM) is required for the deployment of the Keystone Collector and the AIOPs solution gateway. The prerequisites for installing Keystone Collector are available here: link:..//installation/installation-overview.html[Installation guide for Keystone Collector]. The other requirements are shared during deployment.
+A storage virtual machine (storage VM) is required for the deployment of the Keystone Collector and the AIOPs solution gateway. The prerequisites for installing Keystone Collector are available here: link:../installation/installation-overview.html[Installation guide for Keystone Collector]. The other requirements are shared during deployment.
 
 === Deployment Options
 The Keystone Collector can be deployed through the following methods:
