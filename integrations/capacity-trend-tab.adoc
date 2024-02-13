@@ -1,0 +1,124 @@
+---
+sidebar: sidebar
+permalink: integrations/capacity-trend-tab.html
+keywords: keystone-aiq, digital advisor keystone, capacity trend tab, historical usage, accrued burst, accrued, consumption
+summary: Capacity trend tab on the Keystone Subscription dashboard
+---
+
+= Capacity Trend tab
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ../media/
+
+[.lead]
+The *Capacity Trend* tab displays historical data of your Keystone subscriptions for a specific period. 
+
+The vertical graphs display the usage details for the selected time range with appropriate indicators for you to compare and generate reports. 
+
+.Steps
+. Click *GENERAL > Keystone Subscriptions > Capacity Trend*.
+. Select the required subscription for which you want to view the details. The first subscription in your account name is selected by default.
+. Select *Capacity Trend* if you want to view the historical data and analyze the capacity usage trend. Select *Invoiced Accrued Burst* if you want to view the historical burst usage data, for which invoices have been generated. You can use this data to analyze the billed usage as per your invoice. 
+
+== View capacity trend
+If you have selected the *Capacity Trend* option, follow these steps:
+
+.Steps
+. Select the time range from the calendar icons in the *From Date* and *To Date* fields. Select the date range for the query. The date range can be the beginning of the month or the subscription start date to the current date or the subscription end date. You cannot select a future date.
++
+[TIP]
+For optimal performance and user experience, limit the date range of your query to three months.
++
+. Click *View Details*. The historical consumption data of the subscription for each service level is displayed based on the selected time range. 
+
+The bar charts display the service level name and the capacity consumed against that service level for the date range. The date and time of the collection are displayed at the bottom of the chart. Based on the date range of your query, the usage charts are displayed in a range of 30 data collection points. You can hover your mouse cursor over the charts to view the usage breakdown in terms of committed, consumed, burst, and above the burst limit data at that data collection point.
+
+image:aiq-ks-subtime-2.png[Capacity Trend tab with details]
+
+The following colors in the bar charts indicate the consumed capacity as defined within the service level. Monthly data across the charts is separated by a vertical line.
+
+** Green: Within 80%.
+** Amber: 80% - 100%.
+** Red: Burst usage (100% of the committed capacity to the agreed burst limit)
+** Purple: Above the burst limit or `Above Limit`.
+
+[NOTE]
+A blank chart indicates that there was no data available in your environment at that data collection point.
+
+You can click the toggle button *Show Current Usage* to view the consumption, burst usage, and accrual burst data for the current billing period. These details are not based on the date range of the query.
+
+* *Current Consumed*: Indicator for the consumed capacity (in TiB) defined for the service level. This field uses specific colors:
+** No color: Burst or above burst usage.
+** Grey: No usage.
+** Green: Within 80% of the committed capacity.
+** Amber: 80% of the committed to the burst capacity.
+* *Current Burst*: Indicator for the consumed capacity within or above the defined burst limit. Any usage within the burst limit for your subscription, for example, 20% above the committed capacity is within the burst limit. Further usage is considered as usage above the burst limit. This field displays specific colors:
+** No color: No burst usage.
+** Red: Burst usage.
+** Purple: Above the burst limit.
+* *Accrued burst*: Indicator for the accrued burst usage or consumed capacity calculated per month for the current billing period. The accrued burst usage is calculated based on the committed and consumed capacity for a service level: `(consumed - committed)/365.25/12`.
+
+== View invoiced accrued burst
+If you have selected the *Invoiced Accrued Burst* option, by default, you can see the monthly accrued burst usage data for the last 12 months that has been billed. You can query by the date range of up to past 30 months. Bar charts are displayed for invoiced data, and if the usage has not yet been billed, you see _Pending_ for that month.
+
+[TIP]
+The invoiced accrued burst usage is calculated per billing period, based on the committed and consumed capacity for a service level.
+
+image:accr-burst.png[accrued burst usage charts]
+
+This functionality is available in a preview-only mode. Contact your KSM to learn more about this feature.
+
+== Reference charts for advanced data protection 
+If you have subscribed to the advanced data protection add-on service, you can view the breakup of the consumption data for the MetroCluster partner sites on the *Capacity Trend* tab. 
+
+For information about advanced data protection add-on service, see link:../concepts/adp.html[Advanced data protection].
+
+If the clusters in your ONTAP storage environment are configured in a MetroCluster setup, the consumption data of your Keystone subscription is split in the same historical data chart to display the consumption at the primary and mirror sites for the base service levels.
+
+[NOTE]
+The consumption bar charts are split for only the base service levels. For advanced data protection add-on service, that is the _Advanced Data-Protect_ service level, this demarcation does not appear.
+
+.Advanced data protection service level
+
+For the _Advanced Data-Protect_ service level, the total consumption is split between the partner sites, and the usage at each partner site is reflected and billed in a separate subscription; one subscription for the primary site, and another for the mirror site. That is the reason why, when you select the subscription number for the primary site on the *Capacity Trend* tab, the consumption charts for the advanced data protection add-on service display the discrete consumption details of only the primary site. Because each partner site in a MetroCluster configuration acts both as a source and mirror, the total consumption at each site includes the source and the mirror volumes created at that site.
+
+[TIP]
+The tooltip next to the tracking ID of your subscription in the *Current Usage* tab helps you identify the partner subscription in the MetroCluster setup.
+
+.Base service levels
+
+For the base service levels, each volume is charged as provisioned at the primary and mirror sites, and hence the same bar chart is split according to the consumption at the primary and mirror sites.
+
+.What you can see for the primary subscription
+
+The following image displays the charts for the _Extreme_ service level (base service level) and a primary subscription number. The same historical data chart also indicates the mirror site consumption in a lighter shade of the same color code used for the primary site. The tooltip on mouse hover displays the consumption breakup (in TiB) for the primary and mirror sites, 1.02 TiB and 1.05 TiB respectively.
+
+image:mcc-chart.png[mcc primary]
+
+For the _Advanced Data-Protect_ service level, the charts appear like this:
+
+image:adp-src.png[mcc primary base]
+
+.What you can see for the secondary (mirror site) subscription
+
+When you check the secondary subscription, you can see that the bar chart for the _Extreme_ service level (base service level) at the same data collection point as the partner site is reversed, and the consumption breakup at the primary and mirror sites is 1.05 TiB and 1.02 TiB respectively.
+
+image:mcc-chart-mirror.png[mcc mirror]
+
+For the _Advanced Data-Protect_ service level, the chart appears like this for the same collection point as at the partner site:
+
+image:adp-mir.png[mcc mirror base]
+
+For information about how MetroCluster protects your data, see https://docs.netapp.com/us-en/ontap-metrocluster/manage/concept_understanding_mcc_data_protection_and_disaster_recovery.html[Understanding MetroCluster data protection and disaster recovery^].
+
+
+*Related information*
+
+* link:../integrations/aiq-keystone-details.html[Use Keystone dashboard and reporting]
+* link:../integrations/subscriptions-tab.html[Subscriptions]
+* link:../integrations/current-usage-tab.html[Current Usage]
+* link:../integrations/sla-details-tab.html[SLA Details]
+* link:../integrations/volumes-objects-tab.html[Volumes & Objects]
+* link:../integrations/performance-tab.html[Performance]

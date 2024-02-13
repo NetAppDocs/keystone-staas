@@ -1,0 +1,55 @@
+---
+sidebar: sidebar
+permalink: integrations/sla-details-tab.html
+keywords: keystone-aiq, digital advisor keystone, SLA details
+summary: SLA Details tab on Keystone and Digital Advisor
+---
+
+= SLA Details tab
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ../media/
+
+[.lead]
+The *SLA Details* tab is available only if you have a valid service level agreement (SLA) with NetApp. The *Sustainability SLA* tab is available only if you have a valid sustainability SLA.
+
+Service Level Agreements (SLAs) are a key component of NetApp's cloud storage solutions. SLAs aim to provide effective, high-quality, and reliable storage solution as a part of Keystone STaaS service offerings. For information about sustainability in Keystone STaaS, see link:../concepts/sla-sustainability.html[Sustainability SLA for Keystone].
+
+.Steps
+. Click *GENERAL > Keystone Subscriptions > SLA Details > Sustainability SLA*.
+. Select the required subscription for which you want to view the details. You can view only those subscriptions that meet the criteria for sustainability SLA. For information about the criteria, see link:../concepts/sla-sustainability.html#eligibility-criteria-for-sustainability-sla[Eligibility criteria for sustainability SLA].
+. Select the year and month for which you want to view the details. By default, the data for the current month is displayed. You can select the year and month during which the subscription has been active.
+. Click *View Details*.
+
+You can see a daily breakdown of the sustainability metrics for the selected month:
+
+image:sla-sustainability.png[sla details tab listing sustainability details]
+
+The following details are displayed. For certain fields and columns, you might see information icons and tooltips that provide you with additional information about the data.
+
+* *Average Sustainability*: The average power consumed in watts/TiB over the last billing period of this subscription.
+* *Date*: The date of the collected SLA data.
+* *Average Watts*: The average watts of power consumed that day by the cluster.
+* *Effective Capacity (TiB*): The sum of the committed capacity and the allocated burst capacity for the service level.
+* *Actual Watts (TiB*): The actual watts/TiB is the actual power consumption per TiB for that day by the cluster. You can compare it against the value in *SLA Watts/TiB* to analyze any overshoot.
+* *SLA Watts/TiB*: The watts/TiB value for the service level defined in the SLA.
+* *Average Temperature (^o^C)*: The average ambient temperature for the day.
+* *Storage Efficiency Ratio*: The storage efficiency ratio in the Keystone storage environment. This is the ratio of the total logical space used by the system after enabling the storage efficiency settings to the total physical space used to store the data. For information about storage efficiency ratio, see https://docs.netapp.com/us-en/active-iq/concept_overview_storage_efficiency.html[Understand storage efficiency^].
+
+If there is an SLA breach, a image:warning.png[icon for warning] warning icon adjacent to the column informs you of the nature of the breach. The following warnings are displayed:
+
+* Ambient temperature: If the temperature is outside of the range of 25^o^C - 27^o^C.
+* SLA Watts/TiB: If the service level SLA metrics are not met. For information, see link:../concepts/sla-sustainability.html#sustainability-service-level[Sustainability service level].
+* Storage efficiency ratio: If the storage efficiency is less than 2:1.
+
+
+*Related information*
+
+* link:../integrations/aiq-keystone-details.html[Use Keystone dashboard and reporting]
+* link:../integrations/subscriptions-tab.html[Subscriptions]
+* link:../integrations/current-usage-tab.html[Current Usage]
+* link:../integrations/capacity-trend-tab.html[Capacity Trend]
+* link:../integrations/volumes-objects-tab.html[Volumes & Objects]
+* link:../integrations/performance-tab.html[Performance]
