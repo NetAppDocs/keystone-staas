@@ -24,7 +24,7 @@ For information about the standard and cloud service, see link:../concepts/suppo
 Keystone advanced data protection service can synchronously mirror data to a secondary site. In case of a disaster at the primary site, the secondary site can take over, without any loss of data. This feature leverages the MetroCluster configuration between two sites to enable data protection. You can avail the advanced data protection add-on services for only your file and block storage services. As a part of this add-on service, the `Advanced Data-Protect` service level is assigned to your subscription.
 For information about ONTAP MetroCluster, see link:https://docs.netapp.com/us-en/ontap-metrocluster[MetroCluster Documentation^].
 
-For information about how to view the consumption in a MetroCluster configuration, see link:../integrations/aiq-keystone-details.html#reference-charts-for-advanced-data-protection[Reference charts for advanced data protection].
+For information about how to view the consumption in a MetroCluster configuration, see link:../integrations/capacity-trend-tab.html#reference-charts-for-advanced-data-protection[Reference charts for advanced data protection].
 
 The add-on charges are applicable to all the capacities in the subscription: the source, mirrored copy, and unmirrored data.
 
