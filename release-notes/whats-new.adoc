@@ -19,7 +19,7 @@ NetApp offers you new and enhanced features in every release of Keystone STaaS s
 The following change has been made on the *Keystone Subscriptions* screen of Active IQ Digital Advisor (also known as Digital Advisor).
 
 === Ability to view subscriptions linked to a primary subscription
-Some of your primary subscriptions can have linked, secondary subscriptions. If that is the case, the primary subscription number will continue to be displayed in the *Subscription Number* column, while the linked subscription numbers will be listed in a new column *Linked Subscriptions* on the *Subscriptions* tab. The *Linked Subscriptions* column becomes available to you only if you have linked subscriptions, and you can see information messages notifying you about them. 
+Some of your primary subscriptions can have linked, secondary subscriptions. If that is the case, the primary subscription number will continue to be displayed in the *Subscription Number* column, while the linked subscription numbers will be listed in a new column *Linked Subscriptions* on the *Subscriptions* tab. The *Linked Subscriptions* column becomes available to you only if you have linked subscriptions, and you can see information messages notifying you about them.
 
 
 == New features and enhancements for January 11, 2024

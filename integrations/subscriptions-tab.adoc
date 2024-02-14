@@ -48,6 +48,7 @@ image:icon-purple.png[purple dot icon]: Indicates consumption above the stipulat
 
 
 *Related information*
+
 * link:../integrations/aiq-keystone-details.html[Use Keystone dashboard and reporting]
 * link:../integrations/current-usage-tab.html[Current Usage]
 * link:../integrations/sla-details-tab.html[SLA Details]
