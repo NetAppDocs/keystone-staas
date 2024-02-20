@@ -26,7 +26,7 @@ sidebar:
       entries:
         - title: What is Keystone Collector
           url: /installation/installation-overview.html
-        - title: Prepare your system for installing Keystone Collector
+        - title: Prepare your system
           entries:
             - title: VMware vSphere requirements
               url: /installation/vapp-prereqs.html

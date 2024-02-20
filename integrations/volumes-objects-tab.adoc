@@ -13,12 +13,12 @@ summary: volumes-objects-tab
 :imagesdir: ../media/
 
 [.lead]
-On the *Volumes & Objects* tab, you can view the consumption and other details for your volumes in ONTAP. For StorageGRID, this tab displays the nodes and their individual usage in your object storage environment.
+On the *Volumes & Objects* tab, you can view the volume snapshot and details for your ONTAP volumes. For StorageGRID, this tab displays the nodes and their individual usage in your object storage environment.
 
 [NOTE]
 The name of this tab varies with the nature of deployment at your site. If you have both volumes and object storage, you can see the *Volumes & Objects* tab. If you have only ONTAP volumes in your storage environment, the name changes to *Volumes*. For StorageGRID object storage, you can see the *Objects* tab.
 
-== View ONTAP volume details
+##== View ONTAP volume summary and details##
 For ONTAP, the *Volumes* tab displays information, such as the capacity usage, volume type, cluster, aggregate, and service level of the volumes in your storage environment managed by your Keystone subscription.
 
 .Steps

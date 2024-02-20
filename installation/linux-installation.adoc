@@ -5,7 +5,7 @@ keywords: Linux installation Keystone, Linux Collector installation
 summary: installing Keystone collector on Linux
 ---
 
-= Installing Keystone Collector on Linux systems
+= Install Keystone Collector on Linux systems
 :hardbreaks:
 :nofooter:
 :icons: font
