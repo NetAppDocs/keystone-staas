@@ -23,7 +23,7 @@ For ONTAP, the *Volumes* tab displays information, such as the capacity usage, v
 
 .Steps
 
-. Click *GENERAL > Keystone Subscriptions > Volumes*.
+. Click *GENERAL > Keystone Subscriptions > Volumes > Volume Details*.
 . Select the subscription number. By default, the first available subscription number is selected. 
 +
 The volume details are displayed. You can scroll across the columns and learn more about them by hovering your mouse on the information icons beside the column headings. You can sort by the columns and filter the lists to view specific information.
@@ -31,9 +31,11 @@ The volume details are displayed. You can scroll across the columns and learn mo
 [NOTE]
 For advanced data protection add-on service, an additional column appears to indicate whether the volume is a primary or mirror volume in the MetroCluster configuration. You can copy individual node serial numbers by clicking the *Copy Node Serials* button. 
 
-image:aiq-ks-sysdtls.png[Volumes & Objects tab]
+image:volume-details.png[Volumes details tab]
 
 //NSEKEY-8747
+
+image:volume-summary.png[Volume summary tab]
 
 == View StorageGRID nodes and consumption
 

@@ -18,7 +18,7 @@ NetApp Keystone STaaS provides Service Level Agreement or SLA-backed sustainabil
 You can learn about any issues related to SLA from the Keystone widget on the Active IQ Digital Advisor (also known as Digital Advisor) dashboard.
 
 == Sustainability metrics
-The following metrics are used to define and measure sustainability:
+The following metrics define and measure sustainability:
 
 * Watts: The daily power consumption of the ONTAP AFF A-series arrays and attached SSD shelves. 
 * TiB: The greater of:

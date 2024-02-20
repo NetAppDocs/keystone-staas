@@ -27,9 +27,7 @@ You should complete a few additional prerequisites for ONTAP and StorageGRID. En
 . ONTAP 9.8 or later
 . Active IQ Unified Manager (Unified Manager) 9.10 or later
 
-.Prerequisites
-For installing Keystone Collector on ONTAP, perform these steps as prerequisites:
-
+.Before you begin
 . Ensure that Unified Manager 9.10 or later is configured. For information about installing Unified Manager, see these links:
 +
 * https://docs.netapp.com/us-en/active-iq-unified-manager/install-vapp/concept_requirements_for_installing_unified_manager.html[Installing Unified Manager on VMware vSphere systems^]

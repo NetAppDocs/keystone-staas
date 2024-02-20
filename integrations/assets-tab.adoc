@@ -13,4 +13,7 @@ summary: Keystone Subscription reports and graphs
 :imagesdir: ../media/
 
 [.lead]
-Use the *Assets* tab to gain visibility into the volumes and clusters deployed in your storage environment and assess them on the same dashboard.
+Use the *Assets* tab to gain visibility into the storage components deployed in your environment and assess them on the same dashboard based on your Keystone subscriptions.
+
+image:assets-tab.png[Assets tab]
+
