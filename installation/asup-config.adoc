@@ -13,9 +13,9 @@ summary: procedure for configuring AutoSupport for Keystone
 :imagesdir: ../media/
 
 [.lead]
-When using the AutoSupport telemetry mechanism, the Keystone service performs usage metering based on the AutoSupport telemetry data. To achieve the necessary level of granularity, you should configure AutoSupport to incorporate Keystone data in the daily support bundles sent by the ONTAP clusters.
+When using the AutoSupport telemetry mechanism, Keystone calculates the usage based on the AutoSupport telemetry data. To achieve the necessary level of granularity, you should configure AutoSupport to incorporate Keystone data in the daily support bundles sent by the ONTAP clusters.
 
-.Before you begin
+.About this task
 
 You should note the following before configuring AutoSupport to include Keystone data.
 
