@@ -13,47 +13,46 @@ summary: volumes-objects-tab
 :imagesdir: ../media/
 
 [.lead]
-Use the *Volumes & Objects* tab to view the volume snapshot and details for your ONTAP volumes. For StorageGRID, you use this tab to read the usage by the individual nodes in your object storage environment.
+Use the *Volumes & Objects* tab to view the summary information and details of your ONTAP volumes. For StorageGRID, you can use this tab to read the usage by the individual nodes in your object storage environment.
 
 [NOTE]
 The title of this tab varies with the nature of deployment at your site. If you have both ONTAP and object storage, the title of the tab appears as *Volumes & Objects*. For only ONTAP, the name appears *Volumes*. For StorageGRID object storage, you can see the *Objects* tab.
 
 ##== View ONTAP volume summary and details##
-The Volumes tab offers different levels of details on your ONTAP system volumes.
+##The Volumes tab offers different levels of details on your ONTAP system volumes. There are two tabs, one each for the summary and details view of your ONTAP volumes. You can see cluster and volume-level information on the other widgets in Digital Advisor. These tabs accumulate the volume information for Keystone subscriptions and segregate and present them with the required level of details. The *Volume Summary* tab provides an overall count of the volumes mapped to the subscribed service levels. The corresponding volumes are again listed in the *Volume Details* tab with their particulars.##
 
 [role="tabbed-block"]
 ====
 .Volume Summary
 --
-. 
+. Click *GENERAL > Keystone Subscriptions > Volumes & Objects > Volume Summary*.
+. Select the subscription number. By default, the first available subscription number is selected. 
 
+For the selected Keystone STaaS subscription, you can see the total number of volumes, their AQoS compliance status, and the total committed, consumed, and available capacity in all those volumes. If you click the number of non-compliant volumes, you see the individual volumes listed in the *Volume Details* tab.
+
+image:volume-summary.png[Volume summary tab]
 
 --
 
 .Volume Details
 --
-. Click *GENERAL > Keystone Subscriptions > Volumes & Objects > Volume Details*.
-
---
-====
-For ONTAP, the *Volumes* tab displays information, such as the capacity usage, volume type, cluster, aggregate, and service level of the volumes in your storage environment managed by your Keystone subscription.
-
-
-.Steps
-
 . Click *GENERAL > Keystone Subscriptions > Volumes > Volume Details*.
 . Select the subscription number. By default, the first available subscription number is selected. 
 +
-The volume details are displayed. You can scroll across the columns and learn more about them by hovering your mouse on the information icons beside the column headings. You can sort by the columns and filter the lists to view specific information.
+You can see the specifics of the volumes, such as capacity usage, volume type, cluster, aggregate, and the assigned Keystone service levels. You can scroll across the columns and learn more about them by hovering your mouse on the information icons beside the column headings. You can sort by the columns and filter the lists to view specific information. 
 +
 [NOTE]
 For advanced data protection add-on service, an additional column appears to indicate whether the volume is a primary or mirror volume in the MetroCluster configuration. You can copy individual node serial numbers by clicking the *Copy Node Serials* button. 
 
 image:volume-details.png[Volumes details tab]
 
+--
+====
+
+
 //NSEKEY-8747
 
-image:volume-summary.png[Volume summary tab]
+
 
 == View StorageGRID nodes and consumption
 
