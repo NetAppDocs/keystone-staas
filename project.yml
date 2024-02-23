@@ -71,7 +71,9 @@ sidebar:
             - title: Volumes & Objects tab
               url: /integrations/volumes-objects-tab.html
             - title: Performance tab
-              url: /integrations/performance-tab.html                                                                           
+              url: /integrations/performance-tab.html
+            - title: Assets tab
+              url: /integrations/assets-tab.html                                                                           
         - title: Manage Keystone subscriptions from BlueXP
           url: /integrations/keystone-cm.html 
     - title: Learn about Keystone

@@ -19,7 +19,7 @@ Use the *Volumes & Objects* tab to view the summary information and details of y
 The title of this tab varies with the nature of deployment at your site. If you have both ONTAP and object storage, the title of the tab appears as *Volumes & Objects*. For only ONTAP, the name appears *Volumes*. For StorageGRID object storage, you can see the *Objects* tab.
 
 ##== View ONTAP volume summary and details##
-##The Volumes tab offers different levels of details on your ONTAP system volumes. There are two tabs, one each for the summary and details view of your ONTAP volumes. You can see cluster and volume-level information on the other widgets in Digital Advisor. These tabs accumulate the volume information for Keystone subscriptions and segregate and present them with the required level of details. The *Volume Summary* tab provides an overall count of the volumes mapped to the subscribed service levels. The corresponding volumes are again listed in the *Volume Details* tab with their particulars.##
+##The Volumes tab offers different levels of details on your ONTAP system volumes. There are two tabs, one each for the summary and details view of your ONTAP volumes. The *Volume Summary* tab provides an overall count of the volumes mapped to the subscribed service levels. The corresponding volumes are again listed in the *Volume Details* tab with their particulars.##
 
 [role="tabbed-block"]
 ====
@@ -39,7 +39,7 @@ image:volume-summary.png[Volume summary tab]
 . Click *GENERAL > Keystone Subscriptions > Volumes > Volume Details*.
 . Select the subscription number. By default, the first available subscription number is selected. 
 +
-You can see the specifics of the volumes, such as capacity usage, volume type, cluster, aggregate, and the assigned Keystone service levels. You can scroll across the columns and learn more about them by hovering your mouse on the information icons beside the column headings. You can sort by the columns and filter the lists to view specific information. 
+You can see the tabular listing of the volumes, such as capacity usage, volume type, cluster, aggregate, and the assigned Keystone service levels. You can scroll across the columns and learn more about them by hovering your mouse on the information icons beside the column headings. You can sort by the columns and filter the lists to view specific information. 
 +
 [NOTE]
 For advanced data protection add-on service, an additional column appears to indicate whether the volume is a primary or mirror volume in the MetroCluster configuration. You can copy individual node serial numbers by clicking the *Copy Node Serials* button. 
@@ -77,3 +77,4 @@ image:sg-link-2.png[StorageGRID dialog box]
 * link:../integrations/sla-details-tab.html[SLA Details]
 * link:../integrations/capacity-trend-tab.html[Capacity Trend]
 * link:../integrations/performance-tab.html[Performance]
+* link:../integrations/assets-tab.html[Assets]

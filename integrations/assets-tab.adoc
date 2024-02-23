@@ -13,7 +13,25 @@ summary: Keystone Subscription reports and graphs
 :imagesdir: ../media/
 
 [.lead]
-Use the *Assets* tab to gain visibility into the storage components deployed in your environment and assess them on the same dashboard based on your Keystone subscriptions.
+Use the *Assets* tab to gather perspectives on your cluster and nodes managed by your Keystone subscriptions. 
+
+Active IQ Digital Advisor (Digital Advisor) provides a comprehensive inventory-level information of your deployments. The *Assets* tab of the Keystone dashboard, on the other hand, accumulates the cluster-level information on the basis of your subscriptions, and segregates and presents it with the accurate level of details.
+
+.Steps
+. Click *GENERAL > Keystone Subscriptions > Assets*.
+. Select the subscription number for which you want to view the clusters.
+
+You see the cluster details, broken down by storage efficiency settings, platform type, and capacity details. Clicking on one of the clusters takes you to the *Clusters* widget on the Digital Advisor screen, where you get additional information for that cluster. 
 
 image:assets-tab.png[Assets tab]
 
+
+*Related information*
+
+* link:../integrations/aiq-keystone-details.html[Use Keystone dashboard and reporting]
+* link:../integrations/subscriptions-tab.html[Subscriptions]
+* link:../integrations/current-usage-tab.html[Current Usage]
+* link:../integrations/sla-details-tab.html[SLA Details]
+* link:../integrations/volumes-objects-tab.html[Volumes & Objects]
+* link:../integrations/capacity-trend-tab.html[Capacity Trend]
+* link:../integrations/performance-tab.html[Performance]
