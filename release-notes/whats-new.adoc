@@ -22,7 +22,7 @@ Several enhancements have been made on the Active IQ Digital Advisor (also known
 The *Keystone Subscriptions* screen now includes the *Assets* tab. This new tab provides cluster-level information based on your subscriptions. For more information, see link:../integrations/assets-tab.html[Assets tab^].
 
 == Improvements to the Volumes & Objects tab 
-To provide better clarity to your ONTAP system volumes, the *Volumes* tab is enhanced with two new tab buttons: *Volume Summary* and *Volume Details*. The *Volume Summary* tab provides an overall count of the volumes associated with your subscribed service levels. The *Volume Details* tab lists all the volumes and their specific details. For more information, see link:../integrations/volumes-objects-tab.html[Volumes & Objects tab^].
+To provide better clarity to your ONTAP system volumes, the *Volumes* tab is enhanced with two new tab buttons: *Volume Summary* and *Volume Details*. The *Volume Summary* tab provides an overall count of the volumes associated with your subscribed service levels, including their AQoS compliance status and capacity information. The *Volume Details* tab lists all the volumes and their specific details. For more information, see link:../integrations/volumes-objects-tab.html[Volumes & Objects tab^].
 
 == Enhancements to search experience on Digital Advisor
 The search parameters on the *Digital Advisor* screen now include Keystone subscription numbers and watchlists created for Keystone subscriptions. You can enter the first three characters of a subscription number or watchlist name. For more information, see link:../integrations/keystone-aiq.html[View Keystone dashboard on Active IQ Digital Advisor^].
