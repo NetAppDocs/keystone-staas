@@ -21,8 +21,12 @@ The following known issues have been reported in NetApp Keystone STaaS. You migh
 a|Incorrect service level derived for mirror volumes.
 a|If both MetroCluster and FabricPool are enabled in an environment where rate plans for both tiering and object storage are applicable, the service levels derived for the mirror volumes (both constituent and FabricPool volumes) might be incorrect.
 a|None.
+a|Occasional anomaly in IOPS density reporting.
+a|In some MetroCluster environments, the IOPS density charts are incorrectly displayed in the *Performance* tab due to inaccurate mapping of volumes to service levels.
+a|None.
 a|Partially visible links and icons in the *Subscriptions* tab.
 a|A few links and icons, such as the link to the *Current Usage* tab and the tooltips of some columns are partially visible.
 a|No workaround is required. The links work as expected.
+
 
 |===
