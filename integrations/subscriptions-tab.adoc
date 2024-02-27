@@ -19,7 +19,7 @@ To view this tab, from the left navigation pane, go to *GENERAL > Keystone Subsc
 
 image:all-subs.png[an image of the Subscriptions tab]
 
-##You can filter the selection by clicking the hamburger icon image:icon-hamburger.png[hamburger icon] for a column, or view all the subscriptions by clicking the *Clear Filters* button.## For certain fields and columns, you might see information or warning icons and tooltips that provide you with additional information about the data. 
+You can filter the selection by clicking the hamburger icon image:icon-hamburger.png[hamburger icon] for a column, or view all the subscriptions by clicking the *Clear Filters* button. For certain fields and columns, you might see information or warning icons and tooltips that provide you with additional information about the data. 
 
 * *Subscription Number*: The subscription number of the Keystone subscription assigned by NetApp.
 //*Linked Subscriptions*: This column is optionally available to you. If you have any secondary subscriptions linked to your primary subscription, this column lists the linked subscription numbers for the primary subscription. This subscription number can be of your primary or secondary (linked) subscription.
