@@ -21,7 +21,7 @@ Digital Advisor offers a unified dashboard that gives insights into various leve
 
 .Default (old) dashboard 
 
-You can see your customer name and subscription number, account name, start and end dates of the subscription, and the capacity usage graphs as per your subscribed service levels. #You can see the collection timestamp of the consumption data in UTC time.#
+You can see your customer name and subscription number, account name, start and end dates of the subscription, and the capacity usage graphs as per your subscribed service levels. You can see the collection timestamp of the consumption data in UTC time.
 
 
 image:old-db.png[old dashboard]
