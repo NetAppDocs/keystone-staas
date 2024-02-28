@@ -2,10 +2,10 @@
 sidebar: sidebar
 permalink: release-notes/known-issues.html
 keywords: netapp, keystone, release notes, known issues
-summary: known issues in NetApp Service Engine
+summary: known issues in Keystone STaaS
 ---
 
-= Known issues in NetApp Service Engine
+= Known issues in Keystone STaaS
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -27,3 +27,5 @@ No known issues have been reported in this release of Keystone STaaS services.
 //a|N/A
 
 //|===
+
+//Placeholders kept for known issues. The lead sentence should be changed and the table filled in, if there are any known issues in the future- Manini (28-Feb-24)
