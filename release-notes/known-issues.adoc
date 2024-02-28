@@ -15,17 +15,16 @@ summary: known issues in Keystone STaaS
 [.lead]
 Known issues identify problems that might prevent you from using Keystone subscription services effectively. 
 
-No known issues have been reported in this release of Keystone STaaS services. 
+The following known issue has been reported in NetApp Keystone STaaS.
 
-//The following known issues hav been reported in NetApp Keystone STaaS.
 
-//[cols="3*",options="header"]
-//|===
-//|Known Issue |Description |Workaround
-//a|N/A
-//a|N/A
-//a|N/A
 
-//|===
+[cols="3*",options="header"]
+|===
+|Known Issue |Description |Workaround
+a|Occasional mismatch in the number of AQoS non-compliant volumes in the *Volumes* tab.
+a|If there are two service levels assigned to a volume that fulfils AQoS compliance for only one service level, the number of AQoS non-compliant volumes listed on the *Volume Summary* and *Volume Details* tabs may differ. 
+a|None
 
-//Placeholders kept for known issues. The lead sentence should be changed and the table filled in, if there are any known issues in the future- Manini (28-Feb-24)
+|===
+
