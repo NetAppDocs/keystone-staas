@@ -13,13 +13,17 @@ summary: known issues in NetApp Service Engine
 :imagesdir: ./media/
 
 [.lead]
-You might encounter issues when you provision or use the storage that is managed by Keystone subscriptions. The following known issue has been reported in NetApp Keystone STaaS.
+Known issues identify problems that might prevent you from using Keystone subscription services effectively. 
 
-[cols="3*",options="header"]
-|===
-|Known Issue |Description |Workaround
-a|Incorrect service level derived for mirror volumes.
-a|If both MetroCluster and FabricPool are enabled in an environment where rate plans for both tiering and object storage are applicable, the service levels derived for the mirror volumes (both constituent and FabricPool volumes) might be incorrect.
-a|None.
+No known issues have been reported in this release of Keystone STaaS services. 
 
-|===
+//The following known issues hav been reported in NetApp Keystone STaaS.
+
+//[cols="3*",options="header"]
+//|===
+//|Known Issue |Description |Workaround
+//a|N/A
+//a|N/A
+//a|N/A
+
+//|===
