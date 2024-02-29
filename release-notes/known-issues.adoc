@@ -26,7 +26,9 @@ a|None
 a|*Assets* tab not populated for AutoSupport subscriptions.
 a|If AutoSupport telemetry is used for gathering Keystone data for a subscription number, no information is retrieved on the *Assets* tab.
 a|None
-
+a|Incorrect appearance of tooltip.
+a|The tooltip for the *Current Burst* index icon appears incorrectly in the *Capacity Trend* tab.
+a|Refer to the correct tooltip text "_The amount of burst capacity currently being consumed. Note this is for current billing period, not the selected date range._"
 
 |===
 
