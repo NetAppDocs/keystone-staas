@@ -15,7 +15,7 @@ summary: known issues in Keystone STaaS
 [.lead]
 Known issues identify problems that might prevent you from using Keystone subscription services effectively. 
 
-The following known issue has been reported in NetApp Keystone STaaS.
+The following known issues have been reported in NetApp Keystone STaaS.
 
 
 
@@ -25,6 +25,8 @@ The following known issue has been reported in NetApp Keystone STaaS.
 a|Occasional mismatch in the number of AQoS non-compliant volumes in the *Volumes* tab.
 a|If there are two service levels assigned to a volume that fulfils AQoS compliance for only one service level, the number of AQoS non-compliant volumes listed on the *Volume Summary* and *Volume Details* tabs may differ. 
 a|None
-
+a|*Assets* tab not populated for AutoSupport subscriptions.
+a|If AutoSupport telemetry is used for gathering Keystone data for a subscription number, no information is retrieved on the *Assets* tab.
+a|None
 |===
 
