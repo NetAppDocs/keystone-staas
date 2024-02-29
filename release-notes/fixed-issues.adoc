@@ -20,7 +20,7 @@ Issues that were found in previous releases of NetApp Keystone STaaS services ha
 |Issue Description |After the fix |Fixed in release
 
 a|If both MetroCluster and FabricPool were enabled in an environment where rate plans for both tiering and object storage were applicable, the service levels could be incorrectly derived for the mirror volumes (both constituent and FabricPool volumes).
-a|Correct service levels apply to mirror volumes.
+a|Correct service levels are applied to mirror volumes.
 a|February 29, 2024
 a|For some subscriptions having a single service level or rate plan, the AQoS compliance column was missing in the CSV output of the *Volumes* tab reports.
 a|The compliance column is visible in the reports.
