@@ -17,8 +17,6 @@ Known issues identify problems that might prevent you from using Keystone subscr
 
 The following known issues have been reported in NetApp Keystone STaaS.
 
-
-
 [cols="3*",options="header"]
 |===
 |Known Issue |Description |Workaround
@@ -28,5 +26,13 @@ a|None
 a|*Assets* tab not populated for AutoSupport subscriptions.
 a|If AutoSupport telemetry is used for gathering Keystone data for a subscription number, no information is retrieved on the *Assets* tab.
 a|None
+a|Incorrect service level derived for mirror volumes.
+a|If both MetroCluster and FabricPool are enabled in an environment where rate plans for both tiering and object storage are applicable, the service levels derived for the mirror volumes (both constituent and FabricPool volumes) might be incorrect.
+a|None.
+a|Partially visible links and icons in the *Subscriptions* tab.
+a|A few links and icons, such as the link to the *Current Usage* tab and the tooltips of some columns are partially visible.
+a|No workaround is required. The links work as expected.
+
+
 |===
 
