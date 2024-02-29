@@ -51,7 +51,7 @@ For more information about Digital Advisor dashboard widget for Keystone, see ht
 For more information about Keystone dashboard and reporting, see link:../integrations/aiq-keystone-details.html[Keystone Subscription dashboard and reporting].
 
 
-== Search by using Keystone watchlists
+== Search by Keystone watchlists
 Watchlist is a feature of Active IQ Digital Advisor (Digital Advisor). For information, see https://docs.netapp.com/us-en/active-iq/concept_overview_dashboard.html[Understand watchlist^]. For information about creating watchlists, see https://docs.netapp.com/us-en/active-iq/task_add_watchlist.html[Create a watchlist^].
 
 For Keystone STaaS, you can create watchlists for customers or subscription numbers. You can search by the watchlist name on the Digital Advisor screen. On searching by a watchlist, you can view the customers and their subscriptions in the *Subscription* drop-down list on the *Keystone Subscriptions* widget.
