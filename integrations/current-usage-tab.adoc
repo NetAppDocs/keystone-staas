@@ -37,4 +37,4 @@ Coupled with the current usage, you might want to view the historical usage data
 * link:../integrations/capacity-trend-tab.html[Capacity Trend]
 * link:../integrations/volumes-objects-tab.html[Volumes & Objects]
 * link:../integrations/performance-tab.html[Performance]
-
+* link:../integrations/assets-tab.html[Assets tab]

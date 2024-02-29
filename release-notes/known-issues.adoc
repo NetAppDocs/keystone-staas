@@ -2,10 +2,10 @@
 sidebar: sidebar
 permalink: release-notes/known-issues.html
 keywords: netapp, keystone, release notes, known issues
-summary: known issues in NetApp Service Engine
+summary: known issues in Keystone STaaS
 ---
 
-= Known issues in NetApp Service Engine
+= Known issues in Keystone STaaS
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,11 +13,19 @@ summary: known issues in NetApp Service Engine
 :imagesdir: ./media/
 
 [.lead]
-The following known issues have been reported in NetApp Keystone STaaS. You might encounter these issues when you provision or use the storage that is managed by your Keystone subscriptions.
+Known issues identify problems that might prevent you from using Keystone subscription services effectively. 
+
+The following known issues have been reported in NetApp Keystone STaaS.
 
 [cols="3*",options="header"]
 |===
 |Known Issue |Description |Workaround
+a|Occasional mismatch in the number of AQoS non-compliant volumes in the *Volumes* tab.
+a|If there are two service levels assigned to a volume that fulfils AQoS compliance for only one service level, the number of AQoS non-compliant volumes listed on the *Volume Summary* and *Volume Details* tabs may differ. 
+a|None
+a|*Assets* tab not populated for AutoSupport subscriptions.
+a|If AutoSupport telemetry is used for gathering Keystone data for a subscription number, no information is retrieved on the *Assets* tab.
+a|None
 a|Incorrect service level derived for mirror volumes.
 a|If both MetroCluster and FabricPool are enabled in an environment where rate plans for both tiering and object storage are applicable, the service levels derived for the mirror volumes (both constituent and FabricPool volumes) might be incorrect.
 a|None.
@@ -25,4 +33,6 @@ a|Partially visible links and icons in the *Subscriptions* tab.
 a|A few links and icons, such as the link to the *Current Usage* tab and the tooltips of some columns are partially visible.
 a|No workaround is required. The links work as expected.
 
+
 |===
+

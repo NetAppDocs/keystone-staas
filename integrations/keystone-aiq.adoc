@@ -15,13 +15,14 @@ summary: Keystone and Digital Advisor
 [.lead]
 If you have subscribed to NetApp Keystone STaaS services, you get an overview of your subscriptions on the *Keystone Subscriptions* widget of the Active IQ Digital Advisor (also known as Digital Advisor) dashboard.
 
-You can search for Keystone subscription details by searching by a customer name or a watchlist name that includes multiple customers. For information about how to search Keystone STaaS subscriptions by watchlists, see link:../integrations/keystone-aiq.html#search-by-using-keystone-watchlists[Search by using Keystone watchlists].
+You can search for Keystone subscription by entering the first three characters of a customer or watchlist name, or the Keystone subscription number. For information about how to search Keystone STaaS subscriptions by watchlists, see link:../integrations/keystone-aiq.html#search-by-using-keystone-watchlists[Search by using Keystone watchlists]. 
 
 Digital Advisor offers a unified dashboard that gives insights into various levels of your subscription data and usage information through the *Switch to old/new dashboard* button.
 
 .Default (old) dashboard 
 
-You can see your customer name and subscription number, account name, start and end dates of the subscription, and the capacity usage graphs as per your subscribed service levels. 
+You can see your customer name and subscription number, account name, start and end dates of the subscription, and the capacity usage graphs as per your subscribed service levels. You can see the collection timestamp of the consumption data in UTC time.
+
 
 image:old-db.png[old dashboard]
 
@@ -29,13 +30,13 @@ image:old-db.png[old dashboard]
 
 You can see the breakup of the capacity usage as per your subscriptions, and warnings and alerts that require immediate attention or action. The information appears selectively, depending on your subscriptions and the status of your usage. You can view this information:
 
-* Capacity usage, such as:
+* *Capacity usage*: Consumption data such as:
 ** No usage.
 ** Consumption exceeding 80% of the committed capacity.
 ** Burst usage.
 ** Consumptions above the burst capacity.
-* Service Level Agreement: This status appears if at least one of your subscriptions has a valid sustainability service level agreement (SLA) with NetApp. The status indicates whether the subscriptions meet the sustainability criteria defined in your SLA. If your subscriptions meet the SLA criteria, you can see the status as _All OK_.
-* Miscellaneous warnings are displayed if they are applicable to you.
+* *Service Level Agreement*: This status appears if at least one of your subscriptions has a valid sustainability service level agreement (SLA) with NetApp. The status indicates whether the subscriptions meet the sustainability criteria defined in your SLA. If your subscriptions meet the SLA criteria, you can see the status as _All OK_.
+* *Alerts*: You see alerts for various scenarios if they are applicable to you.
 ** *Expiring soon*: In case your subscriptions expire within 90 days.
 ** *Critical Hardware Upgrades*: If any critical hardware upgrades are pending.
 ** *AQoS Warnings*: You have volumes without AQoS policies assigned.
@@ -53,17 +54,15 @@ For more information about Keystone dashboard and reporting, see link:../integra
 == Search by using Keystone watchlists
 Watchlist is a feature of Active IQ Digital Advisor (Digital Advisor). For information, see https://docs.netapp.com/us-en/active-iq/concept_overview_dashboard.html[Understand watchlist^]. For information about creating watchlists, see https://docs.netapp.com/us-en/active-iq/task_add_watchlist.html[Create a watchlist^].
 
-Keystone STaaS supports creation of watchlists and searching by them to view subscription details of multiple customers. Follow these steps to create a watchlist for Keystone customers:
+For Keystone STaaS, you can create watchlists for customers or subscription numbers. You can search by the watchlist name on the Digital Advisor screen. On searching by a watchlist, you can view the customers and their subscriptions in the *Subscription* drop-down list on the *Keystone Subscriptions* widget.
 
-. On the *Create Watchlist* screen, provide a name for the Keystone watchlist.
-. Select *Category* in the *Add Systems by* field. *Customer* is selected by default in the *Choose Category* field.
-. Search for the required customers by their names and add them. You can only add customers whose details you are entitled to view.
-. Click *Create Watchlist*. The Digital Advisor screen displays the data for the new watchlist.
-
-On searching by a watchlist on the Digital Advisor screen, you can view the customers and their subscriptions in the *Subscription* drop-down list on the *Keystone Subscriptions* widget.
-
-[TIP]
-If you are viewing the _new_ dashboard on the *Keystone Subscriptions* widget, click *Switch to Old Dashboard* to view the list.
+[NOTE]
+A search by watchlists retrieves the list of subscriptions on the old dashboard. If a watchlist consists of subscription numbers, only the *Keystone Subscriptions* widget is displayed on the Digital Advisor dashboard. 
 
 image:watchlist.png[watchlist screen]
 
+//NSEKEY-8042
+//NSEKEY-8877
+//NSEKEY-8887
+//NSEKEY-8885
+//NSEKEY-8043

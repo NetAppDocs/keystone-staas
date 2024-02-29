@@ -13,10 +13,12 @@ summary: Keystone Subscription reports and graphs
 :imagesdir: ../media/
 
 [.lead]
-The Active IQ Digital Advisor (also known as Digital Advisor) dashboard provides you with the capability of monitoring the usage pertaining to your NetApp Keystone subscriptions and generating reports. On subscribing to Keystone services, you can view the details of your subscription and usage on the *Keystone Subscriptions* widget on the Digital Advisor dashboard.
+You use the Active IQ Digital Advisor (also known as Digital Advisor) dashboard for your Keystone STaaS subscriptions to monitor your capacity usage and generate reports. 
+
+On subscribing to Keystone services, you can view the details of your subscription and usage on the *Keystone Subscriptions* widget on the Digital Advisor dashboard.
 
 [NOTE]
-The information available here applies to both ONTAP and StorageGRID. Exceptions have been pointed out in the relevant sections.
+The information here applies to both ONTAP and StorageGRID. Exceptions have been pointed out in the relevant sections.
 
 For information about the Keystone Digital Advisor widget, see https://docs.netapp.com/us-en/active-iq/view_keystone_capacity_utilization.html[View capacity utilization with NetApp Keystone Subscription^].
 
@@ -70,4 +72,4 @@ image:alert-aiq.png[alert]
 
 Contact NetApp support for more information on these caution and warning messages. For information about raising service requests, see link:../concepts/gssc.html#generating-service-requests[Generating service requests].
 
-//Manini: This topic is linked to the UI and should not be deleted. If at all required, the redirects and information to the AIQ engineering teams should be appropriately conducted.
+//Manini: This topic is linked to the UI and should not be deleted. If at all required, the redirects and communicating this to the AIQ engineering teams should be appropriately conducted.
