@@ -13,27 +13,46 @@ summary: volumes-objects-tab
 :imagesdir: ../media/
 
 [.lead]
-On the *Volumes & Objects* tab, you can view the consumption and other details for your volumes in ONTAP. For StorageGRID, this tab displays the nodes and their individual usage in your object storage environment.
+Use the *Volumes & Objects* tab to view the summary information and details of your ONTAP volumes. For StorageGRID, you can use this tab to read the usage by the individual nodes in your object storage environment.
 
 [NOTE]
-The name of this tab varies with the nature of deployment at your site. If you have both volumes and object storage, you can see the *Volumes & Objects* tab. If you have only ONTAP volumes in your storage environment, the name changes to *Volumes*. For StorageGRID object storage, you can see the *Objects* tab.
+The title of this tab varies with the nature of deployment at your site. If you have both ONTAP and object storage, the title of the tab appears as *Volumes & Objects*. For only ONTAP, the name appears *Volumes*. For StorageGRID object storage, you can see the *Objects* tab.
 
-== View ONTAP volume details
-For ONTAP, the *Volumes* tab displays information, such as the capacity usage, volume type, cluster, aggregate, and service level of the volumes in your storage environment managed by your Keystone subscription.
+== View ONTAP volume summary and details
+The Volumes tab offers different levels of details on your ONTAP system volumes. There are two tabs, one each for the summary and details view of your ONTAP volumes. The *Volume Summary* tab provides an overall count of the volumes mapped to the subscribed service levels. The corresponding volumes are again listed in the *Volume Details* tab with their particulars.
 
-.Steps
+[role="tabbed-block"]
+====
+.Volume Summary
+--
+. Click *GENERAL > Keystone Subscriptions > Volumes & Objects > Volume Summary*.
+. Select the subscription number. By default, the first available subscription number is selected. 
 
-. Click *GENERAL > Keystone Subscriptions > Volumes*.
+For the selected Keystone STaaS subscription, you can see the total number of volumes, their AQoS compliance status, and the total committed, consumed, and available capacity in all those volumes. If you click the number of non-compliant volumes, you see the individual volumes listed in the *Volume Details* tab.
+
+image:volume-summary.png[Volume summary tab]
+
+--
+
+.Volume Details
+--
+. Click *GENERAL > Keystone Subscriptions > Volumes > Volume Details*.
 . Select the subscription number. By default, the first available subscription number is selected. 
 +
-The volume details are displayed. You can scroll across the columns and learn more about them by hovering your mouse on the information icons beside the column headings. You can sort by the columns and filter the lists to view specific information.
+You can see the tabular listing of the volumes, such as capacity usage, volume type, cluster, aggregate, and the assigned Keystone service levels. You can scroll across the columns and learn more about them by hovering your mouse on the information icons beside the column headings. You can sort by the columns and filter the lists to view specific information. 
 +
 [NOTE]
 For advanced data protection add-on service, an additional column appears to indicate whether the volume is a primary or mirror volume in the MetroCluster configuration. You can copy individual node serial numbers by clicking the *Copy Node Serials* button. 
 
-image:aiq-ks-sysdtls.png[Volumes & Objects tab]
+image:volume-details.png[Volumes details tab]
+
+--
+====
+
 
 //NSEKEY-8747
+
+
 
 == View StorageGRID nodes and consumption
 
@@ -50,7 +69,6 @@ image:sg-link.png[StorageGRID dialog box]
 +
 image:sg-link-2.png[StorageGRID dialog box]
 
-
 *Related information*
 
 * link:../integrations/aiq-keystone-details.html[Use Keystone dashboard and reporting]
@@ -59,3 +77,4 @@ image:sg-link-2.png[StorageGRID dialog box]
 * link:../integrations/sla-details-tab.html[SLA Details]
 * link:../integrations/capacity-trend-tab.html[Capacity Trend]
 * link:../integrations/performance-tab.html[Performance]
+* link:../integrations/assets-tab.html[Assets]

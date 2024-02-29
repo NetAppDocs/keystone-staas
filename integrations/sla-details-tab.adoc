@@ -53,3 +53,4 @@ If there is an SLA breach, a image:warning.png[icon for warning] warning icon ad
 * link:../integrations/capacity-trend-tab.html[Capacity Trend]
 * link:../integrations/volumes-objects-tab.html[Volumes & Objects]
 * link:../integrations/performance-tab.html[Performance]
+* link:../integrations/assets-tab.html[Assets]

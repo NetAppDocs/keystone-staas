@@ -122,3 +122,4 @@ For information about how MetroCluster protects your data, see https://docs.neta
 * link:../integrations/sla-details-tab.html[SLA Details]
 * link:../integrations/volumes-objects-tab.html[Volumes & Objects]
 * link:../integrations/performance-tab.html[Performance]
+* link:../integrations/assets-tab.html[Assets]

@@ -15,18 +15,34 @@ summary: Keystone STaaS new features and enhancements.
 [.lead]
 NetApp offers you new and enhanced features in every release of Keystone STaaS services.
 
+
+== New features and enhancements for February 29, 2024
+Several enhancements have been made on the Active IQ Digital Advisor (also known as Digital Advisor) dashboard and *Keystone Subscriptions* screen for this release:
+
+=== Addition of the Assets tab
+The *Keystone Subscriptions* screen now includes the *Assets* tab. This new tab provides cluster-level information based on your subscriptions. For more information, see link:../integrations/assets-tab.html[Assets tab^].
+
+=== Improvements to the Volumes & Objects tab 
+To provide better clarity to your ONTAP system volumes, two new tab buttons, *Volume Summary* and *Volume Details*, have been added to the *Volumes* tab. The *Volume Summary* tab provides an overall count of the volumes associated with your subscribed service levels, including their AQoS compliance status and capacity information. The *Volume Details* tab lists all the volumes and their specifics. For more information, see link:../integrations/volumes-objects-tab.html[Volumes & Objects tab^].
+
+=== Enhanced search experience on Digital Advisor
+The search parameters on the *Digital Advisor* screen now include Keystone subscription numbers and watchlists created for Keystone subscriptions. You can enter the first three characters of a subscription number or watchlist name. For more information, see link:../integrations/keystone-aiq.html[View Keystone dashboard on Active IQ Digital Advisor^].
+
+=== View timestamp of the consumption data 
+You can view the timestamp of the consumption data (in UTC) on the old dashboard of the *Keystone Subscriptions* widget. 
+
+
 == New features and enhancements for February 13, 2024
-The following change has been made on the *Keystone Subscriptions* screen of Active IQ Digital Advisor (also known as Digital Advisor).
+The following enhancement has been made on the *Keystone Subscriptions* screen of Active IQ Digital Advisor (also known as Digital Advisor).
 
 === Ability to view subscriptions linked to a primary subscription
-Some of your primary subscriptions can have linked, secondary subscriptions. If that is the case, the primary subscription number will continue to be displayed in the *Subscription Number* column, while the linked subscription numbers will be listed in a new column *Linked Subscriptions* on the *Subscriptions* tab. The *Linked Subscriptions* column becomes available to you only if you have linked subscriptions, and you can see information messages notifying you about them. 
-
+Some of your primary subscriptions can have linked, secondary subscriptions. If that is the case, the primary subscription number will continue to be displayed in the *Subscription Number* column, while the linked subscription numbers will be listed in a new column *Linked Subscriptions* on the *Subscriptions* tab. The *Linked Subscriptions* column becomes available to you only if you have linked subscriptions, and you can see information messages notifying you about them.
 
 == New features and enhancements for January 11, 2024
 
 Learn what's new in this release.
 
-The following changes have been made on the *Keystone Subscriptions* screen of Active IQ Digital Advisor (also known as Digital Advisor).
+The following enhancements have been made on the *Keystone Subscriptions* screen of Active IQ Digital Advisor (also known as Digital Advisor).
 
 === Invoiced data returned for accrued burst
 The labels for *Accrued Burst* are now modified to *Invoiced Accrued Burst* in the *Capacity Trend* tab. Selecting this option enables you to view the the monthly charts for the billed accrued burst data. For more information, see link:../integrations/aiq-keystone-details.html#view-invoiced-accrued-burst[View invoiced accrued burst^].
@@ -46,6 +62,7 @@ The support for watchlists in Active IQ Digital Advisor (also known as Digital A
 The data returned on the tabs of the *Keystone Subscriptions* screen of Active IQ Digital Advisor is displayed in UTC time (server timezone). When you enter a date for query, it is automatically considered to be in UTC time. For more information, see link:../integrations/aiq-keystone-details.html[Keystone Subscription dashboard and reporting^].
 
 
+// NSEKEY-8001, NSEKEY-8884, NSEKEY-8042, NSEKEY-8877, NSEKEY-8885, NSEKEY-8887, NSEKEY-8043, Clear filter button: Feb 2024.
 
 
 
