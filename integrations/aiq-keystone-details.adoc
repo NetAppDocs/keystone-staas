@@ -45,12 +45,12 @@ The following links provide more information about each of these tabs:
 * link:../integrations/capacity-trend-tab.html[Capacity Trend]
 * link:../integrations/volumes-objects-tab.html[Volumes & Objects]
 * link:../integrations/performance-tab.html[Performance]
-
+* link:../integrations/assets-tab.html[Assets]
 
 == Generate reports
-You can generate and view reports for your subscription details, historical usage data for a time range, and volume details from each of the tabs by clicking the download button: image:download-icon.png[report download icon]
+You can generate and view reports for your Keystone data. Each tab on the  *Keystone Subscriptions* page enables you to generate reports for your subscriptions, historical usage and burst usage, performance, assets, and volumes and objects by clicking the download button: image:download-icon.png[report download icon]
 
-The details are generated in CSV format that you can save for future use.
+The details are generated in CSV format that you can save for future use and comparison.
 
 A sample report for the *Capacity Trend* tab, where the graphical data is converted:
 
