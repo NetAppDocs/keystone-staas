@@ -20,11 +20,11 @@ The following known issues have been reported in NetApp Keystone STaaS.
 [cols="3*",options="header"]
 |===
 |Known Issue |Description |Workaround
+a|Information on AQoS non-compliant volumes and MetroCluster partners is unavailable for AutoSupport subscriptions.
+a|If AutoSupport telemetry is used for gathering Keystone data, the count of AQoS non-compliant volumes listed on the *Volume Summary* and *Current Usage* tabs, and information about MetroCluster partners, are unavailable if Keystone data is not present for 24 hours.
+a|None
 a|Occasional mismatch in the number of AQoS non-compliant volumes in the *Volumes* tab.
 a|If there are two service levels assigned to a volume that fulfils AQoS compliance for only one service level, the number of AQoS non-compliant volumes listed on the *Volume Summary* and *Volume Details* tabs might differ. 
-a|None
-a|*Assets* tab not populated for AutoSupport subscriptions.
-a|If AutoSupport telemetry is used for gathering Keystone data for a subscription number, no information is retrieved on the *Assets* tab.
 a|None
 a|Incorrect appearance of tooltip.
 a|The tooltip for the *Current Burst* index icon appears incorrectly in the *Capacity Trend* tab.

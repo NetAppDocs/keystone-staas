@@ -19,6 +19,9 @@ Issues that were found in previous releases of NetApp Keystone STaaS services ha
 |===
 |Issue Description |After the fix |Fixed in release
 
+a|No information is available on the *Assets* tab for AutoSupport subscriptions.
+a|Fixed
+a|March 14, 2024
 a|If both MetroCluster and FabricPool were enabled in an environment where rate plans for both tiering and object storage were applicable, the service levels could be incorrectly derived for the mirror volumes (both constituent and FabricPool volumes).
 a|Correct service levels are applied to mirror volumes.
 a|February 29, 2024
