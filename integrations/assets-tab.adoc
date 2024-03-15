@@ -23,7 +23,7 @@ Active IQ Digital Advisor (Digital Advisor) provides a comprehensive inventory-l
 
 You see the cluster details, broken down by storage efficiency settings, platform type, and capacity details. Clicking on one of the clusters takes you to the *Clusters* widget on the Digital Advisor screen, where you get additional information for that cluster. 
 
-image:assets-tab.png[Assets tab]
+image:assets-tab-2.png[Assets tab]
 
 
 *Related information*
