@@ -28,9 +28,9 @@ The Volumes tab offers different levels of details on your ONTAP system volumes.
 . Click *GENERAL > Keystone Subscriptions > Volumes & Objects > Volume Summary*.
 . Select the subscription number. By default, the first available subscription number is selected. 
 
-For the selected Keystone STaaS subscription, you can see the total number of volumes, their AQoS compliance status, and the total committed, consumed, and available capacity in all those volumes. If you click the number of non-compliant volumes, you see the individual volumes listed in the *Volume Details* tab.
+For the selected Keystone STaaS subscription, you can see the total number of volumes, their AQoS compliance status, count of protected volumes, and the total committed, consumed, and available capacity in all those volumes. ##If you click the number of non-compliant or protected volumes, it takes you to the *Volume Details* tab, where you can view a filtered list showing either the non-compliant volumes or the protected volumes, based on your selection.##
 
-image:volume-summary.png[Volume summary tab]
+image:volume-summary-1.png[Volume summary tab]
 
 --
 
@@ -44,7 +44,7 @@ You can see the tabular listing of the volumes, such as capacity usage, volume t
 [NOTE]
 For advanced data protection add-on service, an additional column appears to indicate whether the volume is a primary or mirror volume in the MetroCluster configuration. You can copy individual node serial numbers by clicking the *Copy Node Serials* button. 
 
-image:volume-details.png[Volumes details tab]
+image:volume-details-1.png[Volumes details tab]
 
 --
 ====

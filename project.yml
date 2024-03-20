@@ -113,8 +113,7 @@ sidebar:
         - title: Performance SLA
           url: /concepts/sla-performance.html                       
         - title: Sustainability SLA
-          url: /concepts/sla-sustainability.html        
-     
+          url: /concepts/sla-sustainability.html   
     - title: Billing
       entries:
         - title: Keystone pricing
