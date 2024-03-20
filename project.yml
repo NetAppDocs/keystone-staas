@@ -106,8 +106,15 @@ sidebar:
           url: /concepts/qos.html
         - title: Capacity requirements for Service Levels
           url: /concepts/capacity-requirements.html
+    - title: Keystone STaaS SLA
+      entries:
+        - title: Availability SLA
+          url: /concepts/sla-availability.html
+        - title: Performance SLA
+          url: /concepts/sla-performance.html                       
         - title: Sustainability SLA
-          url: /concepts/sla-sustainability.html    
+          url: /concepts/sla-sustainability.html        
+     
     - title: Billing
       entries:
         - title: Keystone pricing

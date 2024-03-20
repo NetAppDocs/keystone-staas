@@ -1,0 +1,66 @@
+---
+sidebar: sidebar
+permalink: concepts/sla-availability.html
+keywords: availability, sla, service level agreement, 
+summary: availability, sla, service level agreement
+---
+
+= Availability SLA for Keystone
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ../media/
+
+[.lead]
+NetApp offers Service Level Agreements (SLAs) to ensure continuous uptime of your systems managed by Keystone STaaS. Availability SLA ensures that you receive an average of 99.999% uptime during a billing period across all NetApp AFF storage arrays for your Keystone StaaS subscriptions.
+
+Events are calculated from 15 seconds after a failover is detected, till the HA failover is over, which is consequently considered as system downtime. The capacity affected during the downtime is also calculated in terms of the affected nodes and volumes. NetApp offers payment of service credit that is calculated and issued proportionately based on the committed capacity of the respective performance service level (service level) during a billing period, for all eligible subscriptions.
+
+You can learn about any issues related to SLA from the Keystone widget on the Active IQ Digital Advisor dashboard.
+
+TIP: Downtime is the period during which both the controllers within an HA pair of a storage array are unavailable, except the amount of time when the subscription services are unavailable due to scheduled maintenance, upgrades, support activities, or situations outside of the control or responsibilities of Keystone services.
+
+== Availability metrics
+The metrics for availability and uptime SLA are calculated as this:
+
+* Monthly uptime percentage = [(maximum available minutes - downtime) / maximum available minutes] x 100%
+* Maximum available minutes = Total number of minutes in a billing period
+
+== Availability service levels
+The service levels for the NetApp AFF storage platform are eligible for availability SLA. This includes the service levels for file and block storage, that is Extreme, Performance, Premium, and Standard service levels.
+
+For information about service levels, see link:https://docs.netapp.com/us-en/keystone-staas/concepts/service-levels.html#service-levels-for-file-and-block-storage[Service levels in Keystone].
+
+== Eligibility criteria for availability SLA
+Keystone STaaS subscriptions should meet following criteria for being eligible for availability SLAs:
+
+* ONTAP 9.10 and later should be installed. The ONTAP version should not be upgraded or modified during the reported event.
+* New STaaS subscriptions should be nominated and approved by the Keystone sales and internal teams.
+* The minimum Annual Contract Value (ACV) should be of $150,000.
+* Availability SLAs are applicable to the designated burst usage limit, for example, 120% of the committed capacity of a service level. For information about burst usage, see link:https://docs.netapp.com/us-en/keystone-staas/concepts/supported-storage-capacity.html#burst-capacity[Burst capacity].
+* Monitoring tools, controllers and their management ports, AutoSupport tools, and subscription hardware should not be modified, and should be enabled and available for NetApp to manage.
+* Data efficiency settings, including compression, compaction, deduplication, and thin provisioning should be enabled. For information about storage efficiency settings, see link:https://docs.netapp.com/us-en/ontap/volumes/deduplication-data-compression-efficiency-concept.html[Storage efficiency overview].
+* The service levels should support AQoS policies and all the eligible volumes have to governed by the AQoS policies.
+
+== Availability SLA reports
+The SLA tab on the Active IQ Digital Advisor (Digital Advisor) Keystone dashboard provides a detailed view of the availability metrics of your Keystone subscriptions. You can view the metrics and generate reports for future analysis and actions.
+
+For more information about Keystone dashboard and reporting, see For more information about Keystone dashboard and reporting, see link:../integrations/aiq-keystone-details.html[Keystone Subscription dashboard and reporting].
+
+== Service credits
+If you have detected an SLA breach, you can initiate a service credit request within six weeks of the validation of the event. All service credits should be acknowledged and approved by NetApp. For requesting service credit, follow these steps:
+
+. Open a priority 3 (P3) support ticket with Keystone Global Services and Support Center (GSSC). For information, see NetApp Global Services Support Center.
+. Wait up to 36 hours for the support team to monitor and troubleshoot the incident. Allow up to 96 hours for the team to fix the incident.
+. Meanwhile, for any query, contact GSSC with this information:
++
+* Support ticket number.
+* Keystone subscription number.
+* The volumes and storage controller details.
+* Site, time, date, and description of the issue.
+* Calculated time duration of the event.
+* Measurement tools and methods.
+* Any other applicable document.
+
+The service credit is applicable to the invoice raised for your consumed capacity in the next billing cycle for the specific Keystone subscription. Service credit do not apply to expired Keystone subscriptions. For information, see link:../concepts/gssc.html[NetApp Global Services Support Center].
