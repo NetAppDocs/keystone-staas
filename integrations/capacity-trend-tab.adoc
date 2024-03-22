@@ -31,7 +31,7 @@ If you have selected the *Capacity Trend* option, follow these steps:
 [TIP]
 ====
 * For optimal performance and user experience, limit the date range of your query to three months.
-* If your Keystone subscription is renewed or modified, you can select the previous date as a start date to view the historical consumption data.
+* ##If your Keystone subscription is renewed or modified, you can select the previous date as a start date to view the historical consumption data.##
 ====
 +
 . Click *View Details*. The historical consumption data of the subscription for each service level is displayed based on the selected time range. 
@@ -69,7 +69,7 @@ If you have selected the *Invoiced Accrued Burst* option, by default, you can se
 [TIP]
 ====
 * The invoiced accrued burst usage is calculated per billing period, based on the committed and consumed capacity for a service level.
-* If your Keystone subscription is renewed or modified, you can select the previous date as a start date to view the historical accrued burst usage data.
+* ##If your Keystone subscription is renewed or modified, you can select the previous date as a start date to view the historical accrued burst usage data.##
 ====
 
 image:accr-burst.png[accrued burst usage charts]

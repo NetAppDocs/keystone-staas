@@ -35,7 +35,7 @@ You can see the breakup of the capacity usage as per your subscriptions, and war
 ** Consumption exceeding 80% of the committed capacity.
 ** Burst usage.
 ** Consumptions above the burst capacity.
-* *Service Level Agreement*: This status appears if at least one of your subscriptions has a valid sustainability, performance, or availability service level agreement (SLA) with NetApp. You can look at the icons adjacent to the subscription to determine whether the subscription meets the sustainability, performance, or availability criteria defined in your SLA. The image:green-check.png[green tick] icon indicates that the subscription meets the criteria, while the image:red-warning.png[warning] icon indicates that the subscription breaches the SLA criteria.
+* *Service Level Agreement*: ##This status appears if at least one of your subscriptions has a valid sustainability, performance, or availability service level agreement (SLA) with NetApp. You can look at the icons adjacent to the subscription to determine whether the subscription meets the sustainability, performance, or availability criteria defined in your SLA. The image:green-check.png[green tick] icon indicates that the subscription meets the criteria, while the image:red-warning.png[warning] icon indicates that the subscription breaches the SLA criteria.##
 * *Alerts*: You see alerts for various scenarios if they are applicable to you.
 ** *Expiring soon*: In case your subscriptions expire within 90 days.
 ** *Critical Hardware Upgrades*: If any critical hardware upgrades are pending.

@@ -19,24 +19,29 @@ NetApp offers you new and enhanced features in every release of Keystone STaaS s
 The following enhancement has been made on the *Keystone Subscriptions* screen of Active IQ Digital Advisor (also known as Digital Advisor):
 
 === Improvement to QoS policy compliance display in the Volume Details tab
-The *Volume Details* tab within the *Volumes & Objects* tab now provides better visibility into Quality of Service (QoS) policy compliance. The column formerly known as *AQoS* is renamed to *Compliant*, which indicates whether the QoS policy is in compliance. In addition, a new column *QoS Policy Type* is added, which specifies if the policy is fixed or adaptive. If neither applies, the column displays '_Not Available_'. For more information, see link:../integrations/volumes-objects-tab.html[Volumes & Objects tab^].
+##The *Volume Details* tab within the *Volumes & Objects* tab now provides better visibility into Quality of Service (QoS) policy compliance. The column formerly known as *AQoS* is renamed to *Compliant*, which indicates whether the QoS policy is in compliance. In addition, a new column *QoS Policy Type* is added, which specifies if the policy is fixed or adaptive. If neither applies, the column displays _Not Available_. For more information, see link:../integrations/volumes-objects-tab.html[Volumes & Objects tab^].
+##
 
 === New column and simplified subscription display in the Volume Summary tab
-* The *Volume Summary* tab within the *Volumes & Objects* tab now includes a new column titled *Protected*. This column provides a count of the protected volumes associated with your subscribed service levels. If you click the number of protected volumes, it takes you to the *Volume Details* tab, where you can view a filtered list of protected volumes. 
-* In addition, the *Volume Summary* tab is updated to display only base subscriptions, excluding add-on services. For more information, see link:../integrations/volumes-objects-tab.html[Volumes & Objects tab^].
+* ##The *Volume Summary* tab within the *Volumes & Objects* tab now includes a new column titled *Protected*. This column provides a count of the protected volumes associated with your subscribed service levels. If you click the number of protected volumes, it takes you to the *Volume Details* tab, where you can view a filtered list of protected volumes.## 
+* ##The *Volume Summary* tab is updated to display only base subscriptions, excluding add-on services. For more information, see link:../integrations/volumes-objects-tab.html[Volumes & Objects tab^].
+##
 
 === Change to accrued burst detail display in the Capacity Trend tab
-The tooltip that appears when hovering over the capacity usage bar chart in the *Capacity Trend* tab will display the details of accrued bursts for the current month. The details will not be available for the previous month.
+##The tooltip that appears when hovering over the capacity usage bar chart in the *Capacity Trend* tab will display the details of accrued bursts for the current month. The details will not be available for the previous month.##
 
 === Enhanced access to view historical data for Keystone subscriptions
-You can now view historical data if a Keystone subscription is modified or renewed. You can set the start date of a subscription to a previous date to view :
-* Consumption and accrued burst usage data from the *Capacity Trend* tab,
-* Performance metrics of ONTAP volumes from the *Performance* tab,
-* SLA details from the *SLA Details* tab,
-all of which show the data based on the selected date of the subscription.
+##You can now view historical data if a Keystone subscription is modified or renewed. You can set the start date of a subscription to a previous date to view :##
+
+* ##Consumption and accrued burst usage data from the *Capacity Trend* tab,##
+* ##Performance metrics of ONTAP volumes from the *Performance* tab,##
+* ##SLA details from the *SLA Details* tab,##
+
+##all of which show the data based on the selected date of the subscription.##
 
 === Enhanced SLA status display for Keystone subscriptions
-The *Service Level Agreement* tile within the *Keystone Subscriptions* widget on the Active IQ Digital Advisor is enhanced to provide the status of your subscriptions based on sustainability, performance, or availability criteria as per the service level agreement (SLA) with NetApp. Earlier, you can only view the status of subscriptions based on sustainability criteria defined in your SLA. For more information about service level agreements (SLAs), refer to link:..concepts/sla-availability.html[Keystone STaaS SLA].
+##The *Service Level Agreement* tile within the *Keystone Subscriptions* widget on the Active IQ Digital Advisor is enhanced to provide the status of your subscriptions based on sustainability, performance, or availability criteria as per the service level agreement (SLA) with NetApp. Earlier, you can only view the status of subscriptions based on sustainability criteria defined in your SLA. For more information about service level agreements (SLAs), refer to link:../concepts/sla-availability.html[Keystone STaaS SLA^].
+##
 
 == New features and enhancements for February 29, 2024
 Several enhancements have been made on the Active IQ Digital Advisor (also known as Digital Advisor) dashboard and *Keystone Subscriptions* screen for this release:

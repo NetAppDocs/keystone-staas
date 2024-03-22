@@ -63,12 +63,6 @@ Keystone STaaS subscriptions meeting the following criteria are eligible for per
 * The minimum size of the FlexVol volume is 100 GiB.
 * There is a maximum of 1,000 volumes per controller.
 
-
-== Performance SLA reports
-The SLA tab on the Active IQ Digital Advisor (Digital Advisor) Keystone dashboard provides a detailed view of the performance metrics for your Keystone subscriptions. You can view the metrics and generate reports for future analysis and actions.
-
-For more information about Keystone dashboard and reporting, see link:../integrations/aiq-keystone-details.html[Keystone Subscription dashboard and reporting].
-
 == Service credits
 If you have detected an SLA breach, you can initiate a service credit request within six weeks of the validation of the event. All service credits should be acknowledged and approved by NetApp. For requesting service credit, follow these steps:
 

@@ -43,11 +43,6 @@ Keystone STaaS subscriptions should meet following criteria for being eligible f
 * Data efficiency settings, including compression, compaction, deduplication, and thin provisioning should be enabled. For information about storage efficiency settings, see link:https://docs.netapp.com/us-en/ontap/volumes/deduplication-data-compression-efficiency-concept.html[Storage efficiency overview].
 * The service levels should support AQoS policies and all the eligible volumes have to governed by the AQoS policies.
 
-== Availability SLA reports
-The SLA tab on the Active IQ Digital Advisor (Digital Advisor) Keystone dashboard provides a detailed view of the availability metrics of your Keystone subscriptions. You can view the metrics and generate reports for future analysis and actions.
-
-For more information about Keystone dashboard and reporting, see For more information about Keystone dashboard and reporting, see link:../integrations/aiq-keystone-details.html[Keystone Subscription dashboard and reporting].
-
 == Service credits
 If you have detected an SLA breach, you can initiate a service credit request within six weeks of the validation of the event. All service credits should be acknowledged and approved by NetApp. For requesting service credit, follow these steps:
 
