@@ -13,23 +13,20 @@ summary: SLA Details tab on Keystone and Digital Advisor
 :imagesdir: ../media/
 
 [.lead]
-Service Level Agreements (SLAs) are a key component of NetApp’s cloud storage solutions. SLAs aim to provide effective, high-quality, and reliable storage solution as a part of Keystone STaaS service offerings. Keystone STaaS has three SLAs to guarantee performance, availability, and sustainability. The SLA Details tab is available only if you have a valid SLA with NetApp for either sustainability, performance, or availability. For more information about service levels in Keystone STaaS, see link:../concepts/service-levels.html[Service levels in Keystone].
+The *SLA Details* tab is available only if you have a valid service level agreement (SLA) with NetApp. The *Sustainability SLA* tab is available only if you have a valid sustainability SLA.
 
-// start tabbed area
-[role="tabbed-block"]
-====
+Service Level Agreements (SLAs) are a key component of NetApp's cloud storage solutions. SLAs aim to provide effective, high-quality, and reliable storage solution as a part of Keystone STaaS service offerings. For information about sustainability in Keystone STaaS, see link:../concepts/sla-sustainability.html[Sustainability SLA for Keystone].
 
-.Sustainability SLA
---
+.Steps
 . Click *GENERAL > Keystone Subscriptions > SLA Details > Sustainability SLA*.
 . Select the required subscription for which you want to view the details. You can view only those subscriptions that meet the criteria for sustainability SLA. For information about the criteria, see link:../concepts/sla-sustainability.html#eligibility-criteria-for-sustainability-sla[Eligibility criteria for sustainability SLA].
 . Select the year and month for which you want to view the details. By default, the data for the current month is displayed. You can select the year and month during which the subscription has been active.
 . Click *View Details*.
-+
+
 You can see a daily breakdown of the sustainability metrics for the selected month:
-+
+
 image:sla-sustainability.png[sla details tab listing sustainability details]
-+
+
 The following details are displayed. For certain fields and columns, you might see information icons and tooltips that provide you with additional information about the data.
 
 * *Average Sustainability*: The average power consumed in watts/TiB over the last billing period of this subscription.
@@ -40,63 +37,12 @@ The following details are displayed. For certain fields and columns, you might s
 * *SLA Watts/TiB*: The watts/TiB value for the service level defined in the SLA.
 * *Average Temperature (^o^C)*: The average ambient temperature for the day.
 * *Storage Efficiency Ratio*: The storage efficiency ratio in the Keystone storage environment. This is the ratio of the total logical space used by the system after enabling the storage efficiency settings to the total physical space used to store the data. For information about storage efficiency ratio, see https://docs.netapp.com/us-en/active-iq/concept_overview_storage_efficiency.html[Understand storage efficiency^].
-+
+
 If there is an SLA breach, a image:warning.png[icon for warning] warning icon adjacent to the column informs you of the nature of the breach. The following warnings are displayed:
-+
-** Ambient temperature: If the temperature is outside of the range of 25^o^C - 27^o^C.
-** SLA Watts/TiB: If the service level SLA metrics are not met. For information, see link:../concepts/sla-sustainability.html#sustainability-service-level[Sustainability service level].
-** Storage efficiency ratio: If the storage efficiency is less than 2:1.
---
 
-.Performance SLA
---
-. Click *GENERAL > Keystone Subscriptions > SLA Details > Performance SLA*.
-. Select the required subscription and volume for which you want to view the details. You can view only those subscriptions that meet the criteria for performance SLA. For information about the criteria, see link:../concepts/sla-performance.html#eligibility-criteria-for-performance-sla[Eligibility criteria for performance SLA].
-. Select the date range for which you want to view the details. By default, the date range for the current month is displayed. You can select a date range during which the subscription has been active.
-. Click *View Details*.
-+
-You can see a daily graph indicating the 90th percentile of the latency per day for the selected date range:
-+
-image:sla-performance.png[sla details tab listing performance details]
-+
-The following details are displayed along with the name of the service level and cluster, and the type of the volume, whether it has read and write permissions enabled. If there are any warnings for the volume, you can also view that.
-
-* *Latency (ms)*: The Y-axis displays the latency graph for the day in milliseconds, starting with 0.
-* *X-axis*: The X-axis displays the dates of the daily metrics when the data was collected.
-* *SLA*: The target latency for the SLA that is determined for the respective service level.
-* *Minimum*: The minimum latency (in milliseconds) as collected for the date range of the query.
-* *Maximum*: The maximum latency (in milliseconds) as collected for the date range of the query.
-• *Average*: The average latency (in milliseconds) as collected for the date range of the query.
-• *SLA Reference Line*: If you click this check box, a grey line appears on the graph to indicate the deviation in terms of the target latency defined in the SLA.
---
-
-.Availability SLA
---
-. Click *GENERAL > Keystone Subscriptions > SLA Details > Availability SLA*.
-. Select the required subscription and volume for which you want to view the availability data. You can view only those subscriptions on the list that meet the criteria for availability SLA. For information about the criteria, see link:../concepts/sla-availability.html#eligibility-criteria-for-availability-sla[Eligibility criteria for availability SLA].
-. Select the months for which you want to view the details. By default, the data for last one year is displayed. You can only select the date range during which the subscription has been active.
-. Click *View Details*. 
-+
-You can see a monthly breakdown of the availability metrics for the selected months:
-+
-image:sla-availability.png[sla details tab listing availability details]
-+
-NOTE: A downtime record that breaches the availability SLA for a subscription and service level will be highlighted. Since the data is displayed on a monthly basis, the availability data for an ongoing month may not be visible on the screen.
-+
-The following details are displayed along with the name of the service level and cluster, and the type of the volume, whether it has read and write permissions enabled:
-
-* *Month-Year*: The name of the month in a year.
-* *Total days*: The number of days in the month.
-* *AutoSupport*: The number of days when telemetry data was received in the form of AutoSupport bundles by NetApp support for a node. This data is used for calculating uptime and downtime during the month.
-* *Total Uptime (seconds)*: Total time period broken down in seconds for the month.
-* *Outage time*: Number of reported outage during the month.
-* *Effective Uptime*: This is the total uptime (in seconds) for which there was constant availability in the system. The time period is derived by deducting the downtime, if any, from the total uptime.
-* *Uptime*: The percentage of total time when the system was up.
---
-
-====
-
-//End tabbed area
+* Ambient temperature: If the temperature is outside of the range of 25^o^C - 27^o^C.
+* SLA Watts/TiB: If the service level SLA metrics are not met. For information, see link:../concepts/sla-sustainability.html#sustainability-service-level[Sustainability service level].
+* Storage efficiency ratio: If the storage efficiency is less than 2:1.
 
 
 *Related information*

@@ -26,10 +26,13 @@ The vertical graphs display the usage details for the selected time range with a
 If you have selected the *Capacity Trend* option, follow these steps:
 
 .Steps
-. Select the time range from the calendar icons in the *From Date* and *To Date* fields. Select the date range for the query. The date range can be the beginning of the month or the subscription start date to the current date or the subscription end date. You cannot select a future date.
+. Select the time range from the calendar icons in the *From Date* and *To Date* fields. Select the date range for the query. The date range can be the beginning of the month or the subscription start date to the current date or the subscription end date. You cannot select a future date. If your Keystone subscription is renewed or modified, you can select the previous date as a start date to view the historical consumption data.
 +
 [TIP]
-For optimal performance and user experience, limit the date range of your query to three months.
+====
+* For optimal performance and user experience, limit the date range of your query to three months.
+* If your Keystone subscription is renewed or modified, you can select the previous date as a start date to view the historical consumption data.
+====
 +
 . Click *View Details*. The historical consumption data of the subscription for each service level is displayed based on the selected time range. 
 
@@ -64,7 +67,10 @@ You can click the toggle button *Show Current Usage* to view the consumption, bu
 If you have selected the *Invoiced Accrued Burst* option, by default, you can see the monthly accrued burst usage data for the last 12 months that has been billed. You can query by the date range of up to past 30 months. Bar charts are displayed for invoiced data, and if the usage has not yet been billed, you see _Pending_ for that month.
 
 [TIP]
-The invoiced accrued burst usage is calculated per billing period, based on the committed and consumed capacity for a service level.
+====
+* The invoiced accrued burst usage is calculated per billing period, based on the committed and consumed capacity for a service level.
+* If your Keystone subscription is renewed or modified, you can select the previous date as a start date to view the historical accrued burst usage data.
+====
 
 image:accr-burst.png[accrued burst usage charts]
 
