@@ -27,7 +27,7 @@ a|Mandatory (if using Keystone StorageGRID)
 a|Keystone Collector usage metrics collection for StorageGRID
 a|Keystone Collector (generic)
 a|Internet (as per URL requirements given later)
-a|HTTP, HTTPS
+a|HTTPS
 a|TCP 80, TCP 443
 a|Mandatory (internet connectivity)
 a|Keystone Collector software, OS updates, and metrics upload
@@ -57,7 +57,7 @@ a|Optional Functionality
 a|Performance metrics collection for Keystone Collector
 a|Keystone Collector (generic)
 a|Customer Monitoring System
-a|HTTP
+a|HTTPS
 a|TCP 777
 a|Optional Functionality
 a|Keystone Collector health reporting
@@ -88,10 +88,5 @@ a|https://keystone.netapp.com[^]
 a|Keystone Collector software updates and usage reporting
 a|https://support.netapp.com[^]
 a|NetApp HQ for billing information and AutoSupport delivery
-a|http://mirror.centos.org[^] 
-http://mirrorlist.centos.org[^]
-a|OS updates for Keystone Collector (OVA deployments only)
-a|https://repo.mysql.com[^]
-a|Download and update MySQL dependencies (for Linux deployments only)
 
 |===

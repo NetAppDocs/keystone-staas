@@ -18,8 +18,8 @@ There are a few virtual infrastructure configurations that are required for inst
 .Prerequisites for the Keystone Collector server VM:
 
 * Operating system: VMware vCentre server and ESXi 6.5 or later
-* Core: 4 CPUs
-* RAM: 12 GB RAM
-* Disk space: 200 GB vDisk
+* Core: 1 CPU
+* RAM: 2 GB RAM
+* Disk space: 20 GB vDisk
 
 include::../_include/generic-prereqs.adoc[]
