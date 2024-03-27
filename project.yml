@@ -64,8 +64,6 @@ sidebar:
               url: /integrations/subscriptions-tab.html
             - title: Current Usage tab
               url: /integrations/current-usage-tab.html
-            - title: SLA Details tab
-              url: /integrations/sla-details-tab.html
             - title: Capacity Trend tab
               url: /integrations/capacity-trend-tab.html
             - title: Volumes & Objects tab

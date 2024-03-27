@@ -35,7 +35,6 @@ You can now view historical data if a Keystone subscription is modified or renew
 
 * Consumption and accrued burst usage data from the *Capacity Trend* tab,
 * Performance metrics of ONTAP volumes from the *Performance* tab,
-* SLA details from the *SLA Details* tab,
 
 all of which show the data based on the selected date of the subscription.
 
