@@ -119,7 +119,6 @@ For information about how MetroCluster protects your data, see https://docs.neta
 * link:../integrations/aiq-keystone-details.html[Use Keystone dashboard and reporting]
 * link:../integrations/subscriptions-tab.html[Subscriptions]
 * link:../integrations/current-usage-tab.html[Current Usage]
-* link:../integrations/sla-details-tab.html[SLA Details]
 * link:../integrations/volumes-objects-tab.html[Volumes & Objects]
 * link:../integrations/performance-tab.html[Performance]
 * link:../integrations/assets-tab.html[Assets]
