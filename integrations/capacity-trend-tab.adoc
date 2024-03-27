@@ -26,7 +26,7 @@ The vertical graphs display the usage details for the selected time range with a
 If you have selected the *Capacity Trend* option, follow these steps:
 
 .Steps
-. Select the time range from the calendar icons in the *From Date* and *To Date* fields. Select the date range for the query. The date range can be the beginning of the month or the subscription start date to the current date or the subscription end date. You cannot select a future date. If your Keystone subscription is renewed or modified, you can select the previous date as a start date to view the historical consumption data.
+. Select the time range from the calendar icons in the *From Date* and *To Date* fields. Select the date range for the query. The date range can be the beginning of the month or the subscription start date to the current date or the subscription end date. You cannot select a future date. 
 +
 TIP: For optimal performance and user experience, limit the date range of your query to three months.
 

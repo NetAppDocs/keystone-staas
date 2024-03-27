@@ -28,7 +28,7 @@ The *Volume Details* tab within the *Volumes & Objects* tab now provides better 
 
 
 === Change to accrued burst detail display in the Capacity Trend tab
-The tooltip that appears when hovering over the capacity usage bar chart in the *Capacity Trend* tab will display the details of accrued bursts for the current month. The details will not be available for the previous month.
+The tooltip that appears when hovering over the capacity usage bar chart in the *Capacity Trend* tab will display the details of accrued bursts for the current month. The details will not be available for the previous months.
 
 === Enhanced access to view historical data for Keystone subscriptions
 You can now view historical data if a Keystone subscription is modified or renewed. You can set the start date of a subscription to a previous date to view :
