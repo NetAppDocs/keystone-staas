@@ -23,7 +23,9 @@ The auto-update feature in Keystone Collector is enabled by default, which autom
 +
 image:upgrade-1.png[tui screen]
 +
-Alternately, run this command to upgrade the version:
+Alternately, run these commands to upgrade the version:
++
+For CentOS:
 +
 ----
 sudo yum clean metadata && sudo yum install keystone-collector
@@ -31,11 +33,24 @@ sudo yum clean metadata && sudo yum install keystone-collector
 +
 image:upgrade-2.png[tui screen]
 +
+For Debian:
++
+----
+sudo apt-get update && sudo apt-get upgrade keystone-collector
+----
 . Restart Keystone Collector management TUI, you can see the latest version on the upper left portion of the home screen.
 +
-Alternately, run this command to view the latest version:
+Alternately, run these commands to view the latest version:
++
+For CentOS:
 +
 ----
 rpm -q keystone-collector
+----
++
+For Debian:
++
+----
+dpkg -l | grep keystone-collector
 ----
 

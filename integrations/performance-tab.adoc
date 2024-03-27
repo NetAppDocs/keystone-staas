@@ -26,8 +26,6 @@ This tab is optionally available to you. Contact support for viewing this tab.
 Alternately, you can click the image:aiq-ks-time-icon.png[graph icon] icon against an ONTAP volume in the *Volumes* tab to navigate to this tab.
 +
 . Select the date range for the query. The date range can be the beginning of the month or the subscription start date to the current date or the subscription end date. You cannot select a future date.
-+
-TIP: ##If your Keystone subscription is renewed or modified, you can select the previous date as a start date to view the historical performance data.##
 
 The retrieved details are based on the service level objective for each service level. For example, the peak IOPS, maximum throughput, target latency, and other metrics are determined by the individual settings for the service level. For more information about the settings, see link:../concepts/service-levels.html[Service levels in Keystone]. 
 

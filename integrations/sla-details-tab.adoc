@@ -21,8 +21,6 @@ Service Level Agreements (SLAs) are a key component of NetApp's cloud storage so
 . Click *GENERAL > Keystone Subscriptions > SLA Details > Sustainability SLA*.
 . Select the required subscription for which you want to view the details. You can view only those subscriptions that meet the criteria for sustainability SLA. For information about the criteria, see link:../concepts/sla-sustainability.html#eligibility-criteria-for-sustainability-sla[Eligibility criteria for sustainability SLA].
 . Select the year and month for which you want to view the details. By default, the data for the current month is displayed. You can select the year and month during which the subscription has been active.
-+
-TIP: ##If your Keystone subscription is renewed or modified, you can select the previous month and year as a start date to view the historical SLA details.##
 . Click *View Details*.
 
 You can see a daily breakdown of the sustainability metrics for the selected month:
