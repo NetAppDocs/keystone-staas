@@ -41,7 +41,6 @@ The following links provide more information about each of these tabs:
 
 * link:../integrations/subscriptions-tab.html[Subscriptions]
 * link:../integrations/current-usage-tab.html[Current Usage]
-* link:../integrations/sla-details-tab.html[SLA Details]
 * link:../integrations/capacity-trend-tab.html[Capacity Trend]
 * link:../integrations/volumes-objects-tab.html[Volumes & Objects]
 * link:../integrations/performance-tab.html[Performance]
