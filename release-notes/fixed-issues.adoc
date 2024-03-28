@@ -19,6 +19,15 @@ Issues that were found in previous releases of NetApp Keystone STaaS services ha
 |===
 |Issue Description |After the fix |Fixed in release
 
+a|Incorrect tooltip text for the *Current Burst* index icon in the *Capacity Trend* tab.
+a|Displays the correct tooltip text "_The amount of burst capacity currently being consumed. Note this is for current billing period, not the selected date range._"
+a|March 28, 2024
+a|Information on AQoS non-compliant volumes and MetroCluster partners is unavailable for AutoSupport subscriptions if Keystone data is not present for 24 hours.
+a|Fixed
+a|March 28, 2024
+a|Occasional mismatch in the number of AQoS non-compliant volumes listed on the *Volume Summary* and *Volume Details* tabs if there are two service levels assigned to a volume that fulfils AQoS compliance for only one service level.
+a|Fixed
+a|March 28, 2024
 a|No information is available on the *Assets* tab for AutoSupport subscriptions.
 a|Fixed
 a|March 14, 2024

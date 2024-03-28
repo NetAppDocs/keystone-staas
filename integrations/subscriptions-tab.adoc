@@ -51,7 +51,6 @@ image:icon-purple.png[purple dot icon]: Indicates consumption above the stipulat
 
 * link:../integrations/aiq-keystone-details.html[Use Keystone dashboard and reporting]
 * link:../integrations/current-usage-tab.html[Current Usage]
-* link:../integrations/sla-details-tab.html[SLA Details]
 * link:../integrations/capacity-trend-tab.html[Capacity Trend]
 * link:../integrations/volumes-objects-tab.html[Volumes & Objects]
 * link:../integrations/performance-tab.html[Performance]
