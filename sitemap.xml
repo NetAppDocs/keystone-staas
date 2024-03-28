@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  
+    
+    
+  
+
+  
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/keystone-staas/concepts/add-on.html</loc>
+        
+      
+      <lastmod>2024-01-11T07:46:23+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/keystone-staas/installation/addl-req.html</loc>
+        
+      
+      <lastmod>2024-02-20T10:25:12+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/keystone-staas/concepts/adp.html</loc>
+        
+      
+      <lastmod>2024-02-13T07:56:57+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/keystone-staas/integrations/aiq-keystone-details.html</loc>
+        
+      
+      <lastmod>2024-03-27T10:21:17+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/keystone-staas/integrations/assets-tab.html</loc>
+        
+      
+      <lastmod>2024-03-27T10:21:17+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/keystone-staas/installation/asup-config.html</loc>
+        
+      
+      <lastmod>2024-02-21T10:13:04+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/keystone-staas/concepts/billing-schedules.html</loc>
+        
+      
+      <lastmod>2022-12-07T05:27:19+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/keystone-staas/concepts/burst-consumption-billing.html</loc>
+        
+      
+      <lastmod>2023-09-15T11:34:13+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/keystone-staas/concepts/capacity-requirements.html</loc>
+        
+      
+      <lastmod>2023-12-14T05:32:50+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/keystone-staas/integrations/capacity-trend-tab.html</loc>
+        
+      
+      <lastmod>2024-03-27T10:21:17+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/keystone-staas/concepts/committed-capacity-billing.html</loc>
+        
+      
+      <lastmod>2023-01-06T11:28:11+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/keystone-staas/concepts/components.html</loc>
+        
+      
+      <lastmod>2024-02-13T08:14:42+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/keystone-staas/installation/configuration.html</loc>
+        
+      
+      <lastmod>2023-09-15T11:34:13+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/keystone-staas/concepts/consumed-capacity-billing.html</loc>
+        
+      
+      <lastmod>2023-09-26T12:06:16+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/keystone-staas/integrations/current-usage-tab.html</loc>
+        
+      
+      <lastmod>2024-03-27T10:21:17+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/keystone-staas/installation/data-collection.html</loc>
+        
+      
+      <lastmod>2024-01-10T08:22:40+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/keystone-staas/concepts/data-flow.html</loc>
+        
+      
+      <lastmod>2023-09-15T11:34:13+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/keystone-staas/concepts/data-tiering.html</loc>
+        
+      
+      <lastmod>2023-09-15T11:34:13+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/keystone-staas/concepts/equinix.html</loc>
+        
+      
+      <lastmod>2023-09-15T11:34:13+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/keystone-staas/release-notes/fixed-issues.html</loc>
+        
+      
+      <lastmod>2024-03-28T05:59:38+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/keystone-staas/concepts/gssc.html</loc>
+        
+      
+      <lastmod>2023-12-13T05:00:47+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/keystone-staas/</loc>
+        
+      
+      <lastmod>2024-01-18T15:26:00+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/keystone-staas/concepts/infra.html</loc>
+        
+      
+      <lastmod>2024-01-10T07:42:10+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/keystone-staas/installation/installation-overview.html</loc>
+        
+      
+      <lastmod>2023-08-01T07:15:19+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/keystone-staas/integrations/keystone-aiq.html</loc>
+        
+      
+      <lastmod>2024-03-27T09:16:11+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/keystone-staas/integrations/keystone-cm.html</loc>
+        
+      
+      <lastmod>2024-02-08T08:26:45+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/keystone-staas/release-notes/known-issues.html</loc>
+        
+      
+      <lastmod>2024-03-28T05:59:38+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/keystone-staas/release-notes/known-limitations.html</loc>
+        
+      
+      <lastmod>2024-02-08T08:26:45+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/keystone-staas/legal-notices.html</loc>
+        
+      
+      <lastmod>2022-10-07T06:15:41+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/keystone-staas/installation/linux-installation.html</loc>
+        
+      
+      <lastmod>2024-02-20T10:25:12+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/keystone-staas/installation/linux-prereqs.html</loc>
+        
+      
+      <lastmod>2024-02-20T09:17:01+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/keystone-staas/concepts/metrics.html</loc>
+        
+      
+      <lastmod>2023-09-15T11:34:13+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/keystone-staas/concepts/misc-volume-billing.html</loc>
+        
+      
+      <lastmod>2023-10-03T05:53:13+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/keystone-staas/installation/monitor-health.html</loc>
+        
+      
+      <lastmod>2023-09-15T11:34:13+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/keystone-staas/concepts/nrnvc.html</loc>
+        
+      
+      <lastmod>2024-01-10T08:22:40+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/keystone-staas/concepts/operational-models.html</loc>
+        
+      
+      <lastmod>2024-01-10T08:22:40+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/keystone-staas/concepts/overview.html</loc>
+        
+      
+      <lastmod>2024-01-11T07:46:23+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/keystone-staas/integrations/performance-tab.html</loc>
+        
+      
+      <lastmod>2024-03-27T10:21:17+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/keystone-staas/concepts/pricing.html</loc>
+        
+      
+      <lastmod>2024-01-11T07:46:23+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/keystone-staas/concepts/qos.html</loc>
+        
+      
+      <lastmod>2023-09-15T11:34:13+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/keystone-staas//search.html</loc>
+        
+      
+      <lastmod>2024-03-28T09:22:27+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/keystone-staas/concepts/service-levels.html</loc>
+        
+      
+      <lastmod>2024-01-11T07:46:23+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/keystone-staas/integrations/subscriptions-tab.html</loc>
+        
+      
+      <lastmod>2024-03-27T10:21:17+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/keystone-staas/concepts/supported-storage-capacity.html</loc>
+        
+      
+      <lastmod>2023-11-21T05:45:42+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/keystone-staas/concepts/supported-storage-services.html</loc>
+        
+      
+      <lastmod>2024-01-10T08:22:40+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/keystone-staas/installation/upgrade.html</loc>
+        
+      
+      <lastmod>2024-03-28T05:59:38+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/keystone-staas/concepts/uscs.html</loc>
+        
+      
+      <lastmod>2023-09-15T11:34:13+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/keystone-staas/installation/validation.html</loc>
+        
+      
+      <lastmod>2023-12-13T08:48:39+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/keystone-staas/installation/vapp-installation.html</loc>
+        
+      
+      <lastmod>2023-09-15T11:34:13+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/keystone-staas/installation/vapp-prereqs.html</loc>
+        
+      
+      <lastmod>2023-04-25T07:13:31+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/keystone-staas/integrations/volumes-objects-tab.html</loc>
+        
+      
+      <lastmod>2024-03-27T10:21:17+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/keystone-staas/release-notes/whats-new.html</loc>
+        
+      
+      <lastmod>2024-03-27T11:05:08+00:00</lastmod>
+      
+    </url>
+  
+
+  
+  
+</urlset>
