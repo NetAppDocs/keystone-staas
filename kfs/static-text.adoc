@@ -1,3 +1,7 @@
+---
+permalink: kfs/static-text.html
+---
+
 Keystone STaaS was preceded by Keystone subscription services. While the navigation of the two offerings is similar in the link:../integrations/aiq-keystone-details.html[Keystone Subscriptions dashboard], Keystone subscription services differ from Keystone STaaS in the constituent service levels, service offering, and billing principles. As of April 2024, NetApp maintains and publishes documentation for only Keystone STaaS. If you are still using Keystone subscription services, contact your KSM for support in migrating to Keystone STaaS. If required, you can access a PDF version of the Keystone subscription services documentation here:
 
 [cols="2*",options="header"]
