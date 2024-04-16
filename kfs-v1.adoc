@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar
 permalink: kfsv1.html
-keywords: Keystone Flex Subscriptions, kfs v1, keystone legacy
+keywords: Keystone Flex Subscriptions, kfs v1, keystone legacy, Keystone subscription services version 1
 ---
 
-= Keystone subscriptions version 1
+= Keystone subscription services version 1
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -12,17 +12,17 @@ keywords: Keystone Flex Subscriptions, kfs v1, keystone legacy
 :imagesdir: ../media/
 
 [.lead]
-Keystone STaaS was preceded by Keystone subscription services version 1 (previously known as Keystone Flex Subscription services). 
+Keystone STaaS was preceded by Keystone subscription services version 1 (previously known as Keystone Flex Subscriptions). 
 
 While the navigation of the two offerings is similar in the link:../integrations/aiq-keystone-details.html[Keystone Subscriptions dashboard], Keystone subscription services differ from Keystone STaaS in the constituent service levels, service offering, and billing principles. As of April 2024, NetApp maintains and publishes documentation for only Keystone STaaS. If you are still using Keystone subscription services, contact your KSM for support in migrating to Keystone STaaS. If required, you can access a PDF version of the Keystone subscription services documentation here:
 
- * https://docs.netapp.com/a/keystone/1.0/flex-subscription-guide.pdf[English]
-* https://docs.netapp.com/a/keystone/1.0/flex-subscription-guide-ja-jp.pdf[Japanese]	
-* https://docs.netapp.com/a/keystone/1.0/flex-subscription-guide-ko-kr.pdf[Korean]	
-* https://docs.netapp.com/a/keystone/1.0/flex-subscription-guide-zh-cn.pdf[Chinese (Simplified)]
-* https://docs.netapp.com/a/keystone/1.0/flex-subscription-guide-zh-tw.pdf[Chinese (Traditional)]
-* https://docs.netapp.com/a/keystone/1.0/flex-subscription-guide-de-de.pdf[German]
-* https://docs.netapp.com/a/keystone/1.0/flex-subscription-guide-es-es.pdf[Spanish]
-* https://docs.netapp.com/a/keystone/1.0/flex-subscription-guide-fr-fr.pdf[French]
-* https://docs.netapp.com/a/keystone/1.0/flex-subscription-guide-it-it.pdf[Italian]
+ * https://docs.netapp.com/a/keystone/1.0/flex-subscription-guide.pdf[English^]
+* https://docs.netapp.com/a/keystone/1.0/flex-subscription-guide-ja-jp.pdf[Japanese^]	
+* https://docs.netapp.com/a/keystone/1.0/flex-subscription-guide-ko-kr.pdf[Korean^]	
+* https://docs.netapp.com/a/keystone/1.0/flex-subscription-guide-zh-cn.pdf[Chinese (Simplified)^]
+* https://docs.netapp.com/a/keystone/1.0/flex-subscription-guide-zh-tw.pdf[Chinese (Traditional)^]
+* https://docs.netapp.com/a/keystone/1.0/flex-subscription-guide-de-de.pdf[German^]
+* https://docs.netapp.com/a/keystone/1.0/flex-subscription-guide-es-es.pdf[Spanish^]
+* https://docs.netapp.com/a/keystone/1.0/flex-subscription-guide-fr-fr.pdf[French^]
+* https://docs.netapp.com/a/keystone/1.0/flex-subscription-guide-it-it.pdf[Italian^]
 
