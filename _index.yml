@@ -56,7 +56,7 @@ indexpage:
     - title: Know more
       links:
         - title: Keystone subscription services version 1 (previously, Keystone Flex Subscriptions)
-          url: https://docs.netapp.com/us-en/keystone-staas/kfsv1.html
+          url: https://docs.netapp.com/us-en/keystone-staas/subscription-service-v1.html
         - title: Active IQ Digital Advisor
           url: https://docs.netapp.com/us-en/active-iq/index.html
         - title: BlueXP
