@@ -14,7 +14,7 @@ keywords: Keystone Flex Subscriptions, kfs v1, keystone legacy, Keystone subscri
 [.lead]
 Keystone STaaS was preceded by Keystone subscription services (previously known as Keystone Flex Subscription services). 
 
-While the navigation of the two offerings is similar in the link:../integrations/aiq-keystone-details.html[Keystone dashboard], Keystone subscription services differ from Keystone STaaS in the constituent service levels, service offering, and billing principles. As of April 2024, NetApp maintains and publishes documentation for only Keystone STaaS. If you are still using Keystone subscription services, contact your KSM for support in migrating to Keystone STaaS. If required, you can access a PDF version of the Keystone subscription services documentation here:
+While the navigation of the two offerings is similar in the link:/integrations/aiq-keystone-details.html[Keystone dashboard], Keystone subscription services differ from Keystone STaaS in the constituent service levels, service offering, and billing principles. As of April 2024, NetApp maintains and publishes documentation for only Keystone STaaS. If you are still using Keystone subscription services, contact your KSM for support in migrating to Keystone STaaS. If required, you can access a PDF version of the Keystone subscription services documentation here:
 
  * https://docs.netapp.com/a/keystone/1.0/keystone-subscription-services-guide.pdf[English^]
 * https://docs.netapp.com/a/keystone/1.0/keystone-subscription-services-guide-ja-jp.pdf[Japanese^]	
