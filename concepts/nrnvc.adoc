@@ -26,7 +26,7 @@ If you have purchased this service, note the following:
 
 * You do not need to return any drives and nonvolatile memory at end of the service term or if they failed or were found defective during the service term.
 * However, you need to produce a certificate of destruction for the drives and/or nonvolatile memory and cannot be used for any other purpose.
-* The additional cost associated with the NRNVC is charged as a percentage of the total subscription service (includes standard service, Advanced Data Protection, and data tiering) monthly bill.
+* The additional cost associated with the NRNVC is charged as a percentage of the total subscription services (includes standard service, Advanced Data Protection, and data tiering) monthly bill.
 * This service is applicable only to file, block, and object services.
 
 == SnapLock compliance
