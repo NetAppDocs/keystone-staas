@@ -1,0 +1,28 @@
+---
+sidebar: sidebar
+permalink: subscription-services-v1.html
+keywords: Keystone Flex Subscriptions, kfs v1, keystone legacy, Keystone subscription services version 1
+---
+
+= Keystone subscription services | Version 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ../media/
+
+[.lead]
+Keystone STaaS was preceded by Keystone subscription services (previously known as Keystone Flex Subscription services). 
+
+While the navigation of the two offerings is similar in the link:./integrations/aiq-keystone-details.html[Keystone dashboard^], Keystone subscription services differ from Keystone STaaS in the constituent service levels, service offering, and billing principles. As of April 2024, NetApp maintains and publishes documentation for only Keystone STaaS. If you are still using Keystone subscription services, contact your KSM for support in migrating to Keystone STaaS. If required, you can access a PDF version of the Keystone subscription services documentation here:
+
+ * https://docs.netapp.com/a/keystone/1.0/keystone-subscription-services-guide.pdf[English^]
+* https://docs.netapp.com/a/keystone/1.0/keystone-subscription-services-guide-ja-jp.pdf[Japanese^]	
+* https://docs.netapp.com/a/keystone/1.0/keystone-subscription-services-guide-ko-kr.pdf[Korean^]	
+* https://docs.netapp.com/a/keystone/1.0/keystone-subscription-services-guide-zh-cn.pdf[Chinese (Simplified)^]
+* https://docs.netapp.com/a/keystone/1.0/keystone-subscription-services-guide-zh-tw.pdf[Chinese (Traditional)^]
+* https://docs.netapp.com/a/keystone/1.0/keystone-subscription-services-guide-de-de.pdf[German^]
+* https://docs.netapp.com/a/keystone/1.0/keystone-subscription-services-guide-es-es.pdf[Spanish^]
+* https://docs.netapp.com/a/keystone/1.0/keystone-subscription-services-guide-fr-fr.pdf[French^]
+* https://docs.netapp.com/a/keystone/1.0/keystone-subscription-services-guide-it-it.pdf[Italian^]
+
