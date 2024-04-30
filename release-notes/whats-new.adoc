@@ -15,8 +15,18 @@ summary: Keystone STaaS new features and enhancements.
 [.lead]
 NetApp offers you new and enhanced features in every release of Keystone STaaS services.
 
+== New features and enhancements for May 09, 2024
+The following enhancement are made on the *Keystone Subscriptions* screen of Active IQ Digital Advisor (also known as Digital Advisor):
+
+=== New columns in CSV reports 
+The CSV reports from the *Capacity Trend* tab now include *Subscription Number* and *Account Name* columns for improved detail.
+//NSEKEY-8889
+=== Enhanced Usage Type column
+The *Usage Type* column within the Subscriptions tab is enhanced to display logical and physical usages as comma-separated values, for subscriptions that cover service levels for both file and object.
+//NSEKEY-9540
+
 == New features and enhancements for March 28, 2024
-The following enhancement has been made on the *Keystone Subscriptions* screen of Active IQ Digital Advisor (also known as Digital Advisor):
+The following enhancement has been made on the *Keystone Subscriptions* screen of Active IQ Digital Advisor:
 
 === Improvement to QoS policy compliance display in the Volume Details tab
 The *Volume Details* tab within the *Volumes & Objects* tab now provides better visibility into Quality of Service (QoS) policy compliance. The column formerly known as *AQoS* is renamed to *Compliant*, which indicates whether the QoS policy is in compliance. In addition, a new column *QoS Policy Type* is added, which specifies if the policy is fixed or adaptive. If neither applies, the column displays _Not Available_. For more information, see link:../integrations/volumes-objects-tab.html[Volumes & Objects tab^].

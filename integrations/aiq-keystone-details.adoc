@@ -53,7 +53,7 @@ The details are generated in CSV format that you can save for future use and com
 
 A sample report for the *Capacity Trend* tab, where the graphical data is converted:
 
-image:report.png[csv of report]
+image:report_1.png[csv of report]
 
 == View alerts
 Alerts on the dashboard send caution messages that enable you to understand the issues occurring in your storage environment. 
