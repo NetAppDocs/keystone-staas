@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: integrations/aiq-keystone-details.html
-keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, keystone usage graphs charts, generate reports, iq sustainability, digital advisor sustainability, metrocluster, storagegrid, ontap, tracking id, burst usage, alerts, different tabs
+keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, keystone usage graphs charts, generate reports, iq, digital advisor, metrocluster, storagegrid, ontap, tracking id, burst usage, alerts, different tabs
 summary: Keystone Subscription reports and graphs
 ---
 
@@ -13,7 +13,7 @@ summary: Keystone Subscription reports and graphs
 :imagesdir: ../media/
 
 [.lead]
-You use the Active IQ Digital Advisor (also known as Digital Advisor) dashboard for your Keystone STaaS subscriptions to monitor your capacity usage and generate reports. 
+You use the Active IQ Digital Advisor (also known as Digital Advisor) dashboard to view the details of your Keystone subscriptions, to monitor capacity usage, and generate reports.
 
 On subscribing to Keystone services, you can view the details of your subscription and usage on the *Keystone Subscriptions* widget on the Digital Advisor dashboard.
 
