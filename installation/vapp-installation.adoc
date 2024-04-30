@@ -61,15 +61,16 @@ The admin password is stored in a reversible format in vCentre and should be use
 After the VM has been deployed from the template and powered on, open an SSH session to the VM and log in with the temporary admin credentials to verify that the VM is ready for configuration.
 
 
-== Initial System Configuration
+== Initial system configuration
 Perform these steps on your VMware vSphere systems for an initial configuration of the Keystone Collector servers deployed through OVA:
 
 [NOTE]
 On completing the deployment, you can use the Keystone Collector Management Terminal User Interface (TUI) utility to perform the configuration and monitoring activities. You can use various keyboard controls, such as the Enter and arrow keys, to select the options and navigate across this TUI.
 
-. Open an SSH session to the Keystone Collector server. On login, the TUI appears. Alternately, you can launch the TUI manually by running the `keystone-collector-tui` CLI command.
-. If required, configure the proxy details in the *Configuration > Network* section on the TUI. 
-. Update Keystone Collector by using the *Maintenance > Update System* option. Some selected mirrors might be unavailable, and the system details are updated after a few retries. 
+. Open an SSH session to the Keystone Collector server. When you connect, the system will prompt you to update the admin password. Complete the admin password update as required.
+. Log in using the new password to access the TUI.  On login, the TUI appears.
++
+Alternatively, you can launch it manually by running the `keystone-collector-tui` CLI command.
+. If required, configure the proxy details in the *Configuration > Network section* on the TUI.
 . Configure the system hostname, location, and NTP server in the *Configuration > System* section.
-. Update the admin password in the *Maintenance > User* section.
-. Mark the initial OVA configuration as complete in the *Configuration > Advanced* section.
+. Update the Keystone Collectors using the *Maintenance > Update Collectors* option. After the update, restart the Keystone Collector management TUI utility to apply the changes.

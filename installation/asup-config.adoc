@@ -37,15 +37,12 @@ These subsystems are included by default in the weekly AutoSupport bundles, wher
 .Steps
 
 . As a system administrator user, log in to the Keystone ONTAP cluster by using SSH. For information, see https://docs.netapp.com/us-en/ontap/system-admin/access-cluster-ssh-task.html[Access the cluster by using SSH^].
-. Run the following command and verify the existing configuration with respect to the existing subsystems:
-+
-`autosupport trigger show -node * -autosupport-message management.log -fields basic-additional`
-+
-For more information about this command, see https://docs.netapp.com/us-en/ontap-cli-9131/system-node-autosupport-manifest-show.html#parameters[system node autosupport manifest show^].
-+
 . Modify the daily log content by running this command:
 +
-`autosupport trigger modify -node * -autosupport-message management.log -basic-additional _<existing comma-separated subsystems>_, _<new subsystems>_`
+[source]    
+----
+autosupport trigger modify -node * -autosupport-message management.log -basic-additional wafl,nfs,performance,snapshot,platform,object_store_server,san,raid,snapmirror
+----
 +
 For more information about this command, see https://docs.netapp.com/us-en/ontap-cli-9131/system-node-autosupport-trigger-modify.html[system node autosupport trigger modify^].
  
@@ -77,3 +74,8 @@ For more information about this command, see https://docs.netapp.com/us-en/ontap
 
 // NSEKEY-9000 Feb 2024 (commands changed by Vaughan's request)
 
+// More updates: The step 2 is removed at Serge's request. Here are the details of step 2: Run the following command and verify the existing configuration with respect to the existing subsystems:
+
+//autosupport trigger show -node * -autosupport-message management.log -fields basic-additional
+
+//For more information about this command, see system node autosupport manifest show [https://docs.netapp.com/us-en/ontap-cli-9131/system-node-autosupport-manifest-show.html#parameters]
