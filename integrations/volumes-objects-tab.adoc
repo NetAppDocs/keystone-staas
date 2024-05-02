@@ -42,7 +42,10 @@ image:volume-summary-1.png[Volume summary tab]
 You can see the tabular listing of the volumes, such as capacity usage, volume type, cluster, aggregate, and the assigned Keystone service levels. You can scroll across the columns and learn more about them by hovering your mouse on the information icons beside the column headings. You can sort by the columns and filter the lists to view specific information. 
 +
 [NOTE]
-For advanced data protection add-on service, an additional column appears to indicate whether the volume is a primary or mirror volume in the MetroCluster configuration. You can copy individual node serial numbers by clicking the *Copy Node Serials* button. 
+====
+* For advanced data protection add-on service, an additional column appears to indicate whether the volume is a primary or mirror volume in the MetroCluster configuration. You can copy individual node serial numbers by clicking the *Copy Node Serials* button. 
+* ##For subscriptions that cover service levels for both file and object, you can view the object storage details by clicking the *Object Storage Details* button.##
+====
 
 image:volume-details-1.png[Volumes details tab]
 
