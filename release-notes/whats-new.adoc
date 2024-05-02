@@ -23,7 +23,7 @@ The following enhancement are made on the *Keystone Subscriptions* screen of Act
 //NSEKEY-8889
 
 === Enhanced Usage Type column
-##The *Usage Type* column within the Subscriptions tab is enhanced to display logical and physical usages as comma-separated values for subscriptions that cover service levels for both file and object.##
+##The *Usage Type* column within the *Subscriptions* tab is enhanced to display logical and physical usages as comma-separated values for subscriptions that cover service levels for both file and object.##
 //NSEKEY-9540
 
 === Access object storage details from Volume Details tab
