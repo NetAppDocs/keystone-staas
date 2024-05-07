@@ -47,7 +47,7 @@ NOTE: For advanced data protection add-on service, an additional column appears 
 NOTE: ##For subscriptions that cover service levels for both file and object, you can view the object storage details by clicking the *Object Storage Details* button.##
 
 +
-image:volume-details-1.png[Volumes details tab]
+image:volume-details-2.png[Volumes details tab]
 
 --
 ====
