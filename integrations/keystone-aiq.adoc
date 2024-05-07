@@ -38,7 +38,6 @@ You can see the breakup of the capacity usage as per your subscriptions, and war
 
 * *Alerts*: You see alerts for various scenarios if they are applicable to you.
 ** *Expiring soon*: In case your subscriptions expire within 90 days.
-** *Critical Hardware Upgrades*: If any critical hardware upgrades are pending.
 ** *QoS Warnings*: You have volumes without AQoS policies assigned.
 +
 [TIP]
