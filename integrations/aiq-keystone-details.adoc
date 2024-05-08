@@ -56,7 +56,7 @@ A sample report for the *Capacity Trend* tab, where the graphical data is conver
 image:report_1.png[csv of report]
 
 == View alerts
-##The dashboard provides alert notifications that enable you to understand the issues occurring in your storage environment. These notifications may appear as informational alerts or warnings. For example, if there are volumes within your managed clusters that do not have adaptive QoS (AQoS) policies attached, you can see a warning message. You can click the link on the warning message to see the list of the non-compliant volumes in the *Volumes & Objects* tab.##
+The dashboard provides alert notifications that enable you to understand the issues occurring in your storage environment. These notifications may appear as informational alerts or warnings. For example, if there are volumes within your managed clusters that do not have adaptive QoS (AQoS) policies attached, you can see a warning message. You can click the link on the warning message to see the list of the non-compliant volumes in the *Volumes & Objects* tab.
 
 [NOTE]
 If you have subscribed to a single service level or rate plan, you won't be able to see the alert for non-compliant volumes.

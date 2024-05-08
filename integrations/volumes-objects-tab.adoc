@@ -44,7 +44,7 @@ You can see the tabular listing of the volumes, such as capacity usage, volume t
 NOTE: For advanced data protection add-on service, an additional column appears to indicate whether the volume is a primary or mirror volume in the MetroCluster configuration. You can copy individual node serial numbers by clicking the *Copy Node Serials* button.
 +
 
-NOTE: ##For subscriptions that cover service levels for both file and object, you can view the object storage details by clicking the *Object Storage Details* button.##
+NOTE: For subscriptions that cover service levels for both file and object, you can view the object storage details by clicking the *Object Storage Details* button.
 
 +
 image:volume-details-2.png[Volumes details tab]
