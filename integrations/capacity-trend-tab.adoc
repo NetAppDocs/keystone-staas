@@ -35,7 +35,7 @@ TIP: For optimal performance and user experience, limit the date range of your q
 
 The bar charts display the service level name and the capacity consumed against that service level for the date range. The date and time of the collection are displayed at the bottom of the chart. Based on the date range of your query, the usage charts are displayed in a range of 30 data collection points. You can hover your mouse cursor over the charts to view the usage breakdown in terms of committed, consumed, burst, and above the burst limit data at that data collection point.
 
-image:aiq-ks-subtime-2.png[Capacity Trend tab with details]
+image:aiq-ks-subtime-3.png[Capacity Trend tab with details]
 
 The following colors in the bar charts indicate the consumed capacity as defined within the service level. Monthly data across the charts is separated by a vertical line.
 
