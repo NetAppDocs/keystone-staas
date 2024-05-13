@@ -58,7 +58,7 @@ a|Performance metrics collection for Keystone Collector
 a|Keystone Collector (generic)
 a|Customer Monitoring System
 a|HTTPS
-a|TCP 777
+a|TCP 7777
 a|Optional Functionality
 a|Keystone Collector health reporting
 a|Customer's Operations Workstations

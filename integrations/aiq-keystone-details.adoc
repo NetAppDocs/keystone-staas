@@ -27,7 +27,7 @@ To view your Keystone subscription and usage details, perform the following step
 .Steps
 
 . Log in to Digital Advisor. You can see the *Keystone Subscriptions* widget that summarizes the capacity usage against your purchased Keystone services.
-. On the *Keystone Subscriptions* widget, click *View More Details* to view the usage details and alerts on your volumes on the *Keystone Subscriptions* page. Alternately, from the left navigation pane, go to *GENERAL > Keystone Subscriptions*.
+. On the *Keystone Subscriptions* widget, click *View All Subscriptions* to view the usage details and alerts on your volumes on the *Keystone Subscriptions* page. Alternately, from the left navigation pane, go to *GENERAL > Keystone Subscriptions*.
 The details of the subscriptions, usage charts for each service level, and volume details are displayed in the different tabs on the *Keystone Subscriptions* screen.
 
 [NOTE]
@@ -53,22 +53,18 @@ The details are generated in CSV format that you can save for future use and com
 
 A sample report for the *Capacity Trend* tab, where the graphical data is converted:
 
-image:report.png[csv of report]
+image:report_1.png[csv of report]
 
 == View alerts
-Alerts on the dashboard send caution messages that enable you to understand the issues occurring in your storage environment. 
+The dashboard provides alert notifications that enable you to understand the issues occurring in your storage environment. These notifications may appear as informational alerts or warnings. For example, if there are volumes within your managed clusters that do not have adaptive QoS (AQoS) policies attached, you can see a warning message. You can click the link on the warning message to see the list of the non-compliant volumes in the *Volumes & Objects* tab.
 
-The alerts can be of two types:
-
-* *Information*: For issues, such as your subscriptions nearing an end, you can see information alerts. Hover your cursor over the information icon to learn more about the issue.
-* *Warning*: Issues, such as non-compliance, are displayed as warnings. For example, if there are volumes within your managed clusters that do not have adaptive QoS (AQoS) policies attached, you can see a warning message. You can click the link on the warning message to see the list of the non-compliant volumes in the *Volumes* tab.
 [NOTE]
 If you have subscribed to a single service level or rate plan, you won't be able to see the alert for non-compliant volumes.
-+
+
+image:alert-aiq-1.png[alert]
+
 For information about AQoS policies, see link:../concepts/qos.html[Adaptive QoS].
 
-image:alert-aiq.png[alert]
-
-Contact NetApp support for more information on these caution and warning messages. For information about raising service requests, see link:../concepts/gssc.html#generating-service-requests[Generating service requests].
+Contact NetApp support for more information on these messages. For information about raising service requests, see link:../concepts/gssc.html#generating-service-requests[Generating service requests].
 
 //Manini: This topic is linked to the UI and should not be deleted. If at all required, the redirects and communicating this to the AIQ engineering teams should be appropriately conducted.
