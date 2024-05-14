@@ -22,7 +22,7 @@ The following known issues have been reported in NetApp Keystone STaaS.
 |Known issue |Description |Workaround
 
 a|Incorrect display of Keystone data in CSV reports.
-a|If the *Account Name* column in CSV reports generated from the *Capacity Trend* tab includes an account name with a comma _(",")_, Keystone data appears misplaced in CSV reports.
+a|If the *Account Name* column in CSV reports generated from the *Capacity Trend* tab includes an account name with a comma `(,)`, Keystone data appears misplaced in CSV reports.
 a|None
 
 
