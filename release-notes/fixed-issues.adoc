@@ -17,7 +17,7 @@ Issues that were found in previous releases of NetApp Keystone STaaS services ha
 
 [cols="3*",options="header"]
 |===
-|Issue Description |After the fix |Fixed in release
+|Issue description |After the fix |Fixed in release
 
 a|Incorrect tooltip text for the *Current Burst* index icon in the *Capacity Trend* tab.
 a|Displays the correct tooltip text "_The amount of burst capacity currently being consumed. Note this is for current billing period, not the selected date range._"
