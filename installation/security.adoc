@@ -1,0 +1,42 @@
+---
+sidebar: sidebar
+permalink: installation/security.html
+keywords: VMware, security, hardening, Keystone Collector
+summary: Keystone Collector includes security features that monitor the performance and usage metrics of Keystone systems, and it is configured to use security-hardened configurations.
+---
+
+= Keystone Collector security
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ../media/
+
+[.lead]
+Keystone Collector includes security features that monitor the performance and usage metrics of Keystone systems, without risking the security of customer data.
+
+The functioning of Keystone Collector is based on the following security principles:
+
+* *Privacy*-Keystone Collector collects a limited amount of data to perform usage metering and performance monitoring. For more information, see link:../installation/data-collection.html[Data collected for billing^]. The link:../installation/configuration.html#limit-collection-of-private-data[Remove Private Data] option is enabled by default, which masks and protects sensitive information.
+* *Access*-Keystone Collector requires minimum permissions to monitor the storage systems, which minimizes security risks and prevents any unintended modifications to the data. This approach aligns with the principle of least privilege, enhancing the overall security posture of the monitored environments.
+* *Framework*- Keystone uses a secure software development framework throughout the development cycle, which mitigates risks, reduces vulnerabilities, and protects the system against potential threats.
+
+== Security hardening
+By default, Keystone Collector is configured to use security-hardened configurations. The following are the recommended security configurations:
+
+* The operating system of the Keystone Collector virtual machine:
+** Complies with the CIS Debian Linux 12 Benchmark standard. Making any changes to the OS configuration outside the Keystone Collector management software may reduce the system security. For more information, see link:https://learn.cisecurity.org/benchmarks[CIS Benchmark guide].
+** Automatically receives and installs security patches that are verified by Keystone Collector through the auto-update feature. Disabling this feature may lead to software vulnerabilities.
+** Authenticates updates received from Keystone Collector. Disabling APT repository verification can lead to the automatic installation of unauthorized patches, potentially introducing vulnerabilities.
+* Keystone Collector automatically validates HTTPS certificates to ensure connection security. Disabling this feature could lead to impersonation of external endpoints and usage data leakage.
+* Keystone Collector supports link:../installation/configuration.html#trust-a-custom-root-ca[Custom Trusted CA] certification. By default, it trusts certificates that are signed by public root CAs recognized by the link:https://wiki.mozilla.org/CA[Mozilla CA Certificate program]. By enabling additional Trusted CAs, Keystone Collector enables HTTPS certificate validation for connections to endpoints that present these certificates.
+* Keystone collector enables the *Remove Private Data* option by default, which masks and protects sensitive information. For more information, see link:../installation/configuration.html#limit-collection-of-private-data[Limit collection of private data^]. Disabling this option results in additional data being communicated to the Keystone system. For example, it can include user-entered information such as volume names which may be considered sensitive information. 
+
+
+
+*Related information*
+
+* link:../installation/installation-overview.html[Keystone Collector overview]
+* link:../installation/vapp-prereqs.html[Virtual infrastructure requirements]
+* link:../installation/configuration.html[Configure Keystone Collector]
+
