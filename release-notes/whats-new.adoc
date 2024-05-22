@@ -13,10 +13,27 @@ summary: Keystone STaaS new features and enhancements.
 :imagesdir: ./media/
 
 [.lead]
-NetApp offers you new and enhanced features in every release of Keystone STaaS services.
+NetApp offers you new and enhanced features in every release of Keystone STaaS services. 
 
-== New features and enhancements for May 09, 2024
-The following enhancement are made on the *Keystone Subscriptions* screen of Active IQ Digital Advisor (also known as Digital Advisor):
+The following enhancements are introduced in the *Keystone Subscriptions* screen of Active IQ Digital Advisor (also known as Digital Advisor):
+
+== May 29, 2024
+
+=== Enhanced Burst indicator 
+The *Burst* indicator in the usage graph index is enhanced to display the burst limit percentage value. This value changes depending on the agreed-upon burst limit for a subscription. You can also view the burst limit value in the *Subscriptions* tab by hovering over the *Burst Usage* indicator in the *Usage Status* column.
+//NSEKEY-8625
+
+=== Addition of service levels
+The service levels *CVO Primary* and *CVO Secondary* are included to support Cloud Volumes ONTAP for subscriptions that has rate plans with zero committed capacity or those configured with a metro cluster.
+
+* You can view the capacity usage graph for these service levels from old dashboard of the *Keystone Subscriptions* widget and the *Capacity Trend* tab, and also detailed usage information from the *Current Usage* tab. 
+* In the *Subscription* tab, these service levels are displayed as `CVO (v2)` in the *Usage Type* column, allowing for the identification of billing according to these service levels.
+//NSEKEY-8923
+
+=== 
+
+
+== May 09, 2024
 
 === New columns in CSV reports 
 The CSV reports from the *Capacity Trend* tab now include *Subscription Number* and *Account Name* columns for improved detail.
@@ -29,8 +46,7 @@ The *Usage Type* column within the *Subscriptions* tab is enhanced to display lo
 === Access object storage details from Volume Details tab
 The *Volume Details* tab within the *Volumes & Objects* tab now provides object storage details along with volume information for subscriptions that include service levels for both file and object. You can click the *Object Storage Details* button within the *Volume Details* tab to view the details.
 
-== New features and enhancements for March 28, 2024
-The following enhancement has been made on the *Keystone Subscriptions* screen of Active IQ Digital Advisor:
+== March 28, 2024
 
 === Improvement to QoS policy compliance display in the Volume Details tab
 The *Volume Details* tab within the *Volumes & Objects* tab now provides better visibility into Quality of Service (QoS) policy compliance. The column formerly known as *AQoS* is renamed to *Compliant*, which indicates whether the QoS policy is in compliance. In addition, a new column *QoS Policy Type* is added, which specifies if the policy is fixed or adaptive. If neither applies, the column displays _Not Available_. For more information, see link:../integrations/volumes-objects-tab.html[Volumes & Objects tab^].
@@ -68,17 +84,12 @@ The search parameters on the *Digital Advisor* screen now include Keystone subsc
 You can view the timestamp of the consumption data (in UTC) on the old dashboard of the *Keystone Subscriptions* widget. 
 
 
-== New features and enhancements for February 13, 2024
-The following enhancement has been made on the *Keystone Subscriptions* screen of Active IQ Digital Advisor (also known as Digital Advisor).
+== February 13, 2024
 
 === Ability to view subscriptions linked to a primary subscription
 Some of your primary subscriptions can have linked, secondary subscriptions. If that is the case, the primary subscription number will continue to be displayed in the *Subscription Number* column, while the linked subscription numbers will be listed in a new column *Linked Subscriptions* on the *Subscriptions* tab. The *Linked Subscriptions* column becomes available to you only if you have linked subscriptions, and you can see information messages notifying you about them.
 
-== New features and enhancements for January 11, 2024
-
-Learn what's new in this release.
-
-The following enhancements have been made on the *Keystone Subscriptions* screen of Active IQ Digital Advisor (also known as Digital Advisor).
+== January 11, 2024
 
 === Invoiced data returned for accrued burst
 The labels for *Accrued Burst* are now modified to *Invoiced Accrued Burst* in the *Capacity Trend* tab. Selecting this option enables you to view the the monthly charts for the billed accrued burst data. For more information, see link:../integrations/aiq-keystone-details.html#view-invoiced-accrued-burst[View invoiced accrued burst^].
@@ -87,9 +98,7 @@ The labels for *Accrued Burst* are now modified to *Invoiced Accrued Burst* in t
 If you have a subscription that has rate plans with _zero_ committed capacity, you can view the accrued consumption details in the *Capacity Trend* tab. On selecting the *Invoiced Accrued Consumption* option, you can view the the monthly charts for the billed accrued consumption data.
 
 
-== New features and enhancements for December 15, 2023
-
-Learn what's new in this release.
+== December 15, 2023
 
 === Ability to search by watchlists
 The support for watchlists in Active IQ Digital Advisor (also known as Digital Advisor) has been extended to include Keystone systems. You can now view the details of the subscriptions for multiple customers by searching with watchlists. For more information about the use of watchlists in Keystone STaaS, see link:../integrations/keystone-aiq.html#search-by-using-keystone-watchlists[Search by using Keystone watchlists^].
