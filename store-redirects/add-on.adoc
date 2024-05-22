@@ -1,0 +1,4 @@
+---
+permalink: concepts/add-on.html
+redirect: keystone-staas/concepts/metrics.html
+---
