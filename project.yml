@@ -51,7 +51,7 @@ sidebar:
         - title: Configure AutoSupport for Keystone
           url: /installation/asup-config.html
         - title: Keystone Collector security
-          url: /concepts/security.html
+          url: /installation/security.html
         - title: Data collected for billing
           url: /installation/data-collection.html
     - title: Keystone dashboard 

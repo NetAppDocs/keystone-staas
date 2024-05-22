@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar
-permalink: concepts/security.html
+permalink: installation/security.html
 keywords: VMware, security, hardening, Keystone Collector
 summary: Keystone Collector includes security features that monitor the performance and usage metrics of Keystone systems, and it is configured to use security-hardened configurations.
 ---
