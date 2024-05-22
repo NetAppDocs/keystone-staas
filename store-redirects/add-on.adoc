@@ -1,4 +1,4 @@
 ---
 permalink: concepts/add-on.html
-redirect: keystone-staas-internal/concepts/metrics.html
+redirect: keystone-staas/concepts/metrics.html
 ---
