@@ -20,18 +20,27 @@ The following enhancements are introduced in the *Keystone Subscriptions* screen
 == May 29, 2024
 
 === Enhanced Burst indicator 
-The *Burst* indicator in the usage graph index is enhanced to display the burst limit percentage value. This value changes depending on the agreed-upon burst limit for a subscription. You can also view the burst limit value in the *Subscriptions* tab by hovering over the *Burst Usage* indicator in the *Usage Status* column.
+##The *Burst* indicator in the usage graph index is enhanced to display the burst limit percentage value. This value changes depending on the agreed-upon burst limit for a subscription. You can also view the burst limit value in the *Subscriptions* tab by hovering over the *Burst Usage* indicator in the *Usage Status* column.##
 //NSEKEY-8625
 
 === Addition of service levels
-The service levels *CVO Primary* and *CVO Secondary* are included to support Cloud Volumes ONTAP for subscriptions that has rate plans with zero committed capacity or those configured with a metro cluster.
+##The service levels *CVO Primary* and *CVO Secondary* are included to support Cloud Volumes ONTAP for subscriptions that has rate plans with zero committed capacity or those configured with a metro cluster.##
 
-* You can view the capacity usage graph for these service levels from old dashboard of the *Keystone Subscriptions* widget and the *Capacity Trend* tab, and also detailed usage information from the *Current Usage* tab. 
-* In the *Subscription* tab, these service levels are displayed as `CVO (v2)` in the *Usage Type* column, allowing for the identification of billing according to these service levels.
+* ##You can view the capacity usage graph for these service levels from old dashboard of the *Keystone Subscriptions* widget and the *Capacity Trend* tab, and also detailed usage information from the *Current Usage* tab.##
+* ##In the *Subscription* tab, these service levels are displayed as `CVO (v2)` in the *Usage Type* column, allowing for the identification of billing according to these service levels.##
 //NSEKEY-8923
 
-=== 
+=== Zoom-in feature for microburst insights
+##The *Capacity Trend* tab now includes a zoom-in feature to view the details of short-term surges, known as microbursts, in the usage charts. For more information, see link:../integrations/capacity-trend-tab.html[Capacity Trend tab^].##
+//NSEKEY-9459
 
+=== Enhanced display of subscriptions
+##The default display of subscriptions is enhanced to sort by tracking ID. The subscriptions in the *Subscriptions* tab, including in the *Subscriptions* dropdown and CSV reports, will now be displayed based on the alphabetical sequence of the tracking IDs, following the order of a, A, b, B, and so on.##
+//NSEKEY-9598 and NSEKEY-9266 
+
+=== Enhanced accrued burst display
+##The tooltip that appears when hovering over the capacity usage bar chart in the *Capacity Trend* tab now displays the type of accrued burst based on committed capacity. It differentiates between provisional and invoiced accrued burst, showing *Provisional Accrued Consumption* and *Invoiced Accrued Consumption* for subscriptions with zero committed capacity rate plans, and *Provisional Accrued Burst* and *Invoiced Accrued Burst* for those with non-zero committed capacity.##
+//NSEKEY-9750
 
 == May 09, 2024
 

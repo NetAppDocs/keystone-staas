@@ -17,7 +17,7 @@ You can view a list of all your subscriptions in the *Subscriptions* tab.
 
 To view this tab, from the left navigation pane, go to *GENERAL > Keystone Subscriptions > Subscriptions*. All your subscriptions are listed.
 
-image:all-subs.png[an image of the Subscriptions tab]
+image:all-subs-1.png[an image of the Subscriptions tab]
 
 You can filter the selection by clicking the hamburger icon image:icon-hamburger.png[hamburger icon] for a column, or view all the subscriptions by clicking the *Clear Filters* button. For certain fields and columns, you might see information or warning icons and tooltips that provide you with additional information about the data. 
 
