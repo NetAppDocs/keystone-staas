@@ -17,7 +17,7 @@ Keystone Collector includes security features that monitor the performance and u
 
 The functioning of Keystone Collector is based on the following security principles:
 
-* *Privacy*-Keystone Collector collects a limited amount of data to perform usage metering and performance monitoring. For more information, see link:../installation/data-collection.html[Data collected for billing^]. The link:../installation/configuration.html#limit-collection-of-private-data[Remove Private Data] option is enabled by default, which masks and protects sensitive information.
+* *Privacy*-Keystone Collector collects a limited amount of data to perform usage metering and performance monitoring. For more information, see link:data-collection.html[Data collected for billing^]. The link:configuration.html#limit-collection-of-private-data[Remove Private Data] option is enabled by default, which masks and protects sensitive information.
 * *Access*-Keystone Collector requires minimum permissions to monitor the storage systems, which minimizes security risks and prevents any unintended modifications to the data. This approach aligns with the principle of least privilege, enhancing the overall security posture of the monitored environments.
 * *Framework*- Keystone uses a secure software development framework throughout the development cycle, which mitigates risks, reduces vulnerabilities, and protects the system against potential threats.
 
@@ -29,7 +29,7 @@ By default, Keystone Collector is configured to use security-hardened configurat
 ** Automatically receives and installs security patches that are verified by Keystone Collector through the auto-update feature. Disabling this feature may lead to software vulnerabilities.
 ** Authenticates updates received from Keystone Collector. Disabling APT repository verification can lead to the automatic installation of unauthorized patches, potentially introducing vulnerabilities.
 * Keystone Collector automatically validates HTTPS certificates to ensure connection security. Disabling this feature could lead to impersonation of external endpoints and usage data leakage.
-* Keystone Collector supports link:../installation/configuration.html#trust-a-custom-root-ca[Custom Trusted CA] certification. By default, it trusts certificates that are signed by public root CAs recognized by the link:https://wiki.mozilla.org/CA[Mozilla CA Certificate program^]. By enabling additional Trusted CAs, Keystone Collector enables HTTPS certificate validation for connections to endpoints that present these certificates.
+* Keystone Collector supports link:configuration.html#trust-a-custom-root-ca[Custom Trusted CA] certification. By default, it trusts certificates that are signed by public root CAs recognized by the link:https://wiki.mozilla.org/CA[Mozilla CA Certificate program^]. By enabling additional Trusted CAs, Keystone Collector enables HTTPS certificate validation for connections to endpoints that present these certificates.
 * Keystone collector enables the *Remove Private Data* option by default, which masks and protects sensitive information. For more information, see link:configuration.html#limit-collection-of-private-data[Limit collection of private data^]. Disabling this option results in additional data being communicated to the Keystone system. For example, it can include user-entered information such as volume names which may be considered sensitive information. 
 
 
