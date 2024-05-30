@@ -61,7 +61,7 @@ The dashboard provides alert notifications that enable you to understand the iss
 [NOTE]
 If you have subscribed to a single service level or rate plan, you won't be able to see the alert for non-compliant volumes.
 
-image:alert-aiq-1.png[alert]
+image:alert-aiq-2.png[alert]
 
 For information about AQoS policies, see link:../concepts/qos.html[Adaptive QoS].
 
