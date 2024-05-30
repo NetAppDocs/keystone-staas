@@ -30,7 +30,7 @@ a|The historical accrued burst usage data for the *CVO Primary* and *CVO Seconda
 a|None
 //NSEKEY-9855
 a|Incorrect display of object storage consumed value for AutoSupport subscriptions.
-a|If AutoSupport telemetry is used for gathering Keystone data, the consumed value for object storage listed on the *Volume Details* tab is displayed incorrectly. 
+a|If AutoSupport telemetry is used for gathering Keystone data, the consumed value for object storage listed on the *Volume Details* tab is displayed incorrectly for for subscriptions that include file, block, and object services.
 a|Refer to the consumed value for object storage mentioned within the *Current Usage* tab for the correct information.
 //NSEKEY-9265
 
