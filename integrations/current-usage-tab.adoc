@@ -17,7 +17,7 @@ The *Current Usage* tab displays the usage details of your subscriptions.
 
 To view this tab, from the left navigation pane, go to *GENERAL > Keystone Subscriptions > Current Usage*, and select the required subscription number.
 
-image:aiq-ks-dtls-1.png[Current Usage tab]
+image:aiq-ks-dtls-2.png[Current Usage tab]
 
 For the selected subscription, you can view details, such as the start and end dates of the subscription, and the billing period, such as monthly or annual. As  a part of the subscription usage, you can view the service level name, committed, consumed, available capacities, and current and accrued burst usage (in TiB).
 
