@@ -17,6 +17,11 @@ NetApp offers you new and enhanced features in every release of Keystone STaaS s
 
 The following enhancements are introduced in the *Keystone Subscriptions* screen of Active IQ Digital Advisor (also known as Digital Advisor):
 
+== June 11, 2024
+
+=== Consistent display of subscription
+The *Keystone Subscriptions* screen is updated to display the selected subscription across all tabs. When any tab within the *Keystone Subscriptions* screen is refreshed, the screen automatically navigates to the *Subscriptions* tab and reset all tabs to the first subscription listed in the *Subscription* dropdown.
+
 == May 29, 2024
 
 === Enhanced Burst indicator 
@@ -27,7 +32,7 @@ The *Burst* indicator in the usage graph index is enhanced to display the burst 
 The service levels *CVO Primary* and *CVO Secondary* are included to support Cloud Volumes ONTAP for subscriptions that has rate plans with zero committed capacity or those configured with a metro cluster.
 
 * You can view the capacity usage graph for these service levels from old dashboard of the *Keystone Subscriptions* widget and the *Capacity Trend* tab, and also detailed usage information from the *Current Usage* tab.
-* In the *Subscription* tab, these service levels are displayed as `CVO (v2)` in the *Usage Type* column, allowing for the identification of billing according to these service levels.
+* In the *Subscriptions* tab, these service levels are displayed as `CVO (v2)` in the *Usage Type* column, allowing for the identification of billing according to these service levels.
 //NSEKEY-8923
 
 === Zoom-in feature for microburst insights
@@ -35,7 +40,7 @@ The *Capacity Trend* tab now includes a zoom-in feature to view the details of s
 //NSEKEY-9459
 
 === Enhanced display of subscriptions
-The default display of subscriptions is enhanced to sort by tracking ID. The subscriptions in the *Subscriptions* tab, including in the *Subscriptions* dropdown and CSV reports, will now be displayed based on the alphabetical sequence of the tracking IDs, following the order of a, A, b, B, and so on.
+The default display of subscriptions is enhanced to sort by tracking ID. The subscriptions in the *Subscriptions* tab, including in the *Subscription* dropdown and CSV reports, will now be displayed based on the alphabetical sequence of the tracking IDs, following the order of a, A, b, B, and so on.
 //NSEKEY-9598 and NSEKEY-9266 
 
 === Enhanced accrued burst display
