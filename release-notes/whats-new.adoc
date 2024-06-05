@@ -20,10 +20,10 @@ The following enhancements are introduced in the *Keystone Subscriptions* screen
 == June 12, 2024
 
 === Consistent display of subscription
-The *Keystone Subscriptions* screen is updated to display the selected subscription across all tabs.
+The *Keystone Subscriptions* screen is updated to display the selected subscription number across all tabs.
  
 * When any tab within the *Keystone Subscriptions* screen is refreshed, the screen automatically navigates to the *Subscriptions* tab and reset all tabs to the first subscription listed in the *Subscription* dropdown.
-* If the selected subscription is not subscribed to the performance metrics, the *Performance* tab will display the first subscription listed in the *Subscription* dropdown upon navigation.
+* If the selected subscription is not subscribed to performance metrics, the *Performance* tab will display the first subscription listed in the *Subscription* dropdown upon navigation.
 
 == May 29, 2024
 
