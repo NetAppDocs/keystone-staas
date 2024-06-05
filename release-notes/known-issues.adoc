@@ -5,7 +5,7 @@ keywords: netapp, keystone, release notes, known issues
 summary: known issues in Keystone STaaS
 ---
 
-= Known issues in Keystone STaaS
+= Known issues
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -21,10 +21,6 @@ The following known issues have been reported in NetApp Keystone STaaS.
 |===
 |Known issue |Description |Workaround
 
-a|Extended data display for single-day selection in the *Capacity Trends* tab.
-a|When the date corresponding to today is selected as both the start and end date for the previous month from the *Capacity Trend* option in the *Capacity Trends* tab, the usage charts display data for a period extending from the selected start date to the current date, instead of showing data for the specified single-day period.
-a|None
-//NSEKEY-9842
 a|Historical accrued burst data not available for service levels.
 a|The historical accrued burst usage data for the *CVO Primary* and *CVO Secondary* service levels within the the *Capacity Trend* tab is not available for subscriptions that are not configured with a MetroCluster configuration. 
 a|None
