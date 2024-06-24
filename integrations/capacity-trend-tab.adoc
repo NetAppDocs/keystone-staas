@@ -60,7 +60,12 @@ You can click the toggle button *Show Current Usage* to view the consumption, bu
 ** No color: No burst usage.
 ** Red: Burst usage.
 ** Purple: Above the burst limit.
-* *Accrued burst*: Indicator for the accrued burst usage or consumed capacity calculated per month for the current billing period. The accrued burst usage is calculated based on the committed and consumed capacity for a service level: `(consumed - committed)/365.25/12`.
+* *Accrued burst*: I̶n̶d̶i̶c̶a̶t̶o̶r̶ f̶o̶r̶ t̶h̶e̶ a̶c̶c̶r̶u̶e̶d̶ b̶u̶r̶s̶t̶ u̶s̶a̶g̶e̶ o̶r̶ c̶o̶n̶s̶u̶m̶e̶d̶ c̶a̶p̶a̶c̶i̶t̶y̶ c̶a̶l̶c̶u̶l̶a̶t̶e̶d̶ p̶e̶r̶ m̶o̶n̶t̶h̶ f̶o̶r̶ t̶h̶e̶ c̶u̶r̶r̶e̶n̶t̶ b̶i̶l̶l̶i̶n̶g̶ p̶e̶r̶i̶o̶d̶.̶ T̶h̶e̶ a̶c̶c̶r̶u̶e̶d̶ b̶u̶r̶s̶t̶ u̶s̶a̶g̶e̶ i̶s̶ c̶a̶l̶c̶u̶l̶a̶t̶e̶d̶ b̶a̶s̶e̶d̶ o̶n̶ t̶h̶e̶ c̶o̶m̶m̶i̶t̶t̶e̶d̶ a̶n̶d̶ c̶o̶n̶s̶u̶m̶e̶d̶ c̶a̶p̶a̶c̶i̶t̶y̶ f̶o̶r̶ a̶ s̶e̶r̶v̶i̶c̶e̶ l̶e̶v̶e̶l̶:̶ `̶(̶c̶o̶n̶s̶u̶m̶e̶d̶ -̶ c̶o̶m̶m̶i̶t̶t̶e̶d̶)̶/̶3̶6̶5̶.̶2̶5̶/̶1̶2̶`̶.̶
+
+##Indicator of the total burst capacity (in TiB) accumulated during each 2-minute interval within a month, for the current billing cycle. The accrued burst usage for an entire month is calculated as this: `[sum of bursts in month /(days in month)*24*60]*interval duration`.
+
+You can calculate the accrued burst for brief periods, such as every two minutes, using this: `[burst/(days in month)*24*60]*interval duration`.The burst is the difference between the consumed capacity and the committed capacity. For example, if the consumed capacity is 120 TiB and the committed capacity is 100 TiB, the burst capacity would be 20 TiB, resulting in an accrued burst usage of 0.000925926 TiB for a 30-day month period.##
+
 
 == View invoiced accrued burst
 If you have selected the *Invoiced Accrued Burst* option, by default, you can see the monthly accrued burst usage data for the last 12 months that has been billed. You can query by the date range of up to past 30 months. Bar charts are displayed for invoiced data, and if the usage has not yet been billed, you see _Pending_ for that month.
