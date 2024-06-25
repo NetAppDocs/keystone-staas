@@ -15,23 +15,7 @@ summary: known issues in Keystone STaaS
 [.lead]
 Known issues identify problems that might prevent you from using Keystone subscription services effectively. 
 
-The following known issues have been reported in NetApp Keystone STaaS.
-
-[cols="3*",options="header"]
-|===
-|Known issue |Description |Workaround
-
-a|Historical accrued burst data not available for service levels.
-a|The historical accrued burst usage data for the *CVO Primary* and *CVO Secondary* service levels within the the *Capacity Trend* tab is not available for subscriptions that are not configured with a MetroCluster configuration. 
-a|None
-//NSEKEY-9855
-a|Incorrect display of object storage consumed value for AutoSupport subscriptions.
-a|If AutoSupport telemetry is used for gathering Keystone data, the consumed value for object storage listed on the *Volume Details* tab is displayed incorrectly for subscriptions with file, block, and object services.
-a|Refer to the consumed value for object storage mentioned within the *Current Usage* tab for correct information.
-//NSEKEY-9265
-a|Unable to view cluster-level information within the *Assets* tab.
-a|Cluster-level details are not available from the *Assets* tab for AutoSupport subscriptions that are configured with a MetroCluster configuration. 
-a|None
+There are no known issues at this time.
 
 |===
 
