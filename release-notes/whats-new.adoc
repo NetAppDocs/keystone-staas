@@ -86,8 +86,7 @@ You can now view historical data if a Keystone subscription is modified or renew
 
 all of which show the data based on the selected date of the subscription.
 
-== New features and enhancements for February 29, 2024
-Several enhancements have been made on the Active IQ Digital Advisor (also known as Digital Advisor) dashboard and *Keystone Subscriptions* screen for this release:
+== February 29, 2024
 
 === Addition of the Assets tab
 The *Keystone Subscriptions* screen now includes the *Assets* tab. This new tab provides cluster-level information based on your subscriptions. For more information, see link:../integrations/assets-tab.html[Assets tab^].
@@ -119,10 +118,10 @@ If you have a subscription that has rate plans with _zero_ committed capacity, y
 == December 15, 2023
 
 === Ability to search by watchlists
-The support for watchlists in Active IQ Digital Advisor (also known as Digital Advisor) has been extended to include Keystone systems. You can now view the details of the subscriptions for multiple customers by searching with watchlists. For more information about the use of watchlists in Keystone STaaS, see link:../integrations/keystone-aiq.html#search-by-using-keystone-watchlists[Search by using Keystone watchlists^].
+The support for watchlists in Digital Advisor has been extended to include Keystone systems. You can now view the details of the subscriptions for multiple customers by searching with watchlists. For more information about the use of watchlists in Keystone STaaS, see link:../integrations/keystone-aiq.html#search-by-using-keystone-watchlists[Search by using Keystone watchlists^].
 
 === Date converted to UTC timezone
-The data returned on the tabs of the *Keystone Subscriptions* screen of Active IQ Digital Advisor is displayed in UTC time (server timezone). When you enter a date for query, it is automatically considered to be in UTC time. For more information, see link:../integrations/aiq-keystone-details.html[Keystone Subscription dashboard and reporting^].
+The data returned on the tabs of the *Keystone Subscriptions* screen of Digital Advisor is displayed in UTC time (server timezone). When you enter a date for query, it is automatically considered to be in UTC time. For more information, see link:../integrations/aiq-keystone-details.html[Keystone Subscription dashboard and reporting^].
 
 
 // NSEKEY-8001, NSEKEY-8884, NSEKEY-8042, NSEKEY-8877, NSEKEY-8885, NSEKEY-8887, NSEKEY-8043, Clear filter button: Feb 2024.

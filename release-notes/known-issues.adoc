@@ -17,6 +17,6 @@ Known issues identify problems that might prevent you from using Keystone subscr
 
 There are no known issues at this time.
 
-|===
+
 
 
