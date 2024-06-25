@@ -37,7 +37,7 @@ The bar charts display the service level name and the capacity consumed against 
 
 You can view short-term surges in the usage charts, known as microbursts, by using the zoom-in feature. When a microburst is present, it is indicated by a blue dot on the corresponding bar or directly on the x-axis if no data is consumed. To view the details, click and hold on the bar or the x-axis where the blue dot appears, then drag the cursor across the chart to select the desired time interval, and release to confirm your selection. This action zooms into the data, providing a detailed view of the capacity used at that service level for the selected interval. You can zoom in further to view details down to a 2-minute interval. You can click the *Reset Zoom* button to return to the original chart view.
 
-image:aiq-ks-subtime-4.png[Capacity Trend tab with details]
+image:aiq-ks-subtime-5.png[Capacity Trend tab with details]
 
 The following colors in the bar charts indicate the consumed capacity as defined within the service level. Monthly data across the charts is separated by a vertical line.
 
@@ -62,7 +62,7 @@ You can click the toggle button *Show Current Usage* to view the consumption, bu
 ** Purple: Above the burst limit.
 * *Accrued Burst*: I̶n̶d̶i̶c̶a̶t̶o̶r̶ f̶o̶r̶ t̶h̶e̶ a̶c̶c̶r̶u̶e̶d̶ b̶u̶r̶s̶t̶ u̶s̶a̶g̶e̶ o̶r̶ c̶o̶n̶s̶u̶m̶e̶d̶ c̶a̶p̶a̶c̶i̶t̶y̶ c̶a̶l̶c̶u̶l̶a̶t̶e̶d̶ p̶e̶r̶ m̶o̶n̶t̶h̶ f̶o̶r̶ t̶h̶e̶ c̶u̶r̶r̶e̶n̶t̶ b̶i̶l̶l̶i̶n̶g̶ p̶e̶r̶i̶o̶d̶.̶ T̶h̶e̶ a̶c̶c̶r̶u̶e̶d̶ b̶u̶r̶s̶t̶ u̶s̶a̶g̶e̶ i̶s̶ c̶a̶l̶c̶u̶l̶a̶t̶e̶d̶ b̶a̶s̶e̶d̶ o̶n̶ t̶h̶e̶ c̶o̶m̶m̶i̶t̶t̶e̶d̶ a̶n̶d̶ c̶o̶n̶s̶u̶m̶e̶d̶ c̶a̶p̶a̶c̶i̶t̶y̶ f̶o̶r̶ a̶ s̶e̶r̶v̶i̶c̶e̶ l̶e̶v̶e̶l̶:̶ `̶(̶c̶o̶n̶s̶u̶m̶e̶d̶ -̶ c̶o̶m̶m̶i̶t̶t̶e̶d̶)̶/̶3̶6̶5̶.̶2̶5̶/̶1̶2̶`̶.̶
 
-##Indicator of the total burst capacity (in TiB) accumulated during each 2-minute interval within a month, for the current billing cycle. The accrued burst usage for an entire month is calculated as this: `[sum of bursts in month/(days in month)*24*60]*interval duration`.##
+##Indicator of the total burst capacity (in TiB) accumulated during each 2-minute interval within a month for the current billing cycle. The accrued burst usage for an entire month is calculated as this: `[sum of bursts in month/(days in month)*24*60]*interval duration`.##
 ##You can calculate the accrued burst for short periods, such as every two minutes, using this: `[burst/(days in month)*24*60]*interval duration`.The burst is the difference between the consumed capacity and the committed capacity. For example, with a 30-day in month, if the consumed capacity reaches 120 TiB and the committed capacity is 100 TiB for a 2-minute interval, this results in a burst capacity of 20 TiB, equating to an accrued burst usage of 0.000925926 TiB for that interval.##
 
 
