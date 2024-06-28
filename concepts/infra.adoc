@@ -41,7 +41,7 @@ In addition to the storage equipment, two monitoring tools are provisioned for s
 
 image:mgmt-stack.png[managemnt stack]
 
-Active IQ Digital Advisor (also known as Digital Advisor) enables you to log in and view the subscription and consumption details for your Keystone subscriptions. For more information about Keystone reporting on the Digital Advisor dashboard, see link:../integrations/keystone-aiq.html[Keystone and Digital Advisor].
+ Digital Advisor enables you to log in and view the subscription and consumption details for your Keystone subscriptions. For more information about Keystone reporting on the Digital Advisor dashboard, see link:../integrations/keystone-aiq.html[Keystone and Digital Advisor].
 
 
 
