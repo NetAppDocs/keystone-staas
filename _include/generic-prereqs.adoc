@@ -77,8 +77,6 @@ a|Webserver for ONTAP firmware updates
 
 |===
 
-NOTE: ##The default port for MySQL, 3306, is restricted only to localhost during a fresh installation of Unified Manager, which prevents the collection of performance metrics for Keystone Collector. For more information, see link:addl-req.html[ONTAP requirements].##
-
 === URL access
 
 Keystone Collector needs access to the following internet hosts:

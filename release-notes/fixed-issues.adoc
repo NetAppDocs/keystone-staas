@@ -21,7 +21,7 @@ Issues that were found in previous releases of NetApp Keystone STaaS services ha
 
 a|Usage charts display data beyond the specified single-day period when the date corresponding to the current day is selected as both the start and end date for the previous month from the *Capacity Trend* option in the *Capacity Trends* tab.
 a|Usage charts now correctly display data for the specified single-day period.
-a|June 21, 2024
+a|June 27, 2024
 //NSEKEY-9842
 a|Historical accrued burst data is not available for *CVO Primary* and *CVO Secondary* service levels within the *Capacity Trend* tab for subscriptions that are not configured with a MetroCluster configuration.
 a|Fixed
