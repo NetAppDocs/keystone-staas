@@ -15,7 +15,7 @@ summary: Keystone Subscription reports and graphs
 [.lead]
 Use the *Assets* tab to gather perspectives on your cluster and nodes managed by your Keystone subscriptions. 
 
-Active IQ Digital Advisor (Digital Advisor) provides a comprehensive inventory-level information of your deployments. The *Assets* tab of the Keystone dashboard, on the other hand, accumulates the cluster-level information on the basis of your subscriptions, and segregates and presents it with the accurate level of details.
+Digital Advisor provides a comprehensive inventory-level information of your deployments. The *Assets* tab of the Keystone dashboard, on the other hand, accumulates the cluster-level information on the basis of your subscriptions, and segregates and presents it with the accurate level of details.
 
 .Steps
 . Click *GENERAL > Keystone Subscriptions > Assets*.

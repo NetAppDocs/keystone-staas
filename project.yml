@@ -20,40 +20,52 @@ sidebar:
           url: /release-notes/known-issues.html  
         - title: Known limitations
           url: /release-notes/known-limitations.html          
-    - title: Welcome to Keystone
-      url: /concepts/overview.html
+    - title: Learn about Keystone
+      entries:
+      - title: Overview
+        url: /concepts/overview.html
+      - title: Keystone infrastructure
+        url: /concepts/infra.html
+      - title: Components
+        url: /concepts/components.html
+      - title: Data flow
+        url: /concepts/data-flow.html   
+      - title: Operational models
+        url: /concepts/operational-models.html 
+      - title: Keystone Collector
+        url: /installation/installation-overview.html
     - title: Set up and configure Keystone
       entries:
-        - title: What is Keystone Collector
-          url: /installation/installation-overview.html
-        - title: Prepare your system
+        - title: Requirements
           entries:
-            - title: VMware vSphere requirements
+            - title: VMware vSphere 
               url: /installation/vapp-prereqs.html
-            - title: Linux requirements
+            - title: Linux 
               url: /installation/linux-prereqs.html
-            - title: ONTAP and StorageGRID requirements
+            - title: ONTAP and StorageGRID 
               url: /installation/addl-req.html
         - title: Install Keystone Collector
           entries:
-            - title: VMware vSphere deployment
+            - title: Deploy on VMware vSphere 
               url: /installation/vapp-installation.html
-            - title: Linux installation
+            - title: Install on Linux 
               url: /installation/linux-installation.html
-            - title: Automatic integrity validation
+            - title: Validate integrity
               url: /installation/validation.html
         - title: Configure Keystone Collector
           url: /installation/configuration.html
-        - title: Monitor system health
-          url: /installation/monitor-health.html
-        - title: Upgrade Keystone Collector
-          url: /installation/upgrade.html
-        - title: Configure AutoSupport for Keystone
+        - title: Configure AutoSupport
           url: /installation/asup-config.html
         - title: Keystone Collector security
           url: /installation/security.html
         - title: Data collected for billing
           url: /installation/data-collection.html
+    - title: Monitor and Upgrade
+      entries:
+        - title: Monitor system health
+          url: /installation/monitor-health.html
+        - title: Upgrade Keystone Collector
+          url: /installation/upgrade.html      
     - title: Keystone dashboard 
       entries:
         - title: View Keystone dashboard
@@ -116,16 +128,6 @@ sidebar:
           url: /concepts/misc-volume-billing.html
         - title: Billing schedules
           url: /concepts/billing-schedules.html
-    - title: Partner and customer-operated environments
-      url: /concepts/operational-models.html
-    - title: Keystone infrastructure
-      entries:
-       -  title: Infrastructure details
-          url: /concepts/infra.html
-       -  title: Components
-          url: /concepts/components.html
-       -  title: Data flow
-          url: /concepts/data-flow.html
     - title: NetApp Global Services Support Center
       url: /concepts/gssc.html
     - title: Legal notices

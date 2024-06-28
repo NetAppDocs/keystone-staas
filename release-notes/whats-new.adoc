@@ -17,6 +17,15 @@ NetApp offers you new and enhanced features in every release of Keystone STaaS s
 
 The following enhancements are introduced in the *Keystone Subscriptions* screen of Active IQ Digital Advisor (also known as Digital Advisor):
 
+== June 27, 2024
+
+=== Consistent display of subscription 
+The *Keystone Subscriptions* screen is updated to display the selected subscription number across all tabs.
+ 
+* When any tab within the *Keystone Subscriptions* screen is refreshed, the screen automatically navigates to the *Subscriptions* tab and reset all tabs to the first subscription listed in the *Subscription* dropdown.
+* If the selected subscription is not subscribed to performance metrics, the *Performance* tab will display the first subscription listed in the *Subscription* dropdown upon navigation.
+//NSEKEY-9820
+
 == May 29, 2024
 
 === Enhanced Burst indicator 
@@ -27,7 +36,7 @@ The *Burst* indicator in the usage graph index is enhanced to display the burst 
 The service levels *CVO Primary* and *CVO Secondary* are included to support Cloud Volumes ONTAP for subscriptions that has rate plans with zero committed capacity or those configured with a metro cluster.
 
 * You can view the capacity usage graph for these service levels from old dashboard of the *Keystone Subscriptions* widget and the *Capacity Trend* tab, and also detailed usage information from the *Current Usage* tab.
-* In the *Subscription* tab, these service levels are displayed as `CVO (v2)` in the *Usage Type* column, allowing for the identification of billing according to these service levels.
+* In the *Subscriptions* tab, these service levels are displayed as `CVO (v2)` in the *Usage Type* column, allowing for the identification of billing according to these service levels.
 //NSEKEY-8923
 
 === Zoom-in feature for microburst insights
@@ -35,7 +44,7 @@ The *Capacity Trend* tab now includes a zoom-in feature to view the details of s
 //NSEKEY-9459
 
 === Enhanced display of subscriptions
-The default display of subscriptions is enhanced to sort by tracking ID. The subscriptions in the *Subscriptions* tab, including in the *Subscriptions* dropdown and CSV reports, will now be displayed based on the alphabetical sequence of the tracking IDs, following the order of a, A, b, B, and so on.
+The default display of subscriptions is enhanced to sort by tracking ID. The subscriptions in the *Subscriptions* tab, including in the *Subscription* dropdown and CSV reports, will now be displayed based on the alphabetical sequence of the tracking IDs, following the order of a, A, b, B, and so on.
 //NSEKEY-9598 and NSEKEY-9266 
 
 === Enhanced accrued burst display
@@ -77,8 +86,7 @@ You can now view historical data if a Keystone subscription is modified or renew
 
 all of which show the data based on the selected date of the subscription.
 
-== New features and enhancements for February 29, 2024
-Several enhancements have been made on the Active IQ Digital Advisor (also known as Digital Advisor) dashboard and *Keystone Subscriptions* screen for this release:
+== February 29, 2024
 
 === Addition of the Assets tab
 The *Keystone Subscriptions* screen now includes the *Assets* tab. This new tab provides cluster-level information based on your subscriptions. For more information, see link:../integrations/assets-tab.html[Assets tab^].
@@ -110,10 +118,10 @@ If you have a subscription that has rate plans with _zero_ committed capacity, y
 == December 15, 2023
 
 === Ability to search by watchlists
-The support for watchlists in Active IQ Digital Advisor (also known as Digital Advisor) has been extended to include Keystone systems. You can now view the details of the subscriptions for multiple customers by searching with watchlists. For more information about the use of watchlists in Keystone STaaS, see link:../integrations/keystone-aiq.html#search-by-using-keystone-watchlists[Search by using Keystone watchlists^].
+The support for watchlists in Digital Advisor has been extended to include Keystone systems. You can now view the details of the subscriptions for multiple customers by searching with watchlists. For more information about the use of watchlists in Keystone STaaS, see link:../integrations/keystone-aiq.html#search-by-using-keystone-watchlists[Search by using Keystone watchlists^].
 
 === Date converted to UTC timezone
-The data returned on the tabs of the *Keystone Subscriptions* screen of Active IQ Digital Advisor is displayed in UTC time (server timezone). When you enter a date for query, it is automatically considered to be in UTC time. For more information, see link:../integrations/aiq-keystone-details.html[Keystone Subscription dashboard and reporting^].
+The data returned on the tabs of the *Keystone Subscriptions* screen of Digital Advisor is displayed in UTC time (server timezone). When you enter a date for query, it is automatically considered to be in UTC time. For more information, see link:../integrations/aiq-keystone-details.html[Keystone Subscription dashboard and reporting^].
 
 
 // NSEKEY-8001, NSEKEY-8884, NSEKEY-8042, NSEKEY-8877, NSEKEY-8885, NSEKEY-8887, NSEKEY-8043, Clear filter button: Feb 2024.
