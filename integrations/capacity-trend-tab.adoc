@@ -62,12 +62,23 @@ You can click the toggle button *Show Current Usage* to view the consumption, bu
 ** Purple: Above the burst limit.
 * *Accrued Burst*: ##Indicator of the total burst capacity (in TiB) accumulated during each 2-minute interval within a month for the current billing cycle. The accrued burst usage for an entire month is calculated as this:##
 +
+[source]
++
 :stem: latexmath
 
 [stem]
 ++++
 \left( \frac{\text{sum of bursts in a month}}{\text{days in month} \cdot 24 \cdot 60} \right) \cdot \text{interval duration}
 ++++
+
+:stem: latexmath
+
+[stem]
+++++
+\left[ \frac{\text{sum of bursts in month}}{\text{days in month} \times 24 \times 60} \right] \times \text{interval duration}
+++++
+
+image:accrued-burst-monthly.png[shows]
 +
 ##You can calculate the accrued burst for short periods, such as every two minutes, using this:##
 +
