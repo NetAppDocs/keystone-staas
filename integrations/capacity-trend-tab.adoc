@@ -63,31 +63,16 @@ You can click the toggle button *Show Current Usage* to view the consumption, bu
 * *Accrued Burst*: ##Indicator of the total burst capacity (in TiB) accumulated during each 2-minute interval within a month for the current billing cycle. The accrued burst usage for an entire month is calculated as this:##
 +
 [source]
-+
-:stem: latexmath
-
-[stem]
-++++
-\left( \frac{\text{sum of bursts in a month}}{\text{days in month} \cdot 24 \cdot 60} \right) \cdot \text{interval duration}
-++++
-
-:stem: latexmath
-
-[stem]
-++++
-\left[ \frac{\text{sum of bursts in month}}{\text{days in month} \times 24 \times 60} \right] \times \text{interval duration}
-++++
-
-image:accrued-burst-monthly.png[shows]
+----
+[sum of bursts in month/((days in month)*24*60)]*interval duration
+----
 +
 ##You can calculate the accrued burst for short periods, such as every two minutes, using this:##
 +
-:stem: latexmath
-
-[stem]
-++++
-\left( \frac{\text{burst}}{\text{days in month} \cdot 24 \cdot 60} \right) \cdot \text{interval duration}
-++++
+[source]
+----
+[burst/((days in month)*24*60)]*interval duration
+----
 +
 ##The burst is the difference between the consumed capacity and the committed capacity. For example, with a 30-day in month, if the consumed capacity reaches 120 TiB and the committed capacity is 100 TiB for a 2-minute interval, this results in a burst capacity of 20 TiB, equating to an accrued burst usage of 0.000925926 TiB for that interval.##
 
