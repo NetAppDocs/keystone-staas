@@ -64,14 +64,14 @@ You can click the toggle button *Show Current Usage* to view the consumption, bu
 +
 [source]
 ----
-[sum of bursts in month/((days in month)*24*60)]*interval duration
+[sum of bursts in month/(days in month)*24*60)]*interval duration
 ----
 +
 ##You can calculate the accrued burst for short periods, such as every two minutes, using this:##
 +
 [source]
 ----
-[burst/((days in month)*24*60)]*interval duration
+[burst/(days in month)*24*60)]*interval duration
 ----
 +
 ##The burst is the difference between the consumed capacity and the committed capacity. For example, with a 30-day in month, if the consumed capacity reaches 120 TiB and the committed capacity is 100 TiB for a 2-minute interval, this results in a burst capacity of 20 TiB, equating to an accrued burst usage of 0.000925926 TiB for that interval.##
