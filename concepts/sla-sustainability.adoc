@@ -18,8 +18,8 @@ Sustainability SLA defines the maximum consumption of Watts per Tebibyte (Watts/
 == Calculation metrics
 The criteria for measuring sustainability are as follows:
 
-* Watts: The daily power consumption of the ONTAP AFF A-series arrays and attached SSD shelves. 
-* TiB: The greater of:
+* *Watts*: The daily power consumption of the ONTAP AFF A-series arrays and attached SSD shelves. 
+* *TiB*: The greater of:
 ** the committed capacity and allocated burst capacity for the service level, or
 ** the effective deployed capacity, assuming a storage efficiency factor of two. To learn more about storage efficiency ratio, refer to https://docs.netapp.com/us-en/active-iq/task_analyze_storage_efficiency.html[Analyze capacity and storage efficiency savings^].
 
@@ -39,7 +39,7 @@ Performance |<=4 watts/TiB |300 TiB |AFF A800 and AFF A900
 To learn more, refer to link:https://docs.netapp.com/us-en/keystone-staas/concepts/service-levels.html#service-levels-for-file-and-block-storage[Service levels in Keystone].
 
 == Service credit plan
-When the watts per Tebibyte (Watts/TiB) consumption does not meet with the criteria set in the SLA for a service level, NetApp provides service credits to cover the reported variances during a billing period for all eligible subscriptions.
+When the Watts per Tebibyte (Watts/TiB) consumption does not meet with the criteria set in the SLA for a service level, NetApp provides service credits to cover the reported variances during a billing period for all eligible subscriptions.
 
 |===
 |SLA gap days |Service credit

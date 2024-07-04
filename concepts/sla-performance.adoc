@@ -5,7 +5,7 @@ keywords: sustainability, sla, service level agreement,
 summary: sustainability, sla, service level agreement
 ---
 
-= Performance SLA for Keystone
+= Performance SLA 
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,7 +13,7 @@ summary: sustainability, sla, service level agreement
 :imagesdir: ../media/
 
 [.lead]
-Performance SLA ensures that you experience optimal performance based on the target latency for the subscribed performance service levels.
+Performance SLA ensures the optimal performance based on the target latency for the subscribed performance service levels.
 
 == Service levels
 The service levels for NetApp AFF storage platform are eligible for performance SLA. This includes the service levels for file and block storage, that is Extreme, Performance, Premium, and Standard service levels. Performance SLA is based on the following latency definitions of the service levels: 
@@ -29,9 +29,9 @@ To learn more about the latency requirements of the service levels, refer to lin
 == Service credit plan
 A service credit of 3% is provided for any 24-hour period during which the Keystone order is impacted, based on the proportion of consumed capacity affected relative to the committed capacity.
 
-The credit for performance SLA is calculated as this:
+The credits for performance SLA are calculated as this:
 
-Credit = (affected capacity / total committed capacity per service level) X number of days X monthly invoice X 0.03
+Credits = (affected capacity / total committed capacity per service level) X number of days X monthly invoice X 0.03
 
 == Service credit request
 If you have detected an SLA breach, you can initiate a service credit request within six weeks of the validation of the event. All service credits should be acknowledged and approved by NetApp. 
