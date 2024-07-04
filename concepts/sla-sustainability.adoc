@@ -5,7 +5,7 @@ keywords: sustainability, sla, service level agreement,
 summary: sustainability, sla, service level agreement
 ---
 
-= Sustainability SLA for Keystone
+= Sustainability SLA 
 :hardbreaks:
 :nofooter:
 :icons: font
