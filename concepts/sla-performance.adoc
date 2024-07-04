@@ -1,0 +1,39 @@
+---
+sidebar: sidebar
+permalink: concepts/sla-performance.html
+keywords: sustainability, sla, service level agreement, 
+summary: sustainability, sla, service level agreement
+---
+
+= Performance SLA for Keystone
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ../media/
+
+[.lead]
+Performance SLA ensures that you experience optimal performance based on the target latency for the subscribed performance service levels.
+
+== Service levels
+The service levels for NetApp AFF storage platform are eligible for performance SLA. This includes the service levels for file and block storage, that is Extreme, Performance, Premium, and Standard service levels. Performance SLA is based on the following latency definitions of the service levels: 
+
+|===
+|*Service level* | Extreme |Premium |Performance |Standard
+a|
+*Target 90^th^ percentile latency* |<1ms |<2ms |<4ms |<4ms
+|===
+
+To learn more about the latency requirements of the service levels, refer to link:../concepts/service-levels.html[Service Levels in Keystone].
+
+== Service credit plan
+A service credit of 3% is provided for any 24-hour period during which the Keystone order is impacted, based on the proportion of consumed capacity affected relative to the committed capacity.
+
+The credit for performance SLA is calculated as this:
+
+Credit = (affected capacity / total committed capacity per service level) X number of days X monthly invoice X 0.03
+
+== Service credit request
+If you have detected an SLA breach, you can initiate a service credit request within six weeks of the validation of the event. All service credits should be acknowledged and approved by NetApp. 
+
+For requesting service credit, open a priority 3 (P3) support ticket with Keystone Global Services and Support Center (GSSC), and provide the required details. The service credit is applicable to the invoice raised for your consumed capacity in the next billing cycle for the specific Keystone subscription. Service credit do not apply to expired Keystone subscriptions. To learn more, refer to link:../concepts/gssc.html[NetApp Global Services Support Center].

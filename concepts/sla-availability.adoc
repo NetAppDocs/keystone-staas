@@ -1,0 +1,51 @@
+---
+sidebar: sidebar
+permalink: concepts/sla-availability.html
+keywords: availability, sla, service level agreement, 
+summary: availability, sla, service level agreement
+---
+
+= Availability SLA  
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ../media/
+
+[.lead]
+NetApp offers Service Level Agreements (SLAs) managed by Keystone STaaS to ensure the operational continuity of storage systems. Availability SLA targets an average uptime of 99.999% during a billing period for all NetApp AFF storage arrays included in purchased Keystone STaaS subscriptions.
+
+== Calculation metrics
+The criteria for calculating the availability and uptime as per SLA are as follows:
+
+* Monthly uptime percentage = [(maximum available minutes - downtime) / maximum available minutes] x 100%
+* Maximum available minutes = Total number of minutes in a billing period
+
+== Service levels
+The service levels for the NetApp AFF storage platform are eligible for availability SLA. This includes the service levels for file and block storage, that is Extreme, Performance, Premium, and Standard service levels. To learn more, refer to link:https://docs.netapp.com/us-en/keystone-staas/concepts/service-levels.html#service-levels-for-file-and-block-storage[Service levels in Keystone].
+
+== Service credit plan
+When the data access availability for eligible subscriptions falls short of the 99.999% monthly uptime target within a given billing period, then credits are provided accordingly. These credits apply to the proportion of impacted consumed capacity relative to the committed capacity for each performance within the related Keystone order. The levels at which credits are offered are given in the following table:
+
+|===
+|Monthly uptime |Service credit
+
+a|99.999%
+a|5%
+
+a|99.99%
+a|10%
+
+a|99.9%
+a|25%
+
+a|99.0%
+a|50%
+
+|===
+
+== Service credit request
+If you have detected an SLA breach, you can initiate a service credit request within six weeks of the validation of the event. All service credits should be acknowledged and approved by NetApp. 
+
+For requesting service credit, open a priority 3 (P3) support ticket with Keystone Global Services and Support Center (GSSC), and provide the required details. The service credit is applicable to the invoice raised for your consumed capacity in the next billing cycle for the specific Keystone subscription. Service credit do not apply to expired Keystone subscriptions. To learn more, refer to link:../concepts/gssc.html[NetApp Global Services Support Center].
+
