@@ -19,6 +19,9 @@ The following enhancements are introduced in the *Keystone Subscriptions* screen
 
 == July 10, 2024
 
+=== Label modifications
+##The label *Current Usages* is changed to *Current Consumption*, and *Capacity Trend* is changed to *Consumption Trend*.##
+
 === Search bar for subscriptions
 ##The *Subscriptions* dropdown across all tabs within the *Keystone Subscriptions* screen now includes a search bar. You can search for specific subscriptions listed in the *Subscriptions* dropdown.##
 //NSEKEY-9965

@@ -1,11 +1,11 @@
 ---
 sidebar: sidebar
 permalink: integrations/current-usage-tab.html
-keywords: keystone-aiq, digital advisor keystone, current usage tab
-summary: Current Usage tab on the AIQ DA Keystone dashboard
+keywords: keystone-aiq, digital advisor keystone, current consumption tab
+summary: Current Consumption tab on the AIQ DA Keystone dashboard
 ---
 
-= Current Usage tab
+= Current Consumption tab
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,11 +13,11 @@ summary: Current Usage tab on the AIQ DA Keystone dashboard
 :imagesdir: ../media/
 
 [.lead]
-The *Current Usage* tab displays the usage details of your subscriptions.
+The *Current Consumption* tab displays the usage details of your subscriptions.
 
-To view this tab, from the left navigation pane, go to *GENERAL > Keystone Subscriptions > Current Usage*, and select the required subscription number.
+To view this tab, from the left navigation pane, go to *GENERAL > Keystone Subscriptions > Current Consumption*, and select the required subscription number.
 
-image:aiq-ks-dtls-2.png[Current Usage tab]
+image:aiq-ks-dtls-2.png[Current Consumption tab]
 
 For the selected subscription, you can view details, such as the start and end dates of the subscription, and the billing period, such as monthly or annual. As  a part of the subscription usage, you can view the service level name, committed, consumed, available capacities, and current and accrued burst usage (in TiB).
 
@@ -26,14 +26,14 @@ The image:icon-info.png[information icon] icon next to each column provides comp
 
 For information about your Keystone storage services and the relevant service levels, see link:../concepts/service-levels.html[Service Levels in Keystone].
 
-Coupled with the current usage, you might want to view the historical usage data for comparison. Click the *View Historical Data* button to navigate to the *Capacity Trend* tab to view the historical data for the same subscription.
+Coupled with the current consumption, you might want to view the historical usage data for comparison. Click the *View Historical Data* button to navigate to the *Consumption Trend* tab to view the historical data for the same subscription.
 
 
 *Related information*
 
 * link:../integrations/aiq-keystone-details.html[Use Keystone dashboard and reporting]
 * link:../integrations/subscriptions-tab.html[Subscriptions]
-* link:../integrations/capacity-trend-tab.html[Capacity Trend]
+* link:../integrations/capacity-trend-tab.html[Consumption Trend]
 * link:../integrations/volumes-objects-tab.html[Volumes & Objects]
-* link:../integrations/performance-tab.html[Performance]
 * link:../integrations/assets-tab.html[Assets tab]
+* link:../integrations/performance-tab.html[Performance]

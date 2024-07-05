@@ -74,16 +74,16 @@ sidebar:
           url: /integrations/aiq-keystone-details.html
         - title: Subscriptions tab
           url: /integrations/subscriptions-tab.html
-        - title: Current Usage tab
+        - title: Current Consumption tab
           url: /integrations/current-usage-tab.html
-        - title: Capacity Trend tab
+        - title: Consumption Trend tab
           url: /integrations/capacity-trend-tab.html
         - title: Volumes & Objects tab
           url: /integrations/volumes-objects-tab.html
-        - title: Performance tab
-          url: /integrations/performance-tab.html
         - title: Assets tab
-          url: /integrations/assets-tab.html                                                                           
+          url: /integrations/assets-tab.html            
+        - title: Performance tab
+          url: /integrations/performance-tab.html                                                                        
         - title: Manage Keystone subscriptions from BlueXP
           url: /integrations/keystone-cm.html 
     - title: Keystone STaaS services

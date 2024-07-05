@@ -20,17 +20,17 @@ Digital Advisor provides a comprehensive inventory-level information of your dep
 .Steps
 . Click *GENERAL > Keystone Subscriptions > Assets*.
 . Select the subscription number for which you want to view the clusters.
-
++
 You see the cluster details, broken down by storage efficiency settings, platform type, and capacity details. Clicking on one of the clusters takes you to the *Clusters* widget on the Digital Advisor screen, where you get additional information for that cluster. 
 
-image:assets-tab-2.png[Assets tab]
+image:assets-tab-3.png[Assets tab]
 
 
 *Related information*
 
 * link:../integrations/aiq-keystone-details.html[Use Keystone dashboard and reporting]
 * link:../integrations/subscriptions-tab.html[Subscriptions]
-* link:../integrations/current-usage-tab.html[Current Usage]
+* link:../integrations/current-usage-tab.html[Current Consumption]
 * link:../integrations/volumes-objects-tab.html[Volumes & Objects]
-* link:../integrations/capacity-trend-tab.html[Capacity Trend]
+* link:../integrations/capacity-trend-tab.html[Consumption Trend]
 * link:../integrations/performance-tab.html[Performance]
