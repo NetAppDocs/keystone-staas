@@ -76,7 +76,7 @@ If you have selected the *Invoiced Accrued Burst* option, by default, you can se
 TIP: The invoiced accrued burst usage is calculated per billing period, based on the committed and consumed capacity for a service level.
 
 
-image:accr-burst.png[accrued burst usage charts]
+image:accr-burst-1.png[accrued burst usage charts]
 
 This functionality is available in a preview-only mode. Contact your KSM to learn more about this feature.
 
