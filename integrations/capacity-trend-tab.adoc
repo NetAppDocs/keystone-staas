@@ -105,21 +105,21 @@ For the base service levels, each volume is charged as provisioned at the primar
 
 The following image displays the charts for the _Extreme_ service level (base service level) and a primary subscription number. The same historical data chart also indicates the mirror site consumption in a lighter shade of the same color code used for the primary site. The tooltip on mouse hover displays the consumption breakup (in TiB) for the primary and mirror sites, 1.02 TiB and 1.05 TiB respectively.
 
-image:mcc-chart.png[mcc primary]
+image:mcc-chart-1.png[mcc primary]
 
 For the _Advanced Data-Protect_ service level, the charts appear like this:
 
-image:adp-src.png[mcc primary base]
+image:adp-src-1.png[mcc primary base]
 
 .What you can see for the secondary (mirror site) subscription
 
-When you check the secondary subscription, you can see that the bar chart for the _Extreme_ service level (base service level) at the same data collection point as the partner site is reversed, and the consumption breakup at the primary and mirror sites is 1.05 TiB and 1.02 TiB respectively.
+When you check the secondary subscription, you can see that the bar chart for the _Extreme_ service level (base service level) at the same data collection point as the partner site is reversed, and the consumption breakup at the primary and mirror sites is 22.24 TiB and 14.86 TiB respectively.
 
-image:mcc-chart-mirror.png[mcc mirror]
+image:mcc-chart-mirror-1.png[mcc mirror]
 
 For the _Advanced Data-Protect_ service level, the chart appears like this for the same collection point as at the partner site:
 
-image:adp-mir.png[mcc mirror base]
+image:adp-mir-1.png[mcc mirror base]
 
 For information about how MetroCluster protects your data, see https://docs.netapp.com/us-en/ontap-metrocluster/manage/concept_understanding_mcc_data_protection_and_disaster_recovery.html[Understanding MetroCluster data protection and disaster recovery^].
 
