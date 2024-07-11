@@ -13,43 +13,53 @@ summary: volumes-objects-tab
 :imagesdir: ../media/
 
 [.lead]
-Use the *Volumes & Objects* tab to view the summary information and details of your ONTAP volumes. For StorageGRID, you can use this tab to read the usage by the individual nodes in your object storage environment.
+Use the *Volumes & Objects* tab to view the details of ONTAP volumes and object storage. For StorageGRID, you can use this tab to read the usage by the individual nodes in your object storage environment.
 
 [NOTE]
 The title of this tab varies with the nature of deployment at your site. If you have both ONTAP and object storage, the title of the tab appears as *Volumes & Objects*. For only ONTAP, the name appears *Volumes*. For StorageGRID object storage, you can see the *Objects* tab.
 
-== View ONTAP volume summary and details
-The Volumes tab offers different levels of details on your ONTAP system volumes. There are two tabs, one each for the summary and details view of your ONTAP volumes. The *Volume Summary* tab provides an overall count of the volumes mapped to the subscribed service levels. The corresponding volumes are again listed in the *Volume Details* tab with their particulars.
+== View ONTAP volumes and object storage details
+The *Volumes & Objects* tab offers insights into ONTAP system volumes and object storage at different levels of detail. For ONTAP volumes, there are two sub-tabs: *Volume Summary*, which provides an overall count of the volumes mapped to the subscribed service levels, and *Volume Details*, which lists these volumes again with their specific particulars. The *Objects* sub-tab provides details on object storage for subscriptions that include service levels for both file and object storage.
+
+NOTE: The *Objects* sub-tab is unavailable under the *Volumes* tab, and within the *Objects* tab, the *Volume Summary* and *Volume Details* sub-tabs contain no data.
 
 [role="tabbed-block"]
 ====
 .Volume Summary
 --
 . Click *GENERAL > Keystone Subscriptions > Volumes & Objects > Volume Summary*.
-. Select the subscription number. By default, the first available subscription number is selected. 
-
+. Select the subscription number.
++
 For the selected Keystone STaaS subscription, you can see the total number of volumes, their AQoS compliance status, count of protected volumes, and the total committed, consumed, and available capacity in all those volumes. If you click the number of non-compliant or protected volumes, it takes you to the *Volume Details* tab, where you can view a filtered list showing either the non-compliant volumes or the protected volumes, based on your selection.
-
-image:volume-summary-1.png[Volume summary tab]
++
+image:volume-summary-2.png[Volume summary tab]
 
 --
 
 .Volume Details
 --
 . Click *GENERAL > Keystone Subscriptions > Volumes > Volume Details*.
-. Select the subscription number. By default, the first available subscription number is selected. 
+. Select the subscription number. 
 +
 You can see the tabular listing of the volumes, such as capacity usage, volume type, cluster, aggregate, and the assigned Keystone service levels. You can scroll across the columns and learn more about them by hovering your mouse on the information icons beside the column headings. You can sort by the columns and filter the lists to view specific information. 
 +
 NOTE: For advanced data protection add-on service, an additional column appears to indicate whether the volume is a primary or mirror volume in the MetroCluster configuration. You can copy individual node serial numbers by clicking the *Copy Node Serials* button.
 +
-
-NOTE: For subscriptions that cover service levels for both file and object, you can view the object storage details by clicking the *Object Storage Details* button.
-
-+
-image:volume-details-2.png[Volumes details tab]
+image:volume-details-3.png[Volumes details tab]
 
 --
+
+.Objects
+--
+. Click *GENERAL > Keystone Subscriptions > Objects*.
+. Select the subscription number. By default, the first available subscription number is selected if the previously selected subscription does not include service levels for both file and object storage.
++
+NOTE: For StorageGRID, this tab displays the physical usage for the nodes for object storage.
++
+image:objects-details.png[Objects tab]
+
+--
+
 ====
 
 
@@ -57,26 +67,26 @@ image:volume-details-2.png[Volumes details tab]
 
 
 
-== View StorageGRID nodes and consumption
+//== View StorageGRID nodes and consumption
 
-For StorageGRID, this tab displays the physical usage for the nodes for object storage.
+//For StorageGRID, this tab displays the physical usage for the nodes for object storage.
 
-.Steps
+//.Steps
 
-. Click *GENERAL > Keystone Subscriptions > Objects*.
-. Select the subscription number. By default, the first available subscription number is selected. On selecting the subscription number, the link for object storage details is enabled.
-+
-image:sg-link.png[StorageGRID dialog box]
-+
-. Click the link to view the node names and physical usage details for each node.
-+
-image:sg-link-2.png[StorageGRID dialog box]
+//. Click *GENERAL > Keystone Subscriptions > Objects*.
+//. Select the subscription number. By default, the first available subscription number is selected. On selecting the subscription number, the link for object storage details is enabled.
+//+
+//image:sg-link.png[StorageGRID dialog box]
+//+
+//. Click the link to view the node names and physical usage details for each node.
+//+
+//image:sg-link-2.png[StorageGRID dialog box]
 
 *Related information*
 
 * link:../integrations/aiq-keystone-details.html[Use Keystone dashboard and reporting]
 * link:../integrations/subscriptions-tab.html[Subscriptions]
-* link:../integrations/current-usage-tab.html[Current Usage]
-* link:../integrations/capacity-trend-tab.html[Capacity Trend]
-* link:../integrations/performance-tab.html[Performance]
+* link:../integrations/current-usage-tab.html[Current Consumption]
+* link:../integrations/capacity-trend-tab.html[Consumption Trend]
 * link:../integrations/assets-tab.html[Assets]
+* link:../integrations/performance-tab.html[Performance]

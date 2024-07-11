@@ -15,7 +15,19 @@ summary: known issues in Keystone STaaS
 [.lead]
 Known issues identify problems that might prevent you from using Keystone subscription services effectively. 
 
-There are no known issues at this time.
+The following known issue is reported:
+
+[cols="3*",options="header"]
+|===
+|Known issue |Description |Workaround
+
+a|Keystone Collector management TUI becomes unresponsive when setting up AQoS policies.
+a|When attempting to create AQoS policies through the TUI, the TUI may encounter a problem and stop responding.
+a|Contact NetApp support.
+
+|===
+
+
 
 
 

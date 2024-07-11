@@ -20,7 +20,7 @@ On subscribing to Keystone services, you can view the details of your subscripti
 [NOTE]
 The information here applies to both ONTAP and StorageGRID. Exceptions have been pointed out in the relevant sections.
 
-For information about the Keystone Digital Advisor widget, see https://docs.netapp.com/us-en/active-iq/view_keystone_capacity_utilization.html[View capacity utilization with NetApp Keystone Subscription^].
+To learn more about the Keystone Digital Advisor widget, refer to https://docs.netapp.com/us-en/active-iq/view_keystone_capacity_utilization.html[View capacity utilization with NetApp Keystone Subscription^].
 
 To view your Keystone subscription and usage details, perform the following steps:
 
@@ -35,23 +35,23 @@ Capacity consumption in Keystone subscriptions is displayed in TiBs on the dashb
 
 //NSEKEY-8547 
 
-For information about usage metrics, see link:../concepts/metrics.html#metrics-measurement[Metrics measurement]. For information about different capacities used in Keystone, see link:../concepts/supported-storage-capacity.html[Supported storage capacities].
+To learn more about usage metrics, refer to link:../concepts/metrics.html#metrics-measurement[Metrics measurement]. For information about different capacities used in Keystone, see link:../concepts/supported-storage-capacity.html[Supported storage capacities].
 
 The following links provide more information about each of these tabs:
 
 * link:../integrations/subscriptions-tab.html[Subscriptions]
-* link:../integrations/current-usage-tab.html[Current Usage]
-* link:../integrations/capacity-trend-tab.html[Capacity Trend]
+* link:../integrations/current-usage-tab.html[Current Consumption]
+* link:../integrations/capacity-trend-tab.html[Consumption Trend]
 * link:../integrations/volumes-objects-tab.html[Volumes & Objects]
-* link:../integrations/performance-tab.html[Performance]
 * link:../integrations/assets-tab.html[Assets]
+* link:../integrations/performance-tab.html[Performance]
 
 == Generate reports
 You can generate and view reports for your Keystone data. Each tab on the  *Keystone Subscriptions* page enables you to generate reports for your subscriptions, historical usage and burst usage, performance, assets, and volumes and objects by clicking the download button: image:download-icon.png[report download icon]
 
 The details are generated in CSV format that you can save for future use and comparison.
 
-A sample report for the *Capacity Trend* tab, where the graphical data is converted:
+A sample report for the *Consumption Trend* tab, where the graphical data is converted:
 
 image:report_1.png[csv of report]
 
@@ -61,7 +61,7 @@ The dashboard provides alert notifications that enable you to understand the iss
 [NOTE]
 If you have subscribed to a single service level or rate plan, you won't be able to see the alert for non-compliant volumes.
 
-image:alert-aiq-2.png[alert]
+image:alert-aiq-3.png[alert]
 
 For information about AQoS policies, see link:../concepts/qos.html[Adaptive QoS].
 
