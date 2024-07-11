@@ -49,12 +49,12 @@ image:volume-details-3.png[Volumes details tab]
 
 --
 
-.##Objects##
+.Objects
 --
-. ##Click *GENERAL > Keystone Subscriptions > Objects*.##
-. ##Select the subscription number. By default, the first available subscription number is selected if the previously selected subscription does not include service levels for both file and object storage.##
+. Click *GENERAL > Keystone Subscriptions > Objects*.
+. Select the subscription number. By default, the first available subscription number is selected if the previously selected subscription does not include service levels for both file and object storage.
 +
-NOTE: ##For StorageGRID, this tab displays the physical usage for the nodes for object storage.##
+NOTE: For StorageGRID, this tab displays the physical usage for the nodes for object storage.
 +
 image:objects-details.png[Objects tab]
 
