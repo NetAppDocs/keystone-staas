@@ -13,15 +13,15 @@ summary: volumes-objects-tab
 :imagesdir: ../media/
 
 [.lead]
-##Use the *Volumes & Objects* tab to view the details of ONTAP volumes and object storage. For StorageGRID, you can use this tab to read the usage by the individual nodes in your object storage environment.##
+Use the *Volumes & Objects* tab to view the details of ONTAP volumes and object storage. For StorageGRID, you can use this tab to read the usage by the individual nodes in your object storage environment.
 
 [NOTE]
 The title of this tab varies with the nature of deployment at your site. If you have both ONTAP and object storage, the title of the tab appears as *Volumes & Objects*. For only ONTAP, the name appears *Volumes*. For StorageGRID object storage, you can see the *Objects* tab.
 
 == View ONTAP volumes and object storage details
-##The *Volumes & Objects* tab offers insights into ONTAP system volumes and object storage at different levels of detail. For ONTAP volumes, there are two sub-tabs: *Volume Summary*, which provides an overall count of the volumes mapped to the subscribed service levels, and *Volume Details*, which lists these volumes again with their specific particulars. The *Objects* sub-tab provides details on object storage for subscriptions that include service levels for both file and object storage.##
+The *Volumes & Objects* tab offers insights into ONTAP system volumes and object storage at different levels of detail. For ONTAP volumes, there are two sub-tabs: *Volume Summary*, which provides an overall count of the volumes mapped to the subscribed service levels, and *Volume Details*, which lists these volumes again with their specific particulars. The *Objects* sub-tab provides details on object storage for subscriptions that include service levels for both file and object storage.
 
-NOTE: ##The *Objects* sub-tab is unavailable under the *Volumes* tab, and within the *Objects* tab, the *Volume Summary* and *Volume Details* sub-tabs contain no data.##
+NOTE: The *Objects* sub-tab is unavailable under the *Volumes* tab, and within the *Objects* tab, the *Volume Summary* and *Volume Details* sub-tabs contain no data.
 
 [role="tabbed-block"]
 ====
