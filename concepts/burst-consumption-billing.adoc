@@ -20,6 +20,6 @@ Your burst limit is determined and specified in your Keystone agreement. Usually
 Committed capacity is the capacity committed to you while purchasing the subscription. The committed capacity and burst capacity are measured per service level. Consumed capacity is the capacity that your workloads actually use.
 When the consumed capacity is greater than the committed capacity for a service level, burst consumption is recorded, and charged accordingly. Usually, it is 20% above the committed capacity. The usage above the burst capacity is indicated as "Above Burst Limit". 
 
-This process occurs for each consumption record generated. Burst consumption, therefore, is a reflection of both the amount and tenure of your over-consumed capacities on top of your committed capacities. ##To learn more, refer to link:../integrations/capacity-trend-tab.html[Consumption Trend tab].##
+This process occurs for each consumption record generated. Burst consumption, therefore, is a reflection of both the amount and tenure of your over-consumed capacities on top of your committed capacities. To learn more, refer to link:../integrations/capacity-trend-tab.html[Consumption Trend tab].
 
 For information about different capacities supported in Keystone, see link:../concepts/supported-storage-capacity.html[Supported storage capacities in Keystone].
