@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: concepts/supported-storage-services.html
 keywords: storage, service, service definition, keystone STaaS services,
-summary: Keystone STaaS services
+summary: Keystone STaaS services supports ONTAP and StorageGRID.
 ---
 
 = Supported storage in Keystone STaaS services
@@ -77,4 +77,3 @@ Keystone STaaS provides cloud storage services. Keystone STaaS supports Cloud Vo
 
 [NOTE]
 Hyperscalar-based compute, storage, and network services required by Cloud Volumes ONTAP are not provided by NetApp as a part of Keystone STaaS subscriptions; these subscriptions need to be procured directly from hyperscalar cloud service providers.
-
