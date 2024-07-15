@@ -1,0 +1,76 @@
+---
+sidebar: sidebar
+permalink: concepts/sla-sustainability.html
+keywords: sustainability, sla, service level agreement, 
+summary: sustainability, sla, service level agreement
+---
+
+= Sustainability SLA 
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ../media/
+
+[.lead]
+NetApp Keystone offers sustainability SLA that ensures a maximum power consumption, measured in watts per tebibyte (W/TiB), for storage services based on ONTAP flash storage arrays. This SLA defines the maximum consumption in W/Tib for each qualifying service level, helping organizations meet sustainability goals.
+
+
+== Metrics
+The following are the key metrics:
+
+* *Watts*: The power consumption reported from daily AutoSupport, including the usage by the controller and attached disk shelves. 
+* *Tebibyte*: The maximum of:
+** the committed capacity + allocated burst capacity for the service level, or
+** the effective deployed capacity, assuming a storage efficiency factor of `2:1`. To learn more about storage efficiency ratio, refer to https://docs.netapp.com/us-en/active-iq/task_analyze_storage_efficiency.html[Analyze capacity and storage efficiency savings^].
+
+== Service levels
+Sustainability SLA is based on the following consumption criteria: 
+
+|===
+|*Service level* | *SLA criteria* |*Minimum committed capacity* |*Platform*
+a|
+Extreme |<=8 W/TiB |200 TiB |AFF A800 and AFF A900
+a|
+Premium |<=4 W/TiB |300 TiB |AFF A800 and AFF A900 
+a|
+Performance |<=4 W/TiB |300 TiB |AFF A800 and AFF A900 
+|===
+
+To learn more, refer to link:https://docs.netapp.com/us-en/keystone-staas/concepts/service-levels.html#service-levels-for-file-and-block-storage[Service levels in Keystone].
+
+== Service credits
+If W/TiB consumption during a billing period fails to meet the SLA criteria, NetApp issues service credits as follows: 
+
+|===
+|Days SLA missed|Service credit
+
+a|1 to 2
+a|3%
+
+a|3 to 7
+a|15%
+
+a|14
+a|50%
+
+|===
+
+== Service credit request
+If you have detected an SLA breach, you can initiate a service credit request within six weeks of the validation of the event. All service credits should be acknowledged and approved by NetApp. 
+
+For requesting service credits, follow these steps:
+
+. Open a priority 3 (P3) support ticket with Keystone Global Services and Support Center (GSSC). The following details are required:
+.. Support ticket number.
+.. Keystone subscription number. 
+.. The volumes and storage controller details. 
+.. Site, time, date, and description of the issue. 
+.. Calculated time duration of the when latency is detected. 
+.. Measurement tools and methods.
+.. Any other applicable document.
+. Provide the details in the Excel sheet following the given template for a P3 ticket opened with Keystone GSSC. 
++
+image:sla-breach.png[excel sheet template]
+
+Service credits may be applicable for future invoice. Service credits do not apply to expired Keystone subscriptions. To learn more, refer to link:../concepts/gssc.html[NetApp Global Services Support Center].

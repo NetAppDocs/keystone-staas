@@ -113,7 +113,15 @@ sidebar:
             - title: Non-returnable, non-volatile components and SnapLock compliance
               url: /concepts/nrnvc.html
             - title: U.S. Citizen Support (USCS)
-              url: /concepts/uscs.html    
+              url: /concepts/uscs.html 
+    - title: Keystone STaaS SLA
+      entries:
+        - title: Availability SLA
+          url: /concepts/sla-availability.html
+        - title: Performance SLA
+          url: /concepts/sla-performance.html                       
+        - title: Sustainability SLA
+          url: /concepts/sla-sustainability.html      
     - title: Billing
       entries:
         - title: Keystone pricing
