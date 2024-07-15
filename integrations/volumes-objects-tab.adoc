@@ -5,7 +5,7 @@ keywords: keystone-aiq, digital advisor keystone, volumes-objects-tab, StorageGR
 summary: volumes-objects-tab
 ---
 
-= Volumes & Objects tab
+= View details about ONTAP volumes and object storage
 :hardbreaks:
 :nofooter:
 :icons: font

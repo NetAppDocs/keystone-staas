@@ -2,10 +2,10 @@
 sidebar: sidebar
 permalink: integrations/subscriptions-tab.html
 keywords: keystone-aiq, digital advisor keystone, subscriptions-tab
-summary: Subscriptions tab on the AIQ DA Keystone dashboard
+summary: To learn more about your Keystone subscriptions, you can view a list of all your subscriptions from the Subscriptions tab.
 ---
 
-= Subscriptions tab
+= View details about your subscriptions
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,7 +13,7 @@ summary: Subscriptions tab on the AIQ DA Keystone dashboard
 :imagesdir: ../media/
 
 [.lead]
-You can view a list of all your subscriptions in the *Subscriptions* tab.
+To learn more about your Keystone subscriptions, you can view a list of all your subscriptions from the *Subscriptions* tab.
 
 To view this tab, from the left navigation pane, go to *GENERAL > Keystone Subscriptions > Subscriptions*. All your subscriptions are listed.
 

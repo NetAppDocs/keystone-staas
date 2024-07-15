@@ -5,7 +5,7 @@ keywords: Keystone, Digital Advisor, keystone-aiq, aiq
 summary: Keystone and Digital Advisor
 ---
 
-= View Keystone dashboard on Digital Advisor
+= View the Keystone dashboard in Digital Advisor
 :hardbreaks:
 :nofooter:
 :icons: font

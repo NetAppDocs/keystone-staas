@@ -2,10 +2,10 @@
 sidebar: sidebar
 permalink: concepts/data-tiering.html
 keywords: add-on services, add-on, data tiering
-summary: Add-on, additional Services Details, data tiering
+summary: The data tiering add-on service identifies less-frequently used data and tiers it to supported storage.
 ---
 
-= Data tiering
+= Learn about the data tiering add-on service
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,7 +13,6 @@ summary: Add-on, additional Services Details, data tiering
 :imagesdir: ../media/
 
 [.lead]
-
 Keystone STaaS standard services for file and block storage include tiering capabilities that identify less-frequently used data, and tiers it to Keystone STaaS-supported NetApp cold storage. You can use data tiering as an add-on service if you want to tier your cold data to any Keystone STaaS-supported, non-NetApp storage.
 
 For information about standard and add-on services, see link:../concepts/supported-storage-services.html[Keystone STaaS services].

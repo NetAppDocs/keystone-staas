@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: concepts/pricing.html
 keywords: pricing, billing introduction, Keystone billing
-summary: Keystone pricing
+summary: Keystone offers a pay-as-you-grow model for your flexible and scalable consumption needs.
 ---
 
 = Keystone pricing
@@ -13,8 +13,6 @@ summary: Keystone pricing
 :imagesdir: ../media/
 
 [.lead]
-NetApp Keystone STaaS enables predictable and upfront pricing for your storage subscription.
-
 If you prefer operational expenditures (OpEx) consumption model to capital expenditure (CapEx) or leasing, you can opt for the Keystone pay-as-you-grow model for your flexible and scalable consumption needs.
 
 Keystone provides you with the following billing facilities:

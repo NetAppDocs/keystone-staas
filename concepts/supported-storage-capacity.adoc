@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: concepts/supported-storage-capacity.html
 keywords: storage capacity, capacity definition, keystone STaaS storage capacity,
-summary: Supported storage capacities
+summary: Learn about the types of storage capacities supported by the NetApp Keystone STaaS service.
 ---
 
 = Supported storage capacities in Keystone
@@ -13,7 +13,7 @@ summary: Supported storage capacities
 :imagesdir: ../media/
 
 [.lead]
-The NetApp Keystone STaaS service capacities include:
+The NetApp Keystone STaaS service supports several types of storage capacities. Understanding these different capacity terms can help as you use Keystone.
 
 == Logical capacity
 This is the data placed on the Keystone infrastructure by a customer. All Keystone capacities refer to a logical capacity.
