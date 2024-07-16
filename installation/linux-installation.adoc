@@ -5,7 +5,7 @@ keywords: Linux installation Keystone, Linux Collector installation
 summary: Install the Keystone Collector software from the YUM software repository.
 ---
 
-= Install Keystone Collector on Linux systems
+= Install the Keystone Collector on Linux systems
 :hardbreaks:
 :nofooter:
 :icons: font
