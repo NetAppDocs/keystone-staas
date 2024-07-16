@@ -13,7 +13,7 @@ summary: sustainability, sla, service level agreement
 :imagesdir: ../media/
 
 [.lead]
-NetApp Keystone offers sustainability SLA that ensures a maximum power consumption, measured in watts per tebibyte (W/TiB), for storage services based on ONTAP flash storage arrays. This SLA defines the maximum consumption in W/Tib for each qualifying service level, helping organizations meet sustainability goals.
+NetApp Keystone offers sustainability SLA that ensures a maximum power consumption, measured in watts per tebibyte (W/TiB), for storage services based on ##NetApp AFF storage platform##. This SLA defines the maximum consumption in W/Tib for each qualifying service level, helping organizations meet sustainability goals.
 
 
 == Metrics
@@ -70,7 +70,7 @@ To request service credits, follow these steps:
 .. Site, time, date, and description of the issue 
 .. Calculated time duration of latency detection
 .. Measurement tools and methods
-.. Any other applicable document.
+.. Any other applicable document
 . Provide the details in the excel sheet as shown below for a P3 ticket opened with Keystone GSSC. 
 +
 image:sla-breach.png[excel sheet template]

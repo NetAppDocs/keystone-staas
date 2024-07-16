@@ -16,7 +16,7 @@ summary: sustainability, sla, service level agreement
 NetApp Keystone offers latency-based SLA for each service level as described in the Keystone order for consumed capacity up to the burst limit.
 
 == Service levels
-The service levels supported by the NetApp AFF storage platform are eligible for performance SLA and ensure meeting the following target latency:
+The service levels supported by the ##NetApp AFF storage platform## are eligible for performance SLA and ensure meeting the following target latency:
 
 |===
 |*Service level* | Extreme |Premium |Performance |Standard
@@ -30,7 +30,7 @@ To learn more about the latency requirements of the service levels, refer to lin
 NetApp issues service credits for the degraded performance:
 
 |===
-|Performance threshold|Service credit
+|*Performance threshold*|*Service credit*
 a|90th percentile latency > target latency | 3% for calendar day of occurrence
 |===
 
@@ -50,15 +50,15 @@ Where:
 
 *Example*
 
-The following example shows how the method of calculation for service credit:
+The following example shows the method of calculation for service credit:
 
 |===
-|Service level|Impacted capacity|Total committed capacity|Capacity fees|Affected calender days|Credit percentage
+|*Service level*|*Impacted capacity*|*Total committed capacity*|*Capacity fees*|*Affected calender days*|*Credit percentage*
 a|Extreme| 10 Tib | 50 Tib | $1000 | 2 | 3%
 |===
 
 Using the formula:
-Service credit= ( 10 / 50 ) X $1000 x 2 x 0.03
+Service credit = ( 10 / 50 ) X 1000 x 2 x 0.03
 
 Based on calculation, the service credit will be $12.
 
@@ -73,9 +73,9 @@ To request service credits, follow these steps:
 .. Site, time, date, and description of the issue 
 .. Calculated time duration of latency detection
 .. Measurement tools and methods
-.. Any other applicable document.
+.. Any other applicable document
 . Provide the details in the excel sheet as shown below for a P3 ticket opened with Keystone GSSC. 
 +
 image:sla-breach.png[excel sheet template]
 
-Service credits may be applied to a future invoice for your consumed capacity. Service credits do not apply to expired Keystone subscriptions. To learn more, refer to link:../concepts/gssc.html[NetApp Global Services Support Center].
+Service credits may be applied to a future invoice for the consumed capacity. Service credits do not apply to expired Keystone subscriptions. To learn more, refer to link:../concepts/gssc.html[NetApp Global Services Support Center].
