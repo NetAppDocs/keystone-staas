@@ -18,7 +18,7 @@ NetApp Keystone offers Service Level Agreements (SLAs) for availability, perform
 == Metrics
 The following are the key metrics:
 
-* Monthly uptime percentage = [(total eligible seconds in a month - average of total downtime seconds of all deployed AFF storage arrays) / total eligible seconds in a month] x 100%
+* *Monthly uptime percentage* = [(total eligible seconds in a month - average of total downtime seconds of all deployed AFF storage arrays) / total eligible seconds in a month] x 100%
 * *Downtime*: The period of time when both controllers in a pair within a storage array are not available, as determined by NetApp.
 * *Eligible seconds*: These are the seconds in a month that count towards the uptime calculation. It does not include the time period when the STaaS services are not available because of planned maintenance, upgrades, support activities agreed upon with NetApp, or due to circumstances that are beyond control or responsibility of NetApp or Keystone services.
 
@@ -51,6 +51,7 @@ The service credit is determined using the following formula:
 Service credit = (impacted capacity / total committed capacity) X capacity fees X service credit
 
 Where:
+
 * *impacted capacity*: The amount of stored capacity affected.
 * *total committed capacity*: The committed capacity for the service level for the Keystone order.
 * *capacity fees*: The fees for the affected service level for the month.
