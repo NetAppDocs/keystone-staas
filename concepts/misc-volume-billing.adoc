@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: concepts/misc-volume-billing.html
 keywords: Billing and miscellaneous scenarios
-summary: Billing based on miscellaneous volume types
+summary: Learn about Keystone billing for specific configurations, including cloned volumes, advanced data protection, and more.
 ---
 
 = Miscellaneous scenarios for Keystone billing
@@ -13,6 +13,7 @@ summary: Billing based on miscellaneous volume types
 :imagesdir: ../media/
 
 [.lead]
+Understanding Keystone billing for specific configurations can help optimize service usage and manage costs. The scenarios include cloned volumes, advanced data protection, temporary volumes, QoS policies, SnapMirror destinations, LUNs, and system/root volumes.
 
 == Billing for cloned volumes
 If volumes are cloned in ONTAP and you use them for backing up and restoring your data, you can continue using the clones without any additional payments. However, cloned volumes used for any other purpose in your business for an extensive duration are charged.

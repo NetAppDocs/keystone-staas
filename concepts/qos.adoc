@@ -2,10 +2,10 @@
 sidebar: sidebar
 permalink: concepts/qos.html
 keywords: PSL and QoS, service level quality of service
-summary: Quality of Service in Keystone
+summary: Keystone uses storage QoS to ensure that applications obtain consistent and predictable performance.
 ---
 
-= Quality of Service (QoS) in Keystone
+= Storage QoS in Keystone
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,8 +13,9 @@ summary: Quality of Service in Keystone
 :imagesdir: ../media/
 
 [.lead]
-Storage quality of service (QoS) is a critical technology that ensures that applications obtain consistent and predictable performance. Without QoS, certain workloads, such as those for booting of multiple systems, may consume most or all of the resources for a period, and affect other workloads. For information about QoS, see https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html[Guarantee throughput with QoS overview^].
+Keystone uses storage quality of service (QoS) to ensure that applications obtain consistent and predictable performance. Without QoS, certain workloads, such as those for booting of multiple systems, might consume most or all of the resources for a period of time and affect other workloads.
 
+For information about QoS, see https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html[Guarantee throughput with QoS overview^].
 
 == Adaptive QoS
 Adaptive QoS (AQoS) is used by Keystone services to dynamically maintain the IOPS/TiB ratio based on the volume size. For information about AQoS policies, see https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html#about-adaptive-qos[About adaptive QoS^].

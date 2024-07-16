@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: integrations/aiq-keystone-details.html
 keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, keystone usage graphs charts, generate reports, iq, digital advisor, metrocluster, storagegrid, ontap, tracking id, burst usage, alerts, different tabs
-summary: The Digital Advisor dashboard enables you to view the details of your Keystone subscriptions, to monitor capacity usage, and generate reports.
+summary: The Digital Advisor dashboard enables you to view the details of your Keystone subscriptions, monitor capacity usage, and generate reports.
 ---
 
 = View usage details and generate reports
@@ -13,7 +13,7 @@ summary: The Digital Advisor dashboard enables you to view the details of your K
 :imagesdir: ../media/
 
 [.lead]
-The Digital Advisor dashboard enables you to view the details of your Keystone subscriptions, to monitor capacity usage, and generate reports.
+The Digital Advisor dashboard enables you to view the details of your Keystone subscriptions, monitor capacity usage, and generate reports.
 
 On subscribing to Keystone services, you can view the details of your subscription and usage on the *Keystone Subscriptions* widget on the Digital Advisor dashboard.
 

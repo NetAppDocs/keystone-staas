@@ -2,10 +2,10 @@
 sidebar: sidebar
 permalink: integrations/keystone-aiq.html
 keywords: Keystone, Digital Advisor, keystone-aiq, aiq
-summary: Keystone and Digital Advisor
+summary: As a NetApp Keystone STaaS subscriber, you can get an overview of your subscriptions from the Digital Advisor dashboard.
 ---
 
-= View the Keystone dashboard in Digital Advisor
+= Keystone dashboard overview
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,7 +13,7 @@ summary: Keystone and Digital Advisor
 :imagesdir: ../media/
 
 [.lead]
-If you have subscribed to NetApp Keystone STaaS services, you get an overview of your subscriptions on the *Keystone Subscriptions* widget of the Active IQ Digital Advisor (also known as Digital Advisor) dashboard.
+As a NetApp Keystone STaaS subscriber, you can get an overview of your subscriptions on the *Keystone Subscriptions* widget of the Active IQ Digital Advisor (also known as Digital Advisor) dashboard.
 
 You can search for Keystone subscription by entering the first three characters of a customer or watchlist name, or the Keystone subscription number. For information about how to search Keystone STaaS subscriptions by watchlists, see link:../integrations/keystone-aiq.html#search-by-keystone-watchlists[Search by using Keystone watchlists]. 
 

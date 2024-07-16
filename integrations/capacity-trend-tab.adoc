@@ -2,10 +2,10 @@
 sidebar: sidebar
 permalink: integrations/capacity-trend-tab.html
 keywords: keystone-aiq, digital advisor keystone, consumption trend tab, historical usage, accrued burst, accrued, consumption
-summary: Consumption trend tab on the Keystone Subscription dashboard
+summary: To help you monitor your subscription usage, you can view historical data of your Keystone subscriptions for a specific period of time.
 ---
 
-= Consumption Trend tab
+= View consumption trends
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,7 +13,7 @@ summary: Consumption trend tab on the Keystone Subscription dashboard
 :imagesdir: ../media/
 
 [.lead]
-The *Consumption Trend* tab displays historical data of your Keystone subscriptions for a specific period. 
+To help you monitor your subscription usage, you can view historical data of your Keystone subscriptions for a specific period of time.
 
 The vertical graphs display the usage details for the selected time range with appropriate indicators for you to compare and generate reports. 
 

@@ -2,10 +2,10 @@
 sidebar: sidebar
 permalink: integrations/performance-tab.html
 keywords: keystone-aiq, digital advisor keystone, performance tab
-summary: Performance tab on Keystone Subscription AIQ DA dashboard
+summary: To monitor the performance of your systems, you can view performance metrics of the ONTAP volumes managed by your Keystone subscriptions.
 ---
 
-= Performance tab
+= Monitor performance metrics
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,7 +13,7 @@ summary: Performance tab on Keystone Subscription AIQ DA dashboard
 :imagesdir: ../media/
 
 [.lead]
-The *Performance* tab enables you to view the performance metrics of the ONTAP volumes managed by your Keystone subscriptions.
+To monitor the performance of your systems, you can view performance metrics of the ONTAP volumes managed by your Keystone subscriptions.
 
 [TIP]
 This tab is optionally available to you. Contact support for viewing this tab.
