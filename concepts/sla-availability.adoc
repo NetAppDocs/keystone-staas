@@ -13,22 +13,23 @@ summary: availability, sla, service level agreement
 :imagesdir: ../media/
 
 [.lead]
-NetApp offers Service Level Agreements (SLAs) managed by Keystone STaaS to ensure the operational continuity of storage systems. Availability SLA targets an average uptime of 99.999% during a billing period for all NetApp AFF storage arrays included in purchased Keystone STaaS subscriptions.
+NetApp Keystone offers Service Level Agreements (SLAs) for availability, performance, and sustainability to ensure superior STaaS offerings. Availability SLA targets an uptime of 99.999% during a billing period for all deployed ##NetApp AFF storage arrays## for the Keystone order. 
 
-== Calculation metrics
-The criteria for calculating the availability and uptime as per SLA are as follows:
+== Metrics
+The following are the key metrics:
 
-* Monthly uptime percentage = [(maximum available minutes - downtime) / maximum available minutes] x 100%
-* Maximum available minutes = Total number of minutes in a billing period
+* Monthly uptime percentage = [(total eligible seconds in a month - average of total downtime seconds of all deployed AFF storage arrays) / total eligible seconds in a month] x 100%
+* *Downtime*: The period of time when both controllers in a pair within a storage array are not available, as determined by NetApp.
+* *Eligible seconds*: These are the seconds in a month that count towards the uptime calculation. It does not include the time period when the STaaS services are not available because of planned maintenance, upgrades, support activities agreed upon with NetApp, or due to circumstances that are beyond control or responsibility of NetApp or Keystone services.
 
 == Service levels
-The service levels for the NetApp AFF storage platform are eligible for availability SLA. This includes the service levels for file and block storage, that is Extreme, Performance, Premium, and Standard service levels. To learn more, refer to link:https://docs.netapp.com/us-en/keystone-staas/concepts/service-levels.html#service-levels-for-file-and-block-storage[Service levels in Keystone].
+The service levels for the ##NetApp AFF storage platform## are eligible for availability SLA. To learn more, refer to link:https://docs.netapp.com/us-en/keystone-staas/concepts/service-levels.html#service-levels-for-file-and-block-storage[Service levels in Keystone].
 
-== Service credit plan
-When the data access availability for eligible subscriptions falls short of the 99.999% monthly uptime target within a given billing period, then credits are provided accordingly. These credits apply to the proportion of impacted consumed capacity relative to the committed capacity for each performance within the related Keystone order. The levels at which credits are offered are given in the following table:
+== Service credits
+If the availability of ##NetApp AFF storage arrays## for eligible subscriptions falls below the 99.999% monthly uptime target within a billing period, NetApp issues service credits as follow:
 
 |===
-|Monthly uptime |Service credit
+|*Monthly availability (less than)* |*Service credit*
 
 a|99.999%
 a|5%
@@ -44,8 +45,46 @@ a|50%
 
 |===
 
-== Service credit request
-If you have detected an SLA breach, you can initiate a service credit request within six weeks of the validation of the event. All service credits should be acknowledged and approved by NetApp. 
+== Service credit calculation
+The service credit is determined using the following formula:
 
-For requesting service credit, open a priority 3 (P3) support ticket with Keystone Global Services and Support Center (GSSC), and provide the required details. The service credit is applicable to the invoice raised for your consumed capacity in the next billing cycle for the specific Keystone subscription. Service credit do not apply to expired Keystone subscriptions. To learn more, refer to link:../concepts/gssc.html[NetApp Global Services Support Center].
+Service credit = (impacted capacity / total committed capacity) X capacity fees X service credit
+
+Where:
+* *impacted capacity*: The amount of stored capacity affected.
+* *total committed capacity*: The committed capacity for the service level for the Keystone order.
+* *capacity fees*: The fees for the affected service level for the month.
+* *credit percentage*: The predetermined percentage for service credit.
+
+*Example*
+
+The following example shows the method of calculation for service credit:
+
+|===
+|*Service level*|*Impacted capacity*|*Total committed capacity*|*Capacity fees*|*Credit percentage*
+a|Extreme| 10 Tib | 100 Tib | $1000 | 5%
+|===
+
+Using the formula:
+Service credit = ( 10 / 100 ) X 1000 x 0.05
+
+Based on calculation, the service credit will be $5.
+
+== Service credit request
+If a breach of the SLA is detected, a service credit request can be initiated within six weeks of the validation of the event. All service credits should be acknowledged and approved by NetApp. 
+
+To request service credits, follow these steps:
+
+. Open a priority 3 (P3) support ticket with Keystone Global Services and Support Center (GSSC). The following details are required:
+.. Keystone subscription number
+.. Volumes and storage controller details 
+.. Site, time, date, and description of the issue 
+.. Calculated time duration of latency detection
+.. Measurement tools and methods
+.. Any other applicable document
+. Provide the details in the excel sheet as shown below for a P3 ticket opened with Keystone GSSC. 
++
+image:sla-breach.png[excel sheet template]
+
+Service credits may be applied to future invoices. Service credits do not apply to expired Keystone subscriptions. To learn more, refer to link:../concepts/gssc.html[NetApp Global Services Support Center].
 

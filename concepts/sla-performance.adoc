@@ -31,7 +31,7 @@ NetApp issues service credits for the degraded performance:
 
 |===
 |*Performance threshold*|*Service credit*
-a|90th percentile latency > target latency | 3% for calendar day of occurrence
+a|90^th^ percentile latency > target latency | 3% for calendar day of occurrence
 |===
 
 == Service credit calculation
@@ -78,4 +78,4 @@ To request service credits, follow these steps:
 +
 image:sla-breach.png[excel sheet template]
 
-Service credits may be applied to a future invoice for the consumed capacity. Service credits do not apply to expired Keystone subscriptions. To learn more, refer to link:../concepts/gssc.html[NetApp Global Services Support Center].
+Service credits may be applied to future invoices. Service credits do not apply to expired Keystone subscriptions. To learn more, refer to link:../concepts/gssc.html[NetApp Global Services Support Center].
