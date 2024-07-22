@@ -15,6 +15,19 @@ summary: sustainability, sla, service level agreement
 [.lead]
 NetApp Keystone offers latency-based SLA per service level, as described in the Keystone order for consumed capacity up to the burst limit, according to the following listed terms and conditions.
 
+== Metrics
+* *Degraded performance*: The amount of time, in minutes, per incident, during which the 90^th^ percentile latency target is not met.
+* The *90^th^ percentile latency* is measured per volume, per performance level, for all volumes within a Keystone Order. Latency is sampled every five minutes, and the 90^th^ percentile value calculated over a 24-hour period is used as the daily measure, considering the following points:
+** The volumes that record at least five IOPS at the time of metrics collection are considered for a sample.
+** Volumes with greater than 30% write operations at the time of metrics collection are excluded from the sample.
+** Latency added by AQoS for requested IOPS/TiB that is greater than target IOPS/TiB are excluded from the sample.
+** Latency added by AQoS to maintain minimum IOPS per volume are excluded from the sample.
+** For volumes that have FabricPool enabled, the latency incurred due to the transfer of data to and from the target (cold) storage is not counted.
+** Latency caused by the application, host, or customer network outside of the ONTAP cluster is not counted.
+** When using the advanced data protection add-on service, the target latency includes only IO operations to and from the local storage array.
+** During a 24-hour period, at least ten valid metrics should be available. If not, the metrics will be discarded.
+** If one or more volumes on a storage array do not have a valid AQoS policy applied, then number of IOPS available to other volumes may be affected, and NetApp will not be responsible for targeting or meeting performance levels on that storage array.
+** In FabricPool configurations, performance levels are applicable when all requested data blocks are on FabricPool source (hot) storage and the source storage is not in a SnapMirror Synchronous relationship.
 
 
 == Service levels
@@ -33,14 +46,14 @@ NetApp issues service credits for the degraded performance:
 
 |===
 |*Performance threshold*|*Service credit*
-a|90^th^ percentile latency > target latency | 3% for calendar day of occurrence
+a|90^th^ percentile latency > target latency | 3% for each calendar day of occurrence
 |===
 
 == Service credit calculation
 
-The service credit is determined using the following formula:
+Service credits are determined using the following formula:
 
-Service credit = (impacted capacity / total committed capacity) X capacity fees X affected days X credit percentage
+Service credits = (impacted capacity / total committed capacity) X capacity fees X affected days X credit percentage
 
 Where:
 
@@ -52,7 +65,7 @@ Where:
 
 *Example*
 
-The following example shows the method of calculation for service credit:
+The following example shows the method of calculation for service credits:
 
 |===
 |*Service level*|*Impacted capacity*|*Total committed capacity*|*Capacity fees*|*Affected calender days*|*Credit percentage*
@@ -60,24 +73,27 @@ a|Extreme| 10 Tib | 50 Tib | $1000 | 2 | 3%
 |===
 
 Using the formula:
-Service credit = ( 10 / 50 ) X 1000 x 2 x 0.03
+Service credits = ( 10 / 50 ) X 1000 x 2 x 0.03
 
-Based on calculation, the service credit will be $12.
+Based on calculation, the service credits will be $12.
 
 == Service credit request
-If a breach of the SLA is detected, a service credit request can be initiated within six weeks of the validation of the event. All service credits should be acknowledged and approved by NetApp. 
+If a breach of the SLA is detected, open a priority 3 (P3) support ticket with Keystone Global Services and Support Center (GSSC).
 
-To request service credits, follow these steps:
-
-. Open a priority 3 (P3) support ticket with Keystone Global Services and Support Center (GSSC). The following details are required:
+** The following details are required:
 .. Keystone subscription number
 .. Volumes and storage controller details 
 .. Site, time, date, and description of the issue 
 .. Calculated time duration of latency detection
 .. Measurement tools and methods
 .. Any other applicable document
-. Provide the details in the excel sheet as shown below for a P3 ticket opened with Keystone GSSC. 
+** Provide the details in the excel sheet as shown below for a P3 ticket opened with Keystone GSSC. 
 +
 image:sla-breach.png[excel sheet template]
 
-Service credits may be applied to future invoices. Service credits do not apply to expired Keystone subscriptions. To learn more, refer to link:../concepts/gssc.html[NetApp Global Services Support Center].
+[NOTE]
+====
+* A service credit request should be initiated within six weeks after GSSC has validated a breach. All service credits should be acknowledged and approved by NetApp. 
+
+* Service credits may be applied to a future invoice. Service credits do not apply to expired Keystone subscriptions. To learn more, refer to link:../concepts/gssc.html[NetApp Global Services Support Center].
+====

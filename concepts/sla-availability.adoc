@@ -64,22 +64,21 @@ The following example shows the method of calculation for service credits:
 +
 ** Eligible seconds in a 30-day month: 30 (days) X 24 (hours/day) X 60 (minutes/hour) X 60 (seconds/minute) = 2,592,000 seconds
 ** Downtime in seconds: 95 seconds
-
 +
 Using the formula:
 Monthly uptime percentage = [(2,592,000 - 95)/(2,592,000)] X 100 
 +
 Based on calculation, the monthly uptime will be 99.996%, and the service credit percentage will be 5%.
 . Calculate service credits:
-
++
 |===
 |*Service level*|*Impacted capacity*|*Total committed capacity*|*Capacity fees*|*Credit percentage*
 a|Extreme| 10 Tib for 95 seconds | 100 Tib | $1000 | 5%
 |===
-
++
 Using the formula:
 Service credits = ( 10 / 100 ) X 1000 x 0.05
-
++
 Based on calculation, the service credits will be $5.
 
 == Service credit request
