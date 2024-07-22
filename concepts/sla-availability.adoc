@@ -13,11 +13,11 @@ summary: availability, sla, service level agreement
 :imagesdir: ../media/
 
 [.lead]
- Availability SLA targets an uptime of 99.999% during a billing period for all NetApp ONTAP flash storage arrays deployed to deliver the Keystone order. 
+Availability SLA targets an uptime of 99.999% during a billing period for all NetApp ONTAP flash storage arrays deployed to deliver the Keystone order. 
 
 == Metrics
 
-* *Monthly uptime percentage* = [(number of eligible seconds in a month - average of number of seconds of downtimes of all AFF storage arrays deployed to deliver the Keystone order in that month) /  number of eligible seconds in a month] x 100%
+* *Monthly uptime percentage* = [(number of eligible seconds in a month - average of number of seconds of downtimes for all AFF storage arrays deployed to deliver the Keystone order in that month) /  number of eligible seconds in a month] x 100%
 * *Downtime*: The period of time when both controllers in a pair within a storage array are not available, as determined by NetApp.
 * *Eligible number of seconds*: These are seconds in a month that count towards the uptime calculation. It does not include the time period when the STaaS services are not available because of planned maintenance, upgrades, support activities agreed upon with NetApp, or due to circumstances that are beyond control or responsibility of NetApp or Keystone services.
 
@@ -68,9 +68,8 @@ The following example shows the method of calculation for service credits:
 +
 Using the formula:
 Monthly uptime percentage = [(2,592,000 - 95)/(2,592,000)] X 100 
-
++
 Based on calculation, the monthly uptime will be 99.996%, and the service credit percentage will be 5%.
-
 . Calculate service credits:
 
 |===
@@ -97,7 +96,6 @@ If a breach of the SLA is detected, open a priority 3 (P3) support ticket with K
 +
 image:sla-breach.png[excel sheet template]
 
-Once GSSC has validated a breach, a service credit claim is to be submitted within six weeks, 
 [NOTE]
 ====
 * A service credit request should be initiated within six weeks after GSSC has validated a breach. All service credits should be acknowledged and approved by NetApp. 

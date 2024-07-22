@@ -13,10 +13,12 @@ summary: sustainability, sla, service level agreement
 :imagesdir: ../media/
 
 [.lead]
-NetApp Keystone offers latency-based SLA for each service level as described in the Keystone order for consumed capacity up to the burst limit.
+NetApp Keystone offers latency-based SLA per service level, as described in the Keystone order for consumed capacity up to the burst limit, according to the following listed terms and conditions.
+
+
 
 == Service levels
-The service levels supported by the ##NetApp AFF storage platform## are eligible for performance SLA and ensure meeting the following target latency:
+All service levels that NetApp ONTAP flash storage arrays support are eligible for Performance SLA and guarantee meeting the following target latency:
 
 |===
 |*Service level* | Extreme |Premium |Performance |Standard
