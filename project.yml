@@ -121,7 +121,9 @@ sidebar:
         - title: Performance SLA
           url: /concepts/sla-performance.html                       
         - title: Sustainability SLA
-          url: /concepts/sla-sustainability.html      
+          url: /concepts/sla-sustainability.html 
+        - title: Ransomware Recovery Guarantee 
+          url: /concepts/sla-ransomware.html
     - title: Billing
       entries:
         - title: Keystone pricing
