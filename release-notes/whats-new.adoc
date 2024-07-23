@@ -48,8 +48,8 @@ The service levels *CVO Primary* and *CVO Secondary* are included to support Clo
 * In the *Subscriptions* tab, these service levels are displayed as `CVO (v2)` in the *Usage Type* column, allowing for the identification of billing according to these service levels.
 //NSEKEY-8923
 
-=== Zoom-in feature for microburst insights
-The *Capacity Trend* tab now includes a zoom-in feature to view the details of short-term surges, known as microbursts, in the usage charts. For more information, see link:../integrations/capacity-trend-tab.html[Capacity Trend tab^].
+=== Zoom-in feature for short-term bursts
+The *Capacity Trend* tab now includes a zoom-in feature to view the details of short-term bursts in the usage charts. For more information, see link:../integrations/capacity-trend-tab.html[Capacity Trend tab^].
 //NSEKEY-9459
 
 === Enhanced display of subscriptions

@@ -31,7 +31,7 @@ NetApp Keystone offers latency-based SLA per service level, as described in the 
 
 
 == Service levels
-All service levels that NetApp ONTAP flash storage arrays support are eligible for Performance SLA and guarantee meeting the following target latency:
+All service levels that ONTAP flash storage arrays support are eligible for Performance SLA and guarantee meeting the following target latency:
 
 |===
 |*Service level* | Extreme |Premium |Performance |Standard

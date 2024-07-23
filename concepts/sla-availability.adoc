@@ -22,10 +22,10 @@ Availability SLA targets an uptime of 99.999% during a billing period for all Ne
 * *Eligible number of seconds*: These are seconds in a month that count towards the uptime calculation. It does not include the time period when the STaaS services are not available because of planned maintenance, upgrades, support activities agreed upon with NetApp, or due to circumstances that are beyond control or responsibility of NetApp or Keystone services.
 
 == Service levels
-All service levels that NetApp ONTAP flash storage arrays support are eligible for Availability SLA. To learn more, refer to link:https://docs.netapp.com/us-en/keystone-staas/concepts/service-levels.html#service-levels-for-file-and-block-storage[Service levels in Keystone].
+All service levels that ONTAP flash storage arrays support are eligible for Availability SLA. To learn more, refer to link:https://docs.netapp.com/us-en/keystone-staas/concepts/service-levels.html#service-levels-for-file-and-block-storage[Service levels in Keystone].
 
 == Service credits
-If the availability of NetApp ONTAP flash storage arrays for eligible subscriptions falls below the 99.999% monthly uptime target within a billing period, then NetApp issues service credits as follows:
+If the availability of ONTAP flash storage arrays for eligible subscriptions falls below the 99.999% monthly uptime target within a billing period, then NetApp issues service credits as follows:
 
 |===
 |*Monthly uptime (less than)* |*Service credit*
