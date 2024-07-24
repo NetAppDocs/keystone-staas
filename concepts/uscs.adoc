@@ -5,7 +5,7 @@ keywords: netapp, keystone, US citizen support, USCS GSSC, Keystone Success Mana
 summary: "United States Citizen Support is an add-on service that provides delivery and support of ongoing Keystone services from U.S. citizens on U.S. soil."
 ---
 
-= Learn about the USCS add-on service
+= Learn about USCS
 :hardbreaks:
 :nofooter:
 :icons: font
