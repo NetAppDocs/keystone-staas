@@ -13,7 +13,7 @@ summary: The data in Keystone STaaS systems flows through the Keystone Collector
 :imagesdir: ../media/
 
 [.lead]
-The data in Keystone STaaS systems flows through the Keystone Collector and the AIOPs solution tool, which is the associated monitoring system.
+The data in Keystone STaaS systems flows through Keystone Collector and the AIOPs solution tool, which is the associated monitoring system.
 
 == Keystone Collector data flow
 
