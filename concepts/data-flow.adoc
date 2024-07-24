@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: concepts/data-flow.html
 keywords: data flow
-summary: The data in Keystone STaaS systems flows through the Keystone Collector and the AIOPs solution tool, which is the associated monitoring system.
+summary: The data in Keystone STaaS systems flows through Keystone Collector and the AIOPs solution tool, which is the associated monitoring system.
 ---
 
 = Keystone data flow
