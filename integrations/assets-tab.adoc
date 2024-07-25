@@ -5,7 +5,7 @@ keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keys
 summary: Use the Assets tab to view details about the clusters and nodes managed by your Keystone subscriptions.
 ---
 
-= View the systems managed by Keystone
+= View cluster and node details managed by Keystone
 :hardbreaks:
 :nofooter:
 :icons: font
