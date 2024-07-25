@@ -5,7 +5,7 @@ keywords: keystone-aiq, digital advisor keystone, current consumption tab
 summary: To understand your subscription usage, you can view the committed capacity, consumed capacity, available capacity, and more.
 ---
 
-= View the consumption of your subscriptions
+= View the current consumption of your subscriptions
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,7 +13,7 @@ summary: To understand your subscription usage, you can view the committed capac
 :imagesdir: ../media/
 
 [.lead]
-To understand your subscription usage, you can view the committed capacity, consumed capacity, available capacity, and more.
+To understand your subscription usage, you can view the usage details like committed capacity, consumed capacity, available capacity, and more.
 
 To view this tab, from the left navigation pane, go to *GENERAL > Keystone Subscriptions > Current Consumption*, and select the required subscription number.
 
