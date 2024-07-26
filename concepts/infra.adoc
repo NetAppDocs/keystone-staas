@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: concepts/infra.html
 keywords: keystone infrastructure, infra
-summary: NetApp is solely responsible for the infrastructure, design, technology choices, and components of Keystone, which applies to both NetApp and customer-operated environments.
+summary: Keystone infrastructure, design, choice of technology, and component products reside solely with NetApp.
 ---
 
 = Keystone infrastructure
