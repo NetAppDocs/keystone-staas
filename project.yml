@@ -116,11 +116,11 @@ sidebar:
               url: /concepts/uscs.html 
     - title: Keystone STaaS SLA
       entries:
-        - title: Availability SLA
+        - title: Availability
           url: /concepts/sla-availability.html
-        - title: Performance SLA
+        - title: Performance
           url: /concepts/sla-performance.html                       
-        - title: Sustainability SLA
+        - title: Sustainability 
           url: /concepts/sla-sustainability.html 
         - title: Ransomware Recovery Guarantee 
           url: /concepts/sla-ransomware.html
