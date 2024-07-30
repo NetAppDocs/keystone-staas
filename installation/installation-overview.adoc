@@ -5,7 +5,7 @@ keywords: installation, Keystone Collector
 summary: Keystone Collector is NetApp software that you install on a VMware vSphere or Linux host at your site. It collects usage data for Keystone systems.
 ---
 
-= Learn about the Keystone Collector
+= Learn about Keystone Collector
 :hardbreaks:
 :nofooter:
 :icons: font
