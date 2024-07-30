@@ -58,7 +58,7 @@ sidebar:
           url: /installation/asup-config.html
         - title: Keystone Collector security
           url: /installation/security.html
-        - title: Data Collected for Billing
+        - title: Data collected for billing
           url: /installation/data-collection.html
     - title: Monitor and upgrade
       entries:
