@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: concepts/infra.html
 keywords: keystone infrastructure, infra
-summary: Keystone infrastructure
+summary: Keystone infrastructure, design, choice of technology, and component products reside solely with NetApp.
 ---
 
 = Keystone infrastructure
@@ -13,9 +13,9 @@ summary: Keystone infrastructure
 :imagesdir: ../media/
 
 [.lead]
-This section describes the NetApp Keystone STaaS infrastructure, architecture, and management application for the NetApp and customer-operated environments.
+NetApp is solely responsible for the infrastructure, design, technology choices, and components of Keystone, which applies to both NetApp and customer-operated environments.
 
-Keystone infrastructure, design, choice of technology, and component products reside solely with NetApp. NetApp reserves the rights to take the following actions:
+NetApp reserves the rights to take the following actions:
 
 *	Select, substitute, or repurpose products.
 *	Refresh products with new technology when deemed appropriate.
@@ -27,7 +27,7 @@ The Keystone infrastructure includes multiple components, such as the following,
 *	The Keystone infrastructure, including storage controllers.
 *	Tools to manage and operate the service such as AIOPs solution, Active IQ, and Active IQ Unified Manager.
 
-== Storage Platforms 
+== Storage platforms 
 
 Enterprise applications need storage platforms to support fast provisioning-workflows, maintain continuous availability, sustain high workloads with low latency, deliver higher performance, and support integration with major cloud providers. NetApp has several products and technologies for supporting these requirements. For Keystone service, NetApp uses AFF and StorageGRID platforms.
 
@@ -41,7 +41,4 @@ In addition to the storage equipment, two monitoring tools are provisioned for s
 
 image:mgmt-stack.png[managemnt stack]
 
- Digital Advisor enables you to log in and view the subscription and consumption details for your Keystone subscriptions. For more information about Keystone reporting on the Digital Advisor dashboard, see link:../integrations/keystone-aiq.html[Keystone and Digital Advisor].
-
-
-
+Digital Advisor enables you to log in and view the subscription and consumption details for your Keystone subscriptions. For more information about Keystone reporting on the Digital Advisor dashboard, see link:../integrations/keystone-aiq.html[Keystone and Digital Advisor].

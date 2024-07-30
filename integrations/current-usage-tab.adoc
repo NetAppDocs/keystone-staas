@@ -2,10 +2,10 @@
 sidebar: sidebar
 permalink: integrations/current-usage-tab.html
 keywords: keystone-aiq, digital advisor keystone, current consumption tab
-summary: Current Consumption tab on the AIQ DA Keystone dashboard
+summary: To understand your subscription usage, you can view the committed capacity, consumed capacity, available capacity, and more.
 ---
 
-= Current Consumption tab
+= View the current consumption of your subscriptions
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,7 +13,7 @@ summary: Current Consumption tab on the AIQ DA Keystone dashboard
 :imagesdir: ../media/
 
 [.lead]
-The *Current Consumption* tab displays the usage details of your subscriptions.
+To understand your subscription usage, you can view the usage details like committed capacity, consumed capacity, available capacity, and more.
 
 To view this tab, from the left navigation pane, go to *GENERAL > Keystone Subscriptions > Current Consumption*, and select the required subscription number.
 

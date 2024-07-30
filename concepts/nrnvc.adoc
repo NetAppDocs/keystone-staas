@@ -2,10 +2,10 @@
 sidebar: sidebar
 permalink: concepts/nrnvc.html
 keywords: Non-returnable, non-volatile components, SnapLock compliance, add-on service
-summary: Non-returnable, non-volatile components and SnapLock compliance
+summary: As a part of your NetApp Keystone subscription, NetApp extends the NRNVC offering for your file, block, and object services.
 ---
 
-= Non-returnable, non-volatile components and SnapLock compliance
+= Non-returnable, non-volatile components, and SnapLock compliance
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,21 +13,20 @@ summary: Non-returnable, non-volatile components and SnapLock compliance
 :imagesdir: ../media/
 
 [.lead]
-As a part of NetApp Keystone subscription, NetApp extends the non-returnable, non-volatile components (NRNVC) offering for your file, block, and object services.
-
-You can subscribe to this add-on service as a part of your Keystone subscription.
-For information about the standard and cloud services, see link:supported-storage-services.html[Keystone STaaS services].
-
-For information about Service Levels, see link:../concepts/service-levels.html[Service Levels in Keystone].
+As a part of your NetApp Keystone subscription, NetApp extends the non-returnable, non-volatile components (NRNVC) offering for your file, block, and object services.
 
 NetApp does not recover the physical storage media used during the entire service tenure or at service termination when NetApp otherwise recovers all of its physical assets used in the delivery of the service.
 
-If you have purchased this service, note the following:
+You can subscribe to this add-on service as a part of your Keystone subscription. If you have purchased this service, note the following:
 
 * You do not need to return any drives and nonvolatile memory at end of the service term or if they failed or were found defective during the service term.
 * However, you need to produce a certificate of destruction for the drives and/or nonvolatile memory and cannot be used for any other purpose.
 * The additional cost associated with the NRNVC is charged as a percentage of the total subscription services (includes standard service, Advanced Data Protection, and data tiering) monthly bill.
 * This service is applicable only to file, block, and object services.
+
+For information about the standard and cloud services, see link:supported-storage-services.html[Keystone STaaS services].
+
+For information about Service Levels, see link:../concepts/service-levels.html[Service Levels in Keystone].
 
 == SnapLock compliance
 

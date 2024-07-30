@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: integrations/keystone-cm.html
 keywords: Keystone-BlueXP
-summary: Keystone and BlueXP
+summary: If you purchased a cloud service with your NetApp Keystone subscription, you can access and manage those services through BlueXP.
 ---
 
 = Learn about Keystone and BlueXP

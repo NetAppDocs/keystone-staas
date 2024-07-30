@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: concepts/billing-schedules.html
 keywords: billing schedules, schedule for payment
-summary: Billing schedules in keystone
+summary: Keystone STaaS subscriptions are billed monthly and yearly.
 ---
 
 = Billing schedules

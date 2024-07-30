@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: concepts/service-levels.html
 keywords: service levels, service level, rate plan or service level
-summary: Supported service levels
+summary: Keystone STaaS offers storage capacity at pre-defined service levels. Each volume managed by Keystone is associated with a service level.
 ---
 
 = Service levels in Keystone
@@ -13,7 +13,7 @@ summary: Supported service levels
 :imagesdir: ../media/
 
 [.lead]
-Keystone STaaS offers data storage capacity at pre-defined performance service levels (service levels) on a subscription basis. Each volume managed by the Keystone services is associated with a service level. 
+Keystone STaaS offers data storage capacity at pre-defined performance service levels. Each volume managed by Keystone services is associated with a service level. 
 
 A subscription can have multiple rate plans and each rate plan corresponds to a service level. Each rate plan has a committed capacity per service level. 
 
