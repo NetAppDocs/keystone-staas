@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: concepts/data-flow.html
 keywords: data flow
-summary: Keystone data flows
+summary: The data in Keystone STaaS systems flows through Keystone Collector and the AIOPs solution tool, which is the associated monitoring system.
 ---
 
 = Keystone data flow
@@ -13,12 +13,13 @@ summary: Keystone data flows
 :imagesdir: ../media/
 
 [.lead]
-The data in Keystone STaaS systems flows through Keystone Collector and the associated monitoring system, the AIOPs solution tool.
+The data in Keystone STaaS systems flows through Keystone Collector and the AIOPs solution tool, which is the associated monitoring system.
 
 == Keystone Collector data flow
+
 Keystone Collector initiates REST API calls to the storage controllers and obtains usage details of the controllers periodically, as indicated in this flow diagram:
 
-image:collector-data-flow.png[shows data flow within collector components]
+image:collector-data-flow.png[shows data flow within collector components] 
 
 .Legend
 

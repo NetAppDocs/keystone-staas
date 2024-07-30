@@ -2,10 +2,10 @@
 sidebar: sidebar
 permalink: integrations/assets-tab.html
 keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, keystone assets tab
-summary: Keystone Subscription reports and graphs
+summary: Use the Assets tab to view details about the clusters and nodes managed by your Keystone subscriptions.
 ---
 
-= Assets tab
+= View cluster and node details managed by Keystone
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,7 +13,7 @@ summary: Keystone Subscription reports and graphs
 :imagesdir: ../media/
 
 [.lead]
-Use the *Assets* tab to gather perspectives on your cluster and nodes managed by your Keystone subscriptions. 
+Use the *Assets* tab to view details about the clusters and nodes managed by your Keystone subscriptions.
 
 Digital Advisor provides a comprehensive inventory-level information of your deployments. The *Assets* tab of the Keystone dashboard, on the other hand, accumulates the cluster-level information on the basis of your subscriptions, and segregates and presents it with the accurate level of details.
 

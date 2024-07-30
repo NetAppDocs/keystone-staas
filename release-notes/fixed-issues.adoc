@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: release-notes/fixed-issues.html
 keywords: fixed issues
-summary: issues fixed in different releases of Keystone STaaS
+summary: Issues that were found in previous releases of NetApp Keystone STaaS services have been fixed in later releases.
 ---
 
 = Fixed issues
@@ -13,7 +13,7 @@ summary: issues fixed in different releases of Keystone STaaS
 :imagesdir: ./media/
 
 [.lead]
-Issues that were found in previous releases of NetApp Keystone STaaS services have been fixed in later releases. These are the fixes.
+Issues that were found in previous releases of NetApp Keystone STaaS services have been fixed in later releases.
 
 [cols="3*",options="header"]
 |===

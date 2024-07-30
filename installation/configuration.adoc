@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: installation/configuration.html
 keywords: configuration keystone collector
-summary: configuration of Keystone collector
+summary: Complete configuration to enable Keystone Collector to collect usage data in your storage environment.
 ---
 
 = Configure Keystone Collector
@@ -13,11 +13,10 @@ summary: configuration of Keystone collector
 :imagesdir: ../media/
 
 [.lead]
-You need to complete a few configuration tasks to enable Keystone Collector to collect usage data in your storage environment. This is a one-time activity to activate and associate the required collector component with your storage environment. 
-
+You need to complete a few configuration tasks to enable Keystone Collector to collect usage data in your storage environment. This is a one-time activity to activate and associate the required components with your storage environment.
 
 [NOTE]
-The Keystone Collector provides you with the Keystone Collector Management Terminal User Interface (TUI) utility to perform configuration and monitoring activities. You can use various keyboard controls, such as the Enter and arrow keys, to select the options and navigate across this TUI.
+Keystone Collector provides you with the Keystone Collector Management Terminal User Interface (TUI) utility to perform configuration and monitoring activities. You can use various keyboard controls, such as the Enter and arrow keys, to select the options and navigate across this TUI.
 
 .Steps
 
@@ -62,7 +61,7 @@ The Collector software supports using a HTTP proxy to communicate with the inter
 image:tui-3.png[tui screen]
 
 == Limit collection of private data
-The Keystone Collector gathers limited configuration, status, and performance information required to perform subscription metering. There is an option to further limit the information collected by masking sensitive information from the content uploaded. This does not impact billing calculation. However, limiting the information might impact usability of the reporting information, as some elements, which can be easily identified by users, such as volume name, is replaced with UUIDs. 
+Keystone Collector gathers limited configuration, status, and performance information required to perform subscription metering. There is an option to further limit the information collected by masking sensitive information from the content uploaded. This does not impact billing calculation. However, limiting the information might impact usability of the reporting information, as some elements, which can be easily identified by users, such as volume name, is replaced with UUIDs. 
 
 Limiting the collection of specific customer data is a configurable option on the Keystone Collector TUI screen. This option, *Remove Private Data*, is enabled by default.
 

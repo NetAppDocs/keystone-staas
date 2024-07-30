@@ -26,19 +26,19 @@ sidebar:
         url: /concepts/overview.html
       - title: Keystone infrastructure
         url: /concepts/infra.html
+      - title: Keystone Collector
+        url: /installation/installation-overview.html
       - title: Components
         url: /concepts/components.html
       - title: Data flow
         url: /concepts/data-flow.html   
       - title: Operational models
         url: /concepts/operational-models.html 
-      - title: Keystone Collector
-        url: /installation/installation-overview.html
     - title: Set up and configure Keystone
       entries:
         - title: Requirements
           entries:
-            - title: VMware vSphere 
+            - title: Virtual infrastructure
               url: /installation/vapp-prereqs.html
             - title: Linux 
               url: /installation/linux-prereqs.html
@@ -50,7 +50,7 @@ sidebar:
               url: /installation/vapp-installation.html
             - title: Install on Linux 
               url: /installation/linux-installation.html
-            - title: Validate integrity
+            - title: Automatic validation of Keystone software
               url: /installation/validation.html
         - title: Configure Keystone Collector
           url: /installation/configuration.html
@@ -60,15 +60,15 @@ sidebar:
           url: /installation/security.html
         - title: Data collected for billing
           url: /installation/data-collection.html
-    - title: Monitor and Upgrade
+    - title: Monitor and upgrade
       entries:
-        - title: Monitor system health
+        - title: Monitor Keystone Collector health
           url: /installation/monitor-health.html
         - title: Upgrade Keystone Collector
           url: /installation/upgrade.html      
     - title: Keystone dashboard 
       entries:
-        - title: View Keystone dashboard
+        - title: Keystone dashboard overview
           url: /integrations/keystone-aiq.html
         - title: View usage details and generate reports
           url: /integrations/aiq-keystone-details.html
@@ -84,13 +84,13 @@ sidebar:
           url: /integrations/assets-tab.html            
         - title: Performance tab
           url: /integrations/performance-tab.html                                                                        
-        - title: Manage Keystone subscriptions from BlueXP
+        - title: Learn about Keystone and BlueXP
           url: /integrations/keystone-cm.html 
     - title: Keystone STaaS services
       entries:  
         - title: Metrics and definitions
           url: /concepts/metrics.html   
-        - title: Quality of Service
+        - title: Storage quality of service
           url: /concepts/qos.html 
         - title: Supported storage
           url: /concepts/supported-storage-services.html              
@@ -98,7 +98,7 @@ sidebar:
           url: /concepts/supported-storage-capacity.html
         - title: Service levels
           url: /concepts/service-levels.html
-        - title: Supported capacity for service levels
+        - title: Capacity requirements for service levels
           url: /concepts/capacity-requirements.html
         - title: Keystone subscription services version 1
           url: /subscription-services-v1.html
@@ -110,7 +110,7 @@ sidebar:
               url: /concepts/data-tiering.html
             - title: Equinix powered services
               url: /concepts/equinix.html
-            - title: Non-returnable, non-volatile components and SnapLock compliance
+            - title: Non-returnable, non-volatile components, and SnapLock compliance
               url: /concepts/nrnvc.html
             - title: U.S. Citizen Support (USCS)
               url: /concepts/uscs.html    
@@ -124,11 +124,11 @@ sidebar:
           url: /concepts/consumed-capacity-billing.html
         - title: Billing based on burst consumption
           url: /concepts/burst-consumption-billing.html
-        - title: Billing based on miscellaneous volume types
+        - title: Miscellaneous scenarios for Keystone billing
           url: /concepts/misc-volume-billing.html
         - title: Billing schedules
           url: /concepts/billing-schedules.html
-    - title: NetApp Global Services Support Center
+    - title: Get help with Keystone
       url: /concepts/gssc.html
     - title: Legal notices
       url: /legal-notices.html
