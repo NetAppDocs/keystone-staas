@@ -26,14 +26,14 @@ sidebar:
         url: /concepts/overview.html
       - title: Keystone infrastructure
         url: /concepts/infra.html
+      - title: Keystone Collector
+        url: /installation/installation-overview.html
       - title: Components
         url: /concepts/components.html
       - title: Data flow
         url: /concepts/data-flow.html   
       - title: Operational models
         url: /concepts/operational-models.html 
-      - title: Keystone Collector
-        url: /installation/installation-overview.html
     - title: Set up and configure Keystone
       entries:
         - title: Requirements
