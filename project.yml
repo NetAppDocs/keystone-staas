@@ -58,11 +58,11 @@ sidebar:
           url: /installation/asup-config.html
         - title: Keystone Collector security
           url: /installation/security.html
-        - title: Types of user data that Keystone collects
+        - title: Data Collected for Billing
           url: /installation/data-collection.html
     - title: Monitor and upgrade
       entries:
-        - title: Monitor the health of the Keystone Collector
+        - title: Monitor Keystone Collector health
           url: /installation/monitor-health.html
         - title: Upgrade Keystone Collector
           url: /installation/upgrade.html      
@@ -72,17 +72,17 @@ sidebar:
           url: /integrations/keystone-aiq.html
         - title: View usage details and generate reports
           url: /integrations/aiq-keystone-details.html
-        - title: View details about your subscriptions
+        - title: Subscriptions tab
           url: /integrations/subscriptions-tab.html
-        - title: View the consumption of your subscriptions
+        - title: Current Consumption tab
           url: /integrations/current-usage-tab.html
-        - title: View consumption trends
+        - title: Consumption Trend tab
           url: /integrations/capacity-trend-tab.html
-        - title: View details about volumes and object storage
+        - title: Volumes & Objects tab
           url: /integrations/volumes-objects-tab.html
-        - title: View the systems managed by Keystone
+        - title: Assets tab
           url: /integrations/assets-tab.html            
-        - title: Monitor performance metrics
+        - title: Performance tab
           url: /integrations/performance-tab.html                                                                        
         - title: Learn about Keystone and BlueXP
           url: /integrations/keystone-cm.html 
