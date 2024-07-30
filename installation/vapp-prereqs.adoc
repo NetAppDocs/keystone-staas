@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: installation/vapp-prereqs.html
 keywords: prerequisites, VMware vSphere, vApp
-summary: Your VMware vSphere system must meet several requirements before you can install the Keystone Collector.
+summary: Your VMware vSphere system must meet several requirements before you can install Keystone Collector.
 ---
 
 = Virtual infrastructure requirements
@@ -13,7 +13,7 @@ summary: Your VMware vSphere system must meet several requirements before you ca
 :imagesdir: ../media/
 
 [.lead]
-Your VMware vSphere system must meet several requirements before you can install the Keystone Collector.
+Your VMware vSphere system must meet several requirements before you can install Keystone Collector.
 
 .Prerequisites for the Keystone Collector server VM:
 
