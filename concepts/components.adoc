@@ -2,10 +2,10 @@
 sidebar: sidebar
 permalink: concepts/components.html
 keywords: infrastructure component, deployment requirement, installation requirement
-summary: Infrastructure components
+summary: Learn about the components that are required to enable NetApp Keystone STaaS services in your environment.
 ---
 
-= Components for deployment
+= Components required for deployment
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,7 +13,7 @@ summary: Infrastructure components
 :imagesdir: ../media/
 
 [.lead]
-This section lists the components required to enable NetApp Keystone STaaS services in your environment.
+Several components are required to enable NetApp Keystone STaaS services in your environment. You should review details about these components before you get started.
 
 == Site requirements
 There are some site-specific requirements, such as space, racks, PDUs, power, and cooling, with additional network and security requirements discussed here.
@@ -34,10 +34,10 @@ You should provide the required power. NetApp will provide the power requirement
 NetApp can provide the cooling requirement specifications (Typical BTU, Max BTU), based on the final configuration and requirement.
 
 === Storage virtual machines
-A storage virtual machine (storage VM) is required for the deployment of the Keystone Collector and the AIOPs solution gateway. The prerequisites for installing Keystone Collector are available here: link:../installation/installation-overview.html[Installation guide for Keystone Collector]. The other requirements are shared during deployment.
+A storage virtual machine (storage VM) is required for the deployment of Keystone Collector and the AIOPs solution gateway. The prerequisites for installing Keystone Collector are available here: link:../installation/installation-overview.html[Installation guide for Keystone Collector]. The other requirements are shared during deployment.
 
 === Deployment Options
-The Keystone Collector can be deployed through the following methods:
+Keystone Collector can be deployed through the following methods:
 
 *	VMware OVA template (VMware vCenter Server 6.7 or later is required)
 *	Customer provides Red Hat Enterprise Linux 7 or 8 or CentOS 7 Linux server. The Keystone software is installed via `.rpm` installation process.
@@ -51,7 +51,7 @@ AIOPs solution gateway is deployed on the following configuration:
 **	Kernel-based Virtual Machine (Linux KVM)
 
 === Networking 
-Outbound access is required to the following services for operations and maintenance of the Keystone Collector and AIOPs solution gateway:
+Outbound access is required to the following services for operations and maintenance of Keystone Collector and AIOPs solution gateway:
 
 *	support.netapp.com (usage data upload)
 *	keystone.netapp.com (software updates)

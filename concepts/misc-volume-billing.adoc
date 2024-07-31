@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: concepts/misc-volume-billing.html
 keywords: Billing and miscellaneous scenarios
-summary: Billing based on miscellaneous volume types
+summary: Learn about Keystone billing for specific configurations, including cloned volumes, advanced data protection, and more.
 ---
 
 = Miscellaneous scenarios for Keystone billing
@@ -13,6 +13,7 @@ summary: Billing based on miscellaneous volume types
 :imagesdir: ../media/
 
 [.lead]
+Understanding Keystone billing for specific configurations can help optimize service usage and manage costs. The scenarios include cloned volumes, advanced data protection, temporary volumes, QoS policies, SnapMirror destinations, LUNs, and system/root volumes.
 
 == Billing for cloned volumes
 If volumes are cloned in ONTAP and you use them for backing up and restoring your data, you can continue using the clones without any additional payments. However, cloned volumes used for any other purpose in your business for an extensive duration are charged.
@@ -23,15 +24,15 @@ Note the following:
 * There is no 24-hour grace period for cloned volumes, only the size of the clone is considered.
 * Once the clone volume exceeds 10% of the physical size of the parent, the clone is billed as a standard volume (logical used capacity).
 
-== Billing for Advanced Data Protection
-Advanced Data Protection uses NetApp MetroCluster to mirror data between two physically separated clusters. For MetroCluster mirrored aggregates, data is written twice, once on each cluster. The Keystone service charges for consumption on each side independently, resulting in two identical consumption records. The add-on charges are applied on all the capacities in the subscription, irrespective of whether the data is at the source, or it is mirrored or unmirrored data.
+== Billing for advanced data protection
+Advanced data protection uses NetApp MetroCluster to mirror data between two physically separated clusters. For MetroCluster mirrored aggregates, data is written twice, once on each cluster. The Keystone service charges for consumption on each side independently, resulting in two identical consumption records. The add-on charges are applied on all the capacities in the subscription, irrespective of whether the data is at the source, or it is mirrored or unmirrored data.
 
 If you monitor your clusters through ONTAP System Manager (System Manager) or Active IQ Unified Manager (Unified Manager), you might see a discrepancy between the consumption reported on these tools and Keystone. System Manager and Unified Manager do not report volumes on the mirrored (remote) cluster, and in doing so, reports half the consumption metrics that the Keystone service reports.
 
 .Example:
 Site A and Site B are set up in a MetroCluster configuration. When a user creates a volume of 10TB in site A, an identical volume of 10TB is created in site B. Keystone identifies 10TB of consumption in each site, for a total increase of 20TB. System Manager and Unified Manager report a 10TB volume created in site A, but do not report a 10TB volume in Site B.
 
-Additionally, all volumes created on a Keystone system with Advanced Data Protection will be counted towards the consumption of Advanced Data Protection, regardless of whether those volumes are mirrored or not.
+Additionally, all volumes created on a Keystone system with advanced data protection will be counted towards the consumption of advanced data protection, regardless of whether those volumes are mirrored or not.
 
 == Billing for temporary volumes
 Occasionally, temporary (TMP) volumes are created by ONTAP when moving volumes. These temporary volumes are short-lived, and the consumption on these volumes is not measured for billing.

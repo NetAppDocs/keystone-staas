@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: installation/linux-installation.html
 keywords: Linux installation Keystone, Linux Collector installation
-summary: installing Keystone collector on Linux
+summary: Install the Keystone Collector software from the YUM software repository.
 ---
 
 = Install Keystone Collector on Linux systems
