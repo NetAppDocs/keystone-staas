@@ -1,0 +1,104 @@
+---
+sidebar: sidebar
+permalink: concepts/sla-availability.html
+keywords: availability, sla, service level agreement, 
+summary: availability, sla, service level agreement
+---
+
+= Availability SLA  
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ../media/
+
+[.lead]
+Availability SLA targets an uptime of 99.999% during a billing period for all NetApp ONTAP flash storage arrays deployed to deliver the Keystone order. 
+
+== Metrics
+
+* *Monthly uptime percentage* = [(number of eligible seconds in a month - average of number of seconds of downtimes for all AFF storage arrays deployed to deliver the Keystone order in that month) /  number of eligible seconds in a month] x 100%
+* *Downtime*: The period of time when both controllers in a pair within a storage array are not available, as determined by NetApp.
+* *Eligible number of seconds*: These are seconds in a month that count towards the uptime calculation. It does not include the time period when the STaaS services are not available because of planned maintenance, upgrades, support activities agreed upon with NetApp, or due to circumstances that are beyond control or responsibility of NetApp or Keystone services.
+
+== Service levels
+All service levels that ONTAP flash storage arrays support are eligible for Availability SLA. To learn more, refer to link:https://docs.netapp.com/us-en/keystone-staas/concepts/service-levels.html#service-levels-for-file-and-block-storage[Service levels in Keystone].
+
+== Service credits
+If the availability of ONTAP flash storage arrays for eligible subscriptions falls below the 99.999% monthly uptime target within a billing period, then NetApp issues service credits as follows:
+
+|===
+|*Monthly uptime (less than)* |*Service credit*
+
+a|99.999%
+a|5%
+
+a|99.99%
+a|10%
+
+a|99.9%
+a|25%
+
+a|99.0%
+a|50%
+
+|===
+
+== Service credit calculation
+Service credits are determined using the following formula:
+
+Service credits = (impacted capacity / total committed capacity) X capacity fees X credit percentage
+
+Where:
+
+* *impacted capacity*: The amount of stored capacity affected.
+* *total committed capacity*: The committed capacity for the service level for the Keystone order.
+* *capacity fees*: The fees for the affected service level for the month.
+* *credit percentage*: The predetermined percentage for service credit.
+
+*Example*
+
+The following example shows the method of calculation for service credits:
+
+. Calculate monthly uptime to determine the service credit percentage :
++
+** Eligible seconds in a 30-day month: 30 (days) X 24 (hours/day) X 60 (minutes/hour) X 60 (seconds/minute) = 2,592,000 seconds
+** Downtime in seconds: 95 seconds
++
+Using the formula:
+Monthly uptime percentage = [(2,592,000 - 95)/(2,592,000)] X 100 
++
+Based on calculation, the monthly uptime will be 99.996%, and the service credit percentage will be 5%.
+. Calculate service credits:
++
+|===
+|*Service level*|*Impacted capacity*|*Total committed capacity*|*Capacity fees*|*Credit percentage*
+a|Extreme| 10 Tib for 95 seconds | 100 Tib | $1000 | 5%
+|===
++
+Using the formula:
+Service credits = ( 10 / 100 ) X 1000 x 0.05
++
+Based on calculation, the service credits will be $5.
+
+== Service credit request
+If a breach of the SLA is detected, open a priority 3 (P3) support ticket with Keystone Global Services and Support Center (GSSC).
+
+** The following details are required:
+.. Keystone subscription number
+.. Volumes and storage controller details 
+.. Site, time, date, and description of the issue 
+.. Calculated time duration of latency detection
+.. Measurement tools and methods
+.. Any other applicable document
+** Provide the details in the excel sheet as shown below for a P3 ticket opened with Keystone GSSC. 
++
+image:sla-breach.png[excel sheet template]
+
+[NOTE]
+====
+* A service credit request should be initiated within six weeks after GSSC has validated a breach. All service credits should be acknowledged and approved by NetApp. 
+
+* Service credits may be applied to a future invoice. Service credits do not apply to expired Keystone subscriptions. To learn more, refer to link:../concepts/gssc.html[NetApp Global Services Support Center].
+====
+

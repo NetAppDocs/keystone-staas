@@ -35,9 +35,9 @@ TIP: For optimal performance and user experience, limit the date range of your q
 
 The bar charts display the service level name and the capacity consumed against that service level for the date range. The date and time of the collection are displayed at the bottom of the chart. Based on the date range of your query, the usage charts are displayed in a range of 30 data collection points. You can hover your mouse cursor over the charts to view the usage breakdown in terms of committed, consumed, burst, and above the burst limit data at that data collection point.
 
-You can view short-term surges in the usage charts, known as microbursts, by using the zoom-in feature. When a microburst is present, it is indicated by a blue dot on the corresponding bar or directly on the x-axis if no data is consumed. To view the details, click and hold on the bar or the x-axis where the blue dot appears, then drag the cursor across the chart to select the desired time interval, and release to confirm your selection. This action zooms into the data, providing a detailed view of the capacity used at that service level for the selected interval. You can zoom in further to view details down to a 2-minute interval. You can click the *Reset Zoom* button to return to the original chart view.
+The bar charts display short-term bursts, and you can view these bursts by using the zoom-in feature. When a short-term burst is present, it is indicated by a blue dot on the corresponding bar or directly on the x-axis if no data is consumed. To view the details, click and hold on the bar or the x-axis where the blue dot appears, then drag the cursor across the chart to select the desired time interval, and release to confirm your selection. This action zooms into the data, providing a more granular view of the capacity used at that service level for the selected interval. You can click the *Reset Zoom* button to return to the original chart view.
 
-image:aiq-ks-subtime-6.png[Capacity Trend tab with details]
+image:aiq-ks-subtime-7.png[Consumption Trend tab with details]
 
 The following colors in the bar charts indicate the consumed capacity as defined within the service level. Monthly data across the charts is separated by a vertical line.
 
