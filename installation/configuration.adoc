@@ -91,3 +91,41 @@ The supported file extensions are `.pem`, `.crt`, `.cert`. Ensure that the certi
 
 image:kc-custom-ca.png[TUI screen for CA customization]
 
+== Create AQoS policies
+Adaptive QoS (AQoS) policies for Keystone service levels can be created through the Keystone Collector management TUI utility. Creating AQoS policies through the TUI selects the default values set for each service level, which reduces the chance of errors that might occur when manually setting these values during policy creation in Active IQ Unified Manager.
+
+To learn more about AQoS and service level settings, refer to link:../concepts/qos.html#adaptive-qos[Storage QoS in Keystone^].
+
+To learn more about service levels, refer to link:https://docs.netapp.com/us-en/keystone-staas/concepts/service-levels.html#service-levels-for-file-and-block-storage[Service levels in Keystone^].
+
+.Steps
+. Start the Keystone Collector management TUI utility:
+`$ keystone-collector-tui`
+. Go to *Configure>AIQUM* to open the AIQUM screen.
+. Enable the option *Create AQoS policies*.
+. Enter the details of the Active IQ Unified Manager server and service account. These details are required to create AQoS policies for Keystone service levels and will not be stored.
++
+image:qos-account-details.png[TUI screen to enter the details of the AIQUM server and service account]
+. For *Select keystone version:*, select `-unset-`. 
+. Press Enter. A dialog box for selecting the Keystone version is displayed.
+. Highlight *STaaS* to specify the Keystone version for Keystone STaaS, and then press Enter.
++
+image:qos-STaaS-selection.png[TUI screen to specify the Keystone version]
++
+NOTE: You can highlight the *KFS* option for Keystone subscription services version 1. Keystone subscription services differ from Keystone STaaS in the constituent service levels, service offerings, and billing principles. To learn more, refer to link:https://docs.netapp.com/us-en/keystone-staas/subscription-services-v1.html[Keystone subscription services | Version 1^].
+. All supported Keystone service levels will be displayed within the *Select AQoS policies* option for the specified Keystone version. Enable the desired service levels from the list. 
++
+image:qos-STaaS-selection-1.png[TUI screen to display all supported Keystone service levels]
++
+NOTE: You can select multiple service levels simultaneously to create AQoS policies.
+. Select *Save* and press Enter. The AQoS policies will be created. 
++
+You can view the created AQoS policies under Performance Service Levels, such as Premium-KS-STaaS for STaaS or Extreme KFS for KFS, in Active IQ Unified Manager. To view policy details or modify the default values, refer to link:https://docs.netapp.com/us-en/active-iq-unified-manager/storage-mgmt/task_create_and_edit_psls.html[Creating and editing Performance Service Levels^].
++
+image:qos-performance-sl.png[UI screenshot to display the created AQoS policies]
+
+
+TIP: If AQoS policies for the selected service level already exist on the specified Active IQ Unified Manger server, you cannot create them again. If you attempt to do so, you will receive an error message. 
+image:qos-failed-policy.png[TUI screen to display the error message for policy creation]
+
+
