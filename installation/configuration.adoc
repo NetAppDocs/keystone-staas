@@ -106,7 +106,7 @@ To learn more about service levels, refer to link:https://docs.netapp.com/us-en/
 . Enter the details of the Active IQ Unified Manager server and service account. These details are required to create AQoS policies for Keystone service levels and will not be stored.
 +
 image:qos-account-details.png[TUI screen to enter the details of the AIQUM server and service account]
-. For *Select keystone version:*, select `-unset-`. 
+. For *Select keystone version*, select `-unset-`. 
 . Press Enter. A dialog box for selecting the Keystone version is displayed.
 . Highlight *STaaS* to specify the Keystone version for Keystone STaaS, and then press Enter.
 +
