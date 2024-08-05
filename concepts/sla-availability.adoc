@@ -13,7 +13,9 @@ summary: availability, sla, service level agreement
 :imagesdir: ../media/
 
 [.lead]
-Availability SLA targets an uptime of 99.999% during a billing period for all NetApp ONTAP flash storage arrays deployed to deliver the Keystone order. 
+Availability SLA targets an uptime of 99.999% during a billing period for all NetApp ONTAP flash storage arrays deployed to deliver the Keystone order.
+
+NOTE: SLAs and guarantees are available on a nomination basis.
 
 == Metrics
 
