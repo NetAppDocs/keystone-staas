@@ -15,6 +15,8 @@ summary: sustainability, sla, service level agreement
 [.lead]
 NetApp Keystone delivers a guaranteed measurement of maximum number of actual watts per tebibyte (W/TiB) for storage services based on ONTAP flash storage arrays with Sustainability SLA. Sustainability SLA defines the maximum consumption of W/TiB for each eligible service level, helping organizations meet their sustainability goals.
 
+NOTE: SLAs and guarantees are available on a nomination basis.
+
 == Metrics
 
 * *Watts*: The power consumption reported from daily AutoSupport, including the usage by the controller and attached disk shelves. 

@@ -15,6 +15,8 @@ summary: NetApp guarantees the recovery of Snapshot data from SnapLock Complianc
 [.lead]
 NetApp guarantees the recovery of Snapshot data from SnapLock Compliance volumes in the event of a ransomware attack with the Ransomware Recovery Guarantee program. NetApp Ransomware Recovery Assurance Service is required to support the Ransomware Recovery Guarantee program and should be purchased separately from the associated Keystone order.
 
+NOTE: SLAs and guarantees are available on a nomination basis.
+
 == Service levels
 Ransomware Recovery Assurance Service is required for all hardware supporting the Keystone subscription for the duration of the applicable subscription term.
 

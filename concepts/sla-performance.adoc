@@ -15,6 +15,8 @@ summary: sustainability, sla, service level agreement
 [.lead]
 NetApp Keystone offers latency-based SLA per service level, as described in the Keystone order for consumed capacity up to the burst limit, according to the following listed terms and conditions.
 
+NOTE: SLAs and guarantees are available on a nomination basis.
+
 == Metrics
 * *Degraded performance*: The amount of time, in minutes, per incident, during which the 90^th^ percentile latency target is not met.
 * The *90^th^ percentile latency* is measured per volume, per performance level, for all volumes within a Keystone Order. Latency is sampled every five minutes, and the 90^th^ percentile value calculated over a 24-hour period is used as the daily measure, considering the following points:
