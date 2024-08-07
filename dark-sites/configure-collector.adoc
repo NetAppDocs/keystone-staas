@@ -1,0 +1,41 @@
+---
+sidebar: sidebar
+permalink: dark-sites/configure-collector.html
+keywords: 
+summary: 
+---
+
+= Configure Keystone Collector in private mode
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ../media/
+
+[.lead]
+Complete a few configuration tasks to enable Keystone Collector to collect usage data in an environment that does not have internet access, also known as a as a _dark site_ or _private mode_. This is a one-time activity to activate and associate the required components with your storage environment.  Once configured, Keystone Collector will monitor all ONTAP clusters managed by Active IQ Unified Manager.
+
+NOTE: Keystone Collector provides you with the Keystone Collector Management Terminal User Interface (TUI) utility to perform configuration and monitoring activities. You can use various keyboard controls, such as the Enter and arrow keys, to select the options and navigate across this TUI.
+
+Refer to section 6 from the word doc for steps.
+Refer link:https://docs.netapp.com/us-en/keystone-staas/installation/configuration.html[Configure Keystone Collector] to see the format.
+
+== Export usage report
+You should send the monthly usage summary report to NetApp at the end of every month. You can generate this report manually.
+
+Follow these steps to generate usage report:
+
+Refer to section 7 from the word doc for steps.
+
+== Upgrade ONTAP
+Keystone Collector supports ONTAP upgrades through the TUI. 
+
+Follow these steps to upgrade ONTAP:
+
+Refer to section 9-1.2 from the word doc.
+
+== Restart Keystone Collector
+You can restart the Keystone Collector service through the TUI. 
+
+Refer to section 9-1.3 from the word doc.
+

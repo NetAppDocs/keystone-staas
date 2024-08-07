@@ -1,0 +1,22 @@
+---
+sidebar: sidebar
+permalink: dark-sites/overview.html
+keywords: 
+summary: 
+---
+
+= Learn about Keystone (private mode)
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ../media/
+
+[.lead]
+Keystone offers two deployment modes to meet your business and security requirements. _Standard mode_ provides full functionality of Keystone, while _private_ mode, also known as a _dark site_, is available for organizations that have connectivity restrictions.
+
+Word doc: Add the content from 1-1.2.
+Please refer to link:https://docs.netapp.com/us-en/keystone-staas/concepts/overview.html[Learn about Keystone] for the format.
+
+== Keystone Collector in private mode
+Word doc: Add the content from 2-2.1 and 2-2.2 

@@ -1,0 +1,42 @@
+---
+sidebar: sidebar
+permalink: dark-sites/monitor.html
+keywords: monitoring system health
+summary: To ensure that data is available, you can monitor the health of the Keystone Collector by using any monitoring system that supports HTTP requests.
+---
+
+= Monitor Keystone Collector health in private mode
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ../media/
+
+[.lead]
+You can monitor the health of Keystone Collector by using any monitoring system that supports HTTP requests. Monitoring the health can help to ensure that data is available on the Keystone dashboard.
+
+By default, Keystone health services do not accept connections from any IP other than localhost. The Keystone health endpoint is `/uber/health`, and it listens on all interfaces of the Keystone Collector server on port `7777`. On query, an HTTP request status code with a JSON output is returned from the endpoint as a response, describing the status of the Keystone Collector system. 
+The JSON body provides an overall health status for the `is_healthy` attribute, which is a boolean; and a detailed list of statuses per-component for the `component_details` attribute.
+Here is an example:
+----
+$ curl http://127.0.0.1:7777/uber/health
+{"is_healthy": true, "component_details": {"vicmet": "Running", "ks-collector": "Running", "ks-billing": "Running", "chronyd": "Running"}}
+----
+These status codes are returned:
+
+*	*200*: indicates that all monitored components are healthy
+*	*503*: indicates that one or more components are unhealthy
+*	*403*: indicates that the HTTP client querying the health status is not on the _allow_ list, which is a list of allowed network CIDRs. For this status, no health information is returned.
+The _allow_ list uses the network CIDR method to control which network devices are allowed to query the Keystone health system. If you receive this error, add your monitoring system to the _allow_ list from *Keystone Collector management TUI > Configure > Health Monitoring*.
+
+== Generate and collect support bundles
+To troubleshoot any issues with Keystone Collector, you can work with NetApp Support who might ask for a  _.tar_ file. You can generate this file through the Keystone Collector management TUI utility. 
+
+Follow these steps to generate a _.tar_ file:
+
+Refer the section 9-1.1 from the word doc.
+Also, see link:https://docs.netapp.com/us-en/keystone-staas/installation/monitor-health.html#generate-and-collect-support-bundles[Generate and collect support bundles].
+
+
+
+

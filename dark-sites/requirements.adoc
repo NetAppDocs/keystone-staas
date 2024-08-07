@@ -1,0 +1,30 @@
+---
+sidebar: sidebar
+permalink: dark-sites/requirements.html
+keywords: 
+summary: 
+---
+
+= Prepare for installation in private mode
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ../media/
+
+[.lead]
+Before installing Keystone Collector in an environment without internet access, also known as a _dark site_ or _private mode_, ensure your systems are prepared with the necessary software and meet all required prerequisites. 
+
+== Requirements for VMware vSphere
+Refer to section 4.1 from the word doc.
+Refer https://docs.netapp.com/us-en/keystone-staas/installation/vapp-prereqs.html[Virtual infrastructure requirements]
+
+== Requirements for Linux
+Refer to sections 4.2 and 4.3 from the word doc.
+Refer https://docs.netapp.com/us-en/keystone-staas/installation/linux-prereqs.html#networking-requirements[Linux system requirements]
+
+== Networking requirements
+Refer to section 4.4 from the word doc.
+Refer other requirements from the above given links.
+
+
