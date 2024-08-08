@@ -30,7 +30,7 @@ These status codes are returned:
 The _allow_ list uses the network CIDR method to control which network devices are allowed to query the Keystone health system. If you receive this error, add your monitoring system to the _allow_ list from *Keystone Collector management TUI > Configure > Health Monitoring*.
 
 == Generate and collect support bundles
-To troubleshoot any issues with Keystone Collector, you can work with NetApp Support who might ask for a  _.tar_ file. You can generate this file through the Keystone Collector management TUI utility. 
+To troubleshoot issues with Keystone Collector, you can work with NetApp Support who might ask for a  _.tar_ file. You can generate this file through the Keystone Collector management TUI utility. 
 
 Follow these steps to generate a _.tar_ file:
 
