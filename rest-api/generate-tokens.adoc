@@ -1,0 +1,15 @@
+---
+sidebar: sidebar
+permalink: rest-api/generate-tokens.html
+keywords: ASUP, AutoSupport configuration
+summary: Configure AutoSupport to incorporate Keystone data in the daily support bundles sent by ONTAP clusters.
+---
+
+= Generate refresh and access tokens
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ../media/
+
+[.lead]

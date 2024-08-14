@@ -1,0 +1,15 @@
+---
+sidebar: sidebar
+permalink: rest-api/get-customer-consumption.html
+keywords: ASUP, AutoSupport configuration
+summary: Configure AutoSupport to incorporate Keystone data in the daily support bundles sent by ONTAP clusters.
+---
+
+= Get a customer’s consumption details
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ../media/
+
+[.lead]
