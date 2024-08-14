@@ -1,10 +1,9 @@
 ---
 sidebar: sidebar
 permalink: dark-sites/install-collector.html
-keywords: 
-summary: 
+keywords: install, keystone, collector, private, mode
+summary: Complete a few steps to install Keystone Collector in an environment that does not have internet access, also known as a _dark site_ or _private mode_.
 ---
-
 = Install Keystone Collector in private mode
 :hardbreaks:
 :nofooter:
@@ -16,12 +15,34 @@ summary:
 Complete a few steps to install Keystone Collector in an environment that does not have internet access, also known as a _dark site_ or _private mode_. This type of installation is perfect for your secure sites.
 
 == Deploy on VMware vSphere
-Refer to section 5-5.2 from the word doc.
+
+Follow these steps:
+
+. Download the OVA template file from https://keystone.netapp.com/downloads/KeystoneCollector-latest.ova[NetApp Keystone web portal].
+. For steps to deploy Keystone collector with OVA file, refer to the section https://docs.netapp.com/us-en/keystone-staas/installation/vapp-installation.html#deploying-the-ova-template[Deploying the OVA template].
 
 == Install on Linux
 The Keystone Collector software is installed on the Linux server using the provided .deb or .rpm files, based on the Linux distribution.
 
 Follow these steps to install the software on your Linux server:
+
+. SSH to the Keystone Collector server and elevate to root privilege.
+. Download or transfer the Keystone Collector installation file to the Linux server:
++
+`keystone-collector-<version>.noarch.rpm`
+. On the server, open a terminal and run the following commands and begin the installation.
+** *Using Debian package*
++
+`dpkg -i keystone-collector_<version>_all.deb`
+** *Using RPM file*
++
+`yum install keystone-collector-<version>.noarch.rpm`
++
+or
++
+`rpm -i keystone-collector-<version>.noarch.rpm`
+
+. Enter “y” when prompted to install the package
 
 Refer to sections 5-5.1 and 5-5.3 from the word doc.
 Refer link:https://docs.netapp.com/us-en/keystone-staas/installation/linux-installation.html[Install Keystone Collector on Linux systems] for the format.

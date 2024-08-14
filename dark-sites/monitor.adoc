@@ -34,6 +34,13 @@ To troubleshoot issues with Keystone Collector, you can work with NetApp Support
 
 Follow these steps to generate a _.tar_ file:
 
+. Select *Troubleshooting* from the homepage and select *Generate Support Bundle*.
++
+image:dark-site-generate-support-bundle.png[Generate Support Bundle option]
+. Select the *Output Directory* and click on *Generate Support Bundle*.
++
+This process creates a "tar" package at the mentioned location which can be shared with NetApp for troubleshooting issues.
+
 Refer the section 9-1.1 from the word doc.
 Also, see link:https://docs.netapp.com/us-en/keystone-staas/installation/monitor-health.html#generate-and-collect-support-bundles[Generate and collect support bundles].
 
