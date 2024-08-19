@@ -29,8 +29,8 @@ Before installing Keystone Collector in an environment without internet access, 
 * Core: 2 CPU
 * RAM: 4 GB
 * Minimum Disk space: 50 GB vDisk
-** At least 2GB free in /var/lib/
-** At least 48GB free in /opt/netapp
+** At least 2GB free in `/var/lib/`
+** At least 48GB free in `/opt/netapp`
 
 For customer provided Linix server, it should also have the following third-party packages installed or if available via repo will be installed automatically as pre-requisites:
 
@@ -50,10 +50,11 @@ For customer provided Linix server, it should also have the following third-part
 
 The networking requirements of Keystone Collector are listed below.
 
-* Active IQ Unified Manager (Unified Manager) 9.10 or later, configured on a sever with the API Gateway functionality enabled * The server should be accessible by the Keystone Collector server on port 443 (HTTPS)
-* A service account for Keystone Collector on the Unified Manager server with Application User permissions enabled
-* No external internet connectivity required
-* Once a month file to be exported from Collector and transferred via operator email to Keystone Staff
+* Active IQ Unified Manager (Unified Manager) 9.10 or later, configured on a sever with the API Gateway functionality enabled.
+* The server should be accessible by the Keystone Collector server on port 443 (HTTPS).
+* A service account for Keystone Collector on the Unified Manager server with Application User permissions enabled.
+* No external internet connectivity required.
+* Once a month file to be exported from Collector and transferred via operator email to Keystone Staff.
 
 
 

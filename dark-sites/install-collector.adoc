@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: dark-sites/install-collector.html
-keywords: install, keystone, collector, private, mode, vmware vsphere, linux, 
+keywords: install, keystone, collector, private, mode, vmware vsphere, linux, deploy, debian, rpm file
 summary: Complete a few steps to install Keystone Collector in an environment that does not have internet access, also known as a _dark site_ or _private mode_.
 ---
 = Install Keystone Collector in private mode
@@ -42,7 +42,7 @@ or
 +
 `rpm -i keystone-collector-<version>.noarch.rpm`
 
-. Enter “y” when prompted to install the package
+. Enter "y" when prompted to install the package
 
 
 
