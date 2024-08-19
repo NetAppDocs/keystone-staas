@@ -29,8 +29,8 @@ Before installing Keystone Collector in an environment without internet access, 
 * Core: 2 CPU
 * RAM: 4 GB
 * Minimum Disk space: 50 GB vDisk
-** At least 2GB free in `/var/lib/`
-** At least 48GB free in `/opt/netapp`
+** At least 2 GB free in `/var/lib/`
+** At least 48 GB free in `/opt/netapp`
 
 For customer provided Linix server, it should also have the following third-party packages installed or if available via repo will be installed automatically as pre-requisites:
 

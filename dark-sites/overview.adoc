@@ -14,7 +14,7 @@ summary: Keystone offers a _private_ deployment mode, also known as a _dark site
 [.lead]
 Keystone offers a _private_ deployment mode, also known as a _dark site_, to meet your business and security requirements. This mode is available for organizations with connectivity restrictions.
 
-NetApp offers a specialized deployment of Keystone STaaS tailored for environments with limited or no internet connectivity (also know as Dark Sites). These are secure or isolated environments where external communication is restricted due to security, compliance, or operational requirements.
+NetApp offers a specialized deployment of Keystone STaaS tailored for environments with limited or no internet connectivity (also know as dark sites). These are secure or isolated environments where external communication is restricted due to security, compliance, or operational requirements.
 
 In the context of NetApp Keystone, offering services for dark sites means providing the Keystone flexible storage subscription service in a way that respects the constraints of these environments. This involves:
 

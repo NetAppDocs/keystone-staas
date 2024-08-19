@@ -42,7 +42,7 @@ or
 +
 `rpm -i keystone-collector-<version>.noarch.rpm`
 
-. Enter "y" when prompted to install the package
+. Enter "y" when prompted to install the package.
 
 
 

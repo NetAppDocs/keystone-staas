@@ -28,7 +28,7 @@ image:dark-sites-initialize.png[Keystone collector management console]
 . To enable *Darksite mode*:
 .. Select *Configure* and then select *Advanced*.
 +
-NOTE: Use "arrow" keys to navigate inside the console and "Enter" key for selection._
+NOTE: Use "arrow" keys to navigate inside the console and "Enter" key for selection.
 +
 image:dark-site-enable.png[Enable darksite]
 .. Navigate to the *Darksite Mode* option and press "Space" Key to select the option.
@@ -57,7 +57,7 @@ NOTE: Before configuring, confirm the usage type associated with the subscriptio
 +
 image:dark-site-usage-type.png[Usage type option]
 .. Click on *Save* to complete the configuration.
-. To generate the collector’s *Public Keypair*:
+. To generate the collector's *Public Keypair*:
 .. Select *Configure* from the homepage and select *KS Collector* to open the Keystone Collector configuration screen
 .. Navigate to *Encryption Key Manager* and press Enter.
 +
@@ -66,7 +66,7 @@ image:dark-site-encryption-key-manager.png[Encryption Key Manager option]
 +
 image:dark-site-generate-collector-keypair.png[Generate Collector Keypair option]
 
-.. Validate that the Collector is in a Healthy State by returning to the main screen of the Keystone Collector TUI and inspect the Service Status information. Wait up to 10 minutes for the system to show that the services are Overall: Healthy. If after 10minutes the overall status is Unhealthy, review the previous configuration steps, and contact NetApp Keystone Support.
+.. Validate that the Collector is in a Healthy State by returning to the main screen of the Keystone Collector TUI and inspect the Service Status information. Wait up to 10 minutes for the system to show that the services are Overall: Healthy. If after 10 minutes the overall status is Unhealthy, review the previous configuration steps, and contact NetApp Keystone Support.
 +
 image:dark-site-service-status.png[Service status]
 
@@ -75,7 +75,7 @@ image:dark-site-service-status.png[Service status]
 +
 `~/collector-public.pem`
 +
-.. Send an email with this file to keystone.services@netapp.com
+.. Send an email with this file to keystone.services@netapp.com.
 
 == Export usage report
 You should send the monthly usage summary report to NetApp at the end of every month. You can generate this report manually.
