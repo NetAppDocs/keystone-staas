@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: dark-sites/requirements.html
-keywords: installation, private mode, requirement, vmware vsphere, linux, networking
+keywords: installation, private mode, requirement, vmware vsphere, linux, networking,disk, space
 summary: Before installing Keystone Collector in an environment without internet access, also known as a _dark site_ or _private mode_, ensure your systems are prepared with the necessary software and meet all required prerequisites.
 ---
 
@@ -22,9 +22,6 @@ Before installing Keystone Collector in an environment without internet access, 
 * Core: 1 CPU
 * RAM: 2 GB
 * Minimum Disk space: 20 GB vDisk
-
-Refer to section 4.1 from the word doc.
-Refer https://docs.netapp.com/us-en/keystone-staas/installation/vapp-prereqs.html[Virtual infrastructure requirements]
 
 == Requirements for Linux
 
@@ -48,17 +45,15 @@ For customer provided Linix server, it should also have the following third-part
 ** podman
 ** sosreport
 
-Refer to sections 4.2 and 4.3 from the word doc.
-Refer https://docs.netapp.com/us-en/keystone-staas/installation/linux-prereqs.html#networking-requirements[Linux system requirements]
 
 == Networking requirements
+
+The networking requirements of Keystone Collector are listed below.
 
 * Active IQ Unified Manager (Unified Manager) 9.10 or later, configured on a sever with the API Gateway functionality enabled * The server should be accessible by the Keystone Collector server on port 443 (HTTPS)
 * A service account for Keystone Collector on the Unified Manager server with Application User permissions enabled
 * No external internet connectivity required
 * Once a month file to be exported from Collector and transferred via operator email to Keystone Staff
 
-Refer to section 4.4 from the word doc.
-Refer other requirements from the above given links.
 
 

@@ -14,28 +14,22 @@ summary: Keystone offers a _private_ deployment mode, also known as a _dark site
 [.lead]
 Keystone offers a _private_ deployment mode, also known as a _dark site_, to meet your business and security requirements. This mode is available for organizations with connectivity restrictions.
 
-NetApp offers a specialized deployment of Keystone STaaS tailored for environments with limited or no internet connectivity (a.k.a. Dark Sites). These are secure or isolated environments where external communication is restricted due to security, compliance, or operational requirements.
+NetApp offers a specialized deployment of Keystone STaaS tailored for environments with limited or no internet connectivity (also know as Dark Sites). These are secure or isolated environments where external communication is restricted due to security, compliance, or operational requirements.
 
 In the context of NetApp Keystone, offering services for dark sites means providing the Keystone flexible storage subscription service in a way that respects the constraints of these environments. This involves:
 
 * *Local deployment*: Users can configure Keystone within their isolated environments themselves, ensuring that there is no requirement for internet connectivity or the necessity to grant setup access to any external personnel.
 * *Offline operations*: All storage management capabilities with health checks and billing are available offline for operations.
-* *Security and compliance*: Keystone STaaS ensures that the deployment meets the security and compliance requirements typical of dark sites, which may include advanced encryption, secure access controls, anddetailed auditing capabilities.
+* *Security and compliance*: Keystone STaaS ensures that the deployment meets the security and compliance requirements typical of dark sites, which may include advanced encryption, secure access controls, and detailed auditing capabilities.
 * *Help and Support*: 24 x 7 global NetApp support with a dedicated Keystone success manager assigned per account for assistance and troubleshooting.
-
-Word doc: Add the content from 1-1.2.
-Please refer to link:https://docs.netapp.com/us-en/keystone-staas/concepts/overview.html[Learn about Keystone] for the format.
 
 == Keystone Collector in private mode
 
-Dark collector is responsible for periodically collecting usage data from storage systems
-and exporting the metrics to an offline usage reporter and a local file store. The generated files, which are created in both encrypted and plain text formats, are then manually forwarded to NetApp by the user after the validation checks. Upon receipt, NetApp's Keystone billing platform authenticates and processes these files, integrating them into the billing and subscription management systems to calculate the monthly charges.
-
-image:dark-sites-diagram-computer-system.png[Diagram of a computer system] 
-
-The Collector service on the server is tasked with periodically gathering usage data, processing this information, and generating a usage file locally on the server. The
-health service conducts system health checks and is designed to interface with the customer's own health monitoring systems. These reports are available for offline access by users, allowing for validation and aiding in troubleshooting issues.
+The Collector service on the server is tasked with periodically gathering usage data, processing this information, and generating a usage file locally on the server. The health service conducts system health checks and is designed to interface with the customer's own health monitoring systems. These reports are available for offline access by users, allowing for validation and aiding in troubleshooting issues.
 
 image:dark-sites-customer-premise.png[customer premise] 
 
-Word doc: Add the content from 2-2.1 and 2-2.2 
+Keystone collector is responsible for periodically collecting usage data from storage systems
+and exporting the metrics to an offline usage reporter and a local file store. The generated files, which are created in both encrypted and plain text formats, are then manually forwarded to NetApp by the user after the validation checks. Upon receipt, NetApp's Keystone billing platform authenticates and processes these files, integrating them into the billing and subscription management systems to calculate the monthly charges.
+
+image:dark-sites-diagram-computer-system.png[Diagram of a computer system] 

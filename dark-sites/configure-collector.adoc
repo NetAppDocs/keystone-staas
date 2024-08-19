@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: dark-sites/configure-collector.html
-keywords: configure, keystone, collector, private mode
+keywords: configure, keystone, collector, private mode, darksite mode, tui utility
 summary: Complete a few configuration tasks to enable Keystone Collector to collect usage data in an environment that does not have internet access, also known as a as a _dark site_ or _private mode_.
 ---
 = Configure Keystone Collector in private mode
@@ -22,7 +22,7 @@ NOTE: Keystone Collector provides you with the Keystone Collector Management Ter
 +
 `keystone-collector-tui`
 +
-Keystone collector management console will initialize
+Keystone collector management console will initialize.
 +
 image:dark-sites-initialize.png[Keystone collector management console]
 . To enable *Darksite mode*:
@@ -31,18 +31,17 @@ image:dark-sites-initialize.png[Keystone collector management console]
 NOTE: Use "arrow" keys to navigate inside the console and "Enter" key for selection._
 +
 image:dark-site-enable.png[Enable darksite]
-.. Navigate to the *Darksite Mode* option and press “Space” Key to select
-the option.
+.. Navigate to the *Darksite Mode* option and press "Space" Key to select the option.
 +
 image:dark-site-mode.png[Darksite mode]]
 .. Click *Save* to enable the configuration.
 . To configure the *Keystone Collector*:
-.. Select *Configure* from the homepage and select *KS Collector* to open the Keystone Collector configuration screen
+.. Select *Configure* from the homepage and select *KS Collector* to open the Keystone Collector configuration screen.
 +
 image:dark-site-configure.png[Configure Keystone Collector]
 +
 image:dark-site-kscollector.png[Keystone collector]
-.. Toggle the *Start KS Collector with System* field using the “Space” Key.
+.. Toggle the *Start KS Collector with System* field using the "Space" Key.
 .. Toggle the *Collect ONTAP Usage* field.
 +
 image:dark-site-collect-ontap-usage.png[Collect ONTAP Usage field]
@@ -53,6 +52,7 @@ image:dark-site-unified-manager.png[Unified Manager field]
 +
 image:dark-site-using-tiering-rate-plans.png[Using Tiering Rate plans checkbox]
 .. Based on the subscription type purchased, update the *Usage Type*.
++
 NOTE: Before configuring, confirm the usage type associated with the subscription from NetApp.
 +
 image:dark-site-usage-type.png[Usage type option]
@@ -71,11 +71,11 @@ image:dark-site-generate-collector-keypair.png[Generate Collector Keypair option
 image:dark-site-service-status.png[Service status]
 
 .. Exit the Keystone Collector TUI via *Exit to Shell* option.
-.. Retrieve the generated public key: ~/collector-public.pem
+.. Retrieve the generated public key:
++
+`~/collector-public.pem`
++
 .. Send an email with this file to keystone.services@netapp.com
-
-Refer to section 6 from the word doc for steps.
-Refer link:https://docs.netapp.com/us-en/keystone-staas/installation/configuration.html[Configure Keystone Collector] to see the format.
 
 == Export usage report
 You should send the monthly usage summary report to NetApp at the end of every month. You can generate this report manually.
@@ -89,7 +89,6 @@ Collector generates a clear file and an encrypted file which should be sent to N
 +
 image:dark-site-clear-file-report.png[Clear file report]
 
-Refer to section 7 from the word doc for steps.
 
 == Upgrade ONTAP
 Keystone Collector supports ONTAP upgrades through the TUI. 
@@ -105,12 +104,11 @@ image:dark-site-start-webserver.png[Start Webserver option]
 Refer to section 9-1.2 from the word doc.
 
 == Restart Keystone Collector
-You can restart the Keystone Collector service through the TUI. Follow these steps:
+You can restart the Keystone Collector service through the TUI. Follow this step:
 
 . Select *Maintenance* from the TUI homepage and select *Restart Collector Services* option.
 +
 image:dark-site-restart-collector-services.png[Restart Collector Services option]
 +
-Performing this step will reboot all the collector services, and their
-status can be observed from the TUI homepage.
+Performing this step will reboot all the collector services, and their status can be observed from the TUI homepage.
 
