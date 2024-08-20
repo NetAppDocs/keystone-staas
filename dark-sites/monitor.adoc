@@ -34,7 +34,7 @@ To troubleshoot issues with Keystone Collector, you can work with NetApp Support
 
 Follow these steps to generate a _.tar_ file:
 
-. Select *Troubleshooting* from the homepage and select *Generate Support Bundle*.
+. Select *Troubleshooting* from the home screen and select *Generate Support Bundle*.
 +
 image:dark-site-generate-support-bundle.png[Generate Support Bundle option]
 . Select the *Output Directory* and click on *Generate Support Bundle*.

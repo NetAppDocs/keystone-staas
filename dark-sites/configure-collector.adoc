@@ -31,12 +31,12 @@ image:dark-sites-initialize.png[Keystone collector management console]
 NOTE: Use "arrow" keys to navigate inside the console and "Enter" key for selection.
 +
 image:dark-site-enable.png[Enable darksite]
-.. Navigate to the *Darksite Mode* option and press "Space" Key to select the option.
+.. Navigate to the *Darksite Mode* option and press "Space" key to select the option.
 +
-image:dark-site-mode.png[Darksite mode]]
+image:dark-site-mode.png[Darksite mode]
 .. Click *Save* to enable the configuration.
 . To configure the *Keystone Collector*:
-.. Select *Configure* from the homepage and select *KS Collector* to open the Keystone Collector configuration screen.
+.. Select *Configure* from the home screen and select *KS Collector* to open the Keystone Collector configuration screen.
 +
 image:dark-site-configure.png[Configure Keystone Collector]
 +
@@ -58,7 +58,7 @@ NOTE: Before configuring, confirm the usage type associated with the subscriptio
 image:dark-site-usage-type.png[Usage type option]
 .. Click on *Save* to complete the configuration.
 . To generate the collector's *Public Keypair*:
-.. Select *Configure* from the homepage and select *KS Collector* to open the Keystone Collector configuration screen
+.. Select *Configure* from the home screen and select *KS Collector* to open the Keystone Collector configuration screen.
 .. Navigate to *Encryption Key Manager* and press Enter.
 +
 image:dark-site-encryption-key-manager.png[Encryption Key Manager option]
@@ -82,7 +82,7 @@ You should send the monthly usage summary report to NetApp at the end of every m
 
 Follow these steps to generate usage report:
 
-. Navigate to *Export Usage* on the Keystone Collector TUI homepage.
+. Navigate to *Export Usage* on the Keystone Collector TUI home screen.
 . Collect the files and send them to keystone.services@netapp.com.
 +
 Collector generates a clear file and an encrypted file which should be sent to NetApp manually. Clear file report has the following details which can be validated by the customer.
@@ -95,7 +95,7 @@ Keystone Collector supports ONTAP upgrades through the TUI.
 
 Follow these steps to upgrade ONTAP:
 
-. Select *Maintenance* from the TUI homepage and select *ONTAP Upgrade Webserver* option.
+. Select *Maintenance* from the TUI home screen and select *ONTAP Upgrade Webserver* option.
 . Copy the ONTAP upgrade image file to */opt/netapp/ontap-upgrade/* and then start webserver by clicking on *Start Webserver*.
 +
 image:dark-site-start-webserver.png[Start Webserver option]
@@ -104,9 +104,9 @@ image:dark-site-start-webserver.png[Start Webserver option]
 == Restart Keystone Collector
 You can restart the Keystone Collector service through the TUI. Follow this step:
 
-. Select *Maintenance* from the TUI homepage and select *Restart Collector Services* option.
+. Select *Maintenance* from the TUI home screen and select *Restart Collector Services* option.
 +
 image:dark-site-restart-collector-services.png[Restart Collector Services option]
 +
-Performing this step will reboot all the collector services, and their status can be observed from the TUI homepage.
+Performing this step will reboot all the collector services, and their status can be observed from the TUI home screen.
 
