@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar
 permalink: rest-api/get-customer-subscriptions.html
-keywords: ASUP, AutoSupport configuration
-summary: Configure AutoSupport to incorporate Keystone data in the daily support bundles sent by ONTAP clusters.
+keywords: subscriptions, service levels, customer IDs, keystone, api 
+summary: This API retrieves a list of all the subscriptions and service levels associated with the given customerID.
 ---
 
 = Get a customer’s subscriptions
@@ -13,3 +13,64 @@ summary: Configure AutoSupport to incorporate Keystone data in the daily support
 :imagesdir: ../media/
 
 [.lead]
+This API retrieves a list of all the subscriptions and service levels associated with the given customerID.
+
+== Get the list of subscriptions for a customer
+This API retrieves a list of all the subscriptions and service levels associated with the given customerID.
+
+*Request:*
+
+[width="100%",cols="24%,76%",options="header",]
+|===
+|*Method* |GET
+|*Endpoint*
+|https://api.activeiq.netapp.com/v1/keystone/customer/subscriptions-info
+
+|*Parameters* a|
+. type: “customer”
+. id: <customer-id>
+
+|*Headers* a|
+. accept: application/json
+. authorizationToken: <access_key>
+
+|===
+
+*Response:*
+
+The API will respond with a JSON object containing a list of all the subscriptions and associated service level details for the given customer. Here's an example response:
+
+----
+[
+{
+"results": {
+"returned_records": 0,
+"records": [
+{
+"subscription": {
+"account_name": "string",
+"number": "string",
+"start_date": "2024-05-28T15:47:49.254Z",
+"end_date": "2024-05-28T15:47:49.255Z"
+},
+"service_levels": [
+{
+"name": "string",
+"committed_tib": 0
+}
+]
+}
+],
+"request_id": "string",
+"response_time": "string"
+}
+}
+]
+----
+
+*Status Code*: 200 – Successful Request
+
+*Curl Command*:
+----
+curl -X 'GET' \ 'https://api.activeiq.netapp.com/v1/keystone/customer/subscriptions-info?type=customer&id=<customerID>' \ -H 'accept: application/json' \ -H 'authorizationToken: <access-key>'
+----

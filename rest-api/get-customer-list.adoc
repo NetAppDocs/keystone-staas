@@ -1,8 +1,9 @@
 ---
 sidebar: sidebar
 permalink: rest-api/get-customer-list.html
-keywords: ASUP, AutoSupport configuration
-summary: Configure AutoSupport to incorporate Keystone data in the daily support bundles sent by ONTAP clusters.
+keywords: customer, keystone, api, IDs
+summary: This API retrieves a list of all the customerIDs associated with the user.
+
 ---
 
 = Get a list of all customers
@@ -13,3 +14,50 @@ summary: Configure AutoSupport to incorporate Keystone data in the daily support
 :imagesdir: ../media/
 
 [.lead]
+This API retrieves a list of all the customerIDs associated with the user.
+
+== Get the list of all the customers
+This API retrieves a list of all the customerIDs associated with the user.
+
+*Request:*
+
+[width="100%",cols="24%,76%",options="header",]
+|===
+|*Method* |GET
+|*Endpoint* |https://api.activeiq.netapp.com/v1/keystone/customers
+|*Headers* a|
+[arabic]
+. accept: application/json
+. authorizationToken: <access_key>
+
+|===
+
+*Response:*
+
+The API will respond with a JSON object containing a list of customer names and respective IDs. Here's an example response:
+----
+{
+"results": \{
+"returned_records": 0,
+"records": [
+{
+"Customers": [
+{
+"customer_id": "string",
+"customer_name": "string"
+}
+]
+}
+],
+"request_id": "string",
+"response_time": "string"
+}
+}
+
+----
+*Status Code*: 200 – Successful Request
+
+*Curl Command*:
+----
+curl -X 'GET' \ 'https://api.activeiq.netapp.com/v1/keystone/customers' \ -H 'accept: application/json' -H 'authorizationToken: <access-key>'
+----
