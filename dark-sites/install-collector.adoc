@@ -19,7 +19,7 @@ Complete a few steps to install Keystone Collector in an environment that does n
 Follow these steps:
 
 . Download the OVA template file from https://keystone.netapp.com/downloads/KeystoneCollector-latest.ova[NetApp Keystone web portal].
-. For steps to deploy Keystone collector with OVA file, refer to the section https://docs.netapp.com/us-en/keystone-staas/installation/vapp-installation.html#deploying-the-ova-template[Deploying the OVA template].
+. For steps to deploy Keystone collector with OVA file, refer to the section link:../installation/vapp-installation.html#deploying-the-ova-template[Deploying the OVA template].
 
 == Install on Linux
 The Keystone Collector software is installed on the Linux server using the provided .deb or .rpm files, based on the Linux distribution.
