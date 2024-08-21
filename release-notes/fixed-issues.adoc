@@ -19,6 +19,10 @@ Issues that were found in previous releases of NetApp Keystone STaaS services ha
 |===
 |Issue description |After the fix |Fixed in release
 
+a|The *From Date* field to select the date range displays a future date by default when navigating to the *Consumption Trend* tab.
+a|Fixed
+a|August 29, 2024
+//NSEKEY-10305
 a|Keystone Collector management TUI becomes unresponsive when setting up AQoS policies.
 a|Fixed
 a|August 07, 2024
