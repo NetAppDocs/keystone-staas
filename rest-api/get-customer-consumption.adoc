@@ -21,7 +21,7 @@ This API retrieves the current consumption details for all the subscriptions ass
 
 *Request:*
 
-[width="100%",cols="24%,76%",options="header",]
+[width="100%",cols="24%,76%",]
 |===
 |*Method* |GET
 |*EndPoint*
@@ -74,7 +74,7 @@ The API will respond with a JSON object containing a list of all the subscriptio
 
 *Curl Command*:
 ----
-'https://api.activeiq.netapp.com/v1/keystone/customer/consumption-details?type=customer&id=<customerID>' \ -H 'accept: application/json' \ -H 'authorizationToken: <access-key>'
+curl -X 'GET' \ 'https://api.activeiq.netapp.com/v1/keystone/customer/consumption-details?type=customer&id=<customerID>' \ -H 'accept: application/json' \ -H 'authorizationToken: <access-key>'
 ----
 
 == Get the historical consumption details for a customer
@@ -82,7 +82,7 @@ This API retrieves the historical consumption details for all the subscriptions 
 
 *Request:*
 
-[width="100%",cols="24%,76%",options="header",]
+[width="100%",cols="24%,76%",]
 |===
 |*Method* |GET
 |*EndPoint*
@@ -106,7 +106,7 @@ The API will respond with a JSON object containing a list of all the subscriptio
 
 ----
 {
-"results": \{
+"results":  {
 "returned_records": 0,
 "records": [
 {

@@ -32,7 +32,7 @@ image:../media/rest-api-token-types.png[Types of token]
 The Access Token is used to authenticate AIQ Digital Advisor API requests. It can be generated directly through the console along with the refresh token or using the following API call:
 
 *Request:*
-[width="100%",cols="41%,59%",options="header",]
+[width="100%",cols="41%,59%",]
 |===
 |*Method* |POST
 |*Endpoint* |https://api.activeiq.netapp.com/v1/tokens/accessToken
@@ -62,8 +62,7 @@ API return an Access Token and Refresh Token in a JSON format as response
 
 *Curl Command*:
 ----
-curl -X 'POST' \ 'https://api.activeiq.netapp.com/v1/tokens/accessToken' \ -H 'accept: application/json' \ -H 'Content-Type: application/json' \ -d '\
-{ "refresh_token": "<refresh-token>" }'
+curl -X 'POST' \ 'https://api.activeiq.netapp.com/v1/tokens/accessToken' \ -H 'accept: application/json' \ -H 'Content-Type: application/json' \ -d ' { "refresh_token": "<refresh-token>" }'
 ----
 
 == Execute the API Call

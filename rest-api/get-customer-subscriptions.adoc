@@ -20,7 +20,7 @@ This API retrieves a list of all the subscriptions and service levels associated
 
 *Request:*
 
-[width="100%",cols="24%,76%",options="header",]
+[width="100%",cols="24%,76%",]
 |===
 |*Method* |GET
 |*Endpoint*
