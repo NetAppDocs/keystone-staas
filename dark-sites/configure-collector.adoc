@@ -85,13 +85,13 @@ Follow these steps to generate usage report:
 . Navigate to *Export Usage* on the Keystone Collector TUI home screen.
 . Collect the files and send them to keystone.services@netapp.com.
 +
-Collector generates a clear file and an encrypted file which should be sent to NetApp manually. Clear file report has the following details which can be validated by the customer.
+Keystone Collector generates both a clear file and an encrypted file, which should be manually sent to NetApp. The clear file report contains the following details that can be validated by the customer.
 +
 image:dark-site-clear-file-report.png[Clear file report]
 
 
 == Upgrade ONTAP
-Keystone Collector supports ONTAP upgrades through the TUI. 
+Keystone Collector supports ONTAP upgrades through TUI. 
 
 Follow these steps to upgrade ONTAP:
 

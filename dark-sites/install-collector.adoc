@@ -22,15 +22,14 @@ Follow these steps:
 . For steps to deploy Keystone collector with OVA file, refer to the section link:../installation/vapp-installation.html#deploying-the-ova-template[Deploying the OVA template].
 
 == Install on Linux
-The Keystone Collector software is installed on the Linux server using the provided .deb or .rpm files, based on the Linux distribution.
+Keystone Collector software is installed on the Linux server using the provided .deb or .rpm files, based on the Linux distribution.
 
 Follow these steps to install the software on your Linux server:
 
-. SSH to the Keystone Collector server and elevate to root privilege.
 . Download or transfer the Keystone Collector installation file to the Linux server:
 +
 `keystone-collector-<version>.noarch.rpm`
-. On the server, open a terminal and run the following commands and begin the installation.
+. 2.	Open a terminal on the server and run the following commands to begin the installation.
 ** *Using Debian package*
 +
 `dpkg -i keystone-collector_<version>_all.deb`
@@ -42,7 +41,7 @@ or
 +
 `rpm -i keystone-collector-<version>.noarch.rpm`
 
-. Enter "y" when prompted to install the package.
+. Enter `y` when prompted to install the package.
 
 
 
