@@ -132,9 +132,9 @@ sidebar:
           url: /rest-api/generate-tokens.html                       
         - title: Get a list of all customers 
           url: /rest-api/get-customer-list.html 
-        - title: Get a customer’s subscriptions 
+        - title: Get a customer's subscriptions 
           url: /rest-api/get-customer-subscriptions.html
-        - title: Get a customer’s consumption details 
+        - title: Get a customer's consumption details 
           url: /rest-api/get-customer-consumption.html                   
     - title: Billing
       entries:

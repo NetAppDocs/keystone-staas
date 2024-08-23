@@ -17,7 +17,7 @@ A refresh token is used to programmatically obtain a new set of access tokens an
 
 Steps to generate a refresh token using the AIQ Digital Advisor portal are as follows:
 
-. Log in to the https://aiq.netapp.com/api[*AIQ portal*] (https://aiq.netapp.com/api) using your NetApp credentials  and click on *Generate Tokens*.
+. Log in to the https://aiq.netapp.com/api[*AIQ portal*] (https://aiq.netapp.com/api) using NetApp credentials  and click on *Generate Tokens*.
 +
 image:../media/rest-api-aiq-portal.png[Steps to generate a refresh token using the AIQ Digital Advisor portal]
 +
@@ -50,7 +50,7 @@ NOTE: Access to this API needs administrative privileges for AIQ Digital Advisor
 
 *Response:*
 
-API returns an access token and refresh token in a JSON format as response
+API returns an access token and a refresh token in a JSON format as response.
 ----
 {
 "refresh_token": "string",

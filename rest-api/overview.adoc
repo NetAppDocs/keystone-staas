@@ -20,8 +20,8 @@ At a high level, the workflow to interact with these APIs involves the following
 . Setup up NetApp Active IQ Digital Advisor account.
 . Understand the two-step authentication process.
 
-.. *Generate Refresh Token*: A refresh token is obtained through AIQ console using NetApp credentials. This token is used to ensure continuous access without the need for repeated logins.
-.. *Generate Access Token*: Refresh token is used to generate access token. This access token is required to authorize API calls to the AIQ Keystone service and is valid for one hour.
+.. *Generate refresh token*: A refresh token is obtained through AIQ console using NetApp credentials. This token is used to ensure continuous access without the need for repeated logins.
+.. *Generate access token*: Refresh token is used to generate access token. This access token is required to authorize API calls to the AIQ Keystone service and is valid for one hour.
 . Execute the API call to fetch the desired data.
 
 == Setup up your NetApp Active IQ Digital Advisor account
