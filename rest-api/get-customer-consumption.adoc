@@ -5,7 +5,7 @@ keywords: api, consumption, subscriptions, customerID, keystone
 summary: This API retrieves the current consumption details for all the subscriptions associated with the given customerID.
 ---
 
-= Get a customer’s consumption details
+= Get a customer's consumption details
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,10 +13,6 @@ summary: This API retrieves the current consumption details for all the subscrip
 :imagesdir: ../media/
 
 [.lead]
-This API retrieves the current consumption details for all the subscriptions associated with the given customerID.
-
-== Get the consumption details for a customer
-
 This API retrieves the current consumption details for all the subscriptions associated with the given customerID.
 
 *Request:*
@@ -28,7 +24,7 @@ This API retrieves the current consumption details for all the subscriptions ass
 |https://api.activeiq.netapp.com/v1/keystone/customer/consumption-details
 
 |*Parameters* a|
-. type: “customer”
+. type: "customer"
 . id: <customer-id>
 
 |*Headers* a|
@@ -70,9 +66,9 @@ The API will respond with a JSON object containing a list of all the subscriptio
 }
 ----
 
-*Status Code*: 200 – Successful Request
+*Status code*: 200 – Successful request
 
-*Curl Command*:
+*Curl command*:
 ----
 curl -X 'GET' \ 'https://api.activeiq.netapp.com/v1/keystone/customer/consumption-details?type=customer&id=<customerID>' \ -H 'accept: application/json' \ -H 'authorizationToken: <access-key>'
 ----
@@ -89,7 +85,7 @@ This API retrieves the historical consumption details for all the subscriptions 
 |https://api.activeiq.netapp.com/v1/keystone/customer/historical-consumption-details
 
 |*Parameters* a|
-. type: “customer”
+. type: "customer"
 . id: <customer-id>
 . from_date_utc: <start date(in RFC3339 format)>
 . to_date_utc: <end date(in RFC3339 format)>
@@ -148,9 +144,9 @@ The API will respond with a JSON object containing a list of all the subscriptio
 }
 ----
 
-*Status Code*: 200 – Successful Request
+*Status code*: 200 – Successful request
 
-*Curl Command*:
+*Curl command*:
 ----
 curl -X 'GET' \ 'https://api.activeiq-stg.netapp.com/v1/keystone/customer/historical-consumption-details type=customer&id=<customerID>&from_date_utc=2023-08-24T14%3A15%3A22Z&t _date_utc=2023-08-24T14%3A15%3A22Z' \ -H 'accept: application/json' \ -H 'authorizationToken: <access-key>'
 ----

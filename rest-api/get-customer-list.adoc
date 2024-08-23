@@ -16,9 +16,6 @@ summary: This API retrieves a list of all the customerIDs associated with the us
 [.lead]
 This API retrieves a list of all the customerIDs associated with the user.
 
-== Get the list of all the customers
-This API retrieves a list of all the customerIDs associated with the user.
-
 *Request:*
 
 [width="100%",cols="24%,76%",]

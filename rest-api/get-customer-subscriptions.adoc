@@ -5,7 +5,7 @@ keywords: subscriptions, service levels, customer IDs, keystone, api
 summary: This API retrieves a list of all the subscriptions and service levels associated with the given customerID.
 ---
 
-= Get a customer’s subscriptions
+= Get a customer's subscriptions
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -15,8 +15,6 @@ summary: This API retrieves a list of all the subscriptions and service levels a
 [.lead]
 This API retrieves a list of all the subscriptions and service levels associated with the given customerID.
 
-== Get the list of subscriptions for a customer
-This API retrieves a list of all the subscriptions and service levels associated with the given customerID.
 
 *Request:*
 
@@ -27,7 +25,7 @@ This API retrieves a list of all the subscriptions and service levels associated
 |https://api.activeiq.netapp.com/v1/keystone/customer/subscriptions-info
 
 |*Parameters* a|
-. type: “customer”
+. type: "customer"
 . id: <customer-id>
 
 |*Headers* a|
@@ -68,9 +66,9 @@ The API will respond with a JSON object containing a list of all the subscriptio
 ]
 ----
 
-*Status Code*: 200 – Successful Request
+*Status code*: 200 – Successful request
 
-*Curl Command*:
+*Curl command*:
 ----
 curl -X 'GET' \ 'https://api.activeiq.netapp.com/v1/keystone/customer/subscriptions-info?type=customer&id=<customerID>' \ -H 'accept: application/json' \ -H 'authorizationToken: <access-key>'
 ----
