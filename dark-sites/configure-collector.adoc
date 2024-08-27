@@ -29,7 +29,7 @@ image:dark-site-mode.png[Darksite mode]
 . Go to *Configure > KS-Collector* to configure Keystone Collector.
 . Toggle the *Start KS Collector with System* field.
 . Toggle the *Collect ONTAP Usage* field. Add the details of the Active IQ Unified Manager (Unified Manager) server and user account.
-. Optional: Toggle the *Using Tiering Rate plans* field if data tiering is required for the subscription.
+. *Optional*: Toggle the *Using Tiering Rate plans* field if data tiering is required for the subscription.
 +
 Based on the subscription type purchased, update the *Usage Type*.
 +

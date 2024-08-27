@@ -29,7 +29,7 @@ Follow these steps to install the software on your Linux server:
 . Download or transfer the Keystone Collector installation file to the Linux server:
 +
 `keystone-collector-<version>.noarch.rpm`
-. 2.	Open a terminal on the server and run the following commands to begin the installation.
+. Open a terminal on the server and run the following commands to begin the installation.
 ** *Using Debian package*
 +
 `dpkg -i keystone-collector_<version>_all.deb`
