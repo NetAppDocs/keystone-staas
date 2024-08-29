@@ -18,7 +18,7 @@ You need to complete a few configuration tasks to enable Keystone Collector to c
 [NOTE]
 ====
 * Keystone Collector provides you with the Keystone Collector Management Terminal User Interface (TUI) utility to perform configuration and monitoring activities. You can use various keyboard controls, such as the Enter and arrow keys, to select the options and navigate across this TUI.
-* Keystone Collector can be configured for organizations that do not have internet access, also known as a _dark site_ or _private mode_. To learn more about, refer to link:../dark-sites/overview.html[Keystone in private mode].
+* ##Keystone Collector can be configured for organizations that do not have internet access, also known as a _dark site_ or _private mode_. To learn more about, refer to link:../dark-sites/overview.html[Keystone in private mode].##
 ====
 .Steps
 

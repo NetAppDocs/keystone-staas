@@ -23,7 +23,7 @@ For NetApp Keystone, offering services for dark sites means providing the Keysto
 * *Security and compliance*: Keystone ensures that the deployment meets the security and compliance requirements of dark sites, which may include advanced encryption, secure access controls, and detailed auditing capabilities.
 * *Help and Support*: NetApp provides 24/7 global support with a dedicated Keystone success manager assigned to each account for assistance and troubleshooting.
 
-NOTE: Keystone Collector can be set up and configured in _standard mode_, which offers full functionality. To learn more, refer to link:../installation/vapp-prereqs.html[Set up and configure Keystone].
+NOTE: ##Keystone Collector can be configured in _standard mode_, which offers full functionality. To learn more, refer to link:../installation/vapp-prereqs.html[Set up and configure Keystone].##
 
 == Keystone Collector in private mode
 
