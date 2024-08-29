@@ -81,7 +81,7 @@ image:dark-site-start-webserver.png[Start Webserver option]
 . Go to http://<collector-ip>:8000 using a web browser for upgrade assistance.
 
 == Restart Keystone Collector
-You can restart the Keystone Collector service through the TUI. Go to Maintenance > Restart Collector Services in the TUI. This will reboot all collector services, and their status can be monitored from the TUI home screen.
+You can restart the Keystone Collector service through the TUI. Go to *Maintenance > Restart Collector* Services in the TUI. This will reboot all collector services, and their status can be monitored from the TUI home screen.
 
 image:dark-site-restart-collector-services.png[Restart Collector Services option]
 
