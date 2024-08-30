@@ -17,7 +17,7 @@ Before installing Keystone Collector in an environment without internet access, 
 
 == Requirements for VMware vSphere
 
-* Operating system: VMware vCentre server and ESXi 6.5 or later
+* Operating system: VMware vCenter server and ESXi 6.5 or later
 * Core: 1 CPU
 * RAM: 2 GB
 * Disk space: 20 GB vDisk
@@ -34,13 +34,13 @@ Before installing Keystone Collector in an environment without internet access, 
 The same server should also have the following third-party packages installed. If available through the repository, these packages will be automatically installed as prerequisites:
 
 * RHEL8
-** python3 >= v3.6.8, python3 <= v3.9.13
+** python3 >=v3.6.8, python3 \<=v3.9.13
 ** podman
 ** sos
 ** yum-utils
 ** python3-dnf-plugin-versionlock
 * Debian v12
-** python3 >= v3.9.0, python3 <= v3.12.0
+** python3 >= v3.9.0, python3 \<= v3.12.0
 ** podman
 ** sosreport
 
