@@ -17,9 +17,9 @@ A refresh token is used to programmatically obtain a new set of access tokens an
 
 Steps to generate a refresh token using the Digital Advisor portal are as follows:
 
-. Log in to the https://aiq.netapp.com/api[*Digital Advisor portal*] (https://aiq.netapp.com/api) using NetApp credentials  and select *Generate Tokens*.
+. Log in to the https://aiq.netapp.com/api[Digital Advisor portal] using NetApp credentials and select *Generate Tokens*.
 +
-image:../media/rest-api-aiq-portal.png[Steps to generate a refresh token using the AIQ Digital Advisor portal]
+image:rest-api-aiq-portal.png[Steps to generate a refresh token using the Digital Advisor portal]
 +
 NOTE: For first-time users, if *Generate Tokens* option is not available, select *Register* to submit an authorization request. Fill out the registration form to enable the functionality.
 +
@@ -27,7 +27,7 @@ NOTE: For first-time users, if *Generate Tokens* option is not available, select
 +
 NOTE: The portal gives you multiple ways to save one or both tokens in the set. You can copy them to clipboard, download them as a text file, or view them as plain text.
 +
-image:../media/rest-api-token-types.png[Types of token]
+image:rest-api-token-types.png[Types of token]
 
 == Generate access token using API call
 The access token is used to authenticate Digital Advisor API requests. It can be generated directly through the console along with the refresh token or using the following API call:
@@ -68,4 +68,4 @@ curl -X 'POST' \ 'https://api.activeiq.netapp.com/v1/tokens/accessToken' \ -H 'a
 
 == Execute the API call
 
-Upon successful generation of access token, authorized ActiveIQ Digital Advisor API calls can be executed for required information.
+Upon successful generation of access token, authorized Digital Advisor API calls can be executed for required information.

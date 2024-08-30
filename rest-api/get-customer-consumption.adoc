@@ -85,14 +85,14 @@ This API retrieves the historical consumption details for all the subscriptions 
 |https://api.activeiq.netapp.com/v1/keystone/customer/historical-consumption-details
 
 |*Parameters* a|
-. type: "customer"
-. id: <customer-id>
-. from_date_utc: <start date(in RFC3339 format)>
-. to_date_utc: <end date(in RFC3339 format)>
+* type: "customer"
+* id: <customer-id>
+* from_date_utc: <start date(in RFC3339 format)>
+* to_date_utc: <end date(in RFC3339 format)>
 
 |*Headers* a|
-. accept: application/json
-. authorizationToken: <access_key>
+* accept: application/json
+* authorizationToken: <access_key>
 
 |===
 
