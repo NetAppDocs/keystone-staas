@@ -5,7 +5,7 @@ keywords: subscriptions, service levels, customer IDs, keystone, api
 summary: This API retrieves a list of all the subscriptions and service levels associated with the given customerID.
 ---
 
-= Get a customer's subscriptions
+= Get customer subscriptions using the Digital Advisor REST API
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -25,12 +25,12 @@ This API retrieves a list of all the subscriptions and service levels associated
 |https://api.activeiq.netapp.com/v1/keystone/customer/subscriptions-info
 
 |*Parameters* a|
-. type: "customer"
-. id: <customer-id>
+* type: "customer"
+* id: <customer-id>
 
 |*Headers* a|
-. accept: application/json
-. authorizationToken: <access_key>
+* accept: application/json
+* authorizationToken: <access_key>
 
 |===
 
@@ -68,7 +68,7 @@ The API will respond with a JSON object containing a list of all the subscriptio
 
 *Status code*: 200 – Successful request
 
-*Curl command*:
+*Curl example*:
 ----
 curl -X 'GET' \ 'https://api.activeiq.netapp.com/v1/keystone/customer/subscriptions-info?type=customer&id=<customerID>' \ -H 'accept: application/json' \ -H 'authorizationToken: <access-key>'
 ----

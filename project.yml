@@ -130,11 +130,11 @@ sidebar:
           url: /rest-api/overview.html
         - title: Generate refresh and access tokens
           url: /rest-api/generate-tokens.html                       
-        - title: Get a list of all customers 
+        - title: Get a list of all customers using the Digital Advisor REST API 
           url: /rest-api/get-customer-list.html 
-        - title: Get a customer's subscriptions 
+        - title: Get customer subscriptions using the Digital Advisor REST API
           url: /rest-api/get-customer-subscriptions.html
-        - title: Get a customer's consumption details 
+        - title: Get customer consumption details using the Digital Advisor REST API
           url: /rest-api/get-customer-consumption.html                   
     - title: Billing
       entries:

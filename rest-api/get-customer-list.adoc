@@ -6,7 +6,7 @@ summary: This API retrieves a list of all the customerIDs associated with the us
 
 ---
 
-= Get a list of all customers
+= Get a list of all customers using the Digital Advisor REST API
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -23,8 +23,8 @@ This API retrieves a list of all the customerIDs associated with the user.
 |*Method* |GET
 |*Endpoint* |https://api.activeiq.netapp.com/v1/keystone/customers
 |*Headers* a|
-. accept: application/json
-. authorizationToken: <access_key>
+* accept: application/json
+* authorizationToken: <access_key>
 
 |===
 
@@ -53,7 +53,7 @@ The API will respond with a JSON object containing a list of customer names and 
 ----
 *Status code*: 200 – Successful request
 
-*Curl command*:
+*Curl example*:
 ----
 curl -X 'GET' \ 'https://api.activeiq.netapp.com/v1/keystone/customers' \ -H 'accept: application/json' -H 'authorizationToken: <access-key>'
 ----

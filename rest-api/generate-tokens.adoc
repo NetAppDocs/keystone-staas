@@ -15,20 +15,22 @@ summary: A refresh token is used to programmatically obtain a new set of access 
 [.lead]
 A refresh token is used to programmatically obtain a new set of access tokens and is good for one week or until it has been used to obtain a new set of tokens.
 
-Steps to generate a refresh token using the AIQ Digital Advisor portal are as follows:
+Steps to generate a refresh token using the Digital Advisor portal are as follows:
 
-. Log in to the https://aiq.netapp.com/api[*AIQ portal*] (https://aiq.netapp.com/api) using NetApp credentials  and click on *Generate Tokens*.
+. Log in to the https://aiq.netapp.com/api[*Digital Advisor portal*] (https://aiq.netapp.com/api) using NetApp credentials  and select *Generate Tokens*.
 +
 image:../media/rest-api-aiq-portal.png[Steps to generate a refresh token using the AIQ Digital Advisor portal]
 +
-NOTE: For first-time users, if *Generate Tokens* option is not available, click on *Register* to submit an authorization request. Fill out the registration form to enable the functionality.
+NOTE: For first-time users, if *Generate Tokens* option is not available, select *Register* to submit an authorization request. Fill out the registration form to enable the functionality.
 +
-. AIQ will generate an access token and a refresh token. Save the *refresh token* on a trusted platform.
-
+. The system generates an access token and a refresh token. Save the refresh token on a trusted platform. 
++
+NOTE: The portal gives you multiple ways to save one or both tokens in the set. You can copy them to clipboard, download them as a text file, or view them as plain text.
++
 image:../media/rest-api-token-types.png[Types of token]
 
-== Generate access token
-The access token is used to authenticate AIQ Digital Advisor API requests. It can be generated directly through the console along with the refresh token or using the following API call:
+== Generate access token using API call
+The access token is used to authenticate Digital Advisor API requests. It can be generated directly through the console along with the refresh token or using the following API call:
 
 *Request:*
 [width="100%",cols="41%,59%",]
@@ -36,8 +38,8 @@ The access token is used to authenticate AIQ Digital Advisor API requests. It ca
 |*Method* |POST
 |*Endpoint* |https://api.activeiq.netapp.com/v1/tokens/accessToken
 |*Headers* a|
-. accept: application/json
-. Content-Type: application/json
+* accept: application/json
+* Content-Type: application/json
 
 |*Request Body* a|
 {
@@ -46,7 +48,7 @@ The access token is used to authenticate AIQ Digital Advisor API requests. It ca
 
 |===
 
-NOTE: Access to this API needs administrative privileges for AIQ Digital Advisor.
+NOTE: Yo need to have administrative privileges for Digital Advisor to access this endpoint.
 
 *Response:*
 
@@ -59,7 +61,7 @@ API returns an access token and a refresh token in a JSON format as response.
 ----
 *Status code*: 200 – Successful request
 
-*Curl command*:
+*Curl example*:
 ----
 curl -X 'POST' \ 'https://api.activeiq.netapp.com/v1/tokens/accessToken' \ -H 'accept: application/json' \ -H 'Content-Type: application/json' \ -d ' { "refresh_token": "<refresh-token>" }'
 ----
