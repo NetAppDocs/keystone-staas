@@ -69,6 +69,7 @@ The API will respond with a JSON object containing a list of all the subscriptio
 *Status code*: 200 – Successful request
 
 *Curl example*:
+[source,curl]
 ----
 curl -X 'GET' \ 'https://api.activeiq.netapp.com/v1/keystone/customer/subscriptions-info?type=customer&id=<customerID>' \ -H 'accept: application/json' \ -H 'authorizationToken: <access-key>'
 ----

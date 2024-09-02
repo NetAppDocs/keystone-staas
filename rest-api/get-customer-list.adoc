@@ -54,6 +54,7 @@ The API will respond with a JSON object containing a list of customer names and 
 *Status code*: 200 – Successful request
 
 *Curl example*:
+[source,curl]
 ----
 curl -X 'GET' \ 'https://api.activeiq.netapp.com/v1/keystone/customers' \ -H 'accept: application/json' -H 'authorizationToken: <access-key>'
 ----

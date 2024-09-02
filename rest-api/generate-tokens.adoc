@@ -62,6 +62,7 @@ API returns an access token and a refresh token in a JSON format as response.
 *Status code*: 200 – Successful request
 
 *Curl example*:
+[source,curl]
 ----
 curl -X 'POST' \ 'https://api.activeiq.netapp.com/v1/tokens/accessToken' \ -H 'accept: application/json' \ -H 'Content-Type: application/json' \ -d ' { "refresh_token": "<refresh-token>" }'
 ----
