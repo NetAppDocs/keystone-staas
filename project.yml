@@ -126,7 +126,7 @@ sidebar:
           url: /concepts/sla-ransomware.html
     - title: Access Keystone from the Active IQ Digital Advisor REST API
       entries:
-        - title: Overview
+        - title: Get started using the Digital Advisor REST API to retrieve Keystone data
           url: /rest-api/retrieve-keystone-data-with-digital-advisor-rest-api.html
         - title: Generate refresh and access tokens
           url: /rest-api/generate-tokens.html                       
