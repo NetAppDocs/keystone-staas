@@ -29,7 +29,7 @@ NOTE: The portal gives you multiple ways to save one or both tokens in the set. 
 +
 image:rest-api-token-types.png[Types of token]
 
-== Generate access token using API call
+== Generate access token using the Digital Advisor REST API
 The access token is used to authenticate Digital Advisor API requests. It can be generated directly through the console along with the refresh token or using the following API call:
 
 *Request:*
@@ -48,7 +48,7 @@ The access token is used to authenticate Digital Advisor API requests. It can be
 
 |===
 
-NOTE: Yo need to have administrative privileges for Digital Advisor to access this endpoint.
+NOTE: You need to have administrative privileges for Digital Advisor to access this endpoint.
 
 *Response:*
 
@@ -69,4 +69,4 @@ curl -X 'POST' \ 'https://api.activeiq.netapp.com/v1/tokens/accessToken' \ -H 'a
 
 == Execute the API call
 
-Upon successful generation of access token, authorized Digital Advisor API calls can be executed for required information.
+Upon successful generation of an access token, authorized Digital Advisor API calls can be executed for the required information.
