@@ -13,7 +13,7 @@ summary: The NetApp Keystone ActiveIQ Digital Advisor APIs provide a programmati
 :imagesdir: ../media/
 
 [.lead]
-The NetApp Digital Advisor REST API provides a programmatic interface for retrieving Keystone service details and metrics.
+The NetApp Digital Advisor REST API provides a programmatic interface for retrieving Keystone subscription and consumption details.
 
 At a high level, the workflow to interact with Digital Advisor REST API involves the following steps:
 
