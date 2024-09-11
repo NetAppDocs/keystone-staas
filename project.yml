@@ -124,6 +124,18 @@ sidebar:
           url: /concepts/sla-sustainability.html 
         - title: Ransomware Recovery Guarantee 
           url: /concepts/sla-ransomware.html
+    - title: Keystone in private mode
+      entries:
+        - title: Overview
+          url: /dark-sites/overview.html
+        - title: Prepare for installation
+          url: /dark-sites/requirements.html
+        - title: Install Keystone Collector
+          url: /dark-sites/install-collector.html
+        - title: Configure Keystone Collector
+          url: /dark-sites/configure-collector.html
+        - title: Monitor Keystone Collector health
+          url: /dark-sites/monitor.html
     - title: Access Keystone from the Digital Advisor REST API
       entries:
         - title: Get started using the Digital Advisor REST API to retrieve Keystone data
@@ -135,7 +147,7 @@ sidebar:
         - title: Get customer subscriptions using the Digital Advisor REST API
           url: /rest-api/get-customer-subscriptions.html
         - title: Get customer consumption details using the Digital Advisor REST API
-          url: /rest-api/get-customer-consumption.html                   
+          url: /rest-api/get-customer-consumption.html  
     - title: Billing
       entries:
         - title: Keystone pricing
