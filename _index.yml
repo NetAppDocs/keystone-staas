@@ -12,7 +12,9 @@ indexpage:
         - title: Install Keystone Collector on VMware vSphere
           url: /installation/vapp-installation.html
         - title: Install Keystone Collector on Linux
-          url: /installation/linux-installation.html    
+          url: /installation/linux-installation.html  
+        - title: Install Keystone Collector in private mode
+          url: /dark-sites/overview.html  
         - title: View your usage on Digital Advisor
           url: /integrations/keystone-aiq.html
         - title: Generate reports of your consumption
