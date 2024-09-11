@@ -19,6 +19,14 @@ Issues that were found in previous releases of NetApp Keystone STaaS services ha
 |===
 |Issue description |After the fix |Fixed in release
 
+a|The *From Date* field to select the date range displays a future date by default when navigating to the *Consumption Trend* tab.
+a|Fixed
+a|September 04, 2024
+//NSEKEY-10305
+a|Keystone Collector management TUI becomes unresponsive when setting up AQoS policies.
+a|Fixed
+a|August 07, 2024
+//NSEKEY-10066
 a|Usage charts display data beyond the specified single-day period when the date corresponding to the current day is selected as both the start and end date for the previous month from the *Capacity Trend* option in the *Capacity Trends* tab.
 a|Usage charts now correctly display data for the specified single-day period.
 a|June 27, 2024
