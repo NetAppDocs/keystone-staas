@@ -1,0 +1,51 @@
+---
+sidebar: sidebar
+permalink: dark-sites/install-collector.html
+keywords: install, keystone, collector, private, mode, vmware vsphere, linux, deploy, debian, rpm file
+summary: Complete a few steps to install Keystone Collector in an environment that does not have internet access, also known as a _dark site_ or _private mode_.
+---
+= Install Keystone Collector in private mode
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ../media/
+
+[.lead]
+Complete a few steps to install Keystone Collector in an environment that does not have internet access, also known as a _dark site_ or _private mode_. This type of installation is perfect for your secure sites.
+
+You can either deploy Keystone Collector on VMware vSphere systems or install it on Linux systems, depending on your requirements. Follow the installation steps that correspond to your selected option.
+
+== Deploy on VMware vSphere
+
+Follow these steps:
+
+. Download the OVA template file from https://keystone.netapp.com/downloads/KeystoneCollector-latest.ova[NetApp Keystone web portal].
+. For steps to deploy Keystone collector with OVA file, refer to the section link:../installation/vapp-installation.html#deploying-the-ova-template[Deploying the OVA template].
+
+== Install on Linux
+Keystone Collector software is installed on the Linux server using the provided .deb or .rpm files, based on the Linux distribution.
+
+Follow these steps to install the software on your Linux server:
+
+. Download or transfer the Keystone Collector installation file to the Linux server:
++
+`keystone-collector-<version>.noarch.rpm`
+. Open a terminal on the server and run the following commands to begin the installation.
+** *Using Debian package*
++
+`dpkg -i keystone-collector_<version>_all.deb`
+** *Using RPM file*
++
+`yum install keystone-collector-<version>.noarch.rpm`
++
+or
++
+`rpm -i keystone-collector-<version>.noarch.rpm`
+
+. Enter `y` when prompted to install the package.
+
+
+
+
+
