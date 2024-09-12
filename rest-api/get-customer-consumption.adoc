@@ -1,0 +1,154 @@
+---
+sidebar: sidebar
+permalink: rest-api/get-customer-consumption.html
+keywords: api, consumption, subscriptions, customerID, keystone 
+summary: This API retrieves the current consumption details for all the subscriptions associated with the given customerID.
+---
+
+= Get customer consumption details using the Digital Advisor REST API 
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ../media/
+
+[.lead]
+This API retrieves the current consumption details for all the subscriptions associated with the given customerID.
+
+*Request:*
+
+[width="100%",cols="24%,76%",]
+|===
+|*Method* |GET
+|*EndPoint*
+|https://api.activeiq.netapp.com/v1/keystone/customer/consumption-details
+
+|*Parameters* a|
+* type: "customer"
+* id: <customer-id>
+
+|*Headers* a|
+* accept: application/json
+* authorizationToken: <access_key>
+
+|===
+
+*Response:*
+The API will respond with a JSON object containing a list of all the subscriptions with the current service usage metrics for the given customer. Here's an example response:
+
+----
+{
+"result":  {
+"returned_records": "string",
+"records": [
+{
+"subscription":  {
+"account_name": "string",
+"number": "string",
+"start_date": "string",
+"end_date": "string"
+},
+"service_levels": [
+{
+"name": "string",
+"committed_tib": "string",
+"consumed_tib": "string",
+"consumed_timestamp_utc": "string",
+"burst_tib": "string",
+"accrued_burst_tib": "string"
+}
+]
+}
+],
+"request_id": "string",
+"response_time": "string"
+}
+}
+----
+
+*Status code*: 200 – Successful request
+
+*Curl example*:
+[source,curl]
+----
+curl -X 'GET' \ 'https://api.activeiq.netapp.com/v1/keystone/customer/consumption-details?type=customer&id=<customerID>' \ -H 'accept: application/json' \ -H 'authorizationToken: <access-key>'
+----
+
+== Get the historical consumption details for a customer
+This API retrieves the historical consumption details for all the subscriptions associated with the given customerID as per the time range specified.
+
+*Request:*
+
+[width="100%",cols="24%,76%",]
+|===
+|*Method* |GET
+|*EndPoint*
+|https://api.activeiq.netapp.com/v1/keystone/customer/historical-consumption-details
+
+|*Parameters* a|
+* type: "customer"
+* id: <customer-id>
+* from_date_utc: <start date(in RFC3339 format)>
+* to_date_utc: <end date(in RFC3339 format)>
+
+|*Headers* a|
+* accept: application/json
+* authorizationToken: <access_key>
+
+|===
+
+*Response:*
+
+The API will respond with a JSON object containing a list of all the subscriptions with the historical service usage metrics for the given customer in the selected time range. Here's an example response:
+
+----
+{
+"results":  {
+"returned_records": 0,
+"records": [
+{
+"subscription":  {
+"account_name": "string",
+"number": "string",
+"start_date": "2023-08-24T14:15:22Z",
+"end_date": "2023-08-24T14:15:22Z"
+},
+"service_levels": [
+{
+"name": "string",
+"historical_consumption": [
+{
+"committed_tib": 0,
+"consumed_tib": 0,
+"timestamp_utc": "2023-08-24T14:15:22Z",
+"burst_tib": 0,
+"accrued_burst_tib": 0,
+"is_invoiced": true
+}
+]
+}
+]
+}
+],
+"request_parameters":  {
+"from_date_utc": "2023-08-24",
+"to_date_utc": "2023-08-24",
+"customer_id": "string"
+},
+"request_id": "string",
+"response_time": "string",
+"customer":  {
+"name": "string",
+"id": "string"
+}
+}
+}
+----
+
+*Status code*: 200 – Successful request
+
+*Curl example*:
+[source,curl]
+----
+curl -X 'GET' \ 'https://api.activeiq-stg.netapp.com/v1/keystone/customer/historical-consumption-details? type=customer&id=<customerID>&from_date_utc=2023-08-24T14%3A15%3A22Z&t _date_utc=2023-08-24T14%3A15%3A22Z' \ -H 'accept: application/json' \ -H 'authorizationToken: <access-key>'
+----
