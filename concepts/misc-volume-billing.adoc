@@ -38,17 +38,17 @@ Additionally, all volumes created on a Keystone system with advanced data protec
 Occasionally, temporary (TMP) volumes are created by ONTAP when moving volumes. These temporary volumes are short-lived, and the consumption on these volumes is not measured for billing.
 
 == Billing and adaptive QoS policies
-Keystone measures consumption based on Service Levels. Each Service Level is associated with a specific adaptive quality of service (QoS) policy. During deployment, you will be informed of the details of each QoS policy for your subscribed Keystone services. During storage management operations, ensure that your volumes have the appropriate QoS policies assigned as per your subscribed Service Levels, to avoid unexpected billing.
-For more information about QoS policies in ONTAP, see link:https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html[Guarantee throughput with QoS overview^].
+Keystone measures consumption based on service levels. Each service level is associated with a specific adaptive quality of service (QoS) policy. During deployment, you will be informed of the details of each adaptive QoS policy for your subscribed Keystone services. During storage management operations, ensure that your volumes have the appropriate adaptive QoS policies assigned as per your subscribed service levels to avoid unexpected billing.
+For more information about adaptive QoS policies in ONTAP, see link:https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html[Guarantee throughput with QoS overview^].
 
 == Billing for SnapMirror destinations
-The pricing for the SnapMirror destination volume is governed by the QoS policy for the service level assigned on the source. However, if the source does not have an associated QoS policy, the destination is billed based on the lowest available service level.
+The pricing for the SnapMirror destination volume is governed by the adaptive QoS policy for the service level assigned on the source. However, if the source does not have an associated adaptive QoS policy, the destination is billed based on the lowest available service level.
 
 == Billing for LUNs
-For LUNs, the same billing pattern is followed as for the volumes that are governed by QoS policies. If separate QoS policies are set on LUNs, then:
+For LUNs, the same billing pattern is followed as for the volumes that are governed by adaptive QoS policies. If separate adaptive QoS policies are set on LUNs, then:
 
 *	The size of the LUN is counted for consumption according to the associated service level of that LUN.
-*	The remainder of the space in the volume, if any, is charged according to the QoS policy of the service level set on the volume.
+*	The remainder of the space in the volume, if any, is charged according to the adaptive QoS policy of the service level set on the volume.
 
 == System and root volumes
 System and root volumes are monitored as a part of the overall monitoring of the Keystone service but are not counted or billed. The consumption on these volumes is exempted for billing.
