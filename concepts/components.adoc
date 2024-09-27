@@ -40,7 +40,7 @@ A storage virtual machine (storage VM) is required for the deployment of Keyston
 Keystone Collector can be deployed through the following methods:
 
 *	VMware OVA template (VMware vCenter Server 6.7 or later is required)
-*	Customer provides Red Hat Enterprise Linux 7 or 8 or CentOS 7 Linux server. The Keystone software is installed via `.rpm` installation process.
+*	##Customer provides a Linux server running on Red Hat Enterprise Linux 8.6, or later 8.x versions, or CentOS 7. The Keystone software is installed via `.rpm` installation process.##
 
 AIOPs solution gateway is deployed on the following configuration:
 
