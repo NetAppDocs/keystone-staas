@@ -40,7 +40,7 @@ A storage virtual machine (storage VM) is required for the deployment of Keyston
 Keystone Collector can be deployed through the following methods:
 
 *	VMware OVA template (VMware vCenter Server 6.7 or later is required)
-*	Customer provides Red Hat Enterprise Linux 7 or 8 or CentOS 7 Linux server. The Keystone software is installed via `.rpm` installation process.
+*	Customer provides a Linux server running on Red Hat Enterprise Linux 8.6, or later 8.x versions, or CentOS 7. The Keystone software is installed via `.rpm` installation process.
 
 AIOPs solution gateway is deployed on the following configuration:
 
@@ -51,11 +51,7 @@ AIOPs solution gateway is deployed on the following configuration:
 **	Kernel-based Virtual Machine (Linux KVM)
 
 === Networking 
-Outbound access is required to the following services for operations and maintenance of Keystone Collector and AIOPs solution gateway:
-
-*	support.netapp.com (usage data upload)
-*	keystone.netapp.com (software updates)
-*	Hub.Docker.io (software updates)
+Outbound access to _keystone.netapp.com_ is required for software updates and usage data uploads, which are essential for the operation and maintenance of the Keystone Collector and AIOps solution gateway.
 
 Depending on customer requirements and the storage controllers used, NetApp can provide 10 GB, 40 GB, and 100 GB connectivity at the customer's site.
 
