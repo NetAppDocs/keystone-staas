@@ -17,6 +17,13 @@ Known limitations identify platforms, devices, or functions that are not support
 
 == Keystone Collector limitations
 
+=== ##Keystone Collector authentication failure with StorageGRID SSO enabled##
+##Keystone Collector does not support metering when the StorageGRID system has single sign-on (SSO) enabled. The following error message is displayed in the logs:##
+
+`panic: json: cannot unmarshal object into Go struct field AuthResponse.data of type string`
+
+##See Knowledge Base article link:https://kb.netapp.com/hybrid/Keystone/Collector/Keystone_Collector_fails_to_authenticate_with_StorageGRID_in_SSO_Mode[Keystone Collector fails to authenticate with StorageGRID in SSO Mode^] for information and resolution.##
+
 === Keystone Collector cannot start on vSphere 8.0 Update 1 
 A Keystone Collector virtual machine (VM) with VMware vSphere version 8.0 Update 1 cannot be switched on, and the following error message is displayed:
 
