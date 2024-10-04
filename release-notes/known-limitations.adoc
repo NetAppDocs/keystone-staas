@@ -10,7 +10,7 @@ summary: Known limitations identify platforms, devices, or functions that are no
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 [.lead]
 Known limitations identify platforms, devices, or functions that are not supported by Keystone STaaS services or components, or that do not interoperate correctly. Review these limitations carefully.
