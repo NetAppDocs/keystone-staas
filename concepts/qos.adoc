@@ -33,10 +33,10 @@ The Adaptive QoS (AQoS) settings vary with service levels.
 
 |===
 |*Policy name* | *Extreme* |*Premium* |*Performance* |*Standard* |*Value*
-|*##Expected IOPS/TiB##* |6,144 |2,048 |1,024 |256 |64
+|*Expected IOPS/TiB* |6,144 |2,048 |1,024 |256 |64
 |*Expected IOPS Allocation* 
 5+| Allocated space
-|*##Peak IOPS/TiB##* |12,288 |4,096 |2,048 |512 |128
+|*Peak IOPS/TiB* |12,288 |4,096 |2,048 |512 |128
 |*Peak IOPS Allocation*
 5+| Used space
 |*Block Size*
@@ -49,8 +49,8 @@ You can configure adaptive QoS (AQoS) policies to automatically scale a throughp
 
 * *Policy group name*: The name of the AQoS policy group. For example, `Keystone_extreme`. 
 * *VServer*: The name of the VServer or storage VM (storage virtual machine).
-* *##Expected IOPS/TiB##*: The minimum number of IOPS, per allocated TiB per volume, that the system attempts to provide when enough system IOPS are available. 
-* *##Peak IOPS/TiB##*: The maximum number of IOPS, per used TiB per volume, that the system allows the volume to reach before it throttles the IOPS through injection of latency. 
+* *Expected IOPS/TiB*: The minimum number of IOPS, per allocated TiB per volume, that the system attempts to provide when enough system IOPS are available. 
+* *Peak IOPS/TiB*: The maximum number of IOPS, per used TiB per volume, that the system allows the volume to reach before it throttles the IOPS through injection of latency. 
 * *Expected IOPS allocation*: This parameter controls whether the expected IOPS available to the volume is based on the allocated or used size of the volume. In Keystone, this is based on the allocated space.
 * *Peak IOPS allocation*: This parameter controls whether the peak IOPS available to the volume is based on the allocated or used size of the volume. In Keystone, this is based on the used space.
 * *Absolute minimum IOPS*: The lowest number of expected IOPS that will be applied to a volume if the volume size is very small and would otherwise result in an unacceptable number of IOPS. This value defaults to 1,000 for `Extreme`, 500 for `Premium`, and 250 for `Performance`, and 75 for `Standard` and `Value` service levels. 

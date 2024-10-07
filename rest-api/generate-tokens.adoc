@@ -36,7 +36,7 @@ The access token is used to authenticate Digital Advisor API requests. It can be
 [width="100%",cols="41%,59%",]
 |===
 |*Method* |POST
-|*Endpoint* |https://api.activeiq.netapp.com/v1/tokens/accessToken
+|*Endpoint* |`https://api.activeiq.netapp.com/v1/tokens/accessToken`
 |*Headers* a|
 * accept: application/json
 * Content-Type: application/json
