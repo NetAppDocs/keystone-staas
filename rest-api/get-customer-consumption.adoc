@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar
 permalink: rest-api/get-customer-consumption.html
-keywords: api, consumption, subscriptions, customerID, keystone 
-summary: This API retrieves the current consumption details for all the subscriptions associated with the given customerID.
+keywords: api, consumption, subscriptions, customerID, keystone, Digital Advisor
+summary: Digital Advisor REST API retrieves the current consumption details for all the subscriptions associated with the given customerID.
 ---
 
 = Get customer consumption details using the Digital Advisor REST API 

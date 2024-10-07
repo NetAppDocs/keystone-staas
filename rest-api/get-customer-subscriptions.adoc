@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: rest-api/get-customer-subscriptions.html
 keywords: subscriptions, service levels, customer IDs, keystone, api 
-summary: This API retrieves a list of all the subscriptions and service levels associated with the given customerID.
+summary: Digital Advisor REST API retrieves a list of all the subscriptions and service levels associated with the given customerID.
 ---
 
 = Get customer subscriptions using the Digital Advisor REST API

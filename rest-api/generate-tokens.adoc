@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar
 permalink: rest-api/generate-tokens.html
-keywords: Refresh token, AIQ Digital Advisor portal,access  
-summary: A refresh token is used to programmatically obtain a new set of access tokens and is good for one week or until it has been used to obtain a new set of tokens.
+keywords: Refresh token, Digital Advisor portal,access  
+summary: Generate a refresh token to acquire new access tokens. It authenticates API requests and remains valid for a week or until replaced. You can get the access token through the console or an API call.
 ---
 
 = Generate refresh and access tokens
@@ -48,7 +48,7 @@ The access token is used to authenticate Digital Advisor API requests. It can be
 
 |===
 
-NOTE: You need to have administrative privileges for Digital Advisor to access this endpoint.
+NOTE: You should have administrative privileges for Digital Advisor to access this endpoint.
 
 *Response:*
 
