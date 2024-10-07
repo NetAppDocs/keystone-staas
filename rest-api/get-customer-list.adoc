@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar
 permalink: rest-api/get-customer-list.html
-keywords: customer, keystone, api, IDs
-summary: This API retrieves a list of all the customerIDs associated with the user.
+keywords: customer, keystone, api, IDs,  Digital Advisor 
+summary:  Digital Advisor REST API retrieves a list of all the customerIDs associated with the user.
 
 ---
 
@@ -21,7 +21,7 @@ This API retrieves a list of all the customerIDs associated with the user.
 [width="100%",cols="24%,76%",]
 |===
 |*Method* |GET
-|*Endpoint* |https://api.activeiq.netapp.com/v1/keystone/customers
+|*Endpoint* |`https://api.activeiq.netapp.com/v1/keystone/customers`
 |*Headers* a|
 * accept: application/json
 * authorizationToken: <access_key>
