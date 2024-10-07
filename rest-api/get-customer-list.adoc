@@ -21,7 +21,7 @@ This API retrieves a list of all the customerIDs associated with the user.
 [width="100%",cols="24%,76%",]
 |===
 |*Method* |GET
-|*Endpoint* |https://api.activeiq.netapp.com/v1/keystone/customers
+|*Endpoint* |`https://api.activeiq.netapp.com/v1/keystone/customers`
 |*Headers* a|
 * accept: application/json
 * authorizationToken: <access_key>

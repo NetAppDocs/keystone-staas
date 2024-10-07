@@ -21,7 +21,7 @@ This API retrieves the current consumption details for all the subscriptions ass
 |===
 |*Method* |GET
 |*EndPoint*
-|https://api.activeiq.netapp.com/v1/keystone/customer/consumption-details
+|`https://api.activeiq.netapp.com/v1/keystone/customer/consumption-details`
 
 |*Parameters* a|
 * type: "customer"

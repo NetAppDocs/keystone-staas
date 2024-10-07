@@ -22,7 +22,7 @@ This API retrieves a list of all the subscriptions and service levels associated
 |===
 |*Method* |GET
 |*Endpoint*
-|https://api.activeiq.netapp.com/v1/keystone/customer/subscriptions-info
+|`https://api.activeiq.netapp.com/v1/keystone/customer/subscriptions-info`
 
 |*Parameters* a|
 * type: "customer"
