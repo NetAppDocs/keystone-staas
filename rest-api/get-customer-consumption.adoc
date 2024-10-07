@@ -83,7 +83,7 @@ This API retrieves the historical consumption details for all the subscriptions 
 |===
 |*Method* |GET
 |*EndPoint*
-|https://api.activeiq.netapp.com/v1/keystone/customer/historical-consumption-details
+|`https://api.activeiq.netapp.com/v1/keystone/customer/historical-consumption-details`
 
 |*Parameters* a|
 * type: "customer"
