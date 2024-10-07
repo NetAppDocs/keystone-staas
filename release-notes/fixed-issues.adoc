@@ -10,7 +10,7 @@ summary: Issues that were found in previous releases of NetApp Keystone STaaS se
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 [.lead]
 Issues that were found in previous releases of NetApp Keystone STaaS services have been fixed in later releases.

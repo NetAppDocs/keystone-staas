@@ -78,7 +78,7 @@ Follow these steps to upgrade ONTAP:
 . Copy the ONTAP upgrade image file to */opt/netapp/ontap-upgrade/*, then select *Start Webserver* to start the web server.
 +
 image:dark-site-start-webserver-1.png[Start Webserver option]
-. Go to http://<collector-ip>:8000 using a web browser for upgrade assistance.
+. Go to `http://<collector-ip>:8000` using a web browser for upgrade assistance.
 
 == Restart Keystone Collector
 You can restart the Keystone Collector service through the TUI. Go to *Maintenance > Restart Collector* Services in the TUI. This will reboot all collector services, and their status can be monitored from the TUI home screen.

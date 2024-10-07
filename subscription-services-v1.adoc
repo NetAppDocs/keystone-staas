@@ -10,7 +10,7 @@ summary: Keystone STaaS over Keystone Flex Subscription services
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ../media/
+:imagesdir: ./media/
 
 [.lead]
 Keystone STaaS was preceded by Keystone subscription services (previously known as Keystone Flex Subscription services). 
