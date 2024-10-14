@@ -13,10 +13,13 @@ summary: Install the Keystone Collector software from the YUM software repositor
 :imagesdir: ../media/
 
 [.lead]
-The Keystone Collector software is distributed by an online YUM software repository. You need to import and install the file on a Linux server. 
+You can install the Keystone Collector software on a Linux server using an RPM or a Debian package. Follow the installation steps depending on your Linux distribution.
 
-Follow these steps to install the software on your Linux server:
+[role="tabbed-block"]
+====
 
+.Using RPM
+--
 . SSH to the Keystone Collector server and elevate to `root` privilege.
 . Import the Keystone public signing signature: 
 `# rpm --import https://keystone.netapp.com/repo/RPM-GPG-NetApp-Keystone-20221101`
@@ -34,6 +37,23 @@ A signature for an authentic file looks like this:
 `# yum install keystonerepo.rpm`
 . When the Keystone repo is installed, install the keystone-collector package through the YUM package manager:
 `# yum install keystone-collector`
+--
+
+.##Using Debian##
+--
+. ##SSH to the Keystone Collector server and elevate to `root` privilege.##
+. ##Download the `keystone-sw-repo.deb` file:##
+`curl -O https://keystone.netapp.com/download/keystone-sw-repo.deb`
+. ##Install the Keystone software repository file:##
+`# dpkg -i keystone-sw-repo.deb`
+. ##Update the package list:##
+`# apt-get update`
+. ##When the Keystone repo is installed, install the keystone-collector package:##
+`# apt-get install keystone-collector`
+--
+
+====
+
 
 [NOTE]
 On completing the installation, you can use the Keystone Collector Management Terminal User Interface (TUI) utility to perform the configuration and monitoring activities. You can use various keyboard controls, such as the Enter and arrow keys, to select the options and navigate across this TUI. See link:../installation/configuration.html[Configure Keystone Collector] and link:../installation/monitor-health.html[Monitor system health] for information.
