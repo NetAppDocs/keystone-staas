@@ -13,7 +13,7 @@ summary: Install the Keystone Collector software from the YUM software repositor
 :imagesdir: ../media/
 
 [.lead]
-You can install the Keystone Collector software on a Linux server using an RPM or a Debian package. Follow the installation steps depending on your Linux distribution.
+##You can install the Keystone Collector software on a Linux server using an RPM or a Debian package. Follow the installation steps depending on your Linux distribution.##
 
 [role="tabbed-block"]
 ====
