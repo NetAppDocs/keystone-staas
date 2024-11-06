@@ -55,6 +55,13 @@ A sample report for the *Consumption Trend* tab, where the graphical data is con
 
 image:report_1.png[csv of report]
 
+== Generate consolidated report
+
+##You can generate and view a consolidated report for your subscriptions, historical usage, burst usage, performance, assets, and volumes and objects at the customer, cluster, watchlist, or subscription level by selecting *Keystone Subscriptions* as the report type from the Report feature in Digital Advisor. To learn more about generating reports, refer to link:https://docs.netapp.com/us-en/active-iq/task_generate_reports.html[Generate reports^].##
+
+##The report is generated in Excel format, with each type of information, such as subscription details or usage history, displayed in separate sheets named according to the tabs on the *Keystone Subscriptions* page for easy viewing. You can save the report for future use.##
+//NSEKEY-5735
+
 == View alerts
 The dashboard provides alert notifications that enable you to understand the issues occurring in your storage environment. These notifications may appear as informational alerts or warnings. For example, if there are volumes within your managed clusters that do not have adaptive QoS (AQoS) policies attached, you can see a warning message. You can click the link on the warning message to see the list of the non-compliant volumes in the *Volumes & Objects* tab.
 
