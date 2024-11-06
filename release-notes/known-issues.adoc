@@ -15,6 +15,8 @@ summary: Known issues identify problems that might prevent you from using Keysto
 [.lead]
 Known issues identify problems that might prevent you from using Keystone subscription services effectively. 
 
+The following known issue is reported in NetApp Keystone STaaS:
+
 [cols="3*",options="header"]
 |===
 |Known issue |Description |Workaround
