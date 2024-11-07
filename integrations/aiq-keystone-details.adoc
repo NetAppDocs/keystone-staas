@@ -61,7 +61,7 @@ image:report_1.png[csv of report]
 
 ##The report is generated in Excel format, with each type of information, such as subscription details or usage history, displayed in separate sheets named according to the tabs on the *Keystone Subscriptions* page for easy viewing. You can save the report for future use.##
 
-##A sample report with information displayed in separate sheets:##
+##A sample consolidated report with subscriptions details in one sheet:##
 
 image:report-consolidated.png[report generated in Excel format displaying separate sheets]
 
