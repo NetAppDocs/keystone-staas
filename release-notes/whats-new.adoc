@@ -20,7 +20,7 @@ The following enhancements are introduced in the *Keystone Subscriptions* screen
 == November 11, 2024 
 
 === ##Enhanced report generation##
-##You can now generate a consolidated report to view the details of your Keystone data using the Report feature in Digital Advisor. To learn more, refer to link:../integrations/aiq-keystone-details.html[Generate consolidated report^].##
+##You can now generate a consolidated report to view the details of your Keystone data using the Report feature in Digital Advisor. To learn more, refer to link:../integrations/aiq-keystone-details.html#generate-consolidated-report[Generate consolidated report^].##
 //NSEKEY-5735
 
 == July 10, 2024
