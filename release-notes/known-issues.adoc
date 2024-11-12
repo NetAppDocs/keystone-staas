@@ -15,8 +15,21 @@ summary: Known issues identify problems that might prevent you from using Keysto
 [.lead]
 Known issues identify problems that might prevent you from using Keystone subscription services effectively. 
 
-There are no known issues at this moment. 
+The following known issues are reported in NetApp Keystone STaaS:
 
+[cols="3*",options="header"]
+|===
+|Known issue |Description |Workaround
+
+a|Volume details unavailable for primary and linked subscriptions
+a|The *Volume Summary* tab shows zero for the total number of volumes, QoS compliance status, protected volumes count, and total consumed capacity for primary and linked secondary subscriptions.
+a|None
+//NSEKEY-11333
+a|*Volume Summary* sub-tab not loading for StorageGrid subscriptions
+a|The *Volume Summary* sub-tab in the *Volumes & Objects* tab fails to load for StorageGrid subscriptions.
+a|None
+//NSEKEY-11567
+|===
 
 
 
