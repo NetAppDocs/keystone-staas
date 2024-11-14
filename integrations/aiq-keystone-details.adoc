@@ -61,13 +61,13 @@ You can generate and view a consolidated report for your subscriptions, historic
 
 image:report-generation.png[Create report]
 
-To learn more about generating reports, refer to link:https://docs.netapp.com/us-en/active-iq/task_generate_reports.html[Generate custom reports^].
-
-The report is generated in Excel format, with each type of information, such as subscription details or usage history, displayed on separate sheets. These sheets are named according to the tabs on the *Keystone Subscriptions* page for easy viewing. You can save the report for future use.
+The report generates in Excel format, with each type of information, such as subscription details or usage history, displayed on separate sheets. These sheets are named according to the tabs on the *Keystone Subscriptions* page for easy viewing. You can save the report for future use.
 
 A sample consolidated report with subscriptions details on one sheet:
 
 image:report-consolidated.png[report generated in Excel format displaying separate sheets]
+
+To learn more about generating reports, refer to link:https://docs.netapp.com/us-en/active-iq/task_generate_reports.html[Generate custom reports^].
 
 //NSEKEY-5735
 
