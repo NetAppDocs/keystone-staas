@@ -69,8 +69,8 @@ Settings and commands for the Extreme service level:
 ....
 qos adaptive-policy-group create -policy-group <Keystone_extreme> -vserver <SVM_name> -expected-iops 6144 -peak-iops 12288 -expected-iops-allocation allocated-space -peak-iops-allocation used-space -block-size 32K -absolute-min-iops 1000
 ....
-* Minimum volume size: 100GiB, 0.1TiB
-* Maximum volume size: 10TiB
+* Recommended minimum volume size: 100GiB, 0.1TiB
+* Recommended maximum volume size: 10TiB
 
 === Settings for Premium service level
 Settings and commands for the Premium service level:
@@ -79,8 +79,8 @@ Settings and commands for the Premium service level:
 ....
 qos adaptive-policy-group create -policy-group <Keystone_premium> -vserver <SVM_name> -expected-iops 2048 -peak-iops 4096 -expected-iops-allocation allocated-space -peak-iops-allocation used-space -block-size 32K -absolute-min-iops 500
 ....
-* Minimum volume size: 500GiB, 0.5TiB
-* Maximum volume size: 50TiB
+* Recommended minimum volume size: 500GiB, 0.5TiB
+* Recommended maximum volume size: 50TiB
 
 === Settings for Performance service level
 Settings and commands for the Performance service level:
@@ -89,8 +89,8 @@ Settings and commands for the Performance service level:
 ....
 qos adaptive-policy-group create -policy-group <Keystone_performance> -vserver <SVM_name> -expected-iops 1024 -peak-iops 2048 -expected-iops-allocation allocated-space -peak-iops-allocation used-space -block-size 32K -absolute-min-iops 250
 ....
-* Minimum volume size: 500GiB, 0.5TiB
-* Maximum volume size: 80TiB
+* Recommended minimum volume size: 500GiB, 0.5TiB
+* Recommended maximum volume size: 80TiB
 
 === Settings for Standard service level
 Settings and commands for the Standard service level:
@@ -99,8 +99,8 @@ Settings and commands for the Standard service level:
 ....
 qos adaptive-policy-group create -policy-group <Keystone_standard> -vserver <SVM_name> -expected-iops 256 -peak-iops 512 -expected-iops-allocation allocated-space -peak-iops-allocation used-space -block-size 32K -absolute-min-iops 75
 ....
-* Minimum volume size: 1TiB
-* Maximum volume size: 100TiB
+* Recommended minimum volume size: 1TiB
+* Recommended maximum volume size: 100TiB
 
 === Settings for Value service level
 Settings and commands for the Value service level:
@@ -109,8 +109,8 @@ Settings and commands for the Value service level:
 ....
 qos adaptive-policy-group create -policy-group <Keystone_value> -vserver <SVM_name> -expected-iops 64 -peak-iops 128 -expected-iops-allocation allocated-space -peak-iops-allocation used-space -block-size 32K -absolute-min-iops 75
 ....
-* Minimum volume size: 1TiB
-* Maximum volume size: 100TiB
+* Recommended minimum volume size: 1TiB
+* Recommended maximum volume size: 100TiB
 
 == Block size calculation
 
