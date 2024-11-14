@@ -57,15 +57,15 @@ image:report_1.png[csv of report]
 
 == Generate consolidated report
 
-##You can generate and view a consolidated report for your subscriptions, historical usage, burst usage, performance, assets, and volumes and objects. To do this, select *Keystone Subscriptions* as the report type from the Report feature in Digital Advisor. You can generate these reports at the customer, cluster, watchlist, or subscription level.##
+You can generate and view a consolidated report for your subscriptions, historical usage, burst usage, performance, assets, and volumes and objects. To do this, select *Keystone Subscriptions* as the report type from the Report feature in Digital Advisor. You can generate these reports at the customer, cluster, watchlist, or subscription level.
 
 image:report-generation.png[Create report]
 
-##To learn more about generating reports, refer to link:https://docs.netapp.com/us-en/active-iq/task_generate_reports.html[Generate custom reports^].##
+To learn more about generating reports, refer to link:https://docs.netapp.com/us-en/active-iq/task_generate_reports.html[Generate custom reports^].
 
-##The report is generated in Excel format, with each type of information, such as subscription details or usage history, displayed on separate sheets. These sheets are named according to the tabs on the *Keystone Subscriptions* page for easy viewing. You can save the report for future use.##
+The report is generated in Excel format, with each type of information, such as subscription details or usage history, displayed on separate sheets. These sheets are named according to the tabs on the *Keystone Subscriptions* page for easy viewing. You can save the report for future use.
 
-##A sample consolidated report with subscriptions details on one sheet:##
+A sample consolidated report with subscriptions details on one sheet:
 
 image:report-consolidated.png[report generated in Excel format displaying separate sheets]
 
