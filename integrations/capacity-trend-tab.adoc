@@ -82,7 +82,7 @@ image:accr-burst-1.png[accrued burst usage charts]
 
 image:accr-burst-2.png[accrued burst usage quarterly]
 
-##If you switch from a quarterly to a monthly billing period and your subscription starts on a date other than the 1^st^, the quarterly invoice will still cover the next 90 days, with two invoices generated for the last month of the quarter. This transition allows the monthly billing period to start on the 1st of the following month. For example, if your subscription starts on October 15, you will receive two invoices in January—one for October 15 to January 14 and another for January 15 to 31—before the monthly billing period begins on February 1.##
+##If your quarterly billing period starts on a date other than the 1^st^ and you switch to monthly billing, the quarterly invoice will still cover the next 90 days, with two invoices generated for the last month of the quarter. This transition allows the monthly billing period to start on the 1st of the following month. For example, if your subscription starts on October 15, you will receive two invoices in January—one for October 15 to January 14 and another for January 15 to 31—before the monthly billing period begins on February 1.##
 
 This functionality is available in a preview-only mode. Contact your KSM to learn more about this feature.
 
