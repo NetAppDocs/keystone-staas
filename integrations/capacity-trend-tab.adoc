@@ -78,7 +78,7 @@ TIP: The invoiced accrued burst usage is calculated per billing period, based on
 
 image:accr-burst-1.png[accrued burst usage charts]
 
-##For a quarterly billing period, if the subscription starts on a date other than the 1^st^ of the month, the quarterly invoice will cover the subsequent 90-day period. And, in the last month of the quarter, you will receive two invoices: one for the current subscription period and another for the new subscription period. For instance, if your subscription starts on August 15, you will receive two invoices in October: one for August 15 to October 14 and another for October 15 to January 14.##
+##For a quarterly billing period, if the subscription starts on a date other than the 1^st^ of the month, the quarterly invoice will cover the subsequent 90-day period. And, for the last month of the quarter, you will receive two invoices: one for the current subscription period and another for the new subscription period. For example, if your subscription starts on August 15, you will receive two invoices for October: one for August 15 to October 14 and another for October 15 to January 14.##
 
 image:accr-burst-2.png[accrued burst usage quarterly]
 
