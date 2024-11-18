@@ -71,12 +71,15 @@ You can calculate the accrued burst for short periods, such as every two minutes
 The burst is the difference between the consumed capacity and the committed capacity. For example, with a 30-day in month, if the consumed capacity reaches 120 TiB and the committed capacity is 100 TiB for a 2-minute interval, this results in a burst capacity of 20 TiB, equating to an accrued burst usage of 0.000925926 TiB for that interval.
 
 == View invoiced accrued burst
-If you have selected the *Invoiced Accrued Burst* option, by default, you can see the monthly accrued burst usage data for the last 12 months that has been billed. You can query by the date range of up to past 30 months. Bar charts are displayed for invoiced data, and if the usage has not yet been billed, you see _Pending_ for that month.
+##If you have selected the *Invoiced Accrued Burst* option, you can see accrued burst usage data on a monthly or quarterly basis, depending on your selected billing period, for the last 12 months that have been billed. You can query by the date range for up to past 30 months. Bar charts display the invoiced data, and if the usage has not yet been billed, it will be marked as _Pending_ for that period.##
 
 TIP: The invoiced accrued burst usage is calculated per billing period, based on the committed and consumed capacity for a service level.
 
 
 image:accr-burst-1.png[accrued burst usage charts]
+
+##For a quarterly billing period, if the subscription starts on a date other than the 1^st^ of the month, the quarterly invoice will cover the subsequent 90-day period. The reporting for burst usage will remain aligned with the calendar month. Therefore, two invoices will be generated for the last month of the quarter to provide complete details for the entire month. For example, if the subscription begins on May 15, the quarterly invoice will cover May 15 to August 14, and there will be two invoices for August: one for August 1 to 14 and another for the new quarterly period starting from August 15.##
+
 
 This functionality is available in a preview-only mode. Contact your KSM to learn more about this feature.
 
