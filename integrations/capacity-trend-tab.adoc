@@ -71,15 +71,18 @@ You can calculate the accrued burst for short periods, such as every two minutes
 The burst is the difference between the consumed capacity and the committed capacity. For example, with a 30-day in month, if the consumed capacity reaches 120 TiB and the committed capacity is 100 TiB for a 2-minute interval, this results in a burst capacity of 20 TiB, equating to an accrued burst usage of 0.000925926 TiB for that interval.
 
 == View invoiced accrued burst
-##If you have selected the *Invoiced Accrued Burst* option, you can see accrued burst usage data on a monthly or quarterly basis, depending on your selected billing period, for the last 12 months that have been billed. You can query by the date range for up to past 30 months. Bar charts display the invoiced data, and if the usage has not yet been billed, it will be marked as _Pending_ for that period.##
+##If you have selected the *Invoiced Accrued Burst* option, you can see accrued burst usage data on a monthly or quarterly basis, depending on your selected billing period. This data is available for the last 12 months that have been billed, and you can query by the date range for up to past 30 months. Bar charts display the invoiced data, and if the usage has not yet been billed, it will be marked as _Pending_ for that period.##
 
 TIP: The invoiced accrued burst usage is calculated per billing period, based on the committed and consumed capacity for a service level.
 
 
 image:accr-burst-1.png[accrued burst usage charts]
 
-##For a quarterly billing period, if the subscription starts on a date other than the 1^st^ of the month, the quarterly invoice will cover the subsequent 90-day period. The reporting for burst usage will remain aligned with the calendar month. Therefore, two invoices will be generated for the last month of the quarter to provide complete details for the entire month. For example, if the subscription begins on May 15, the quarterly invoice will cover May 15 to August 14, and there will be two invoices for August: one for August 1 to 14 and another for the new quarterly period starting from August 15.##
+##For a quarterly billing period, if the subscription starts on a date other than the 1^st^ of the month, the quarterly invoice will cover the subsequent 90-day period. And, in the last month of the quarter, you will receive two invoices: one for the current subscription period and another for the new subscription period. For instance, if your subscription starts on August 15, you will receive two invoices in October: one for August 15 to October 14 and another for October 15 to January 14.##
 
+image:accr-burst-2.png[accrued burst usage quarterly]
+
+##If you switch from a quarterly to a monthly billing period and your subscription starts on a date other than the 1^st^, the quarterly invoice will still cover the next 90 days, with two invoices generated for the last month of the quarter. This transition allows the monthly billing period to start on the 1st of the following month. For example, if your subscription starts on October 15, you will receive two invoices in January—one for October 15 to January 14 and another for January 15 to 31—before the monthly billing period begins on February 1.##
 
 This functionality is available in a preview-only mode. Contact your KSM to learn more about this feature.
 
