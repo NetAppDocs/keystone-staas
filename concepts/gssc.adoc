@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: concepts/gssc.html
-keywords: Global Services Support Center, GSSC, Keystone support, service request, support ticket
+keywords:  Keystone support, service request, support ticket
 summary: If you need help, contact the NetApp Global Services and Support Center.
 ---
 
@@ -13,25 +13,16 @@ summary: If you need help, contact the NetApp Global Services and Support Center
 :imagesdir: ../media/
 
 [.lead]
-NetApp Global Services and Support Center (GSSC) and NetApp Keystone Success Manager (KSM) are responsible for providing you service for your Keystone subscriptions. If you need help, you can contact the support team.
+NetApp ##Keystone support team## and Keystone Success Manager (KSM) are responsible for providing you service for your Keystone subscriptions. If you need help, you can contact the ##Keystone support team##.
 
-== NetApp Global Services and Support Center
+== ##NetApp Keystone support##
 NetApp provides operational services remotely to NetApp Keystone customers. These services encompass a range of operational disciplines across storage management activities. These services include asset and configuration management, capacity and performance management, change management, event, incident and problem management, service request fulfillment, and reporting. NetApp demonstrates a state of control and supporting evidence as required.
 
-== Additional Information and Support Contact
-The NetApp Global Services and Support Center team primarily support the services to NetApp Keystone customers. You can use the following information to reach out to the support team.
-
-* Global service contacts :
-https://www.netapp.com/company/contact-us/support/[^]
-
-* If you have an open case/ticket that needs to be escalated, send an email to one of the following addresses:
-keystone.services@netapp.com
-keystone.escalations@netapp.com
-
-* NetApp uses AIOPs solution to proactively monitor and connect to the NetApp Keystone environment for troubleshooting. 
+== Additional information 
+NetApp uses ITOM monitoring solution to proactively monitor and connect to the NetApp Keystone environment for troubleshooting. 
 
 [NOTE]
-In a partner-operated model, the tenant and subtenant's service requests are assigned to the partner's service desk. The partner's support tool might have integration with AIOPs solution and GSSC applications. Only L3 issues are escalated to NetApp through GSSC.
+##In a partner-operated model, the tenant and subtenant's service requests are assigned to the partner's service desk. The partner's support tool might have integration with ITOM solution.##
 
 For more information about Keystone services, see:
 
@@ -40,9 +31,8 @@ For more information about Keystone services, see:
 * NetApp Product Documentation
  https://docs.netapp.com[https://docs.netapp.com^]
 
-== GSSC monitoring
-NetApp Global Services and Support Center monitors the health of your products and subscribed services, provides remote support, and collaborates with your Keystone Success Manager. All personnel monitoring the products associated with the relevant Keystone subscription orders are U.S citizens operating on U.S. soil.
-
+== ##Keystone support monitoring##
+##NetApp Keystone support## monitors the health of your products and subscribed services, provides remote support, and collaborates with your Keystone Success Manager.
 .Keystone Success Manager
 The Keystone Success Manager (KSM) works closely with you on your Keystone services and updates you on weekly or monthly billing and operational reports. The responsibilities are specified in your NetApp Keystone agreement.
 
@@ -51,6 +41,7 @@ During onboarding, if you were provided credentials for accessing and using Neta
 
 https://netappgssc.service-now.com/csm[^]
 
-Ensure that you have the system details, logs, and related information ready before raising the service request. When you raise a service request, the GSSC team receives the support ticket and accesses the information for troubleshooting. You can follow your ServiceNow ticket to know the status and resolution.
+Ensure that you have the system details, logs, and related information ready before raising the service request. When you raise a service request, the ##Keystone support## team receives the support ticket and accesses the information for troubleshooting. You can follow your ServiceNow ticket to know the status and resolution.
 
 For information about adding support bundles, see link:../installation/monitor-health.html[Generate and collect support bundle].
+
