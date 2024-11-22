@@ -25,10 +25,10 @@ a|Volume details unavailable for primary and linked subscriptions
 a|The *Volume Summary* tab shows zero for the total number of volumes, QoS compliance status, protected volumes count, and total consumed capacity for primary and linked secondary subscriptions.
 a|None
 //NSEKEY-11333
-a|*Volume Summary* sub-tab not loading for StorageGrid subscriptions
-a|The *Volume Summary* sub-tab in the *Volumes & Objects* tab fails to load for StorageGrid subscriptions.
+a|Unable to generate reports for subscriptions
+a|When more than 10-12 subscriptions are selected from the *Subscriptions* tab on the *Keystone Subscriptions* page, the report fails to generate when clicking the *Download CSV* button with the *Include data for each service level* option.
 a|None
-//NSEKEY-11567
+//NSEKEY-11636
 |===
 
 
