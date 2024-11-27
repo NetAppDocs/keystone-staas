@@ -1,0 +1,42 @@
+---
+sidebar: sidebar
+permalink: installation/install-itom-linux.html
+keywords: Linux installation, ITOM Collector installation
+summary: Install the ITOM Collector software on Linux based systems.
+---
+
+= Install ITOM Collector on Linux systems
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ../media/
+
+[.lead]
+Complete a few steps to install ITOM Collector, which will collect metrics data in your storage environment. You can install it on either Windows or Linux systems, depending on your requirements.
+
+NOTE: Keystone support team provides a dynamic link to download the ITOM Collector setup file, which expires in two hours.
+
+Follow these steps to install ITOM collector software on your Linux system:
+
+.Before you begin
+
+* Verify that the Bourne shell is available for the Linux installation script.
+* Install the `vim-common` package to get the *xxd* binary required for the ITOM Collector setup file.
+* Ensure the `sudo package` is installed if planning to run ITOM Collector as a non-root user.
+
+
+.Steps
+
+. Download the ITOM collector setup file to your Linux server. 
+. Open a terminal on the server and run the following command to change the permissions and make the binaries executable:
+`# chmod +x <installer-file>.bin`
+. Run the command to start the ITOM collector setup file:
+`#./<installer-file>.bin`
++
+NOTE: The ITOM Collector setup file will make additions to `/etc/sudoers` to handle service restarts and memory dumps. 
+
+Installing ITOM Collector on the Linux server creates a default user called *ITOM* to run the Collector without root privileges. You can choose a different user or run it as root, but it is recommended to use the ITOM user created by the Linux installation script.
+
+.What's next?
+On successful installation, contact the Keystone support team to validate the successful installation of ITOM Collector through the ITOM support portal. After verification, the Keystone support team will configure the ITOM Collector remotely, including further device discovery and monitoring setup, and will send a confirmation once the configuration is complete. For any queries or additional information, contact keystone.services@netapp.com.

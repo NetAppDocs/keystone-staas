@@ -54,6 +54,14 @@ sidebar:
               url: /installation/validation.html
         - title: Configure Keystone Collector
           url: /installation/configuration.html
+        - title: Install ITOM Collector
+          entries:
+            - title: Prepare for installation
+              url: /installation/itom-prereqs.html
+            - title: Install on Linux
+              url: /installation/install-itom-linux.html
+            - title: Install on Windows
+              url: /installation/install-itom-windows.html
         - title: Configure AutoSupport
           url: /installation/asup-config.html
         - title: Keystone Collector security

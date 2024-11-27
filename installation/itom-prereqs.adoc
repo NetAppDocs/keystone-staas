@@ -1,0 +1,91 @@
+---
+sidebar: sidebar
+permalink: installation/itom-prereqs.html
+keywords: prerequisites, ITOM, 
+summary: Your systems must meet several requirements before you can install ITOM Collector.
+---
+
+= Installation requirements for ITOM Collector
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ../media/
+
+[.lead]
+Before installing ITOM Collector, ensure that your systems are prepared with the necessary software and meet all required prerequisites. 
+
+.Prerequisites for the ITOM Collector server VM:
+
+* Supported operating system: Debian, Windows Server, Ubuntu, RHEL, Amazon Linux
++
+NOTE: The recommended operating system is Debian or Windows Server.
+* Resource requirement: The VM resource requirements based on the number of NetApp nodes monitored are as follows:
++
+** 2-10 nodes: 4 CPUs, 8 GB RAM, 40 GB Disk
+** 12-20 nodes: 8 CPUs, 16 GB RAM, 40 GB Disk
+* Configuration requirement: Ensure that a read-only account and SNMP are configured on the monitored devices. The ITOM Collector server VM also needs to be configured as an SNMP trap host and Syslog server on the NetApp cluster and cluster switches, if applicable.
+
+== Networking Requirements
+
+The networking requirements of ITOM Collector are listed in the following table.
+
+|===
+
+|Source |Destination |Service |Protocol|Ports |Description 
+
+|ITOM Collector
+|NetApp ONTAP cluster management IPs
+|HTTPS, SNMP
+|TCP 443, UDP 161
+|Monitoring of ONTAP controllers
+
+|NetApp ONTAP cluster and node management IPs
+|ITOM Collector
+|SNMP, Syslog
+|UDP 162, UDP 514
+|SNMP traps and Syslogs from controllers
+
+|ITOM Collector
+|Cluster switches
+|SNMP
+|UDP 161
+|Monitoring of switches
+
+|Cluster switches
+|ITOM Collector
+|SNMP, Syslog
+|UDP 162, UDP 514
+|SNMP traps and Syslogs from switches
+
+|ITOM Collector
+|StorageGRID nodes IPs
+|HTTPS, SNMP
+|TCP 443, UDP 161
+|SNMP monitoring of StorageGRID
+
+|StorageGRID nodes IPs
+|ITOM Collector
+|SNMP, Syslog
+|UDP 162, UDP 514
+|SNMP traps from StorageGRID
+
+|ITOM Collector
+|Keystone Collector
+|SSH, HTTPS, SNMP
+|TCP 22, TCP 443, UDP 161
+|Keystone Collector monitoring and remote management
+
+|ITOM Collector
+|Local DNS
+|DNS
+|UDP 53
+|Public or private DNS services
+
+|ITOM Collector
+|NTP server(s) of choice
+|NTP
+|UDP 123
+|Time keeping
+
+|===
