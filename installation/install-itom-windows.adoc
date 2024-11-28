@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: installation/install-itom-windows.html
-keywords: Linux installation Keystone, Linux Collector installation
+keywords: Windows installation Keystone, ITOM Collector installation
 summary: Install ITOM Collector on a Windows based systems.
 ---
 
@@ -13,11 +13,13 @@ summary: Install ITOM Collector on a Windows based systems.
 :imagesdir: ../media/
 
 [.lead]
-Install ITOM Collector on a Windows system by downloading the ITOM Collector setup file, running the InstallShield wizard, and entering the required monitoring credentials.
+Install ITOM Collector on a Windows system by downloading the ITOM Collector setup file, running the InstallShield wizard, and entering the required monitoring credentials. You can install it on Linux systems.
 
 NOTE: Keystone support team provides a dynamic link to download the ITOM Collector setup file, which expires in two hours.
 
-Follow these steps to install ITOM collector software on your Windows system:
+To install ITOM Collector on Linux systems, refer to link:..installation/install-itom-linux.html[Install ITOM Collector on Linux systems].
+
+Follow these steps to install ITOM collector software on your Windows server:
 
 .Before you begin
 
@@ -25,14 +27,14 @@ Ensure ITOM Collector is granted *Log on as a service* under Local Policy/User R
 
 .Steps
 
-. Download the ITOM collector setup file to your Windows system.
+. Download the ITOM collector setup file to your Windows server.
 +
 NOTE: The InstallShield wizard will extract the necessary binaries and prompt you to enter credentials.
 . Enter the credentials for the account that ITOM Collector will run under:
 +
-** If ITOM Collector is not monitoring other Windows systems, use local system.
-** If the ITOM Collector is monitoring other Windows systems in the same domain, use a domain account with local administrator permissions.
-** If the ITOM Collector is monitoring other Windows systems that are not part of the same domain, use a local administrator account and connect to each resource with local administrator credentials. You may choose to set the password so that it does not expire, to reduce authentication issues between ITOM Collector and its monitored resources.
+** If ITOM Collector is not monitoring other Windows servers, use local system.
+** If ITOM Collector is monitoring other Windows servers in the same domain, use a domain account with local administrator permissions.
+** If ITOM Collector is monitoring other Windows servers that are not part of the same domain, use a local administrator account and connect to each resource with local administrator credentials. You may choose to set the password so that it does not expire, to reduce authentication issues between ITOM Collector and its monitored resources.
 
 .What's next?
 On successful installation, contact the Keystone support team to validate the successful installation of ITOM Collector through the ITOM support portal. After verification, the Keystone support team will configure the ITOM Collector remotely, including further device discovery and monitoring setup, and will send a confirmation once the configuration is complete. For any queries or additional information, contact keystone.services@netapp.com.

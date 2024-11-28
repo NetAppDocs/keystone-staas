@@ -26,19 +26,19 @@ NOTE: The recommended operating system is Debian or Windows Server.
 ** 12-20 nodes: 8 CPUs, 16 GB RAM, 40 GB Disk
 * Configuration requirement: Ensure that a read-only account and SNMP are configured on the monitored devices. The ITOM Collector server VM also needs to be configured as an SNMP trap host and Syslog server on the NetApp cluster and cluster switches, if applicable.
 
-== Networking Requirements
+== Networking requirements
 
 The networking requirements of ITOM Collector are listed in the following table.
 
 |===
 
-|Source |Destination |Service |Protocol|Ports |Description 
+|Source |Destination |Protocol |Ports |Description 
 
 |ITOM Collector
 |NetApp ONTAP cluster management IPs
 |HTTPS, SNMP
 |TCP 443, UDP 161
-|Monitoring of ONTAP controllers
+|Monitoring of the ONTAP controllers
 
 |NetApp ONTAP cluster and node management IPs
 |ITOM Collector
