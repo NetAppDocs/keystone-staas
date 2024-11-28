@@ -19,7 +19,7 @@ The data in Keystone STaaS systems flows through Keystone Collector and the ##IT
 
 Keystone Collector initiates REST API calls to the storage controllers and obtains usage details of the controllers periodically, as indicated in this flow diagram:
 
-image:collector-data-flow-1.png[shows data flow within collector components] 
+image:collector-data-flow-2.png[shows data flow within collector components] 
 
 .Legend
 
@@ -44,5 +44,5 @@ image:monitoring-flow-1.png[data flow]
 . The local gateway sends these alerts to its cloud portal using the TLS session, which was established before.
 
 == ##Compliance standards##
-##Keystone ITOM Monitoring Solution complies with the European Union General Data Protection Regulation (GDPR) and the California Consumer Privacy Act (CCPA). It also provides a link:https://www.logicmonitor.com/legal/data-processing-addendum[Data Protection Addendum (DPA)^] to document these commitments. No personal data will be collected or stored by the ITOM monitoring solution.##
+##Keystone ITOM monitoring solution complies with the European Union General Data Protection Regulation (GDPR) and the California Consumer Privacy Act (CCPA). It also provides a link:https://www.logicmonitor.com/legal/data-processing-addendum[Data Protection Addendum (DPA)^] to document these commitments. The ITOM monitoring solution does not collect or store any personal data..##
 
