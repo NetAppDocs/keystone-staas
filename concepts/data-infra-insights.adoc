@@ -1,0 +1,71 @@
+---
+sidebar: sidebar
+permalink: concepts/data-infra-insights.html
+keywords: add-on services, add-on, data infrastructure insights, DII
+summary: Data Infrastructure Insights boosts Keystone STaaS efficiency by monitoring, troubleshooting, and optimizing storage in public clouds and private data centers.
+---
+
+= Learn about Data Infrastructure Insights
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ../media/
+
+[.lead]
+NetApp Data Infrastructure Insights (DII, formerly known as Cloud Insights) is an add-on offering for Keystone STaaS. It enhances the efficiency of Keystone-provided storage resources across public clouds and private data centers through its monitoring, troubleshooting, and optimization capabilities.
+
+To learn more about Data Infrastructure Insights, refer to link:https://docs.netapp.com/us-en/data-infrastructure-insights/[Data Infrastructure Insights documentation^].
+
+DII is available for both new and existing subscriptions. It can be integrated into a Keystone subscription as an add-on for the committed capacity. When DII is integrated into a Keystone subscription, it will have a corresponding service level for each base service level in the subscription. For example, Extreme maps to DII Extreme, Premium maps to DII Premium, and Performance maps to DII Performance. These mappings ensure that the DII service level aligns with the base service level of your Keystone subscription.
+
+A view of DII service levels within a *Keystone Subscriptions* widget on the Digital Advisor dashboard:
+
+image:keystone-widget-dii.png[Screenshot of Keystone Subscriptions widget that shows DII service levels]
+
+== Billing and metering
+The following outlines the billing and metering details of the DII add-on service:
+
+* This service is measured in the same way as your main subscription. For example, if your main subscription includes 100 TiB of Extreme service and 100 TiB of Premium service, both measured on a logical usage basis, the add-on services, DII Extreme 100 TiB and DII Premium 100 TiB, are also measured on a logical usage basis. If your main subscription is measured on a provisioned basis, the add-on service is measured the same way for the same capacity. The add-on service will follow the same measurement method as your main subscription.
++
+image:current-consumption-dii.png[Screenshot of the current consumption tab displaying the metering of service levels]
+
+* This service is metered and invoiced along with your Keystone subscription on the same invoice. If you configure DII for Keystone before activating your Keystone subscription, billing still begins from the Keystone subscription activation date, or the modification date for existing subscriptions.
+
+* This service is metered and invoiced based on both committed capacity and burst usage for DII service levels, in addition to the standard Keystone invoice. The metering of this add-on service follows the same methodology as the underlying Keystone subscription service level, which could be logical, provisioned, or physical.
+
+* This service ends with the Keystone subscription to which it is linked. At renewal, you can choose whether to renew the add-on service. If you don't renew the Keystone subscription, the monitored hardware is decommissioned, and the add-on service automatically terminates.
+
+== Deployment of DII for Keystone
+Customers can integrate DII for Keystone in two ways: either as part of an existing instance that monitors other non-Keystone environments, or as part of a new instance. It is the customer's responsibility to set up DII. If help is needed for setting up DII in a complex environment, the account team can engage NetApp Professional Services.
+
+To set up DII, refer to link: https://docs.netapp.com/us-en/data-infrastructure-insights/task_cloud_insights_onboarding_1.html[Data Infrastructure Insights onboarding^].
+
+Note the following:
+
+* If the customer is starting a new DII instance, it is recommended to begin with a link:https://docs.netapp.com/us-en/data-infrastructure-insights/task_cloud_insights_onboarding_1.html#starting-your-data-infrastructure-insights-free-trial[DII free trial^]. To learn about this feature and the required startup checklist, refer to link:https://docs.netapp.com/us-en/data-infrastructure-insights/concept_feature_tutorials.html[Feature Tutorials^].
+
+
+* For each site, an Acquisition Unit is required. To install an Acquisition Unit, refer to link:https://docs.netapp.com/us-en/data-infrastructure-insights/task_getting_started_with_cloud_insights.html#install-an-acquisition-unit[Install an Acquisition Unit^].
+
+* For each storage hardware deployed, the customer must configure a data collector on the Acquisition Unit. To configure data collectors, refer to link:https://docs.netapp.com/us-en/data-infrastructure-insights/task_configure_data_collectors.html[Configure Data Collectors^]. The required data collectors for Keystone storage, based on the underlying hardware, are as follows:
++
+|===
+| Storage hardware | Data collector
+
+| ONTAP Systems
+| NetApp ONTAP Data Management Software
+
+| StorageGRID
+| NetApp StorageGRID
+
+| CVO
+| NetApp Cloud Volumes ONTAP
+|===
+Once configured, the DII instance will begin monitoring Keystone storage.
+
+* If the customer already has a DII instance and Acquisition Unit set up, they can proceed with configuring the data collector.
+
+* Approved NetApp Support team members can access the customer's DII instance if the customer enables the *Allow NetApp Access to your Data Infrastructure Insights Environment* option. To do so, go to *Help > Support*, and enable the option. Customers can also grant access to internal or external users by adding them.
+
+
