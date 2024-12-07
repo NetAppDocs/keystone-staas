@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: concepts/data-infra-insights.html
-keywords: add-on services, add-on, data infrastructure insights, DII
+keywords: add-on services, add-on, data infrastructure insights, DII, deployment of DII
 summary: Data Infrastructure Insights boosts Keystone STaaS efficiency by monitoring, troubleshooting, and optimizing storage in public clouds and private data centers.
 ---
 
@@ -37,7 +37,7 @@ image:current-consumption-dii.png[Screenshot of the current consumption tab disp
 * This service ends with the Keystone subscription to which it is linked. At renewal, you can choose whether to renew the add-on service. If you don't renew the Keystone subscription, the monitored hardware is decommissioned, and the add-on service automatically terminates.
 
 == Deployment of DII for Keystone
-Customers can integrate DII for Keystone in two ways: either as part of an existing instance that monitors other non-Keystone environments, or as part of a new instance. It is the customer's responsibility to set up DII. If help is needed for setting up DII in a complex environment, the account team can engage NetApp Professional Services.
+Customers can integrate DII for Keystone in two ways: either as part of an existing instance that monitors other non-Keystone environments, or as part of a new instance. It is the customer's responsibility to set up DII. If help is needed for setting up DII in a complex environment, the account team can engage link:https://www.netapp.com/services/[NetApp Professional Services^].
 
 To set up DII, refer to link: https://docs.netapp.com/us-en/data-infrastructure-insights/task_cloud_insights_onboarding_1.html[Data Infrastructure Insights onboarding^].
 
@@ -59,13 +59,22 @@ Note the following:
 | StorageGRID
 | NetApp StorageGRID
 
-| CVO
+| Cloud Volumes ONTAP
 | NetApp Cloud Volumes ONTAP
 |===
 Once configured, the DII instance will begin monitoring Keystone storage.
 
 * If the customer already has a DII instance and Acquisition Unit set up, they can proceed with configuring the data collector.
 
-* Approved NetApp Support team members can access the customer's DII instance if the customer enables the *Allow NetApp Access to your Data Infrastructure Insights Environment* option. To do so, go to *Help > Support*, and enable the option. Customers can also grant access to internal or external users by adding them.
+== Support and user access
+Approved NetApp Support team members can access the customer's DII instance if the customer enables the *Allow NetApp Access to your Data Infrastructure Insights Environment* option. To do so, go to *Help > Support*, and enable the option.
+
+image:dii-support-permission.png[Screenshot demonstrating how the customer can enable the option]
+
+Customers can grant access to internal or external users from *User Management* using the image:dii-user-option.png[user button] option.
+
+image:dii-user-access.png[Screenshot showing the option of adding user]
+
+
 
 
