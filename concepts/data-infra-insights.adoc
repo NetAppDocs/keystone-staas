@@ -71,7 +71,7 @@ Approved NetApp Support team members can access the customer's DII instance if t
 
 image:dii-support-permission.png[Screenshot demonstrating how the customer can enable the option]
 
-Customers can grant access to internal or external users from *User Management* using the image:dii-user-option.png[user button] option.
+Customers can provide access to internal or external users from *User Management* using the image:dii-user-option.png[user button] option.
 
 image:dii-user-access.png[Screenshot showing the option of adding user]
 
