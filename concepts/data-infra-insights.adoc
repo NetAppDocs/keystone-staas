@@ -15,7 +15,7 @@ summary: Data Infrastructure Insights boosts Keystone STaaS efficiency by monito
 [.lead]
 NetApp Data Infrastructure Insights (DII, formerly known as Cloud Insights) is an add-on offering for Keystone STaaS. It enhances the efficiency of Keystone-provided storage resources across public clouds and private data centers through its monitoring, troubleshooting, and optimization capabilities.
 
-To learn more about Data Infrastructure Insights, refer to https://docs.netapp.com/us-en/data-infrastructure-insights/[Data Infrastructure Insights documentation^].
+To learn more about Data Infrastructure Insights, refer to link:https://docs.netapp.com/us-en/data-infrastructure-insights/[Data Infrastructure Insights documentation^].
 
 DII is available for both new and existing subscriptions. It can be integrated into a Keystone subscription as an add-on for the committed capacity. When DII is integrated into a Keystone subscription, it will have a corresponding service level for each base service level in the subscription. For example, Extreme maps to DII Extreme, Premium maps to DII Premium, and Performance maps to DII Performance. These mappings ensure that the DII service level aligns with the base service level of your Keystone subscription.
 
@@ -39,7 +39,7 @@ image:current-consumption-dii.png[Screenshot of the current consumption tab disp
 == Deployment of DII for Keystone
 Customers can integrate DII for Keystone in two ways: either as part of an existing instance that monitors other non-Keystone environments, or as part of a new instance. It is the customer's responsibility to set up DII. If help is needed for setting up DII in a complex environment, the account team can engage link:https://www.netapp.com/services/[NetApp Professional Services^].
 
-To set up DII, refer to link: https://docs.netapp.com/us-en/data-infrastructure-insights/task_cloud_insights_onboarding_1.html[Data Infrastructure Insights onboarding^].
+To set up DII, refer to link:https://docs.netapp.com/us-en/data-infrastructure-insights/task_cloud_insights_onboarding_1.html[Data Infrastructure Insights onboarding^].
 
 Note the following:
 
