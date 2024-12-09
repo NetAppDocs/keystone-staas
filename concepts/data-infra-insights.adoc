@@ -15,7 +15,7 @@ summary: Data Infrastructure Insights boosts Keystone STaaS efficiency by monito
 [.lead]
 NetApp Data Infrastructure Insights (DII, formerly known as Cloud Insights) is an add-on offering for Keystone STaaS. It enhances the efficiency of Keystone-provided storage resources across public clouds and private data centers through its monitoring, troubleshooting, and optimization capabilities.
 
-To learn more about Data Infrastructure Insights, refer to link:https://docs.netapp.com/us-en/data-infrastructure-insights/[Data Infrastructure Insights documentation^].
+To learn more about Data Infrastructure Insights, refer to https://docs.netapp.com/us-en/data-infrastructure-insights/[Data Infrastructure Insights documentation^].
 
 DII is available for both new and existing subscriptions. It can be integrated into a Keystone subscription as an add-on for the committed capacity. When DII is integrated into a Keystone subscription, it will have a corresponding service level for each base service level in the subscription. For example, Extreme maps to DII Extreme, Premium maps to DII Premium, and Performance maps to DII Performance. These mappings ensure that the DII service level aligns with the base service level of your Keystone subscription.
 
@@ -71,7 +71,7 @@ Approved NetApp Support team members can access the customer's DII instance if t
 
 image:dii-support-permission.png[Screenshot demonstrating how the customer can enable the option]
 
-Customers can provide access to internal or external users from *User Management* using the image:dii-user-option.png[user button] option.
+Customers can provide access to internal or external users from the *User Management* screen using the image:dii-user-option.png[user button] option.
 
 image:dii-user-access.png[Screenshot showing the option of adding user]
 
