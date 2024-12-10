@@ -28,7 +28,7 @@ The following enhancements are introduced in the *Keystone Subscriptions* screen
 //NSEKEY-11756
 
 === New Hide/Show Columns option
-##The *Volume Details* tab within *Volumes & Objects* now includes a *Hide/Show Columns* option. This option enables you to select or deselect columns to customize the tabular listing according to your preference.To learn more, refer to link:../integrations/volumes-objects-tab.html[Volumes & Objects tab^].##
+##The *Volume Details* tab within *Volumes & Objects* now includes a *Hide/Show Columns* option. This option enables you to select or deselect columns to customize the tabular listing of volumes according to your preference. To learn more, refer to link:../integrations/volumes-objects-tab.html[Volumes & Objects tab^].##
 //NSEKEY-12126, NSEKEY-12128
 
 == November 21, 2024
