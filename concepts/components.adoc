@@ -42,15 +42,12 @@ Keystone Collector can be deployed through the following methods:
 *	VMware OVA template (VMware vCenter Server 6.7 or later is required)
 *	Customer provides a Linux server running on Red Hat Enterprise Linux 8.6, or later 8.x versions, or CentOS 7. The Keystone software is installed via `.rpm` installation process.
 
-##ITOM Collector can be deployed on the following configuration:##
+##ITOM Collector can be deployed through the following methods:##
 
-* ##Supported operating system: Debian, Windows Server, Ubuntu, RHEL, Amazon Linux##
+* Customer provides a Linux server running on Debian 12, Ubuntu 20.04 LTS, Red Hat Enterprise Linux (RHEL) 8.x, Amazon Linux 2023, or newer versions.
+* Customer provides a Windows server running Windows Server 2016 or newer versions.
 +
-TIP: ##The recommended operating system is Debian or Windows Server.##
-* ##VM resource requirement: The VM resource requirements based on the number of NetApp nodes monitored are as follows:##
-+
-** ##*2-10 nodes*: 4 CPUs, 8 GB RAM, 40 GB Disk##
-** ##*12-20 nodes*: 8 CPUs, 16 GB RAM, 40 GB Disk##
+TIP: ##The recommended operating systems are Debian 12, Windows Server 2016, or newer versions.##
 
 === Networking 
 Outbound access to _keystone.netapp.com_ is required for software updates and usage data uploads, which are essential for the operation and maintenance of the Keystone Collector and AIOps solution gateway.

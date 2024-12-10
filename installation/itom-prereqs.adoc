@@ -17,9 +17,10 @@ Before installing ITOM Collector, ensure that your systems are prepared with the
 
 .Prerequisites for the ITOM Collector server VM:
 
-* Supported operating system: Debian, Windows Server, Ubuntu, RHEL, Amazon Linux
+* Supported operating system: Debian 12, Windows Server 2016, Ubuntu 20.04 LTS, Red Hat Enterprise Linux (RHEL) 8.x, Amazon Linux 2023, or newer versions of these operating systems.
 +
-NOTE: The recommended operating system is Debian or Windows Server.
+NOTE: The recommended operating systems are Debian 12, Windows Server 2016, or newer versions.
++
 * Resource requirement: The VM resource requirements based on the number of NetApp nodes monitored are as follows:
 +
 ** 2-10 nodes: 4 CPUs, 8 GB RAM, 40 GB Disk

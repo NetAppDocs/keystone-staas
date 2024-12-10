@@ -30,7 +30,7 @@ image:collector-data-flow-2.png[shows data flow within collector components]
 
 == Monitoring data flows
 
-Monitoring the health of the storage infrastructure continuously is one of the most important features of Keystone service. For monitoring and reporting, Keystone uses ##ITOM monitoring solution##, which needs remote access to customer's network. The following image describes how remote access to the customer location is secured by the ##ITOM monitoring solution##.
+##Monitoring the health of the storage infrastructure continuously is one of the most important features of Keystone service. For monitoring and reporting, Keystone uses ITOM monitoring solution. The following image describes how remote access to the customer location is secured by the ITOM monitoring solution. Customers can opt to enable the remote session feature, which allows the Keystone support team to connect to monitored devices for troubleshooting.##
 
 image:monitoring-flow-1.png[data flow]
 
@@ -39,8 +39,8 @@ image:monitoring-flow-1.png[data flow]
 . The ##ITOM monitoring solution## gateway initiates a TLS session to the cloud portal.
 . The firewall operated by the customer allows the connection.
 . The ##ITOM monitoring solution## server in the cloud accepts the connection.
-. A TLS tunnel is established between the cloud portal and the local gateway.
-. The NetApp controllers send alerts using SNMP protocol or respond to API requests to the local gateway.
+. ##A TLS session is established between the cloud portal and the local gateway.##
+. ##The NetApp controllers send alerts using SNMP/Syslog protocol or respond to API requests to the local gateway.##
 . The local gateway sends these alerts to its cloud portal using the TLS session, which was established before.
 
 == ##Compliance standards##
