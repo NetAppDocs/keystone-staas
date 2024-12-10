@@ -34,7 +34,7 @@ You should provide the required power. NetApp will provide the power requirement
 NetApp can provide the cooling requirement specifications (Typical BTU, Max BTU), based on the final configuration and requirement.
 
 === ##Virtual machines##
-Virtual machines are required for the deployment of Keystone Collector and ITOM Collector. For installation prerequisites, refer to link:../installation/installation-overview.html[Installation guide for Keystone Collector] and link:..installation/itom-prereqs.html[Installation requirements for ITOM Collector]. The other requirements are shared during deployment.
+##Virtual machines are required for the deployment of Keystone Collector and ITOM Collector. For installation prerequisites, refer to link:../installation/installation-overview.html[Installation guide for Keystone Collector] and link:..installation/itom-prereqs.html[Installation requirements for ITOM Collector]. The other requirements are shared during deployment.##
 
 === Deployment Options
 Keystone Collector can be deployed through the following methods:
@@ -44,8 +44,8 @@ Keystone Collector can be deployed through the following methods:
 
 ##ITOM Collector can be deployed through the following methods:##
 
-* Customer provides a Linux server running on Debian 12, Ubuntu 20.04 LTS, Red Hat Enterprise Linux (RHEL) 8.x, Amazon Linux 2023, or newer versions.
-* Customer provides a Windows server running Windows Server 2016 or newer versions.
+* ##Customer provides a Linux server running on Debian 12, Ubuntu 20.04 LTS, Red Hat Enterprise Linux (RHEL) 8.x, Amazon Linux 2023, or newer versions.##
+*## Customer provides a Windows server running Windows Server 2016 or newer versions.##
 +
 TIP: ##The recommended operating systems are Debian 12, Windows Server 2016, or newer versions.##
 

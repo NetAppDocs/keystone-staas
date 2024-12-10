@@ -36,11 +36,11 @@ Follow these steps to install software on your Linux server:
 . Run the command to start the ITOM collector setup file:
 `#./<installer_file_name>.bin`
 . Running the setup file prompts you to:
-* Accept the end-user license agreement (EULA).
-* Enter the user details for the installation.
-* Specify the installation parent directory.
-* Choose the collector size.
-* Provide proxy details, if applicable.
+.. Accept the end-user license agreement (EULA).
+.. Enter the user details for the installation.
+.. Specify the installation parent directory.
+.. Select the collector size.
+.. Provide proxy details, if applicable.
 +
 For each prompt, a default option is displayed. It is recommended to select the default option unless you have specific requirements. Press the *Enter* key to choose the default option. When the installation completes, a message confirms that the ITOM Collector is installed successfully.
 
