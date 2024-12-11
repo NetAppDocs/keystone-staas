@@ -13,9 +13,9 @@ summary: Use the Assets tab to view details of ONTAP clusters and nodes, and Sto
 :imagesdir: ../media/
 
 [.lead]
-##Use the *Assets* tab to view details of ONTAP clusters and nodes, and StorageGRID grids, sites, and nodes managed by your Keystone subscriptions.##
+Use the *Assets* tab to view details of ONTAP clusters and nodes, and StorageGRID grids, sites, and nodes managed by your Keystone subscriptions.
 
-##The *Assets* tab of the Keystone dashboard includes two sub-tabs: *ONTAP* and *StorageGRID*. This tab accumulates cluster-level information for ONTAP and grid-level information for StorageGRID based on your subscriptions, segregating and presenting the data with accurate details. You can view this information by clicking on the respective sub-tabs.##
+The *Assets* tab of the Keystone dashboard includes two sub-tabs: *ONTAP* and *StorageGRID*. This tab accumulates cluster-level information for ONTAP and grid-level information for StorageGRID based on your subscriptions, segregating and presenting the data with accurate details. You can view this information by clicking on the respective sub-tabs.
 
 [role="tabbed-block"]
 ====
@@ -25,7 +25,7 @@ summary: Use the Assets tab to view details of ONTAP clusters and nodes, and Sto
 . Click *GENERAL > Keystone Subscriptions > Assets > ONTAP*.
 . Select the subscription number for which you want to view the clusters.
 +
-You see the cluster details, broken down by storage efficiency settings, platform type, and capacity details. Clicking on one of the clusters takes you to the *Clusters* widget on the Digital Advisor screen, where you get additional information for that cluster.## Digital Advisor provides a comprehensive inventory-level information of your deployments.##
+You see the cluster details, broken down by storage efficiency settings, platform type, and capacity details. Clicking on one of the clusters takes you to the *Clusters* widget on the Digital Advisor screen, where you get additional information for that cluster. Digital Advisor provides a comprehensive inventory-level information of your deployments.
 +
 image:assets-tab-3.png[screenshot to show cluster-level information for ONTAP ]
 
@@ -33,10 +33,10 @@ image:assets-tab-3.png[screenshot to show cluster-level information for ONTAP ]
 .StorageGRID
 --
 .Steps
-. ##Click *GENERAL > Keystone Subscriptions > Assets > StorageGRID*.##
-. ##Select the subscription number.##
+. Click *GENERAL > Keystone Subscriptions > Assets > StorageGRID*.
+. Select the subscription number.
 +
-##You see the grid details, categorized by grid and node identifiers, site information, hardware specifications, and capacity details, which help in monitoring and managing nodes in your StorageGRID infrastructure.##
+You see the grid details, categorized by grid and node identifiers, site information, hardware specifications, and capacity details, which help in monitoring and managing nodes in your StorageGRID infrastructure.
 +
 image:assets-tab-storagegrid.png[screenshot to show grid-level information for StorageGRID]
 
