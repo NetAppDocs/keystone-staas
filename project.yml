@@ -114,6 +114,8 @@ sidebar:
           entries:  
             - title: Advanced data protection
               url: /concepts/adp.html
+            - title: Data Infrastructure Insights
+              url: /concepts/data-infra-insights.html
             - title: Data tiering
               url: /concepts/data-tiering.html
             - title: Equinix powered services
