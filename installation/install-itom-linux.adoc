@@ -17,7 +17,7 @@ Complete a few steps to install ITOM Collector, which will collect metrics data 
 
 NOTE: Keystone support team provides a dynamic link to download the ITOM Collector setup file, which expires in two hours.
 
-To install ITOM Collector on Windows systems, refer to link:..installation/install-itom-windows.html[Install ITOM Collector on Windows systems].
+To install ITOM Collector on Windows systems, refer to link:../installation/install-itom-windows.html[Install ITOM Collector on Windows systems].
 
 Follow these steps to install software on your Linux server:
 

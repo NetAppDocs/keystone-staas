@@ -17,7 +17,7 @@ Install ITOM Collector on a Windows system by downloading the ITOM Collector set
 
 NOTE: Keystone support team provides a dynamic link to download the ITOM Collector setup file, which expires in two hours.
 
-You can install it on Linux systems based on your requirements. To install ITOM Collector on Linux systems, refer to link:..installation/install-itom-linux.html[Install ITOM Collector on Linux systems].
+You can install it on Linux systems based on your requirements. To install ITOM Collector on Linux systems, refer to link:../installation/install-itom-linux.html[Install ITOM Collector on Linux systems].
 
 Follow these steps to install ITOM collector software on your Windows server:
 
