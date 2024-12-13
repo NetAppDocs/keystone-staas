@@ -17,7 +17,7 @@ NetApp offers you new and enhanced features in every release of Keystone STaaS s
 
 The following enhancements are introduced in the *Keystone Subscriptions* screen of Active IQ Digital Advisor (also known as Digital Advisor):
 
-== December 11, 2024
+== December 12, 2024
 
 === Renamed Logical Used column
 The *Logical Used* column in the *Volume Details* tab within *Volumes & Objects* is now renamed to *Keystone Logical Used*.
