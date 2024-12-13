@@ -1,11 +1,11 @@
 ---
 sidebar: sidebar
 permalink: integrations/assets-tab.html
-keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, keystone assets tab
-summary: Use the Assets tab to view details about the clusters and nodes managed by your Keystone subscriptions.
+keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, keystone assets tab, ONTAP, StorageGRID
+summary: Use the Assets tab to view details of ONTAP clusters and nodes, and StorageGRID grids, sites, and nodes managed by your Keystone subscriptions.
 ---
 
-= View cluster and node details managed by Keystone
+= View cluster and grid details managed by Keystone
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,17 +13,35 @@ summary: Use the Assets tab to view details about the clusters and nodes managed
 :imagesdir: ../media/
 
 [.lead]
-Use the *Assets* tab to view details about the clusters and nodes managed by your Keystone subscriptions.
+Use the *Assets* tab to view details of ONTAP clusters and nodes, and StorageGRID grids, sites, and nodes managed by your Keystone subscriptions.
 
-Digital Advisor provides a comprehensive inventory-level information of your deployments. The *Assets* tab of the Keystone dashboard, on the other hand, accumulates the cluster-level information on the basis of your subscriptions, and segregates and presents it with the accurate level of details.
+The *Assets* tab of the Keystone dashboard includes two sub-tabs: *ONTAP* and *StorageGRID*. This tab accumulates cluster-level information for ONTAP and grid-level information for StorageGRID based on your subscriptions, segregating and presenting the data with accurate details. You can view this information by clicking on the respective sub-tabs.
 
+[role="tabbed-block"]
+====
+.ONTAP
+--
 .Steps
-. Click *GENERAL > Keystone Subscriptions > Assets*.
+. Click *GENERAL > Keystone Subscriptions > Assets > ONTAP*.
 . Select the subscription number for which you want to view the clusters.
 +
-You see the cluster details, broken down by storage efficiency settings, platform type, and capacity details. Clicking on one of the clusters takes you to the *Clusters* widget on the Digital Advisor screen, where you get additional information for that cluster. 
+You see the cluster details, broken down by storage efficiency settings, platform type, and capacity details. Clicking on one of the clusters takes you to the *Clusters* widget on the Digital Advisor screen, where you get additional information for that cluster. Digital Advisor provides a comprehensive inventory-level information of your deployments.
++
+image:assets-tab-3.png[screenshot to show cluster-level information for ONTAP ]
 
-image:assets-tab-3.png[Assets tab]
+--
+.StorageGRID
+--
+.Steps
+. Click *GENERAL > Keystone Subscriptions > Assets > StorageGRID*.
+. Select the subscription number.
++
+You see the grid details, categorized by grid and node identifiers, site information, hardware specifications, and capacity details, which help in monitoring and managing nodes in your StorageGRID infrastructure.
++
+image:assets-tab-storagegrid.png[screenshot to show grid-level information for StorageGRID]
+
+--
+====
 
 
 *Related information*
