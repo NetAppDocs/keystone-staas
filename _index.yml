@@ -54,7 +54,7 @@ indexpage:
         - title: Keystone and BlueXP
           url: /integrations/keystone-cm.html
         - title: US Citizen Support
-          url: /concepts/uscs.html
+          url: /concepts/usps.html
     - title: Know more
       links:
         - title: Active IQ Digital Advisor
