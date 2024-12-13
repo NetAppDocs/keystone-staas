@@ -17,6 +17,20 @@ NetApp offers you new and enhanced features in every release of Keystone STaaS s
 
 The following enhancements are introduced in the *Keystone Subscriptions* screen of Active IQ Digital Advisor (also known as Digital Advisor):
 
+== December 12, 2024
+
+=== Renamed Logical Used column
+The *Logical Used* column in the *Volume Details* tab within *Volumes & Objects* is now renamed to *Keystone Logical Used*.
+//NSEKEY-11787
+
+=== Enhanced Assets tab
+The *Assets* tab in the *Keystone Subscriptions* screen now has two new sub-tabs: *ONTAP* and *StorageGRID*. These sub-tabs offer detailed cluster-level insights for ONTAP and grid-level information for StorageGRID based on your subscriptions. To learn more, refer to link:../integrations/assets-tab.html[Assets tab^].
+//NSEKEY-11756
+
+=== New Hide/Show Columns option
+The *Volume Details* tab within *Volumes & Objects* now includes a *Hide/Show Columns* option. This option enables you to select or deselect columns to customize the tabular listing of volumes according to your preference. To learn more, refer to link:../integrations/volumes-objects-tab.html[Volumes & Objects tab^].
+//NSEKEY-12126, NSEKEY-12128
+
 == November 21, 2024
 
 === Enhanced invoiced accrued burst
