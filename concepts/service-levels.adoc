@@ -39,6 +39,8 @@ The base service levels for the supported storage types, file, block, object, an
 |*Target 90^th^ percentile latency* | <1 ms | <2 ms | <4 ms | <4 ms | <17 ms
 |*Block size* 
 5+|32K
+|*Committed and metered capacity type*
+5+|Logical
 |===
 
 === More on service levels for file and block storage
@@ -68,6 +70,7 @@ The base service level metrics depend on the following conditions:
 |N/A
 |*Maximum MBps/logical TiB stored per volume* |N/A
 |*Average Latency* |N/A
+|*Committed and metered capacity type*|Physical
 
 |===
 

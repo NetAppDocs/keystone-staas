@@ -25,7 +25,7 @@ NetApp reserves the rights to take the following actions:
 The Keystone infrastructure includes multiple components, such as the following, among others:
 
 *	The Keystone infrastructure, including storage controllers.
-*	Tools to manage and operate the service such as AIOPs solution, Active IQ, and Active IQ Unified Manager.
+*	Tools to manage and operate the service such as ITOM monitoring solution, Active IQ, and Active IQ Unified Manager.
 
 == Storage platforms 
 
@@ -36,9 +36,9 @@ In a Keystone customer-operated service, storage infrastructure and monitoring t
 
 In addition to the storage equipment, two monitoring tools are provisioned for storage and consumption monitoring. 
 
-* AIOPs solution local gateway: A cloud-based application used to monitor your network. It has built-in integrations with NetApp storage platforms to collect environmental data and monitor the network. This service is enabled with the help of using a local gateway installed at your site that communicates with the cloud portal. 
+* Keystone IT Operations Management (ITOM) monitoring solution: A cloud-based, SaaS application used to monitor your Keystone environment. It has built-in integrations with NetApp storage platforms to collect environmental data and monitor the compute, network, and storage components of your Keystone infrastructure. This monitoring capability extends to on-premises setups, data centers, cloud environments, or any combination of these. The service is enabled with the help of using a local ITOM Collector installed at your site that communicates with the cloud portal. 
 * Keystone Data Collector: Keystone Collector provides billing services to Keystone customers. This application is bundled with Active IQ Unified Manager. It collects data from ONTAP and StorageGRID controllers at an interval of five minutes. The data is processed, and metadata is sent to the centralized Active IQ data lake through the AutoSupport mechanism, which is used for billing data generation. Active IQ data lake processes the billing data and sends it to Zuora for billing.
 
-image:mgmt-stack.png[managemnt stack]
+image:mgmt-stack-2.png[managemnt stack]
 
 Digital Advisor enables you to log in and view the subscription and consumption details for your Keystone subscriptions. For more information about Keystone reporting on the Digital Advisor dashboard, see link:../integrations/keystone-aiq.html[Keystone and Digital Advisor].

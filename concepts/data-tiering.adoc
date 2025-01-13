@@ -36,3 +36,7 @@ The charges for add-on tiering services apply through the entire subscription te
 
 [NOTE]
 Hyperscalar-based compute, storage, and network services required by Cloud Volumes ONTAP are not provided by NetApp as a part of Keystone STaaS subscriptions; these services need to be procured directly from hyperscalar cloud service providers.
+
+*Related information*
+
+link:https://kb.netapp.com/hybrid/Keystone/AIQ_Dashboard/How_to_approximate_Keystone_Consumption_with_Data_Tiering_(FabricPool)_through_the_ONTAP_cli[How to approximate Keystone consumption with data tiering (FabricPool) using the ONTAP CLI^]
