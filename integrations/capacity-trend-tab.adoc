@@ -87,10 +87,12 @@ image:accr-burst-2.png[accrued burst usage quarterly]
 
 This functionality is available in a preview-only mode. Contact your KSM to learn more about this feature.
 
-== ##View daily accrued burst usage data##
-##You can view daily accrued burst usage data for a monthly or quarterly billing period. When you click the bar that displays the invoiced data, the Billable Provisioned Capacity section will appear below the bar chart, offering you *Graph* and *Table* viewing options. The default *Graph* view displays burst usage data in a line graph format, showing changes in usage over time.##
+== ##View daily accrued burst data##
+##You can view daily accrued burst usage data for a monthly or quarterly billing period. When you click the bar that displays the invoiced data, the Billable Provisioned Capacity section will appear below the bar chart, offering you *Graph* and *Table* viewing options. The default graph view displays daily accrued burst data in a line graph format, showing changes in usage over time.##
 
 image:invoiced-daily-accr-burst-1.png[screenshot showing the bar chart]
+
+An example image showing daily accrued burst data in a line graph:
 
 image:invoiced-daily-accr-burst-2.png[screenshot showing burst usage data in a line graph format]
 
