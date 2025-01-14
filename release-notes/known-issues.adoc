@@ -21,14 +21,14 @@ The following known issues are reported in NetApp Keystone STaaS:
 |===
 |Known issue |Description |Workaround
 
+a|##Incorrect QoS policy type display##
+a|##In the *Volume Details* tab, the *QoS Policy Type* column displays _QoS_ when no QoS policy is applied, and the Compliant column shows _Not set_, causing an inconsistency in the displayed QoS policy status.##
+a|None
+//NSEKEY-12615
 a|Volume details unavailable for primary and linked subscriptions
 a|The *Volume Summary* tab shows zero for the total number of volumes, QoS compliance status, protected volumes count, and total consumed capacity for primary and linked secondary subscriptions.
 a|None
 //NSEKEY-11333
-a|Unable to generate reports for subscriptions
-a|When more than 10-12 subscriptions are selected from the *Subscriptions* tab on the *Keystone Subscriptions* page, the report fails to generate when clicking the *Download CSV* button with the *Include data for each service level* option.
-a|None
-//NSEKEY-11636
 |===
 
 

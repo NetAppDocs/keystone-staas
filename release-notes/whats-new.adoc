@@ -17,6 +17,12 @@ NetApp offers you new and enhanced features in every release of Keystone STaaS s
 
 The following enhancements are introduced in the *Keystone Subscriptions* screen of Active IQ Digital Advisor (also known as Digital Advisor):
 
+== January 08, 2025
+
+=== Addition of daily burst data viewing options
+You can now view daily accrued burst data in either graph or table format for a monthly or quarterly billing period by clicking the bar that displays the invoiced data. To learn more, refer to link:../integrations/capacity-trend-tab.html#view-daily-accrued-burst-usage-data[View daily accrued burst usage data]
+//NSEKEY-11952
+
 == December 12, 2024
 
 === Renamed Logical Used column

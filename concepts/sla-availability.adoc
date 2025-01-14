@@ -84,7 +84,7 @@ Service credits = ( 10 / 100 ) X 1000 x 0.05
 Based on calculation, the service credits will be $5.
 
 == Service credit request
-If a breach of the SLA is detected, open a priority 3 (P3) support ticket with Keystone Global Services and Support Center (GSSC).
+If a breach of the SLA is detected, open a priority 3 (P3) support ticket with ##NetApp Keystone support.##
 
 ** The following details are required:
 .. Keystone subscription number
@@ -93,14 +93,14 @@ If a breach of the SLA is detected, open a priority 3 (P3) support ticket with K
 .. Calculated time duration of latency detection
 .. Measurement tools and methods
 .. Any other applicable document
-** Provide the details in the excel sheet as shown below for a P3 ticket opened with Keystone GSSC. 
+** Provide the details in the excel sheet as shown below for a P3 ticket opened with ##NetApp Keystone support.## 
 +
 image:sla-breach.png[excel sheet template]
 
 [NOTE]
 ====
-* A service credit request should be initiated within six weeks after GSSC has validated a breach. All service credits should be acknowledged and approved by NetApp. 
+* A service credit request should be initiated within six weeks after NetApp Keystone support has validated a breach. All service credits should be acknowledged and approved by NetApp. 
 
-* Service credits may be applied to a future invoice. Service credits do not apply to expired Keystone subscriptions. To learn more, refer to link:../concepts/gssc.html[NetApp Global Services Support Center].
+* Service credits may be applied to a future invoice. Service credits do not apply to expired Keystone subscriptions. To learn more, ##refer to link:../concepts/gssc.html[NetApp Keystone support]##.
 ====
 

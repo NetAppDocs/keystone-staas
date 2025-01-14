@@ -19,6 +19,10 @@ Issues that were found in previous releases of NetApp Keystone STaaS services ha
 |===
 |Issue description |After the fix |Fixed in release
 
+a|##Unable to generate reports for subscriptions when selecting more than 10-12 subscriptions with the *Include data for each service level* option from the *Subscriptions* tab on the *Keystone Subscriptions* page.##
+a|Fixed
+a|January 08, 2025
+//NSEKEY-11636
 a|The *Volume Summary* sub-tab in the *Volumes & Objects* tab fails to load for StorageGrid subscriptions.
 a|Fixed
 a|November 21, 2024

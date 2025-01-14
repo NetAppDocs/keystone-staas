@@ -21,7 +21,7 @@ Follow these steps to install the software on your Linux server:
 . Import the Keystone public signing signature: 
 `# rpm --import https://keystone.netapp.com/repo/RPM-GPG-NetApp-Keystone-20221101`
 . Ensure that the correct public certificate has been imported by checking the fingerprint for Keystone Billing Platform in the RPM database: 
-`# rpm -qa gpg-pubkey --qf '%_<Description>_'|gpg --show-keys --fingerprint`
+`# rpm -qa gpg-pubkey --qf '%{Description}'|gpg --show-keys --fingerprint`
 The correct fingerprint looks like this:
 `90B3 83AF E07B 658A 6058 5B4E 76C2 45E4 33B6 C17D`
 . Download the `keystonerepo.rpm` file:
