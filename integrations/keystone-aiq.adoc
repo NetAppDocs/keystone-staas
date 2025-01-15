@@ -43,7 +43,7 @@ You can see the breakup of the capacity usage as per your subscriptions, and war
 [TIP]
 Click the *Subscriptions* link to view the list of filtered subscriptions in the *Subscriptions* tab.
 
-image:new-db-3.png[new dashboard]
+image:new-db-4.png[new dashboard]
 
 For more information about Digital Advisor dashboard widget for Keystone, see https://docs.netapp.com/us-en/active-iq/view_keystone_capacity_utilization.html[Digital Advisor documentation^].
 

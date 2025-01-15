@@ -1,11 +1,11 @@
 ---
 sidebar: sidebar
-permalink: concepts/uscs.html
-keywords: netapp, keystone, US citizen support, USCS GSSC, Keystone Success Manager, USCS support
-summary: "United States Citizen Support is an add-on service that provides delivery and support of ongoing Keystone services from U.S. citizens on U.S. soil."
+permalink: concepts/usps.html
+keywords: netapp, keystone, US citizen support, USPS, Keystone Success Manager, USPS support
+summary: "United States Protected Support is an add-on service that provides delivery and support of ongoing Keystone services from U.S. citizens on U.S. soil."
 ---
 
-= Learn about USCS
+= Learn about USPS
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,12 +13,12 @@ summary: "United States Citizen Support is an add-on service that provides deliv
 :imagesdir: ../media/
 
 [.lead]
-United States Citizen Support (USCS) is an add-on offering for NetApp Keystone Subscriptions. It entitles you to receive delivery and support of ongoing Keystone services from U.S. citizens on U.S. soil.
+United States Protected Support (USPS) is an add-on offering for NetApp Keystone Subscriptions. It entitles you to receive delivery and support of ongoing Keystone services from U.S. citizens on U.S. soil.
 
 Read the following sections to understand which elements of your subscriptions are bound by this add-on service and are provided under the terms of NetApp Keystone Agreement.footnote:disclaimer1[The services and offerings described here are subject to, and limited and governed by a fully-executed Keystone Agreement.]
 
-== NetApp Global Services Support Center monitoring
-NetApp Global Services and Support Center (GSSC) monitors the health of your products and subscribed services, provides remote support, and collaborates with your Keystone Success Manager. All personnel monitoring the products associated with the relevant Keystone subscription orders are U.S citizens operating on U.S. soil.
+== NetApp USPS monitoring
+NetApp USPS Keystone support team monitors the health of your products and subscribed services, provides remote support, and collaborates with your Keystone Success Manager. All personnel monitoring the products associated with the relevant Keystone subscription orders are U.S citizens operating on U.S. soil.
 
 == Keystone Success Manager
 The Keystone Success Manager (KSM) is a U.S. citizen operating on U.S. soil. Their responsibilities are specified in your NetApp Keystone Agreement.
