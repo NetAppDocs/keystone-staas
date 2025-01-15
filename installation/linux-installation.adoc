@@ -42,8 +42,9 @@ A signature for an authentic file looks like this:
 .##Using Debian##
 --
 . ##SSH to the Keystone Collector server and elevate to `root` privilege.##
+`sudo su`
 . ##Download the `keystone-sw-repo.deb` file:##
-`curl -O https://keystone.netapp.com/download/keystone-sw-repo.deb`
+`curl -O https://keystone.netapp.com/downloads/keystone-sw-repo.deb`
 . ##Install the Keystone software repository file:##
 `# dpkg -i keystone-sw-repo.deb`
 . ##Update the package list:##
