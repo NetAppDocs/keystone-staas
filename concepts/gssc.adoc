@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: concepts/gssc.html
 keywords:  Keystone support, service request, support ticket
-summary: If you need help, contact the NetApp Global Services and Support Center.
+summary: If you need help, contact the NetApp Keystone support team.
 ---
 
 = Get help with Keystone
