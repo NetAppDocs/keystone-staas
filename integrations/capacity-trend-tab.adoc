@@ -71,7 +71,7 @@ You can calculate the accrued burst for short periods, such as every two minutes
 The burst is the difference between the consumed capacity and the committed capacity. For example, with a 30-day in month, if the consumed capacity reaches 120 TiB and the committed capacity is 100 TiB for a 2-minute interval, this results in a burst capacity of 20 TiB, equating to an accrued burst usage of 0.000925926 TiB for that interval.
 
 == View invoiced accrued burst
-If you have selected the *Invoiced Accrued Burst* option, you can see accrued burst usage data on a monthly or quarterly basis, depending on your selected billing period. This data is available for the last 12 months that have been billed, and you can query by the date range for up to past 30 months. Bar charts display the invoiced data, and if the usage has not yet been billed, it will be marked as _Pending_ for that period.
+If you have selected the *Invoiced Accrued Burst* option, you can see accrued burst data usage on a monthly or quarterly basis, depending on your selected billing period. This data is available for the last 12 months that have been billed, and you can query by the date range for up to past 30 months. Bar charts display the invoiced data, and if the usage has not yet been billed, it will be marked as _Pending_ for that period.
 
 TIP: The invoiced accrued burst usage is calculated per billing period, based on the committed and consumed capacity for a service level.
 
@@ -87,16 +87,16 @@ image:accr-burst-2.png[accrued burst usage quarterly]
 
 This functionality is available in a preview-only mode. Contact your KSM to learn more about this feature.
 
-== ##View daily accrued burst data##
-##You can view daily accrued burst usage data for a monthly or quarterly billing period. When you click the bar that displays the invoiced data, the Billable Provisioned Capacity section will appear below the bar chart, offering you *Graph* and *Table* viewing options. The default graph view displays daily accrued burst data in a line graph format, showing changes in usage over time.##
+== ##View daily accrued burst data usage##
+##You can view daily accrued burst data usage for a monthly or quarterly billing period. When you click the bar that displays the invoiced data, the Billable Provisioned Capacity section will appear below the bar chart, offering you *Graph* and *Table* viewing options. The default graph view displays daily accrued burst data usage in a line graph format, showing changes in usage over time.##
 
 image:invoiced-daily-accr-burst-1.png[screenshot showing the bar chart]
 
-##An example image showing daily accrued burst data in a line graph##:
+##An example image showing daily accrued burst data usage in a line graph##:
 
 image:invoiced-daily-accr-burst-2.png[screenshot showing burst usage data in a line graph format]
 
-##You can switch to a table view by clicking the *Table* option at the top right corner of the graph. The table view provides detailed daily data, including service level, timestamp, committed capacity, consumed capacity, and billable provisioned capacity. You can also generate a report of these details in CSV format for future use and comparison.##
+##You can switch to a table view by clicking the *Table* option at the top right corner of the graph. The table view provides detailed daily usage metrics, including service level, timestamp, committed capacity, consumed capacity, and billable provisioned capacity. You can also generate a report of these details in CSV format for future use and comparison.##
 
 image:invoiced-daily-accr-burst-3.png[screenshot showing burst usage data in a table format]
 

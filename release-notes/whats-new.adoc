@@ -19,8 +19,8 @@ The following enhancements are introduced in the *Keystone Subscriptions* screen
 
 == January 08, 2025
 
-=== ##Addition of daily accrued burst data viewing options##
-##You can now view daily accrued burst usage data in either graph or table format for a monthly or quarterly billing period by clicking the bar that displays the invoiced data. To learn more, refer to link:../integrations/capacity-trend-tab.html#view-daily-accrued-burst-data[View daily accrued burst data].##
+=== ##Addition of daily accrued data usage viewing options##
+##You can now view daily accrued burst data usage in either graph or table format for a monthly or quarterly billing period by clicking the bar that displays the invoiced data. To learn more, refer to link:../integrations/capacity-trend-tab.html#view-daily-accrued-burst-data-usage[View daily accrued burst data usage].##
 //NSEKEY-11952
 
 == December 12, 2024
