@@ -13,7 +13,7 @@ summary: Install the Keystone Collector software from the YUM software repositor
 :imagesdir: ../media/
 
 [.lead]
-##You can install the Keystone Collector software on a Linux server using an RPM or a Debian package. Follow the installation steps depending on your Linux distribution.##
+You can install the Keystone Collector software on a Linux server using an RPM or a Debian package. Follow the installation steps depending on your Linux distribution.
 
 [role="tabbed-block"]
 ====
@@ -39,17 +39,17 @@ A signature for an authentic file looks like this:
 `# yum install keystone-collector`
 --
 
-.##Using Debian##
+.Using Debian
 --
-. ##SSH to the Keystone Collector server and elevate to `root` privilege.##
+. SSH to the Keystone Collector server and elevate to `root` privilege.
 `sudo su`
-. ##Download the `keystone-sw-repo.deb` file:##
+. Download the `keystone-sw-repo.deb` file:
 `curl -O https://keystone.netapp.com/downloads/keystone-sw-repo.deb`
-. ##Install the Keystone software repository file:##
+. Install the Keystone software repository file:
 `# dpkg -i keystone-sw-repo.deb`
-. ##Update the package list:##
+. Update the package list:
 `# apt-get update`
-. ##When the Keystone repo is installed, install the keystone-collector package:##
+. When the Keystone repo is installed, install the keystone-collector package:
 `# apt-get install keystone-collector`
 --
 
