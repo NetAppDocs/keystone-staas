@@ -5,7 +5,7 @@ keywords: fixed issues
 summary: Issues that were found in previous releases of NetApp Keystone STaaS services have been fixed in later releases.
 ---
 
-= Fixed issues
+= Fixed issues in Keystone STaaS
 :hardbreaks:
 :nofooter:
 :icons: font
