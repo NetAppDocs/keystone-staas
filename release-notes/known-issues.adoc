@@ -21,10 +21,6 @@ The following known issues are reported in NetApp Keystone STaaS:
 |===
 |Known issue |Description |Workaround
 
-a|Unable to view historical data
-a|In the *Consumption Trend* tab, service levels associated with the previous subscription are not displayed once the subscription expires and renews with the same tracking ID but different service levels. This results in the loss of access to historical consumption data.
-a|None
-//NSEKEY-11912
 a|Incorrect QoS policy type display
 a|In the *Volume Details* tab, the *QoS Policy Type* column displays _QoS_ when no QoS policy is applied, and the Compliant column shows _Not set_, causing an inconsistency in the displayed QoS policy status.
 a|None

@@ -94,7 +94,7 @@ image:invoiced-daily-accr-burst-1.png[screenshot showing the bar chart]
 
 An example image showing daily accrued burst data usage in a line graph:
 
-image:invoiced-daily-accr-burst-2.png[screenshot showing burst usage data in a line graph format]
+image:invoiced-daily-accr-burst-date.png[screenshot showing burst usage data in a line graph format]
 
 You can switch to a table view by clicking the *Table* option at the top right corner of the graph. The table view provides detailed daily usage metrics, including service level, timestamp, committed capacity, consumed capacity, and billable provisioned capacity. You can also generate a report of these details in CSV format for future use and comparison.
 
