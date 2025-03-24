@@ -19,6 +19,18 @@ Issues that were found in previous releases of NetApp Keystone STaaS services ha
 |===
 |Issue description |After the fix |Fixed in release
 
+a|Missing *Keystone Subscriptions* option from *Watchlist* and the *Subscription Number* option from *Reports* on the Digital Advisor dashboard.
+a|Fixed
+a|March 19, 2025
+//NSEKEY-12886, NSEKEY-12894
+a|Missing a few Keystone subscriptions from *Watchlist* after creating or modifying watchlist from the Digital Advisor dashboard.
+a|Fixed
+a|March 19, 2025
+//NSEKEY-12948
+a|Unable to view historical data in the *Consumption Trend* tab for service levels associated with a subscription that has expired and been renewed with the same tracking ID but different service levels.
+a|Fixed
+a|March 19, 2025    
+//NSEKEY-13028, NSEKEY-11912
 a|Unable to generate reports for subscriptions when selecting more than 10-12 subscriptions from the *Subscriptions* tab on the *Keystone Subscriptions* page.
 a|Fixed
 a|January 08, 2025
