@@ -6,11 +6,24 @@ settings:
   prod:
     pdf_enabled: true
     harmony_enabled: true
+  
+  filter:
+    label: Offering version
+    default: v3
+    options:
+      - name: v3
+        alias: v3
+        id: v3
+      - name: v2
+        alias: v2
+        id: v2
+
 sidebar:
   entries:
     - title: Keystone docs
       url: "/index.html"
     - title: Release notes
+      flavour: v2
       entries:
         - title: What's new in Keystone STaaS
           url: /release-notes/whats-new.html
@@ -21,6 +34,7 @@ sidebar:
         - title: Known limitations
           url: /release-notes/known-limitations.html          
     - title: Learn about Keystone
+      flavour: v3
       entries:
       - title: Overview
         url: /concepts/overview.html
