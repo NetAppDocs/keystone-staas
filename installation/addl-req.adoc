@@ -44,7 +44,7 @@ Before you get started with Keystone, you need to ensure that ONTAP clusters and
 +
 * ##CLI##
 [start=a]
-.. ##Log in to ONTAP CLI using your default credentials. To learn more, refer to https://docs.netapp.com/us-en/ontap/system-admin/index.html [Cluster management with CLI].##
+.. ##Log in to ONTAP CLI using your default credentials. To learn more, refer to https://docs.netapp.com/us-en/ontap/system-admin/index.html[Cluster management with CLI].##
 .. ##Create an ONTAP user with the "readonly" role and "http" application type, and enable the password authentication. To learn more about authentication, refer to https://docs.netapp.com/us-en/ontap/authentication/enable-password-account-access-task.html[Enable ONTAP account password access].##
 
 ##Meet the following requirements if you intend to collect usage data through Active IQ Unified Manager:##
