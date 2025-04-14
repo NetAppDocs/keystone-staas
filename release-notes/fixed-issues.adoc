@@ -19,10 +19,6 @@ Issues that were found in previous releases of NetApp Keystone STaaS services ha
 |===
 |Issue description |After the fix |Fixed in release
 
-a|##Incorrect invoice due to data mismatch##
-a|##A mismatch in consumption data for AutoSupport subscriptions leads to the generation of incorrect invoices, causing billing inaccuracies.##
-a|None
-//NSEKEY-13857
 a|##Unable to view historical data in the *Consumption Trend* tab for service levels for a few subscriptions.##
 a|Fixed
 a|April 14, 2025
