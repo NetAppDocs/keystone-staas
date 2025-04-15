@@ -21,6 +21,10 @@ The following known issues are reported in NetApp Keystone STaaS:
 |===
 |Known issue |Description |Workaround
 
+a|Incorrect invoice due to data mismatch
+a|A mismatch in consumption data for AutoSupport subscriptions leads to the generation of incorrect invoices, causing billing inaccuracies.
+a|None
+//NSEKEY-13857
 a|Incorrect QoS policy type display
 a|In the *Volume Details* tab, the *QoS Policy Type* column displays _QoS_ when no QoS policy is applied, and the Compliant column shows _Not set_, causing an inconsistency in the displayed QoS policy status.
 a|None
