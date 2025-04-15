@@ -37,12 +37,12 @@ Meet the following requirements if you intend to collect usage data only through
 * https://docs.netapp.com/us-en/ontap/software_setup/task_create_the_cluster_on_the_first_node.html[Set up a cluster with the CLI]
 . Create ONTAP login accounts with specific roles. To learn more, refer to https://docs.netapp.com/us-en/ontap/authentication/create-svm-user-accounts-task.html#cluster-and-svm-administrators[Learn about creating ONTAP login accounts].
 +
-* Web UI
+* *Web UI*
 [start=a]
 .. Log in to ONTAP System Manager using your default credentials. To learn more, refer to https://docs.netapp.com/us-en/ontap/concept_administration_overview.html[Cluster management with System Manager].
 .. Create an ONTAP user with the "readonly" role and "http" application type, and enable the password authentication by navigating to *Cluster > Settings > Security > Users*.
 +
-* CLI
+* *CLI*
 [start=a]
 .. Log in to ONTAP CLI using your default credentials. To learn more, refer to https://docs.netapp.com/us-en/ontap/system-admin/index.html[Cluster management with CLI].
 .. Create an ONTAP user with the "readonly" role and "http" application type, and enable the password authentication. To learn more about authentication, refer to https://docs.netapp.com/us-en/ontap/authentication/enable-password-account-access-task.html[Enable ONTAP account password access].
@@ -63,10 +63,10 @@ NOTE: The default port for MySQL, 3306, is restricted only to localhost during a
 +
 . Enable API Gateway in Unified Manager. Keystone Collector makes use of the API Gateway feature to communicate with ONTAP clusters. You can enable API Gateway either from the web UI, or by running a few commands through Unified Manager CLI.
 +
-.*Web UI*
+.Web UI
 To enable API Gateway from the Unified Manager web UI, log into the Unified Manager web UI and enable API Gateway. For information, see https://docs.netapp.com/us-en/active-iq-unified-manager/config/concept_api_gateway.html[Enabling API Gateway^].
 +
-.*CLI*
+.CLI
 To enable API Gateway through Unified Manager CLI, follow these steps:
 
 .. On the Unified Manager server, begin an SSH session and log into Unified Manager CLI.
