@@ -63,10 +63,10 @@ NOTE: The default port for MySQL, 3306, is restricted only to localhost during a
 +
 . Enable API Gateway in Unified Manager. Keystone Collector makes use of the API Gateway feature to communicate with ONTAP clusters. You can enable API Gateway either from the web UI, or by running a few commands through Unified Manager CLI.
 +
-.Web UI
+.*Web UI*
 To enable API Gateway from the Unified Manager web UI, log into the Unified Manager web UI and enable API Gateway. For information, see https://docs.netapp.com/us-en/active-iq-unified-manager/config/concept_api_gateway.html[Enabling API Gateway^].
 +
-.CLI
+.*CLI*
 To enable API Gateway through Unified Manager CLI, follow these steps:
 
 .. On the Unified Manager server, begin an SSH session and log into Unified Manager CLI.
