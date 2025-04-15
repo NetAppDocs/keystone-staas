@@ -21,8 +21,8 @@ The following known issues are reported in NetApp Keystone STaaS:
 |===
 |Known issue |Description |Workaround
 
-a|##Incorrect invoice due to data mismatch##
-a|##A mismatch in consumption data for AutoSupport subscriptions leads to the generation of incorrect invoices, causing billing inaccuracies.##
+a|Incorrect invoice due to data mismatch
+a|A mismatch in consumption data for AutoSupport subscriptions leads to the generation of incorrect invoices, causing billing inaccuracies.
 a|None
 //NSEKEY-13857
 a|Incorrect QoS policy type display

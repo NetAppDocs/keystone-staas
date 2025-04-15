@@ -19,7 +19,7 @@ Issues that were found in previous releases of NetApp Keystone STaaS services ha
 |===
 |Issue description |After the fix |Fixed in release
 
-a|##Unable to view historical data in the *Consumption Trend* tab for service levels for a few subscriptions.##
+a|Unable to view historical data in the *Consumption Trend* tab for service levels for a few subscriptions.
 a|Fixed
 a|April 14, 2025
 //NSEKEY-14531
