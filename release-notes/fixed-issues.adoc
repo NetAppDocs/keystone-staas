@@ -19,6 +19,10 @@ Issues that were found in previous releases of NetApp Keystone STaaS services ha
 |===
 |Issue description |After the fix |Fixed in release
 
+a|The consumption values for linked subscriptions show incorrect negative numbers, causing the total committed usage to display inaccurately high.
+a|Fixed
+a|April 14, 2025
+//NSEKEY-14547
 a|Unable to view historical data in the *Consumption Trend* tab for service levels for a few subscriptions.
 a|Fixed
 a|April 14, 2025
