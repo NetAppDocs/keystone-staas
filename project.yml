@@ -81,9 +81,9 @@ sidebar:
         - title: Keystone dashboard overview
           entries:
             - title: Keystone in BlueXP
-              url: /integration/keystone-overview-bluexp.html
+              url: /integrations/keystone-overview-bluexp.html
             - title: Keystone in Digital Advisor
-              url: /integration/keystone-aiq.html
+              url: /integrations/keystone-aiq.html
         - title: Subscriptions tab
           url: /integrations/subscriptions-tab.html
         - title: Learn about Keystone and BlueXP digital advisor
