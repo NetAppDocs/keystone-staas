@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: integrations/subscriptions-tab.html
-keywords: keystone-aiq, digital advisor keystone, subscriptions-tab
+keywords: keystone-aiq, digital advisor keystone, subscriptions-tab, performance levels, keystone-bluexp
 summary: To learn more about your Keystone subscriptions, you can view a list of all your subscriptions from the Subscriptions tab.
 ---
 
@@ -13,14 +13,58 @@ summary: To learn more about your Keystone subscriptions, you can view a list of
 :imagesdir: ../media/
 
 [.lead]
-To learn more about your Keystone subscriptions, you can view a list of all your subscriptions from the *Subscriptions* tab.
+To learn more about your Keystone subscriptions, you can view a list of all your subscriptions from the *Subscriptions* tab in both BlueXP and Digital Advisor.
 
-To view this tab, from the left navigation pane, go to *GENERAL > Keystone Subscriptions > Subscriptions*. All your subscriptions are listed.
+[role="tabbed-block"]
+====
 
+.BlueXP
+--
+The *Subscriptions* tab in BlueXP is divided into two sections: *Subscriptions* and *Performance levels*. Each section offers specific insights to help you manage and monitor your Keystone subscriptions effectively. To view detailed information for your subscriptions, follow these steps:
+
+.Steps
+
+. From the BlueXP left navigation pane, go to *Storage > Keystone > Subscriptions*.
+. By default, the *Subscriptions* sub-tab is displayed.
++
+image:.
++
+You see the key metrics such as capacity status, subscription expiry status, and Keystone version across subscriptions. To learn more, refer to link <>.
++
+You can customize the columns displayed in the table using the column selector <image> icon. For certain fields and columns, you might see information or warning icons and tooltips that provide you with additional information about the data. 
++
+* *Subscription number*: The subscription number of the Keystone subscription assigned by NetApp.
+* *Tracking ID*: The tracking ID assigned at the time of subscription activation. This is a unique ID for each subscription and site, used for tracking the subscription.
+* *Customer name*: The name of the customer associated with the Keystone subscription.
+* *Linked subscriptions*: If you have any secondary subscriptions linked to your primary subscription, this column lists the linked subscription numbers for the primary subscription. This subscription number can be of your primary or secondary (linked) subscription.
+* *Keystone version*: The version of the Keystone service that is being used for the subscription.
+* *Billing period*: The billing period of the subscription, such as monthly, quarterly, or yearly.
+* *Performance levels*: The number of rate plans associated with the subscription, with each rate plan corresponding to a specific service level and committed capacity. 
+* *Highest capacity*: The maximum capacity consumed within the subscription. 
+* *Days to subscription expiry*: The number of days remaining until the subscription expires.
+. You can click the *Performance levels* sub-tab to view the performance levels across all subscriptions, along with detailed information presented in the table.
++
+image:
++
+* *Performance levels across subscriptions*: Displays the number of subscriptions for each performance level, with *View* button to filter the table.
+* *Provisioning consistency across subscriptions*: Shows the counts for over-provisioned and under-provisioned subscriptions, with a *View* button to filter the table.
++
+You can see the tabular listing of subscriptions, including key details such as the name of the customer, subscription number, type of service level, total number of volumes, and their QoS compliance status. The table also displays the count of protected volumes, the total committed, consumed, provisioned, available capacity (with and without burst), and accrued burst capacity.You can customize the columns displayed in the table using the column selector <image> icon. 
+
+--
+
+.Digital Advisor
+--
+To view your subscriptions in Digital Advisor, follow these steps:
+
+.Steps
+. From the Digital Advisor left navigation pane, go to *GENERAL > Keystone Subscriptions > Subscriptions*.
+. You can view all your subscriptions here, with detailed insights for each one.
++
 image:all-subs-3.png[an image of the Subscriptions tab]
-
++
 You can filter the selection by clicking the hamburger icon image:icon-hamburger.png[hamburger icon] for a column, or view all the subscriptions by clicking the *Clear Filters* button. For certain fields and columns, you might see information or warning icons and tooltips that provide you with additional information about the data. 
-
++
 * *Subscription Number*: The subscription number of the Keystone subscription assigned by NetApp.
 //*Linked Subscriptions*: This column is optionally available to you. If you have any secondary subscriptions linked to your primary subscription, this column lists the linked subscription numbers for the primary subscription. This subscription number can be of your primary or secondary (linked) subscription.
 * *Tracking ID*: The tracking ID assigned at the time of subscription activation. This is a unique ID for each subscription and site, used for tracking the subscription.
@@ -33,19 +77,20 @@ If you have subscribed to advanced data protection add-on service, then you can 
 * *Usage Status*: Displays the usage indicator to indicate whether the consumption is within or exceeding the subscription limit. You can sort the list by this column if you want to view the highest consumption records.
 * image:subs-dtls-icon.png[icon]: Clicking this icon for a subscription opens the *Current Consumption* tab with the usage details of that subscription.
 * image:aiq-ks-time-icon.png[icon]: Clicking this icon opens the *Consumption Trend* tab where you can see the historical usage data for each service level included in this subscription.
-
++
 You can refer to the following usage indicators to check the usage status of each subscription:
-
++
 image:usage-indicator-2.png[icon]
-
++
 .Index
-
++
 image:icon-grey.png[grey dot icon]: No capacity usage recorded against the committed capacity of the service level
 image:icon-green.png[green dot icon]: The consumption is normal, within 80% of the committed capacity
 image:icon-amber.png[amber dot icon]: Maximum consumption, that is the usage is about to reach 100% or more of the committed capacity. The *Consumed* column displays this indicator for any consumption above 80% of the committed capacity
 image:icon-red.png[red dot icon]: The consumption is within the burst limit. The burst consumption is the consumption that tops the 100% committed capacity of a service level, and is within the agreed-upon burst usage limit, such as 120%
 image:icon-purple.png[purple dot icon]: Indicates consumption above the stipulated burst limit
-
+--
+====
 
 *Related information*
 

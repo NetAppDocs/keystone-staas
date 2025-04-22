@@ -1,11 +1,11 @@
 ---
 sidebar: sidebar
 permalink: integrations/keystone-aiq.html
-keywords: Keystone, Digital Advisor, keystone-aiq, aiq
+keywords: Keystone, Digital Advisor, keystone-aiq, aiq, dashboard overview, manage subscriptions, monitor 
 summary: As a NetApp Keystone STaaS subscriber, you can get an overview of your subscriptions from the Digital Advisor dashboard.
 ---
 
-= Keystone dashboard overview
+= Keystone dashboard in Digital Advisor
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -45,10 +45,12 @@ Click the *Subscriptions* link to view the list of filtered subscriptions in the
 
 image:new-db-4.png[new dashboard]
 
-For more information about Digital Advisor dashboard widget for Keystone, see https://docs.netapp.com/us-en/active-iq/view_keystone_capacity_utilization.html[Digital Advisor documentation^].
+You can click *View All Subscriptions* to view the usage details and alerts on your volumes on the *Keystone Subscriptions* page. Alternately, from the left navigation pane, go to *GENERAL > Keystone Subscriptions*.
++
+The details of the subscriptions, usage charts for each service level, and volume details are displayed in the different tabs on the *Keystone Subscriptions* screen.
 
-For more information about Keystone dashboard and reporting, see link:../integrations/aiq-keystone-details.html[Keystone Subscription dashboard and reporting].
-
+NOTE: Capacity consumption in Keystone subscriptions is displayed in TiBs on the dashboards and reports, and is rounded off to two decimal places. If the usage is less than 0.01 TiB, then the value is shown as 0 or No Usage. The data on these screens is displayed in UTC time (server timezone). When you enter a date for query, it is automatically considered to be in UTC time.
+To learn more about usage metrics, refer to link:../concepts/metrics.html#metrics-measurement[Metrics measurement]. For information about different capacities used in Keystone, see link:../concepts/supported-storage-capacity.html[Supported storage capacities].
 
 == Search by Keystone watchlists
 Watchlist is a feature Digital Advisor. For information, see https://docs.netapp.com/us-en/active-iq/concept_overview_dashboard.html[Understand watchlist^]. For information about creating watchlists, see https://docs.netapp.com/us-en/active-iq/task_add_watchlist.html[Create a watchlist^].

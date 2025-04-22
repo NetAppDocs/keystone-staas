@@ -73,7 +73,21 @@ sidebar:
         - title: Monitor Keystone Collector health
           url: /installation/monitor-health.html
         - title: Upgrade Keystone Collector
-          url: /installation/upgrade.html      
+          url: /installation/upgrade.html 
+    - title: Manage and monitor Keystone subscription
+      entries:
+        - title: Get started with Keystone dashboard
+          url: /integrations/keystone-dashboard.html
+        - title: Keystone dashboard overview
+          entries:
+            - title: Keystone in BlueXP
+              url: /integration/keystone-overview-bluexp.html
+            - title: Keystone in Digital Advisor
+              url: /integration/keystone-aiq.html
+        - title: Subscriptions tab
+          url: /integrations/subscriptions-tab.html
+        - title: Learn about Keystone and BlueXP digital advisor
+          url: /integrations/keystone-cm.html 
     - title: Keystone dashboard 
       entries:
         - title: Keystone dashboard overview
@@ -92,8 +106,6 @@ sidebar:
           url: /integrations/assets-tab.html            
         - title: Performance tab
           url: /integrations/performance-tab.html                                                                        
-        - title: Learn about Keystone and BlueXP
-          url: /integrations/keystone-cm.html 
     - title: Keystone STaaS services
       entries:  
         - title: Metrics and definitions
