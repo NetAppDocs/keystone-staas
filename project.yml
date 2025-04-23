@@ -74,7 +74,7 @@ sidebar:
           url: /installation/monitor-health.html
         - title: Upgrade Keystone Collector
           url: /installation/upgrade.html 
-    - title: Manage and monitor Keystone subscription
+    - title: Manage and monitor Keystone subscriptions
       entries:
         - title: Get started with Keystone dashboard
           url: /integrations/keystone-dashboard.html
@@ -86,6 +86,8 @@ sidebar:
               url: /integrations/keystone-aiq.html
         - title: Subscriptions tab
           url: /integrations/subscriptions-tab.html
+        - title: Consumption details 
+          url: /integrations/consumption-tab.html
         - title: Learn about Keystone and BlueXP digital advisor
           url: /integrations/keystone-cm.html 
     - title: Keystone dashboard 
