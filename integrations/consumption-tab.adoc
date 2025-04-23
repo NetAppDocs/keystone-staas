@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar
-permalink: integrations/current-usage-tab.html
+permalink: integrations/consumption-tab.html
 keywords: keystone-aiq, digital advisor keystone, current consumption tab
 summary: To understand your subscription usage, you can view the committed capacity, consumed capacity, available capacity, and more.
 ---
