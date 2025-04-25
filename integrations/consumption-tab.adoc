@@ -5,67 +5,22 @@ keywords: keystone-aiq, digital advisor keystone, current consumption tab
 summary: To understand your subscription usage, you can view the committed capacity, consumed capacity, available capacity, and more.
 ---
 
-= View the current consumption of your subscriptions
+= View consumption trends of your Keystone subscriptions
 :hardbreaks:
 :nofooter:
 :icons: font
 :linkattrs:
 :imagesdir: ../media/
 
-To understand your subscription usage, you can view current consumption details such as committed, consumed, and available capacity, while also monitoring historical data over a specific period to make informed decisions.
+[.lead]
+To help you monitor your subscription usage, you can view historical data of your Keystone subscriptions for a specific period of time.
+
+//To understand your subscription usage, you can view current consumption details such as committed, consumed, and available capacity, while also monitoring historical data over a specific period to make informed decisions.
 
 
-== View the current consumption of your subscriptions
+//== View the current consumption of your subscriptions
 
-You can view the current consumption status of your subscriptions through BlueXP or Digital Advisor by following these steps:
-
-[role="tabbed-block"]
-====
-
-.BlueXP
---
-.Steps
-
-. From the BlueXP left navigation, select *Storage > Keystone > Subscriptions*.
-+
-By default, the *Subscriptions* tab displays the *Subscriptions* sub-tab.
-. Click the subscription number in the *Subscription Number* column of the table to view the current consumption.
-+
-You are redirected to the *Current consumption* tab.
-+
-image
-+
-For the selected subscription, you can view details like maximum capacity consumed and days remaining until expiration. As part of monitoring your subscription usage, you can view various metrics including the performance level name, consumption status, committed, total used, provisioned, burst, and available capacities, available capacity with burst, burst capacity consumed, accrued burst, and volumes.
-+
-You can view consumption details in either table or graphical format using the *Table* or *Graph* option from the *View as* dropdown. In the graphical view, you can see the current consumption per service level, including used capacity, provisioned capacity, committed capacity limit, and burst capacity limit.
-+
-image
-
---
-
-.Digital Advisor
---
-.Steps
-
-. From the Digital Advisor left navigation pane, go to *GENERAL > Keystone Subscriptions > Current Consumption*.
-. Select or search the required subscription number from the *Subscription* dropdown list.
-+
-image:aiq-ks-dtls-3.png[Current Consumption tab]
-+
-For the selected subscription, you can view details, such as the start and end dates of the subscription, and the billing period, such as monthly or annual. As  a part of the subscription usage, you can view the service level name, committed, consumed, available capacities, and current and accrued burst usage (in TiB). Specific service levels that record higher consumption are highlighted. You can also view warnings and alerts generated for your volumes.
-+
-Coupled with the current consumption, you might want to view the historical usage data for comparison. Click the *View Historical Data* button to navigate to the *Consumption Trend* tab to view the historical data for the same subscription.
-
---
-====
-[TIP]
-The image:icon-info.png[information icon] icon next to each column provides comprehensive information about that column. 
-
-For information about your Keystone storage services and the relevant service levels, see link:../concepts/service-levels.html[Service Levels in Keystone].
-
-== View consumption trends
-
-You can view historical data of your Keystone subscriptions for a specific period of time through BlueXP or Digital Advisor by following these steps:
+You can view historical data of your Keystone subscriptions through BlueXP or Digital Advisor by following these steps:
 
 [role="tabbed-block"]
 ====

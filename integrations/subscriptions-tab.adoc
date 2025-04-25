@@ -5,7 +5,7 @@ keywords: keystone-aiq, digital advisor keystone, subscriptions-tab, performance
 summary: To learn more about your Keystone subscriptions, you can view a list of all your subscriptions from the Subscriptions tab.
 ---
 
-= View details about your subscriptions
+= View details about your Keystone subscriptions
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -25,7 +25,7 @@ The *Subscriptions* tab in BlueXP is divided into two sections: *Subscriptions* 
 .Steps
 
 . From the BlueXP left navigation pane, go to *Storage > Keystone > Subscriptions*.
-. By default, the *Subscriptions* sub-tab is displayed.
+. By default, the *Subscriptions* tab displays the *Subscriptions* sub-tab.
 +
 image:.
 +

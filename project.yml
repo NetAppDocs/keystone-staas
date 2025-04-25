@@ -76,18 +76,32 @@ sidebar:
           url: /installation/upgrade.html 
     - title: Manage and monitor Keystone subscriptions
       entries:
+        - title: Learn about Keystone dashboard
+          url: /integrations/dashboard-overview.html
         - title: Get started with Keystone dashboard
-          url: /integrations/keystone-dashboard.html
-        - title: Keystone dashboard overview
+          url: /integrations/dashboard-access.html
+        - title: Overview of Keystone dashboard
           entries:
             - title: Keystone in BlueXP
-              url: /integrations/keystone-overview-bluexp.html
+              url: /integrations/keystone-bluexp.html
             - title: Keystone in Digital Advisor
               url: /integrations/keystone-aiq.html
-        - title: Subscriptions tab
+        - title: View your subscription details
           url: /integrations/subscriptions-tab.html
-        - title: Consumption details 
+        - title: View your current consumption details
+          url: /integrations/current-usage-tab.html
+        - title: View consumption trends 
           url: /integrations/consumption-tab.html
+        - title: View your subscription timeline
+          url: /integrations/subscription-timeline.html
+        - title: View your Keystone subscription assets
+          url: /integrations/assets-tab.html
+        - title: View assets across your Keystone subscriptions
+          url: /integrations/assets.html
+        - title: View volumes and object storage details
+          url: /integrations/volumes-objects-tab.html          
+        - title: View performance metrics managed by Keystone
+          url: /integrations/performance-tab.html
         - title: Learn about Keystone and BlueXP digital advisor
           url: /integrations/keystone-cm.html 
     - title: Keystone dashboard 

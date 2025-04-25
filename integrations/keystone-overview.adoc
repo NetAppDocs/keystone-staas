@@ -1,1 +1,0 @@
-Keystone dashboard enables you to view the details of your Keystone subscriptions, monitor capacity usage, and generate reports. 

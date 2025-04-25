@@ -13,7 +13,7 @@ summary: View capacity details at the volume or object storage level.
 :imagesdir: ../media/
 
 [.lead]
-If you want to view capacity details at the volume or object storage level, you can navigate to the *Volumes & Objects*. For StorageGRID, you can use this tab to read the usage by the individual nodes in your object storage environment.
+If you want to view capacity details at the volume or object storage level, you can navigate to the *Volumes & Objects* tab in Digital Advisor. For StorageGRID, you can use this tab to read the usage by the individual nodes in your object storage environment.
 
 [NOTE]
 The title of this tab varies with the nature of deployment at your site. If you have both ONTAP and object storage, the title of the tab appears as *Volumes & Objects*. For only ONTAP, the name appears *Volumes*. For StorageGRID object storage, you can see the *Objects* tab.
@@ -27,7 +27,7 @@ NOTE: The *Objects* sub-tab is unavailable under the *Volumes* tab, and within t
 ====
 .Volume Summary
 --
-. Click *GENERAL > Keystone Subscriptions > Volumes & Objects > Volume Summary*.
+. From the Digital Advisor left navigation pane, go to *GENERAL > Keystone Subscriptions > Volumes & Objects > Volume Summary*.
 . Select the subscription number.
 +
 For the selected Keystone STaaS subscription, you can see the total number of volumes, their QoS compliance status, count of protected volumes, and the total committed, consumed, and available capacity in all those volumes. If you click the number of non-compliant or protected volumes, it takes you to the *Volume Details* tab, where you can view a filtered list showing either the non-compliant volumes or the protected volumes, based on your selection.
@@ -38,7 +38,7 @@ image:volume-summary-2.png[Volume summary tab]
 
 .Volume Details
 --
-. Click *GENERAL > Keystone Subscriptions > Volumes > Volume Details*.
+. From the Digital Advisor left navigation pane, go to *GENERAL > Keystone Subscriptions > Volumes > Volume Details*.
 . Select the subscription number. 
 +
 You can see the tabular listing of the volumes, such as capacity usage, volume type, cluster, aggregate, and the assigned Keystone service levels. You can scroll across the columns and learn more about them by hovering your mouse on the information icons beside the column headings. You can sort by the columns and filter the lists to view specific information. 
@@ -54,7 +54,7 @@ image:volume-details-3.png[Volumes details tab]
 
 .Objects
 --
-. Click *GENERAL > Keystone Subscriptions > Objects*.
+. From the Digital Advisor left navigation pane, go to *GENERAL > Keystone Subscriptions > Objects*.
 . Select the subscription number. By default, the first available subscription number is selected if the previously selected subscription does not include service levels for both file and object storage.
 +
 NOTE: For StorageGRID, this tab displays the physical usage for the nodes for object storage.

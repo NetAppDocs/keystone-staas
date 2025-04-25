@@ -1,0 +1,33 @@
+---
+sidebar: sidebar
+permalink: integrations/subscription-timeline.html
+keywords: keystone, BlueXP, subscriptions, timeline, lifecycle, activation, modification, renewal
+summary: View the subscription timeline from BlueXP, which includes events such as activation, modification, and renewal dates.
+---
+
+= View the timeline of your Keystone subscriptions
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ../media/
+
+[.lead]
+To understand your subscription lifecycle, you can view the subscription timeline from BlueXP, which includes events such as activation, modification, and renewal dates.
+
+To view the subscription timeline, follow these steps:
+
+.Steps
+
+. From the BlueXP left navigation, select *Storage > Keystone > Subscriptions*.
++
+By default, the *Subscriptions* tab displays the *Subscriptions* sub-tab.
+. Click the subscription number in the *Subscription Number* column to view the subscription timeline.
++
+You are redirected to the *Current consumption* tab. 
+. Select the *Subscription timeline* tab. 
++
+image
++
+The subscription lifecycle is displayed as a line graph by default, with icons marking important events. Hover over an event to see detailed information, such as the date and changes made to committed capacity during a modification. To view these events in a table, select the *Table* option from the *View as* dropdown. You can also see the timeline of other subscriptions by selecting or searching from the *Tracking ID* dropdown list.
+

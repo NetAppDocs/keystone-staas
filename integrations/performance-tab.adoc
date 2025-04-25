@@ -13,10 +13,12 @@ summary: To monitor the performance of your systems, you can view performance me
 :imagesdir: ../media/
 
 [.lead]
-To monitor the performance of your systems, you can view performance metrics of the ONTAP volumes managed by your Keystone subscriptions.
+To monitor the performance of your systems, you can view performance metrics of the ONTAP volumes managed by your Keystone subscriptions through Digital Advisor.
 
 [TIP]
 This tab is optionally available to you. Contact support for viewing this tab.
+
+To view this tab in Digital Advisor, follow these steps:
 
 .Steps
 . Click *GENERAL > Keystone Subscriptions > Performance*.
