@@ -13,9 +13,9 @@ summary: To understand your subscription usage, you can view the committed capac
 :imagesdir: ../media/
 
 [.lead]
-To understand your subscription usage, you can view the usage details like committed capacity, consumed capacity, available capacity, and more.
+You can gain insights into your subscription usage by viewing detailed information such as committed capacity, consumed capacity, and available capacity. This tab displays the current consumption status of your subscriptions, segregated by performance service levels.
 
-You can view the current consumption status of your subscriptions through BlueXP or Digital Advisor by following these steps:
+To view the current consumption status of your subscriptions through BlueXP or Digital Advisor, follow these steps:
 
 [role="tabbed-block"]
 ====
@@ -31,13 +31,13 @@ By default, the *Subscriptions* tab displays the *Subscriptions* sub-tab.
 +
 You are redirected to the *Current consumption* tab.
 +
-image
+##image <requires>##
 +
-For the selected subscription, you can view details like maximum capacity consumed and days remaining until expiration. As part of monitoring your subscription usage, you can view the performance level name, consumption status, committed, total used, provisioned, burst, and available capacities, available capacity with burst, burst capacity consumed, accrued burst, and volumes.
+For the selected subscription, you can view details like maximum capacity consumed and days remaining until expiration. As part of monitoring your subscription usage, you can view the performance level name, consumption status, committed and used capacities, provisioned and burst capacities, available capacity, and volumes. You can customize the table using the column selector image:column-selector.png[column selector icon] icon.
 +
 You can view consumption details in either table or graphical format using the *Table* or *Graph* option from the *View as* dropdown. In the graphical view, you can see the current consumption per service level, including used capacity, provisioned capacity, committed capacity limit, and burst capacity limit.
 +
-image
+##image: <requires>##
 
 --
 
@@ -56,17 +56,16 @@ Coupled with the current consumption, you might want to view the historical usag
 
 --
 ====
-[TIP]
-The image:icon-info.png[information icon] icon next to each column provides comprehensive information about that column. 
 
 For information about your Keystone storage services and the relevant service levels, see link:../concepts/service-levels.html[Service Levels in Keystone].
 
 
 *Related information*
 
-* link:../integrations/aiq-keystone-details.html[Use Keystone dashboard and reporting]
-* link:../integrations/subscriptions-tab.html[Subscriptions]
-* link:../integrations/capacity-trend-tab.html[Consumption Trend]
-* link:../integrations/volumes-objects-tab.html[Volumes & Objects]
-* link:../integrations/assets-tab.html[Assets tab]
-* link:../integrations/performance-tab.html[Performance]
+* link:../integrations/dashboard-overview.html[Learn about Keystone dashboard]
+* link:../integrations/subscriptions-tab.html[View your subscription details]
+* link:../integrations/consumption-tab.html[View consumption trends]
+* link:../integrations/subscription-timeline.html[View your subscription timeline]
+* link:../integrations/assets-tab.html[View your Keystone subscription assets]
+* link:../integrations/assets.html[View assets across your Keystone subscriptions]
+* link:../integrations/volumes-objects-tab.html[View volumes & objects details]
