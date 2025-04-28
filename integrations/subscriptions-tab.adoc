@@ -13,7 +13,7 @@ summary: To learn more about your Keystone subscriptions, you can view a list of
 :imagesdir: ../media/
 
 [.lead]
-To learn more about your Keystone subscriptions, you can view a list of all your subscriptions from the *Subscriptions* tab in both BlueXP and Digital Advisor.
+You can view a list of all your subscriptions from the *Subscriptions* tab in both BlueXP and Digital Advisor. This tab provides easy-to-understand insights based on your subscription status and usage, helping you stay informed and take action when needed.
 
 [role="tabbed-block"]
 ====
@@ -22,16 +22,18 @@ To learn more about your Keystone subscriptions, you can view a list of all your
 --
 The *Subscriptions* tab in BlueXP is divided into two sections: *Subscriptions* and *Performance levels*. Each section offers specific insights to help you manage and monitor your Keystone subscriptions effectively. To view detailed information for your subscriptions, follow these steps:
 
+TIP: You can customize the columns displayed in the table using the column selector image:column-selector.png[column selector icon] icon. For certain fields and columns, you might see information or warning icons and tooltips that provide you with additional information about the data.
+
 .Steps
 
 . From the BlueXP left navigation pane, go to *Storage > Keystone > Subscriptions*.
 . By default, the *Subscriptions* tab displays the *Subscriptions* sub-tab.
 +
-image:.
+image: <require more data to add-Deb>
 +
-You see the key metrics such as capacity status, subscription expiry status, and Keystone version across subscriptions. To learn more, refer to link <>.
+You see the key metrics such as capacity status, subscription expiry status, and Keystone version across subscriptions. To learn more, refer to link:../integrations/keystone-bluexp.html[Keystone dashboard in BlueXP].
 +
-You can customize the columns displayed in the table using the column selector <image> icon. For certain fields and columns, you might see information or warning icons and tooltips that provide you with additional information about the data. 
+You can see the following details from the table:
 +
 * *Subscription number*: The subscription number of the Keystone subscription assigned by NetApp.
 * *Tracking ID*: The tracking ID assigned at the time of subscription activation. This is a unique ID for each subscription and site, used for tracking the subscription.
@@ -42,15 +44,14 @@ You can customize the columns displayed in the table using the column selector <
 * *Performance levels*: The number of rate plans associated with the subscription, with each rate plan corresponding to a specific service level and committed capacity. 
 * *Highest capacity*: The maximum capacity consumed within the subscription. 
 * *Days to subscription expiry*: The number of days remaining until the subscription expires.
-. You can click the *Performance levels* sub-tab to view the performance levels across all subscriptions, along with detailed information presented in the table.
+. You can click the *Performance service levels* sub-tab to view the service levels across all subscriptions, along with detailed information presented in the table.
 +
-image:
+image: <requires image from deb>
 +
-* *Performance levels across subscriptions*: Displays the number of subscriptions for each performance level, with *View* button to filter the table.
+* *Performance levels across subscriptions*: Displays the number of subscriptions for each service level, with *View* button to filter the table.
 * *Provisioning consistency across subscriptions*: Shows the counts for over-provisioned and under-provisioned subscriptions, with a *View* button to filter the table.
 +
-You can see the tabular listing of subscriptions, including key details such as the name of the customer, subscription number, type of service level, total number of volumes, and their QoS compliance status. The table also displays the count of protected volumes, the total committed, consumed, provisioned, available capacity (with and without burst), and accrued burst capacity.You can customize the columns displayed in the table using the column selector <image> icon. 
-
+You can see the tabular listing of subscriptions, including key details such as the name of the customer, subscription number, type of service level, total number of volumes, and their QoS compliance status. The table also displays the count of protected volumes, the total committed, consumed, provisioned, available capacity (with and without burst), and accrued burst capacity.
 --
 
 .Digital Advisor
@@ -94,9 +95,10 @@ image:icon-purple.png[purple dot icon]: Indicates consumption above the stipulat
 
 *Related information*
 
-* link:../integrations/aiq-keystone-details.html[Use Keystone dashboard and reporting]
-* link:../integrations/current-usage-tab.html[Current Consumption]
-* link:../integrations/capacity-trend-tab.html[Consumption Trend]
-* link:../integrations/volumes-objects-tab.html[Volumes & Objects]
-* link:../integrations/assets-tab.html[Assets]
-* link:../integrations/performance-tab.html[Performance]
+* link:../integrations/dashboard-overview.html[Learn about Keystone dashboard]
+* link:../integrations/current-usage-tab.html[View your current consumption details]
+* link:../integrations/consumption-tab.html[View consumption trends]
+* link:../integrations/subscription-timeline.html[View your subscription timeline]
+* link:../integrations/assets-tab.html[View your Keystone subscription assets]
+* link:../integrations/assets.html[View assets across your Keystone subscriptions]
+* link:../integrations/volumes-objects-tab.html[View volumes & objects details]
