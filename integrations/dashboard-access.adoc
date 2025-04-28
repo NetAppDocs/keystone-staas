@@ -1,11 +1,11 @@
 ---
 sidebar: sidebar
 permalink: integrations/dashboard-access.html
-keywords: Keystone, Digital Advisor, keystone-aiq, aiq, BlueXP, Keystone dashboard
-summary: As a NetApp Keystone STaaS subscriber, you can get an overview of your subscriptions from  NetApp BlueXP or Digital Advisor.
+keywords: Keystone, Digital Advisor, keystone-aiq, aiq, BlueXP, Keystone dashboard, Keystone subscriptions
+summary: As a NetApp Keystone STaaS subscriber, you can get access the Keystone dashboard through NetApp BlueXP or Digital Advisor
 ---
 
-= Get started with Keystone dashboard
+=Get started with Keystone dashboard
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,7 +13,7 @@ summary: As a NetApp Keystone STaaS subscriber, you can get an overview of your 
 :imagesdir: ../media/
 
 [.lead]
-You can access the Keystone dashboard through NetApp BlueXP or Digital Advisor after subscribing to NetApp Keystone services. 
+You can access the Keystone dashboard through NetApp BlueXP or Digital Advisor after subscribing to NetApp Keystone services. <might change after completing the dashboard overview part>
 
 NOTE: You can also access the Keystone dashboard from BlueXP digital advisor. To learn more, refer to link:https://docs.netapp.com/us-en/keystone-staas/integrations/keystone-cm.html[Learn about Keystone and BlueXP digital advisor]. 
 
@@ -29,6 +29,10 @@ To log in to BlueXP, you can use your NetApp Support Site credentials or you can
 . The NetApp BlueXP login page appears.
 . Log in to BlueXP.
 . From the BlueXP left navigation, select *Storage > Keystone*.
++
+The Keystone dashboard appears.
++
+<image requires to show the landing page-Deb>.
 . If you are an existing Keystone user,
 +
 .. Click *Discover your subscriptions* to view the details about your subscriptions in the Keystone dashboard. 
@@ -50,10 +54,14 @@ The Digital Advisor dashboard enables you to view the details of your Keystone s
 . Open a web browser, and go to the link:https://activeiq.netapp.com/?source=onlinedocs[Digital Advisor^] login page.
 . Provide your username and password and click *Sign In*.
 +
-You can view the details of your subscription and usage, and see a summary of capacity usage against your purchased Keystone services, on the *Keystone Subscriptions* widget on the Digital Advisor dashboard. To learn more about the *Keystone Subscriptions* widget, refer to <Keystone dashboard in Digital Advisor>.
+You can view the details of your subscription and usage, and see a summary of capacity usage against your purchased Keystone services, on the *Keystone Subscriptions* widget in the Digital Advisor dashboard. To learn more about the *Keystone Subscriptions* widget, refer to link:../integrations/keystone-aiq.html[Keystone dashboard in Digital Advisor].
 --
 ====
 
+*Related information*
+
+link:../integrations/keystone-bluexp.html[Overview of Keystone dashboard]
+link:../integrations/subscriptions-tab.html[View your subscription details]
 
 
 
