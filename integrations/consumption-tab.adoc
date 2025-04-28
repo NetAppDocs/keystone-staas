@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: integrations/consumption-tab.html
-keywords: keystone-aiq, digital advisor keystone, current consumption tab
+keywords: keystone-aiq, digital advisor keystone, consumption trends, subscriptions, historical data, bluexp
 summary: To understand your subscription usage, you can view the committed capacity, consumed capacity, available capacity, and more.
 ---
 
@@ -13,7 +13,7 @@ summary: To understand your subscription usage, you can view the committed capac
 :imagesdir: ../media/
 
 [.lead]
-To help you monitor your subscription usage, you can view historical data of your Keystone subscriptions for a specific period of time.
+To help you monitor your subscription usage, you can view historical data of your Keystone subscriptions for a specific period of time. By viewing historical data, you can gain valuable insights into your subscription usage patterns. 
 
 //To understand your subscription usage, you can view current consumption details such as committed, consumed, and available capacity, while also monitoring historical data over a specific period to make informed decisions.
 
@@ -39,7 +39,7 @@ You are redirected to the *Current consumption* tab.
 +
 The historical consumption data for each service level is displayed in a line graph based on the selected time range.
 +
-NOTE: You can select *Accrued burst* from the *View* dropdown if you want to view the historical burst usage data, for which invoices have been generated. You can use this data to analyze the billed usage as per your invoice. To learn more, refer to <>
+NOTE: You can select *Accrued burst* from the *View* dropdown if you want to view the historical burst usage data, for which invoices have been generated. You can use this data to analyze the billed usage as per your invoice. To learn more, refer to link:../integrations/consumption-tab.html#view-accrued-burst[View accrued burst]
 
 image: 
 
@@ -56,7 +56,7 @@ You can also view a summary of current consumption alongside historical consumpt
 . Select the required subscription for which you want to view the details. The first subscription in your account name is selected by default.
 . Select *Consumption Trend* if you want to view the historical data and analyze the capacity usage trend. 
 +
-NOTE: You can select *Invoiced Accrued Burst* if you want to view the historical burst usage data, for which invoices have been generated. You can use this data to analyze the billed usage as per your invoice. To learn more, refer to <>
+NOTE: You can select *Invoiced Accrued Burst* if you want to view the historical burst usage data, for which invoices have been generated. You can use this data to analyze the billed usage as per your invoice. To learn more, refer to link:../integrations/consumption-tab.html#view-accrued-burst[View accrued burst].
 . Select the time range from the calendar icons in the *From Date* and *To Date* fields. Select the date range for the query. The date range can be the beginning of the month or the subscription start date to the current date or the subscription end date. You cannot select a future date. 
 +
 TIP: For optimal performance and user experience, limit the date range of your query to three months.
@@ -104,13 +104,9 @@ The burst is the difference between the consumed capacity and the committed capa
 ====
 
 == View accrued burst
-You can view the accrued burst data usage through BlueXP or Digital Advisor. If you have selected *Accrued burst* from the *View* dropdown in BlueXP, or if you have selected the *Invoiced Accrued Burst* option from the Consumption Trends tab in Digital Advisor, you can see accrued burst data usage on a monthly or quarterly basis, depending on your selected billing period. This data is available for the last 12 months that have been billed, and you can query by the date range for up to past 30 months. Bar charts display the invoiced data, and if the usage has not yet been billed, it will be marked as _Pending_ for that period.
+You can view the accrued burst data usage through BlueXP or Digital Advisor. If you have selected *Accrued burst* from the *View* dropdown in the *Consumption trend* tab in BlueXP, or the *Invoiced Accrued Burst* option from the *Consumption Trend* tab in Digital Advisor, you can see accrued burst data usage on a monthly or quarterly basis, depending on your selected billing period. This data is available for the last 12 months that have been billed, and you can query by the date range for up to past 30 months. Bar charts display the invoiced data, and if the usage has not yet been billed, it will be marked as _Pending_ for that period.
 
 TIP: The invoiced accrued burst usage is calculated per billing period, based on the committed and consumed capacity for a service level.
-
-
-image:accr-burst-1.png[accrued burst usage charts]
-
 
 For a quarterly billing period, if the subscription starts on a date other than the 1^st^ of the month, the quarterly invoice will cover the subsequent 90-day period. For example, if your subscription starts on August 15, the invoice will be generated for the period from August 15 to October 14.
 
@@ -121,9 +117,9 @@ image:accr-burst-2.png[accrued burst usage quarterly]
 This functionality is available in a preview-only mode. Contact your KSM to learn more about this feature.
 
 == View daily accrued burst data usage
-You can view daily accrued burst data usage for a monthly or quarterly billing period through BlueXP or Digital Advisor. In BlueXP, the *Accrued burst by days* table provides detailed data including the timestamp, committed capacity, consumed capacity, and accrued burst capacity if you select *Accrued burst* from the *View* dropdown.
+You can view daily accrued burst data usage for a monthly or quarterly billing period through BlueXP or Digital Advisor. In BlueXP, the *Accrued burst by days* table provides detailed data including the timestamp, committed, consumed, and accrued burst capacity if you select *Accrued burst* from the *View* dropdown in the *Consumption trend* tab.
 +
-image
+image ##<requires>##
 
 In Digital Advisor, when you click the bar that displays the invoiced data from the *Invoiced Accrued Burst* option, you see the Billable Provisioned Capacity section below the bar chart, offering both graph and table viewing options. The default graph view displays daily accrued burst data usage in a line graph format, showing changes in usage over time.
 
@@ -134,8 +130,6 @@ An example image showing daily accrued burst data usage in a line graph:
 image:invoiced-daily-accr-burst-date.png[screenshot showing burst usage data in a line graph format]
 
 You can switch to a table view by clicking the *Table* option at the top right corner of the graph. The table view provides detailed daily usage metrics, including service level, timestamp, committed capacity, consumed capacity, and billable provisioned capacity. You can also generate a report of these details in CSV format for future use and comparison.
-
-image:invoiced-daily-accr-burst-3.png[screenshot showing burst usage data in a table format]
 
 == Reference charts for advanced data protection for MetroCluster 
 If you have subscribed to the advanced data protection add-on service, you can view the breakup of the consumption data for the MetroCluster partner sites on the *Consumption Trend* tab in Digital Advisor.
