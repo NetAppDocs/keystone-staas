@@ -15,9 +15,6 @@ summary: Use the Assets tab to view details of ONTAP clusters and nodes, and Sto
 [.lead]
 Use the *Assets* tab to view nodes in clusters, provisioned volumes, and StorageGRID nodes across Keystone subscriptions that you are authorized to see based on your specific access permissions.
 
-You can a
-
-
 [role="tabbed-block"]
 ====
 .Nodes in clusters
@@ -25,7 +22,7 @@ You can a
 .Steps
 . From the BlueXP left navigation, select *Storage > Keystone > Assets*.
 +
-By default, the *Assets* sub-tab displays the *Nodes in cluster* sub-tab.
+By default, the *Assets* tab displays the *Nodes in cluster* sub-tab.
 +
 image
 +
@@ -34,6 +31,8 @@ You can view detailed information about all nodes in clusters across Keystone su
 * Total number of subscriptions and ONTAP nodes.
 * Node capacity consumption, with a clickable *View* button to filter the table and display assets that meet specific criteria (> 90% consumed or < 50% consumed).
 * Nodes based on ONTAP versions, with the *View* button to filter for nodes within the latest three versions or older.
++
+TIP: You can customize the table using the column selector image:column-selector.png[column selector icon] icon. 
 --
 
 .Volumes in clusters
@@ -41,7 +40,7 @@ You can view detailed information about all nodes in clusters across Keystone su
 .Steps
 . From the BlueXP left navigation, select *Storage > Keystone > Assets*.
 +
-By default, the *Assets* sub-tab displays the *Nodes in cluster* sub-tab.
+By default, the *Assets* tab displays the *Nodes in cluster* sub-tab.
 . Click the *Volumes in cluster* tab. 
 +
 image
@@ -51,7 +50,9 @@ You see the detailed information about all volumes in clusters across Keystone s
 * The total number of subscriptions, clusters, and volumes.
 * Volume compliance and protection status, with a *View* button to filter the table and display assets based on criteria such as compliant, not compliant, or not protected.
 +
-You can click on a subscription number in the *Subscription number* column to go to the *Subscriptions* tab, where you can view subscription consumption details, timelines, and associated asset information. To learn more, refer to <consumption tab>.
+TIP: You can customize the table using the column selector image:column-selector.png[column selector icon] icon. 
++
+You can click a subscription number in the *Subscription number* column to go to the *Subscriptions* tab, where you can view subscription consumption details, timelines, and associated asset information. To learn more, refer to link:../integrations/current-usage-tab.html[View your current consumption details].
 --
 
 .Nodes in grids
@@ -59,14 +60,16 @@ You can click on a subscription number in the *Subscription number* column to go
 .Steps
 . From the BlueXP left navigation, select *Storage > Keystone > Assets*.
 +
-By default, the *Assets* sub-tab displays the *Nodes in cluster* sub-tab.
+By default, the *Assets* tab displays the *Nodes in cluster* sub-tab.
 . Click the *Nodes in grids* tab. 
 +
 image
 +
 You can view detailed information about all nodes in grids across Keystone subscriptions including node name, node ID, subscription number, grid name, node type, and customer. You can monitor the consumed and available data capacity, CPU usage, and usable data capacity. Clicking on one of the grid name takes you to the *GRID Viewer* widget on the BlueXP digital advisor screen, where you get additional information for that node. 
 +
-You can click on a subscription number in the *Subscription number* column to go to the *Subscriptions* tab, where you can view subscription consumption details, timelines, and associated asset information. To learn more, refer to <consumption tab>.
+TIP: You can customize the table using the column selector image:column-selector.png[column selector icon] icon. 
++
+You can click a subscription number in the *Subscription number* column to go to the *Subscriptions* tab, where you can view subscription consumption details, timelines, and associated asset information. To learn more, refer to link:../integrations/current-usage-tab.html[View your current consumption details].
 --
-NOTE: You can customize the columns displayed in the table using the column selector <image> icon. 
+ 
 ====
