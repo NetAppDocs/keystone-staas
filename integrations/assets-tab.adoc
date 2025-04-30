@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: integrations/assets-tab.html
-keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, keystone assets tab, ONTAP, StorageGRID
+keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, keystone assets tab, ONTAP, StorageGRID, bluexp, volumes in clusters
 summary: Use the Assets tab to view details of ONTAP clusters and nodes, and StorageGRID grids, sites, and nodes managed by your Keystone subscriptions.
 ---
 
@@ -34,6 +34,8 @@ You are redirected to the *Current consumption* tab.
 image
 +
 You see the detailed information about volumes in clusters including volume name, node serial number, compliance with QoS policies, cluster name, host name, and service levels. You can also monitor the provisioned capacity, logical and physical utilization, and cold data.
++
+TIP: You can customize the table using the column selector image:column-selector.png[column selector icon] icon. 
 --
 
 .Nodes in clusters
@@ -51,6 +53,8 @@ You are redirected to the *Current consumption* tab.
 image
 +
 You see the cluster details, broken down by storage efficiency settings, platform type, and capacity details. Clicking on one of the clusters takes you to the *Clusters* widget on the BlueXP digital advisor screen, where you get additional information for that cluster. 
++
+TIP: You can customize the table using the column selector image:column-selector.png[column selector icon] icon. 
 --
 
 .Nodes in grids
@@ -68,8 +72,9 @@ You are redirected to the *Current consumption* tab.
 image
 +
 You can view detailed information about nodes in grids, including node name, node status, grid name, node type, and customer. You can also monitor consumed and available data capacity, CPU usage, and usable data capacity. Clicking on one of the grid name takes you to the *GRID Viewer* widget on the BlueXP digital advisor screen, where you get additional information for that node. 
++
+TIP: You can customize the table using the column selector image:column-selector.png[column selector icon] icon. 
 --
-NOTE: You can customize the columns displayed in the table using the column selector <image> icon. 
 ====
 
 The *Assets* tab of the Keystone dashboard in Digital Advisor includes two sub-tabs: *ONTAP* and *StorageGRID*. This tab accumulates cluster-level information for ONTAP and grid-level information for StorageGRID based on your subscriptions, segregating and presenting the data with accurate details. You can view this information by clicking on the respective sub-tabs.
@@ -103,9 +108,12 @@ image:assets-tab-storagegrid.png[screenshot to show grid-level information for S
 
 *Related information*
 
-* link:../integrations/aiq-keystone-details.html[Use Keystone dashboard and reporting]
-* link:../integrations/subscriptions-tab.html[Subscriptions]
-* link:../integrations/current-usage-tab.html[Current Consumption]
-* link:../integrations/volumes-objects-tab.html[Volumes & Objects]
-* link:../integrations/capacity-trend-tab.html[Consumption Trend]
-* link:../integrations/performance-tab.html[Performance]
+*Related information*
+
+* link:../integrations/dashboard-overview.html[Learn about Keystone dashboard]
+* link:../integrations/subscriptions-tab.html[View your subscription details]
+* link:../integrations/current-usage-tab.html[View your current consumption details]
+* link:../integrations/consumption-tab.html[View consumption trends]
+* link:../integrations/subscription-timeline.html[View your subscription timeline]
+* link:../integrations/assets.html[View assets across your Keystone subscriptions]
+* link:../integrations/volumes-objects-tab.html[View volumes & objects details]

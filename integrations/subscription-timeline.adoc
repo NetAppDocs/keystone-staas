@@ -22,7 +22,7 @@ To view the subscription timeline, follow these steps:
 . From the BlueXP left navigation, select *Storage > Keystone > Subscriptions*.
 +
 By default, the *Subscriptions* tab displays the *Subscriptions* sub-tab.
-. Click the subscription number in the *Subscription Number* column to view the subscription timeline.
+. Click the subscription number in the *Subscription number* column to view the subscription timeline.
 +
 You are redirected to the *Current consumption* tab. 
 . Select the *Subscription timeline* tab. 
@@ -31,3 +31,11 @@ image
 +
 The subscription lifecycle is displayed as a line graph by default, with icons marking important events. Hover over an event to see detailed information, such as the date and changes made to committed capacity during a modification. To view these events in a table, select the *Table* option from the *View as* dropdown. You can also see the timeline of other subscriptions by selecting or searching from the *Tracking ID* dropdown list.
 
+*Related information*
+
+* link:../integrations/dashboard-overview.html[Learn about Keystone dashboard]
+* link:../integrations/subscriptions-tab.html[View your subscription details]
+* link:../integrations/consumption-tab.html[View consumption trends]
+* link:../integrations/assets-tab.html[View your Keystone subscription assets]
+* link:../integrations/assets.html[View assets across your Keystone subscriptions]
+* link:../integrations/volumes-objects-tab.html[View volumes & objects details]
