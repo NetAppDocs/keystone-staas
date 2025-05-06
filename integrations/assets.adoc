@@ -13,7 +13,7 @@ summary: Use the Assets tab to view details of ONTAP clusters and nodes, and Sto
 :imagesdir: ../media/
 
 [.lead]
-Use the *Assets* tab to view nodes in clusters, provisioned volumes, and StorageGRID nodes across Keystone subscriptions that you are authorized to see based on your specific access permissions.
+Use the *Assets* tab in BlueXP  to view detailed information about nodes in clusters, provisioned volumes, and StorageGRID nodes across your Keystone subscriptions, based on your access permissions.
 
 [role="tabbed-block"]
 ====
@@ -73,3 +73,13 @@ You can click a subscription number in the *Subscription number* column to go to
 --
  
 ====
+
+*Related information*
+
+* link:../integrations/dashboard-overview.html[Understand Keystone dashboard]
+* link:../integrations/subscriptions-tab.html[View your subscription details]
+* link:../integrations/current-usage-tab.html[View your current consumption details]
+* link:../integrations/consumption-tab.html[View consumption trends]
+* link:../integrations/subscription-timeline.html[View your subscription timeline]
+* link:../integrations/assets-tab.html[View your Keystone subscription assets]
+* link:../integrations/volumes-objects-tab.html[View volumes & objects details]

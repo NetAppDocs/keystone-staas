@@ -66,6 +66,7 @@ image:watchlist.png[watchlist screen]
 *Related information*
 
 * link:../integrations/dashboard-access.html[Get started with Keystone dashboard]
+* link:../integrations/keystone-bluexp.html[Keystone dashboard in BlueXP]
 * link:../integrations/subscriptions-tab.html[View your subscription details]
 * link:../integrations/current-usage-tab.html[View your current consumption details]
 * link:../integrations/consumption-tab.html[View consumption trends]

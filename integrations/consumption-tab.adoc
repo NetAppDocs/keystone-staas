@@ -31,7 +31,7 @@ You can view historical data of your Keystone subscriptions through BlueXP or Di
 . From the BlueXP left navigation, select *Storage > Keystone > Subscriptions*.
 +
 By default, the *Subscriptions* tab displays the *Subscriptions* sub-tab.
-. Click the subscription number in the *Subscription Number* column. 
+. Click the subscription number in the *Subscription number* column. 
 +
 You are redirected to the *Current consumption* tab. 
 . Select the *Consumption trend* tab. 
@@ -39,7 +39,7 @@ You are redirected to the *Current consumption* tab.
 +
 The historical consumption data for each service level is displayed in a line graph based on the selected time range.
 +
-NOTE: You can select *Accrued burst* from the *View* dropdown if you want to view the historical burst usage data, for which invoices have been generated. You can use this data to analyze the billed usage as per your invoice. To learn more, refer to link:../integrations/consumption-tab.html#view-accrued-burst[View accrued burst]
+NOTE: You can select *Accrued burst* from the *View* dropdown if you want to view the historical burst usage data, for which invoices have been generated. You can use this data to analyze the billed usage as per your invoice. To learn more, refer to link:../integrations/consumption-tab.html#view-accrued-burst[View accrued burst].
 
 image: 
 

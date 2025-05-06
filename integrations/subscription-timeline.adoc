@@ -33,7 +33,7 @@ The subscription lifecycle is displayed as a line graph by default, with icons m
 
 *Related information*
 
-* link:../integrations/dashboard-overview.html[Learn about Keystone dashboard]
+* link:../integrations/dashboard-overview.html[Understand Keystone dashboard]
 * link:../integrations/subscriptions-tab.html[View your subscription details]
 * link:../integrations/consumption-tab.html[View consumption trends]
 * link:../integrations/assets-tab.html[View your Keystone subscription assets]

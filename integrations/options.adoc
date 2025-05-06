@@ -17,7 +17,7 @@ Keystone dashboard in BlueXP and Digital Advisor provides options to enhance you
 
 
 == Search and filter data
-In BlueXP, you can search and filter Keystone data based on the column parameters available in a tab's table. For example, in the *Subscriptions* sub-tab under the *Subscriptions* tab, you can filter data by entering the Keystone version in the search box. Similarly, in the *Volumes in clusters* tab under the *Assets* tab, you can filter volumes compliant with QoS policy by entering "QoS" in the search box. Filtering is limited to the columns present in the tab's table. For instance, you cannot filter by Keystone version in the *Volumes in clusters* tab.
+In BlueXP, you can search and filter Keystone data based on the column parameters available in the table within a tab. For example, in the *Subscriptions* sub-tab under the *Subscriptions* tab, you can filter data by entering the Keystone version in the search box. Similarly, in the *Volumes in clusters* tab under the *Assets* tab, you can filter volumes compliant with QoS policy by entering "QoS" in the search box. Filtering is limited to the columns present in the table of the tab. For instance, you cannot filter by Keystone version in the *Volumes in clusters* tab.
 image:
 
 You can refine your searches by using the advanced filter option where available. For example, in the *Subscriptions* sub-tab, you can filter data by Keystone version, billing period, highest capacity, and days to subscription expiry, and in the *Volumes in clusters* tab, you can filter by volume name, cluster name, QoS compliance, volume type, and more. Multiple filters can be applied simultaneously to narrow down your results with precision.
@@ -27,13 +27,13 @@ image:..
 In BlueXP, you can view the "Last updated" timestamp in the top right corner of each tab, which shows when the data was last refreshed. This timestamp updates automatically every 5 to 10 minutes and refreshes when the screen loads. You can also manually refresh the data by clicking the refresh image: refresh-icon.png[refresh icon image] icon. 
 
 == Generate reports
-You can generate and view reports for your Keystone data using the tabs in Digital Advisor or BlueXP. These tabs enable you to generate reports for your subscriptions, historical usage, burst usage, performance, assets, volumes and objects by clicking the download button.
+You can generate and view reports for your Keystone data using the download button available in tabs within Digital Advisor or BlueXP. These tabs allow you to generate reports for your subscriptions, historical usage, burst usage, performance, assets, volumes and objects.
 
 [cols="1,1"]
 |===
-| BlueXP download button | Digital Advisor download Button
+| Download button in BlueXP | Download button in Digital Advisor
 
-| image:bluexp-download-report-1.png[report download icon 1 in BlueXP] or image:bluexp-download-report-1.png[report download icon 2 in BlueXP]
+| image:bluexp-download-report-1.png[report download icon 1 in BlueXP] or image:bluexp-download-report-2.png[report download icon 2 in BlueXP]
 | image:download-report-da.png[report download icon]
 |===
 

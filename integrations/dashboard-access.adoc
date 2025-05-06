@@ -60,7 +60,8 @@ You can view the details of your subscription and usage, and see a summary of ca
 
 *Related information*
 
-* link:../integrations/keystone-bluexp.html[Overview of Keystone dashboard]
+* link:../integrations/keystone-bluexp.html[Keystone dashboard in BlueXP]
+* link:..//integrations/keystone-aiq.html[Keystone dashboard in Digital Advisor]
 * link:../integrations/subscriptions-tab.html[View your subscription details]
 
 

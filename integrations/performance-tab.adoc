@@ -66,9 +66,11 @@ image:perf-log-usd.png[logical used capacity graph]
 
 *Related information*
 
-* link:../integrations/aiq-keystone-details.html[Use Keystone dashboard and reporting]
-* link:../integrations/subscriptions-tab.html[Subscriptions]
-* link:../integrations/current-usage-tab.html[Current Consumption]
-* link:../integrations/capacity-trend-tab.html[Consumption Trend]
-* link:../integrations/volumes-objects-tab.html[Volumes & Objects]
-* link:../integrations/assets-tab.html[Assets]
+* link:../integrations/dashboard-overview.html[Understand Keystone dashboard]
+* link:../integrations/subscriptions-tab.html[View your subscription details]
+* link:../integrations/current-usage-tab.html[View your current consumption details]
+* link:../integrations/consumption-tab.html[View consumption trends]
+* link:../integrations/subscription-timeline.html[View your subscription timeline]
+* link:../integrations/assets-tab.html[View your Keystone subscription assets]
+* link:../integrations/assets.html[View assets across your Keystone subscriptions]
+* link:../integrations/volumes-objects-tab.html[View volumes & objects details]

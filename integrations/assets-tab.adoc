@@ -15,7 +15,7 @@ summary: Use the Assets tab to view details of ONTAP clusters and nodes, and Sto
 [.lead]
 To gain insights into subscription assets, you can view detailed information about ONTAP clusters and nodes, StorageGRID grids, sites, and nodes managed by your Keystone subscriptions through BlueXP or Digital Advisor.
 
-The *Assets* tab within the *Subscriptions* tab in BlueXP provides detailed information about volumes in clusters, StorageGRID nodes, and ONTAP nodes associated with the subscription, including various attributes and capacity status. You can view this information by following these steps:
+The *Assets* tab within the *Subscriptions* tab in BlueXP provides detailed information about volumes in clusters, StorageGRID nodes, and ONTAP nodes associated with the subscription, including various details and capacity status. You can view this information by following these steps:
 
 [role="tabbed-block"]
 ====
@@ -25,7 +25,7 @@ The *Assets* tab within the *Subscriptions* tab in BlueXP provides detailed info
 . From the BlueXP left navigation, select *Storage > Keystone > Subscriptions*.
 +
 By default, the *Subscriptions* tab displays the *Subscriptions* sub-tab.
-. Click the subscription number in the *Subscription Number* column of the table.
+. Click the subscription number in the *Subscription number* column of the table.
 +
 You are redirected to the *Current consumption* tab.
 . Select the *Assets* tab.
@@ -44,7 +44,7 @@ TIP: You can customize the table using the column selector image:column-selector
 . From the BlueXP left navigation, select *Storage > Keystone > Subscriptions*.
 +
 By default, the *Subscriptions* tab displays the *Subscriptions* sub-tab.
-. Click the subscription number in the *Subscription Number* column of the table.
+. Click the subscription number in the *Subscription number* column of the table.
 +
 You are redirected to the *Current consumption* tab.
 . Select the *Assets* tab.
@@ -63,7 +63,7 @@ TIP: You can customize the table using the column selector image:column-selector
 . From the BlueXP left navigation, select *Storage > Keystone > Subscriptions*.
 +
 By default, the *Subscriptions* tab displays the *Subscriptions* sub-tab.
-. Click the subscription number in the *Subscription Number* column of the table.
+. Click the subscription number in the *Subscription number* column of the table.
 +
 You are redirected to the *Current consumption* tab.
 . Select the *Assets* tab.
@@ -108,9 +108,7 @@ image:assets-tab-storagegrid.png[screenshot to show grid-level information for S
 
 *Related information*
 
-*Related information*
-
-* link:../integrations/dashboard-overview.html[Learn about Keystone dashboard]
+* link:../integrations/dashboard-overview.html[Understand Keystone dashboard]
 * link:../integrations/subscriptions-tab.html[View your subscription details]
 * link:../integrations/current-usage-tab.html[View your current consumption details]
 * link:../integrations/consumption-tab.html[View consumption trends]

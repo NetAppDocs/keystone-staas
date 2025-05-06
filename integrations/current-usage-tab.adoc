@@ -13,7 +13,7 @@ summary: To understand your subscription usage, you can view the committed capac
 :imagesdir: ../media/
 
 [.lead]
-You can gain insights into your subscription usage by viewing detailed information such as committed capacity, consumed capacity, and available capacity. This tab displays the current consumption status of your subscriptions, segregated by performance service levels.
+You can gain insights into your subscription usage by viewing detailed information such as committed capacity, consumed capacity, and available capacity, with the current consumption status displayed and segregated by performance service levels.
 
 To view the current consumption status of your subscriptions through BlueXP or Digital Advisor, follow these steps:
 
@@ -27,7 +27,7 @@ To view the current consumption status of your subscriptions through BlueXP or D
 . From the BlueXP left navigation, select *Storage > Keystone > Subscriptions*.
 +
 By default, the *Subscriptions* tab displays the *Subscriptions* sub-tab.
-. Click the subscription number in the *Subscription Number* column of the table to view the current consumption.
+. Click the subscription number in the *Subscription number* column of the table to view the current consumption.
 +
 You are redirected to the *Current consumption* tab.
 +
@@ -62,7 +62,7 @@ For information about your Keystone storage services and the relevant service le
 
 *Related information*
 
-* link:../integrations/dashboard-overview.html[Learn about Keystone dashboard]
+* link:../integrations/dashboard-overview.html[Understand Keystone dashboard]
 * link:../integrations/subscriptions-tab.html[View your subscription details]
 * link:../integrations/consumption-tab.html[View consumption trends]
 * link:../integrations/subscription-timeline.html[View your subscription timeline]
