@@ -103,7 +103,7 @@ sidebar:
             - title: Learn about Keystone and BlueXP digital advisor
               url: /integrations/keystone-cm.html  
         - title: View subscription insights 
-          entries:         -
+          entries:         
             - title: View your subscription details
               url: /integrations/subscriptions-tab.html
             - title: View your current consumption details
