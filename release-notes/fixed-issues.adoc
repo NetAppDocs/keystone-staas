@@ -19,6 +19,10 @@ Issues that were found in previous releases of NetApp Keystone STaaS services ha
 |===
 |Issue description |After the fix |Fixed in release
 
+a|Keystone Collector for StorageGRID fails to configure correctly due to missing common settings.
+a|Fixed
+a|May 12, 2025
+//NSEKEY-14719
 a|Keystone Collector fails to collect usage data for ONTAP clusters running versions lower than 9.11.
 a|Fixed
 a|April 30, 2025
