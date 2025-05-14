@@ -118,6 +118,10 @@ sidebar:
               url: /integrations/assets-tab.html
             - title: View assets across your Keystone subscriptions
               url: /integrations/assets.html
+        - title: Modify Keystone subscriptions
+          url: /integrations/modify-subscription.html 
+        - title: View or cancel Keystone subscription request
+          url: /integrations/administration-tab.html       
         - title: View volumes and object storage details
           url: /integrations/volumes-objects-tab.html          
         - title: View performance metrics 

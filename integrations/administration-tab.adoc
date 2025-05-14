@@ -1,0 +1,30 @@
+idebar: sidebar
+permalink: integrations/administration-tab.html
+keywords: performance service levels, keystone-bluexp, modify subscription, edit capacity, manage subscription
+summary: Modify your Keystone subscription to change the data storage capacity for the associated performance service levels through BlueXP.
+---
+
+= View or cancel your Keystone subscription request 
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ../media/
+
+[.lead]
+You can view and manage service requests for modifying Keystone subscriptions through BlueXP, enabling you to see a quick summary, track progress, and cancel requests.
+
+NOTE: You should have Keystone admin role to cancel the service requests. To learn more, refer to link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-keystone-roles.html[Keystone access roles for BlueXP^].
+
+To view the progress or cancel a request, follow these steps:
+
+.Steps
+. From the BlueXP left navigation, select *Storage > Keystone > Administration*.
++
+** You see a list of all service requests, including the request number, type of request, and current status, and you can click the hamburger icon image: in the *Status* column to filter requests by status.
++
+image:
+** You can click the icon next to the *Submission date* column to expand the request number and view details. You see the performance service levels for which the requests are raised, including capacity edits or additions. 
+. Click the request number to view detailed information, including modification details for the requested subscription and the current progress status. 
++
+If you wish to cancel the request at any stage, you can do so by clicking the *Cancel request* button.

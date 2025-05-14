@@ -13,4 +13,65 @@ summary: As a NetApp Keystone STaaS subscriber, you can get an overview of your 
 :imagesdir: ../media/
 
 [.lead]
-Keystone dashboard enables you to view the details of your Keystone subscriptions, monitor capacity usage, and generate reports. 
+Keystone dashboard enables you to efficiently manage and optimize your Keystone subscriptions with a comprehensive suite of features. Through the Keystone Dashboard, you can achieve the following goals:
+
+* *Monitor subscription details*: View detailed information about your Keystone subscriptions, including assets across different subscriptions or specific subscription assets.
+* *Track capacity usage and generate reports*: Keep track of current and historical capacity usage, and generate insightful reports to analyze subscription data and make informed decisions.
+* *Track subscription timeline*: Stay informed about key dates and events by monitoring the timeline of your subscriptions.
+* *Manage committed capacity*: Request changes to the committed capacity for your service levels to ensure your subscriptions align with your needs.
+* *Analyze volumes and objects*: Access detailed insights into the volumes and objects of your subscriptions, including their capacity at both the volume and object levels.
+
+== Access and availability
+
+The Keystone dashboard is accessible through both BlueXP and Digital Advisor. While some features are available only on one platform or the other, you can manage Keystone subscriptions and request changes to the committed capacity for your service levels through BlueXP. 
+
+[NOTE]
+====
+* You should have Keystone admin role to create requests or modify subscriptions. To learn more, refer to link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-keystone-roles.html[Keystone access roles for BlueXP^].
+* You can also access the Keystone dashboard from BlueXP digital advisor. To learn more, refer to link:https://docs.netapp.com/us-en/keystone-staas/integrations/keystone-cm.html[Learn about Keystone and BlueXP digital advisor]. 
+====
+
+The table indicates the availability of features from BlueXP and Digital Advisor:
+
+
+|===
+
+|Feature |BlueXP |Digital Advisor
+
+a|View subscription details
+|Yes
+|Yes
+a|Monitor current and historical capacity usage
+|Yes
+|Yes
+a|Track subscription timeline
+|Yes
+|No
+a|View subscription assets
+|Yes
+|Yes
+|View assets across your subscriptions
+|Yes
+|No
+a|Modify subscriptions (only for Keystone admin role)
+|Yes
+|No
+a|View service requests
+|Yes
+|No
+a|Generate reports
+|Yes
+|Yes
+a|Generate consolidated report and view alerts
+|No
+|Yes
+a|View volumes and objects
+|No
+|Yes
+a|View performance metrics 
+|No
+|Yes
+
+|===
+
+
