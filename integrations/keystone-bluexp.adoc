@@ -15,21 +15,21 @@ summary: As a NetApp Keystone STaaS subscriber, you can get an overview of your 
 [.lead]
 Keystone dashboard in BlueXP provides at-a-glance information about all your subscription details on the *Overview* tab. You can quickly determine the workloads at risk, view the capacity and expiry status of subscriptions, identify the unresolved alerts, and view the subscriptions with the highest capacity utilization. You can also view the status of your subscriptions across different versions of Keystone, highlighting any issues that need your attention.
 
-To view the *Overview* tab, from the left navigation pane, go to *Storage > Keystone > Overview*.
+To view the *Overview* tab, from the BlueXP menu, go to *Storage > Keystone > Overview*.
 
 image:
 
 The *Overview* tab offers the following insights:
 
-* *Summary*: Displays the total number of subscriptions, ONTAP clusters, StorageGRID nodes, and ONTAP nodes ##<of user-Deb?>##. Each category has a *View* button to easily navigate to detailed sections on the *Subscriptions* or *Assets* tab.
-* *Alerts by severity*: Lists the total alerts based on severity—Critical, Warning, and Informational. Each category includes a *View* button to review details and take further action.
-* *Open requests*: The total number of open change requests from the user. ##<requires demo>##
+* *Summary*: Displays the total number of subscriptions, ONTAP clusters, StorageGRID nodes, and ONTAP nodes. Each category has a *View* button to easily navigate to detailed sections on the *Subscriptions* or *Assets* tab.
+* ## *Alerts by severity*: Lists the total alerts based on severity—Critical, Warning, and Informational. Each category includes a *View* button to review details and take further action.##
+* *Open requests*: The total number of open change requests from the user.
 * *Subscription capacity status*: The capacity status for subscriptions that are above burst, using burst, and underutilized. Each category includes a *View* button to navigate to the *Subscriptions* tab with relevant filters applied.
 * *Subscription expiry status*: The number of expired subscriptions and those about to expire within 90 days. Each category includes a *View* button to navigate to the *Subscriptions* tab with relevant filters applied.
 * *Keystone version across subscriptions*: A pie chart of Keystone subscriptions across versions v1, v2, and v3. You might have subscriptions for Keystone (version 1) or Keystone STaaS (version 2), while Keystone STaaS (version 3) is currently unavailable. The rate plan rules for the service levels might vary for the two subscription types. You can filter subscriptions by version using the *View* button, which navigates to the *Subscriptions* tab with relevant filters applied. To learn more about Keystone Subscriptions version 1, refer to https://docs.netapp.com/us-en/keystone/index.html[Documentation for NetApp Keystone^].
 +
 image:version-across-subscriptions.png[A pie chart of Keystone subscriptions across versions v1, v2, and v3.]
-* *Oldest unresolved alerts*: Displays a table of the top five oldest critical unresolved alerts across subscriptions.
+* ##*Oldest unresolved alerts*: Displays a table of the top five oldest critical unresolved alerts across subscriptions.##
 * *Top 5 subscriptions with highest capacity utilization*: Displays a table of the top five Keystone subscriptions with the highest percentage of capacity utilization. You can click the subscription number from the *Subscription* column to get detailed insights.
 
 *Related information*

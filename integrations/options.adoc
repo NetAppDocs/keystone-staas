@@ -13,20 +13,18 @@ summary: As a NetApp Keystone STaaS subscriber, you can search and filter your d
 :imagesdir: ../media/
 
 [.lead]
-Keystone dashboard in BlueXP and Digital Advisor provides options to enhance your data management experience. You can search and filter your data, generate reports for subscriptions and usage, check timestamps to ensure your data is current, and view alerts to stay informed about your storage environment. Note that some of these options are either available only in BlueXP or Digital Advisor. 
+Keystone dashboard in BlueXP and Digital Advisor provides options to enhance your data management experience. You can search and filter your data, generate reports for subscriptions and usage, check timestamps to ensure your data is current, and view alerts to stay informed about your storage environment. Note that some of these options are either available only in BlueXP or Digital Advisor.
 
-
-== Search and filter data
-In BlueXP, you can search and filter Keystone data based on the column parameters available in the table within a tab. For example, in the *Subscriptions* sub-tab under the *Subscriptions* tab, you can filter data by entering the Keystone version in the search box. Similarly, in the *Volumes in clusters* tab under the *Assets* tab, you can filter volumes compliant with QoS policy by entering "QoS" in the search box. Filtering is limited to the columns present in the table of the tab. For instance, you cannot filter by Keystone version in the *Volumes in clusters* tab.
-image:
+== Search and filter data from BlueXP
+In BlueXP, you can search and filter Keystone data based on the column parameters available in the table within a tab. For example, in the *Subscriptions* sub-tab under the *Subscriptions* tab, you can filter data by entering the Keystone version in the search box. Similarly, in the *Volumes in clusters* tab under the *Assets* tab, you can filter volumes by entering volume name in the search box. Filtering is limited to the columns present in the table of the tab. For instance, you cannot filter by Keystone version in the *Volumes in clusters* tab.
 
 You can refine your searches by using the advanced filter option where available. For example, in the *Subscriptions* sub-tab, you can filter data by Keystone version, billing period, highest capacity, and days to subscription expiry, and in the *Volumes in clusters* tab, you can filter by volume name, cluster name, QoS compliance, volume type, and more. Multiple filters can be applied simultaneously to narrow down your results with precision.
-image:..
+image:search-filter-1.png[advance filter option]
 
-== View last refresh timestamp
-In BlueXP, you can view the "Last updated" timestamp in the top right corner of each tab, which shows when the data was last refreshed. This timestamp updates automatically every 5 to 10 minutes and refreshes when the screen loads. You can also manually refresh the data by clicking the refresh image: refresh-icon.png[refresh icon image] icon. 
+== View last refresh timestamp from BlueXP
+In BlueXP, you can view the "Last updated" timestamp in the top right corner of each tab, which shows when the data was last refreshed. This timestamp updates automatically every 5 to 10 minutes and refreshes when the screen loads. You can also manually refresh the data by clicking the refresh image:refresh-icon.png[refresh icon image] icon. 
 
-== Generate reports
+== Generate reports from BlueXP or Digital Advisor
 You can generate and view reports for your Keystone data using the download button available in tabs within Digital Advisor or BlueXP. These tabs allow you to generate reports for your subscriptions, historical usage, burst usage, performance, assets, volumes and objects.
 
 [cols="1,1"]
@@ -39,11 +37,7 @@ You can generate and view reports for your Keystone data using the download butt
 
 The details are generated in CSV format that you can save for future use and comparison.
 
-A sample report for the consumption trend from the *Consumption Trend* tab in Digital Advisor, where the graphical data is converted into a CSV format:
-
-image:report_1.png[csv of report]
-
-== Generate consolidated report
+== Generate consolidated report from Digital Advisor
 
 In Digital Advisor, you can generate and view a consolidated report for your subscriptions, historical usage, burst usage, performance, assets, and volumes and objects. To do this, select *Keystone Subscriptions* as the report type from the Report feature in Digital Advisor. You can generate these reports at the customer, cluster, watchlist, or subscription level.
 
@@ -59,7 +53,7 @@ To learn more about generating reports, refer to link:https://docs.netapp.com/us
 
 //NSEKEY-5735
 
-== View alerts
+== View alerts from Digital Advisor
 In Digital Advisor, the Keystone dashboard provides alert notifications that enable you to understand the issues occurring in your storage environment. These notifications may appear as informational alerts or warnings. For example, if there are volumes within your managed clusters that do not have adaptive QoS (AQoS) policies attached, you can see a warning message. You can click the link on the warning message to see the list of the non-compliant volumes in the *Volumes & Objects* tab.
 
 [NOTE]

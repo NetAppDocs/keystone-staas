@@ -13,9 +13,7 @@ summary: As a NetApp Keystone STaaS subscriber, you can get access the Keystone 
 :imagesdir: ../media/
 
 [.lead]
-You can access the Keystone dashboard through NetApp BlueXP or Digital Advisor after subscribing to NetApp Keystone services. <might change after completing the dashboard overview part>
-
-NOTE: You can also access the Keystone dashboard from BlueXP digital advisor. To learn more, refer to link:https://docs.netapp.com/us-en/keystone-staas/integrations/keystone-cm.html[Learn about Keystone and BlueXP digital advisor]. 
+You can access the Keystone dashboard through NetApp BlueXP or Digital Advisor after subscribing to NetApp Keystone services.
 
 [role="tabbed-block"]
 ====
@@ -30,9 +28,9 @@ To log in to BlueXP, you can use your NetApp Support Site credentials or you can
 . Log in to BlueXP.
 . From the BlueXP left navigation, select *Storage > Keystone*.
 +
-The Keystone dashboard appears.
+The Keystone dashboard is displayed.
 +
-<image requires to show the landing page-Deb>.
+##<image requires to show the landing page-Vedant>.##
 . If you are an existing Keystone user,
 +
 .. Click *Discover your subscriptions* to view the details about your subscriptions in the Keystone dashboard. 

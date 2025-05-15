@@ -26,10 +26,9 @@ TIP: You can customize the columns displayed in the table using the column selec
 
 .Steps
 
-. From the BlueXP left navigation pane, go to *Storage > Keystone > Subscriptions*.
-. By default, the *Subscriptions* tab displays the *Subscriptions* sub-tab.
+. From the BlueXP menu, go to *Storage > Keystone > Subscriptions*.
 +
-image: <require more data to add-Deb>
+image:subscription-tab-bluexp.png[view thw subscription tab details]
 +
 You see the key metrics such as capacity status, subscription expiry status, and Keystone version across subscriptions. To learn more, refer to link:../integrations/keystone-bluexp.html[Keystone dashboard in BlueXP].
 +
@@ -44,9 +43,9 @@ You can see the following details from the table:
 * *Performance levels*: The number of rate plans associated with the subscription, with each rate plan corresponding to a specific service level and committed capacity. 
 * *Highest capacity*: The maximum capacity consumed within the subscription. 
 * *Days to subscription expiry*: The number of days remaining until the subscription expires.
-. You can click the *Performance service levels* sub-tab to view the service levels across all subscriptions, along with detailed information presented in the table.
+. You can select the *Performance service levels* sub-tab to view the service levels across all subscriptions, along with detailed information presented in the table.
 +
-image: <requires image from deb>
+image:performance-levels-bluexp.png[view performance service levels across all subscriptions]
 +
 * *Performance levels across subscriptions*: Displays the number of subscriptions for each service level, with *View* button to filter the table.
 * *Provisioning consistency across subscriptions*: Shows the counts for over-provisioned and under-provisioned subscriptions, with a *View* button to filter the table.
@@ -59,16 +58,16 @@ You can see the tabular listing of subscriptions, including key details such as 
 To view your subscriptions in Digital Advisor, follow these steps:
 
 .Steps
-. From the Digital Advisor left navigation pane, go to *GENERAL > Keystone Subscriptions > Subscriptions*.
+. From the Digital Advisor left navigation pane, go to *General > Keystone Subscriptions > Subscriptions*.
 . You can view all your subscriptions here, with detailed insights for each one.
 +
 image:all-subs-3.png[an image of the Subscriptions tab]
 +
-You can filter the selection by clicking the hamburger icon image:icon-hamburger.png[hamburger icon] for a column, or view all the subscriptions by clicking the *Clear Filters* button. For certain fields and columns, you might see information or warning icons and tooltips that provide you with additional information about the data. 
+For certain fields and columns, you might see information or warning icons and tooltips that provide you with additional information about the data. 
 +
 * *Subscription Number*: The subscription number of the Keystone subscription assigned by NetApp.
 //*Linked Subscriptions*: This column is optionally available to you. If you have any secondary subscriptions linked to your primary subscription, this column lists the linked subscription numbers for the primary subscription. This subscription number can be of your primary or secondary (linked) subscription.
-* *Tracking ID*: The tracking ID assigned at the time of subscription activation. This is a unique ID for each subscription and site, used for tracking the subscription.
+* *Tracking ID*: The tracking ID assigned at the time of subscription activation. This is a unique ID for each subscription and site.
 [TIP]
 If you have subscribed to advanced data protection add-on service, then you can click the tooltip against your subscription number to view the tracking ID of the partner subscription in a MetroCluster setup. To know how to view detailed consumption by partner subscriptions in a MetroCluster configuration, see link:../integrations/capacity-trend-tab.html#reference-charts-for-advanced-data-protection-for-metrocluster[Reference charts for advanced data protection].
 * *Usage Type*: You might have subscribed to multiple Keystone (version 1) or Keystone STaaS (version 2) subscriptions. The rate plan rules for the service levels might vary for the two subscription types. By looking at the value in this column, you know whether the usage type is billed as per the provisioned, physical, or logical usage for either `v1` or `v2`. To learn more about Keystone Subscriptions version 1, refer to https://docs.netapp.com/us-en/keystone/index.html[Documentation for NetApp Keystone^].

@@ -13,7 +13,7 @@ summary: As a NetApp Keystone STaaS subscriber, you can get an overview of your 
 :imagesdir: ../media/
 
 [.lead]
-Keystone dashboard enables you to view and efficiently manage your Keystone subscriptions with a comprehensive suite of features. Through the Keystone Dashboard, you can achieve the following goals:
+Keystone dashboard enables you to view and efficiently manage your Keystone subscriptions with a comprehensive suite of features. Through the Keystone dashboard, you can achieve the following goals:
 
 * *Monitor subscription details*: View detailed information about your Keystone subscriptions, including assets across different subscriptions or specific subscription assets.
 * *Track capacity usage and generate reports*: Keep track of current and historical capacity usage, and generate insightful reports to analyze subscription data and make informed decisions.
@@ -23,7 +23,7 @@ Keystone dashboard enables you to view and efficiently manage your Keystone subs
 
 == Access and availability
 
-Keystone dashboard is accessible through both BlueXP and Digital Advisor. While some features are available only on one platform or the other, you can manage Keystone subscriptions and request changes to the committed capacity for your service levels through BlueXP. 
+Keystone dashboard is accessible through both BlueXP and Active IQ Digital Advisor (also known as Digital Advisor). While some features are available only on one platform or the other, you can manage Keystone subscriptions and request changes to the committed capacity for your service levels through BlueXP. 
 
 [NOTE]
 ====
