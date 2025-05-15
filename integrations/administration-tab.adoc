@@ -1,4 +1,5 @@
-idebar: sidebar
+---
+sidebar: sidebar
 permalink: integrations/administration-tab.html
 keywords: performance service levels, keystone-bluexp, modify subscription, edit capacity, manage subscription
 summary: Modify your Keystone subscription to change the data storage capacity for the associated performance service levels through BlueXP.
@@ -19,12 +20,14 @@ NOTE: You should have Keystone admin role to cancel the service requests. To lea
 To view the progress or cancel a request, follow these steps:
 
 .Steps
-. From the BlueXP left navigation, select *Storage > Keystone > Administration*.
+. From the BlueXP menu, select *Storage > Keystone > Administration*.
 +
-** You see a list of all service requests, including the request number, type of request, and current status, and you can click the hamburger icon image: in the *Status* column to filter requests by status.
+** You see a list of all service requests, including the request number, type of request, and current status.
+. You can click the image:down-arrow.png[down arrow icon] icon next to the *Submission date* column to expand the request number and view details. You see the performance service levels for which the requests are raised.
 +
-image:
-** You can click the icon next to the *Submission date* column to expand the request number and view details. You see the performance service levels for which the requests are raised, including capacity edits or additions. 
-. Click the request number to view detailed information, including modification details for the requested subscription and the current progress status. 
+image:admin-requests.png[a screenshot shows for which performance service levels for which the modification requests are raised]
+. Select the request number to view detailed information, including modification details for the requested subscription and the current progress status.
++
+image:admin-progress-report.png[a screenshot that shows current progress status] 
 +
 If you wish to cancel the request at any stage, you can do so by clicking the *Cancel request* button.

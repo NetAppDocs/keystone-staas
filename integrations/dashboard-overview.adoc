@@ -27,7 +27,7 @@ Keystone dashboard is accessible through both BlueXP and Active IQ Digital Advis
 
 [NOTE]
 ====
-* You should have Keystone admin role to create service requests or modify subscriptions. To learn more, refer to link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-keystone-roles.html[Keystone access roles for BlueXP^].
+* You should have Keystone admin role to to create or cancel service requests, or modify subscriptions. or modify subscriptions. To learn more, refer to link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-keystone-roles.html[Keystone access roles for BlueXP^].
 * You can also access the Keystone dashboard from BlueXP digital advisor. To learn more, refer to link:https://docs.netapp.com/us-en/keystone-staas/integrations/keystone-cm.html[Learn about Keystone and BlueXP digital advisor]. 
 ====
 
@@ -47,16 +47,16 @@ a|link:../integrations/current-usage-tab.html[Monitor current and historical cap
 a|link:../integrations/subscription-timeline.html[Track subscription timeline]
 |Yes
 |No
-a|link:../integrations/assets-tab.html[View your subscription assets]
+a|link:../integrations/assets-tab.html[View assets associated with a Keystone subscription]
 |Yes
 |Yes
-|link:../integrations/assets.html[View assets across your subscriptions]
+|link:../integrations/assets.html[View assets across multiple Keystone subscriptions]
 |Yes
 |No
 a|link:../integrations/modify-subscription.html[Modify your subscriptions] (only for Keystone admin role)
 |Yes
 |No
-a|link:../integrations/administration-tab.html[View or cancel your service requests]
+a|link:../integrations/administration-tab.html[View or cancel your service requests] 
 |Yes
 |No
 a|link:../integrations/options.html#generate-reports[Generate reports]

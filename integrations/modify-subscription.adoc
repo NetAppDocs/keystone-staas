@@ -1,3 +1,4 @@
+---
 sidebar: sidebar
 permalink: integrations/modify-subscription.html
 keywords: performance service levels, keystone-bluexp, modify subscription, edit capacity, manage subscription
@@ -21,13 +22,13 @@ You can modify the committed capacity of your Keystone subscription for the asso
 * You should have Keystone admin role to modify the committed capacity. To learn more, refer to link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-keystone-roles.html[Keystone access roles for BlueXP^].
 ====
 
-To change the data storage capacity, follow these steps:
+To change the committed capacity, follow these steps:
 
 .Steps
 . From the BlueXP left navigation, select *Storage > Keystone > Subscriptions*.
 . Click the ellipsis icon from the table for the subscription you wish to modify, and then select *Modify*.
 +
-image: 
+##image: requires image from vedant##
 +
 The *Modify subscription* page is displayed with the details for the subscribed performance levels associated with the selected subscription number.
 . *Optional*: You can access the *Modify subscription* page by clicking *Manage subscription* in the subscription details section of the Current consumption, Consumption trend, Subscription timeline, or Assets tabs, and then selecting *Modify*.
@@ -36,6 +37,6 @@ The *Modify subscription* page is displayed with the details for the subscribed 
 You see the request in the *Modifications* section on the same page. 
 . Review the request details, click the *Review* button, provide the necessary confirmation, and then submit the request. 
 +
-You can track and monitor the progress of your request under the Administration tab. To learn more about the Administration tab tab, refer to <link>.
+You can track and monitor the progress of your request under the Administration tab. To learn more about the Administration tab, refer to link:../integrations/administration-tab.html[View or cancel your Keystone subscription request].
 
 

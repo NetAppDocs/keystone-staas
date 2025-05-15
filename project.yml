@@ -114,9 +114,9 @@ sidebar:
               url: /integrations/subscription-timeline.html
         - title: View assets
           entries:
-            - title: View your Keystone subscription assets
+            - title: View assets associated with a subscription
               url: /integrations/assets-tab.html
-            - title: View assets across your Keystone subscriptions
+            - title: View assets across multiple subscriptions
               url: /integrations/assets.html
         - title: Modify Keystone subscriptions
           url: /integrations/modify-subscription.html 

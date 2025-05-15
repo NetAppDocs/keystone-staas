@@ -5,7 +5,7 @@ keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keys
 summary: Use the Assets tab to view details of ONTAP clusters and nodes, and StorageGRID grids, sites, and nodes managed by your Keystone subscriptions.
 ---
 
-= View assets across your Keystone subscriptions
+= View assets across multiple Keystone subscriptions
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,7 +13,7 @@ summary: Use the Assets tab to view details of ONTAP clusters and nodes, and Sto
 :imagesdir: ../media/
 
 [.lead]
-Use the *Assets* tab in BlueXP  to view detailed information about nodes in clusters, provisioned volumes, and StorageGRID nodes across your Keystone subscriptions, based on your access permissions.
+The BlueXP Keystone dashboard allows you to view detailed information about nodes in clusters, provisioned volumes, and StorageGRID nodes across multiple Keystone subscriptions, according to your access permissions. This view is not available in the Digital Advisor Keystone dashboard.
 
 [role="tabbed-block"]
 ====
@@ -22,9 +22,9 @@ Use the *Assets* tab in BlueXP  to view detailed information about nodes in clus
 .Steps
 . From the BlueXP left navigation, select *Storage > Keystone > Assets*.
 +
-By default, the *Assets* tab displays the *Nodes in cluster* sub-tab.
+The *Assets* tab displays the *Nodes in cluster* sub-tab.
 +
-image
+image:assets-nodes-multiple-subscriptions.png[A screenshot of nodes in clusters for multiple subscriptions]
 +
 You can view detailed information about all nodes in clusters across Keystone subscriptions, including node serial numbers, status, storage efficiency settings, platform type, and capacity details. You also get an overview of:
 +
@@ -39,11 +39,9 @@ TIP: You can customize the table using the column selector image:column-selector
 --
 .Steps
 . From the BlueXP left navigation, select *Storage > Keystone > Assets*.
+. Select the *Volumes in clusters* tab. 
 +
-By default, the *Assets* tab displays the *Nodes in cluster* sub-tab.
-. Click the *Volumes in cluster* tab. 
-+
-image
+image:assets-volumes-multiple-subscriptions[A screenshot of volumes in clusters for multiple subscriptions]
 +
 You see the detailed information about all volumes in clusters across Keystone subscriptions including volume name, subscription number, node serial number, compliance with QoS policies, cluster name, host name, and service levels. You can monitor the provisioned capacity, logical and physical utilization, and cold data. You also get an overview of:
 +
@@ -59,11 +57,9 @@ You can click a subscription number in the *Subscription number* column to go to
 --
 .Steps
 . From the BlueXP left navigation, select *Storage > Keystone > Assets*.
+. Select the *Nodes in grids* tab. 
 +
-By default, the *Assets* tab displays the *Nodes in cluster* sub-tab.
-. Click the *Nodes in grids* tab. 
-+
-image
+image:assets-nodes-grid-multiple-subscriptions.png[A screenshot of nodes in grids for multiple subscriptions]
 +
 You can view detailed information about all nodes in grids across Keystone subscriptions including node name, node ID, subscription number, grid name, node type, and customer. You can monitor the consumed and available data capacity, CPU usage, and usable data capacity. Clicking on one of the grid name takes you to the *GRID Viewer* widget on the BlueXP digital advisor screen, where you get additional information for that node. 
 +
