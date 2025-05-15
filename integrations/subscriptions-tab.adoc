@@ -28,7 +28,7 @@ TIP: You can customize the columns displayed in the table using the column selec
 
 . From the BlueXP menu, go to *Storage > Keystone > Subscriptions*.
 +
-image:subscription-tab-bluexp.png[view thw subscription tab details]
+image:subscription-tab-bluexp-1.png[view thw subscription tab details]
 +
 You see the key metrics such as capacity status, subscription expiry status, and Keystone version across subscriptions. To learn more, refer to link:../integrations/keystone-bluexp.html[Keystone dashboard in BlueXP].
 +
@@ -45,7 +45,7 @@ You can see the following details from the table:
 * *Days to subscription expiry*: The number of days remaining until the subscription expires.
 . You can select the *Performance service levels* sub-tab to view the service levels across all subscriptions, along with detailed information presented in the table.
 +
-image:performance-levels-bluexp.png[view performance service levels across all subscriptions]
+image:performance-levels-bluexp-1.png[view performance service levels across all subscriptions]
 +
 * *Performance levels across subscriptions*: Displays the number of subscriptions for each service level, with *View* button to filter the table.
 * *Provisioning consistency across subscriptions*: Shows the counts for over-provisioned and under-provisioned subscriptions, with a *View* button to filter the table.
@@ -59,7 +59,8 @@ To view your subscriptions in Digital Advisor, follow these steps:
 
 .Steps
 . From the Digital Advisor left navigation pane, go to *General > Keystone Subscriptions > Subscriptions*.
-. You can view all your subscriptions here, with detailed insights for each one.
++
+You can view all your subscriptions here, with detailed insights for each one.
 +
 image:all-subs-3.png[an image of the Subscriptions tab]
 +
