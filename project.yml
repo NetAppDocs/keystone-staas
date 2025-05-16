@@ -98,7 +98,7 @@ sidebar:
               url: /integrations/keystone-bluexp.html
             - title: Keystone dashboard in Digital Advisor
               url: /integrations/keystone-aiq.html
-            - title: Search Keystone data, generate reports, and view alerts
+            - title: Search data, generate reports, and view alerts
               url: /integrations/options.html
             - title: Learn about Keystone and BlueXP digital advisor
               url: /integrations/keystone-cm.html  
@@ -118,9 +118,9 @@ sidebar:
               url: /integrations/assets-tab.html
             - title: View assets across multiple subscriptions
               url: /integrations/assets.html
-        - title: Modify Keystone subscriptions
+        - title: Modify your subscriptions
           url: /integrations/modify-subscription.html 
-        - title: View or cancel Keystone subscription request
+        - title: View or cancel subscription request
           url: /integrations/administration-tab.html       
         - title: View volumes and object storage details
           url: /integrations/volumes-objects-tab.html          

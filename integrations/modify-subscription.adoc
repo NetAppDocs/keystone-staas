@@ -37,6 +37,6 @@ The *Modify subscription* page is displayed with the details for the subscribed 
 You see the request in the *Modifications* section on the same page. 
 . Review the request details, click the *Review* button, provide the necessary confirmation, and then submit the request. 
 +
-You can track and monitor the progress of your request under the Administration tab. To learn more about the Administration tab, refer to link:../integrations/administration-tab.html[View or cancel your Keystone subscription request].
+You can track and monitor the progress of your request under the *Administration* tab. To learn more about the Administration tab, refer to link:../integrations/administration-tab.html[View or cancel your Keystone subscription request].
 
 

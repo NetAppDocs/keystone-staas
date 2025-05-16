@@ -2,10 +2,10 @@
 sidebar: sidebar
 permalink: integrations/administration-tab.html
 keywords: performance service levels, keystone-bluexp, modify subscription, edit capacity, manage subscription
-summary: Modify your Keystone subscription to change the data storage capacity for the associated performance service levels through BlueXP.
+summary: View or cancel Keystone subscription service request.
 ---
 
-= View or cancel your Keystone subscription request 
+= View or cancel your Keystone subscription request from BlueXP
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -22,7 +22,7 @@ To view the progress or cancel a request, follow these steps:
 .Steps
 . From the BlueXP menu, select *Storage > Keystone > Administration*.
 +
-** You see a list of all service requests, including the request number, type of request, and current status.
+You see a list of all service requests, including the request number, type of request, and current status.
 . You can click the image:down-arrow.png[down arrow icon] icon next to the *Submission date* column to expand the request number and view details. You see the performance service levels for which the requests are raised.
 +
 image:admin-requests.png[a screenshot shows for which performance service levels for which the modification requests are raised]
