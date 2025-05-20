@@ -19,13 +19,13 @@ You can modify the committed capacity of your Keystone subscription for the asso
 [NOTE]
 ====
 * You can modify the committed capacity if the subscription has more than 90 days remaining before it expires.
-* You should have Keystone admin role to modify the committed capacity. To learn more, refer to link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-keystone-roles.html[Keystone access roles for BlueXP^].
+* You must have Keystone admin role to modify the committed capacity. To learn more, refer to link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-keystone-roles.html[Keystone access roles for BlueXP^].
 ====
 
 To change the committed capacity, follow these steps:
 
 .Steps
-. From the BlueXP left navigation, select *Storage > Keystone > Subscriptions*.
+. From the BlueXP menu, select *Storage > Keystone > Subscriptions*.
 . Click the ellipsis icon from the table for the subscription you wish to modify, and then select *Modify*.
 +
 ##image: requires image from vedant##

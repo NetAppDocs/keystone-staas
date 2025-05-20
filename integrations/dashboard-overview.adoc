@@ -13,7 +13,7 @@ summary: As a NetApp Keystone STaaS subscriber, you can get an overview of your 
 :imagesdir: ../media/
 
 [.lead]
-Keystone dashboard enables you to view and efficiently manage your Keystone subscriptions with a comprehensive suite of features. Through the Keystone dashboard, you can achieve the following goals:
+The Keystone dashboard enables you to view and efficiently manage your Keystone subscriptions with a comprehensive suite of features. Through the Keystone dashboard, you can achieve the following goals:
 
 * *Monitor subscription details*: View detailed information about your Keystone subscriptions, including assets across different subscriptions or specific subscription assets.
 * *Track capacity usage and generate reports*: Keep track of current and historical capacity usage, and generate insightful reports to analyze subscription data and make informed decisions.
@@ -23,11 +23,11 @@ Keystone dashboard enables you to view and efficiently manage your Keystone subs
 
 == Access and availability
 
-Keystone dashboard is accessible through both BlueXP and Active IQ Digital Advisor (also known as Digital Advisor). While some features are available only on one platform or the other, you can manage Keystone subscriptions and request changes to the committed capacity for your service levels through BlueXP. 
+The Keystone dashboard is accessible through both BlueXP and Active IQ Digital Advisor (also known as Digital Advisor). While some features are exclusive to each platform, BlueXP provides administrative functionality for Keystone, allowing you to manage Keystone subscriptions and request modifications to the committed capacity for your service levels.
 
 [NOTE]
 ====
-* You should have Keystone admin role to to create or cancel service requests, or modify subscriptions. or modify subscriptions. To learn more, refer to link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-keystone-roles.html[Keystone access roles for BlueXP^].
+* You must have Keystone admin role to create or cancel service requests, or modify subscriptions. To learn more, refer to link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-keystone-roles.html[Keystone access roles for BlueXP^].
 * You can also access the Keystone dashboard from BlueXP digital advisor. To learn more, refer to link:https://docs.netapp.com/us-en/keystone-staas/integrations/keystone-cm.html[Learn about Keystone and BlueXP digital advisor]. 
 ====
 
@@ -53,7 +53,7 @@ a|link:../integrations/assets-tab.html[View assets associated with a Keystone su
 |link:../integrations/assets.html[View assets across multiple Keystone subscriptions]
 |Yes
 |No
-a|link:../integrations/modify-subscription.html[Modify your subscriptions] (only for Keystone admin role)
+a|link:../integrations/modify-subscription.html[Modify your subscriptions] (only for Keystone administrators)
 |Yes
 |No
 a|link:../integrations/administration-tab.html[View or cancel your service requests] 
