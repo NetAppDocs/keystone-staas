@@ -43,7 +43,7 @@ TIP: You can customize the table using the column selector image:column-selector
 .Nodes in clusters
 --
 .Steps
-. From the BlueXP left navigation, select *Storage > Keystone > Subscriptions*.
+. From the BlueXP menu, select *Storage > Keystone > Subscriptions*.
 +
 By default, the *Subscriptions* tab displays the *Subscriptions* sub-tab.
 . Select the subscription number in the *Subscription number* column of the table.
@@ -62,7 +62,7 @@ TIP: You can customize the table using the column selector image:column-selector
 .Nodes in grids
 --
 .Steps
-. From the BlueXP left navigation, select *Storage > Keystone > Subscriptions*.
+. From the BlueXP menu, select *Storage > Keystone > Subscriptions*.
 +
 By default, the *Subscriptions* tab displays the *Subscriptions* sub-tab.
 . Select the subscription number in the *Subscription number* column of the table.

@@ -13,7 +13,7 @@ summary: To understand your subscription usage, you can view the committed capac
 :imagesdir: ../media/
 
 [.lead]
-To help you monitor your subscription usage, you can view historical data of your Keystone subscriptions for a specific period of time. By viewing historical data, you can gain valuable insights into your subscription usage patterns. 
+You can monitor your subscription usage by viewing historical data of your Keystone subscriptions for a specific period of time. This allows you to gain valuable insights into your usage patterns.
 
 //To understand your subscription usage, you can view current consumption details such as committed, consumed, and available capacity, while also monitoring historical data over a specific period to make informed decisions.
 
@@ -28,10 +28,8 @@ You can view historical data of your Keystone subscriptions through BlueXP or Di
 .BlueXP
 --
 .Steps
-. From the BlueXP left navigation, select *Storage > Keystone > Subscriptions*.
-+
-By default, the *Subscriptions* tab displays the *Subscriptions* sub-tab.
-. Click the subscription number in the *Subscription number* column. 
+. From the BlueXP menu, select *Storage > Keystone > Subscriptions*.
+. Select the subscription number in the *Subscription number* column. 
 +
 You are redirected to the *Current consumption* tab. 
 . Select the *Consumption trend* tab. 
@@ -63,35 +61,44 @@ TIP: For optimal performance and user experience, limit the date range of your q
 
 +
 . Click *View Details*. The historical consumption data of the subscription for each service level is displayed based on the selected time range. 
-
++
 The bar charts display the service level name and the capacity consumed against that service level for the date range. The date and time of the collection are displayed at the bottom of the chart. Based on the date range of your query, the usage charts are displayed in a range of 30 data collection points. You can hover your mouse cursor over the charts to view the usage breakdown in terms of committed, consumed, burst, and above the burst limit data at that data collection point.
-
++
 The bar charts display short-term bursts, and you can view these bursts by using the zoom-in feature. When a short-term burst is present, it is indicated by a blue dot on the corresponding bar or directly on the x-axis if no data is consumed. To view the details, click and hold on the bar or the x-axis where the blue dot appears, then drag the cursor across the chart to select the desired time interval, and release to confirm your selection. This action zooms into the data, providing a more granular view of the capacity used at that service level for the selected interval. You can click the *Reset Zoom* button to return to the original chart view.
-
++
 image:aiq-ks-subtime-7.png[Consumption Trend tab with details]
-
++
 The following colors in the bar charts indicate the consumed capacity as defined within the service level. Monthly data across the charts is separated by a vertical line.
-
++
 ** Green: Within 80%.
 ** Amber: 80% - 100%.
 ** Red: Burst usage (100% of the committed capacity to the agreed burst limit)
 ** Purple: Above the burst limit or `Above Limit`.
-
++
 [NOTE]
 A blank chart indicates that there was no data available in your environment at that data collection point.
-
++
 You can click the toggle button *Show Current Usage* to view the consumption, burst usage, and accrued burst data for the current billing period. These details are not based on the date range of the query.
 
 * *Current Consumed*: Indicator for the consumed capacity (in TiB) defined for the service level. This field uses specific colors:
++
 ** No color: Burst or above burst usage.
 ** Grey: No usage.
 ** Green: Within 80% of the committed capacity.
 ** Amber: 80% of the committed to the burst capacity.
++
 * *Current Burst*: Indicator for the consumed capacity within or above the defined burst limit. Any usage within the burst limit for your subscription, for example, 20% above the committed capacity is within the burst limit. Further usage is considered as usage above the burst limit. This field displays specific colors:
++
 ** No color: No burst usage.
 ** Red: Burst usage.
 ** Purple: Above the burst limit.
-* *Accrued Burst*: Indicator of the total burst capacity (in TiB) accumulated during each 2-minute interval within a month for the current billing cycle. The accrued burst usage for an entire month is calculated as this:
++
+* *Accrued Burst*: Indicator of the total burst capacity (in TiB) accumulated during each 2-minute interval within a month for the current billing cycle.
+--
+====
+
+== Accrued burst computation
+The accrued burst usage for an entire month is calculated as this:
 +
 [sum of bursts in month / ((days in month) x 24 x 60)] x interval duration
 +
@@ -100,8 +107,6 @@ You can calculate the accrued burst for short periods, such as every two minutes
 [burst / ((days in month) x 24 x 60)] x interval duration
 +
 The burst is the difference between the consumed capacity and the committed capacity. For example, with a 30-day in month, if the consumed capacity reaches 120 TiB and the committed capacity is 100 TiB for a 2-minute interval, this results in a burst capacity of 20 TiB, equating to an accrued burst usage of 0.000925926 TiB for that interval.
---
-====
 
 == View accrued burst
 You can view the accrued burst data usage through BlueXP or Digital Advisor. If you have selected *Accrued burst* from the *View* dropdown in the *Consumption trend* tab in BlueXP, or the *Invoiced Accrued Burst* option from the *Consumption Trend* tab in Digital Advisor, you can see accrued burst data usage on a monthly or quarterly basis, depending on your selected billing period. This data is available for the last 12 months that have been billed, and you can query by the date range for up to past 30 months. Bar charts display the invoiced data, and if the usage has not yet been billed, it will be marked as _Pending_ for that period.

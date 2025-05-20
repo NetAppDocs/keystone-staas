@@ -20,7 +20,7 @@ The BlueXP Keystone dashboard allows you to view detailed information about node
 .Nodes in clusters
 --
 .Steps
-. From the BlueXP left navigation, select *Storage > Keystone > Assets*.
+. From the BlueXP menu, select *Storage > Keystone > Assets*.
 +
 The *Assets* tab displays the *Nodes in cluster* sub-tab.
 +
@@ -38,7 +38,7 @@ TIP: You can customize the table using the column selector image:column-selector
 .Volumes in clusters
 --
 .Steps
-. From the BlueXP left navigation, select *Storage > Keystone > Assets*.
+. From the BlueXP menu, select *Storage > Keystone > Assets*.
 . Select the *Volumes in clusters* tab. 
 +
 image:assets-volumes-multiple-subscriptions[A screenshot of volumes in clusters for multiple subscriptions]
@@ -56,7 +56,7 @@ You can click a subscription number in the *Subscription number* column to go to
 .Nodes in grids
 --
 .Steps
-. From the BlueXP left navigation, select *Storage > Keystone > Assets*.
+. From the BlueXP menu, select *Storage > Keystone > Assets*.
 . Select the *Nodes in grids* tab. 
 +
 image:assets-nodes-grid-multiple-subscriptions.png[A screenshot of nodes in grids for multiple subscriptions]
