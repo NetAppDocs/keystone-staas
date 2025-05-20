@@ -77,35 +77,34 @@ The following colors in the bar charts indicate the consumed capacity as defined
 +
 [NOTE]
 A blank chart indicates that there was no data available in your environment at that data collection point.
-+
+
 You can click the toggle button *Show Current Usage* to view the consumption, burst usage, and accrued burst data for the current billing period. These details are not based on the date range of the query.
 
 * *Current Consumed*: Indicator for the consumed capacity (in TiB) defined for the service level. This field uses specific colors:
-+
+
 ** No color: Burst or above burst usage.
 ** Grey: No usage.
 ** Green: Within 80% of the committed capacity.
 ** Amber: 80% of the committed to the burst capacity.
-+
 * *Current Burst*: Indicator for the consumed capacity within or above the defined burst limit. Any usage within the burst limit for your subscription, for example, 20% above the committed capacity is within the burst limit. Further usage is considered as usage above the burst limit. This field displays specific colors:
-+
+
 ** No color: No burst usage.
 ** Red: Burst usage.
 ** Purple: Above the burst limit.
-+
+
 * *Accrued Burst*: Indicator of the total burst capacity (in TiB) accumulated during each 2-minute interval within a month for the current billing cycle.
 --
 ====
 
 == Accrued burst computation
 The accrued burst usage for an entire month is calculated as this:
-+
+
 [sum of bursts in month / ((days in month) x 24 x 60)] x interval duration
-+
+
 You can calculate the accrued burst for short periods, such as every two minutes, using this:
-+
+
 [burst / ((days in month) x 24 x 60)] x interval duration
-+
+
 The burst is the difference between the consumed capacity and the committed capacity. For example, with a 30-day in month, if the consumed capacity reaches 120 TiB and the committed capacity is 100 TiB for a 2-minute interval, this results in a burst capacity of 20 TiB, equating to an accrued burst usage of 0.000925926 TiB for that interval.
 
 == View accrued burst
