@@ -75,8 +75,7 @@ The following colors in the bar charts indicate the consumed capacity as defined
 ** Red: Burst usage (100% of the committed capacity to the agreed burst limit)
 ** Purple: Above the burst limit or `Above Limit`.
 +
-[NOTE]
-A blank chart indicates that there was no data available in your environment at that data collection point.
+NOTE: A blank chart indicates that there was no data available in your environment at that data collection point.
 +
 You can click the toggle button *Show Current Usage* to view the consumption, burst usage, and accrued burst data for the current billing period. These details are not based on the date range of the query.
 +
@@ -122,7 +121,7 @@ This functionality is available in a preview-only mode. Contact your KSM to lear
 
 == View daily accrued burst data usage
 You can view daily accrued burst data usage for a monthly or quarterly billing period through BlueXP or Digital Advisor. In BlueXP, the *Accrued burst by days* table provides detailed data including the timestamp, committed, consumed, and accrued burst capacity if you select *Accrued burst* from the *View* dropdown in the *Consumption trend* tab.
-+
+
 image:bxp-accrued-burst-days.png[screenshot showing the accrued burst by days table]
 
 In Digital Advisor, when you click the bar that displays the invoiced data from the *Invoiced Accrued Burst* option, you see the Billable Provisioned Capacity section below the bar chart, offering both graph and table viewing options. The default graph view displays daily accrued burst data usage in a line graph format, showing changes in usage over time.

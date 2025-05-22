@@ -13,7 +13,7 @@ summary: Use the Assets tab to view details of ONTAP clusters and nodes, and Sto
 :imagesdir: ../media/
 
 [.lead]
-The BlueXP Keystone dashboard allows you to view detailed information about nodes in clusters, provisioned volumes, and StorageGRID nodes across multiple Keystone subscriptions, according to your access permissions. This view is not available in the Digital Advisor Keystone dashboard.
+The Keystone dashboard in BlueXP allows you to view detailed information about nodes in clusters, provisioned volumes, and StorageGRID nodes across multiple Keystone subscriptions, according to your access permissions. This view is not available in sDigital Advisor.
 
 [role="tabbed-block"]
 ====

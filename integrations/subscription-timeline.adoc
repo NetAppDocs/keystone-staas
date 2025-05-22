@@ -13,7 +13,7 @@ summary: View the subscription timeline from BlueXP, which includes events such 
 :imagesdir: ../media/
 
 [.lead]
-The Keystone dashboard in BlueXP provides a timeline view of your Keystone subscriptions, displaying events such as activation, modification, and renewal dates. This timeline view is not available in the Digital Advisor.
+The Keystone dashboard in BlueXP provides a timeline view of your Keystone subscriptions, displaying events such as activation, modification, and renewal dates. This timeline view is not available in Digital Advisor.
 
 To view the subscription timeline, follow these steps:
 
