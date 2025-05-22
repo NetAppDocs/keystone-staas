@@ -29,7 +29,7 @@ To view the current consumption status of your subscriptions through BlueXP or D
 +
 You are redirected to the *Current consumption* tab.
 +
-image:current-consumption-graph-bxp-1.png[current consumption details in the graphical format]
+image:bxp-current-consumption-graph.png[current consumption details in the graphical format]
 +
 For the selected subscription, you can view consumption details in either table or graphical format using the *Table* or *Graph* option from the *View as* dropdown. In the graphical view, you can see the current consumption per service level, including used capacity, provisioned capacity, committed capacity limit, and burst capacity limit.
 +

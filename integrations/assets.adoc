@@ -24,7 +24,7 @@ The BlueXP Keystone dashboard allows you to view detailed information about node
 +
 The *Assets* tab displays the *Nodes in cluster* sub-tab.
 +
-image:assets-nodes-multiple-subscriptions.png[A screenshot of nodes in clusters for multiple subscriptions]
+image:bxp-nodes-clusters-multiple-subscription.png[A screenshot of nodes in clusters for multiple subscriptions]
 +
 You can view detailed information about all nodes in clusters across Keystone subscriptions, including node serial numbers, status, storage efficiency settings, platform type, and capacity details. You also get an overview of:
 +
@@ -41,7 +41,7 @@ TIP: You can customize the table using the column selector image:column-selector
 . From the BlueXP menu, select *Storage > Keystone > Assets*.
 . Select the *Volumes in clusters* tab. 
 +
-image:assets-volumes-multiple-subscriptions[A screenshot of volumes in clusters for multiple subscriptions]
+image:bxp-volumes-clusters-multiple-sub.png[A screenshot of volumes in clusters for multiple subscriptions]
 +
 You see the detailed information about all volumes in clusters across Keystone subscriptions including volume name, subscription number, node serial number, compliance with QoS policies, cluster name, host name, and service levels. You can monitor the provisioned capacity, logical and physical utilization, and cold data. You also get an overview of:
 +
@@ -59,7 +59,7 @@ You can click a subscription number in the *Subscription number* column to go to
 . From the BlueXP menu, select *Storage > Keystone > Assets*.
 . Select the *Nodes in grids* tab. 
 +
-image:assets-nodes-grid-multiple-subscriptions.png[A screenshot of nodes in grids for multiple subscriptions]
+image:bxp-nodes-grids-multiple-sub.png[A screenshot of nodes in grids for multiple subscriptions]
 +
 You can view detailed information about all nodes in grids across Keystone subscriptions including node name, node ID, subscription number, grid name, node type, and customer. You can monitor the consumed and available data capacity, CPU usage, and usable data capacity. Clicking on one of the grid name takes you to the *GRID Viewer* widget on the BlueXP digital advisor screen, where you get additional information for that node. 
 +

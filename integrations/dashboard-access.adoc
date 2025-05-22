@@ -30,7 +30,7 @@ To log in to BlueXP, you can use your NetApp Support Site credentials or you can
 +
 The Keystone dashboard is displayed.
 +
-##image <requires from vedant>##
+image:discover-subscriptions.png[the Keystone dashboard page with two options]
 . If you are an existing Keystone user,
 +
 .. Click *Discover your subscriptions* to view the details about your subscriptions in the Keystone dashboard. 

@@ -17,7 +17,7 @@ Keystone dashboard in BlueXP provides at-a-glance information about all your sub
 
 To view the *Overview* tab, from the BlueXP menu, go to *Storage > Keystone > Overview*.
 
-image:
+image:bxp-dashboard-overview.png[a screenshot of the Overview tab]
 
 The *Overview* tab offers the following insights:
 

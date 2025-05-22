@@ -13,13 +13,13 @@ summary: As a NetApp Keystone STaaS subscriber, you can search and filter your d
 :imagesdir: ../media/
 
 [.lead]
-Keystone dashboard in BlueXP and Digital Advisor provides options to enhance your data management experience. You can search and filter your data, generate reports for subscriptions and usage, check timestamps to ensure your data is current, and view alerts to stay informed about your storage environment. Note that some of these options are either available only in BlueXP or Digital Advisor.
+The Keystone dashboard in BlueXP and Digital Advisor provides options to enhance your data management experience. You can search and filter your data, generate reports for subscriptions and usage, check timestamps to ensure your data is current, and view alerts to stay informed about your storage environment. Note that some of these options are either available only in BlueXP or Digital Advisor.
 
 == Search and filter data from BlueXP
 In BlueXP, you can search and filter Keystone data based on the column parameters available in the table within a tab. For example, in the *Subscriptions* sub-tab under the *Subscriptions* tab, you can filter data by entering the Keystone version in the search box. Similarly, in the *Volumes in clusters* tab under the *Assets* tab, you can filter volumes by entering volume name in the search box. Filtering is limited to the columns present in the table of the tab. For instance, you cannot filter by Keystone version in the *Volumes in clusters* tab.
 
 You can refine your searches by using the advanced filter option where available. For example, in the *Subscriptions* sub-tab, you can filter data by Keystone version, billing period, highest capacity, and days to subscription expiry, and in the *Volumes in clusters* tab, you can filter by volume name, cluster name, QoS compliance, volume type, and more. Multiple filters can be applied simultaneously to narrow down your results with precision.
-image:search-filter-1.png[advance filter option]
+image:bxp-filter-search.png[advance filter option]
 
 == View last refresh timestamp from BlueXP
 In BlueXP, you can view the "Last updated" timestamp in the top right corner of each tab, which shows when the data was last refreshed. This timestamp updates automatically every 5 to 10 minutes and refreshes when the screen loads. You can also manually refresh the data by clicking the refresh image:refresh-icon.png[refresh icon image] icon. 

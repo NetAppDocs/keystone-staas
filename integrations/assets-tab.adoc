@@ -33,7 +33,7 @@ You are redirected to the *Current consumption* tab.
 . Select the *Assets* tab.
 . Select *Volumes in cluster* from the *View* dropdown.
 +
-image:assets-volumes-single-subscription.png[A screenshot of volumes in clusters for a subscription]
+image:bxp-volumes-clusters-single-subscription.png[A screenshot of volumes in clusters for a subscription]
 +
 You see the detailed information about volumes in clusters including volume name, node serial number, compliance with QoS policies, cluster name, host name, and service levels. You can also monitor the provisioned capacity, logical and physical utilization, and cold data.
 +
@@ -52,7 +52,7 @@ You are redirected to the *Current consumption* tab.
 . Select the *Assets* tab.
 . Select *Nodes in clusters* from the *View* dropdown.
 +
-image:assets-nodes-single-subscription.png[A screenshot of nodes in clusters for a subscription]
+image:bxp-nodes-cluster-single-subscription.png[A screenshot of nodes in clusters for a subscription]
 +
 You see the cluster details, broken down by storage efficiency settings, platform type, and capacity details. Clicking on one of the clusters takes you to the *Clusters* widget on the BlueXP digital advisor screen, where you get additional information for that cluster. 
 +
@@ -71,7 +71,7 @@ You are redirected to the *Current consumption* tab.
 . Select the *Assets* tab.
 . Select *Nodes in grids* from the *View* dropdown.
 +
-image:assets-nodes-grid-single-subscription.png[A screenshot of nodes in grids for a subscription]
+image:bxp-nodes-grids-single-subscription.png[A screenshot of nodes in grids for a subscription]
 +
 You can view detailed information about nodes in grids, including node name, node status, grid name, node type, and customer. You can also monitor consumed and available data capacity, CPU usage, and usable data capacity. Clicking on one of the grid name takes you to the *GRID Viewer* widget on the BlueXP digital advisor screen, where you get additional information for that node. 
 +
