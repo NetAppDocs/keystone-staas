@@ -41,7 +41,7 @@ NOTE: You can select *Accrued burst* from the *View* dropdown if you want to vie
 +
 image:bxp-consumption-trend.png[screenshot displaying historical consumption]  
 +
-The line graph displays historical consumption data and allows users to analyze trends over a selected date range. The graph shows metrics such as data (storage capacity used by user data), snapshot data (storage capacity used by snapshot data), and used capacity (total storage capacity, including both data and snapshot data), along with committed and burst capacity. The date and time of each data point are displayed at the bottom of the graph. Based on the date range of your query, the usage charts show up to 30 data collection points. You can hover your mouse cursor over the graph to view the usage breakdown at each data collection point.
+The line graph displays historical consumption data and allows users to analyze trends over a selected date range. The graph shows metrics such as data (storage capacity used by user data), snapshot (storage capacity used by snapshot data), and used capacity (total storage capacity, including both data and snapshot data), along with committed and burst capacity. The date and time of each data point are displayed at the bottom of the graph. Based on the date range of your query, the usage charts show up to 30 data collection points. You can hover your mouse cursor over the graph to view the usage breakdown at each data collection point.
 +
 You can also view a summary of current consumption alongside historical consumption to get a clear understanding of your usage.
 --
