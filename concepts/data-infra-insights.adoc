@@ -49,7 +49,9 @@ Note the following:
 | Cloud Volumes ONTAP
 | NetApp Cloud Volumes ONTAP
 |===
-Once configured, the DII instance will begin monitoring Keystone storage.
+Once configured, the DII instance will begin monitoring the NetApp storage resources deployed as part of Keystone.
+
+NOTE: While DII offers extensive monitoring capabilities for the deployed hardware, it does not provide insights into your Keystone subscription, such as subscription usage or details on performance service levels. For subscription insights, see link:../integrations/aiq-keystone-details.html[Keystone Subscription dashboard and reporting].
 
 == Billing and metering
 The following outlines the billing and metering details of the DII add-on service:

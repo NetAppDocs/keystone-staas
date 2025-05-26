@@ -19,6 +19,18 @@ Issues that were found in previous releases of NetApp Keystone STaaS services ha
 |===
 |Issue description |After the fix |Fixed in release
 
+a|When the existing Keystone Collector installed using a Debian package attempts to configure an HTTP Proxy or enable Unified Manager through the Keystone Collector management TUI, the TUI becomes unresponsive.
+a|Fixed
+a|May 19, 2025
+//NSEKEY-15418
+a|Keystone Collector for StorageGRID fails to configure correctly due to missing common settings.
+a|Fixed
+a|May 12, 2025
+//NSEKEY-14719
+a|Keystone Collector fails to collect usage data for ONTAP clusters running versions lower than 9.11.
+a|Fixed
+a|April 30, 2025
+//NSEKEY-15020
 a|The consumption values for linked subscriptions show incorrect negative numbers, causing the total committed usage to display inaccurately high.
 a|Fixed
 a|April 14, 2025
