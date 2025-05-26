@@ -59,10 +59,10 @@ a|link:../integrations/modify-subscription.html[Modify your subscriptions] (only
 a|link:../integrations/administration-tab.html[View or cancel your service requests] 
 |Yes
 |No
-a|link:../integrations/options.html#generate-reports[Generate reports]
+a|link:../integrations/options.html#generate-reports-from-bluexp-or-digital-advisor[Generate reports]
 |Yes
 |Yes
-a|link:../integrations/options.html#generate-consolidated-report[Generate consolidated report and view alerts]
+a|link:../integrations/options.html#generate-consolidated-report-from-digital-advisor[Generate consolidated report and view alerts]
 |No
 |Yes
 a|link:../integrations/volumes-objects-tab.html[View volumes and objects details]

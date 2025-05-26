@@ -35,7 +35,7 @@ For the selected subscription, you can view consumption details in either table 
 +
 In the table view, you can see details like maximum capacity consumed and days remaining until expiration. As part of monitoring your subscription usage, you can view the performance level name, consumption status, committed and used capacities, provisioned and burst capacities, available capacity, and volumes. You can customize the table using the column selector image:column-selector.png[column selector icon] icon.
 +
-image:current-consumption-table-bxp.png[current consumption details in the table format]
+image:bxp-current-consumption-table.png[current consumption details in the table format]
 
 --
 
