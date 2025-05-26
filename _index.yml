@@ -23,10 +23,8 @@ indexpage:
           url: /integrations/dashboard-access.html
         - title: View subscription insights
           url: /integrations/subscriptions-tab.html
-        - title: View your Keystone subscription assets
+        - title: View assets
           url: /integrations/assets-tab.html
-        - title: View assets across your Keystone subscriptions
-          url: /integrations/assets.html
         - title: Search data and generate reports 
           url: /integrations/options.html
         - title: Keystone and BlueXP digital advisor

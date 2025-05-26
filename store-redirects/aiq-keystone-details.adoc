@@ -1,5 +1,5 @@
 ---
 permalink: integrations/aiq-keystone-details.html
-redirect:keystone-staas/integrations/keystone-aiq.html
+redirect: keystone-staas/integrations/keystone-aiq.html
 ---
 
