@@ -20,7 +20,7 @@ The following enhancements are introduced in the *Keystone Subscriptions* screen
 == January 08, 2025
 
 === Addition of daily accrued data usage viewing options
-You can now view daily accrued burst data usage in either graph or table format for a monthly or quarterly billing period by clicking the bar that displays the invoiced data. To learn more, refer to link:../integrations/capacity-trend-tab.html#view-daily-accrued-burst-data-usage[View daily accrued burst data usage].
+You can now view daily accrued burst data usage in either graph or table format for a monthly or quarterly billing period by clicking the bar that displays the invoiced data. To learn more, refer to link:../integrations/consumption-tab.html#view-daily-accrued-burst-data-usage[View daily accrued burst data usage].
 //NSEKEY-11952
 
 == December 12, 2024
@@ -40,7 +40,7 @@ The *Volume Details* tab within *Volumes & Objects* now includes a *Hide/Show Co
 == November 21, 2024
 
 === Enhanced invoiced accrued burst
-You can now view accrued burst usage data on a quarterly basis through the *Invoiced Accrued Burst* option if you have opted for a quarterly billing period. To learn more, refer to link:../integrations/capacity-trend-tab.html#view-invoiced-accrued-burst[View invoiced accrued burst^].
+You can now view accrued burst usage data on a quarterly basis through the *Invoiced Accrued Burst* option if you have opted for a quarterly billing period. To learn more, refer to link:../integrations/consumption-tab.html#view-accrued-burst[View invoiced accrued burst^].
 //NSEKEY-9876
 
 === New columns in the Volumes Details tab
@@ -55,7 +55,7 @@ These columns provide better clarity on the *Logical Used* column, which shows t
 == November 11, 2024 
 
 === Enhanced report generation
-You can now generate a consolidated report to view the details of your Keystone data using the Report feature in Digital Advisor. To learn more, refer to link:../integrations/aiq-keystone-details.html#generate-consolidated-report[Generate consolidated report^].
+You can now generate a consolidated report to view the details of your Keystone data using the Report feature in Digital Advisor. To learn more, efer to link:..../integrations/options.html#generate-consolidated-report-from-digital-advisor[Generate consolidated report^].
 //NSEKEY-5735
 
 == July 10, 2024
@@ -90,7 +90,7 @@ The service levels *CVO Primary* and *CVO Secondary* are included to support Clo
 //NSEKEY-8923
 
 === Zoom-in feature for short-term bursts
-The *Capacity Trend* tab now includes a zoom-in feature to view the details of short-term bursts in the usage charts. For more information, see link:../integrations/capacity-trend-tab.html[Capacity Trend tab^].
+The *Capacity Trend* tab now includes a zoom-in feature to view the details of short-term bursts in the usage charts. For more information, see link:../integrations/consumption-tab.html[Capacity Trend tab^].
 //NSEKEY-9459
 
 === Enhanced display of subscriptions
@@ -159,7 +159,7 @@ Some of your primary subscriptions can have linked, secondary subscriptions. If 
 == January 11, 2024
 
 === Invoiced data returned for accrued burst
-The labels for *Accrued Burst* are now modified to *Invoiced Accrued Burst* in the *Capacity Trend* tab. Selecting this option enables you to view the the monthly charts for the billed accrued burst data. For more information, see link:../integrations/capacity-trend-tab.html#view-invoiced-accrued-burst[View invoiced accrued burst^].
+The labels for *Accrued Burst* are now modified to *Invoiced Accrued Burst* in the *Capacity Trend* tab. Selecting this option enables you to view the the monthly charts for the billed accrued burst data. For more information, see link:../integrations/consumption-tab.html#view-accrued-burst[View invoiced accrued burst^].
 
 === Accrued consumption details for specific rate plans
 If you have a subscription that has rate plans with _zero_ committed capacity, you can view the accrued consumption details in the *Capacity Trend* tab. On selecting the *Invoiced Accrued Consumption* option, you can view the the monthly charts for the billed accrued consumption data.
@@ -171,7 +171,7 @@ If you have a subscription that has rate plans with _zero_ committed capacity, y
 The support for watchlists in Digital Advisor has been extended to include Keystone systems. You can now view the details of the subscriptions for multiple customers by searching with watchlists. For more information about the use of watchlists in Keystone STaaS, see link:../integrations/keystone-aiq.html#search-by-keystone-watchlists[Search by Keystone watchlists^].
 
 === Date converted to UTC timezone
-The data returned on the tabs of the *Keystone Subscriptions* screen of Digital Advisor is displayed in UTC time (server timezone). When you enter a date for query, it is automatically considered to be in UTC time. For more information, see link:../integrations/aiq-keystone-details.html[Keystone Subscription dashboard and reporting^].
+The data returned on the tabs of the *Keystone Subscriptions* screen of Digital Advisor is displayed in UTC time (server timezone). When you enter a date for query, it is automatically considered to be in UTC time. For more information, see link:../integrations/keystone-aiq.html[Keystone Subscription dashboard and reporting^].
 
 
 // NSEKEY-8001, NSEKEY-8884, NSEKEY-8042, NSEKEY-8877, NSEKEY-8885, NSEKEY-8887, NSEKEY-8043, Clear filter button: Feb 2024.

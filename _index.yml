@@ -15,10 +15,6 @@ indexpage:
           url: /installation/itom-prereqs.html  
         - title: Install Keystone Collector in private mode
           url: /dark-sites/overview.html  
-        - title: Understand Keystone dashboard
-          url: /integrations/keystone-aiq.html
-        - title: Generate reports of your consumption
-          url: /integrations/aiq-keystone-details.html
     - title: Keystone dashboard in BlueXP and Digital Advisor
       links:
         - title: Understand Keystone dashboard
@@ -31,6 +27,8 @@ indexpage:
           url: /integrations/assets-tab.html
         - title: View assets across your Keystone subscriptions
           url: /integrations/assets.html
+        - title: Search data and generate reports 
+          url: /integrations/options.html
         - title: Keystone and BlueXP digital advisor
           url: /integrations/keystone-cm.html
     - title: Supported services in Keystone
