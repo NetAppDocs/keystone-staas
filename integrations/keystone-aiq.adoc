@@ -15,7 +15,7 @@ summary: As a NetApp Keystone STaaS subscriber, you can get an overview of your 
 [.lead]
 As a NetApp Keystone STaaS subscriber, you can get an overview of your subscriptions on the *Keystone Subscriptions* widget of the Digital Advisor dashboard.
 
-You can search for Keystone subscription by entering the first three characters of a customer or watchlist name, or the Keystone subscription number. For information about how to search Keystone STaaS subscriptions by watchlists, see link:../integrations/keystone-aiq.html#search-by-keystone-watchlists[Search by using Keystone watchlists]. 
+You can search for a specific Keystone subscription by entering the first three characters of a customer or watchlist name, or the Keystone subscription number. For information about how to search Keystone STaaS subscriptions by watchlists, see link:../integrations/keystone-aiq.html#search-by-keystone-watchlists[Search by using Keystone watchlists]. 
 
 Digital Advisor offers a unified dashboard that gives insights into various levels of your subscription data and usage information through the *Switch to old/new dashboard* button.
 
@@ -40,7 +40,7 @@ Click the *Subscriptions* link to view the list of filtered subscriptions in the
 
 image:new-db-4.png[new dashboard]
 
-You can click *View All Subscriptions* to view the usage details and alerts on your volumes on the *Keystone Subscriptions* page. Alternately, from the left navigation pane, go to *General > Keystone Subscriptions*.
+You can click *View All Subscriptions* to view the usage details and alerts on your volumes on the *Keystone Subscriptions* page.
 
 The details of the subscriptions, usage charts for each service level, and volume details are displayed in the different tabs on the *Keystone Subscriptions* screen.
 
@@ -48,9 +48,9 @@ NOTE: Capacity consumption in Keystone subscriptions is displayed in TiBs on the
 To learn more about usage metrics, refer to link:../concepts/metrics.html#metrics-measurement[Metrics measurement]. For information about different capacities used in Keystone, see link:../concepts/supported-storage-capacity.html[Supported storage capacities].
 
 == Search by Keystone watchlists
-Watchlist is a feature Digital Advisor. For information, see https://docs.netapp.com/us-en/active-iq/concept_overview_dashboard.html[Understand watchlist^]. For information about creating watchlists, see https://docs.netapp.com/us-en/active-iq/task_add_watchlist.html[Create a watchlist^].
+Watchlist is a feature available in Digital Advisor. For information, see https://docs.netapp.com/us-en/active-iq/concept_overview_dashboard.html[Understand watchlist^]. For information about creating watchlists, see https://docs.netapp.com/us-en/active-iq/task_add_watchlist.html[Create a watchlist^].
 
-For Keystone STaaS, you can create watchlists for customers or subscription numbers. You can search by the watchlist name on the Digital Advisor screen. On searching by a watchlist, you can view the customers and their subscriptions in the *Subscription* drop-down list on the *Keystone Subscriptions* widget.
+You can create watchlists for customers or subscription numbers and search for a Keystone subscription using the first three characters of a subscription number or watchlist name on the Digital Advisor screen. When you search by a watchlist name, you can view the customers and their subscriptions in the *Subscription* drop-down list on the *Keystone Subscriptions* widget.
 
 [NOTE]
 A search by watchlists retrieves the list of subscriptions on the old dashboard. If a watchlist consists of subscription numbers, only the *Keystone Subscriptions* widget is displayed on the Digital Advisor dashboard. 

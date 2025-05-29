@@ -19,7 +19,7 @@ You can modify the committed capacity of your Keystone subscription for the asso
 [NOTE]
 ====
 * You can modify the committed capacity if the subscription has more than 90 days remaining before it expires.
-* You must have Keystone admin role to modify the committed capacity. To learn more, refer to link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-keystone-roles.html[Keystone access roles for BlueXP^].
+* You must have Keystone admin privileges to modify the committed capacity. To learn more, refer to link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-keystone-roles.html[Keystone access roles for BlueXP^].
 ====
 
 To change the committed capacity, follow these steps:
@@ -28,16 +28,16 @@ To change the committed capacity, follow these steps:
 . From the BlueXP menu, select *Storage > Keystone > Subscriptions*.
 . Click the ellipsis icon from the table for the subscription you wish to modify, and then select *Modify*.
 +
-The *Modify subscription* page is displayed with the details for the subscribed performance levels associated with the selected subscription number.
+The *Modify subscription* page displays the details for the subscribed performance levels associated with the selected subscription number.
++
+NOTE: Optionally, you can access the *Modify subscription* page by clicking *Manage subscription* in the subscription details section of the Current consumption, Consumption trend, Subscription timeline, or Assets tabs, and then selecting *Modify*.
 +
 image:bxp-modify-subscription.png[a screenshot displaying modify option from the subscription list]
-
-. *Optional*: You can access the *Modify subscription* page by clicking *Manage subscription* in the subscription details section of the Current consumption, Consumption trend, Subscription timeline, or Assets tabs, and then selecting *Modify*.
 . Click *Edit capacity* to modify committed capacity for the performance service levels, provide the necessary details, and click *Submit*.
 +
 You see the request in the *Modifications* section on the same page. 
 . Review the request details, click the *Review* button, provide the necessary confirmation, and then submit the request. 
 +
-You can track and monitor the progress of your request under the *Administration* tab. To learn more about the Administration tab, refer to link:../integrations/administration-tab.html[View or cancel your Keystone subscription request].
+You can track and monitor the progress of your request under the *Administration* tab. To learn more about the *Administration* tab, refer to link:../integrations/administration-tab.html[View or cancel your Keystone subscription request].
 
 

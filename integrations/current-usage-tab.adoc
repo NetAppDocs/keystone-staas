@@ -43,7 +43,7 @@ image:bxp-current-consumption-table.png[current consumption details in the table
 --
 .Steps
 
-. From the Digital Advisor left navigation pane, go to *GENERAL > Keystone Subscriptions > Current Consumption*.
+. From the Digital Advisor left navigation pane, go to *General > Keystone Subscriptions > Current Consumption*.
 . Select or search the required subscription number from the *Subscription* dropdown list.
 +
 image:aiq-ks-dtls-3.png[Current Consumption tab]

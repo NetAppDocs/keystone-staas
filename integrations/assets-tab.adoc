@@ -13,9 +13,9 @@ summary: Use the Assets tab to view details of ONTAP clusters and nodes, and Sto
 :imagesdir: ../media/
 
 [.lead]
-You can view detailed information about ONTAP clusters and nodes, as well as the StorageGRID grids, sites, and nodes, managed by a single Keystone subscription. This view of your subscription assets is available in the Keystone dashboard options from both BlueXP and Digital Advisor.  
+You can view detailed information about ONTAP clusters and nodes, as well as the StorageGRID grids, sites, and nodes, managed by a single Keystone subscription. This view of your subscription assets is available in the Keystone dashboard views from both BlueXP and Digital Advisor.  
 
-This view is limited to one Keystone subscription at a time. You can also see the assets of other subscriptions by selecting from the *Tracking ID* dropdown list. The BlueXP Keystone dashboard allows you to view assets across multiple Keystone subscriptions. To learn more, refer to link:../integrations/assets.html[View assets across your Keystone subscriptions].
+This view is limited to one Keystone subscription at a time. You can also see the assets of other subscriptions by selecting from the *Tracking ID* dropdown list. The Keystone dashboard in BlueXP allows you to view assets across multiple Keystone subscriptions. To learn more, refer to link:../integrations/assets.html[View assets across your Keystone subscriptions].
 
 == View Keystone subscription assets from BlueXP 
 
@@ -54,7 +54,7 @@ You are redirected to the *Current consumption* tab.
 +
 image:bxp-nodes-cluster-single-subscription.png[A screenshot of nodes in clusters for a subscription]
 +
-You see the cluster details, broken down by storage efficiency settings, platform type, and capacity details. Clicking on one of the clusters takes you to the *Clusters* widget on the BlueXP digital advisor screen, where you get additional information for that cluster. 
+You see ONTAP cluster details, broken down by storage efficiency settings, platform type, and capacity details. Clicking on one of the clusters takes you to the *Clusters* widget on the BlueXP digital advisor screen, where you get additional information for that cluster. 
 +
 TIP: You can customize the table using the column selector image:column-selector.png[column selector icon] icon. 
 --
@@ -88,7 +88,7 @@ The *Assets* tab of the Keystone dashboard in Digital Advisor includes two sub-t
 .ONTAP
 --
 .Steps
-. Click *GENERAL > Keystone Subscriptions > Assets > ONTAP*.
+. Click *General > Keystone Subscriptions > Assets > ONTAP*.
 . Select the subscription number for which you want to view the clusters.
 +
 You see the cluster details, broken down by storage efficiency settings, platform type, and capacity details. Clicking on one of the clusters takes you to the *Clusters* widget on the Digital Advisor screen, where you get additional information for that cluster. Digital Advisor provides a comprehensive inventory-level information of your deployments.
@@ -99,7 +99,7 @@ image:assets-tab-3.png[screenshot to show cluster-level information for ONTAP ]
 .StorageGRID
 --
 .Steps
-. Click *GENERAL > Keystone Subscriptions > Assets > StorageGRID*.
+. Click *General > Keystone Subscriptions > Assets > StorageGRID*.
 . Select the subscription number.
 +
 You see the grid details, categorized by grid and node identifiers, site information, hardware specifications, and capacity details, which help in monitoring and managing nodes in your StorageGRID infrastructure.
