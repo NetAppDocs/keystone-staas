@@ -17,7 +17,7 @@ The Keystone dashboard is your go-to solution for efficiently monitoring, analyz
 
 Please check which option is better:
 
---------------
+
 
 ##Option 1:##
 
@@ -29,7 +29,7 @@ Please check which option is better:
 * *BlueXP*: Access the dashboard from *Storage > Keystone > Overview* in BlueXP. To learn more, refer to link:../integrations/keystone-bluexp.html[Keystone dashboard in BlueXP^].
 * *Active IQ Digital Advisor* (also known as Digital Advisor): Access the dashboard from *General > Keystone Subscriptions* in Digital Advisor. To learn more, refer to link:../integrations/keystone-aiq.html[Keystone dashboard in Digital Advisor^].
 
---------------
+
 While BlueXP and Digital Advisor offer some exclusive features, BlueXP provides administrative functionality for Keystone, allowing you to manage subscriptions and make necessary adjustments.
 
 Through the Keystone Dashboard, you can achieve the following goals:
@@ -55,7 +55,7 @@ The following table shows the availability of features in BlueXP and Digital Adv
 
 |===
 
-|Feature |BlueXP |Digital Advisor
+|*Feature* |*BlueXP* |*Digital Advisor*
 
 a|link:../integrations/subscriptions-tab.html[View your subscription details]
 |Yes

@@ -20,7 +20,7 @@ You can view a list of all your subscriptions from the *Subscriptions* tab in bo
 
 .BlueXP
 --
-The *Subscriptions* tab in BlueXP is divided into two sections: *Subscriptions* and *Performance levels*. Each section offers specific insights to help you manage and monitor your Keystone subscriptions. To view detailed information for your subscriptions, follow these steps:
+The *Subscriptions* tab in BlueXP is divided into two sections: *Subscriptions* and *Performance service levels*. Each section offers specific insights to help you manage and monitor your Keystone subscriptions. To view detailed information for your subscriptions, follow these steps:
 
 .Steps
 
@@ -47,10 +47,10 @@ TIP: You can customize the columns displayed in the table using the column selec
 +
 image:bxp-performance-levels.png[view performance service levels across all subscriptions]
 
-* *Performance service levels across subscriptions*: Displays the number of performance service levels across the subscriptions.
-* *Provisioning consistency across subscriptions*: Shows the counts for over-provisioned and under-provisioned performance service levels.
+* *Performance service levels across subscriptions*: ##Displays the number of performance service levels across the subscriptions.##
+* *Provisioning consistency across subscriptions*: ##Shows the counts for over-provisioned and under-provisioned performance service levels.##
 +
-You can see the listing of performance service levels, including key details such as the name of the customer, subscription number, type of performance service level, total number of volumes, and their QoS compliance status. The table also displays the count of protected volumes, the total committed, consumed, provisioned, available capacity (with and without burst), and accrued burst capacity.
+##You can see the listing of performance service levels, including key details such as the name of the customer, subscription number, type of performance service level, total number of volumes, and their QoS compliance status. The table also displays the count of protected volumes, the total committed, consumed, provisioned, available capacity (with and without burst), and accrued burst capacity.##
 --
 
 .Digital Advisor

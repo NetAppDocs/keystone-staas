@@ -15,7 +15,7 @@ summary: View capacity details at the volume or object storage level.
 [.lead]
 If you want to view capacity details at the volume or object storage level, you can navigate to the *Volumes & Objects* tab in Digital Advisor. For StorageGRID, you can use this tab to read the usage by the individual nodes in your object storage environment. 
 
-##You can refer to the *Assets* tab in BlueXP to view these details. To view the details for a specific Keystone STaaS subscription, refer to this link:../integrations/assets-tab.html[Assets tab].If you want to view details across multiple Keystone subscriptions, refer to this link:../integrations/assets.html[View assets across your Keystone subscriptions].##
+##You can refer to the *Assets* tab in BlueXP to view these details. To view the details for a specific Keystone STaaS subscription, refer to this link:../integrations/assets-tab.html[Assets tab]. If you want to view details across multiple Keystone subscriptions, refer to this link:../integrations/assets.html[View assets across your Keystone subscriptions].##
 
 [NOTE]
 The title of this tab varies with the nature of deployment at your site. If you have both ONTAP and object storage, the title of the tab appears as *Volumes & Objects*. For only ONTAP, the name appears *Volumes*. For StorageGRID object storage, you can see the *Objects* tab.

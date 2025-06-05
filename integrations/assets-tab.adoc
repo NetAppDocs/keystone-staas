@@ -78,7 +78,6 @@ image:bxp-nodes-grids-single-subscription.png[A screenshot of nodes in grids for
 You can view detailed information about nodes in grids, including node name, node status, grid name, node type, and customer. You can also monitor consumed and available data capacity, CPU usage, and usable data capacity. 
 +
 TIP: You can customize the table using the column selector image:column-selector.png[column selector icon] icon and use the search bar at the top to search and filter Keystone data based on the column parameters.
-====
 --
 ====
 
