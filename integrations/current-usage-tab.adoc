@@ -31,9 +31,9 @@ You are redirected to the *Current consumption* tab.
 +
 image:bxp-current-consumption-graph.png[current consumption details in the graphical format]
 +
-For the selected subscription, you can view consumption details in either table or graphical format using the *Table* or *Graph* option from the *View as* dropdown. In the graphical view, you can see the current consumption per service level, including used capacity, provisioned capacity, committed capacity limit, and burst capacity limit.
+For the selected subscription, you can view consumption details in either table or graphical format using the *Table* or *Graph* option from the *View as* dropdown. In the graphical view, you can see the current consumption per performance service level, including used capacity, provisioned capacity, committed capacity limit, and burst capacity limit.
 +
-In the table view, you can see details like maximum capacity consumed and days remaining until expiration. As part of monitoring your subscription usage, you can view the performance level name, consumption status, committed and used capacities, provisioned and burst capacities, available capacity, and volumes. You can customize the table using the column selector image:column-selector.png[column selector icon] icon.
+In the table view, you can see details like maximum capacity consumed and days remaining until expiration. As part of monitoring your subscription usage, you can view the performance service level name, consumption status, committed and used capacities, provisioned and burst capacities, available capacity, and volumes. You can customize the table using the column selector image:column-selector.png[column selector icon] icon.
 +
 image:bxp-current-consumption-table.png[current consumption details in the table format]
 
@@ -48,14 +48,14 @@ image:bxp-current-consumption-table.png[current consumption details in the table
 +
 image:aiq-ks-dtls-3.png[Current Consumption tab]
 +
-For the selected subscription, you can view details, such as the start and end dates of the subscription, and the billing period, such as monthly or annual. As  a part of the subscription usage, you can view the service level name, committed, consumed, available capacities, and current and accrued burst usage (in TiB). Specific service levels that record higher consumption are highlighted. You can also view warnings and alerts generated for your volumes.
+For the selected subscription, you can view details, such as the start and end dates of the subscription, and the billing period, such as monthly or annual. As a part of the subscription usage, you can view the performance service level name, committed, consumed, available capacities, and current and accrued burst usage (in TiB). Specific performance service levels that record higher consumption are highlighted. You can also view warnings and alerts generated for your volumes.
 +
 Coupled with the current consumption, you might want to view the historical usage data for comparison. Click the *View Historical Data* button to navigate to the *Consumption Trend* tab to view the historical data for the same subscription.
 
 --
 ====
 
-For information about your Keystone storage services and the relevant service levels, see link:../concepts/service-levels.html[Service Levels in Keystone].
+For information about your Keystone storage services and the relevant performance service levels, see link:../concepts/service-levels.html[Performance service levels in Keystone].
 
 
 *Related information*

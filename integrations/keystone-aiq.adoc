@@ -21,7 +21,7 @@ Digital Advisor offers a unified dashboard that gives insights into various leve
 
 .Default (old) dashboard 
 
-You can see your customer name and subscription number, account name, start and end dates of the subscription, and the capacity usage graphs as per your subscribed service levels. You can see the collection timestamp of the consumption data in UTC time.
+You can see your customer name and subscription number, account name, start and end dates of the subscription, and the capacity usage graphs as per your subscribed performance service levels. You can see the collection timestamp of the consumption data in UTC time.
 
 
 image:old-db-2.png[old dashboard]
@@ -42,7 +42,7 @@ image:new-db-4.png[new dashboard]
 
 You can click *View All Subscriptions* to view the usage details and alerts on your volumes on the *Keystone Subscriptions* page.
 
-The details of the subscriptions, usage charts for each service level, and volume details are displayed in the different tabs on the *Keystone Subscriptions* screen.
+The details of the subscriptions, usage charts for each performance service level, and volume details are displayed in the different tabs on the *Keystone Subscriptions* screen.
 
 NOTE: Capacity consumption in Keystone subscriptions is displayed in TiBs on the dashboards and reports, and is rounded off to two decimal places. If the usage is less than 0.01 TiB, then the value is shown as 0 or No Usage. The data on these screens is displayed in UTC time (server timezone). When you enter a date for query, it is automatically considered to be in UTC time.
 To learn more about usage metrics, refer to link:../concepts/metrics.html#metrics-measurement[Metrics measurement]. For information about different capacities used in Keystone, see link:../concepts/supported-storage-capacity.html[Supported storage capacities].

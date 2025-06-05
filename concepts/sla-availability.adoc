@@ -23,8 +23,8 @@ NOTE: SLAs and guarantees are available on a nomination basis.
 * *Downtime*: The period of time when both controllers in a pair within a storage array are not available, as determined by NetApp.
 * *Eligible number of seconds*: These are seconds in a month that count towards the uptime calculation. It does not include the time period when the STaaS services are not available because of planned maintenance, upgrades, support activities agreed upon with NetApp, or due to circumstances that are beyond control or responsibility of NetApp or Keystone services.
 
-== Service levels
-All service levels that ONTAP flash storage arrays support are eligible for Availability SLA. To learn more, refer to link:https://docs.netapp.com/us-en/keystone-staas/concepts/service-levels.html#service-levels-for-file-and-block-storage[Service levels in Keystone].
+== Performance service levels
+All performance service levels that ONTAP flash storage arrays support are eligible for Availability SLA. To learn more, refer to link:https://docs.netapp.com/us-en/keystone-staas/concepts/service-levels.html#service-levels-for-file-and-block-storage[Performance service levels in Keystone].
 
 == Service credits
 If the availability of ONTAP flash storage arrays for eligible subscriptions falls below the 99.999% monthly uptime target within a billing period, then NetApp issues service credits as follows:
@@ -54,8 +54,8 @@ Service credits = (impacted capacity / total committed capacity) X capacity fees
 Where:
 
 * *impacted capacity*: The amount of stored capacity affected.
-* *total committed capacity*: The committed capacity for the service level for the Keystone order.
-* *capacity fees*: The fees for the affected service level for the month.
+* *total committed capacity*: The committed capacity for the performance service level for the Keystone order.
+* *capacity fees*: The fees for the affected performance service level for the month.
 * *credit percentage*: The predetermined percentage for service credit.
 
 *Example*

@@ -27,11 +27,9 @@ indexpage:
           url: /integrations/assets-tab.html
         - title: Search data and generate reports 
           url: /integrations/options.html
-        - title: Keystone and BlueXP digital advisor
-          url: /integrations/keystone-cm.html
     - title: Supported services in Keystone
       links:
-        - title: Keystone Service Levels
+        - title: Keystone performance service Levels
           url: /concepts/service-levels.html
         - title: Quality of Service (QoS)
           url: /concepts/qos.html

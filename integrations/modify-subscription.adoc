@@ -28,9 +28,9 @@ To change the committed capacity, follow these steps:
 . From the BlueXP menu, select *Storage > Keystone > Subscriptions*.
 . Click the ellipsis icon from the table for the subscription you wish to modify, and then select *Modify*.
 +
-The *Modify subscription* page displays the details for the subscribed performance levels associated with the selected subscription number.
+The *Modify subscription* page displays the details for the subscribed performance service levels associated with the selected subscription number.
 +
-NOTE: Optionally, you can access the *Modify subscription* page by clicking *Manage subscription* in the subscription details section of the Current consumption, Consumption trend, Subscription timeline, or Assets tabs, and then selecting *Modify*.
+NOTE: Optionally, you can access the *Modify subscription* page by clicking *Manage subscription* in the subscription details section, and then selecting *Modify*.
 +
 image:bxp-modify-subscription.png[a screenshot displaying modify option from the subscription list]
 . Click *Edit capacity* to modify committed capacity for the performance service levels, provide the necessary details, and click *Submit*.

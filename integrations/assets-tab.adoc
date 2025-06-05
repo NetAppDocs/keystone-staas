@@ -13,13 +13,15 @@ summary: Use the Assets tab to view details of ONTAP clusters and nodes, and Sto
 :imagesdir: ../media/
 
 [.lead]
-You can view detailed information about ONTAP clusters and nodes, as well as the StorageGRID grids, sites, and nodes, managed by a single Keystone subscription. This view of your subscription assets is available in the Keystone dashboard views from both BlueXP and Digital Advisor.  
-
-This view is limited to one Keystone subscription at a time. You can also see the assets of other subscriptions by selecting from the *Tracking ID* dropdown list. The Keystone dashboard in BlueXP allows you to view assets across multiple Keystone subscriptions. To learn more, refer to link:../integrations/assets.html[View assets across your Keystone subscriptions].
+You can view detailed information about ONTAP clusters and nodes, as well as the StorageGRID grids, sites, and nodes, managed by a single Keystone subscription. This view of your subscription assets is available in the Keystone dashboard views from both BlueXP and Digital Advisor. 
 
 == View Keystone subscription assets from BlueXP 
 
-The *Assets* tab within the *Subscriptions* tab in BlueXP provides detailed information about volumes in clusters, StorageGRID nodes, and ONTAP nodes associated with the subscription, including various details and capacity status. You can view this information by following these steps:
+The *Assets* tab within the *Subscriptions* tab in BlueXP provides detailed information about volumes in clusters, StorageGRID nodes, and ONTAP nodes associated with the subscription, including various details and capacity status. 
+
+NOTE: ##This view is limited to one Keystone subscription at a time. You can also see the assets of other subscriptions by selecting from the *Tracking ID* dropdown list. The Keystone dashboard in BlueXP allows you to view assets across multiple Keystone subscriptions. To learn more, refer to link:../integrations/assets.html[View assets across your Keystone subscriptions].##
+
+You can view this information by following these steps:
 
 [role="tabbed-block"]
 ====
@@ -35,9 +37,9 @@ You are redirected to the *Current consumption* tab.
 +
 image:bxp-volumes-clusters-single-subscription.png[A screenshot of volumes in clusters for a subscription]
 +
-You see the detailed information about volumes in clusters including volume name, node serial number, compliance with QoS policies, cluster name, host name, and service levels. You can also monitor the provisioned capacity, logical and physical utilization, and cold data.
+You see the detailed information about volumes in clusters including volume name, node serial number, compliance with QoS policies, cluster name, host name, and performance service levels. You can also monitor the provisioned capacity, logical and physical utilization, and cold data.
 +
-TIP: You can customize the table using the column selector image:column-selector.png[column selector icon] icon. 
+TIP: ##You can customize the table using the column selector image:column-selector.png[column selector icon] icon and use the search bar at the top to search and filter Keystone data based on the column parameters.##
 --
 
 .Nodes in clusters
@@ -54,9 +56,9 @@ You are redirected to the *Current consumption* tab.
 +
 image:bxp-nodes-cluster-single-subscription.png[A screenshot of nodes in clusters for a subscription]
 +
-You see ONTAP cluster details, broken down by storage efficiency settings, platform type, and capacity details. Clicking on one of the clusters takes you to the *Clusters* widget on the BlueXP digital advisor screen, where you get additional information for that cluster. 
+You see ONTAP cluster details, broken down by storage efficiency settings, platform type, and capacity details. 
 +
-TIP: You can customize the table using the column selector image:column-selector.png[column selector icon] icon. 
+TIP: You can customize the table using the column selector image:column-selector.png[column selector icon] icon and use the search bar at the top to search and filter Keystone data based on the column parameters.
 --
 
 .Nodes in grids
@@ -73,15 +75,16 @@ You are redirected to the *Current consumption* tab.
 +
 image:bxp-nodes-grids-single-subscription.png[A screenshot of nodes in grids for a subscription]
 +
-You can view detailed information about nodes in grids, including node name, node status, grid name, node type, and customer. You can also monitor consumed and available data capacity, CPU usage, and usable data capacity. Clicking on one of the grid name takes you to the *GRID Viewer* widget on the BlueXP digital advisor screen, where you get additional information for that node. 
+You can view detailed information about nodes in grids, including node name, node status, grid name, node type, and customer. You can also monitor consumed and available data capacity, CPU usage, and usable data capacity. 
 +
-TIP: You can customize the table using the column selector image:column-selector.png[column selector icon] icon. 
+TIP: You can customize the table using the column selector image:column-selector.png[column selector icon] icon and use the search bar at the top to search and filter Keystone data based on the column parameters.
+====
 --
 ====
 
 == View Keystone subscription assets from Digital Advisor 
 
-The *Assets* tab of the Keystone dashboard in Digital Advisor includes two sub-tabs: *ONTAP* and *StorageGRID*. This tab accumulates cluster-level information for ONTAP and grid-level information for StorageGRID based on your subscriptions, segregating and presenting the data with accurate details. You can view this information by clicking on the respective sub-tabs.
+The *Assets* tab of the Keystone dashboard in Digital Advisor includes two sub-tabs: *ONTAP* and *StorageGRID*. This tab accumulates cluster-level information for ONTAP and grid-level information for StorageGRID based on your subscriptions, segregating and presenting the data with accurate details. You can view this information by clicking the respective sub-tabs.
 
 [role="tabbed-block"]
 ====

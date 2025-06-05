@@ -28,17 +28,20 @@ To log in to BlueXP, you can use your NetApp Support Site credentials or you can
 . Log in to BlueXP.
 . From the BlueXP menu, select *Storage > Keystone*.
 +
-The Keystone dashboard is displayed.
+The Keystone dashboard appears.
 +
-image:discover-subscriptions.png[the Keystone dashboard page with two options]
-. If you are an existing Keystone user,
+image:discover-subscriptions-1.png[the Keystone dashboard page ]
 +
-.. Click *Discover your subscriptions* to view the details about your subscriptions in the Keystone dashboard. 
-.. If subscriptions are not found, click *Add subscriptions manually*.
-.. Provide the required values and click *Discover* to view all your subscriptions.
-.. Select your subscriptions and click *Next*.
-.. Review details and click *Submit request* to view the details about your subscriptions in the Keystone dashboard.
-. If you are new to Keystone, click *Contact sales team*, provide the requested details, and click *Submit*.
+NOTE: Contact NetApp Keystone support if your login credentials are not linked to any Keystone subscriptions.
+
+//. If you are an existing Keystone user,
+//+
+//.. Click *Discover your subscriptions* to view the details about your subscriptions in the Keystone dashboard. 
+//.. If subscriptions are not found, click *Add subscriptions manually*.
+//.. Provide the required values and click *Discover* to view all your subscriptions.
+//.. Select your subscriptions and click *Next*.
+//.. Review details and click *Submit request* to view the details about your subscriptions in the Keystone dashboard.
+//. If you are new to Keystone, click *Contact sales team*, provide the requested details, and click *Submit*.
 
 --
 

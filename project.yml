@@ -100,8 +100,6 @@ sidebar:
               url: /integrations/keystone-aiq.html
             - title: Search data, generate reports, and view alerts
               url: /integrations/options.html
-            - title: Learn about Keystone and BlueXP digital advisor
-              url: /integrations/keystone-cm.html  
         - title: View subscription insights 
           entries:         
             - title: View your subscription details
@@ -120,7 +118,7 @@ sidebar:
               url: /integrations/assets.html
         - title: Modify your subscriptions
           url: /integrations/modify-subscription.html 
-        - title: View or cancel your service request
+        - title: View your service request
           url: /integrations/administration-tab.html       
         - title: View volumes and object storage details
           url: /integrations/volumes-objects-tab.html          
@@ -138,9 +136,9 @@ sidebar:
               url: /concepts/supported-storage-services.html              
             - title: Supported capacity
               url: /concepts/supported-storage-capacity.html
-            - title: Service levels
+            - title: Performance service levels
               url: /concepts/service-levels.html
-            - title: Capacity requirements for service levels
+            - title: Capacity requirements for performance service levels
               url: /concepts/capacity-requirements.html
         - title: Add-on services
           entries:  

@@ -30,8 +30,6 @@ image:bxp-subscription- list.png[view the subscription tab details]
 +
 You see the key metrics such as capacity status, subscription expiry status, and Keystone version across subscriptions. To learn more, refer to link:../integrations/keystone-bluexp.html[Keystone dashboard in BlueXP].
 +
-TIP: You can customize the columns displayed in the table using the column selector image:column-selector.png[column selector icon] icon. For certain fields and columns, you might see information or warning icons and tooltips that provide you with additional information about the data.
-+
 You can see the following details from the table:
 +
 * *Subscription number*: The subscription number of the Keystone subscription assigned by NetApp.
@@ -39,18 +37,20 @@ You can see the following details from the table:
 * *Customer name*: The name of the customer associated with the Keystone subscription.
 * *Linked subscriptions*: If you have any secondary subscriptions linked to your primary subscription, this column lists the linked subscription numbers for the primary subscription. This subscription number can be of your primary or secondary (linked) subscription.
 * *Keystone version*: The version of the Keystone service that is being used for the subscription.
-* *Billing period*: The billing period of the subscription, such as monthly, quarterly, or yearly.
-* *Performance levels*: The number of rate plans associated with the subscription, with each rate plan corresponding to a specific service level and committed capacity. 
+* *Billing period*: The invoicing period of the subscription.
+* *Performance service levels*: The number of rate plans associated with the subscription, with each rate plan corresponding to a specific performance service level and committed capacity. 
 * *Highest capacity*: The maximum capacity consumed within the subscription. 
 * *Days to subscription expiry*: The number of days remaining until the subscription expires.
-. You can select the *Performance service levels* sub-tab to view the service levels across all subscriptions.
++
+TIP: You can customize the columns displayed in the table using the column selector image:column-selector.png[column selector icon] icon. For certain fields and columns, you might see information or warning icons and tooltips that provide you with additional information about the data.
+. You can select the *Performance service levels* sub-tab to view the performance service levels across all subscriptions.
 +
 image:bxp-performance-levels.png[view performance service levels across all subscriptions]
+
+* *Performance service levels across subscriptions*: Displays the number of performance service levels across the subscriptions.
+* *Provisioning consistency across subscriptions*: Shows the counts for over-provisioned and under-provisioned performance service levels.
 +
-* *Performance levels across subscriptions*: Displays the number of subscriptions for each service level.
-* *Provisioning consistency across subscriptions*: Shows the counts for over-provisioned and under-provisioned subscriptions.
-+
-You can see the listing of subscriptions, including key details such as the name of the customer, subscription number, type of service level, total number of volumes, and their QoS compliance status. The table also displays the count of protected volumes, the total committed, consumed, provisioned, available capacity (with and without burst), and accrued burst capacity.
+You can see the listing of performance service levels, including key details such as the name of the customer, subscription number, type of performance service level, total number of volumes, and their QoS compliance status. The table also displays the count of protected volumes, the total committed, consumed, provisioned, available capacity (with and without burst), and accrued burst capacity.
 --
 
 .Digital Advisor
@@ -71,13 +71,13 @@ For certain fields and columns, you might see information or warning icons and t
 * *Tracking ID*: The tracking ID assigned at the time of subscription activation. This is a unique ID for each subscription and site.
 [TIP]
 If you have subscribed to advanced data protection add-on service, then you can click the tooltip against your subscription number to view the tracking ID of the partner subscription in a MetroCluster setup. To view detailed consumption by partner subscriptions in a MetroCluster configuration, see link:../integrations/consumption-tab.html#reference-charts-for-advanced-data-protection-for-metrocluster[Reference charts for advanced data protection].
-* *Usage Type*: You might have subscribed to multiple Keystone (version 1) or Keystone STaaS (version 2) subscriptions. The rate plan rules for the service levels might vary for the two subscription types. By looking at the value in this column, you know whether the usage type is billed as per the provisioned, physical, or logical usage for either `v1` or `v2`. To learn more about Keystone Subscriptions version 1, refer to https://docs.netapp.com/us-en/keystone/index.html[Keystone subscription services | Version 1 documentation^].
-* *Billing Period*: The billing period of the subscription, such as monthly, quarterly, or yearly.
+* *Usage Type*: You might have subscribed to multiple Keystone versions (v1, v2, or v3). The rate plan rules for performance service levels may differ between subscription versions. By looking at the value in this column, you know whether the usage type is billed as per the provisioned, physical, or logical usage for either `v1` or `v2`. To learn more about version 1, refer to https://docs.netapp.com/us-en/keystone/index.html[Keystone subscription services | Version 1 documentation^].
+* *Billing Period*: The invoicing period of the subscription.
 * *Start Date*: The start date of the subscription.
 * *End Date*: The end date of the subscription. If you have a monthly-billable subscription that renews automatically every month, you see `Month-on-month` instead of the end date. Based on this date, you might see notifications for subscriptions that are about to end or have auto-renewal policies attached.
 * *Usage Status*: Displays the usage indicator to indicate whether the consumption is within or exceeding the subscription limit. You can sort the list by this column if you want to view the highest consumption records.
 * image:subs-dtls-icon.png[icon]: Clicking this icon for a subscription opens the *Current Consumption* tab with the usage details of that subscription.
-* image:aiq-ks-time-icon.png[icon]: Clicking this icon opens the *Consumption Trend* tab where you can see the historical usage data for each service level included in this subscription.
+* image:aiq-ks-time-icon.png[icon]: Clicking this icon opens the *Consumption Trend* tab where you can see the historical usage data for each performance service level included in this subscription.
 +
 You can refer to the following usage indicators to check the usage status of each subscription:
 +
@@ -85,10 +85,10 @@ image:usage-indicator-2.png[icon]
 +
 .Index
 +
-image:icon-grey.png[grey dot icon]: No capacity usage recorded against the committed capacity of the service level
+image:icon-grey.png[grey dot icon]: No capacity usage recorded against the committed capacity of the performance service level
 image:icon-green.png[green dot icon]: The consumption is normal, within 80% of the committed capacity
 image:icon-amber.png[amber dot icon]: Maximum consumption, that is the usage is about to reach 100% or more of the committed capacity. The *Consumed* column displays this indicator for any consumption above 80% of the committed capacity
-image:icon-red.png[red dot icon]: The consumption is within the burst limit. The burst consumption is the consumption that tops the 100% committed capacity of a service level, and is within the agreed-upon burst usage limit, such as 120%
+image:icon-red.png[red dot icon]: The consumption is within the burst limit. The burst consumption is the consumption that tops the 100% committed capacity of a performance service level, and is within the agreed-upon burst usage limit, such as 120%
 image:icon-purple.png[purple dot icon]: Indicates consumption above the stipulated burst limit
 --
 ====
