@@ -17,19 +17,13 @@ NetApp offers you new and enhanced features in every release of Keystone STaaS s
 
 //The following enhancements are introduced in the *Keystone Subscriptions* screen of Active IQ Digital Advisor (also known as Digital Advisor):
 
+// tag::whats-new[]
+
 == June 12, 2025
 
-=== ##Keystone dashboard in BlueXP##
-You can now access the Keystone dashboard directly from BlueXP. This integration gives you a single place to monitor, manage, and keep track of all your Keystone subscriptions along with your other NetApp services.
+include::_whatsnew/2025-06-12.adoc[]
 
-With the Keystone dashboard in BlueXP, you can:
-
-* View all your subscription details, capacity usage, and assets in one place.
-* Easily manage subscriptions and request changes as your needs evolve.
-* Stay up to date with the latest information for your storage environment
-
-To get started, go to *Storage > Keystone* in the BlueXP menu. To learn more, refer to link:../integrations/dashboard-overview.html[Keystone dashboard overview^].
-
+// end::whats-new[]
 
 == January 08, 2025
 
