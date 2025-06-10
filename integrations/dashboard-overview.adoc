@@ -13,26 +13,7 @@ summary: As a NetApp Keystone STaaS subscriber, you can get an overview of your 
 :imagesdir: ../media/
 
 [.lead]
-The Keystone dashboard is your go-to solution for efficiently monitoring, analyzing, and managing your  Keystone subscriptions. With a comprehensive suite of features, you can access the Keystone Dashboard through:
-
-Please check which option is better:
-
-
-
-##Option 1:##
-
-* *BlueXP*: Access the dashboard from *Storage > Keystone > Overview* in BlueXP, a single control plane for managing storage and data services across all environments. To learn more, refer to link:https://docs.netapp.com/us-en/bluexp-family/index.html[BlueXP documentation^].
-* *Active IQ Digital Advisor* (also known as Digital Advisor): Access the dashboard from *General > Keystone Subscriptions* in Digital Advisor, a platform that provides insights and recommendations for your storage environment. To learn more, refer to link:https://docs.netapp.com/us-en/active-iq/index.html[Digital Advisor documentation^].
-
-##Option 2:##
-
-* *BlueXP*: Access the dashboard from *Storage > Keystone > Overview* in BlueXP. To learn more, refer to link:../integrations/keystone-bluexp.html[Keystone dashboard in BlueXP^].
-* *Active IQ Digital Advisor* (also known as Digital Advisor): Access the dashboard from *General > Keystone Subscriptions* in Digital Advisor. To learn more, refer to link:../integrations/keystone-aiq.html[Keystone dashboard in Digital Advisor^].
-
-
-While BlueXP and Digital Advisor offer some exclusive features, BlueXP provides administrative functionality for Keystone, allowing you to manage subscriptions and make necessary adjustments.
-
-Through the Keystone Dashboard, you can achieve the following goals:
+The Keystone dashboard is your go-to solution for efficiently monitoring, analyzing, and managing your Keystone subscriptions. Through the Keystone dashboard, you can achieve the following goals:
 
 * *Monitor subscription details*: View detailed information about your Keystone subscriptions, including performance service levels, capacity usage, assets, and alerts. 
 * *Track capacity usage and generate reports*: Keep track of current and historical capacity usage, and generate reports to analyze subscription data and make informed decisions.
@@ -41,13 +22,18 @@ Through the Keystone Dashboard, you can achieve the following goals:
 * *Manage subscriptions*: Submit requests to modify performance service levels or other subscription parameters as your needs change.
 * *Analyze volumes and objects*: Gain detailed insights into the volumes and objects of your subscriptions, including their capacity at both the volume and object levels.
 
+== Access the Keystone dashboard
 
-[NOTE]
-====
-* You must have Keystone admin privileges to modify subscriptions. To learn more, refer to link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-keystone-roles.html[Keystone access roles for BlueXP^].
-* Digital Advisor is integrated with BlueXP, allowing you to access all Digital Advisor features, including the Keystone dashboard, directly from the BlueXP user interface (UI). To learn more, refer to link:https://docs.netapp.com/us-en/active-iq/digital-advisor-integration-with-bluexp.html#integration-overview[Digital Advisor integration with BlueXP^].
-====
+With a comprehensive suite of features, you can access the Keystone dashboard through:
 
+* *BlueXP*: Access the dashboard from *Storage > Keystone > Overview* in BlueXP. To learn more, refer to link:../integrations/keystone-bluexp.html[Keystone dashboard in BlueXP^].
+* *Active IQ Digital Advisor* (also known as Digital Advisor): Access the dashboard from *General > Keystone Subscriptions* in Digital Advisor. To learn more, refer to link:../integrations/keystone-aiq.html[Keystone dashboard in Digital Advisor^].
+
+Note the following:
+
+* While BlueXP and Digital Advisor offer some exclusive features, BlueXP provides administrative functionality for Keystone, allowing you to manage subscriptions and make necessary adjustments.
+* You must be assigned to the *Keystone admin* role to modify subscriptions. To learn more, refer to link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html[Learn about BlueXP access roles^].
+* Digital Advisor is integrated with BlueXP, allowing you to access all Digital Advisor features, including the Keystone dashboard, directly from BlueXP. To learn more, refer to link:https://docs.netapp.com/us-en/active-iq/digital-advisor-integration-with-bluexp.html#integration-overview[Digital Advisor integration with BlueXP^].
 
 == Keystone features in BlueXP and Digital Advisor
 

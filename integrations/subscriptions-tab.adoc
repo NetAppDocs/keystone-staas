@@ -24,8 +24,8 @@ The *Subscriptions* tab in BlueXP is divided into two sections: *Subscriptions* 
 
 .Steps
 
-. From the BlueXP menu, go to *Storage > Keystone > Subscriptions*.
-+
+. From the BlueXP left navigation menu, go to *Storage > Keystone > Subscriptions*.
+
 image:bxp-subscription- list.png[view the subscription tab details]
 +
 You see the key metrics such as capacity status, subscription expiry status, and Keystone version across subscriptions. To learn more, refer to link:../integrations/keystone-bluexp.html[Keystone dashboard in BlueXP].
@@ -47,10 +47,10 @@ TIP: You can customize the columns displayed in the table using the column selec
 +
 image:bxp-performance-levels.png[view performance service levels across all subscriptions]
 
-* *Performance service levels across subscriptions*: ##Displays the number of performance service levels across the subscriptions.##
-* *Provisioning consistency across subscriptions*: ##Shows the counts for over-provisioned and under-provisioned performance service levels.##
+* *Performance service levels across subscriptions*: Displays the number of performance service levels across the subscriptions.
+* *Provisioning consistency across subscriptions*: Shows the counts for over-provisioned and under-provisioned performance service levels.
 +
-##You can see the listing of performance service levels, including key details such as the name of the customer, subscription number, type of performance service level, total number of volumes, and their QoS compliance status. The table also displays the count of protected volumes, the total committed, consumed, provisioned, available capacity (with and without burst), and accrued burst capacity.##
+You can see the listing of performance service levels, including key details such as the name of the customer, subscription number, type of performance service level, total number of volumes, and their QoS compliance status. The table also displays the count of protected volumes, the total committed, consumed, provisioned, available capacity (with and without burst), and accrued burst capacity.
 --
 
 .Digital Advisor
@@ -71,7 +71,7 @@ For certain fields and columns, you might see information or warning icons and t
 * *Tracking ID*: The tracking ID assigned at the time of subscription activation. This is a unique ID for each subscription and site.
 [TIP]
 If you have subscribed to advanced data protection add-on service, then you can click the tooltip against your subscription number to view the tracking ID of the partner subscription in a MetroCluster setup. To view detailed consumption by partner subscriptions in a MetroCluster configuration, see link:../integrations/consumption-tab.html#reference-charts-for-advanced-data-protection-for-metrocluster[Reference charts for advanced data protection].
-* *Usage Type*: You might have subscribed to multiple Keystone versions (v1, v2, or v3). The rate plan rules for performance service levels may differ between subscription versions. By looking at the value in this column, you know whether the usage type is billed as per the provisioned, physical, or logical usage for either `v1` or `v2`. To learn more about version 1, refer to https://docs.netapp.com/us-en/keystone/index.html[Keystone subscription services | Version 1 documentation^].
+* *Usage Type*: You might have subscribed to multiple Keystone versions. The rate plan rules for performance service levels may differ between subscription versions. By looking at the value in this column, you know whether the usage type is billed as per the provisioned, physical, or logical usage. To learn more about version 1, refer to https://docs.netapp.com/us-en/keystone/index.html[Keystone subscription services | Version 1 documentation^].
 * *Billing Period*: The invoicing period of the subscription.
 * *Start Date*: The start date of the subscription.
 * *End Date*: The end date of the subscription. If you have a monthly-billable subscription that renews automatically every month, you see `Month-on-month` instead of the end date. Based on this date, you might see notifications for subscriptions that are about to end or have auto-renewal policies attached.

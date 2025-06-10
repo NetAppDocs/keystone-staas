@@ -1,10 +1,10 @@
-=== ##Keystone dashboard in BlueXP##
+=== Keystone dashboard in BlueXP
 You can now access the Keystone dashboard directly from BlueXP. This integration gives you a single place to monitor, manage, and keep track of all your Keystone subscriptions along with your other NetApp services.
 
 With the Keystone dashboard in BlueXP, you can:
 
 * View all your subscription details, capacity usage, and assets in one place.
 * Easily manage subscriptions and request changes as your needs evolve.
-* Stay up to date with the latest information for your storage environment
+* Stay up to date with the latest information for your storage environment.
 
-To get started, go to *Storage > Keystone* in the BlueXP menu. To learn more, refer to link:../integrations/dashboard-overview.html[Keystone dashboard overview^].
+To get started, go to *Storage > Keystone* in the BlueXP left navigation menu. To learn more, refer to link:../integrations/dashboard-overview.html[Keystone dashboard overview^].

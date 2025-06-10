@@ -19,7 +19,7 @@ To view the subscription timeline, follow these steps:
 
 .Steps
 
-. From the BlueXP menu, select *Storage > Keystone > Subscriptions*.
+. From the BlueXP left navigation menu, select *Storage > Keystone > Subscriptions*.
 . Select the subscription number in the *Subscription number* column to view the subscription timeline.
 +
 You are redirected to the *Current consumption* tab. 

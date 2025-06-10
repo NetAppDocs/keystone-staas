@@ -13,9 +13,9 @@ summary: As a NetApp Keystone STaaS subscriber, you can get an overview of your 
 :imagesdir: ../media/
 
 [.lead]
-Keystone dashboard in BlueXP provides at-a-glance information about all your subscription details on the *Overview* tab. You can quickly determine the workloads at risk, view the capacity and expiry status of subscriptions, identify the unresolved alerts, and view the subscriptions with the highest capacity utilization. You can also view the status of your subscriptions across different versions of Keystone, highlighting any issues that need your attention.
+You can use the *Overview* tab to quickly determine the workloads at risk, view the capacity and expiry status of subscriptions, identify the unresolved alerts, and view the subscriptions with the highest capacity utilization. You can also view the status of your subscriptions across different versions of Keystone, highlighting any issues that need your attention.
 
-To view the *Overview* tab, from the BlueXP menu, go to *Storage > Keystone > Overview*.
+To view the *Overview* tab, from the BlueXP left navigation menu, go to *Storage > Keystone > Overview*.
 
 image:bxp-dashboard-overview.png[a screenshot of the Overview tab]
 
@@ -26,7 +26,7 @@ The *Overview* tab offers the following insights:
 * *Open requests*: The total number of open service requests.
 * *Subscription capacity status*: The capacity consumption status for subscriptions that are above burst, using burst, and underutilized. Each category includes a *View* button to navigate to the *Subscriptions* tab with relevant filters applied.
 * *Subscription expiry status*: The number of expired subscriptions and those about to expire within 90 days. Each category includes a *View* button to navigate to the *Subscriptions* tab with relevant filters applied.
-* *Keystone version across subscriptions*: ##A breakdown of your Keystone subscriptions by version (v1, v2, and v3). The rate plan rules for performance service levels may differ between subscription versions. You can filter subscriptions by version using the *View* button, which takes you to the *Subscriptions* tab with the relevant filters applied. To learn more about version v1, refer to https://docs.netapp.com/us-en/keystone/index.html[Keystone subscription services | Version 1 documentation^].##
+* *Keystone version across subscriptions*: A breakdown of your Keystone subscriptions by version. The rate plan rules for performance service levels may differ between subscription versions. You can filter subscriptions by version using the *View* button, which takes you to the *Subscriptions* tab with the relevant filters applied. To learn more about version v1, refer to https://docs.netapp.com/us-en/keystone/index.html[Keystone subscription services | Version 1 documentation^].
 //* *Keystone version across subscriptions*: A pie chart of Keystone subscriptions across versions v1, v2, and v3. The rate plan rules for the performance service levels might vary for the two subscription types. You can filter subscriptions by version using the *View* button, which navigates to the *Subscriptions* tab with relevant filters applied. To learn more about Keystone Subscriptions version 1, refer to https://docs.netapp.com/us-en/keystone/index.html[Keystone subscription services | Version 1 documentation^].
 +
 image:version-across-subscriptions.png[A pie chart of Keystone subscriptions across versions v1, v2, and v3.]

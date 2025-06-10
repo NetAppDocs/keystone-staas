@@ -28,14 +28,14 @@ You can view historical data of your Keystone subscriptions through BlueXP or Di
 .BlueXP
 --
 .Steps
-. From the BlueXP menu, select *Storage > Keystone > Subscriptions*.
+. From the BlueXP left navigation menu, select *Storage > Keystone > Subscriptions*.
 . Select the subscription number in the *Subscription number* column. 
 +
 You are redirected to the *Current consumption* tab. 
 . Select the *Consumption trend* tab. 
 . Select *Historical consumption* from the *View* dropdown and choose the time range using the calendar icon in the *Period* field to analyze capacity usage trends. 
 +
-The historical consumption data for each service level is displayed in a line graph based on the selected time range.
+The historical consumption data for each performance service level is displayed in a line graph based on the selected time range.
 +
 NOTE: You can select *Accrued burst* from the *View* dropdown if you want to view the historical burst usage data for which invoices have been generated. You can use this data to analyze the billed usage reflected in your invoice. To learn more, refer to link:../integrations/consumption-tab.html#view-accrued-burst[View accrued burst].
 +
@@ -157,7 +157,7 @@ For the base performance service levels, each volume is charged as provisioned a
 
 .What you can see for the primary subscription
 
-The following image displays the charts for the _Extreme_ service level (base performance service level) and a primary subscription number. The same historical data chart also indicates the mirror site consumption in a lighter shade of the same color code used for the primary site. The tooltip on mouse hover displays the consumption breakup (in TiB) for the primary and mirror sites, 22.24 TiB and 14.86 TiB respectively.
+The following image displays the charts for the _Extreme_ performance service level (base performance service level) and a primary subscription number. The same historical data chart also indicates the mirror site consumption in a lighter shade of the same color code used for the primary site. The tooltip on mouse hover displays the consumption breakup (in TiB) for the primary and mirror sites, 22.24 TiB and 14.86 TiB respectively.
 
 image:mcc-chart-1.png[mcc primary]
 

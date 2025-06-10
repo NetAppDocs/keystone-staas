@@ -13,7 +13,7 @@ summary: As a NetApp Keystone STaaS subscriber, you can search and filter your d
 :imagesdir: ../media/
 
 [.lead]
-The Keystone dashboard, accessible through BlueXP and Digital Advisor, provides options to search and filter your data, generate reports for subscriptions and usage, and view alerts to stay informed about your storage environment.
+You can search and filter your data, generate reports for subscriptions and usage, and view alerts to stay informed about your storage environment.
 
 == Search and filter data from BlueXP
 In BlueXP, you can search and filter Keystone data based on the column parameters available in the table within a tab. For example, in the *Subscriptions* sub-tab under the *Subscriptions* tab, you can filter data by entering the Keystone version in the search box. Similarly, in the *Volumes in clusters* tab under the *Assets* tab, you can filter volumes by entering volume name in the search box. 

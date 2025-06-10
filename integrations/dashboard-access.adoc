@@ -20,13 +20,11 @@ You can access the Keystone dashboard through NetApp BlueXP or Digital Advisor a
 
 .BlueXP
 --
-To log in to BlueXP, you can use your NetApp Support Site credentials or you can sign up for a NetApp cloud login using your email and a password. Learn more about link:https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-logging-in.html[logging in to BlueXP^].
+To log in to BlueXP, you can use your NetApp Support Site credentials or you can sign up for BlueXP using your email and a password. Learn more about link:https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-logging-in.html[logging in to BlueXP^].
 
 .Steps
-. Open a web browser and go to the link:https://console.bluexp.netapp.com/[BlueXP console^].
-. The NetApp BlueXP login page appears.
 . Log in to BlueXP.
-. From the BlueXP menu, select *Storage > Keystone*.
+. From the BlueXP left navigation menu, select *Storage > Keystone*.
 +
 The Keystone dashboard appears.
 +

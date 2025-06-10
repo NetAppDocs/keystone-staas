@@ -18,7 +18,7 @@ You can view and track service requests for modifying Keystone subscriptions thr
 To view the progress or cancel a request, follow these steps:
 
 .Steps
-. From the BlueXP menu, select *Storage > Keystone > Administration*.
+. From the BlueXP left navigation menu, select *Storage > Keystone > Administration*.
 +
 You see a list of all service requests, including the request number, type of request, and current status.
 . You can click the image:down-arrow.png[down arrow icon] icon next to the *Submission date* column to expand the request number and view details. You see the performance service levels for which the requests are raised.
