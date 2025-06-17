@@ -24,7 +24,7 @@ The Keystone dashboard is your go-to solution for efficiently monitoring, analyz
 
 == Access the Keystone dashboard
 
-With a comprehensive suite of features, you can access the Keystone dashboard through:
+You can access the Keystone dashboard through:
 
 * *BlueXP*: Access the dashboard from *Storage > Keystone > Overview* in BlueXP. To learn more, refer to link:../integrations/keystone-bluexp.html[Keystone dashboard in BlueXP^].
 * *Active IQ Digital Advisor* (also known as Digital Advisor): Access the dashboard from *General > Keystone Subscriptions* in Digital Advisor. To learn more, refer to link:../integrations/keystone-aiq.html[Keystone dashboard in Digital Advisor^].
