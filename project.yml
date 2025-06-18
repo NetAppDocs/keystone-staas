@@ -123,19 +123,29 @@ sidebar:
         - title: View volumes and object storage details
           url: /integrations/volumes-objects-tab.html          
         - title: View performance metrics 
-          url: /integrations/performance-tab.html                                                                
-    - title: Concepts
+          url: /integrations/performance-tab.html 
+    - title: Keystone STaaS concepts for v3
+      entries: 
+        - title: Keystone STaaS services
+          entries:  
+            - title: Metrics and definitions
+              url: /concepts/metrics.html
+            - title: Supported storage
+              url: /concepts/supported-storage-services.html
+            - title: Supported capacity
+              url: /concepts/supported-storage-capacity.html                                                                    
+    - title: Keystone STaaS concepts for v2
       entries:
         - title: Keystone STaaS services
           entries:  
             - title: Metrics and definitions
-              url: /concepts/metrics.html   
+              url: /concepts/metrics-v2.html   
             - title: Storage quality of service
               url: /concepts/qos.html 
             - title: Supported storage
-              url: /concepts/supported-storage-services.html              
+              url: /concepts/supported-storage-services-v2.html              
             - title: Supported capacity
-              url: /concepts/supported-storage-capacity.html
+              url: /concepts/supported-storage-capacity-v2.html
             - title: Performance service levels
               url: /concepts/service-levels.html
             - title: Capacity requirements for performance service levels
