@@ -19,9 +19,9 @@ NetApp offers you new and enhanced features in every release of Keystone STaaS s
 
 // tag::whats-new[]
 
-== June 12, 2025
+== June 19, 2025
 
-include::_whatsnew/2025-06-12.adoc[]
+include::_whatsnew/2025-06-19.adoc[]
 
 // end::whats-new[]
 
@@ -63,7 +63,7 @@ These columns provide better clarity on the *Logical Used* column, which shows t
 == November 11, 2024 
 
 === Enhanced report generation
-You can now generate a consolidated report to view the details of your Keystone data using the Report feature in Digital Advisor. To learn more, efer to link:..../integrations/options.html#generate-consolidated-report-from-digital-advisor[Generate consolidated report^].
+You can now generate a consolidated report to view the details of your Keystone data using the Report feature in Digital Advisor. To learn more, efer to link:../integrations/options.html#generate-consolidated-report-from-digital-advisor[Generate consolidated report^].
 //NSEKEY-5735
 
 == July 10, 2024
