@@ -35,7 +35,7 @@ The following terms and definitions are used within the Keystone STaaS service t
 The following performance metrics are applicable for unified and block optimized services:
 
 * *IOPS*: Random I/O operations, 70% read and 30% write, using an 8 KB block size.
-* *Throughput*: Sequential I/O operations, 100% read, using a 32 KB.
+* *Throughput*: Sequential I/O operations, 100% read, using a 32 KB block size.
 
 === (Deprecated) Throughput performance metrics
 Throughput performance metrics are applicable only for file and block services based on:

@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar
-permalink: concepts/capacity-requirements.html
+permalink: concepts/capacity-requirements-v2.html
 keywords: storage capacity requirement for service levels, capacity definition per PSL, 
 summary: Capacity requirements for service levels differ with the file, block, object, or cloud storage supported by the Keystone STaaS subscription.
 ---
@@ -13,64 +13,55 @@ summary: Capacity requirements for service levels differ with the file, block, o
 :imagesdir: ../media/
 
 [.lead]
-The capacity requirements for Keystone STaaS performance service levels in version 3 differ with the unified, block optimized, object, or cloud storage supported by the Keystone STaaS subscription.
+The capacity requirements for Keystone STaaS performance service levels in version 2 differ with the file, block, object, or cloud storage supported by the Keystone STaaS subscription.
 
 
-== ##Minimum capacity requirements for unified and block optimized storage##
-You can see the minimum capacity and incremental capacity allowed per subscription for unified and block optimized storage in the following tables:
+== Minimum capacity requirements for file and block services
 
-*Unified storage*
+The minimum capacity and incremental capacity allowed per subscription is described in the following table. The minimum capacity per performance service level is defined to be the same across Keystone sales motions. The capacity above the minimum capacity either at the beginning of the subscription, or as an add-on service to the subscription, or after reallocation during the subscription is also structured in the table.
 
 |===
-|Capacity |Extreme |Premium |Standard |Value
+|Capacity |Extreme |Premium |Performance |Standard |Value
 a|Minimum capacity [in TiB]
-2+|50
+3+|25
 2+|100
 a|Incremental capacity (and in multiples) allowed at start of subscription [in TiB]
-4+|25
-a|Incremental capacity (and in multiples) allowed as add-on during subscription [in TiB]
-4+|25
-|===
-
-*Block optimized storage*
-
-|===
-|Capacity |Extreme |Premium
-a|Minimum capacity [in TiB]
-2+|50
-a|Incremental capacity (and in multiples) allowed at start of subscription [in TiB]
+3+|25
 2+|25
 a|Incremental capacity (and in multiples) allowed as add-on during subscription [in TiB]
+3+|25
 2+|25
+
 |===
 
-The minimum capacity per performance service level is defined to be the same across Keystone sales motions.
-
-== ##Minimum capacity requirements for object storage##
+== Minimum capacity requirements for object storage
 You can see the minimum capacity requirements for object storage in the following table:
 
 |===
-|Capacity |Standard |Value
-a|Minimum capacity [in TiB] per order | 200 | 500
-a|Incremental capacity (and in multiples) allowed at start of subscription [in TiB] | 25 TiB | 100 TiB
-a|Incremental capacity (and in multiples) allowed as add-on during subscription [in TiB] | 25 TiB | 100 TiB
-|===
+|Capacity |Data tiering |Object |Cloud Volumes ONTAP |Cloud Backup service
+a|Minimum capacity [in TiB]
+a|Not applicable
+a|500
+a|4
+a|4
+a|Incremental capacity (and in multiples) allowed at start of subscription [in TiB]
+a|Not applicable
+a|100
+a|1
+a|1
+a|Incremental capacity (and in multiples) allowed as add-on during subscription [in TiB]
+a|Not applicable
+a|100
+a|1
+a|1
 
-== ##Minimum capacity requirements for cloud services##
-You can see the minimum capacity requirements for cloud services in the following table:
-
-|===
-|Capacity | Cloud Volumes ONTAP 
-a|Minimum capacity [in TiB] per order | 4 TiB
-a|Incremental capacity (and in multiples) allowed at start of subscription [in TiB] | 1 TiB 
-a|Incremental capacity (and in multiples) allowed as add-on during subscription [in TiB] | 1 TiB 
 |===
 
 == 	Capacity adjustments
 Note the following clauses for capacity adjustments:
 
 * Capacity can be added anytime during the term, except for the last 90 days of the contract term, in the increments per performance service level as described in the tables in the previous section. Addition of capacity and/or services is allowed within the last 90 days of the contract term as long as there is a consent of service renewal. Any addition in capacity, new service on-prem or cloud can co-term with the existing term. The invoice sent to you following the activation of the new services reflects the revised billing. Committed capacity of cloud services cannot be reduced at any point during the subscription term. Meanwhile, committed capacity and committed spend on the on-premises services during the term of the contract can be reduced based on certain criteria as defined in the following section _Capacity reduction_. 
-* A burst capacity is available at each site, based on the Keystone agreement. Usually, it is set up to 20% above the committed capacity for a performance service level. Any burst usage is billed only for that billing period. If you have additional burst requirement greater than the capacity you agreed upon, contact support. 
+* A burst capacity is available at each site, based on the Keystone agreement. Usually, it is 20% above the committed capacity for a performance service level. Any burst usage is billed only for that billing period. If you have additional burst requirement greater than the capacity you agreed upon, contact support.
 * Committed capacity can be altered during a contract term, only under certain conditions, as described in the following section _Capacity reduction_.
 * Increasing capacity or changing to higher performance service level during a subscription term is allowed. However, moving from a higher performance service level to a lower performance service level is not permitted.
 * Any change request in the last 90 days of the service term requires a renewal of the service for a minimum of one year.
