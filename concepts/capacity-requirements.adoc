@@ -5,7 +5,7 @@ keywords: storage capacity requirement for service levels, capacity definition p
 summary: Capacity requirements for service levels differ with the file, block, object, or cloud storage supported by the Keystone STaaS subscription.
 ---
 
-= Capacity requirements for service levels
+= Capacity requirements for performance service levels
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,12 +13,12 @@ summary: Capacity requirements for service levels differ with the file, block, o
 :imagesdir: ../media/
 
 [.lead]
-The capacity requirements for Keystone STaaS service levels differ with the file, block, object, or cloud storage supported by the Keystone STaaS subscription.
+The capacity requirements for Keystone STaaS performance service levels differ with the file, block, object, or cloud storage supported by the Keystone STaaS subscription.
 
 
 == Minimum capacity requirements for file and block services
 
-The minimum capacity and incremental capacity allowed per subscription is described in the following table. The minimum capacity per service level is defined to be the same across Keystone sales motions. The capacity above the minimum capacity either at the beginning of the subscription, or as an add-on service to the subscription, or after reallocation during the subscription is also structured in the table.
+The minimum capacity and incremental capacity allowed per subscription is described in the following table. The minimum capacity per performance service level is defined to be the same across Keystone sales motions. The capacity above the minimum capacity either at the beginning of the subscription, or as an add-on service to the subscription, or after reallocation during the subscription is also structured in the table.
 
 |===
 |Capacity |Extreme |Premium |Performance |Standard |Value
@@ -60,10 +60,10 @@ a|1
 == 	Capacity adjustments
 Note the following clauses for capacity adjustments:
 
-* Capacity can be added anytime during the term, except for the last 90 days of the contract term, in the increments per service level as described in the tables in the previous section. Addition of capacity and/or services is allowed within the last 90 days of the contract term as long as there is a consent of service renewal. Any addition in capacity, new service on-prem or cloud can co-term with the existing term. The invoice sent to you following the activation of the new services reflects the revised billing. Committed capacity of cloud services cannot be reduced at any point during the subscription term. Meanwhile, committed capacity and committed spend on the on-premises services during the term of the contract can be reduced based on certain criteria as defined in the following section _Capacity reduction_. 
-* A burst capacity is available at each site, based on the Keystone agreement. Usually, it is 20% above the committed capacity for a service level. Any burst usage is billed only for that billing period. If you have additional burst requirement greater than the capacity you agreed upon, contact support.
+* Capacity can be added anytime during the term, except for the last 90 days of the contract term, in the increments per performance service level as described in the tables in the previous section. Addition of capacity and/or services is allowed within the last 90 days of the contract term as long as there is a consent of service renewal. Any addition in capacity, new service on-prem or cloud can co-term with the existing term. The invoice sent to you following the activation of the new services reflects the revised billing. Committed capacity of cloud services cannot be reduced at any point during the subscription term. Meanwhile, committed capacity and committed spend on the on-premises services during the term of the contract can be reduced based on certain criteria as defined in the following section _Capacity reduction_. 
+* A burst capacity is available at each site, based on the Keystone agreement. Usually, it is 20% above the committed capacity for a performance service level. Any burst usage is billed only for that billing period. If you have additional burst requirement greater than the capacity you agreed upon, contact support.
 * Committed capacity can be altered during a contract term, only under certain conditions, as described in the following section _Capacity reduction_.
-* Increasing capacity or changing to higher service level during a subscription term is allowed. However, moving from a higher service level to a lower service level is not permitted.
+* Increasing capacity or changing to higher performance service level during a subscription term is allowed. However, moving from a higher performance service level to a lower performance service level is not permitted.
 * Any change request in the last 90 days of the service term requires a renewal of the service for a minimum of one year.
 
 === Capacity reduction
@@ -85,7 +85,7 @@ Requirements and conditions at a subscription level:
 *	A request to reallocate should be formally submitted by the customer or partner to Keystone Success Manager (KSM) at least one week before the next billing cycle.
 *	New requests go into effect only from the consecutive billing cycle.
 
-You can allocate a portion of your expenses towards your subscribed file, block, or object storage service levels to hybrid cloud storage services. Up to 25% of the Annual Contract Value (ACV) can be reallocated on a quarterly basis to Cloud Volumes ONTAP Primary and Cloud Volumes ONTAP Secondary services: 
+You can allocate a portion of your expenses towards your subscribed file, block, or object storage performance service levels to hybrid cloud storage services. Up to 25% of the Annual Contract Value (ACV) can be reallocated on a quarterly basis to Cloud Volumes ONTAP Primary and Cloud Volumes ONTAP Secondary services: 
 
 image:reallocation.png[reallocation logic explained]
 
@@ -102,6 +102,6 @@ This table provides a set of sample values to demonstrate how the reallocation o
 
 |===
 
-The reduction is of (125-108) = 17 TiB of the capacity allocated for the Extreme service level. On spend reallocation, the allotted hybrid cloud storage is not of 17 TiB but an equivalent capacity that $5000 can purchase. In this example, for $5000, you can get 17 TiB on-prem storage capacity for the Extreme service level and 47 TiB hybrid cloud capacity of Cloud Volumes ONTAP service level. Therefore, the reallocation is with respect to the spend, not capacity.
+The reduction is of (125-108) = 17 TiB of the capacity allocated for the Extreme performance service level. On spend reallocation, the allotted hybrid cloud storage is not of 17 TiB but an equivalent capacity that $5000 can purchase. In this example, for $5000, you can get 17 TiB on-prem storage capacity for the Extreme performance service level and 47 TiB hybrid cloud capacity of Cloud Volumes ONTAP performance service level. Therefore, the reallocation is with respect to the spend, not capacity.
 
 Contact your Keystone Success Manager (KSM) if you want to reallocate expenses from your on-premises services to cloud services.

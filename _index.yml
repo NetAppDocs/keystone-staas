@@ -15,13 +15,21 @@ indexpage:
           url: /installation/itom-prereqs.html  
         - title: Install Keystone Collector in private mode
           url: /dark-sites/overview.html  
-        - title: View your usage on Digital Advisor
-          url: /integrations/keystone-aiq.html
-        - title: Generate reports of your consumption
-          url: /integrations/aiq-keystone-details.html
+    - title: Keystone dashboard in BlueXP and Digital Advisor
+      links:
+        - title: Understand Keystone dashboard
+          url: /integrations/dashboard-overview.html
+        - title: Access Keystone dashboard
+          url: /integrations/dashboard-access.html
+        - title: View subscription insights
+          url: /integrations/subscriptions-tab.html
+        - title: View assets
+          url: /integrations/assets-tab.html
+        - title: Search data and generate reports 
+          url: /integrations/options.html
     - title: Supported services in Keystone
       links:
-        - title: Keystone Service Levels
+        - title: Keystone performance service Levels
           url: /concepts/service-levels.html
         - title: Quality of Service (QoS)
           url: /concepts/qos.html
@@ -53,8 +61,6 @@ indexpage:
           url: /concepts/adp.html
         - title: Monitor, troubleshoot, and enhance storage
           url: /concepts/data-infra-insights.html
-        - title: Keystone and BlueXP
-          url: /integrations/keystone-cm.html
         - title: US Citizen Support
           url: /concepts/usps.html
     - title: Know more

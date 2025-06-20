@@ -20,7 +20,7 @@ Keystone enables customers to accelerate time to value by reducing the hurdles i
 
 image:nkfsosm_image2.png[keystone]
 
-Keystone provides storage capacity at predefined service levels for block, file, and object data types that can be deployed on-premises and operated by NetApp, a partner, or the customer. Keystone can be used in association with NetApp cloud services, such as Cloud Volumes ONTAP that can be deployed on a hyperscalar environment of your choice.
+Keystone provides storage capacity at predefined performance service levels for block, file, and object data types that can be deployed on-premises and operated by NetApp, a partner, or the customer. Keystone can be used in association with NetApp cloud services, such as Cloud Volumes ONTAP that can be deployed on a hyperscalar environment of your choice.
 
 A Keystone subscription is associated with rate plans. There can be multiple rate plans attached to a single subscription.
 
@@ -32,6 +32,6 @@ Storage-as-a-service (STaaS) offerings aim to deliver a public cloud-like model 
 
 * link:../concepts/pricing.html[Keystone pricing]
 * link:../concepts/add-on.html[Add-on services in Keystone STaaS]
-* link:../concepts/service-levels.html[Service levels in Keystone]
+* link:../concepts/service-levels.html[Performance service levels in Keystone]
 * link:../concepts/infra.html[Keystone infrastructure]
 * link:../concepts/operational-models.html[Operational models in Keystone]

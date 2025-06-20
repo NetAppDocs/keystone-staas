@@ -16,10 +16,12 @@ summary: To monitor the performance of your systems, you can view performance me
 To monitor the performance of your systems, you can view performance metrics of the ONTAP volumes managed by your Keystone subscriptions.
 
 [TIP]
-This tab is optionally available to you. Contact support for viewing this tab.
+This tab is optionally available to you in Digital Advisor. Contact support for viewing this tab. It is not available in BlueXP.
+
+To view this tab in Digital Advisor, follow these steps:
 
 .Steps
-. Click *GENERAL > Keystone Subscriptions > Performance*.
+. Click *General > Keystone Subscriptions > Performance*.
 . Select the subscription number. By default, the first subscription number is selected.
 . Select the required volume name from the list.
 +
@@ -27,27 +29,27 @@ Alternately, you can click the image:aiq-ks-time-icon.png[graph icon] icon again
 +
 . Select the date range for the query. The date range can be the beginning of the month or the subscription start date to the current date or the subscription end date. You cannot select a future date.
 
-The retrieved details are based on the service level objective for each service level. For example, the peak IOPS, maximum throughput, target latency, and other metrics are determined by the individual settings for the service level. For more information about the settings, see link:../concepts/service-levels.html[Service levels in Keystone]. 
+The retrieved details are based on the performance service level objective for each performance service level. For example, the peak IOPS, maximum throughput, target latency, and other metrics are determined by the individual settings for the performance service level. For more information about the settings, see link:../concepts/service-levels.html[Performance service levels in Keystone]. 
 
 [NOTE]
-If you select the *SLO Reference Line* check box, the IOPS, throughput, and latency graphs are rendered based on the service level objective for the service level. Else, they are displayed in actual numbers. 
+If you select the *SLO Reference Line* check box, the IOPS, throughput, and latency graphs are rendered based on the performance service level objective for the performance service level. Else, they are displayed in actual numbers. 
 
 The performance data displayed on the horizontal graph is an average at every five-minute interval, and arranged as per the date range of the query. You can scroll across the graphs and hover your mouse over specific data points to drill further down into the collected data.
 
-You can view and compare the performance metrics in the following sections based on the combination of the subscription number, volume name, and the date range selected. The details are displayed as per service level assigned to the volume. You can see the cluster name and volume type, that is, the read and write permissions assigned to the volume. Any warning message associated with the volume is also displayed.
+You can view and compare the performance metrics in the following sections based on the combination of the subscription number, volume name, and the date range selected. The details are displayed as per performance service level assigned to the volume. You can see the cluster name and volume type, that is, the read and write permissions assigned to the volume. Any warning message associated with the volume is also displayed.
 
 == IOPS/TiB
-This section displays the input-output graphs for the workloads in the volume based on the date range of the query. The peak IOPS for the service level and the current IOPS (in the last five minutes, not based on the date range of the query) are displayed, along with the minimum, maximum, and average IOPS for the time range, in IOPS/TiB.
+This section displays the input-output graphs for the workloads in the volume based on the date range of the query. The peak IOPS for the performance service level and the current IOPS (in the last five minutes, not based on the date range of the query) are displayed, along with the minimum, maximum, and average IOPS for the time range, in IOPS/TiB.
 
 image:perf-iops.png[IOPS section of the graph]
 
 == Throughput (MBps/TiB)
-This section displays the throughput graphs for the workloads in the volume based on the date range of the query. The maximum throughput for the service level (SLO Max), and current throughput (in the last five minutes, not based on the date range of the query) are displayed, along with the minimum, maximum, and average throughput for the time range, in MBps/TiB.
+This section displays the throughput graphs for the workloads in the volume based on the date range of the query. The maximum throughput for the performance service level (SLO Max), and current throughput (in the last five minutes, not based on the date range of the query) are displayed, along with the minimum, maximum, and average throughput for the time range, in MBps/TiB.
 
 image:perf-thr.png[Throughput graphs]
 
 == Latency (ms)
-This section displays the latency graphs for the workloads in the volume based on the date range of the query. The maximum latency for service level (SLO Target), and current latency (in the last five minutes, not based on the date range of the query) are displayed, along with the minimum, maximum, and average latency for the time range, in milliseconds.
+This section displays the latency graphs for the workloads in the volume based on the date range of the query. The maximum latency for performance service level (SLO Target), and current latency (in the last five minutes, not based on the date range of the query) are displayed, along with the minimum, maximum, and average latency for the time range, in milliseconds.
 
 This graph has the following colors:
 
@@ -64,9 +66,11 @@ image:perf-log-usd.png[logical used capacity graph]
 
 *Related information*
 
-* link:../integrations/aiq-keystone-details.html[Use Keystone dashboard and reporting]
-* link:../integrations/subscriptions-tab.html[Subscriptions]
-* link:../integrations/current-usage-tab.html[Current Consumption]
-* link:../integrations/capacity-trend-tab.html[Consumption Trend]
-* link:../integrations/volumes-objects-tab.html[Volumes & Objects]
-* link:../integrations/assets-tab.html[Assets]
+* link:../integrations/dashboard-overview.html[Understand Keystone dashboard]
+* link:../integrations/subscriptions-tab.html[View your subscription details]
+* link:../integrations/current-usage-tab.html[View your current consumption details]
+* link:../integrations/consumption-tab.html[View consumption trends]
+* link:../integrations/subscription-timeline.html[View your subscription timeline]
+* link:../integrations/assets-tab.html[View your Keystone subscription assets]
+* link:../integrations/assets.html[View assets across your Keystone subscriptions]
+* link:../integrations/volumes-objects-tab.html[View volumes & objects details]

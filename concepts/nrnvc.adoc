@@ -26,7 +26,7 @@ You can subscribe to this add-on service as a part of your Keystone subscription
 
 For information about the standard and cloud services, see link:supported-storage-services.html[Keystone STaaS services].
 
-For information about Service Levels, see link:../concepts/service-levels.html[Service Levels in Keystone].
+For information about performance service Levels, see link:../concepts/service-levels.html[Performance service Levels in Keystone].
 
 == SnapLock compliance
 
