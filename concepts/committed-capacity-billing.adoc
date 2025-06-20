@@ -13,8 +13,8 @@ summary: Committed capacity is the capacity committed for a particular service l
 :imagesdir: ../media/
 
 [.lead]
-Committed capacity is the capacity committed for a particular service level while purchasing the subscription.
+Committed capacity is the capacity committed for a particular performance service level while purchasing the subscription.
 
-Committed capacity can be the total capacity for various service levels in a single subscription, as accepted by you and NetApp/partner. This capacity is stated on each Keystone order and is billed, regardless of the actual capacity consumption.
+Committed capacity can be the total capacity for various performance service levels in a single subscription, as accepted by you and NetApp/partner. This capacity is stated on each Keystone order and is billed, regardless of the actual capacity consumption.
 
 For information about different capacities supported in Keystone, see link:../concepts/supported-storage-capacity.html[Supported storage capacities in Keystone].

@@ -13,21 +13,21 @@ summary: View capacity details at the volume or object storage level.
 :imagesdir: ../media/
 
 [.lead]
-If you want to view capacity details at the volume or object storage level, you can navigate to the *Volumes & Objects*. For StorageGRID, you can use this tab to read the usage by the individual nodes in your object storage environment.
+If you want to view capacity details at the volume or object storage level, you can navigate to the *Volumes & Objects* tab in Digital Advisor. For StorageGRID, you can use this tab to read the usage by the individual nodes in your object storage environment. 
+
+You can refer to the *Assets* tab in BlueXP to view these details. To view the details for a specific Keystone STaaS subscription, refer to link:../integrations/assets-tab.html[View assets associated with a Keystone subscription]. If you want to view details across multiple Keystone subscriptions, refer to link:../integrations/assets.html[View assets across your Keystone subscriptions].
 
 [NOTE]
 The title of this tab varies with the nature of deployment at your site. If you have both ONTAP and object storage, the title of the tab appears as *Volumes & Objects*. For only ONTAP, the name appears *Volumes*. For StorageGRID object storage, you can see the *Objects* tab.
 
 == View ONTAP volumes and object storage details
-The *Volumes & Objects* tab offers insights into ONTAP system volumes and object storage at different levels of detail. For ONTAP volumes, there are two sub-tabs: *Volume Summary*, which provides an overall count of the volumes mapped to the subscribed service levels, and *Volume Details*, which lists these volumes again with their specific particulars. The *Objects* sub-tab provides details on object storage for subscriptions that include service levels for both file and object storage.
-
-NOTE: The *Objects* sub-tab is unavailable under the *Volumes* tab, and within the *Objects* tab, the *Volume Summary* and *Volume Details* sub-tabs contain no data.
+The *Volumes & Objects* tab offers insights into ONTAP system volumes and object storage at different levels of detail. For ONTAP volumes, there are two sub-tabs: *Volume Summary*, which provides an overall count of the volumes mapped to the subscribed performance service levels, and *Volume Details*, which lists these volumes again with their specific particulars. The *Objects* sub-tab provides details on object storage for subscriptions that include performance service levels for both file and object storage.
 
 [role="tabbed-block"]
 ====
 .Volume Summary
 --
-. Click *GENERAL > Keystone Subscriptions > Volumes & Objects > Volume Summary*.
+. From the Digital Advisor left navigation pane, go to *General > Keystone Subscriptions > Volumes & Objects > Volume Summary*.
 . Select the subscription number.
 +
 For the selected Keystone STaaS subscription, you can see the total number of volumes, their QoS compliance status, count of protected volumes, and the total committed, consumed, and available capacity in all those volumes. If you click the number of non-compliant or protected volumes, it takes you to the *Volume Details* tab, where you can view a filtered list showing either the non-compliant volumes or the protected volumes, based on your selection.
@@ -38,10 +38,10 @@ image:volume-summary-2.png[Volume summary tab]
 
 .Volume Details
 --
-. Click *GENERAL > Keystone Subscriptions > Volumes > Volume Details*.
+. From the Digital Advisor left navigation pane, go to *General > Keystone Subscriptions > Volumes > Volume Details*.
 . Select the subscription number. 
 +
-You can see the tabular listing of the volumes, such as capacity usage, volume type, cluster, aggregate, and the assigned Keystone service levels. You can scroll across the columns and learn more about them by hovering your mouse on the information icons beside the column headings. You can sort by the columns and filter the lists to view specific information. 
+You can see the tabular listing of the volumes, such as capacity usage, volume type, cluster, aggregate, and the assigned Keystone performance service levels. You can scroll across the columns and learn more about them by hovering your mouse on the information icons beside the column headings. You can sort by the columns and filter the lists to view specific information. 
 +
 You can use *Hide/Show Columns*  to add or remove columns displayed in the table. By default, all columns are selected except the *Department* column. You can select or deselect any columns, including the *Department* column, and your preferences will be saved for later use. When downloading the CSV report, the *Department* column details will be included if selected, while other columns will appear regardless of their selection status in the table.
 //NSEKEY-12126, NSEKEY-12128
@@ -54,8 +54,8 @@ image:volume-details-3.png[Volumes details tab]
 
 .Objects
 --
-. Click *GENERAL > Keystone Subscriptions > Objects*.
-. Select the subscription number. By default, the first available subscription number is selected if the previously selected subscription does not include service levels for both file and object storage.
+. From the Digital Advisor left navigation pane, go to *General > Keystone Subscriptions > Objects*.
+. Select the subscription number. By default, the first available subscription number is selected if the previously selected subscription does not include performance service levels for both file and object storage.
 +
 NOTE: For StorageGRID, this tab displays the physical usage for the nodes for object storage.
 +
@@ -76,7 +76,7 @@ image:objects-details.png[Objects tab]
 
 //.Steps
 
-//. Click *GENERAL > Keystone Subscriptions > Objects*.
+//. Click *General > Keystone Subscriptions > Objects*.
 //. Select the subscription number. By default, the first available subscription number is selected. On selecting the subscription number, the link for object storage details is enabled.
 //+
 //image:sg-link.png[StorageGRID dialog box]
@@ -87,9 +87,11 @@ image:objects-details.png[Objects tab]
 
 *Related information*
 
-* link:../integrations/aiq-keystone-details.html[Use Keystone dashboard and reporting]
-* link:../integrations/subscriptions-tab.html[Subscriptions]
-* link:../integrations/current-usage-tab.html[Current Consumption]
-* link:../integrations/capacity-trend-tab.html[Consumption Trend]
-* link:../integrations/assets-tab.html[Assets]
-* link:../integrations/performance-tab.html[Performance]
+* link:../integrations/dashboard-overview.html[Understand Keystone dashboard]
+* link:../integrations/subscriptions-tab.html[View your subscription details]
+* link:../integrations/current-usage-tab.html[View your current consumption details]
+* link:../integrations/consumption-tab.html[View consumption trends]
+* link:../integrations/subscription-timeline.html[View your subscription timeline]
+* link:../integrations/assets-tab.html[View your Keystone subscription assets]
+* link:../integrations/assets.html[View assets across your Keystone subscriptions]
+* link:../integrations/performance-tab.html[View performance metrics]

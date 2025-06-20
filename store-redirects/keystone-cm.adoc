@@ -1,0 +1,7 @@
+---
+permalink: integrations/keystone-cm.html
+redirect: keystone-staas/integrations/dashboard-overview.html
+---
+
+
+

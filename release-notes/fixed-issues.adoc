@@ -19,6 +19,14 @@ Issues that were found in previous releases of NetApp Keystone STaaS services ha
 |===
 |Issue description |After the fix |Fixed in release
 
+a|In the *Assets* tab, assets for StorageGRID are not visible.
+a|Fixed
+a|June 19, 2025
+//NSEKEY-15531
+a|For the Advance Data-Protect service level, in the *Consumption Trend* tab, the chart shows a split for primary and mirror sites.
+a|The chart no longer shows a split for primary and mirror sites.
+a|June 19, 2025
+//NSEKEY-14973
 a|When the existing Keystone Collector installed using a Debian package attempts to configure an HTTP Proxy or enable Unified Manager through the Keystone Collector management TUI, the TUI becomes unresponsive.
 a|Fixed
 a|May 19, 2025

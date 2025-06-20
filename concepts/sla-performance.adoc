@@ -13,7 +13,7 @@ summary: sustainability, sla, service level agreement
 :imagesdir: ../media/
 
 [.lead]
-NetApp Keystone offers latency-based SLA per service level, as described in the Keystone order for consumed capacity up to the burst limit, according to the following listed terms and conditions.
+NetApp Keystone offers latency-based SLA per performance service level, as described in the Keystone order for consumed capacity up to the burst limit, according to the following listed terms and conditions.
 
 NOTE: SLAs and guarantees are available on a nomination basis.
 
@@ -32,8 +32,8 @@ NOTE: SLAs and guarantees are available on a nomination basis.
 ** In FabricPool configurations, performance levels are applicable when all requested data blocks are on FabricPool source (hot) storage and the source storage is not in a SnapMirror Synchronous relationship.
 
 
-== Service levels
-All service levels that ONTAP flash storage arrays support are eligible for Performance SLA and guarantee meeting the following target latency:
+== Performance service levels
+All performance service levels that ONTAP flash storage arrays support are eligible for Performance SLA and guarantee meeting the following target latency:
 
 |===
 |*Service level* | Extreme |Premium |Performance |Standard
@@ -41,7 +41,7 @@ a|
 *Target 90^th^ percentile latency* |<1ms |<2ms |<4ms |<4ms
 |===
 
-To learn more about the latency requirements of the service levels, refer to link:../concepts/service-levels.html[Service Levels in Keystone].
+To learn more about the latency requirements of the performance service levels, refer to link:../concepts/service-levels.html[Perfromance service Levels in Keystone].
 
 == Service credits
 NetApp issues service credits for the degraded performance:
@@ -60,7 +60,7 @@ Service credits = (impacted capacity / total committed capacity) X capacity fees
 Where:
 
 * *impacted capacity*: The amount of stored capacity affected.
-* *total committed capacity*: The committed capacity for the service level for the Keystone order.
+* *total committed capacity*: The committed capacity for the performance service level for the Keystone order.
 * *capacity fees*: The fees for the affected performance level as per the Keystone order.
 * *affected days*: The number of calendar days impacted.
 * *credit percentage*: The predetermined percentage for service credit.

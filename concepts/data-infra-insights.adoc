@@ -17,9 +17,9 @@ NetApp Data Infrastructure Insights (DII, formerly known as Cloud Insights) is a
 
 To learn more about Data Infrastructure Insights, refer to link:https://docs.netapp.com/us-en/data-infrastructure-insights/[Data Infrastructure Insights documentation^].
 
-DII is available for both new and existing subscriptions. It can be integrated into a Keystone subscription as an add-on for the committed capacity. When DII is integrated into a Keystone subscription, it will have a corresponding service level for each base service level in the subscription. For example, Extreme maps to DII Extreme, Premium maps to DII Premium, and Performance maps to DII Performance. These mappings ensure that the DII service level aligns with the base service level of your Keystone subscription.
+DII is available for both new and existing subscriptions. It can be integrated into a Keystone subscription as an add-on for the committed capacity. When DII is integrated into a Keystone subscription, it will have a corresponding performance service level for each base performance service level in the subscription. For example, Extreme maps to DII Extreme, Premium maps to DII Premium, and Performance maps to DII Performance. These mappings ensure that the DII performance service level aligns with the base performance service level of your Keystone subscription.
 
-A view of DII service levels within a *Keystone Subscriptions* widget on the Digital Advisor dashboard:
+A view of DII performance service levels within a *Keystone Subscriptions* widget on the Digital Advisor dashboard:
 
 image:keystone-widget-dii.png[Screenshot of Keystone Subscriptions widget that shows DII service levels]
 
@@ -51,7 +51,7 @@ Note the following:
 |===
 Once configured, the DII instance will begin monitoring the NetApp storage resources deployed as part of Keystone.
 
-NOTE: While DII offers extensive monitoring capabilities for the deployed hardware, it does not provide insights into your Keystone subscription, such as subscription usage or details on performance service levels. For subscription insights, see link:../integrations/aiq-keystone-details.html[Keystone Subscription dashboard and reporting].
+NOTE: While DII offers extensive monitoring capabilities for the deployed hardware, it does not provide insights into your Keystone subscription, such as subscription usage or details on performance service levels. For subscription insights, see link:../integrations/keystone-aiq.html[Keystone dashboard and reporting].
 
 == Billing and metering
 The following outlines the billing and metering details of the DII add-on service:
@@ -62,7 +62,7 @@ image:current-consumption-dii.png[Screenshot of the current consumption tab disp
 
 * This service is metered and invoiced along with your Keystone subscription on the same invoice. If you configure DII for Keystone before activating your Keystone subscription, billing still begins from the Keystone subscription activation date, or the modification date for existing subscriptions.
 
-* This service is metered and invoiced based on both committed capacity and burst usage for DII service levels, in addition to the standard Keystone invoice. The metering of this add-on service follows the same methodology as the underlying Keystone subscription service level, which could be logical, provisioned, or physical.
+* This service is metered and invoiced based on both committed capacity and burst usage for DII performance service levels, in addition to the standard Keystone invoice. The metering of this add-on service follows the same methodology as the underlying Keystone subscription performance service level, which could be logical, provisioned, or physical.
 
 * This service ends with the Keystone subscription to which it is linked. At renewal, you can choose whether to renew the add-on service. If you don't renew the Keystone subscription, the monitored hardware is decommissioned, and the add-on service automatically terminates.
 
