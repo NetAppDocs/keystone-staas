@@ -95,7 +95,7 @@ image:icon-purple.png[purple dot icon]: Indicates consumption above the stipulat
 
 *Related information*
 
-* link:../integrations/dashboard-overview.html[Understand Keystone dashboard]
+* link:../integrations/dashboard-overview.html[Understand the Keystone dashboard]
 * link:../integrations/current-usage-tab.html[View your current consumption details]
 * link:../integrations/consumption-tab.html[View consumption trends]
 * link:../integrations/subscription-timeline.html[View your subscription timeline]
