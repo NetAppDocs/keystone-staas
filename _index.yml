@@ -17,9 +17,9 @@ indexpage:
           url: /dark-sites/overview.html  
     - title: Keystone dashboard in BlueXP and Digital Advisor
       links:
-        - title: Understand Keystone dashboard
+        - title: Understand the Keystone dashboard
           url: /integrations/dashboard-overview.html
-        - title: Access Keystone dashboard
+        - title: Access the Keystone dashboard
           url: /integrations/dashboard-access.html
         - title: View subscription insights
           url: /integrations/subscriptions-tab.html

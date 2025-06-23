@@ -88,11 +88,11 @@ sidebar:
               url: /dark-sites/monitor.html
     - title: Manage and monitor Keystone subscriptions
       entries:
-        - title: Understand Keystone dashboard
+        - title: Understand the Keystone dashboard
           entries:
-            - title: Learn about Keystone dashboard
+            - title: Learn about the Keystone dashboard
               url: /integrations/dashboard-overview.html
-            - title: Get started with Keystone dashboard
+            - title: Get started with the Keystone dashboard
               url: /integrations/dashboard-access.html
             - title: Keystone dashboard in BlueXP
               url: /integrations/keystone-bluexp.html
