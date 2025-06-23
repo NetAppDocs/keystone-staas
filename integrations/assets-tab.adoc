@@ -114,7 +114,7 @@ image:assets-tab-storagegrid.png[screenshot to show grid-level information for S
 
 *Related information*
 
-* link:../integrations/dashboard-overview.html[Understand Keystone dashboard]
+* link:../integrations/dashboard-overview.html[Understand the Keystone dashboard]
 * link:../integrations/subscriptions-tab.html[View your subscription details]
 * link:../integrations/current-usage-tab.html[View your current consumption details]
 * link:../integrations/consumption-tab.html[View consumption trends]

@@ -35,8 +35,8 @@ image:version-across-subscriptions.png[A pie chart of Keystone subscriptions acr
 
 *Related information*
 
-* link:../integrations/dashboard-overview.html[Learn about Keystone dashboard]
-* link:../integrations/dashboard-access.html[Get started with Keystone dashboard]
+* link:../integrations/dashboard-overview.html[Learn about the Keystone dashboard]
+* link:../integrations/dashboard-access.html[Get started with the Keystone dashboard]
 * link:..//integrations/keystone-aiq.html[Keystone dashboard in Digital Advisor]
 * link:../integrations/subscriptions-tab.html[View your subscription details]
 * link:../integrations/current-usage-tab.html[View your current consumption details]
