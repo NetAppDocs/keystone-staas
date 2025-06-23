@@ -13,12 +13,13 @@ summary: Keystone STaaS services supports ONTAP and StorageGRID.
 :imagesdir: ../media/
 
 [.lead]
-##Keystone STaaS services for version 3 (v3) support unified, block optimized, and object storage of NetApp, and Cloud Volumes ONTAP.##
+##Keystone STaaS services for version 3 support unified, block optimized, and object storage of NetApp, and Cloud Volumes ONTAP.##
 
 ##Each storage type includes:##
-* *Unified storage*: Includes both file, block, and S3 object storage, available on NetApp ONTAP AFF and/or FAS systems.
-* *Block optimized storage*: Includes block storage available on NetApp NetApp ONTAP ASA systems.
-* *Object storage*: Includes object storage available on NetApp StorageGRID systems.
+
+* *Unified storage*: ##Includes both file, block, and S3 object storage, available on NetApp ONTAP AFF and/or FAS systems.##
+* *Block optimized storage*: ##Includes block storage available on NetApp NetApp ONTAP ASA systems.##
+* *Object storage*: ##Includes object storage available on NetApp StorageGRID systems.##
 
 Keystone STaaS provides standard and optional services for your storage. 
 
@@ -49,10 +50,9 @@ a|Supports all ONTAP One features
 
 |===
 
-To learn more about ONTAP One, refer to link:https://docs.netapp.com/us-en/ontap/system-admin/manage-licenses-concept.html#licenses-included-with-ontap-one[ONTAP licensing overview^] and link:https://www.netapp.com/media/134241-ds-4330-ontap-one-unified-data-services.pdf[ONTAP ONE:
-UNIFIED DATA SERVICES^].
+To learn more about ONTAP One, refer to link:https://docs.netapp.com/us-en/ontap/system-admin/manage-licenses-concept.html#licenses-included-with-ontap-one[ONTAP licensing overview^] and link:https://www.netapp.com/media/134241-ds-4330-ontap-one-unified-data-services.pdf[ONTAP ONE:UNIFIED DATA SERVICES^].
 
-== ##(Do we need for v3)## Services for cloud storage
+== Services for cloud storage
 Keystone STaaS provides cloud storage services. Keystone STaaS supports Cloud Volumes ONTAP data management capabilities on Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform. 
 
 [NOTE]

@@ -13,14 +13,14 @@ summary: Keystone offers a pay-as-you-grow model for your flexible and scalable 
 :imagesdir: ../media/
 
 [.lead]
-##If you prefer a pay-as-you-go model instead of purchasing or leasing assets, you can choose the NetApp Keystone STaaS pay-as-you-grow option. This model offers flexible and scalable consumption with predictable and upfront pricing for your storage subscription.##
+##If you prefer not to purchase or lease assets, you can choose the NetApp Keystone STaaS pay-as-you-grow subscription service. This model offers flexible and scalable consumption with predictable and upfront pricing for your storage requirements.##
 
-Keystone provides you with the following billing facilities:
+##Keystone for version 3 provides you with the following billing facilities:##
 
 * ##You can pay based on IOPS and latency committed capacity to meet various workload needs. The different performance service tiers - Extreme, Premium, Standard, Value, Object, and Cloud Volumes ONTAP enable you to manage your storage based on your purchased service level.##
 * It presents predictable billing for the committed capacity and pay-per-use for variable (burst) capacity usage.
 * You can select a bundle price for hardware, core OS, and support for one $/TiB price. You have a single invoice for each storage type, unified, block, optimized, object, or cloud storage services.
-* ##(review this)## Select a flexible term for the services and payment: You can opt for 12 months, 25TiB, or more per site. Thereafter, you can auto renew for 12 months.
+* ##You can select a flexible term for the services and payment options, such as monthly, quarterly, semi-annual, or annual.##
 
 Keystone billing is based on committed capacity and variable burst consumption.
 

@@ -52,8 +52,8 @@ You can see the minimum capacity requirements for object storage in the followin
 |===
 |Capacity |Standard |Value
 a|Minimum capacity [in TiB] per order | 200 | 500
-a|Incremental capacity (and in multiples) allowed at start of subscription [in TiB] | 25 TiB | 100 TiB
-a|Incremental capacity (and in multiples) allowed as add-on during subscription [in TiB] | 25 TiB | 100 TiB
+a|Incremental capacity (and in multiples) allowed at start of subscription [in TiB] | 25  | 100 
+a|Incremental capacity (and in multiples) allowed as add-on during subscription [in TiB] | 25  | 100 
 |===
 
 == ##Minimum capacity requirements for cloud services##
@@ -61,9 +61,9 @@ You can see the minimum capacity requirements for cloud services in the followin
 
 |===
 |Capacity | Cloud Volumes ONTAP 
-a|Minimum capacity [in TiB] per order | 4 TiB
-a|Incremental capacity (and in multiples) allowed at start of subscription [in TiB] | 1 TiB 
-a|Incremental capacity (and in multiples) allowed as add-on during subscription [in TiB] | 1 TiB 
+a|Minimum capacity [in TiB] per order | 4 
+a|Incremental capacity (and in multiples) allowed at start of subscription [in TiB] | 1  
+a|Incremental capacity (and in multiples) allowed as add-on during subscription [in TiB] | 1 
 |===
 
 == 	Capacity adjustments

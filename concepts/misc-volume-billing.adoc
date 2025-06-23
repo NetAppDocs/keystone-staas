@@ -52,7 +52,7 @@ summary: Learn about Keystone billing for specific configurations, including clo
 :imagesdir: ../media/
 
 [.lead]
-Understanding Keystone billing for specific configurations can help optimize service usage and manage costs. The scenarios include cloned volumes, advanced data protection, temporary volumes, QoS policies, SnapMirror destinations, LUNs, and system/root volumes.
+##Understanding Keystone billing for specific configurations in version 3 can help optimize service usage and manage costs. The scenarios include cloned volumes, advanced data protection, temporary volumes, SnapMirror destinations, LUNs, and system/root volumes.##
 
 == Billing for cloned volumes
 If volumes are cloned in ONTAP and you use them for backing up and restoring your data, you can continue using the clones without any additional payments. However, cloned volumes used for any other purpose in your business for an extensive duration are charged.
@@ -76,18 +76,11 @@ Additionally, all volumes created on a Keystone system with advanced data protec
 == Billing for temporary volumes
 Occasionally, temporary (TMP) volumes are created by ONTAP when moving volumes. These temporary volumes are short-lived, and the consumption on these volumes is not measured for billing.
 
-== ##(need to review this for v3)## Billing and adaptive QoS policies
-Keystone measures consumption based on service levels. Each service level is associated with a specific adaptive quality of service (QoS) policy. During deployment, you will be informed of the details of each adaptive QoS policy for your subscribed Keystone services. During storage management operations, ensure that your volumes have the appropriate adaptive QoS policies assigned as per your subscribed service levels to avoid unexpected billing.
-For more information about adaptive QoS policies in ONTAP, see link:https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html[Guarantee throughput with QoS overview^].
+== ##Billing for SnapMirror destinations##
+The pricing for SnapMirror destination volumes, whether used for disaster recovery or long-term retention, is based on the performance service level assigned to the destination. There is no extra fee for data protection.
 
-== ##( need to review for v3)##Billing for SnapMirror destinations
-The pricing for the SnapMirror destination volume is governed by the adaptive QoS policy for the service level assigned on the source. However, if the source does not have an associated adaptive QoS policy, the destination is billed based on the lowest available service level.
-
-== ##(need to review for v3)## Billing for LUNs
-For LUNs, the same billing pattern is followed as for the volumes that are governed by adaptive QoS policies. If separate adaptive QoS policies are set on LUNs, then:
-
-*	The size of the LUN is counted for consumption according to the associated service level of that LUN.
-*	The remainder of the space in the volume, if any, is charged according to the adaptive QoS policy of the service level set on the volume.
+== ##Billing for LUNs##
+For LUNs, the billing is based on the performance service levels of the volume.
 
 == System and root volumes
 System and root volumes are monitored as a part of the overall monitoring of the Keystone service but are not counted or billed. The consumption on these volumes is exempted for billing.

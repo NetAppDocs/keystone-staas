@@ -36,8 +36,6 @@ The base performance service levels for the supported storage types, unified, bl
 |*Minimum IOPS* |385K - 400K |142K - 215K |125K - 147K | NA
 |*Minimum GBps* |7.5 - 7.8  |2.8 - 4.2 |2.4 - 2.9 | NA
 |*Target 90^th^ percentile latency* | <1 ms | <1 ms | <4 ms | >4 ms 
-|*Platform*
-2+|AFF A-Series | AFF C-Series|FAS
 |*Minimum committed capacity* | 50 TiB | 50 TiB | 100 TiB | 100 TiB
 |*Incremental committed capacity increase*
 4+| 25TiB
@@ -56,8 +54,6 @@ The base performance service levels for the supported storage types, unified, bl
 |*Minimum IOPS* |275K - 282K |100K - 155K 
 |*Minimum GBps* |9.7 - 10  |3.5 - 5.5 
 |*Target 90^th^ percentile latency* | <1 ms | <1 ms 
-|*Platform*
-2+|ASA A-Series 
 |*Minimum committed capacity* | 50 TiB | 50 TiB 
 |*Incremental committed capacity increase*
 2+| 25TiB
@@ -84,20 +80,18 @@ The base performance service level metrics depend on the following conditions:
 
 |===
 |*Performance service level* | *Standard* | *Value* 
-|*Platform* |SGF6112 |SG6160
 |*Minimum committed capacity per order* | 200 TiB | 500 TiB 
 |*Incremental committed capacity increase* | 25 TiB | 100 TiB
 |*Committed and metered capacity type*
 2+| Physical
 |===
 
-== Cloud storage
+== ##Cloud storage##
 
 *Supported protocols*: NFS, CIFS, iSCSI, and S3 (AWS and Azure only)
 
 |===
 |*Performance service level* | Cloud Volumes ONTAP
-|*Platform* | Cloud Volumes ONTAP
 |*Minimum committed capacity per order* | 4 TiB  
 |*Incremental committed capacity increase* | 1 TiB 
 |*Committed and metered capacity type*| Logical
