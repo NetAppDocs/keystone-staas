@@ -137,7 +137,31 @@ sidebar:
             - title: Performance service levels
               url: /concepts/service-levels.html
             - title: Capacity requirements for performance service levels
-              url: /concepts/capacity-requirements.html  
+              url: /concepts/capacity-requirements.html 
+        - title: Add-on services
+          entries:  
+            - title: Advanced data protection
+              url: /concepts/adp.html
+            - title: Burst capacity
+              url: /concepts/burst-capacity.html
+            - title: Data Infrastructure Insights
+              url: /concepts/data-infra-insights.html
+            - title: Data tiering
+              url: /concepts/data-tiering.html
+            - title: Non-returnable, non-volatile components, and SnapLock compliance
+              url: /concepts/nrnvc.html
+            - title: U.S. Protected Support (USPS)
+              url: /concepts/usps.html 
+        - title: Keystone STaaS SLO
+          entries:
+            - title: Availability
+              url: /concepts/sla-availability.html
+            - title: Performance
+              url: /concepts/sla-performance.html                       
+            - title: Sustainability 
+              url: /concepts/sla-sustainability.html 
+            - title: Ransomware Recovery Guarantee 
+              url: /concepts/sla-ransomware.html 
         - title: Billing
           entries:
             - title: Keystone pricing
@@ -176,13 +200,11 @@ sidebar:
               url: /concepts/data-infra-insights.html
             - title: Data tiering
               url: /concepts/data-tiering.html
-            - title: Equinix powered services
-              url: /concepts/equinix.html
             - title: Non-returnable, non-volatile components, and SnapLock compliance
               url: /concepts/nrnvc.html
             - title: U.S. Protected Support (USPS)
               url: /concepts/usps.html 
-        - title: Keystone STaaS SLA
+        - title: Keystone STaaS SLO
           entries:
             - title: Availability
               url: /concepts/sla-availability.html

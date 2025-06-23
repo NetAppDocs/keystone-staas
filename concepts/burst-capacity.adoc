@@ -1,0 +1,22 @@
+---
+sidebar: sidebar
+permalink: concepts/burst-capacity.html
+keywords: burst consumption, add-on service, burst capacity, burst limit, NetApp Keystone
+summary: Enables customers to use additional storage capacity beyond their committed capacity.
+---
+
+= ##Burst capacity##
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ../media/
+
+[.lead]
+You can opt for the burst capacity add-on service as part of your NetApp Keystone subscription. This service allows you to increase your burst capacity limits to 40% or 60% above your committed capacity, providing the flexibility to handle unexpected surges in workload demand.
+
+Burst capacity refers to the additional storage capacity that can be utilized beyond the committed capacity of your subscription. It is measured and billed per performance service level. By default, your burst limit is set at 20% above the committed capacity. However, with this add-on service, you can increase the limit to 40% or 60%.
+
+To change your burst limit to 40% or 60%, contact the NetApp support team.
+
+To learn more about how burst capacity is billed, refer to link:../concepts/burst-consumption-billing.html[Billing based on burst consumption].

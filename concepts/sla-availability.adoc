@@ -1,11 +1,11 @@
 ---
 sidebar: sidebar
 permalink: concepts/sla-availability.html
-keywords: availability, sla, service level agreement, 
-summary: availability, sla, service level agreement
+keywords: availability, sla, service level agreement, slo, service level objectives
+summary: Availability SLO targets an uptime of 99.999% during a billing period for all NetApp ONTAP flash storage arrays deployed to deliver the Keystone order.
 ---
 
-= Availability SLA  
+= ##Availability SLO## 
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,9 +13,7 @@ summary: availability, sla, service level agreement
 :imagesdir: ../media/
 
 [.lead]
-Availability SLA targets an uptime of 99.999% during a billing period for all NetApp ONTAP flash storage arrays deployed to deliver the Keystone order.
-
-NOTE: SLAs and guarantees are available on a nomination basis.
+##Availability SLO## targets an uptime of 99.999% during a billing period for all NetApp ONTAP flash storage arrays deployed to deliver the Keystone order.
 
 == Metrics
 
@@ -24,9 +22,12 @@ NOTE: SLAs and guarantees are available on a nomination basis.
 * *Eligible number of seconds*: These are seconds in a month that count towards the uptime calculation. It does not include the time period when the STaaS services are not available because of planned maintenance, upgrades, support activities agreed upon with NetApp, or due to circumstances that are beyond control or responsibility of NetApp or Keystone services.
 
 == Performance service levels
-All performance service levels that ONTAP flash storage arrays support are eligible for Availability SLA. To learn more, refer to link:https://docs.netapp.com/us-en/keystone-staas/concepts/service-levels.html#service-levels-for-file-and-block-storage[Performance service levels in Keystone].
+All performance service levels that ONTAP flash storage arrays support are eligible for Availability SLO. To learn more, refer to link:https://docs.netapp.com/us-en/keystone-staas/concepts/service-levels.html#service-levels-for-file-and-block-storage[Performance service levels in Keystone].
 
 == Service credits
+
+NOTE: ##SLAs and guarantees are available on a nomination basis.##
+
 If the availability of ONTAP flash storage arrays for eligible subscriptions falls below the 99.999% monthly uptime target within a billing period, then NetApp issues service credits as follows:
 
 |===
@@ -46,7 +47,7 @@ a|50%
 
 |===
 
-== Service credit calculation
+=== Service credit calculation
 Service credits are determined using the following formula:
 
 Service credits = (impacted capacity / total committed capacity) X capacity fees X credit percentage
@@ -83,7 +84,7 @@ Service credits = ( 10 / 100 ) X 1000 x 0.05
 +
 Based on calculation, the service credits will be $5.
 
-== Service credit request
+=== Service credit request
 If a breach of the SLA is detected, open a priority 3 (P3) support ticket with NetApp Keystone support.
 
 ** The following details are required:

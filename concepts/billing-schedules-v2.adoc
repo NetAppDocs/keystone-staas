@@ -13,7 +13,7 @@ summary: Keystone STaaS subscriptions are billed monthly and yearly.
 :imagesdir: ../media/
 
 [.lead]
-Keystone STaaS subscriptions are billed monthly and yearly.
+Keystone STaaS subscriptions in version 2 are billed on a monthly or annual basis.
 
 == Monthly billing
 Invoices are sent monthly. For the month in which the services are availed, an invoice is sent in the next month. For example, the invoice for the services you have used in January is delivered at the beginning of February. This invoice includes the charges for the committed capacity and if applicable, any burst usage.

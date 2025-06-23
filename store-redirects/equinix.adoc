@@ -1,0 +1,4 @@
+---
+permalink: concepts/equinix.html
+redirect: keystone-staas/concepts/overview.html
+---
