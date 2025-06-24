@@ -13,7 +13,7 @@ summary: Keystone offers a pay-as-you-grow model for your flexible and scalable 
 :imagesdir: ../media/
 
 [.lead]
-##If you prefer not to purchase or lease assets, you can choose the NetApp Keystone STaaS pay-as-you-grow subscription service. This model offers flexible and scalable consumption with predictable and upfront pricing for your storage requirements.##
+##If you prefer not to purchase or lease assets, you can choose the NetApp Keystone STaaS pay-as-you-go subscription service. This model offers flexible and scalable consumption with predictable and upfront pricing for your storage requirements.##
 
 ##Keystone for version 2 provides you with the following billing facilities:##
 
