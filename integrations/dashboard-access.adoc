@@ -5,7 +5,7 @@ keywords: Keystone, Digital Advisor, keystone-aiq, aiq, BlueXP, Keystone dashboa
 summary: As a NetApp Keystone STaaS subscriber, you can get access the Keystone dashboard through NetApp BlueXP or Digital Advisor
 ---
 
-= Get started with Keystone dashboard
+= Get started with the Keystone dashboard
 :hardbreaks:
 :nofooter:
 :icons: font

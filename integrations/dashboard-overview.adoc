@@ -5,7 +5,7 @@ keywords: Keystone, Digital Advisor, keystone-aiq, aiq, BlueXP, Keystone dashboa
 summary: As a NetApp Keystone STaaS subscriber, you can get an overview of your subscriptions from  NetApp BlueXP or Digital Advisor.
 ---
 
-= Learn about Keystone dashboard
+= Learn about the Keystone dashboard
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -76,7 +76,7 @@ a|link:../integrations/performance-tab.html[View performance metrics]
 
 *Related information*
 
-* link:../integrations/dashboard-access.html[Get started with Keystone dashboard]
+* link:../integrations/dashboard-access.html[Get started with the Keystone dashboard]
 * link:../integrations/keystone-bluexp.html[Keystone dashboard in BlueXP]
 * link:..//integrations/keystone-aiq.html[Keystone dashboard in Digital Advisor]
 

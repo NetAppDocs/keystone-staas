@@ -60,7 +60,7 @@ For information about your Keystone storage services and the relevant performanc
 
 *Related information*
 
-* link:../integrations/dashboard-overview.html[Understand Keystone dashboard]
+* link:../integrations/dashboard-overview.html[Understand the Keystone dashboard]
 * link:../integrations/subscriptions-tab.html[View your subscription details]
 * link:../integrations/consumption-tab.html[View consumption trends]
 * link:../integrations/subscription-timeline.html[View your subscription timeline]
