@@ -25,11 +25,14 @@ NetApp reserves the rights to take the following actions:
 The Keystone infrastructure includes multiple components, such as the following, among others:
 
 *	The Keystone infrastructure, including storage controllers.
-*	Tools to manage and operate the service such as ITOM monitoring solution, Active IQ, and Active IQ Unified Manager.
+*	Tools to manage and operate the service such as ITOM monitoring solution, ##BlueXP##, Active IQ, and Active IQ Unified Manager.
 
 == Storage platforms 
 
-Enterprise applications need storage platforms to support fast provisioning-workflows, maintain continuous availability, sustain high workloads with low latency, deliver higher performance, and support integration with major cloud providers. NetApp has several products and technologies for supporting these requirements. For Keystone service, NetApp uses AFF and StorageGRID platforms.
+Enterprise applications need storage platforms to support fast provisioning-workflows, maintain continuous availability, sustain high workloads with low latency, deliver higher performance, and support integration with major cloud providers. NetApp has several products and technologies for supporting these requirements. ##For Keystone service, NetApp uses the following platforms:##
+
+* *Version 3*: ##AFF, FAS, ASA, and StorageGRID##
+* *Version 2*: ##AFF and StorageGRID##
 
 == Monitoring tools
 In a Keystone customer-operated service, storage infrastructure and monitoring tools are installed at your site. The storage infrastructure consists of the required storage hardware needed to support your initial order, with the provision to order more storage later. 
@@ -37,8 +40,8 @@ In a Keystone customer-operated service, storage infrastructure and monitoring t
 In addition to the storage equipment, two monitoring tools are provisioned for storage and consumption monitoring. 
 
 * Keystone IT Operations Management (ITOM) monitoring solution: A cloud-based, SaaS application used to monitor your Keystone environment. It has built-in integrations with NetApp storage platforms to collect environmental data and monitor the compute, network, and storage components of your Keystone infrastructure. This monitoring capability extends to on-premises setups, data centers, cloud environments, or any combination of these. The service is enabled with the help of using a local ITOM Collector installed at your site that communicates with the cloud portal. 
-* Keystone Data Collector: Keystone Collector provides billing services to Keystone customers. This application is bundled with Active IQ Unified Manager. It collects data from ONTAP and StorageGRID controllers at an interval of five minutes. The data is processed, and metadata is sent to the centralized Active IQ data lake through the AutoSupport mechanism, which is used for billing data generation. Active IQ data lake processes the billing data and sends it to Zuora for billing.
+* Keystone Data Collector: ##Keystone Data Collector collects data and provides it to the billing platform for Keystone customers.## This application is bundled with Active IQ Unified Manager. It collects data from ONTAP and StorageGRID controllers at an interval of five minutes. The data is processed, and metadata is sent to the centralized Active IQ data lake through the AutoSupport mechanism, which is used for billing data generation. Active IQ data lake processes the billing data and sends it to Zuora for billing.
 
-image:mgmt-stack-2.png[managemnt stack]
+image:data-collector-flow.png[collector data flow]
 
-Digital Advisor enables you to log in and view the subscription and consumption details for your Keystone subscriptions. For more information about Keystone reporting on the Digital Advisor dashboard, see link:../integrations/keystone-aiq.html[Keystone and Digital Advisor].
+##You can view the subscription and consumption details for your Keystone subscriptions through BlueXP or Digital Advisor. To learn more about Keystone reporting, refer to link:../integrations/dashboard-overview.html[Keystone dashboard overview].##

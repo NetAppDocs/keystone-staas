@@ -24,7 +24,7 @@ Digital Advisor offers a unified dashboard that gives insights into various leve
 You can see your customer name and subscription number, account name, start and end dates of the subscription, and the capacity usage graphs as per your subscribed performance service levels. You can see the collection timestamp of the consumption data in UTC time.
 
 
-image:old-db-2.png[old dashboard]
+image:old-db-3.png[old dashboard]
 
 .Alternative (new) dashboard 
 
@@ -65,7 +65,7 @@ image:watchlist.png[watchlist screen]
 
 *Related information*
 
-* link:../integrations/dashboard-access.html[Get started with the Keystone dashboard]
+* link:../integrations/dashboard-access.html[Get started with Keystone dashboard]
 * link:../integrations/keystone-bluexp.html[Keystone dashboard in BlueXP]
 * link:../integrations/subscriptions-tab.html[View your subscription details]
 * link:../integrations/current-usage-tab.html[View your current consumption details]
