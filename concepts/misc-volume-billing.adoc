@@ -48,7 +48,7 @@ Occasionally, temporary (TMP) volumes are created by ONTAP when moving volumes. 
 ##The pricing for SnapMirror destination volumes, whether used for disaster recovery or long-term retention, is based on the performance service level assigned to the destination. There is no extra fee for data protection.##
 
 == ##Billing for LUNs##
-##For LUNs, the billing is based on the performance service levels of the volume.##SS
+##For LUNs, the billing is based on the performance service levels of the volume.##
 
 == System and root volumes
 System and root volumes are monitored as a part of the overall monitoring of the Keystone service but are not counted or billed. The consumption on these volumes is exempted for billing.
