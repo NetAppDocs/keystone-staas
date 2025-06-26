@@ -35,24 +35,30 @@ For information about requesting changes, see link:../concepts/gssc.html[NetApp 
 == (review this entire topic) ##Consumed capacity##
 Consumed capacity refers to the capacity (in TiB of storage) currently being consumed on the service. It is calculated differently based on the storage type:
 
-* *Unified or block optimized storage*: Consumed capacity is calculated based on the type of capacity selected in the order, which can be either logical capacity or physical capacity. It is sum of:
+* *Unified or block optimized storage*: Consumed capacity is calculated based on the type of capacity selected in the order, which can be either logical capacity or physical capacity. The calculation is performed per performance service level instance.
 +
-** Metered logical capacity or physical capacity used to store all instances and types of customer data (e.g., copies, mirrored copies, versions, clones).
-** Physical capacity used to store differential data of Snapshot copies.
+*Logical capacity*: It is sum of:
++
+** Metered logical capacity (before storage array data efficiencies) to store all instances and types of customer data (e.g., copies, mirrored copies, versions, clones).
+** Physical capacity used to store metadata and differential data of Snapshot copies and certain clones.
 ** Any thick-provisioned physical capacity.
 +
-These calculation are taken per performance service level instance.
+*Physical capacity*: It is sum of:
++
+** Metered physical capacity (after storage array data efficiencies) to store all instances and types of customer data (e.g., copies, mirrored copies, versions, clones).   
+** Physical capacity used to store metadata and differential data of Snapshot copies.
+** Any thick-provisioned physical capacity.
 
 * *Object storage*: Consumed capacity is calculated as the amount of metered physical capacity used to store all instances and types of customer data across all nodes. This calculation is based on the information lifecycle management (ILM) policies configured.
 
 * *Cloud Volumes ONTAP*: Consumed capacity is calculated as the amount of metered provisioned capacity of all Cloud Volumes ONTAP volumes.
 
 == ##Burst capacity##
-Keystone STaaS service enables you to use additional capacity on top of the committed capacity for a service level. This is the burst capacity usage. 
+Keystone STaaS service enables you to use additional capacity on top of the committed capacity for a performance service level. This is the burst capacity usage. 
 
 Note these points:
 
-* Burst capacity is agreed upon in the Keystone agreement. It is usually set up to 20% above the committed capacity, with additional options available to select burst capacity limits of 40% or 60% of committed capacity.
+* Burst capacity is agreed upon in the Keystone agreement. It is usually set up to 20% above the committed capacity, per performance service level instance, with additional options available to select burst capacity limits of 40% or 60% of committed capacity.
 * Burst capacity consumption is invoiced at the same rate as the committed capacity corresponding to the selected performance service level.
 * Keystone STaaS services provide a burst waiver period of sixty days from the start date. 
 

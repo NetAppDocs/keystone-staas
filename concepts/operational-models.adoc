@@ -24,7 +24,7 @@ NetApp Keystone STaaS offers two operational models for service delivery: partne
 
 == Roles and responsibilities across the service lifecycle
 
-* *Partner-operated model*: The share of roles and responsibilities depends on the ##SLA## between you and the service provider or partner. Contact your service provider for information.
+* *Partner-operated model*: The share of roles and responsibilities depends on the agreement between you and the service provider or partner. Contact your service provider for information.
 * *Customer-operated model*: The following table summarizes the overall service lifecycle model and the roles and responsibilities associated with them in a customer-operated environment.
 
 

@@ -142,7 +142,7 @@ sidebar:
           entries:  
             - title: Advanced data protection
               url: /concepts/adp.html
-            - title: Burst capacity
+            - title: Burst capacity increase options
               url: /concepts/burst-capacity.html
             - title: Data Infrastructure Insights
               url: /concepts/data-infra-insights.html

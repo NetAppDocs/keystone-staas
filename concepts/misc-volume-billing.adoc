@@ -12,13 +12,6 @@ summary: Learn about Keystone billing for specific configurations, including clo
 :linkattrs:
 :imagesdir: ../media/
 
-= Miscellaneous scenarios for Keystone billing
-:hardbreaks:
-:nofooter:
-:icons: font
-:linkattrs:
-:imagesdir: ../media/
-
 [.lead]
 ##Understanding Keystone billing for specific configurations in version 3 can help optimize service usage and manage costs. The scenarios include cloned volumes, advanced data protection, temporary volumes, SnapMirror destinations, LUNs, and system/root volumes.##
 

@@ -48,8 +48,6 @@ You see the detailed information about all volumes in clusters across Keystone s
 * The total number of subscriptions, clusters, and volumes.
 * Volume compliance and protection status, with a *View* button to filter the table and display assets based on criteria such as compliant, not compliant, or not protected.
 +
-NOTE: ##QoS policies are not applicable in Keystone version 3.## Do we need this note in BXP.
-+
 TIP: You can customize the table using the column selector image:column-selector.png[column selector icon] icon and use the search bar at the top to search and filter Keystone data based on the column parameters.
 +
 You can click a subscription number in the *Subscription number* column to go to the *Subscriptions* tab, where you can view subscription consumption details, timelines, and associated asset information. To learn more, refer to link:../integrations/current-usage-tab.html[View your current consumption details].

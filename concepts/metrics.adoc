@@ -34,7 +34,14 @@ The following terms and definitions are used within the Keystone STaaS service t
 === ##Performance metrics##
 The following performance metrics are applicable for unified and block optimized services:
 
-* *IOPS*: Random input-output operations, 70% read and 30% write, using an 8 KB block size.
-* *Throughput*: Sequential input-output operations, 100% read, using a 32 KB block size.
+*Unified services:*
+
+* *IOPS*: ONTAP 9.16.1 with NFS, random access with a 70% read and 30% write ratio, an 8 KB block size, and a latency of 1 ms (4 ms for Standard)
+* *Throughput*: ONTAP 9.16.1 with NFS, sequential access with 100% read and a 32 KB block size.
+
+*Block optimized services:*
+
+* *IOPS*: ONTAP 9.16.1 with FCP, random access with a 70% read and 30% write ratio, an 8 KB block size, and a latency of 1 ms
+* *Throughput*: ONTAP 9.16.1 with FCP, sequential access with 100% read and a 64 KB block size
 
 
