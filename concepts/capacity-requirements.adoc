@@ -13,7 +13,7 @@ summary: Capacity requirements for service levels differ with the file, block, o
 :imagesdir: ../media/
 
 [.lead]
-The capacity requirements for Keystone STaaS performance service levels in version 3 differ with the unified, block optimized, object, or cloud storage supported by the Keystone STaaS subscription.
+The capacity requirements for Keystone STaaS performance service levels in version 3 (v3) differ with the unified, block optimized, object, or cloud storage supported by the Keystone STaaS subscription.
 
 
 == ##Minimum capacity requirements for unified and block optimized storage##

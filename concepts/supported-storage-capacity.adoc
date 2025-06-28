@@ -13,7 +13,7 @@ summary: Learn about the types of storage capacities supported by the NetApp Key
 :imagesdir: ../media/
 
 [.lead]
-The NetApp Keystone STaaS service for version 3 supports several types of storage capacities. Understanding these different capacity terms can help as you use Keystone .
+The NetApp Keystone STaaS service for version 3 (v3) supports several types of storage capacities. Understanding these different capacity terms can help as you use Keystone .
 
 == Logical capacity
 ##This is the amount of storage capacity required to store user data before any data efficiencies provided by the storage array are applied.## 

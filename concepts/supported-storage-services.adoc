@@ -13,7 +13,7 @@ summary: Keystone STaaS services supports ONTAP and StorageGRID.
 :imagesdir: ../media/
 
 [.lead]
-##Keystone STaaS services for version 3 support unified, block optimized, and object storage of NetApp, and Cloud Volumes ONTAP.##
+##Keystone STaaS services for version 3 (v3) support unified, block optimized, and object storage of NetApp, and Cloud Volumes ONTAP.##
 
 ##Each storage type includes:##
 

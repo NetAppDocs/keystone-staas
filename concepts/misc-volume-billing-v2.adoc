@@ -13,7 +13,7 @@ summary: Learn about Keystone billing for specific configurations, including clo
 :imagesdir: ../media/
 
 [.lead]
-##Understanding Keystone billing for specific configurations in version 2 can help optimize service usage and manage costs. The scenarios include cloned volumes, advanced data protection, temporary volumes, QoS policies, SnapMirror destinations, LUNs, and system/root volumes.##
+##Understanding Keystone billing for specific configurations in version 2 (v2) can help optimize service usage and manage costs. The scenarios include cloned volumes, advanced data protection, temporary volumes, QoS policies, SnapMirror destinations, LUNs, and system/root volumes.##
 
 == Billing for cloned volumes
 If volumes are cloned in ONTAP and you use them for backing up and restoring your data, you can continue using the clones without any additional payments. However, cloned volumes used for any other purpose in your business for an extensive duration are charged.

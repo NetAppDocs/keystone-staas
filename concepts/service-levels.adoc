@@ -13,7 +13,7 @@ summary: Keystone STaaS for version 3 offers storage capacity at pre-defined ser
 :imagesdir: ../media/
 
 [.lead]
-##Keystone STaaS for version 3 offers data storage capacity at pre-defined performance service levels. Each volume managed by Keystone services is associated with a performance service level.##
+##Keystone STaaS for version 3 (v3) offers data storage capacity at pre-defined performance service levels. Each volume managed by Keystone services is associated with a performance service level.##
 
 A subscription can have multiple rate plans and each rate plan corresponds to a performance service level. Each rate plan has a committed capacity per performance service level. 
 
