@@ -68,12 +68,14 @@ The bar charts display short-term bursts, and you can view these bursts by using
 +
 image:aiq-ks-subtime-7.png[Consumption Trend tab with details]
 +
-The following colors in the bar charts indicate the consumed capacity as defined within the performance service level. Monthly data across the charts is separated by a vertical line.
+//The following colors in the bar charts indicate the consumed capacity as defined within the performance service level.
 +
-** Green: Within 80%.
-** Amber: 80% - 100%.
-** Red: Burst usage (100% of the committed capacity to the agreed burst limit)
-** Purple: Above the burst limit or `Above Limit`.
+Monthly data across the charts is separated by a vertical line.
++
+//** Green: Within 80%.
+//** Amber: 80% - 100%.
+//** Red: Burst usage (100% of the committed capacity to the agreed burst limit)
+//** Purple: Above the burst limit or `Above Limit`.
 +
 NOTE: A blank chart indicates that there was no data available in your environment at that data collection point.
 +
