@@ -5,7 +5,7 @@ keywords: burst consumption, add-on service, burst capacity, burst limit, NetApp
 summary: Enables customers to use additional storage capacity beyond their committed capacity.
 ---
 
-= ##Burst capacity increase options##
+= ##Burst capacity options##
 :hardbreaks:
 :nofooter:
 :icons: font

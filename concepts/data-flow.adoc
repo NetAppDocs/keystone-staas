@@ -21,12 +21,12 @@ Keystone Collector initiates REST API calls to the storage controllers and obtai
 
 image:data-collector-flow.png[shows data flow within collector components] 
 
-.Legend
+.##Legend##
 
-. NetApp Collector initiates an HTTPS session to the Active-IQ cloud portal.
+. NetApp Keystone Collector initiates connection to Keystone cloud.
 . The firewall operated by the customer allows the connection.
-. The Active IQ cloud portal accepts the connection and establishes a tunnel to the NetApp Collector.
-. The NetApp collector establishes a REST API session to the management connection of the storage controller, obtains environmental data, and sends it to the Active IQ portal.
+. Keystone Collector establishes a REST API connection directly to the management connection of the storage controller or tunnels through Active IQ Unified Manager to gather usage and performance data.
+. This data is sent securely to the Keystone cloud components through HTTPS.
 
 == Monitoring data flows
 

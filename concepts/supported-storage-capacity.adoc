@@ -37,13 +37,13 @@ Consumed capacity refers to the capacity (in TiB of storage) currently being con
 
 * *Unified or block optimized storage*: Consumed capacity is calculated based on the type of capacity selected in the order, which can be either logical capacity or physical capacity. The calculation is performed per performance service level instance.
 +
-*Logical capacity*: It is sum of:
+.. *Logical capacity*: It is sum of:
 +
 ** Metered logical capacity (before storage array data efficiencies) to store all instances and types of customer data (e.g., copies, mirrored copies, versions, clones).
 ** Physical capacity used to store metadata and differential data of Snapshot copies and certain clones.
 ** Any thick-provisioned physical capacity.
 +
-*Physical capacity*: It is sum of:
+.. *Physical capacity*: It is sum of:
 +
 ** Metered physical capacity (after storage array data efficiencies) to store all instances and types of customer data (e.g., copies, mirrored copies, versions, clones).   
 ** Physical capacity used to store metadata and differential data of Snapshot copies.

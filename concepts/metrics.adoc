@@ -36,12 +36,12 @@ The following performance metrics are applicable for unified and block optimized
 
 *Unified services:*
 
-* *IOPS*: ONTAP 9.16.1 with NFS, random access with a 70% read and 30% write ratio, an 8 KB block size, and a latency of 1 ms (4 ms for Standard)
-* *Throughput*: ONTAP 9.16.1 with NFS, sequential access with 100% read and a 32 KB block size.
+* *IOPS*: For ONTAP 9.16.1 with NFS, each performance level instance supports random access with a 70% read and 30% write ratio, an 8 KB block size, and a latency of 1 ms (4 ms for Standard).
+* *Throughput*: For ONTAP 9.16.1 with NFS, each performance level instance supports sequential access with 100% read and a 32 KB block size.
 
 *Block optimized services:*
 
-* *IOPS*: ONTAP 9.16.1 with FCP, random access with a 70% read and 30% write ratio, an 8 KB block size, and a latency of 1 ms
-* *Throughput*: ONTAP 9.16.1 with FCP, sequential access with 100% read and a 64 KB block size
+* *IOPS*: For ONTAP 9.16.1 with FCP, each performance level instance supports random access with a 70% read and 30% write ratio, an 8 KB block size, and a latency of 1 ms.
+* *Throughput*: For ONTAP 9.16.1 with FCP, each performance level instance supports sequential access with 100% read and a 64 KB block size.
 
 
