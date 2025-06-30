@@ -16,7 +16,7 @@ summary: Learn about the types of storage capacities supported by the NetApp Key
 The NetApp Keystone STaaS service for version 3 (v3) supports several types of storage capacities. Understanding these different capacity terms can help as you use Keystone.
 
 == Logical capacity
-##This is the amount of storage capacity required to store user data before any data efficiencies provided by the storage array are applied.## 
+This is the amount of storage capacity required to store user data before any data efficiencies provided by the storage array are applied. 
 
 == Committed capacity
 The minimum logical capacity billed each month during the subscription:
@@ -32,7 +32,7 @@ During the tenure of a subscription, you can change the committed capacities. Ho
 * You can request changes to committed capacity through the BlueXP interface or from your Keystone Success Manager (KSM).
 For information about requesting changes, see link:../concepts/gssc.html[NetApp Keystone support].
 
-== (review this entire topic) ##Consumed capacity##
+== Consumed capacity
 Consumed capacity refers to the capacity (in TiB of storage) currently being consumed on the service. It is calculated differently based on the storage type:
 
 * *Unified or block-optimized storage*: Consumed capacity is calculated based on the type of capacity selected in the order, which can be either logical capacity or physical capacity. The calculation is performed per performance service level instance.
@@ -53,7 +53,7 @@ Consumed capacity refers to the capacity (in TiB of storage) currently being con
 
 * *Cloud Volumes ONTAP*: Consumed capacity is calculated as the amount of metered provisioned capacity of all Cloud Volumes ONTAP volumes.
 
-== ##Burst capacity##
+== Burst capacity
 The NetApp Keystone STaaS service enables you to use additional capacity on top of the committed capacity for a performance service level. This is referred to as the burst capacity usage. 
 
 Note these points:

@@ -15,7 +15,7 @@ summary: Keystone STaaS billing is based on burst capacity, which is the capacit
 [.lead]
 Keystone STaaS billing is based on _burst capacity_, which is the capacity consumed by you, on top of the committed capacity of your subscription.
 
-Your burst limit is determined and specified in your Keystone agreement. By default, it is set at 20% above the committed capacity. You also have the option to choose burst capacity limits of 40% or 60% of the committed capacity. To learn more, refer to link:../concepts/burst-capacity.html[Burst capacity increase options].##
+Your burst limit is determined and specified in your Keystone agreement. By default, it is set at 20% above the committed capacity. You also have the option to choose burst capacity limits of 40% or 60% of the committed capacity. To learn more, refer to link:../concepts/burst-capacity.html[Burst capacity increase options].
 
 Committed capacity is the capacity committed to you while purchasing the subscription. The committed capacity and burst capacity are measured per performance service level. Consumed capacity is the capacity that your workloads actually use.
 

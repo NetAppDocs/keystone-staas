@@ -19,7 +19,7 @@ Keystone Collector is the usage acquisition component of the Keystone billing pl
 
 Keystone Collector can be configured in either _standard_ mode, which works without connectivity restrictions, or _private_ mode, designed for organizations with connectivity restrictions. To install Keystone Collector in standard mode, refer to link:../installation/vapp-prereqs.html[Set up and configure Keystone]; for private mode, refer to link:../dark-sites/overview.html[Keystone in private mode].
 
-Keystone Collector represents the standard approach of collecting usage data for Keystone systems. If your environment cannot support Keystone Collector, you can seek authorization from ##Keystone support## to use AutoSupport telemetry mechanism as an alternative. For information about AutoSupport, see https://docs.netapp.com/us-en/active-iq/concept_autosupport.html[AutoSupport^]. For information about configuring AutoSupport for Keystone, see link:../installation/asup-config.html[Configure AutoSupport for Keystone].
+Keystone Collector represents the standard approach of collecting usage data for Keystone systems. If your environment cannot support Keystone Collector, you can seek authorization from Keystone support to use AutoSupport telemetry mechanism as an alternative. For information about AutoSupport, see https://docs.netapp.com/us-en/active-iq/concept_autosupport.html[AutoSupport^]. For information about configuring AutoSupport for Keystone, see link:../installation/asup-config.html[Configure AutoSupport for Keystone].
 
 This architecture diagram outlines the constituent components and their connectivity in a typical Keystone environment.
 

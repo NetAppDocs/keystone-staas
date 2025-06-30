@@ -5,7 +5,7 @@ keywords: sustainability, sla, service level agreement, slo, service level objec
 summary: Keystone delivers a guaranteed measurement of maximum number of actual watts per tebibyte (W/TiB) for storage services based on ONTAP flash storage arrays with Sustainability SLO.
 ---
 
-= ##Sustainability SLO## 
+= Sustainability SLO 
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,7 +13,7 @@ summary: Keystone delivers a guaranteed measurement of maximum number of actual 
 :imagesdir: ../media/
 
 [.lead]
-##NetApp Keystone delivers a guaranteed measurement of maximum number of actual watts per tebibyte (W/TiB) for storage services based on ONTAP flash storage arrays with Sustainability SLO. Sustainability SLO defines the maximum consumption of W/TiB for each eligible performance service level, helping organizations meet their sustainability goals.##
+NetApp Keystone delivers a guaranteed measurement of maximum number of actual watts per tebibyte (W/TiB) for storage services based on ONTAP flash storage arrays with Sustainability SLO. Sustainability SLO defines the maximum consumption of W/TiB for each eligible performance service level, helping organizations meet their sustainability goals.
 
 == Metrics
 
@@ -26,7 +26,7 @@ summary: Keystone delivers a guaranteed measurement of maximum number of actual 
 To learn more about storage efficiency ratio, refer to https://docs.netapp.com/us-en/active-iq/task_analyze_storage_efficiency.html[Analyze capacity and storage efficiency savings^].
 
 == Performance service levels
-##Sustainability SLO## is based on the following consumption criteria: 
+Sustainability SLO is based on the following consumption criteria: 
 
 |===
 |*Service level* | *SLO criteria* |*Minimum committed capacity* |*Platform*
@@ -42,7 +42,7 @@ To learn more, refer to link:https://docs.netapp.com/us-en/keystone-staas/concep
 
 == Service credits
 
-NOTE: ##SLAs and guarantees are available on a nomination basis.##
+NOTE: SLAs and guarantees are available on a nomination basis.
 
 If W/TiB consumption during a billing period fails to meet the SLA criteria, then NetApp issues service credits as follows: 
 

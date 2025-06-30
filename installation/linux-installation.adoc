@@ -39,7 +39,7 @@ A signature for an authentic file looks like this:
 +
 `# yum install keystone-collector`
 +
-##For Red Hat Enterprise Linux 9, run the following command to install the keystone-collector package:##
+For Red Hat Enterprise Linux 9, run the following command to install the keystone-collector package:
 `# yum install keystone-collector-rhel9`
 
 --

@@ -5,7 +5,7 @@ keywords: sustainability, sla, service level agreement, slo, service level objec
 summary: Keystone offers latency-based SLO per performance service level, as described in the Keystone order for consumed capacity up to the burst limit.
 ---
 
-= ##Performance SLO## 
+= Performance SLO 
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,7 +13,7 @@ summary: Keystone offers latency-based SLO per performance service level, as des
 :imagesdir: ../media/
 
 [.lead]
-NetApp Keystone offers latency-based ##SLO## per performance service level, as described in the Keystone order for consumed capacity up to the burst limit, according to the following listed terms and conditions.
+NetApp Keystone offers latency-based SLO per performance service level, as described in the Keystone order for consumed capacity up to the burst limit, according to the following listed terms and conditions.
 
 == Metrics
 * *Degraded performance*: The amount of time, in minutes, per incident, during which the 90^th^ percentile latency target is not met.
@@ -31,7 +31,7 @@ NetApp Keystone offers latency-based ##SLO## per performance service level, as d
 
 
 == Performance service levels
-All performance service levels that ONTAP flash storage arrays support are eligible for ##Performance SLO## and guarantee meeting the following target latency:
+All performance service levels that ONTAP flash storage arrays support are eligible for Performance SLO and guarantee meeting the following target latency:
 
 |===
 |*Service level* | Extreme |Premium |Performance |Standard
@@ -43,7 +43,7 @@ To learn more about the latency requirements of the performance service levels, 
 
 == Service credits
 
-NOTE: ##SLAs and guarantees are available on a nomination basis.##
+NOTE: SLAs and guarantees are available on a nomination basis.
 
 NetApp issues service credits for the degraded performance:
 

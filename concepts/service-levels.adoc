@@ -13,11 +13,11 @@ summary: Keystone STaaS for version 3 offers storage capacity at pre-defined ser
 :imagesdir: ../media/
 
 [.lead]
-##Keystone STaaS for version 3 (v3) offers data storage capacity at pre-defined performance service levels. Each volume managed by Keystone services is associated with a performance service level.##
+Keystone STaaS for version 3 (v3) offers data storage capacity at pre-defined performance service levels. Each volume managed by Keystone services is associated with a performance service level.
 
 A subscription can have multiple rate plans and each rate plan corresponds to a performance service level. Each rate plan has a committed capacity per performance service level. 
 
-##A performance service level can have multiple instances, with each instance representing a separate storage array assigned to that performance service level in the customer's environment. Each performance service level is defined by input/output operations per second (IOPS), throughput (GBps), and latency (ms), with these metrics measured and applied per performance service level instance.##
+A performance service level can have multiple instances, with each instance representing a separate storage array assigned to that performance service level in the customer's environment. Each performance service level is defined by input/output operations per second (IOPS), throughput (GBps), and latency (ms), with these metrics measured and applied per performance service level instance.
 
 You select performance service levels based on your storage environment, and storage and consumption needs. The base performance service levels are available for you by default. Specific performance service levels are additionally available, if you have opted for add-on services. For example, for the advanced data protection add-on service, the _Advanced Data-Protect_ performance service level is assigned to your subscription.
 
@@ -26,7 +26,7 @@ A detailed service description for NetApp Keystone STaaS performance service lev
 
 The base performance service levels for the supported storage types, unified, block-optimized, object, and cloud services are described in the following sections:
 
-== ##Performance service levels for unified storage##
+== Performance service levels for unified storage
 *Supported protocols*: FC, iSCSI, NFS, NFSv4/RDMA, NVMe/FC, NVMe/TCP, SMB, S3
 
 |===
@@ -43,7 +43,7 @@ The base performance service levels for the supported storage types, unified, bl
 4+|Logical or physical
 |===
 
-== ##Performance service levels for block-optimized storage##
+== Performance service levels for block-optimized storage
 *Supported protocols*: NVMe/TCP, NVMe/FC, FC, iSCSI
 
 |===
@@ -63,7 +63,7 @@ The base performance service levels for the supported storage types, unified, bl
 
 NOTE: ^1^Mutually exclusive targets. Actual performance may differ based on various factors, including the operating system version, hardware, workload type, and number of concurrent operations.
 
-=== ##More on performance service levels for unified and block-optimized storage##
+=== More on performance service levels for unified and block-optimized storage
 
 The base performance service level metrics depend on the following conditions:
 
@@ -80,10 +80,10 @@ The base performance service level metrics depend on the following conditions:
 ** application or host latency
 ** customer network latency to or from the controller ports
 ** overheads associated with the data transfer to the object store in case of FabricPool
-* ##Latency values are not applicable to MetroCluster write operations. These write operations are dependent on the distance of remote systems.##
+* Latency values are not applicable to MetroCluster write operations. These write operations are dependent on the distance of remote systems.
 * _Expected IOPS_ is targeted for FabricPool only if the tiering policy is set to "none" and no blocks are in the cloud. _Expected IOPS_ is targeted for volumes that are not in a SnapMirror synchronous relationship.
 
-== ##Performance service levels for object storage##
+== Performance service levels for object storage
 *Supported protocol*: S3
 
 |===
@@ -94,7 +94,7 @@ The base performance service level metrics depend on the following conditions:
 2+| Physical
 |===
 
-== ##Cloud storage##
+== Cloud storage
 
 *Supported protocols*: NFS, CIFS, iSCSI, and S3 (AWS and Azure only)
 

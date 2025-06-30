@@ -13,13 +13,13 @@ summary: Keystone STaaS services supports ONTAP and StorageGRID.
 :imagesdir: ../media/
 
 [.lead]
-##Keystone STaaS services for version 3 (v3) support unified, block-optimized, and object storage of NetApp, and Cloud Volumes ONTAP.##
+Keystone STaaS services for version 3 (v3) support unified, block-optimized, and object storage of NetApp, and Cloud Volumes ONTAP.
 
-##Each storage type includes:##
+Each storage type includes:
 
-* *Unified storage*: ##Includes both file, block, and S3 object storage, available on NetApp ONTAP AFF as well as FAS systems.##
-* *Block optimized storage*: ##Includes block storage available on NetApp ONTAP ASA systems.##
-* *Object storage*: ##Includes object storage available on NetApp StorageGRID systems.##
+* *Unified storage*: Includes both file, block, and S3 object storage, available on NetApp ONTAP AFF as well as FAS systems.
+* *Block optimized storage*: Includes block storage available on NetApp ONTAP ASA systems.
+* *Object storage*: Includes object storage available on NetApp StorageGRID systems.
 
 Keystone STaaS provides standard and optional services for your storage. 
 
@@ -27,10 +27,10 @@ Keystone STaaS provides standard and optional services for your storage.
 
 *Keystone STaaS add-on services*: These are optional, chargeable services that provide additional utilities and benefits on top of standard Keystone STaaS subscription services.
 
-##Keystone STaaS services can be used at the same time. For example, a cloud storage subscription can have the same term as unified, block-optimized, and object storage subscriptions. A cloud service can be included at any point during the service term of an existing storage subscription. However, if you do not plan to renew an existing unified, block-optimized, or object storage subscription, a cloud storage subscription cannot be added during the last 90 days of the subscription.##
+Keystone STaaS services can be used at the same time. For example, a cloud storage subscription can have the same term as unified, block-optimized, and object storage subscriptions. A cloud service can be included at any point during the service term of an existing storage subscription. However, if you do not plan to renew an existing unified, block-optimized, or object storage subscription, a cloud storage subscription cannot be added during the last 90 days of the subscription.
 
-== (Review this entire topic) ##Services for unified, block-optimized, and object storage##
-##Keystone STaaS services for unified, block-optimized, and object storage, support multiple features and protocols, and described in the following table:##
+== Services for unified, block-optimized, and object storage
+Keystone STaaS services for unified, block-optimized, and object storage, support multiple features and protocols, and described in the following table:
 
 |===
 a| Storage |Platform |Protocols |Supported features

@@ -13,12 +13,12 @@ summary: The NetApp Keystone STaaS service uses several terms to measure metrics
 :imagesdir: ../media/
 
 [.lead]
-##The NetApp Keystone STaaS service uses several terms to measure metrics. You might want to learn more about these terms as you use Keystone for version 3 (v3).##
+The NetApp Keystone STaaS service uses several terms to measure metrics. You might want to learn more about these terms as you use Keystone for version 3 (v3).
 
 The following terms and definitions are used within the Keystone STaaS service to measure metrics:
 
 * Capacity measurement units: GiB, TiB, and PiB
-* ##IOPS: Number of input/output operations processed per second.##
+* IOPS: Number of input/output operations processed per second.
 * Service availability
 * Durability in accurate data access
 * Latency and speed
@@ -26,12 +26,12 @@ The following terms and definitions are used within the Keystone STaaS service t
 == Metrics measurement
 
 * *Capacity measurement in gibibyte (GiB), tebibyte (TiB), and pebibyte (PiB)*: Measurements of data storage capacity using base of 1024 (1 GiB = 1024^3^ bytes, 1 TiB = 1024^4^ bytes, and 1PiB = 1024^5^ bytes).
-* *Operations counter chart in IOPS*: ##The protocol operations per second, requested by the application.##
+* *Operations counter chart in IOPS*: The protocol operations per second, requested by the application.
 * *Availability*: Measured as a percentage of the number of I/O requests successfully responded to by the service, divided by total number of I/O requests made to the service. This is measured at the service demarcation in a month and does not include the scheduled service downtime or unavailability of the facilities, network, or other services provided by the customer.
 * *Durability*: Percentage of data accessed without loss of fidelity, excluding customer-caused deletion or corruption.
 * *Latency*: Time to service an I/O request received from a client, measured at the service demarcation (storage controller I/O port).
 
-=== ##Performance metrics##
+=== Performance metrics
 The following performance metrics are applicable for unified and block-optimized services:
 
 *Unified services:*

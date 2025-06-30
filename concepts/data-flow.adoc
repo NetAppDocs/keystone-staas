@@ -21,7 +21,7 @@ Keystone Collector initiates REST API calls to the storage controllers and obtai
 
 image:data-collector-flow.png[shows data flow within collector components] 
 
-.##Legend##
+.Legend
 
 . NetApp Keystone Collector initiates connection to Keystone cloud.
 . The firewall operated by the customer allows the connection.

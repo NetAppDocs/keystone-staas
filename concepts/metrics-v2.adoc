@@ -13,7 +13,7 @@ summary: The NetApp Keystone STaaS service uses several terms to measure metrics
 :imagesdir: ../media/
 
 [.lead]
-##The NetApp Keystone STaaS service uses several terms to measure metrics. You might want to learn more about these terms as you use Keystone for version 2 (v2).##
+The NetApp Keystone STaaS service uses several terms to measure metrics. You might want to learn more about these terms as you use Keystone for version 2 (v2).
 
 The following terms and definitions are used within the Keystone STaaS service to measure metrics:
 

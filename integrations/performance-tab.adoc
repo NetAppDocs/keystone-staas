@@ -39,12 +39,12 @@ The performance data displayed on the horizontal graph is an average at every fi
 You can view and compare the performance metrics in the following sections based on the combination of the subscription number, volume name, and the date range selected. The details are displayed as per performance service level assigned to the volume. You can see the cluster name and volume type, that is, the read and write permissions assigned to the volume. Any warning message associated with the volume is also displayed.
 
 == IOPS
-This section displays the input-output graphs for the workloads in the volume based on the date range of the query. The peak IOPS for the performance service level and the current IOPS (in the last five minutes, not based on the date range of the query) are displayed, along with the minimum, maximum, and average IOPS for the time range, ##in IOPS/Tib.##
+This section displays the input-output graphs for the workloads in the volume based on the date range of the query. The peak IOPS for the performance service level and the current IOPS (in the last five minutes, not based on the date range of the query) are displayed, along with the minimum, maximum, and average IOPS for the time range, in IOPS/Tib.
 
 image:perf-iops.png[IOPS section of the graph]
 
 == Throughput
-This section displays the throughput graphs for the workloads in the volume based on the date range of the query. The maximum throughput for the performance service level (SLO Max), and current throughput (in the last five minutes, not based on the date range of the query) are displayed, along with the minimum, maximum, and average throughput for the time range, ##in MBps/TiB.##
+This section displays the throughput graphs for the workloads in the volume based on the date range of the query. The maximum throughput for the performance service level (SLO Max), and current throughput (in the last five minutes, not based on the date range of the query) are displayed, along with the minimum, maximum, and average throughput for the time range, in MBps/TiB.
 
 image:perf-thr.png[Throughput graphs]
 

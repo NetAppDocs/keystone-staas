@@ -20,7 +20,7 @@ Ransomware Recovery Assurance Service is required for all hardware supporting th
 
 == Service credits
 
-NOTE: ##SLAs and guarantees are available on a nomination basis.##
+NOTE: SLAs and guarantees are available on a nomination basis.
 
 If SnapLock Compliance is deployed as per best practices, and NetApp professional services either configure it or validate it upon the purchase of Ransomware Recovery Assurance Service, then NetApp issues the service credits if the data protected by SnapLock is not recoverable. The criteria for these credits are as follows:
 
