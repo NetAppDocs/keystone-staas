@@ -13,7 +13,7 @@ summary: Learn about the types of storage capacities supported by the NetApp Key
 :imagesdir: ../media/
 
 [.lead]
-The NetApp Keystone STaaS service for version 3 (v3) supports several types of storage capacities. Understanding these different capacity terms can help as you use Keystone .
+The NetApp Keystone STaaS service for version 3 (v3) supports several types of storage capacities. Understanding these different capacity terms can help as you use Keystone.
 
 == Logical capacity
 ##This is the amount of storage capacity required to store user data before any data efficiencies provided by the storage array are applied.## 
@@ -29,24 +29,24 @@ During the tenure of a subscription, you can change the committed capacities. Ho
 
 *	The committed capacity can be decreased based on certain conditions. For information, see link:../concepts/capacity-requirements.html[Capacity reduction].
 *	The committed capacity cannot be increased 90 days prior to the expiry of your subscription, unless the subscription is to be renewed for an additional 12-month term.
-* You can request changes to committed capacity through the BlueXP interface or through Keystone Success Manager (KSM).
+* You can request changes to committed capacity through the BlueXP interface or from your Keystone Success Manager (KSM).
 For information about requesting changes, see link:../concepts/gssc.html[NetApp Keystone support].
 
 == (review this entire topic) ##Consumed capacity##
 Consumed capacity refers to the capacity (in TiB of storage) currently being consumed on the service. It is calculated differently based on the storage type:
 
-* *Unified or block optimized storage*: Consumed capacity is calculated based on the type of capacity selected in the order, which can be either logical capacity or physical capacity. The calculation is performed per performance service level instance.
+* *Unified or block-optimized storage*: Consumed capacity is calculated based on the type of capacity selected in the order, which can be either logical capacity or physical capacity. The calculation is performed per performance service level instance.
 +
 .. *Logical capacity*: It is sum of:
 +
-** Metered logical capacity (before storage array data efficiencies) to store all instances and types of customer data (e.g., copies, mirrored copies, versions, clones).
-** Physical capacity used to store metadata and differential data of Snapshot copies and certain clones.
+** Metered logical capacity, before storage array data efficiencies, to store all instances and types of customer data, such as copies, mirrored copies, versions, and clones.
+** Physical capacity used to store metadata and differential data of snapshots and certain clones.
 ** Any thick-provisioned physical capacity.
 +
 .. *Physical capacity*: It is sum of:
 +
-** Metered physical capacity (after storage array data efficiencies) to store all instances and types of customer data (e.g., copies, mirrored copies, versions, clones).   
-** Physical capacity used to store metadata and differential data of Snapshot copies.
+** Metered physical capacity, after storage array data efficiencies, to store all instances and types of customer data, such as copies, mirrored copies, versions, clones.   
+** Physical capacity used to store metadata and differential data of snapshots.
 ** Any thick-provisioned physical capacity.
 
 * *Object storage*: Consumed capacity is calculated as the amount of metered physical capacity used to store all instances and types of customer data across all nodes. This calculation is based on the information lifecycle management (ILM) policies configured.
@@ -54,13 +54,13 @@ Consumed capacity refers to the capacity (in TiB of storage) currently being con
 * *Cloud Volumes ONTAP*: Consumed capacity is calculated as the amount of metered provisioned capacity of all Cloud Volumes ONTAP volumes.
 
 == ##Burst capacity##
-Keystone STaaS service enables you to use additional capacity on top of the committed capacity for a performance service level. This is the burst capacity usage. 
+The NetApp Keystone STaaS service enables you to use additional capacity on top of the committed capacity for a performance service level. This is referred to as the burst capacity usage. 
 
 Note these points:
 
 * Burst capacity is agreed upon in the Keystone agreement. It is usually set up to 20% above the committed capacity, per performance service level instance, with additional options available to select burst capacity limits of 40% or 60% of committed capacity.
 * Burst capacity consumption is invoiced at the same rate as the committed capacity corresponding to the selected performance service level.
-* Keystone STaaS services provide a burst waiver period of sixty days from the start date. 
+* Keystone STaaS services provide a burst waiver period of 60 days from the start date. 
 
 == Billed capacity
 Monthly bill = (committed capacity [TiB] * committed rate [$/TiB]) + (daily average provisioned burst capacity [TiB] * burst rate [$/TiB]). The monthly bill contains a minimum charge based on the committed capacity.

@@ -31,11 +31,11 @@ To learn more about storage efficiency ratio, refer to https://docs.netapp.com/u
 |===
 |*Service level* | *SLO criteria* |*Minimum committed capacity* |*Platform*
 a|
-Extreme |<=8 W/TiB |200 TiB |AFF A800 and AFF A900
+Extreme |&lt;= 8 W/TiB |200 TiB |AFF A800 and AFF A900
 a|
-Premium |<=4 W/TiB |300 TiB |AFF A800 and AFF A900 
+Premium |&lt;= 4 W/TiB |300 TiB |AFF A800 and AFF A900 
 a|
-Performance |<=4 W/TiB |300 TiB |AFF A800 and AFF A900 
+Performance |&lt;= 4 W/TiB |300 TiB |AFF A800 and AFF A900 
 |===
 
 To learn more, refer to link:https://docs.netapp.com/us-en/keystone-staas/concepts/service-levels.html#service-levels-for-file-and-block-storage[Performance service levels in Keystone].

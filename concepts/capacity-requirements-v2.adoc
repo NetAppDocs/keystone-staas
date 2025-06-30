@@ -13,7 +13,7 @@ summary: Capacity requirements for service levels differ with the file, block, o
 :imagesdir: ../media/
 
 [.lead]
-The capacity requirements for Keystone STaaS performance service levels in version 2 (v2) differ with the file, block, object, or cloud storage supported by the Keystone STaaS subscription.
+The capacity requirements for Keystone STaaS performance service levels in version 2 (v2) differ between the file, block, object, or cloud storage offerings supported by the Keystone STaaS subscription.
 
 
 == Minimum capacity requirements for file and block services
@@ -58,9 +58,9 @@ a|1
 |===
 
 == 	Capacity adjustments
-Note the following clauses for capacity adjustments:
+Learn more about capacity adjustments:
 
-* Capacity can be added anytime during the term, except for the last 90 days of the contract term, in the increments per performance service level as described in the tables in the previous section. Addition of capacity and/or services is allowed within the last 90 days of the contract term as long as there is a consent of service renewal. Any addition in capacity, new service on-prem or cloud can co-term with the existing term. The invoice sent to you following the activation of the new services reflects the revised billing. Committed capacity of cloud services cannot be reduced at any point during the subscription term. Meanwhile, committed capacity and committed spend on the on-premises services during the term of the contract can be reduced based on certain criteria as defined in the following section _Capacity reduction_. 
+* Capacity can be added anytime during the term, except for the last 90 days of the contract term, in the increments per performance service level as described in the tables in the previous section. Addition of capacity or services is allowed within the last 90 days of the contract term as long as there is a consent of service renewal. Any addition in capacity, new service on-prem or cloud can co-term with the existing term. The invoice sent to you following the activation of the new services reflects the revised billing. Committed capacity of cloud services cannot be reduced at any point during the subscription term. Meanwhile, committed capacity and committed spend on the on-premises services during the term of the contract can be reduced based on certain criteria as defined in the following section _Capacity reduction_. 
 * A burst capacity is available at each site, based on the Keystone agreement. Usually, it is 20% above the committed capacity for a performance service level. Any burst usage is billed only for that billing period. If you have additional burst requirement greater than the capacity you agreed upon, contact support.
 * Committed capacity can be altered during a contract term, only under certain conditions, as described in the following section _Capacity reduction_.
 * Increasing capacity or changing to higher performance service level during a subscription term is allowed. However, moving from a higher performance service level to a lower performance service level is not permitted.

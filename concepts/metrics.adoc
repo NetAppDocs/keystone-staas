@@ -32,7 +32,7 @@ The following terms and definitions are used within the Keystone STaaS service t
 * *Latency*: Time to service an I/O request received from a client, measured at the service demarcation (storage controller I/O port).
 
 === ##Performance metrics##
-The following performance metrics are applicable for unified and block optimized services:
+The following performance metrics are applicable for unified and block-optimized services:
 
 *Unified services:*
 

@@ -50,7 +50,7 @@ image:aiq-ks-dtls-4.png[Current Consumption tab]
 +
 For the selected subscription, you can view details, such as the start and end dates of the subscription, and the billing period, such as monthly or annual. As a part of the subscription usage, you can view the performance service level name, committed, consumed, available capacities, and current and accrued burst usage (in TiB). Specific performance service levels that record higher consumption are highlighted. You can also view warnings and alerts generated for your volumes.
 +
-NOTE: ##In Keystone version 3, you can view current consumption details for each performance service level instance. For example, if you have two instances of the Extreme performance service level within a subscription, each instance will display its own committed, consumed, and available capacities separately. To learn more about the performance service levels, see link:../concepts/service-levels.html[Performance service levels in Keystone].##
+NOTE: ##With Keystone version 3 (v3), you can view current consumption details for each performance service level instance. For example, if you have two instances of the Extreme performance service level within a subscription, each instance will display its own committed, consumed, and available capacities separately. To learn more about the performance service levels, see link:../concepts/service-levels.html[Performance service levels in Keystone].##
 +
 Coupled with the current consumption, you might want to view the historical usage data for comparison. Click the *View Historical Data* button to navigate to the *Consumption Trend* tab to view the historical data for the same subscription.
 

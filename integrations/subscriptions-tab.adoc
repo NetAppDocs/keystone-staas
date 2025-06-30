@@ -79,17 +79,15 @@ If you have subscribed to advanced data protection add-on service, then you can 
 * image:subs-dtls-icon.png[icon]: Clicking this icon for a subscription opens the *Current Consumption* tab with the usage details of that subscription.
 * image:aiq-ks-time-icon.png[icon]: Clicking this icon opens the *Consumption Trend* tab where you can see the historical usage data for each performance service level included in this subscription.
 +
-You can refer to the following usage indicators to check the usage status of each subscription:
-+
-image:usage-indicator-3.png[icon]
+You can refer to the usage indicators to check the usage status of each subscription:
 +
 .##Index (review this)##
 +
-image:icon-grey.png[grey dot icon]: No capacity usage recorded against the committed capacity of the performance service level.
-image:icon-green.png[green dot icon]: The consumption is normal.
-image:icon-amber.png[amber dot icon]: Maximum consumption, that is the usage is about to reach 100% or more of the committed capacity.
-image:icon-red.png[red dot icon]: The consumption is within the burst limit. The burst consumption is the consumption that tops the 100% committed capacity of a performance service level, and is within the agreed-upon burst usage limit.
-image:icon-purple.png[purple dot icon]: Indicates consumption above the stipulated burst limit.
+image:icon-grey.png[grey dot icon] No consumption: No capacity usage recorded against the committed capacity of the performance service level.
+image:icon-green.png[green dot icon] Normal: The consumption is normal.
+image:icon-amber.png[amber dot icon] High: Maximum consumption, that is the usage is about to reach 100% or more of the committed capacity.
+image:icon-red.png[red dot icon] Burst: The consumption is within the burst limit. The burst consumption is the consumption that tops the 100% committed capacity of a performance service level, and is within the agreed-upon burst usage limit.
+image:icon-purple.png[purple dot icon] Above burst limit: Indicates consumption above the agreed-upon burst limit.
 ====
 
 *Related information*

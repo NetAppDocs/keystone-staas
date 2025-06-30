@@ -143,10 +143,10 @@ The tooltip that appears when hovering over the capacity usage bar chart in the 
 === Enhanced access to view historical data for Keystone subscriptions
 You can now view historical data if a Keystone subscription is modified or renewed. You can set the start date of a subscription to a previous date to view :
 
-* Consumption and accrued burst usage data from the *Capacity Trend* tab,
-* Performance metrics of ONTAP volumes from the *Performance* tab,
+* Consumption and accrued burst usage data from the *Capacity Trend* tab.
+* Performance metrics of ONTAP volumes from the *Performance* tab.
 
-all of which show the data based on the selected date of the subscription.
+The data is displayed based on the selected start date of the subscription.
 
 == February 29, 2024
 

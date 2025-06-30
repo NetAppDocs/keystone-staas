@@ -13,7 +13,7 @@ summary: Learn about Keystone billing for specific configurations, including clo
 :imagesdir: ../media/
 
 [.lead]
-##Understanding Keystone billing for specific configurations in version 3 (v3) can help optimize service usage and manage costs. The scenarios include cloned volumes, advanced data protection, temporary volumes, SnapMirror destinations, LUNs, and system/root volumes.##
+##Understanding Keystone billing for specific configurations in version 3 (v3) can help you optimize service usage and manage costs. The configurations include cloned volumes, advanced data protection, temporary volumes, SnapMirror destinations, LUNs, and system/root volumes.##
 
 == Billing for cloned volumes
 If volumes are cloned in ONTAP and you use them for backing up and restoring your data, you can continue using the clones without any additional payments. However, cloned volumes used for any other purpose in your business for an extensive duration are charged.
@@ -21,7 +21,7 @@ If volumes are cloned in ONTAP and you use them for backing up and restoring you
 Note the following:
 
 * Clone volumes are free from charging as long as their size is less than 10% of the parent volume (the physical capacity used in the clone volume compared to the physical capacity used in the parent volume).
-* There is no 24-hour grace period for cloned volumes, only the size of the clone is considered.
+* There is no 24-hour grace period for cloned volumes. Only the size of the clone is considered.
 * Once the clone volume exceeds 10% of the physical size of the parent, the clone is billed as a standard volume (logical used capacity).
 
 == Billing for advanced data protection
