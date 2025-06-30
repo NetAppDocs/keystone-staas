@@ -195,25 +195,25 @@ sidebar:
         - title: Add-on services
           entries:  
             - title: Advanced data protection
-              url: /concepts/adp.html
+              url: /concepts/adp-v2.html
             - title: Data Infrastructure Insights
-              url: /concepts/data-infra-insights.html
+              url: /concepts/data-infra-insights-v2.html
             - title: Data tiering
-              url: /concepts/data-tiering.html
+              url: /concepts/data-tiering-v2.html
             - title: Non-returnable, non-volatile components, and SnapLock compliance
-              url: /concepts/nrnvc.html
+              url: /concepts/nrnvc-v2.html
             - title: U.S. Protected Support (USPS)
-              url: /concepts/usps.html 
+              url: /concepts/usps-v2.html 
         - title: Keystone STaaS SLO
           entries:
             - title: Availability
-              url: /concepts/sla-availability.html
+              url: /concepts/sla-availability-v2.html
             - title: Performance
-              url: /concepts/sla-performance.html                       
+              url: /concepts/sla-performance-v2.html                       
             - title: Sustainability 
-              url: /concepts/sla-sustainability.html 
+              url: /concepts/sla-sustainability-v2.html 
             - title: Ransomware Recovery Guarantee 
-              url: /concepts/sla-ransomware.html
+              url: /concepts/sla-ransomware-v2.html
         - title: Billing
           entries:
             - title: Keystone pricing
