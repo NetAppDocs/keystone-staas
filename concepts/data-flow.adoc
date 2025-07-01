@@ -19,20 +19,20 @@ The data in Keystone STaaS systems flows through Keystone Collector and the ITOM
 
 Keystone Collector initiates REST API calls to the storage controllers and obtains usage details of the controllers periodically, as indicated in this flow diagram:
 
-image:collector-data-flow-2.png[shows data flow within collector components] 
+image:data-collector-flow.png[shows data flow within collector components] 
 
 .Legend
 
-. NetApp Collector initiates an HTTPS session to the Active-IQ cloud portal.
+. NetApp Keystone Collector initiates connection to Keystone cloud.
 . The firewall operated by the customer allows the connection.
-. The Active IQ cloud portal accepts the connection and establishes a tunnel to the NetApp Collector.
-. The NetApp collector establishes a REST API session to the management connection of the storage controller, obtains environmental data, and sends it to the Active IQ portal.
+. Keystone Collector establishes a REST API connection directly to the management connection of the storage controller or tunnels through Active IQ Unified Manager to gather usage and performance data.
+. This data is sent securely to the Keystone cloud components through HTTPS.
 
 == Monitoring data flows
 
 Monitoring the health of the storage infrastructure continuously is one of the most important features of Keystone service. For monitoring and reporting, Keystone uses ITOM monitoring solution. The following image describes how remote access to the customer location is secured by the ITOM monitoring solution. Customers can opt to enable the remote session feature, which allows the Keystone support team to connect to monitored devices for troubleshooting.
 
-image:monitoring-flow-1.png[data flow]
+image:monitoring-flow-2.png[data flow]
 
 .Legend
 

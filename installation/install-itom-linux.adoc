@@ -13,7 +13,7 @@ summary: Install the ITOM Collector software on Linux based systems.
 :imagesdir: ../media/
 
 [.lead]
-Complete a few steps to install ITOM Collector, which will collect metrics data in your storage environment. You can install it on either Windows or Linux systems, depending on your requirements.
+Complete a few steps to install ITOM Collector, which collects metrics data in your storage environment. You can install it on either Windows or Linux systems, depending on your requirements.
 
 NOTE: Keystone support team provides a dynamic link to download the ITOM Collector setup file, which expires in two hours.
 

@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar
 permalink: concepts/metrics.html
-keywords: metrics, GiB, IOPS, latency, durability
-summary: The NetApp Keystone STaaS service uses several terms to measure metrics. You might want to learn more about these terms as you use Keystone.
+keywords: metrics, GiB, IOPS, latency, durability, v3, version 3
+summary: The NetApp Keystone STaaS service uses several terms to measure metrics. You might want to learn more about these terms as you use Keystone for version 3 of the service.
 ---
 
 = Metrics and definitions used in Keystone
@@ -13,12 +13,12 @@ summary: The NetApp Keystone STaaS service uses several terms to measure metrics
 :imagesdir: ../media/
 
 [.lead]
-The NetApp Keystone STaaS service uses several terms to measure metrics. You might want to learn more about these terms as you use Keystone.
+The NetApp Keystone STaaS service uses several terms to measure metrics. You might want to learn more about these terms as you use Keystone for version 3 (v3).
 
 The following terms and definitions are used within the Keystone STaaS service to measure metrics:
 
 * Capacity measurement units: GiB, TiB, and PiB
-* IO density: IOPS/TiB: Number of input/output operations processed per second based on the total space that is being consumed by the workload, in tebibytes.
+* IOPS: Number of input/output operations processed per second.
 * Service availability
 * Durability in accurate data access
 * Latency and speed
@@ -26,33 +26,22 @@ The following terms and definitions are used within the Keystone STaaS service t
 == Metrics measurement
 
 * *Capacity measurement in gibibyte (GiB), tebibyte (TiB), and pebibyte (PiB)*: Measurements of data storage capacity using base of 1024 (1 GiB = 1024^3^ bytes, 1 TiB = 1024^4^ bytes, and 1PiB = 1024^5^ bytes).
-* *Operations counter chart in IOPS/TiB*: The protocol operations per second, requested by the application, divided by the size of the volume used by workloads.
+* *Operations counter chart in IOPS*: The protocol operations per second, requested by the application.
 * *Availability*: Measured as a percentage of the number of I/O requests successfully responded to by the service, divided by total number of I/O requests made to the service. This is measured at the service demarcation in a month and does not include the scheduled service downtime or unavailability of the facilities, network, or other services provided by the customer.
 * *Durability*: Percentage of data accessed without loss of fidelity, excluding customer-caused deletion or corruption.
 * *Latency*: Time to service an I/O request received from a client, measured at the service demarcation (storage controller I/O port).
 
-=== Throughput performance metrics
-Throughput performance metrics are applicable only for file and block services based on:
+=== Performance metrics
+The following performance metrics are applicable for unified and block-optimized services:
 
-*	32 KB block sizes
-*	70% read/30% write I/O mix
+*Unified services:*
 
-=== Variations in IO density
-IO density calculated in IOPS/TiB and/or MBps/TiB varies based on the following factors:
+* *IOPS*: For ONTAP 9.16.1 with NFS, each performance level instance supports random access with a 70% read and 30% write ratio, an 8 KB block size, and a latency of 1 ms (4 ms for Standard).
+* *Throughput*: For ONTAP 9.16.1 with NFS, each performance level instance supports sequential access with 100% read and a 32 KB block size.
 
-*	Workload characteristics
-*	Latency, excluding the following:
-** Application latency
-** Host latency
-** Latency in the customer network while transferring data to and from the controller ports
-** Overhead latency associated with data transfer to the object store in the case of FabricPool
-** The latency automatically applied by the QoS to keep IO within service level maximums
-*	The user and Snapshot copy data that is counted as part of the used capacity
-*	The allocated absolute minimum IOPS on each ONTAP volume, regardless of the amount of data in the volume:
-** Extreme: 1,000 IOPS
-** Premium: 500 IOPS
-** Performance, Standard, and Value: 75 IOPS
-*	While using the Advanced Data Protection add-on services, the target latency applies only to servicing IO requests from the local storage.
+*Block optimized services:*
 
-=== Volume AQoS
-Each ONTAP volume should have the applicable adaptive quality of service (AQoS) policy applied. Otherwise, the capacity within each volume that does not have an AQoS policy applied is billed at the rate of the highest Service Level.
+* *IOPS*: For ONTAP 9.16.1 with FCP, each performance level instance supports random access with a 70% read and 30% write ratio, an 8 KB block size, and a latency of 1 ms.
+* *Throughput*: For ONTAP 9.16.1 with FCP, each performance level instance supports sequential access with 100% read and a 64 KB block size.
+
+

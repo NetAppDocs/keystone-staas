@@ -27,15 +27,7 @@ image:bxp-filter-search.png[advance filter option]
 //In BlueXP, you can view the "Last updated" timestamp in the top right corner of each tab, which shows when the data was last refreshed. This timestamp updates automatically every 5 to 10 minutes and refreshes when the screen loads. You can also manually refresh the data.
 
 == Generate reports from BlueXP or Digital Advisor
-You can generate and view reports for your Keystone data using the download button available in tabs within BlueXP or Digital Advisor. These tabs allow you to generate reports for your subscriptions, historical usage, burst usage, performance, assets, volumes and objects.
-
-[cols="1,1"]
-|===
-| Download button in BlueXP | Download button in Digital Advisor
-
-| image:bluexp-download-report-1.png[report download icon 1 in BlueXP] or image:bluexp-download-report-2.png[report download icon 2 in BlueXP]
-| image:download-report-da.png[report download icon]
-|===
+You can generate and view reports for your Keystone data using the download button image:bluexp-download-report-2.png[report download icon 2 in BlueXP] available in tabs within BlueXP or Digital Advisor. These tabs allow you to generate reports for your subscriptions, historical usage, burst usage, performance, assets, volumes and objects.
 
 The details are generated in CSV format that you can save for future use and comparison.
 
@@ -52,7 +44,7 @@ To learn more about generating reports, refer to link:https://docs.netapp.com/us
 //NSEKEY-5735
 
 == View alerts from Digital Advisor
-In Digital Advisor, the Keystone dashboard provides alert notifications that enable you to understand the issues occurring in your storage environment. These notifications may appear as informational alerts or warnings. For example, if there are volumes within your managed clusters that do not have adaptive QoS (AQoS) policies attached, you can see a warning message. Select the warning message to see the list of the non-compliant volumes in the *Volumes & Objects* tab.
+In Digital Advisor, the Keystone dashboard provides alert notifications that enable you to understand the issues occurring in your storage environment. These notifications may appear as informational alerts or warnings. For example, with Keystone version 2 (v2), if there are volumes within your managed clusters that do not have adaptive QoS (AQoS) policies attached, you can see a warning message. Select the warning message to see the list of the non-compliant volumes in the *Volumes & Objects* tab.
 
 [NOTE]
 If you have subscribed to a single performance service level or rate plan, you won't be able to see the alert for non-compliant volumes.

@@ -15,12 +15,12 @@ summary: Keystone Collector is NetApp software that you install on a VMware vSph
 [.lead]
 _Keystone Collector_ is NetApp software that you install on a VMware vSphere or Linux host at your site to access your Keystone services. It collects usage data for Keystone systems.
 
-Keystone Collector is the usage acquisition component of the Keystone billing platform. It leverages Active IQ Unified Manager and other applications to connect to ONTAP and StorageGRID systems to collect metadata required for usage and SLA performance metering of your Keystone subscriptions. It provides you with the ability to monitor system health, while sending your billing data for reporting.
+Keystone Collector is the usage acquisition component of the Keystone billing platform. It leverages Active IQ Unified Manager and other applications to connect to ONTAP and StorageGRID systems to collect metadata required for usage and performance metering of your Keystone subscriptions. It provides you with the ability to monitor system health, while sending your billing data for reporting.
 
 Keystone Collector can be configured in either _standard_ mode, which works without connectivity restrictions, or _private_ mode, designed for organizations with connectivity restrictions. To install Keystone Collector in standard mode, refer to link:../installation/vapp-prereqs.html[Set up and configure Keystone]; for private mode, refer to link:../dark-sites/overview.html[Keystone in private mode].
 
-Keystone Collector represents the standard approach of collecting usage data for Keystone systems. If your environment cannot support Keystone Collector, you can seek authorization from Keystone Product Management to use AutoSupport telemetry mechanism as an alternative. For information about AutoSupport, see https://docs.netapp.com/us-en/active-iq/concept_autosupport.html[AutoSupport^]. For information about configuring AutoSupport for Keystone, see link:../installation/asup-config.html[Configure AutoSupport for Keystone].
+Keystone Collector represents the standard approach of collecting usage data for Keystone systems. If your environment cannot support Keystone Collector, you can seek authorization from Keystone support to use AutoSupport telemetry mechanism as an alternative. For information about AutoSupport, see https://docs.netapp.com/us-en/active-iq/concept_autosupport.html[AutoSupport^]. For information about configuring AutoSupport for Keystone, see link:../installation/asup-config.html[Configure AutoSupport for Keystone].
 
 This architecture diagram outlines the constituent components and their connectivity in a typical Keystone environment.
 
-image:collector-arch.png[collector architecture]
+image:collector-arch-1.png[collector architecture]

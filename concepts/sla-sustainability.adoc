@@ -1,11 +1,11 @@
 ---
 sidebar: sidebar
 permalink: concepts/sla-sustainability.html
-keywords: sustainability, sla, service level agreement, 
-summary: sustainability, sla, service level agreement
+keywords: sustainability, sla, service level agreement, slo, service level objectives 
+summary: Keystone delivers a guaranteed measurement of maximum number of actual watts per tebibyte (W/TiB) for storage services based on ONTAP flash storage arrays with Sustainability SLO.
 ---
 
-= Sustainability SLA 
+= Sustainability SLO 
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,9 +13,7 @@ summary: sustainability, sla, service level agreement
 :imagesdir: ../media/
 
 [.lead]
-NetApp Keystone delivers a guaranteed measurement of maximum number of actual watts per tebibyte (W/TiB) for storage services based on ONTAP flash storage arrays with Sustainability SLA. Sustainability SLA defines the maximum consumption of W/TiB for each eligible performance service level, helping organizations meet their sustainability goals.
-
-NOTE: SLAs and guarantees are available on a nomination basis.
+NetApp Keystone delivers a guaranteed measurement of maximum number of actual watts per tebibyte (W/TiB) for storage services based on ONTAP flash storage arrays with Sustainability SLO. Sustainability SLO defines the maximum consumption of W/TiB for each eligible performance service level, helping organizations meet their sustainability goals.
 
 == Metrics
 
@@ -28,21 +26,24 @@ NOTE: SLAs and guarantees are available on a nomination basis.
 To learn more about storage efficiency ratio, refer to https://docs.netapp.com/us-en/active-iq/task_analyze_storage_efficiency.html[Analyze capacity and storage efficiency savings^].
 
 == Performance service levels
-Sustainability SLA is based on the following consumption criteria: 
+Sustainability SLO is based on the following consumption criteria: 
 
 |===
-|*Service level* | *SLA criteria* |*Minimum committed capacity* |*Platform*
+|*Service level* | *SLO criteria* |*Minimum committed capacity* |*Platform*
 a|
-Extreme |<=8 W/TiB |200 TiB |AFF A800 and AFF A900
+Extreme |&lt;= 8 W/TiB |200 TiB |AFF A800 and AFF A900
 a|
-Premium |<=4 W/TiB |300 TiB |AFF A800 and AFF A900 
+Premium |&lt;= 4 W/TiB |300 TiB |AFF A800 and AFF A900 
 a|
-Performance |<=4 W/TiB |300 TiB |AFF A800 and AFF A900 
+Performance |&lt;= 4 W/TiB |300 TiB |AFF A800 and AFF A900 
 |===
 
 To learn more, refer to link:https://docs.netapp.com/us-en/keystone-staas/concepts/service-levels.html#service-levels-for-file-and-block-storage[Performance service levels in Keystone].
 
 == Service credits
+
+NOTE: SLAs and guarantees are available on a nomination basis.
+
 If W/TiB consumption during a billing period fails to meet the SLA criteria, then NetApp issues service credits as follows: 
 
 |===
@@ -59,7 +60,7 @@ a|50%
 
 |===
 
-== Service credit request
+=== Service credit request
 If a breach of the SLA is detected, open a priority 3 (P3) support ticket with NetApp Keystone support, and provide the details as requested in the excel sheet as shown below:
 
 image:sla-breach.png[excel sheet template]

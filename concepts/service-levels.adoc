@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: concepts/service-levels.html
 keywords: service levels, service level, rate plan or service level
-summary: Keystone STaaS offers storage capacity at pre-defined service levels. Each volume managed by Keystone is associated with a service level.
+summary: Keystone STaaS for version 3 offers storage capacity at pre-defined service levels. Each volume managed by Keystone is associated with a service level.
 ---
 
 = Performance service levels in Keystone
@@ -13,82 +13,96 @@ summary: Keystone STaaS offers storage capacity at pre-defined service levels. E
 :imagesdir: ../media/
 
 [.lead]
-Keystone STaaS offers data storage capacity at pre-defined performance service levels. Each volume managed by Keystone services is associated with a performance service level.
+Keystone STaaS for version 3 (v3) offers data storage capacity at pre-defined performance service levels. Each volume managed by Keystone services is associated with a performance service level.
 
-A subscription can have multiple rate plans and each rate plan corresponds to a performance service level. Each rate plan has a committed capacity per performance service level.
+A subscription can have multiple rate plans and each rate plan corresponds to a performance service level. Each rate plan has a committed capacity per performance service level. 
 
-Each performance service level is defined by its I/O density, that is IOPS/TiB/volume. This is the ratio of performance (input/output operations per second [IOPS]) and used storage capacity (TiB) which is IOPS/TiB at average latency per volume.
+A performance service level can have multiple instances, with each instance representing a separate storage array assigned to that performance service level in the customer's environment. Each performance service level is defined by input/output operations per second (IOPS), throughput (GBps), and latency (ms), with these metrics measured and applied per performance service level instance.
 
 You select performance service levels based on your storage environment, and storage and consumption needs. The base performance service levels are available for you by default. Specific performance service levels are additionally available, if you have opted for add-on services. For example, for the advanced data protection add-on service, the _Advanced Data-Protect_ performance service level is assigned to your subscription.
 
 [TIP]
 A detailed service description for NetApp Keystone STaaS performance service levels is available https://www.netapp.com/services/keystone/terms-and-conditions/[here^].
 
-The base performance service levels for the supported storage types, file, block, object, and cloud services are described in the following sections:
+The base performance service levels for the supported storage types, unified, block-optimized, object, and cloud services are described in the following sections:
 
-== Performance service levels for file and block storage
-*Supported protocols*: NFS, CIFS, iSCSI, and FC
+== Performance service levels for unified storage
+*Supported protocols*: FC, iSCSI, NFS, NFSv4/RDMA, NVMe/FC, NVMe/TCP, SMB, S3
 
 |===
-|*Perfromance service level* |*Extreme* |*Premium* | *Performance* |*Standard* |*Value*
-|*Sample workload types* |Analytics, databases, mission-critical apps |VDI, VSI, software development | OLTP, OLAP, containers, software development
- |File shares, web servers |Backup
-|*Maximum IOPS/logical TiBs stored per volume* |12,288 |4,096 |2,048 | 512 |128
-|*Maximum IOPS/logical TiBs allocated per volume* |6,144 |2,048 |1,024 |256 |64
-|*Maximum MBps/logical TiBs stored per volume @ 32K B/S* |384 |128 |64 |16 |4
-|*Target 90^th^ percentile latency* | <1 ms | <2 ms | <4 ms | <4 ms | <17 ms
-|*Block size* 
-5+|32K
+|*Performance service level*
+(all specifications per performance service level instance)|*Extreme* |*Premium* |*Standard* |*Value*
+|*Sample workload types* |AI/ML, HPC, InMem DB |Analytics, EDA, OLTP | OLAP, IoT, Containers |Backup, Archive
+|*Maximum IOPS*^1^ |1M |550K |500K | NA
+|*Maximum GBps* |40  |20 |20 | NA
+|*Target 90^th^ percentile latency* | &lt;=1 ms | &lt;=1 ms | &lt;=4 ms | >4 ms 
+|*Minimum committed capacity* | 50 TiB | 50 TiB | 100 TiB | 100 TiB
+|*Incremental committed capacity increase*
+4+| 25TiB
 |*Committed and metered capacity type*
-5+|Logical
+4+|Logical or physical
 |===
 
-=== More on performance service levels for file and block storage
+== Performance service levels for block-optimized storage
+*Supported protocols*: NVMe/TCP, NVMe/FC, FC, iSCSI
+
+|===
+|*Performance service level*
+(all specifications per performance service level instance)|*Extreme* |*Premium* 
+|*Sample workload types*
+2+| SAP HANA, Oracle, MS SQL Server, EPIC
+|*Maximum IOPS*^1^|850K |450K 
+|*Maximum GBps* |65  |25
+|*Target 90^th^ percentile latency* | &lt;=1 ms | &lt;=1 ms 
+|*Minimum committed capacity* | 50 TiB | 50 TiB 
+|*Incremental committed capacity increase*
+2+| 25TiB
+|*Committed and metered capacity type*
+2+| Logical or physical
+|===
+
+NOTE: ^1^Mutually exclusive targets. Actual performance may differ based on various factors, including the operating system version, hardware, workload type, and number of concurrent operations.
+
+=== More on performance service levels for unified and block-optimized storage
 
 The base performance service level metrics depend on the following conditions:
 
-* The performance service levels for file and block storage support ONTAP 9.7 and later.
-* IOPS/TiB/volume, MBps/TiB/volume, and latency values for performance service levels are based on the amount of data stored in the volume, 32KB block size, and a random combination of 70% read and 30% write IO operations.
-* Actual IOPS/TiB/volume and MBps/TiB/volume may vary based on the actual or assumed block size, system workload concurrency, or input-output operations.
+* The performance service levels support ONTAP 9.8 and later.
+* For unified storage, 
++
+** *IOPS*: For ONTAP 9.16.1 with NFS, each performance level instance supports random access with a 70% read and 30% write ratio, an 8 KB block size, and a latency of 1 ms (4 ms for Standard).
+** *Throughput*: For ONTAP 9.16.1 with NFS, each performance level instance supports sequential access with 100% read and a 32 KB block size.
+* For block-optimized storage,
++
+** *IOPS*: For ONTAP 9.16.1 with FCP, each performance level instance supports random access with a 70% read and 30% write ratio, an 8 KB block size, and a latency of 1 ms.
+** *Throughput*: For ONTAP 9.16.1 with FCP, each performance level instance supports sequential access with 100% read and a 64 KB block size.
 * Latency does not include the following: 
 ** application or host latency
 ** customer network latency to or from the controller ports
 ** overheads associated with the data transfer to the object store in case of FabricPool
-** latency automatically applied by QoS to keep IO within performance service level maximums
 * Latency values are not applicable to MetroCluster write operations. These write operations are dependent on the distance of remote systems.
-* If one or more volumes on a storage system do not have an AQoS policy assigned, then these volumes are considered as non-compliant volumes, and no target performance service levels are applicable for those systems.
 * _Expected IOPS_ is targeted for FabricPool only if the tiering policy is set to "none" and no blocks are in the cloud. _Expected IOPS_ is targeted for volumes that are not in a SnapMirror synchronous relationship.
-* Workload IO operations need to be balanced across all deployed controllers, as determined by the Keystone order.
 
-== Object storage
+== Performance service levels for object storage
 *Supported protocol*: S3
 
 |===
-|*Performance service level* | Object
-|*Workload type* |Media repository, archiving
-|*Maximum IOPS/logical TiB stored per volume*
-|N/A
-|*Maximum MBps/logical TiB stored per volume* |N/A
-|*Average Latency* |N/A
-|*Committed and metered capacity type*|Physical
-
+|*Performance service level* | *Standard* | *Value* 
+|*Minimum committed capacity per order* | 200 TiB | 500 TiB 
+|*Incremental committed capacity increase* | 25 TiB | 100 TiB
+|*Committed and metered capacity type*
+2+| Physical
 |===
-
-[NOTE]
-Latency does not include overheads associated with data transfer to the object store in case of FabricPool storage.
 
 == Cloud storage
 
-*Supported protocol*: NFS, CIFS, iSCSI, and S3 (AWS and Azure only)
+*Supported protocols*: NFS, CIFS, iSCSI, and S3 (AWS and Azure only)
 
 |===
 |*Performance service level* | Cloud Volumes ONTAP
-|*Workload type* |Disaster Recovery, software development/testing, business apps
-|*Maximum IOPS/logical TiB stored per volume*
-|N/A
-|*Maximum MBps/logical TiB stored per volume* |N/A
-|*Average Latency* |N/A
-
+|*Minimum committed capacity per order* | 4 TiB  
+|*Incremental committed capacity increase* | 1 TiB 
+|*Committed and metered capacity type*| Logical
 |===
 
 [NOTE]
@@ -101,5 +115,4 @@ Latency does not include overheads associated with data transfer to the object s
 
 * link:../concepts/supported-storage-capacity.html[Supported storage capacities]
 * link:..//concepts/metrics.html[Metrics and definitions used in Keystone Services]
-* link:../concepts/qos.html[Quality of Service (QoS) in Keystone]
 * link:../concepts/pricing.html[Keystone pricing]
