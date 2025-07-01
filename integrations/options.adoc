@@ -44,7 +44,7 @@ To learn more about generating reports, refer to link:https://docs.netapp.com/us
 //NSEKEY-5735
 
 == View alerts from Digital Advisor
-In Digital Advisor, the Keystone dashboard provides alert notifications that enable you to understand the issues occurring in your storage environment. These notifications may appear as informational alerts or warnings. For example, with Keystone version 2, if there are volumes within your managed clusters that do not have adaptive QoS (AQoS) policies attached, you can see a warning message. Select the warning message to see the list of the non-compliant volumes in the *Volumes & Objects* tab.
+In Digital Advisor, the Keystone dashboard provides alert notifications that enable you to understand the issues occurring in your storage environment. These notifications may appear as informational alerts or warnings. For example, with Keystone version 2 (v2), if there are volumes within your managed clusters that do not have adaptive QoS (AQoS) policies attached, you can see a warning message. Select the warning message to see the list of the non-compliant volumes in the *Volumes & Objects* tab.
 
 [NOTE]
 If you have subscribed to a single performance service level or rate plan, you won't be able to see the alert for non-compliant volumes.

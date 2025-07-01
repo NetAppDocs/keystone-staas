@@ -67,7 +67,7 @@ NOTE: ^1^Mutually exclusive targets. Actual performance may differ based on vari
 
 The base performance service level metrics depend on the following conditions:
 
-* The performance service levels for unified storage support ONTAP 9.8 and later.
+* The performance service levels support ONTAP 9.8 and later.
 * For unified storage, 
 +
 ** *IOPS*: For ONTAP 9.16.1 with NFS, each performance level instance supports random access with a 70% read and 30% write ratio, an 8 KB block size, and a latency of 1 ms (4 ms for Standard).

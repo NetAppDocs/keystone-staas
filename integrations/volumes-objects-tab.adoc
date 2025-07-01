@@ -32,7 +32,7 @@ The *Volumes & Objects* tab offers insights into ONTAP system volumes and object
 +
 For the selected Keystone STaaS subscription, you can see the total number of volumes, their QoS compliance status, count of protected volumes, and the total committed, consumed, and available capacity in all those volumes. If you click the number of non-compliant or protected volumes, it takes you to the *Volume Details* tab, where you can view a filtered list showing either the non-compliant volumes or the protected volumes, based on your selection.
 +
-NOTE: QoS policies are not applicable in Keystone version 3.
+NOTE: QoS policies are not applicable in Keystone version 3 (v3).
 +
 image:volume-summary-2.png[Volume summary tab]
 
