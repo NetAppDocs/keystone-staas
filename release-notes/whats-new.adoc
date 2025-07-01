@@ -17,6 +17,10 @@ NetApp offers you new and enhanced features in every release of Keystone STaaS s
 
 //The following enhancements are introduced in the *Keystone Subscriptions* screen of Active IQ Digital Advisor (also known as Digital Advisor):
 
+== June 30, 2025
+You can now subscribe to Keystone version 3 (v3), the latest release of the NetApp Keystone STaaS offering. This version introduces several enhancements, including simplified performance service levels, additional burst capacity options, and flexible billing frequencies. These improvements simplify the management, optimization, and scaling of storage solutions. To learn more, refer to link:../concepts/metrics.html[Keystone STaaS services for v3].
+
+
 // tag::whats-new[]
 
 == June 19, 2025
@@ -139,10 +143,10 @@ The tooltip that appears when hovering over the capacity usage bar chart in the 
 === Enhanced access to view historical data for Keystone subscriptions
 You can now view historical data if a Keystone subscription is modified or renewed. You can set the start date of a subscription to a previous date to view :
 
-* Consumption and accrued burst usage data from the *Capacity Trend* tab,
-* Performance metrics of ONTAP volumes from the *Performance* tab,
+* Consumption and accrued burst usage data from the *Capacity Trend* tab.
+* Performance metrics of ONTAP volumes from the *Performance* tab.
 
-all of which show the data based on the selected date of the subscription.
+The data is displayed based on the selected start date of the subscription.
 
 == February 29, 2024
 

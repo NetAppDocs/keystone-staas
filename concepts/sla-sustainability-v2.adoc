@@ -1,0 +1,72 @@
+---
+sidebar: sidebar
+permalink: concepts/sla-sustainability-v2.html
+keywords: sustainability, sla, service level agreement, slo, service level objectives 
+summary: Keystone delivers a guaranteed measurement of maximum number of actual watts per tebibyte (W/TiB) for storage services based on ONTAP flash storage arrays with Sustainability SLO.
+---
+
+= Sustainability SLO 
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ../media/
+
+[.lead]
+NetApp Keystone delivers a guaranteed measurement of maximum number of actual watts per tebibyte (W/TiB) for storage services based on ONTAP flash storage arrays with Sustainability SLO. Sustainability SLO defines the maximum consumption of W/TiB for each eligible performance service level, helping organizations meet their sustainability goals.
+
+== Metrics
+
+* *Watts*: The power consumption reported from daily AutoSupport, including the usage by the controller and attached disk shelves. 
+* *Tebibyte*: The maximum of:
+** the committed capacity + allocated burst capacity for the performance service level, or
+** the effective deployed capacity, assuming a storage efficiency factor of `2:1`. 
+
++
+To learn more about storage efficiency ratio, refer to https://docs.netapp.com/us-en/active-iq/task_analyze_storage_efficiency.html[Analyze capacity and storage efficiency savings^].
+
+== Performance service levels
+Sustainability SLO is based on the following consumption criteria: 
+
+|===
+|*Service level* | *SLO criteria* |*Minimum committed capacity* |*Platform*
+a|
+Extreme |&lt;= 8 W/TiB |200 TiB |AFF A800 and AFF A900
+a|
+Premium |&lt;= 4 W/TiB |300 TiB |AFF A800 and AFF A900 
+a|
+Performance |&lt;= 4 W/TiB |300 TiB |AFF A800 and AFF A900 
+|===
+
+To learn more, refer to link:https://docs.netapp.com/us-en/keystone-staas/concepts/service-levels.html#service-levels-for-file-and-block-storage[Performance service levels in Keystone].
+
+== Service credits
+
+NOTE: SLAs and guarantees are available on a nomination basis.
+
+If W/TiB consumption during a billing period fails to meet the SLA criteria, then NetApp issues service credits as follows: 
+
+|===
+|Days SLA missed in billing period|Service credit
+
+a|1 to 2
+a|3%
+
+a|3 to 7
+a|15%
+
+a|14
+a|50%
+
+|===
+
+=== Service credit request
+If a breach of the SLA is detected, open a priority 3 (P3) support ticket with NetApp Keystone support, and provide the details as requested in the excel sheet as shown below:
+
+image:sla-breach.png[excel sheet template]
+
+[NOTE]
+====
+* A service credit request should be initiated within six weeks after NetApp Keystone support has validated a breach. All service credits should be acknowledged and approved by NetApp. 
+* Service credits may be applied to a future invoice. Service credits do not apply to expired Keystone subscriptions. To learn more, refer to link:../concepts/gssc.html[NetApp Keystone support].
+====

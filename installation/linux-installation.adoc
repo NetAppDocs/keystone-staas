@@ -36,7 +36,12 @@ A signature for an authentic file looks like this:
 . Install the YUM software repository file:
 `# yum install keystonerepo.rpm`
 . When the Keystone repo is installed, install the keystone-collector package through the YUM package manager:
++
 `# yum install keystone-collector`
++
+For Red Hat Enterprise Linux 9, run the following command to install the keystone-collector package:
+`# yum install keystone-collector-rhel9`
+
 --
 
 .Using Debian

@@ -1,11 +1,11 @@
 ---
 sidebar: sidebar
 permalink: concepts/sla-performance.html
-keywords: sustainability, sla, service level agreement, 
-summary: sustainability, sla, service level agreement
+keywords: sustainability, sla, service level agreement, slo, service level objectives
+summary: Keystone offers latency-based SLO per performance service level, as described in the Keystone order for consumed capacity up to the burst limit.
 ---
 
-= Performance SLA 
+= Performance SLO 
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,9 +13,7 @@ summary: sustainability, sla, service level agreement
 :imagesdir: ../media/
 
 [.lead]
-NetApp Keystone offers latency-based SLA per performance service level, as described in the Keystone order for consumed capacity up to the burst limit, according to the following listed terms and conditions.
-
-NOTE: SLAs and guarantees are available on a nomination basis.
+NetApp Keystone offers latency-based SLO per performance service level, as described in the Keystone order for consumed capacity up to the burst limit, according to the following listed terms and conditions.
 
 == Metrics
 * *Degraded performance*: The amount of time, in minutes, per incident, during which the 90^th^ percentile latency target is not met.
@@ -33,7 +31,7 @@ NOTE: SLAs and guarantees are available on a nomination basis.
 
 
 == Performance service levels
-All performance service levels that ONTAP flash storage arrays support are eligible for Performance SLA and guarantee meeting the following target latency:
+All performance service levels that ONTAP flash storage arrays support are eligible for Performance SLO and guarantee meeting the following target latency:
 
 |===
 |*Service level* | Extreme |Premium |Performance |Standard
@@ -44,6 +42,9 @@ a|
 To learn more about the latency requirements of the performance service levels, refer to link:../concepts/service-levels.html[Perfromance service Levels in Keystone].
 
 == Service credits
+
+NOTE: SLAs and guarantees are available on a nomination basis.
+
 NetApp issues service credits for the degraded performance:
 
 |===
@@ -51,7 +52,7 @@ NetApp issues service credits for the degraded performance:
 a|90^th^ percentile latency > target latency | 3% for each calendar day of occurrence
 |===
 
-== Service credit calculation
+=== Service credit calculation
 
 Service credits are determined using the following formula:
 
@@ -79,7 +80,7 @@ Service credits = ( 10 / 50 ) X 1000 x 2 x 0.03
 
 Based on calculation, the service credits will be $12.
 
-== Service credit request
+=== Service credit request
 If a breach of the SLA is detected, open a priority 3 (P3) support ticket with NetApp Keystone support.
 
 ** The following details are required:
