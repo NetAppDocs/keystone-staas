@@ -18,6 +18,8 @@ NetApp offers you new and enhanced features in every release of Keystone STaaS s
 //The following enhancements are introduced in the *Keystone Subscriptions* screen of Active IQ Digital Advisor (also known as Digital Advisor):
 
 == June 30, 2025
+
+=== Keystone version 3 (v3) release
 You can now subscribe to Keystone version 3 (v3), the latest release of the NetApp Keystone STaaS offering. This version introduces several enhancements, including simplified performance service levels, additional burst capacity options, and flexible billing frequencies. These improvements simplify the management, optimization, and scaling of storage solutions. To learn more, refer to link:../concepts/metrics.html[Keystone STaaS services for v3].
 
 
