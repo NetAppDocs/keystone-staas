@@ -7,4 +7,4 @@ With the Keystone dashboard in BlueXP, you can:
 * Easily manage subscriptions and request changes as your needs evolve.
 * Stay up to date with the latest information for your storage environment.
 
-To get started, go to *Storage > Keystone* in the BlueXP left navigation menu. To learn more, refer to link:../integrations/dashboard-overview.html[Keystone dashboard overview].
+To get started, go to *Storage > Keystone* in the BlueXP left navigation menu. To learn more, refer to link:https://docs.netapp.com/us-en/keystone-staas/integrations/dashboard-overview.html[Keystone dashboard overview].
