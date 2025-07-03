@@ -10,7 +10,7 @@ summary: NetApp offers you new and enhanced features in every release of Keyston
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ../media/
+:imagesdir: ./media/
 
 [.lead]
 NetApp offers you new and enhanced features in every release of Keystone STaaS services. 
@@ -20,7 +20,7 @@ NetApp offers you new and enhanced features in every release of Keystone STaaS s
 == 30 June 2025
 
 === Keystone version 3 (v3) release
-You can now subscribe to Keystone version 3 (v3), the latest release of the NetApp Keystone STaaS offering. This version introduces several enhancements, including simplified performance service levels, additional burst capacity options, and flexible billing frequencies. These improvements simplify the management, optimization, and scaling of storage solutions. To learn more, refer to link:../concepts/metrics.html[Keystone STaaS services for v3].
+You can now subscribe to Keystone version 3 (v3), the latest release of the NetApp Keystone STaaS offering. This version introduces several enhancements, including simplified performance service levels, additional burst capacity options, and flexible billing frequencies. These improvements simplify the management, optimization, and scaling of storage solutions. To learn more, refer to link:./concepts/metrics.html[Keystone STaaS services for v3].
 
 
 // tag::whats-new[]
@@ -44,7 +44,7 @@ The *Logical Used* column in the *Volume Details* tab within *Volumes & Objects*
 //NSEKEY-11787
 
 === Enhanced Assets tab
-The *Assets* tab in the *Keystone Subscriptions* screen now has two new sub-tabs: *ONTAP* and *StorageGRID*. These sub-tabs offer detailed cluster-level insights for ONTAP and grid-level information for StorageGRID based on your subscriptions. To learn more, refer to link:../integrations/assets-tab.html[Assets tab^].
+The *Assets* tab in the *Keystone Subscriptions* screen now has two new sub-tabs: *ONTAP* and *StorageGRID*. These sub-tabs offer detailed cluster-level insights for ONTAP and grid-level information for StorageGRID based on your subscriptions. To learn more, refer to link:./integrations/assets-tab.html[Assets tab^].
 //NSEKEY-11756
 
 === New Hide/Show Columns option
