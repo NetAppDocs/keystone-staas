@@ -34,7 +34,7 @@ include::_whatsnew/2025-06-19.adoc[]
 == 08 January 2025
 
 === Addition of daily accrued data usage viewing options
-You can now view daily accrued burst data usage in either graph or table format for a monthly or quarterly billing period by clicking the bar that displays the invoiced data. To learn more, refer to link:../integrations/consumption-tab.html#view-daily-accrued-burst-data-usage[View daily accrued burst data usage].
+You can now view daily accrued burst data usage in either graph or table format for a monthly or quarterly billing period by clicking the bar that displays the invoiced data. To learn more, refer to link:./integrations/consumption-tab.html#view-daily-accrued-burst-data-usage[View daily accrued burst data usage].
 //NSEKEY-11952
 
 == 12 December 2024
@@ -153,7 +153,7 @@ The data is displayed based on the selected start date of the subscription.
 == 29 February 2024
 
 === Addition of the Assets tab
-The *Keystone Subscriptions* screen now includes the *Assets* tab. This new tab provides cluster-level information based on your subscriptions. For more information, see link:../integrations/assets-tab.html[Assets tab^].
+The *Keystone Subscriptions* screen now includes the *Assets* tab. This new tab provides cluster-level information based on your subscriptions. For more information, see link:./integrations/assets-tab.html[Assets tab^].
 
 === Improvements to the Volumes & Objects tab 
 To provide better clarity to your ONTAP system volumes, two new tab buttons, *Volume Summary* and *Volume Details*, have been added to the *Volumes* tab. The *Volume Summary* tab provides an overall count of the volumes associated with your subscribed service levels, including their AQoS compliance status and capacity information. The *Volume Details* tab lists all the volumes and their specifics. For more information, see link:./integrations/volumes-objects-tab.html[Volumes & Objects tab^].
@@ -173,7 +173,7 @@ Some of your primary subscriptions can have linked, secondary subscriptions. If 
 == 11 January 2024
 
 === Invoiced data returned for accrued burst
-The labels for *Accrued Burst* are now modified to *Invoiced Accrued Burst* in the *Capacity Trend* tab. Selecting this option enables you to view the the monthly charts for the billed accrued burst data. For more information, see link:../integrations/consumption-tab.html#view-accrued-burst[View invoiced accrued burst^].
+The labels for *Accrued Burst* are now modified to *Invoiced Accrued Burst* in the *Capacity Trend* tab. Selecting this option enables you to view the the monthly charts for the billed accrued burst data. For more information, see link:./integrations/consumption-tab.html#view-accrued-burst[View invoiced accrued burst^].
 
 === Accrued consumption details for specific rate plans
 If you have a subscription that has rate plans with _zero_ committed capacity, you can view the accrued consumption details in the *Capacity Trend* tab. On selecting the *Invoiced Accrued Consumption* option, you can view the the monthly charts for the billed accrued consumption data.
@@ -182,7 +182,7 @@ If you have a subscription that has rate plans with _zero_ committed capacity, y
 == 15 December 2023
 
 === Ability to search by watchlists
-The support for watchlists in Digital Advisor has been extended to include Keystone systems. You can now view the details of the subscriptions for multiple customers by searching with watchlists. For more information about the use of watchlists in Keystone STaaS, see link:../integrations/keystone-aiq.html#search-by-keystone-watchlists[Search by Keystone watchlists^].
+The support for watchlists in Digital Advisor has been extended to include Keystone systems. You can now view the details of the subscriptions for multiple customers by searching with watchlists. For more information about the use of watchlists in Keystone STaaS, see link:./integrations/keystone-aiq.html#search-by-keystone-watchlists[Search by Keystone watchlists^].
 
 === Date converted to UTC timezone
 The data returned on the tabs of the *Keystone Subscriptions* screen of Digital Advisor is displayed in UTC time (server timezone). When you enter a date for query, it is automatically considered to be in UTC time. For more information, see link:./integrations/keystone-aiq.html[Keystone Subscription dashboard and reporting^].
