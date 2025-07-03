@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar
-permalink: release-notes/whats-new.html
+permalink: whats-new.html
 keywords: new features, release notes, enhancements, what's new
 summary: NetApp offers you new and enhanced features in every release of Keystone STaaS services. 
 ---

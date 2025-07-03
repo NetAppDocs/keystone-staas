@@ -13,7 +13,7 @@ sidebar:
     - title: Release notes
       entries:
         - title: What's new in Keystone STaaS
-          url: /release-notes/whats-new.html
+          url: /whats-new.html
         - title: Fixed issues
           url: /release-notes/fixed-issues.html  
         - title: Known issues
