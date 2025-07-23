@@ -13,7 +13,7 @@ summary: Keystone collects configuration, status, and usage information for ONTA
 :imagesdir: ../media/
 
 [.lead]
-Keystone collects configuration, status, and usage information for your Keystone ONTAP and Keystone StorageGRID subscriptions. It can also collect performance data for only ONTAP, if the option is enabled in Keystone Collector.
+Keystone collects configuration, status, and usage information from Keystone ONTAP and Keystone StorageGRID subscriptions, as well as telemetry data from the virtual machine (VM) hosting Keystone Collector. It can collect performance data for ONTAP only, if this option is enabled in Keystone Collector.
 
 == ONTAP data collection
 .*Usage data collected for ONTAP: Learn more*
@@ -261,5 +261,44 @@ When the *Remove Private Data* option is enabled on Keystone Collector, the foll
 * Instance/NodeName 
 
 ====
+
+== Telemetry data collection
+.*Telemetry data collected from Keystone Collector VM: Learn more*
+[%collapsible]
+====
+The following list is a representative sample of the telemetry data collected for Keystone systems:
+
+* System information
+** Operating system name
+** Operating system version
+** Operating system ID
+** System hostname
+** System default IP address
+* System resource usage
+** System uptime
+** CPU core count
+** System load (1 min, 5 min, 15 min)
+** Total memory
+** Free memory
+** Available memory
+** Shared memory
+** Buffer memory
+** Cached memory
+** Total swap
+** Free swap
+** Cached swap
+** Disk filesystem name
+** Disk size
+** Disk used
+** Disk available
+** Disk usage percentage
+** Disk mount point
+* Installed packages
+* Collector configuration
+* Service logs
+** Service logs from Keystone services
+
+====
+
 
 
