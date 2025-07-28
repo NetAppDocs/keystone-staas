@@ -6,6 +6,12 @@ settings:
   prod:
     pdf_enabled: true
     harmony_enabled: true
+  versions:
+    - version-number: "3.0"
+      url: /keystone-staas  
+    - version-number: "2.0"
+      url: /keystone-staas-2
+ 
 sidebar:
   entries:
     - title: Keystone docs
@@ -124,7 +130,7 @@ sidebar:
           url: /integrations/volumes-objects-tab.html          
         - title: View performance metrics 
           url: /integrations/performance-tab.html 
-    - title: Keystone STaaS concepts for v3
+    - title: Concepts
       entries: 
         - title: Keystone STaaS services
           entries:  
@@ -140,8 +146,6 @@ sidebar:
               url: /concepts/capacity-requirements.html 
         - title: Add-on services
           entries:  
-            - title: Advanced data protection
-              url: /concepts/adp.html
             - title: Burst capacity options
               url: /concepts/burst-capacity.html
             - title: Data Infrastructure Insights
@@ -176,58 +180,6 @@ sidebar:
               url: /concepts/misc-volume-billing.html
             - title: Billing schedules
               url: /concepts/billing-schedules.html                                                                   
-    - title: Keystone STaaS concepts for v2
-      entries:
-        - title: Keystone STaaS services
-          entries:  
-            - title: Metrics and definitions
-              url: /concepts/metrics-v2.html   
-            - title: Storage quality of service
-              url: /concepts/qos.html 
-            - title: Supported storage
-              url: /concepts/supported-storage-services-v2.html              
-            - title: Supported capacity
-              url: /concepts/supported-storage-capacity-v2.html
-            - title: Performance service levels
-              url: /concepts/service-levels-v2.html
-            - title: Capacity requirements for performance service levels
-              url: /concepts/capacity-requirements-v2.html
-        - title: Add-on services
-          entries:  
-            - title: Advanced data protection
-              url: /concepts/adp-v2.html
-            - title: Data Infrastructure Insights
-              url: /concepts/data-infra-insights-v2.html
-            - title: Data tiering
-              url: /concepts/data-tiering-v2.html
-            - title: Non-returnable, non-volatile components, and SnapLock compliance
-              url: /concepts/nrnvc-v2.html
-            - title: U.S. Protected Support (USPS)
-              url: /concepts/usps-v2.html 
-        - title: Keystone STaaS SLO
-          entries:
-            - title: Availability
-              url: /concepts/sla-availability-v2.html
-            - title: Performance
-              url: /concepts/sla-performance-v2.html                       
-            - title: Sustainability 
-              url: /concepts/sla-sustainability-v2.html 
-            - title: Ransomware Recovery Guarantee 
-              url: /concepts/sla-ransomware-v2.html
-        - title: Billing
-          entries:
-            - title: Keystone pricing
-              url: /concepts/pricing-v2.html
-            - title: Billing based on committed capacity
-              url: /concepts/committed-capacity-billing-v2.html
-            - title: Metering based on consumed capacity
-              url: /concepts/consumed-capacity-billing-v2.html
-            - title: Billing based on burst consumption
-              url: /concepts/burst-consumption-billing-v2.html
-            - title: Miscellaneous scenarios for Keystone billing
-              url: /concepts/misc-volume-billing-v2.html
-            - title: Billing schedules
-              url: /concepts/billing-schedules-v2.html
     - title: Access Keystone from Digital Advisor REST API
       entries:
         - title: Get started using the Digital Advisor REST API to retrieve Keystone data
