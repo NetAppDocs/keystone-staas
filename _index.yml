@@ -31,8 +31,6 @@ indexpage:
       links:
         - title: Keystone performance service Levels
           url: /concepts/service-levels.html
-        - title: Quality of Service (QoS)
-          url: /concepts/qos.html
         - title: What are the units of measurement?
           url: /concepts/metrics.html
         - title: What is the supported base storage?
