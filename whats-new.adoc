@@ -25,7 +25,9 @@ include::_whatsnew/2025-06-19.adoc[]
 
 // end::whats-new[]
 
----
+++++
+<hr style="border: 1px solid #ccc; margin: 20px 0;">
+++++
 
 The following performance level updates are introduced:
 
@@ -34,13 +36,14 @@ The following performance level updates are introduced:
 === Keystone version 3 (v3) release
 You can now subscribe to Keystone version 3 (v3), the latest release of the NetApp Keystone STaaS offering. This version introduces several enhancements, including simplified performance service levels, additional burst capacity options, and flexible billing frequencies. These improvements simplify the management, optimization, and scaling of storage solutions. To learn more, refer to link:https://docs.netapp.com/us-en/keystone-staas/concepts/metrics.html[Keystone STaaS services for v3].
 
----
+[.text-center]
+***
 
 The following enhancements are introduced in the *Keystone Subscriptions* screen of Active IQ Digital Advisor (also known as Digital Advisor):
 
-=== 08 January 2025
+== 08 January 2025
 
-==== Addition of daily accrued data usage viewing options
+=== Addition of daily accrued data usage viewing options
 You can now view daily accrued burst data usage in either graph or table format for a monthly or quarterly billing period by clicking the bar that displays the invoiced data. To learn more, refer to link:./integrations/consumption-tab.html#view-daily-accrued-burst-data-usage[View daily accrued burst data usage].
 //NSEKEY-11952
 
