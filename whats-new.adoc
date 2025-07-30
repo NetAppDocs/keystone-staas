@@ -15,6 +15,8 @@ summary: NetApp offers you new and enhanced features in every release of Keyston
 [.lead]
 Learn about the latest features and enhancements in Keystone STaaS services. 
 
+[.big-heading]
+*Performance Service Level Updates*
 The following features and enhancements are introduced in the Keystone dashboard of BlueXP:
 
 // tag::whats-new[]
@@ -25,19 +27,25 @@ include::_whatsnew/2025-06-19.adoc[]
 
 // end::whats-new[]
 
+
+
 ++++
 <hr style="border: 1px solid #ccc; margin: 20px 0;">
 ++++
 
-The following performance level updates are introduced:
+++++
+<h3 style="text-align: left; color: #010000ff;">Performance service level updates</h3>
+++++
 
 == 30 June 2025
 
 === Keystone version 3 (v3) release
 You can now subscribe to Keystone version 3 (v3), the latest release of the NetApp Keystone STaaS offering. This version introduces several enhancements, including simplified performance service levels, additional burst capacity options, and flexible billing frequencies. These improvements simplify the management, optimization, and scaling of storage solutions. To learn more, refer to link:https://docs.netapp.com/us-en/keystone-staas/concepts/metrics.html[Keystone STaaS services for v3].
 
-[.text-center]
-***
+
+++++
+<hr style="border: 1px solid #ccc; margin: 20px 0;">
+++++
 
 The following enhancements are introduced in the *Keystone Subscriptions* screen of Active IQ Digital Advisor (also known as Digital Advisor):
 
