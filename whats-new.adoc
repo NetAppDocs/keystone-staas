@@ -15,8 +15,6 @@ summary: NetApp offers you new and enhanced features in every release of Keyston
 [.lead]
 Learn about the latest features and enhancements in Keystone STaaS services. 
 
-[.big-heading]
-*Performance Service Level Updates*
 The following features and enhancements are introduced in the Keystone dashboard of BlueXP:
 
 // tag::whats-new[]
@@ -28,14 +26,11 @@ include::_whatsnew/2025-06-19.adoc[]
 // end::whats-new[]
 
 
-
 ++++
 <hr style="border: 1px solid #ccc; margin: 20px 0;">
 ++++
 
-++++
-<h3 style="text-align: left; color: #010000ff;">Performance service level updates</h3>
-++++
+The following enhancements are introduced to the Keystone STaaS services:
 
 == 30 June 2025
 
