@@ -19,7 +19,9 @@ A subscription can have multiple rate plans and each rate plan corresponds to a 
 
 A performance service level can have multiple instances, with each instance representing a separate storage array assigned to that performance service level in the customer's environment. Each performance service level is defined by input/output operations per second (IOPS), throughput (GBps), and latency (ms), with these metrics measured and applied per performance service level instance.
 
-You select performance service levels based on your storage environment, and storage and consumption needs. The base performance service levels are available for you by default. Specific performance service levels are additionally available, if you have opted for add-on services. For example, for the advanced data protection add-on service, the _Advanced Data-Protect_ performance service level is assigned to your subscription.
+You select performance service levels based on your storage environment, and storage and consumption needs. The base performance service levels are available for you by default. Specific performance service levels are additionally available, if you have opted for add-on services.
+
+//For example, for the advanced data protection add-on service, the _Advanced Data-Protect_ performance service level is assigned to your subscription.
 
 [TIP]
 A detailed service description for NetApp Keystone STaaS performance service levels is available https://www.netapp.com/services/keystone/terms-and-conditions/[here^].

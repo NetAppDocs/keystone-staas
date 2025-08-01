@@ -1,7 +1,7 @@
 # Start snippet: landing page
 indexpage:
   title: Keystone documentation
-  lead: NetApp Keystone is a flexible pay-as-you-go subscription-based service that delivers a seamless hybrid cloud experience for customers who prefer operational expenses over capital expenditures or leasing. It gives you the ability to accelerate time to value by removing the IT burden on managing resources and going through the lengthy procurement cycle. Browse the docs in this library to learn more about the NetApp Keystone Storage-as-a-Service (STaaS) STaaS offering in your ONTAP or StorageGRID environment.
+  lead: NetApp Keystone is a flexible pay-as-you-go subscription-based service that delivers a seamless hybrid cloud experience for customers who prefer operational expenses over capital expenditures or leasing. It gives you the ability to accelerate time-to-value by removing the IT burden of managing resources and avoiding the lengthy procurement cycle. Browse the docs in this library to learn more about the NetApp Keystone Storage-as-a-Service (STaaS) offering.
   summary: NetApp Keystone is a pay-as-you-go, storage-as-a-service offering for both on-premises and cloud data storage services under one subscription with the ability to reallocate storage spend across clouds.
   keywords: Keystone STaaS
   tiles:
@@ -39,7 +39,7 @@ indexpage:
           url: /concepts/capacity-requirements.html#capacity-adjustments
     - title: Keystone pricing and billing
       links:
-      - title: Know about Keystone pricing
+      - title: Learn about Keystone pricing
         url: /concepts/pricing.html
       - title: My billing schedules
         url: /concepts/billing-schedules.html
@@ -51,7 +51,7 @@ indexpage:
         url: /concepts/burst-consumption-billing.html
     - title: Do more with Keystone services
       links:
-        - title: Know your support team
+        - title: Learn about your support team
           url: /concepts/gssc.html
         - title: Increase burst capacity
           url: /concepts/burst-capacity.html
@@ -63,7 +63,7 @@ indexpage:
           url: /concepts/data-infra-insights.html
         - title: US Citizen Support
           url: /concepts/usps.html
-    - title: Know more
+    - title: Learn more
       links:
         - title: Active IQ Digital Advisor
           url: https://docs.netapp.com/us-en/active-iq/index.html

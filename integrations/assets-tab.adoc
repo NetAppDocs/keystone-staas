@@ -35,9 +35,9 @@ You are redirected to the *Current consumption* tab.
 . Select the *Assets* tab.
 . Select *Volumes in cluster* from the *View* dropdown.
 +
-image:bxp-volumes-clusters-single-subscription.png[A screenshot of volumes in clusters for a subscription]
+image:bxp-volumes-clusters-single-subscription-1.png[A screenshot of volumes in clusters for a subscription]
 +
-You see the detailed information about volumes in clusters including volume name, node serial number, compliance with QoS policies, cluster name, host name, and performance service levels. You can also monitor the provisioned capacity, logical and physical utilization, and cold data. 
+You see the detailed information about volumes in clusters including volume name, node serial number, cluster name, host name, and performance service levels. You can also monitor the provisioned capacity, logical and physical utilization, and cold data. 
 +
 TIP: You can customize the table using the column selector image:column-selector.png[column selector icon] icon and use the search bar at the top to search and filter table data based on the column parameters.
 --

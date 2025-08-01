@@ -20,7 +20,7 @@ In BlueXP, you can search and filter Keystone data based on the column parameter
 
 //Filtering is limited to the columns present in the table of the tab. For instance, you cannot filter by Keystone version in the *Volumes in clusters* tab.
 
-You can refine your searches by using the advanced filter option where available. For example, in the *Subscriptions* sub-tab, you can filter data by Keystone version, billing period, highest capacity, and days to subscription expiry, and in the *Volumes in clusters* tab, you can filter by volume name, cluster name, QoS compliance, volume type, and more. Multiple filters can be applied simultaneously to narrow down your results with precision.
+You can refine your searches by using the advanced filter option where available. For example, in the *Subscriptions* sub-tab, you can filter data by Keystone version, billing period, highest capacity, and days to subscription expiry, and in the *Volumes in clusters* tab, you can filter by volume name, cluster name, volume type, and more. Multiple filters can be applied simultaneously to narrow down your results with precision.
 image:bxp-filter-search.png[advance filter option]
 
 //== View last refresh timestamp from BlueXP
