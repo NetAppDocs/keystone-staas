@@ -27,7 +27,6 @@ The *Overview* tab offers the following insights:
 * *Open requests*: The total number of open service requests.
 * *Unresolved alerts by severity*: ##Lists the total unresolved alerts based on severity—Critical, Warning, and Informational. Each category includes a *View* button to review details and take further action.##
 * *Capacity usage*: The capacity consumption status for subscriptions that are above burst, using burst, and underutilized. Each category includes a *View* button to navigate to the *Subscriptions* tab with relevant filters applied.
-
 //* *Keystone version across subscriptions*: A breakdown of your Keystone subscriptions by version. The rate plan rules for performance service levels may differ between subscription versions. You can filter subscriptions by version using the *View* button, which takes you to the *Subscriptions* tab with the relevant filters applied. To learn more about version v1, refer to https://docs.netapp.com/us-en/keystone/index.html[Keystone subscription services | Version 1 documentation^].
 //* *Keystone version across subscriptions*: A pie chart of Keystone subscriptions across versions v1, v2, and v3. The rate plan rules for the performance service levels might vary for the two subscription types. You can filter subscriptions by version using the *View* button, which navigates to the *Subscriptions* tab with relevant filters applied. To learn more about Keystone Subscriptions version 1, refer to https://docs.netapp.com/us-en/keystone/index.html[Keystone subscription services | Version 1 documentation^].
 //+
