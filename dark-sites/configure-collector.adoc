@@ -54,7 +54,7 @@ image:dark-site-overall-healthy-2.png[Service status]
 +
 `~/collector-public.pem`
 +
-. Send an email with this file to ng-keystone-secure-site-upload@netapp.com for non-USPS secure sites, or to ng-keystone-secure-site-usps-upload@netapp.com for secure USPS sites.
+. Send an email with this file to ng-keystone-secure-site-upload@netapp.com for secure non-USPS sites, or to ng-keystone-secure-site-usps-upload@netapp.com for secure USPS sites.
 
 == Export usage report
 You should send the monthly usage summary report to NetApp at the end of every month. You can generate this report manually.
@@ -62,7 +62,7 @@ You should send the monthly usage summary report to NetApp at the end of every m
 Follow these steps to generate the usage report:
 
 . Go to to *Export Usage* on the Keystone Collector TUI home screen.
-. Collect the files and send them to ng-keystone-secure-site-upload@netapp.com for non-USPS secure sites, or to ng-keystone-secure-site-usps-upload@netapp.com for secure USPS sites.
+. Collect the files and send them to ng-keystone-secure-site-upload@netapp.com for secure non-USPS sites, or to ng-keystone-secure-site-usps-upload@netapp.com for secure USPS sites.
 +
 Keystone Collector generates both a clear file and an encrypted file, which should be manually sent to NetApp. The clear file report contains the following details that can be validated by the customer.
 +

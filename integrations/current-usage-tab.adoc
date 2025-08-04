@@ -33,7 +33,7 @@ image:bxp-current-consumption-graph-1.png[current consumption details in the gra
 +
 For the selected subscription, you can view consumption details in either table or graphical format using the *Table* or *Graph* option from the *View as* dropdown. In the graphical view, you can see the current consumption per performance service level, including used capacity, provisioned capacity, committed capacity limit, and burst capacity limit.
 +
-NOTE: ##If a performance service level has multiple instances, you can expand *View by instances* in either view to see current consumption details for each instance separately. For example, if you have two instances of the Extreme performance service level within a subscription, each instance will display its own committed, consumed, and available capacities separately.##
+NOTE: If a performance service level has multiple instances, you can expand *View by instances* in either view to see current consumption details for each instance separately. For example, if you have two instances of the Extreme performance service level within a subscription, each instance will display its own committed, consumed, and available capacities separately.
 +
 In the table view, you can see details like maximum capacity consumed and days remaining until expiration. As part of monitoring your subscription usage, you can view the performance service level name, consumption status, committed and used capacities, provisioned and burst capacities, available capacity, and volumes. You can customize the table using the column selector image:column-selector.png[column selector icon] icon.
 +
@@ -52,7 +52,7 @@ image:aiq-ks-dtls-4.png[Current Consumption tab]
 +
 For the selected subscription, you can view details, such as the start and end dates of the subscription, and the billing period, such as monthly or annual. As a part of the subscription usage, you can view the performance service level name, committed, consumed, available capacities, and current and accrued burst usage (in TiB). Specific performance service levels that record higher consumption are highlighted. You can also view warnings and alerts generated for your volumes.
 +
-NOTE: ##If a performance service level has multiple instances, you can select the *Instances* tab to see current consumption details for each instance. For example, if you have two instances of the Extreme performance service level within a subscription, each instance will display its own committed, consumed, and available capacities separately. To learn more about the performance service levels, see link:../concepts/service-levels.html[Performance service levels in Keystone].##
+NOTE: If a performance service level has multiple instances, you can select the *Instances* tab to see current consumption details for each instance. For example, if you have two instances of the Extreme performance service level within a subscription, each instance will display its own committed, consumed, and available capacities separately. To learn more about the performance service levels, see link:../concepts/service-levels.html[Performance service levels in Keystone].
 +
 Coupled with the current consumption, you might want to view the historical usage data for comparison. Click the *View Historical Data* button to navigate to the *Consumption Trend* tab to view the historical data for the same subscription.
 
