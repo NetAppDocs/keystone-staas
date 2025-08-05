@@ -13,10 +13,10 @@ summary: Use the advanced data protection add-on service to ensure efficient dat
 :imagesdir: ../media/
 
 [.lead]
-You can subscribe to the advanced data protection add-on service as a part of your Keystone STaaS subscription. This add-on service leverages NetApp MetroCluster technology to ensure efficient data protection of your mission-critical workloads at a recovery point objective (RPO) of 0.
+You can subscribe to the advanced data protection add-on service with your Keystone STaaS subscription. This add-on service uses NetApp MetroCluster technology to ensure efficient data protection of your mission-critical workloads with a recovery point objective (RPO) of 0.
 
 [NOTE]
-Keystone STaaS standard services for file and block storage offer default data protection services by leveraging NetApp technologies, such as SnapMirror, SnapVault, and Snapshot. 
+Keystone STaaS standard services for file and block storage offer default data protection services by using NetApp technologies, such as SnapMirror, SnapVault, and Snapshot.  
 
 For information about the standard and cloud service, see link:../concepts/supported-storage-services.html[Keystone STaaS services].
 

@@ -24,7 +24,7 @@ NetApp Keystone offers latency-based SLO per performance service level, as descr
 ** Latency added by AQoS to maintain minimum IOPS per volume are excluded from the sample.
 ** For volumes that have FabricPool enabled, the latency incurred due to the transfer of data to and from the target (cold) storage is not counted.
 ** Latency caused by the application, host, or customer network outside of the ONTAP cluster is not counted.
-** When using the advanced data protection add-on service, the target latency includes only IO operations to and from the local storage array.
+//** When using the advanced data protection add-on service, the target latency includes only IO operations to and from the local storage array.
 ** During a 24-hour period, at least ten valid metrics should be available. If not, the metrics will be discarded.
 ** If one or more volumes on a storage array do not have a valid AQoS policy applied, then number of IOPS available to other volumes may be affected, and NetApp will not be responsible for targeting or meeting performance levels on that storage array.
 ** In FabricPool configurations, performance levels are applicable when all requested data blocks are on FabricPool source (hot) storage and the source storage is not in a SnapMirror Synchronous relationship.

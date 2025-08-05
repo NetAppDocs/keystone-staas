@@ -30,11 +30,9 @@ The *Volumes & Objects* tab offers insights into ONTAP system volumes and object
 . From the Digital Advisor left navigation pane, go to *General > Keystone Subscriptions > Volumes & Objects > Volume Summary*.
 . Select the subscription number.
 +
-For the selected Keystone STaaS subscription, you can see the total number of volumes, their QoS compliance status, count of protected volumes, and the total committed, consumed, and available capacity in all those volumes. If you click the number of non-compliant or protected volumes, it takes you to the *Volume Details* tab, where you can view a filtered list showing either the non-compliant volumes or the protected volumes, based on your selection.
+For the selected Keystone STaaS subscription, you can see the total number of volumes, count of protected volumes, anti ransomware protection status, and the total committed, consumed, and available capacity in all those volumes. If you click the number of protected volumes, it takes you to the *Volume Details* tab, where you can view a filtered list showing the protected volumes, based on your selection.
 +
-NOTE: QoS policies are not applicable in Keystone version 3 (v3).
-+
-image:volume-summary-2.png[Volume summary tab]
+image:volume-summary-3.png[Volume summary tab]
 
 --
 
@@ -45,14 +43,12 @@ image:volume-summary-2.png[Volume summary tab]
 +
 You can see the tabular listing of the volumes, such as capacity usage, volume type, cluster, aggregate, and the assigned Keystone performance service levels. You can scroll across the columns and learn more about them by hovering your mouse on the information icons beside the column headings. You can sort by the columns and filter the lists to view specific information. 
 +
-NOTE: QoS policies are not applicable in Keystone version 3.
-+
 You can use *Hide/Show Columns*  to add or remove columns displayed in the table. By default, all columns are selected except the *Department* column. You can select or deselect any columns, including the *Department* column, and your preferences will be saved for later use. When downloading the CSV report, the *Department* column details will be included if selected, while other columns will appear regardless of their selection status in the table.
 //NSEKEY-12126, NSEKEY-12128
+//+
+//NOTE: For advanced data protection add-on service, an additional column appears to indicate whether the volume is a primary or mirror volume in the MetroCluster configuration. You can copy individual node serial numbers by clicking the *Copy Node Serials* button.
 +
-NOTE: For advanced data protection add-on service, an additional column appears to indicate whether the volume is a primary or mirror volume in the MetroCluster configuration. You can copy individual node serial numbers by clicking the *Copy Node Serials* button.
-+
-image:volume-details-3.png[Volumes details tab]
+image:volume-details-4.png[Volumes details tab]
 
 --
 
