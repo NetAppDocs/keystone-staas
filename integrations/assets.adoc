@@ -41,7 +41,7 @@ TIP: You can customize the table using the column selector image:column-selector
 . From the BlueXP left navigation menu, select *Storage > Keystone > Assets*.
 . Select the *Volumes in clusters* tab. 
 +
-image:bxp-volumes-clusters-multiple-sub.png[A screenshot of volumes in clusters for multiple subscriptions]
+image:bxp-volumes-clusters-multiple-sub-1.png[A screenshot of volumes in clusters for multiple subscriptions]
 +
 You see the detailed information about all volumes in clusters across Keystone subscriptions including volume name, subscription number, node serial number, compliance with QoS policies, cluster name, host name, and performance service levels. You can monitor the provisioned capacity, logical and physical utilization, and cold data. You also get an overview of:
 +

@@ -39,9 +39,11 @@ The historical consumption data for each performance service level is displayed 
 +
 NOTE: You can select *Accrued burst* from the *View* dropdown if you want to view the historical burst usage data for which invoices have been generated. You can use this data to analyze the billed usage reflected in your invoice. To learn more, refer to link:../integrations/consumption-tab.html#view-accrued-burst[View accrued burst].
 +
-image:bxp-consumption-trend.png[screenshot displaying historical consumption]  
+image:bxp-consumption-trend-1.png[screenshot displaying historical consumption]  
 +
-The line graph displays historical consumption data and allows users to analyze trends over a selected date range. The graph shows metrics such as data (storage capacity used by user data), snapshot (storage capacity used by snapshot data), and used capacity (total storage capacity, including both data and snapshot data), along with committed and burst capacity. The date and time of each data point are displayed at the bottom of the graph. Based on the date range of your query, the usage charts show up to 30 data collection points. You can hover your mouse cursor over the graph to view the usage breakdown at each data collection point.
+The line graph displays historical consumption data and allows users to analyze trends over a selected date range. The graph shows metrics such as used capacity (total storage capacity, including both data and snapshot data), data (storage capacity used by user data), and snapshot (storage capacity used by snapshot data), along with committed and burst capacity. The date and time of each data point are displayed at the bottom of the graph. Based on the date range of your query, the usage charts show up to 30 data collection points. You can hover your mouse cursor over the graph to view the usage breakdown at each data collection point.
++
+NOTE: If a performance service level has multiple instances, you can filter by instance to view historical data for each one separately.
 +
 You can also view a summary of current consumption alongside historical consumption to get a clear understanding of your usage.
 --
@@ -136,47 +138,47 @@ image:invoiced-daily-accr-burst-date.png[screenshot showing burst usage data in 
 
 You can switch to a table view by clicking the *Table* option at the top right corner of the graph. The table view provides detailed daily usage metrics, including performance service level, timestamp, committed capacity, consumed capacity, and billable provisioned capacity. You can also generate a report of these details in CSV format for future use and comparison.
 
-== Reference charts for advanced data protection for MetroCluster 
-If you have subscribed to the advanced data protection add-on service, you can view the breakup of the consumption data for the MetroCluster partner sites on the *Consumption Trend* tab in Digital Advisor.
+//== Reference charts for advanced data protection for MetroCluster 
+//If you have subscribed to the advanced data protection add-on service, you can view the breakup of the consumption data for the MetroCluster partner sites on the *Consumption Trend* tab in Digital Advisor.
 
-For information about advanced data protection add-on service, see link:../concepts/adp.html[Advanced data protection].
+//For information about advanced data protection add-on service, see link:../concepts/adp.html[Advanced data protection].
 
-If the clusters in your ONTAP storage environment are configured in a MetroCluster setup, the consumption data of your Keystone subscription is split in the same historical data chart to display the consumption at the primary and mirror sites for the base performance service levels.
+//If the clusters in your ONTAP storage environment are configured in a MetroCluster setup, the consumption data of your Keystone subscription is split in the same historical data chart to display the consumption at the primary and mirror sites for the base performance service levels.
 
-[NOTE]
-The consumption bar charts are split for only the base performance service levels. For advanced data protection add-on service, that is the _Advanced Data-Protect_ performance service level, this demarcation does not appear.
+//[NOTE]
+//The consumption bar charts are split for only the base performance service levels. For advanced data protection add-on service, that is the _Advanced Data-Protect_ performance service level, this demarcation does not appear.
 
-.Advanced data protection performance service level
+//.Advanced data protection performance service level
 
-For the _Advanced Data-Protect_ performance service level, the total consumption is split between the partner sites, and the usage at each partner site is reflected and billed in a separate subscription; one subscription for the primary site, and another for the mirror site. That is the reason why, when you select the subscription number for the primary site on the *Consumption Trend* tab, the consumption charts for the advanced data protection add-on service display the discrete consumption details of only the primary site. Because each partner site in a MetroCluster configuration acts both as a source and mirror, the total consumption at each site includes the source and the mirror volumes created at that site.
+//For the _Advanced Data-Protect_ performance service level, the total consumption is split between the partner sites, and the usage at each partner site is reflected and billed in a separate subscription; one subscription for the primary site, and another for the mirror site. That is the reason why, when you select the subscription number for the primary site on the *Consumption Trend* tab, the consumption charts for the advanced data protection add-on service display the discrete consumption details of only the primary site. Because each partner site in a MetroCluster configuration acts both as a source and mirror, the total consumption at each site includes the source and the mirror volumes created at that site.
 
-[TIP]
-The tooltip next to the tracking ID of your subscription in the *Current Consumption* tab helps you identify the partner subscription in the MetroCluster setup.
+//[TIP]
+//The tooltip next to the tracking ID of your subscription in the *Current Consumption* tab helps you identify the partner subscription in the MetroCluster setup.
 
-.Base performance service levels
+//.Base performance service levels
 
-For the base performance service levels, each volume is charged as provisioned at the primary and mirror sites, and hence the same bar chart is split according to the consumption at the primary and mirror sites.
+//For the base performance service levels, each volume is charged as provisioned at the primary and mirror sites, and hence the same bar chart is split according to the consumption at the primary and mirror sites.
 
-.What you can see for the primary subscription
+//.What you can see for the primary subscription
 
-The following image displays the charts for the _Extreme_ performance service level (base performance service level) and a primary subscription number. The same historical data chart also indicates the mirror site consumption in a lighter shade of the same color code used for the primary site. The tooltip on mouse hover displays the consumption breakup (in TiB) for the primary and mirror sites, 22.24 TiB and 14.86 TiB respectively.
+//The following image displays the charts for the _Extreme_ performance service level (base performance service level) and a primary subscription number. The same historical data chart also indicates the mirror site consumption in a lighter shade of the same color code used for the primary site. The tooltip on mouse hover displays the consumption breakup (in TiB) for the primary and mirror sites, 22.24 TiB and 14.86 TiB respectively.
 
-image:mcc-chart-1.png[mcc primary]
+//image:mcc-chart-1.png[mcc primary]
 
-For the _Advanced Data-Protect_ performance service level, the charts appear like this:
+//For the _Advanced Data-Protect_ performance service level, the charts appear like this:
 
-image:adp-src-1.png[mcc primary base]
+//image:adp-src-1.png[mcc primary base]
 
-.What you can see for the secondary (mirror site) subscription
+//.What you can see for the secondary (mirror site) subscription
 
-When you check the secondary subscription, you can see that the bar chart for the _Extreme_ performance service level (base performance service level) at the same data collection point as the partner site is reversed, and the consumption breakup at the primary and mirror sites is 14.86 TiB and 22.24 TiB respectively.
+//When you check the secondary subscription, you can see that the bar chart for the _Extreme_ performance service level (base performance service level) at the same data collection point as the partner site is reversed, and the consumption breakup at the primary and mirror sites is 14.86 TiB and 22.24 TiB respectively.
 
-image:mcc-chart-mirror-1.png[mcc mirror]
+//image:mcc-chart-mirror-1.png[mcc mirror]
 
-For the _Advanced Data-Protect_ performance service level, the chart appears like this for the same collection point as at the partner site:
+//For the _Advanced Data-Protect_ performance service level, the chart appears like this for the same collection point as at the partner site:
 
-image:adp-mir-1.png[mcc mirror base]
+//image:adp-mir-1.png[mcc mirror base]
 
-For information about how MetroCluster protects your data, see https://docs.netapp.com/us-en/ontap-metrocluster/manage/concept_understanding_mcc_data_protection_and_disaster_recovery.html[Understanding MetroCluster data protection and disaster recovery^].
+//For information about how MetroCluster protects your data, see https://docs.netapp.com/us-en/ontap-metrocluster/manage/concept_understanding_mcc_data_protection_and_disaster_recovery.html[Understanding MetroCluster data protection and disaster recovery^].
 
 

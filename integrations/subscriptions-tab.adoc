@@ -26,9 +26,9 @@ The *Subscriptions* tab in BlueXP is divided into two sections: *Subscriptions* 
 
 . From the BlueXP left navigation menu, go to *Storage > Keystone > Subscriptions*.
 +
-image:bxp-subscription- list.png[view the subscription tab details]
+image:bxp-subscription-list-1.png[view the subscription tab details]
 +
-You see the key metrics such as capacity status, subscription expiry status, and Keystone version across subscriptions. To learn more, refer to link:../integrations/keystone-bluexp.html[Keystone dashboard in BlueXP].
+You see the key metrics such as capacity usage, subscription expiry status, and Keystone version across subscriptions. To learn more, refer to link:../integrations/keystone-bluexp.html[Keystone dashboard in BlueXP].
 +
 You can see the following details from the table:
 +
@@ -36,7 +36,7 @@ You can see the following details from the table:
 * *Tracking ID*: The tracking ID assigned at the time of subscription activation. This is a unique ID for each subscription and site, used for tracking the subscription.
 * *Customer name*: The name of the customer associated with the Keystone subscription.
 * *Linked subscriptions*: If you have any secondary subscriptions linked to your primary subscription, this column lists the linked subscription numbers for the primary subscription. This subscription number can be of your primary or secondary (linked) subscription.
-* *Keystone version*: The version of the Keystone service that is being used for the subscription.
+* *Keystone version*: The version of the Keystone service that is being used for the subscription. The rate plan rules for performance service levels may differ between subscription versions. To learn more about version v1, refer to https://docs.netapp.com/us-en/keystone/index.html[Keystone subscription services | Version 1 documentation^].
 * *Billing period*: The invoicing period of the subscription.
 * *Performance service levels*: The number of rate plans associated with the subscription, with each rate plan corresponding to a specific performance service level and committed capacity. 
 * *Highest capacity*: The maximum capacity consumed within the subscription. 
@@ -50,7 +50,7 @@ image:bxp-performance-levels.png[view performance service levels across all subs
 * *Performance service levels across subscriptions*: Displays the number of performance service levels across the subscriptions.
 * *Provisioning consistency across subscriptions*: Shows the counts for over-provisioned and under-provisioned performance service levels.
 +
-You can see the listing of performance service levels, including key details such as the name of the customer, subscription number, type of performance service level, total number of volumes, and their QoS compliance status. The table also displays the count of protected volumes, the total committed, consumed, provisioned, available capacity (with and without burst), and accrued burst capacity.
+You can see the listing of performance service levels, including key details such as the name of the customer, subscription number, type of performance service level, and total number of volumes. The table also displays the count of protected volumes, the total committed, consumed, provisioned, available capacity (with and without burst), and accrued burst capacity.
 --
 
 .Digital Advisor
@@ -62,15 +62,15 @@ To view your subscriptions in Digital Advisor, follow these steps:
 +
 You can view all your subscriptions here, with detailed insights for each one.
 +
-image:all-subs-3.png[an image of the Subscriptions tab]
+image:all-subs-4.png[an image of the Subscriptions tab]
 +
 For certain fields and columns, you might see information or warning icons and tooltips that provide you with additional information about the data. 
 +
 * *Subscription Number*: The subscription number of the Keystone subscription assigned by NetApp.
-//*Linked Subscriptions*: This column is optionally available to you. If you have any secondary subscriptions linked to your primary subscription, this column lists the linked subscription numbers for the primary subscription. This subscription number can be of your primary or secondary (linked) subscription.
+* *Linked Subscriptions*: This column is optionally available to you. If you have any secondary subscriptions linked to your primary subscription, this column lists the linked subscription numbers for the primary subscription. This subscription number can be of your primary or secondary (linked) subscription.
 * *Tracking ID*: The tracking ID assigned at the time of subscription activation. This is a unique ID for each subscription and site.
-[TIP]
-If you have subscribed to advanced data protection add-on service, then you can click the tooltip against your subscription number to view the tracking ID of the partner subscription in a MetroCluster setup. To view detailed consumption by partner subscriptions in a MetroCluster configuration, see link:../integrations/consumption-tab.html#reference-charts-for-advanced-data-protection-for-metrocluster[Reference charts for advanced data protection].
+//[TIP]
+//If you have subscribed to advanced data protection add-on service, then you can click the tooltip against your subscription number to view the tracking ID of the partner subscription in a MetroCluster setup. To view detailed consumption by partner subscriptions in a MetroCluster configuration, see link:../integrations/consumption-tab.html#reference-charts-for-advanced-data-protection-for-metrocluster[Reference charts for advanced data protection].
 * *Usage Type*: You might have subscribed to multiple Keystone versions. The rate plan rules for performance service levels may differ between subscription versions. By looking at the value in this column, you know whether the usage type is billed as per the provisioned, physical, or logical usage. To learn more about version 1, refer to https://docs.netapp.com/us-en/keystone/index.html[Keystone subscription services | Version 1 documentation^].
 * *Billing Period*: The invoicing period of the subscription.
 * *Start Date*: The start date of the subscription.
