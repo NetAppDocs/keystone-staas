@@ -25,7 +25,7 @@ For quarterly, semi-annually, and annually billing, the process is similar with 
 * *Semi-annually billing*: An invoice is generated at the beginning of every six months for the minimum payment of the committed capacity. Another invoice is sent at the end of each quarter for any burst usage accrued.
 * *Annually billing*: An invoice is generated at the beginning of each subscription year for the minimum payment of the committed capacity. Another invoice is sent at the end of each quarter for any burst usage accrued.
 
-For quarterly, semi-annual, and annual billing, if the committed capacity is changed during a subscription, an invoice is sent on the same day for the prorated minimum payments for the rest of that subscription year. Billing is calculated from the day the change in committed capacity becomes effective.
+For quarterly, semi-annually, and annually billing, if the committed capacity is changed during a subscription, an invoice is sent on the same day for the prorated minimum payments for the rest of that subscription year. Billing is calculated from the day the change in committed capacity becomes effective.
 
 
 
