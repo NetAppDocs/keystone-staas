@@ -13,7 +13,7 @@ summary: Learn about Keystone billing for specific configurations, including clo
 :imagesdir: ../media/
 
 [.lead]
-Understanding Keystone billing for specific configurations in version 3 (v3) can help you optimize service usage and manage costs. The configurations include cloned volumes, temporary volumes, SnapMirror destinations, LUNs, and system/root volumes.
+Understanding Keystone billing for specific configurations can help you optimize service usage and manage costs. The configurations include cloned volumes, temporary volumes, SnapMirror destinations, LUNs, and system/root volumes.
 
 //The configurations include cloned volumes, advanced data protection, temporary volumes, SnapMirror destinations, LUNs, and system/root volumes.
 
@@ -48,14 +48,3 @@ For LUNs, the billing is based on the performance service levels of the volume.
 == System and root volumes
 System and root volumes are monitored as a part of the overall monitoring of the Keystone service but are not counted or billed. The consumption on these volumes is exempted for billing.
 
-== Billing for SnapMirror destinations
-The pricing for the SnapMirror destination volume is governed by the adaptive QoS policy for the service level assigned on the source. However, if the source does not have an associated adaptive QoS policy, the destination is billed based on the lowest available service level.
-
-== Billing for LUNs
-For LUNs, the same billing pattern is followed as for the volumes that are governed by adaptive QoS policies. If separate adaptive QoS policies are set on LUNs, then:
-
-*	The size of the LUN is counted for consumption according to the associated service level of that LUN.
-*	The remainder of the space in the volume, if any, is charged according to the adaptive QoS policy of the service level set on the volume.
-
-== System and root volumes
-System and root volumes are monitored as a part of the overall monitoring of the Keystone service but are not counted or billed. The consumption on these volumes is exempted for billing.
