@@ -28,6 +28,7 @@ include::_whatsnew/2025-08-05.adoc[]
 === Keystone version 3 (v3) release
 You can now subscribe to Keystone version 3 (v3), the latest release of the NetApp Keystone STaaS offering. This version introduces several enhancements, including simplified performance service levels, additional burst capacity options, and flexible billing frequencies. These improvements simplify the management, optimization, and scaling of storage solutions. To learn more, refer to link:https://docs.netapp.com/us-en/keystone-staas/concepts/metrics.html[Keystone STaaS services for v3].
 
+You can contact the Keystone support team to subscribe to Keystone version 3 (v3). For more details, refer to link:https://docs.netapp.com/us-en/keystone-staas/concepts/gssc.html[Get help with Keystone].
 
 == 19 June 2025
 
