@@ -19,7 +19,7 @@ Learn about the latest features and enhancements in Keystone STaaS services.
 
 === ##Total Footprint column in the Volumes Details tab##
 
-##A new *Total Footprint* column has been added to the *Volume Details* tab within the *Volumes & Objects* tab in the Digital Advisor dashboard. This column displays the total logical footprint for volumes using FabricPool tiering, including data in both performance and cold tiers, enabling accurate calculation of Keystone consumption for volumes with FabricPool.##
+##The Digital Advisor dashboard now includes a new *Total Footprint* column in the *Volume Details* tab within the *Volumes & Objects* tab. This column shows the total logical footprint for volumes using FabricPool tiering, including data in performance and cold tiers, so you can accurately calculate Keystone consumption.##
 
 //NSEKEY-15473
 
