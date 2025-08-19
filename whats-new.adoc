@@ -13,7 +13,15 @@ summary: NetApp offers you new and enhanced features in every release of Keyston
 :imagesdir: ./media/
 
 [.lead]
-Learn about the latest features and enhancements in Keystone STaaS services. 
+Learn about the latest features and enhancements in Keystone STaaS services.
+
+== ##21 August 2025##
+
+=== ##Total Footprint column in the Volumes Details tab##
+
+##A new *Total Footprint* column has been added to the *Volume Details* tab within the *Volumes & Objects* tab in the Digital Advisor dashboard. This column displays the total logical footprint for volumes using FabricPool tiering, including data in both performance and cold tiers, enabling accurate calculation of Keystone consumption for volumes with FabricPool.##
+
+//NSEKEY-15473
 
 // tag::whats-new[]
 

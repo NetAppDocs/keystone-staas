@@ -43,7 +43,8 @@ image:volume-summary-3.png[Volume summary tab]
 +
 You can see the tabular listing of the volumes, such as capacity usage, volume type, cluster, aggregate, and the assigned Keystone performance service levels. You can scroll across the columns and learn more about them by hovering your mouse on the information icons beside the column headings. You can sort by the columns and filter the lists to view specific information. 
 +
-You can use *Hide/Show Columns*  to add or remove columns displayed in the table. By default, all columns are selected except the *Department* column. You can select or deselect any columns, including the *Department* column, and your preferences will be saved for later use. When downloading the CSV report, the *Department* column details will be included if selected, while other columns will appear regardless of their selection status in the table.
+##You can use *Hide/Show Columns*  to add or remove columns displayed in the table. By default, the table shows your previously saved column preferences. Newly added columns, such as the *Department* or *Total Footprint* columns, are hidden by default and should be manually selected to appear in the table. You can select or deselect any columns, and your preferences will be saved for later use. When downloading the CSV report, only the columns you have selected to display in the table will be included in the export.##
+
 //NSEKEY-12126, NSEKEY-12128
 //+
 //NOTE: For advanced data protection add-on service, an additional column appears to indicate whether the volume is a primary or mirror volume in the MetroCluster configuration. You can copy individual node serial numbers by clicking the *Copy Node Serials* button.
