@@ -31,7 +31,7 @@ You should note the following before configuring AutoSupport to include Keystone
 +
 [source]    
 ----
-autosupport trigger modify -node * -autosupport-message management.log -basic-additional wafl,performance,snapshot,platform,object_store_server,san,raid,snapmirror -troubleshooting-additional wafl
+autosupport trigger modify -node * -autosupport-message management.log -basic-additional wafl,performance,snapshot,object_store_server,san,raid,snapmirror -troubleshooting-additional wafl
 ----
 +
 ** Run this command to modify the weekly log content:
