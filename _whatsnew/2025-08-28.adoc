@@ -1,0 +1,7 @@
+=== Enhanced logical usage tracking with new column
+A new column, Total footprint, is added to enhance Keystone consumption tracking for FabricPool volumes:
+
+* *Keystone dashboard in BlueXP*: You can see the *Total footprint* column in the *Volumes in clusters* tab within the *Assets* tab.
+* *Digital Advisor*: You can see the *Total Footprint* column in the *Volume Details* tab within the *Volumes & Objects* tab.
+
+This column displays the total logical footprint for volumes using FabricPool tiering, including data from both performance and cold tiers, so you can accurately calculate Keystone consumption.
