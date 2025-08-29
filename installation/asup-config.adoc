@@ -27,7 +27,14 @@ You should note the following before configuring AutoSupport to include Keystone
 . As a system administrator user, log in to the Keystone ONTAP cluster by using SSH. For information, see https://docs.netapp.com/us-en/ontap/system-admin/access-cluster-ssh-task.html[Access the cluster by using SSH^].
 . Modify the log content.
 +
-** Run this command to modify the daily log content:
+** For ONTAP 9.16.1 and above, run this command to modify the daily log content:
++
+[source]    
+----
+autosupport trigger modify -node * -autosupport-message management.log -basic-additional wafl,performance,snapshot,object_store_server,san,raid,snapmirror -troubleshooting-additional wafl
+----
++
+** For earlier ONTAP versions, run this command to modify the daily log content:
 +
 [source]    
 ----

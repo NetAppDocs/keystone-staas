@@ -13,9 +13,15 @@ summary: NetApp offers you new and enhanced features in every release of Keyston
 :imagesdir: ./media/
 
 [.lead]
-Learn about the latest features and enhancements in Keystone STaaS services. 
+Learn about the latest features and enhancements in Keystone STaaS services.
 
 // tag::whats-new[]
+
+== 28 August 2025
+
+include::_whatsnew/2025-08-25.adoc[]
+
+//NSEKEY-15473
 
 == 05 August 2025
 
