@@ -1,0 +1,40 @@
+---
+sidebar: sidebar
+permalink: integrations/monitoring-alerts.html
+keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, monitoring, bluexp. console
+summary: Use the Monitoring tab to view view and manage alerts for your Keystone subscriptions.
+---
+
+= View and manage alerts for Keystone subscriptions
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ../media/
+
+[.lead]
+The Keystone dashboard in BlueXP allows you to view and manage active alerts in your Keystone storage environment. You can see both system-generated alerts and custom alerts for capacity usage and subscription expiration. From this view, you can quickly assess alert severity, identify storage issues, and take corrective actions. This view is not available in Digital Advisor.
+
+To learn more about user-defined monitors, refer to link:../integrations/monitoring-create-alert-monitors.html[View and create alert monitors].
+
+To view and manage active alerts, follow these steps:
+
+.Steps
+
+. From the BlueXP left navigation menu, select *Storage > Keystone > Monitoring > Alerts*.
++
+##image:keystone-alerts.png[A screenshot of active alerts for Keystone subscriptions]##
++
+You can view alert details such as severity, ID, description, triggered time, subscription number, tracking ID, performance service level, and status. The page also shows the total unresolved alerts by severity and type.
++
+You can perform the following actions from the *Alerts* tab:
++
+* *Filter alerts*: Use the filter icon in the *Status* column to view only active alerts, resolved alerts, or both.
+* *View subscription insights*: Clicking the subscription number from the *Subscription* column takes you to the *Subscriptions* tab, where you can view subscription consumption details, timelines, and associated asset information. To learn more, refer to link:../integrations/current-usage-tab.html[View your current consumption details].
+* *Review and resolve alert*: Select the alert ID number to review detailed alert insights, including alert description and suggested resolution steps. From this detailed view, you can:
++
+** Mark the alert as resolved by clicking the *Edit* button after addressing the issue.
+** Add supporting notes using the *Add note* button if required.
+
+
+
