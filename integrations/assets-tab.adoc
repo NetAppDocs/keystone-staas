@@ -120,4 +120,5 @@ image:assets-tab-storagegrid.png[screenshot to show grid-level information for S
 * link:../integrations/consumption-tab.html[View consumption trends]
 * link:../integrations/subscription-timeline.html[View your subscription timeline]
 * link:../integrations/assets.html[View assets across your Keystone subscriptions]
+* link:../integrations/monitoring-alerts.html[View and manage alerts and monitors]
 * link:../integrations/volumes-objects-tab.html[View volumes & objects details]
