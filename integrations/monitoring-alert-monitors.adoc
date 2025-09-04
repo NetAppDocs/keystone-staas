@@ -15,7 +15,9 @@ summary: Use the Monitoring tab to view view and create alert monitors for your 
 [.lead]
 You can view and create alert monitors for your Keystone subscriptions from the Keystone dashboard in BlueXP. The dashboard displays both system-generated and user-defined monitors for capacity usage and subscription expiration. You can create custom monitors to set thresholds, choose alert severity, and add email recipients for notifications. This functionality is not available in Digital Advisor.
 
-To view the list of alert monitors and create custom monitors, follow these steps:
+== View alert monitors
+
+To view the list of alert monitors, follow these steps:
 
 .Steps
 . From the BlueXP left navigation menu, select *Storage > Keystone > Monitoring > Alert monitors*.
@@ -23,14 +25,15 @@ To view the list of alert monitors and create custom monitors, follow these step
 ##image:keystone-alert-monitors.png[A screenshot of alert monitors for Keystone subscriptions]##
 +
 You can view a list of alert monitors across your Keystone subscriptions, including monitor names, alert conditions that trigger notifications, severity levels, subscription numbers, performance service levels, and status. You can check the *Created by* column to identify if the alert monitors are system-generated or user-defined.
-+
-You can perform the following actions from the *Alert monitors* tab:
-+
-* *Create custom monitors*: Click the *Create monitor* button to create user-defined monitors that track capacity usage and subscription expiration events. To learn more, refer to link:../integrations/monitoring-create-alert-monitors.html#create-custom-alert-monitors[Create custom alert monitors].
-* *Manage existing monitors*: Select the ellipsis (…) icon in the *Alert monitors* table to edit, duplicate, or delete an existing monitor. To learn more, refer to link:../integrations/monitoring-create-alert-monitors.html#manage-existing-alert-monitors[Manage existing alert monitors].
 
-== Create custom alert monitors
+== Create and manage alert monitors
 
+From the *Alert monitors* tab, you can create custom monitors to track capacity usage and subscription expiration. You can also edit, duplicate, or delete existing monitors as needed.
+
+[role="tabbed-block"]
+====
+.Create custom alert monitors
+--
 To create a custom alert monitor, follow these steps:
 
 .Steps
@@ -51,13 +54,8 @@ image:resource-selection.png[A screenshot of resource selection for the capacity
 . Click *Create*.
 +
 After you create the monitor, the system returns you to the *Alert monitors* page and displays the new alert monitor in the list with active status.
+--
 
-== Manage existing alert monitors
-
-You can change existing alert monitors using the ellipsis (…) icon, which provides the following options:
-
-[role="tabbed-block"]
-====
 .Edit alert monitors
 --
 
@@ -102,3 +100,15 @@ NOTE: System-generated monitors cannot be deleted by users.
 
 --
 ====
+
+*Related information*
+
+* link:../integrations/dashboard-overview.html[Understand the Keystone dashboard]
+* link:../integrations/subscriptions-tab.html[View your subscription details]
+* link:../integrations/current-usage-tab.html[View your current consumption details]
+* link:../integrations/consumption-tab.html[View consumption trends]
+* link:../integrations/subscription-timeline.html[View your subscription timeline]
+* link:../integrations/assets-tab.html[View your Keystone subscription assets]
+* link:../integrations/monitoring-alerts.html[View and manage alerts]
+* link:../integrations/volumes-objects-tab.html[View volumes & objects details]
+* link:../integrations/monitoring-alerts.html[View and manage alerts for Keystone subscriptions]

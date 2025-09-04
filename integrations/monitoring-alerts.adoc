@@ -17,7 +17,9 @@ The Keystone dashboard in BlueXP allows you to view and manage active alerts in 
 
 To learn more about user-defined monitors, refer to link:../integrations/monitoring-create-alert-monitors.html[View and create alert monitors].
 
-To view and manage active alerts, follow these steps:
+== View alerts
+
+To view active alerts, follow these steps:
 
 .Steps
 
@@ -26,15 +28,28 @@ To view and manage active alerts, follow these steps:
 ##image:keystone-alerts.png[A screenshot of active alerts for Keystone subscriptions]##
 +
 You can view alert details such as severity, ID, description, triggered time, subscription number, tracking ID, performance service level, and status. The page also shows the total unresolved alerts by severity and type.
-+
-You can perform the following actions from the *Alerts* tab:
-+
+
+== Manage alerts
+
+From the *Alerts* tab, you can perform the following actions:
+
 * *Filter alerts*: Use the filter icon in the *Status* column to view only active alerts, resolved alerts, or both.
-* *View subscription insights*: Clicking the subscription number from the *Subscription* column takes you to the *Subscriptions* tab, where you can view subscription consumption details, timelines, and associated asset information. To learn more, refer to link:../integrations/current-usage-tab.html[View your current consumption details].
-* *Review and resolve alert*: Select the alert ID number to review detailed alert insights, including alert description and suggested resolution steps. From this detailed view, you can:
+
+* *View subscription insights*: Select the subscription number from the *Subscription* column to go to the *Subscriptions* tab, where you can view subscription consumption details, timelines, and associated asset information. For more information, refer to link:../integrations/current-usage-tab.html[View your current consumption details].
+
+* *Review and resolve alerts*: Select the alert ID number to open a detailed view of the alert. This view displays the alert description and suggested resolution steps. From this detailed view, you can:
 +
-** Mark the alert as resolved by clicking the *Edit* button after addressing the issue.
-** Add supporting notes using the *Add note* button if required.
+** Mark the alert as resolved by selecting the *Edit* button after addressing the issue.
+** Add supporting notes by selecting the *Add note* button if required.
 
 
+*Related information*
 
+* link:../integrations/dashboard-overview.html[Understand the Keystone dashboard]
+* link:../integrations/subscriptions-tab.html[View your subscription details]
+* link:../integrations/current-usage-tab.html[View your current consumption details]
+* link:../integrations/consumption-tab.html[View consumption trends]
+* link:../integrations/subscription-timeline.html[View your subscription timeline]
+* link:../integrations/assets-tab.html[View your Keystone subscription assets]
+* link:../integrations/monitoring-alert-monitors.html[View and create alert monitors]
+* link:../integrations/volumes-objects-tab.html[View volumes & objects details]
