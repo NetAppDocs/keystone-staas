@@ -15,7 +15,7 @@ summary: Use the Monitoring tab to view view and manage alerts for your Keystone
 [.lead]
 The Keystone dashboard in BlueXP allows you to view and manage active alerts in your Keystone storage environment. You can see both system-generated alerts and custom alerts for capacity usage and subscription expiration. From this view, you can quickly assess alert severity, identify storage issues, and take corrective actions. This view is not available in Digital Advisor.
 
-To learn more about user-defined monitors, refer to link:../integrations/monitoring-create-alert-monitors.html[View and create alert monitors].
+To configure custom alerts, refer to link:../integrations/monitoring-create-alert-monitors.html[View and create alert monitors].
 
 == View alerts
 
@@ -33,14 +33,15 @@ You can view alert details such as severity, ID, description, triggered time, su
 
 From the *Alerts* tab, you can perform the following actions:
 
-* *Filter alerts*: Use the filter icon in the *Status* column to view only active alerts, resolved alerts, or both.
-
-* *View subscription insights*: Select the subscription number from the *Subscription* column to go to the *Subscriptions* tab, where you can view subscription consumption details, timelines, and associated asset information. For more information, refer to link:../integrations/current-usage-tab.html[View your current consumption details].
-
 * *Review and resolve alerts*: Select the alert ID number to open a detailed view of the alert. This view displays the alert description and suggested resolution steps. From this detailed view, you can:
 +
 ** Mark the alert as resolved by selecting the *Edit* button after addressing the issue.
 ** Add supporting notes by selecting the *Add note* button if required.
+
+* *Filter alerts*: Use the filter icon in the *Status* column to view only active alerts, resolved alerts, or both.
+
+* *View subscription insights*: Select the subscription number from the *Subscription* column to go to the *Subscriptions* tab, where you can view subscription consumption details, timelines, and associated asset information. For more information, refer to link:../integrations/current-usage-tab.html[View your current consumption details].
+
 
 
 *Related information*
