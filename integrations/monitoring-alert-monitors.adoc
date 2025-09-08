@@ -32,7 +32,7 @@ From the *Alert monitors* tab, you can create custom monitors to track capacity 
 
 [role="tabbed-block"]
 ====
-.Create custom monitors
+.Create a custom monitor
 --
 To create a custom alert monitor, follow these steps:
 
@@ -56,7 +56,7 @@ image:resource-selection.png[A screenshot of resource selection for the capacity
 After you create the monitor, the system returns you to the *Alert monitors* page and displays the new alert monitor in the list with active status.
 --
 
-.Edit monitors
+.Edit monitor
 --
 
 .Steps
@@ -74,7 +74,7 @@ NOTE: For system-generated alert monitors, you can only modify subscription numb
 The system returns you to the *Alert monitors* page, where the updated monitor appears in the list.
 --
 
-.Duplicate monitors
+.Duplicate monitor
 --
 
 .Steps
@@ -87,7 +87,7 @@ The *Create alert monitor* page appears with the existing field values already f
 A new alert monitor is created with the updated configuration and appears in the *Alert monitors* list.
 --
 
-.Delete monitors
+.Delete monitor
 --
 
 .Steps
