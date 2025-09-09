@@ -13,9 +13,9 @@ summary: Use the Monitoring tab to view view and manage alerts for your Keystone
 :imagesdir: ../media/
 
 [.lead]
-The Keystone dashboard in BlueXP allows you to view and manage active alerts in your Keystone storage environment. You can see both system-generated alerts and custom alerts for capacity usage and subscription expiration. From this view, you can quickly assess alert severity, identify storage issues, and take corrective actions. This view is not available in Digital Advisor.
+The Keystone dashboard in BlueXP allows you to view and manage active alerts in your Keystone storage environment. You can see both system-generated alerts and user-defined alerts for capacity usage and subscription expiration. From this view, you can quickly assess alert severity, identify storage issues, and take corrective actions. This view is not available in Digital Advisor.
 
-To configure custom alerts, refer to link:../integrations/monitoring-create-alert-monitors.html[View and create alert monitors].
+To configure user-defined alerts, refer to link:../integrations/monitoring-create-alert-monitors.html[View and create alert monitors].
 
 == View alerts
 
@@ -40,7 +40,7 @@ From the *Alerts* tab, you can perform the following actions:
 
 * *Filter alerts*: Use the filter icon in the *Status* column to view only active alerts, resolved alerts, or both.
 
-* *View subscription insights*: Select the subscription number from the *Subscription* column to go to the *Subscriptions* tab, where you can view subscription consumption details, timelines, and associated asset information. For more information, refer to link:../integrations/current-usage-tab.html[View your current consumption details].
+* *View subscription details*: Select the subscription number from the *Subscription* column to access subscription details, consumption trends, and asset information that can help you understand and address the alert. For more information, refer to link:../integrations/current-usage-tab.html[View your current consumption details].
 
 
 

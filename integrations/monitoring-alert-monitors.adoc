@@ -13,11 +13,11 @@ summary: Use the Monitoring tab to view view and create alert monitors for your 
 :imagesdir: ../media/
 
 [.lead]
-You can view and create alert monitors for your Keystone subscriptions from the Keystone dashboard in BlueXP. The dashboard displays both system-generated and user-defined monitors for capacity usage and subscription expiration. You can create custom monitors to set thresholds, choose alert severity, and add email recipients for notifications. This functionality is not available in Digital Advisor.
+You can view and create alert monitors for your Keystone subscriptions from the Keystone dashboard in BlueXP. The dashboard displays both system-generated and user-defined monitors for capacity usage and subscription expiration. You can create monitors to set thresholds, choose alert severity, and add email recipients for notifications. This functionality is not available in Digital Advisor.
 
 == View alert monitors
 
-To view the list of alert monitors, follow these steps:
+To view alert monitors, follow these steps:
 
 .Steps
 . From the BlueXP left navigation menu, select *Storage > Keystone > Monitoring > Alert monitors*.
@@ -28,13 +28,13 @@ You can view a list of alert monitors across your Keystone subscriptions, includ
 
 == Create and manage alert monitors
 
-From the *Alert monitors* tab, you can create custom monitors to track capacity usage and subscription expiration. You can also edit, duplicate, or delete existing monitors as needed.
+From the *Alert monitors* tab, you can create monitors to track capacity usage and subscription expiration. You can also edit, duplicate, or delete existing monitors as needed.
 
 [role="tabbed-block"]
 ====
-.Create a custom monitor
+.Create a monitor
 --
-To create a custom alert monitor, follow these steps:
+To create a alert monitor, follow these steps:
 
 .Steps
 . Click the *Create monitor* button.
@@ -66,7 +66,7 @@ After you create the monitor, the system returns you to the *Alert monitors* pag
 . Select *Edit*.
 +
 The *Edit alert monitor* page appears with the current monitor configuration.
-. Change the needed fields. For field descriptions, refer to link:../integrations/monitoring-alert-monitors.html#create-and-manage-alert-monitors[Create custom monitors].
+. Change the needed fields. For field descriptions, refer to link:../integrations/monitoring-alert-monitors.html#create-and-manage-alert-monitors[Create a monitor].
 +
 NOTE: For system-generated alert monitors, you can only modify subscription numbers and performance service levels for capacity usage monitors, and only subscription numbers for subscription expiration monitors.
 . Select *Save changes*.

@@ -1,0 +1,7 @@
+=== ##Addition of Monitoring tab##
+The Keystone dashboard in BlueXP now includes a Monitoring tab for managing alerts and monitors across your subscriptions. This new tab enables you to:
+
+* View and resolve active alerts, including both system-generated and user-defined alerts for capacity usage and subscription expiration.
+* Create alert monitors to track capacity usage and subscription expiration events.
+
+To learn more, refer to link:../integrations/monitoring-alerts.html[View and manage alerts and monitors].
