@@ -16,12 +16,12 @@ summary: To monitor the performance of your systems, you can view performance me
 To monitor the performance of your systems, you can view performance metrics of the ONTAP volumes managed by your Keystone subscriptions.
 
 [TIP]
-This tab is optionally available to you in Digital Advisor. Contact support for viewing this tab. It is not available in BlueXP.
+This tab is optionally available to you in Digital Advisor. Contact support for viewing this tab. It is not available in NetApp Console.
 
 To view this tab in Digital Advisor, follow these steps:
 
 .Steps
-. Click *General > Keystone Subscriptions > Performance*.
+. Select *General > Keystone Subscriptions > Performance*.
 . Select the subscription number. By default, the first subscription number is selected.
 . Select the required volume name from the list.
 +

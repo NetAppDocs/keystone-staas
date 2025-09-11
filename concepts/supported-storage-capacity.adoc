@@ -21,7 +21,7 @@ This is the amount of storage capacity required to store user data before any da
 == Committed capacity
 The minimum logical capacity billed each month during the subscription:
 
-** Capacity is committed to each service level.
+** Capacity is committed to each performance service level.
 ** Committed capacity and additional performance service levels can be added during the term.
 
 === Changes to committed capacity
@@ -29,7 +29,7 @@ During the tenure of a subscription, you can change the committed capacities. Ho
 
 *	The committed capacity can be decreased based on certain conditions. For information, see link:../concepts/capacity-requirements.html[Capacity reduction].
 *	The committed capacity cannot be increased 90 days prior to the expiry of your subscription, unless the subscription is to be renewed for an additional 12-month term.
-* You can request changes to committed capacity through the BlueXP interface or from your Keystone Success Manager (KSM).
+* You can request changes to committed capacity through the Console or from your Keystone Success Manager (KSM).
 For information about requesting changes, see link:../concepts/gssc.html[NetApp Keystone support].
 
 == Consumed capacity

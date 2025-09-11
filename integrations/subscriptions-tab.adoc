@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: integrations/subscriptions-tab.html
-keywords: keystone-aiq, digital advisor keystone, subscriptions-tab, performance levels, keystone-bluexp
+keywords: keystone-aiq, digital advisor keystone, subscriptions-tab, performance levels, keystone-bluexp, NetApp Console, Console
 summary: To learn more about your Keystone subscriptions, you can view a list of all your subscriptions from the Subscriptions tab.
 ---
 
@@ -13,22 +13,22 @@ summary: To learn more about your Keystone subscriptions, you can view a list of
 :imagesdir: ../media/
 
 [.lead]
-You can view a list of all your subscriptions from the *Subscriptions* tab in both BlueXP and Digital Advisor. This tab provides easy-to-understand insights based on your subscription status and usage, helping you stay informed and take action when needed.
+You can view a list of all your subscriptions from *Subscriptions* in both NetApp Console and Digital Advisor. This view provides easy-to-understand insights based on your subscription status and usage, helping you stay informed and take action when needed.
 
 [role="tabbed-block"]
 ====
 
-.BlueXP
+.NetApp Console
 --
-The *Subscriptions* tab in BlueXP is divided into two sections: *Subscriptions* and *Performance service levels*. Each section offers specific insights to help you manage and monitor your Keystone subscriptions. To view detailed information for your subscriptions, follow these steps:
+The *Subscriptions* page in the Console is divided into two sections: *Subscriptions* and *Performance service levels*. Each section offers specific insights to help you manage and monitor your Keystone subscriptions. To view detailed information for your subscriptions, follow these steps:
 
 .Steps
 
-. From the BlueXP left navigation menu, go to *Storage > Keystone > Subscriptions*.
+. From the left navigation menu, select *Storage > Keystone > Subscriptions*.
 +
 image:bxp-subscription-list-1.png[view the subscription tab details]
 +
-You see the key metrics such as capacity usage, subscription expiry status, and Keystone version across subscriptions. To learn more, refer to link:../integrations/keystone-bluexp.html[Keystone dashboard in BlueXP].
+You see the key metrics such as capacity usage, subscription expiry status, and Keystone version across subscriptions. To learn more, refer to link:../integrations/keystone-console.html[Keystone dashboard in NetApp Console].
 +
 You can see the following details from the table:
 +

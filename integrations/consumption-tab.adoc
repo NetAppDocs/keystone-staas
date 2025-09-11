@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: integrations/consumption-tab.html
-keywords: keystone-aiq, digital advisor keystone, consumption trends, subscriptions, historical data, bluexp
+keywords: keystone-aiq, digital advisor keystone, consumption trends, subscriptions, historical data, bluexp, NetApp Console, Console
 summary: To understand your subscription usage, you can view the committed capacity, consumed capacity, available capacity, and more.
 ---
 
@@ -20,15 +20,15 @@ You can monitor your subscription usage by viewing historical data of your Keyst
 
 //== View the current consumption of your subscriptions
 
-You can view historical data of your Keystone subscriptions through BlueXP or Digital Advisor:
+You can view historical data of your Keystone subscriptions through NetApp Console or Digital Advisor:
 
 [role="tabbed-block"]
 ====
 
-.BlueXP
+.NetApp Console
 --
 .Steps
-. From the BlueXP left navigation menu, select *Storage > Keystone > Subscriptions*.
+. From the left navigation menu, select *Storage > Keystone > Subscriptions*.
 . Select the subscription number in the *Subscription number* column. 
 +
 You are redirected to the *Current consumption* tab. 
@@ -111,7 +111,7 @@ You can calculate the accrued burst for short periods, such as every two minutes
 The burst is the difference between the consumed capacity and the committed capacity. For example, with a 30-day in month, if the consumed capacity reaches 120 TiB and the committed capacity is 100 TiB for a 2-minute interval, this results in a burst capacity of 20 TiB, equating to an accrued burst usage of 0.000925926 TiB for that interval.
 
 == View accrued burst
-You can view the accrued burst data usage through BlueXP or Digital Advisor. If you have selected *Accrued burst* from the *View* dropdown in the *Consumption trend* tab in BlueXP, or the *Invoiced Accrued Burst* option from the *Consumption Trend* tab in Digital Advisor, you can see accrued burst data usage on a monthly or quarterly basis, depending on your selected billing period. This data is available for the last 12 months that have been billed, and you can query by the date range for up to past 30 months. Bar charts display the invoiced data, and if the usage has not yet been billed, it will be marked as _Pending_ for that period.
+You can view the accrued burst data usage through NetApp Console or Digital Advisor. If you have selected *Accrued burst* from the *View* dropdown in the *Consumption trend* tab in the Console, or the *Invoiced Accrued Burst* option from the *Consumption Trend* tab in Digital Advisor, you can see accrued burst data usage on a monthly or quarterly basis, depending on your selected billing period. This data is available for the last 12 months that have been billed, and you can query by the date range for up to past 30 months. Bar charts display the invoiced data, and if the usage has not yet been billed, it will be marked as _Pending_ for that period.
 
 TIP: The invoiced accrued burst usage is calculated per billing period, based on the committed and consumed capacity for a performance service level.
 
@@ -124,7 +124,7 @@ image:accr-burst-2.png[accrued burst usage quarterly]
 This functionality is available in a preview-only mode. Contact your KSM to learn more about this feature.
 
 == View daily accrued burst data usage
-You can view daily accrued burst data usage for a monthly or quarterly billing period through BlueXP or Digital Advisor. In BlueXP, the *Accrued burst by days* table provides detailed data including the timestamp, committed, consumed, and accrued burst capacity if you select *Accrued burst* from the *View* dropdown in the *Consumption trend* tab.
+You can view daily accrued burst data usage for a monthly or quarterly billing period through NetApp Console or Digital Advisor. In the Console, the *Accrued burst by days* table provides detailed data including the timestamp, committed, consumed, and accrued burst capacity if you select *Accrued burst* from the *View* dropdown in the *Consumption trend* tab.
 
 image:bxp-accrued-burst-days.png[screenshot showing the accrued burst by days table]
 

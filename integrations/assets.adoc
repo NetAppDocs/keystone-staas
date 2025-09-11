@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: integrations/assets.html
-keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, keystone assets tab, ONTAP, StorageGRID
+keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, keystone assets tab, ONTAP, StorageGRID, NetApp Console, Console
 summary: Use the Assets tab to view details of ONTAP clusters and nodes, and StorageGRID grids, sites, and nodes managed by your Keystone subscriptions.
 ---
 
@@ -13,16 +13,16 @@ summary: Use the Assets tab to view details of ONTAP clusters and nodes, and Sto
 :imagesdir: ../media/
 
 [.lead]
-The Keystone dashboard in BlueXP allows you to view detailed information about nodes in clusters, provisioned volumes, and StorageGRID nodes across multiple Keystone subscriptions, according to your access permissions. This view is not available in Digital Advisor.
+The Keystone dashboard in NetApp Console allows you to view detailed information about nodes in clusters, provisioned volumes, and StorageGRID nodes across multiple Keystone subscriptions, according to your access permissions. This view is not available in Digital Advisor.
 
 [role="tabbed-block"]
 ====
 .Nodes in clusters
 --
 .Steps
-. From the BlueXP left navigation menu, select *Storage > Keystone > Assets*.
+. From the left navigation menu, select *Storage > Keystone > Assets*.
 +
-The *Assets* tab displays the *Nodes in cluster* sub-tab.
+The *Assets* page displays the *Nodes in cluster* tab.
 +
 image:bxp-nodes-clusters-multiple-subscription.png[A screenshot of nodes in clusters for multiple subscriptions]
 +
@@ -38,7 +38,7 @@ TIP: You can customize the table using the column selector image:column-selector
 .Volumes in clusters
 --
 .Steps
-. From the BlueXP left navigation menu, select *Storage > Keystone > Assets*.
+. From the left navigation menu, select *Storage > Keystone > Assets*.
 . Select the *Volumes in clusters* tab. 
 +
 image:bxp-volumes-clusters-multiple-sub-1.png[A screenshot of volumes in clusters for multiple subscriptions]
@@ -56,7 +56,7 @@ You can click a subscription number in the *Subscription number* column to go to
 .Nodes in grids
 --
 .Steps
-. From the BlueXP left navigation menu, select *Storage > Keystone > Assets*.
+. From the left navigation menu, select *Storage > Keystone > Assets*.
 . Select the *Nodes in grids* tab. 
 +
 image:bxp-nodes-grids-multiple-sub.png[A screenshot of nodes in grids for multiple subscriptions]
