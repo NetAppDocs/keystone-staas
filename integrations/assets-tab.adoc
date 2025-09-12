@@ -31,7 +31,7 @@ You can view this information by following these steps:
 . From the left navigation menu, select *Storage > Keystone > Subscriptions*.
 . Select the subscription number in the *Subscription number* column of the table.
 +
-You are redirected to the *Current consumption* tab.
+The system opens the *Current consumption* tab.
 . Select the *Assets* tab.
 . Select *Volumes in cluster* from the *View* dropdown.
 +

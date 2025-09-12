@@ -29,6 +29,16 @@ You can access the Keystone dashboard through:
 * *NetApp Console*: Access the dashboard from *Storage > Keystone > Overview* in the Console. To learn more, refer to link:../integrations/keystone-console.html[Keystone dashboard in NetApp Console^].
 * *Active IQ Digital Advisor* (also known as Digital Advisor): Access the dashboard from *General > Keystone Subscriptions* in Digital Advisor. To learn more, refer to link:../integrations/keystone-aiq.html[Keystone dashboard in Digital Advisor^].
 
+=== About NetApp Console:
+
+Keystone is accessible through the NetApp Console.
+
+The NetApp Console provides centralized management of NetApp storage and data services across on-premises and cloud environments at enterprise scale. The Console is required to access and use NetApp data services. As a management interface, it enables you to manage many storage resources from one interface. Console administrators can control access to storage and services for all systems within the enterprise.
+
+You don’t need a license or subscription to start using NetApp Console and you only incur charges when you need to deploy Console agents in your cloud to ensure connectivity to your storage systems or NetApp data services. However, some NetApp data services accessible from the Console are licensed or subscription-based.
+
+Learn more about NetApp Console at link:https://docs.netapp.com/us-en/bluexp-setup-admin/concept-overview.html[NetApp Console^].
+
 Note the following:
 
 * While NetApp Console and Digital Advisor offer some exclusive features, NetApp Console provides administrative functionality for Keystone, allowing you to manage subscriptions and make necessary adjustments.

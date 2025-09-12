@@ -86,6 +86,7 @@ image:icon-green.png[green dot icon] *Normal*: The consumption is normal.
 image:icon-amber.png[amber dot icon] *High*: Maximum consumption, that is the usage is about to reach 100% or more of the committed capacity.
 image:icon-red.png[red dot icon] *Burst*: The consumption is within the burst limit. The burst consumption is the consumption that tops the 100% committed capacity of a performance service level, and is within the agreed-upon burst usage limit.
 image:icon-purple.png[purple dot icon] *Above burst limit*: Indicates consumption above the agreed-upon burst limit.
+--
 ====
 
 *Related information*

@@ -13,7 +13,7 @@ summary: View or cancel Keystone subscription service request.
 :imagesdir: ../media/
 
 [.lead]
-You can view and track service requests for modifying Keystone subscriptions through the Console, providing a quick summary and monitoring progress.
+You can view and track service requests for modifying Keystone subscriptions through NetApp Console, providing a quick summary and monitoring progress.
 
 To view the progress or cancel a request, follow these steps:
 

@@ -26,8 +26,8 @@ image:bxp-filter-search.png[advance filter option]
 //== View last refresh timestamp from BlueXP
 //In BlueXP, you can view the "Last updated" timestamp in the top right corner of each tab, which shows when the data was last refreshed. This timestamp updates automatically every 5 to 10 minutes and refreshes when the screen loads. You can also manually refresh the data.
 
-== Generate reports from Console or Digital Advisor
-You can generate and view reports for your Keystone data using the download button image:bluexp-download-report-2.png[report download icon 2 in the Console] available in tabs within NetApp Console or Digital Advisor. These tabs allow you to generate reports for your subscriptions, historical usage, burst usage, performance, assets, volumes and objects.
+== Generate reports from NetApp Console or Digital Advisor
+You can generate and view reports for your Keystone data using the download button image:bluexp-download-report-2.png[report download icon 2 in the Console] available in tabs within the Console or Digital Advisor. These tabs allow you to generate reports for your subscriptions, historical usage, burst usage, performance, assets, volumes and objects.
 
 The details are generated in CSV format that you can save for future use and comparison.
 
