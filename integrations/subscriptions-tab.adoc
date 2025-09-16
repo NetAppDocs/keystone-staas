@@ -41,7 +41,7 @@ You can see the following details from the table:
 * *Highest capacity*: The maximum capacity consumed within the subscription. 
 * *Days to subscription expiry*: The number of days remaining until the subscription expires.
 +
-NOTE: ##You can click the down arrow next to the *Expiration date* column to expand performance service levels for each subscription. This shows detailed capacity information including current usage, committed capacity, provisioned capacity, burst capacity, and available capacity.##
+NOTE: ##You can click the down arrow next to the *Expiration date* column to view the performance service levels information for each subscription. This shows detailed capacity information including current usage, committed capacity, provisioned capacity, burst capacity, and available capacity.##
 +
 TIP: You can customize the columns displayed in the table using the column selector image:column-selector.png[column selector icon] icon. For certain fields and columns, you might see information or warning icons and tooltips that provide you with additional information about the data.
 --

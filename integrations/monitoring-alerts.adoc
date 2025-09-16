@@ -15,7 +15,7 @@ summary: Use the Monitoring tab to view view and manage alerts for your Keystone
 [.lead]
 The Keystone dashboard in BlueXP allows you to view and manage active alerts in your Keystone storage environment. You can see both system-generated alerts and user-defined alerts for capacity usage and subscription expiration. From this view, you can quickly assess alert severity, identify storage issues, and take corrective actions. This view is not available in Digital Advisor.
 
-To configure user-defined alerts, refer to link:../integrations/monitoring-create-alert-monitors.html[View and create alert monitors].
+To configure user-defined alerts, refer to link:../integrations/monitoring-alert-monitors.html#create-and-manage-alert-monitors[Create and manage alert monitors].
 
 == View alerts
 
