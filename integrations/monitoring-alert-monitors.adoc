@@ -22,9 +22,9 @@ To view alert monitors, follow these steps:
 .Steps
 . From the BlueXP left navigation menu, select *Storage > Keystone > Monitoring > Alert monitors*.
 +
-##image:keystone-alert-monitors.png[A screenshot of alert monitors for Keystone subscriptions]##
+image:monitoring-alert-monitors-default-view.png[A screenshot of alert monitors for Keystone subscriptions]
 +
-You can view a list of alert monitors across your Keystone subscriptions, including monitor names, alert conditions that trigger notifications, severity levels, subscription numbers, performance service levels, and status. You can check the *Created by* column to identify if the alert monitors are system-generated or user-defined.
+You can view a list of alert monitors across your Keystone subscriptions, including monitor names, alert conditions that trigger notifications, severity levels, subscription numbers, performance service levels, and status. You can check the *Created by* column to determine whether the alert monitors are system-generated or user-defined.
 
 == Create and manage alert monitors
 
@@ -42,10 +42,11 @@ To create a alert monitor, follow these steps:
 The *Create alert monitor* page appears.
 +
 image:create-alert-monitor.png[A screenshot of creating an alert monitor for Keystone subscriptions]
-. Select either *Capacity usage* or *Subscription expiration* to define monitor type, and based on your selection, complete the following fields that appear:
+. Select either *Capacity usage* or *Subscription expiration* to define the monitor type. Based on your selection, provide the following details:
 +
 * *General details*: Provide an alert name and select the severity level.
-* *Resource selection*: Choose to create the monitor for specific subscriptions or all subscriptions. Based on your monitor type selection, fill in the required fields that appear, such as subscription numbers and performance service levels for capacity usage monitors, or only subscription numbers for subscription expiration monitors.
+* *Resource selection*: Choose to create the monitor for specific subscriptions. Based on your monitor type selection, fill in the required fields that appear, such as subscription numbers and performance service levels for capacity usage monitors, or only subscription numbers for subscription expiration monitors.
+//Choose to create the monitor for specific subscriptions or all subscriptions. Based on your monitor type selection, fill in the required fields that appear, such as subscription numbers and performance service levels for capacity usage monitors, or only subscription numbers for subscription expiration monitors.
 +
 image:resource-selection.png[A screenshot of resource selection for the capacity usage monitor]
 * *Condition*: Set the threshold condition that triggers the alert. For example, trigger an alert when capacity usage exceeds a specified percentage.
@@ -62,7 +63,7 @@ After you create the monitor, the system returns you to the *Alert monitors* pag
 .Steps
 . Select the ellipsis icon for the alert monitor you want to change.
 +
-##image:edit-alert-monitor.png[A screenshot of editing an alert monitor for Keystone subscriptions]##
+image:edit-alert-monitor.png[A screenshot of editing an alert monitor for Keystone subscriptions]
 . Select *Edit*.
 +
 The *Edit alert monitor* page appears with the current monitor configuration.
