@@ -1,4 +1,4 @@
-=== ##Addition of alert monitoring##
+=== Addition of alert monitoring
 The Keystone dashboard in BlueXP now includes a *Monitoring* tab for managing alerts and monitors across your subscriptions. This new tab enables you to:
 
 * View and resolve active alerts, including both system-generated and user-defined alerts for capacity usage and subscription expiration.
@@ -7,6 +7,6 @@ The Keystone dashboard in BlueXP now includes a *Monitoring* tab for managing al
 To learn more, refer to link:https://docs.netapp.com/us-en/keystone-staas/integrations/monitoring-alerts.html[View and manage alerts and monitors].
 //NSEKEY-14987
 
-=== ##Streamlined performance service levels viewing##
+=== Streamlined performance service levels viewing
 You can view the performance service levels information, now moved from a separate tab to an expandable view, within the *Subscriptions* tab. Click the down arrow next to the *Expiration date* column to view them for each subscription. To learn more, refer to link:https://docs.netapp.com/us-en/keystone-staas/integrations/subscriptions-tab.html[View details about your Keystone subscriptions].
 //NSEKEY-17647
