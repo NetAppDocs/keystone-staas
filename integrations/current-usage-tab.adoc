@@ -70,6 +70,7 @@ For information about your Keystone storage services and the relevant performanc
 * link:../integrations/subscription-timeline.html[View your subscription timeline]
 * link:../integrations/assets-tab.html[View your Keystone subscription assets]
 * link:../integrations/assets.html[View assets across your Keystone subscriptions]
+* link:../integrations/monitoring-alerts.html[View and manage alerts and monitors]
 * link:../integrations/volumes-objects-tab.html[View volumes & objects details]
 
 //image:aiq-ks-dtls-3.png[Current Consumption tab]

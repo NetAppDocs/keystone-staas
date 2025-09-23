@@ -17,6 +17,10 @@ Learn about the latest features and enhancements in Keystone STaaS services.
 
 // tag::whats-new[]
 
+== 22 September 2025
+
+include::_whatsnew/2025-09-22.adoc[]
+
 == 28 August 2025
 
 include::_whatsnew/2025-08-25.adoc[]

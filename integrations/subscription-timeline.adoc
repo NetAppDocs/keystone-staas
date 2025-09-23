@@ -38,4 +38,5 @@ image:bxp-subscription-timeline.png[a screenshot to show subscription timeline i
 * link:../integrations/consumption-tab.html[View consumption trends]
 * link:../integrations/assets-tab.html[View your Keystone subscription assets]
 * link:../integrations/assets.html[View assets across your Keystone subscriptions]
+* link:../integrations/monitoring-alerts.html[View and manage alerts and monitors]
 * link:../integrations/volumes-objects-tab.html[View volumes & objects details]

@@ -35,7 +35,8 @@ You are redirected to the *Current consumption* tab.
 . Select the *Consumption trend* tab. 
 . Select *Historical consumption* from the *View* dropdown and choose the time range using the calendar icon in the *Period* field to analyze capacity usage trends. 
 +
-The historical consumption data for each performance service level is displayed in a line graph based on the selected time range.
+The historical consumption data for each performance service level is displayed in a line graph based on the selected time range. If a Keystone subscription is modified or renewed, you can set the start date to a previous date to view past consumption data.
+//NSEKEY-17637-3.10.x
 +
 NOTE: You can select *Accrued burst* from the *View* dropdown if you want to view the historical burst usage data for which invoices have been generated. You can use this data to analyze the billed usage reflected in your invoice. To learn more, refer to link:../integrations/consumption-tab.html#view-accrued-burst[View accrued burst].
 +
