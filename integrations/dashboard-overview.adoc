@@ -58,6 +58,9 @@ a|link:../integrations/assets-tab.html[View assets associated with a Keystone su
 |link:../integrations/assets.html[View assets across multiple Keystone subscriptions]
 |Yes
 |No
+a|link:../integrations/monitoring-alerts.html[View and manage alerts and monitors]
+|Yes
+|No
 a|link:../integrations/modify-subscription.html[Modify your subscriptions] (only for Keystone administrators)
 |Yes
 |No

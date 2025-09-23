@@ -78,4 +78,5 @@ You can click a subscription number in the *Subscription number* column to go to
 * link:../integrations/consumption-tab.html[View consumption trends]
 * link:../integrations/subscription-timeline.html[View your subscription timeline]
 * link:../integrations/assets-tab.html[View your Keystone subscription assets]
+* link:../integrations/monitoring-alerts.html[View and manage alerts and monitors]
 * link:../integrations/volumes-objects-tab.html[View volumes & objects details]

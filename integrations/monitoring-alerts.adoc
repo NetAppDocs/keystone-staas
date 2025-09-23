@@ -1,0 +1,55 @@
+---
+sidebar: sidebar
+permalink: integrations/monitoring-alerts.html
+keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, monitoring, bluexp. console
+summary: Use the Monitoring tab to view view and manage alerts for your Keystone subscriptions.
+---
+
+= View and manage alerts for Keystone subscriptions
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ../media/
+
+[.lead]
+The Keystone dashboard in BlueXP allows you to view and manage active alerts in your Keystone storage environment. You can see both system-generated alerts and user-defined alerts for capacity usage and subscription expiration. From this view, you can quickly assess alert severity, identify storage issues, and take corrective actions. This view is not available in Digital Advisor.
+
+To configure user-defined alerts, refer to link:../integrations/monitoring-alert-monitors.html#create-and-manage-alert-monitors[Create and manage alert monitors].
+
+== View alerts
+
+To view active alerts, follow these steps:
+
+.Steps
+
+. From the BlueXP left navigation menu, select *Storage > Keystone > Monitoring > Alerts*.
++
+image:monitoring-alerts-default-view.png[A screenshot of active alerts for Keystone subscriptions]
++
+You can view alert details such as severity, ID, description, triggered time, subscription number, tracking ID, performance service level, and status. The page also shows the total unresolved alerts by severity and type.
+
+== Manage alerts
+
+From the *Alerts* tab, you can perform the following actions:
+
+* *Review and resolve alerts*: Select the alert ID number to open a detailed view of the alert. This view displays the alert description and suggested resolution steps. From this detailed view, you can:
++
+** Mark the alert as resolved by selecting the *Edit* button after addressing the issue.
+** Add supporting notes by selecting the *Add note* button if required.
+
+* *Filter alerts*: Use the filter icon in the *Status* column to view only active alerts, resolved alerts, or both.
+
+* *View subscription details*: Select the subscription number from the *Subscription* column to access subscription details, consumption trends, and asset information that can help you understand and address the alert. For more information, refer to link:../integrations/current-usage-tab.html[View your current consumption details].
+
+
+
+*Related information*
+
+* link:../integrations/dashboard-overview.html[Understand the Keystone dashboard]
+* link:../integrations/subscriptions-tab.html[View your subscription details]
+* link:../integrations/consumption-tab.html[View consumption trends]
+* link:../integrations/subscription-timeline.html[View your subscription timeline]
+* link:../integrations/assets-tab.html[View your Keystone subscription assets]
+* link:../integrations/monitoring-alert-monitors.html[View and create alert monitors]
+* link:../integrations/volumes-objects-tab.html[View volumes and objects details]
