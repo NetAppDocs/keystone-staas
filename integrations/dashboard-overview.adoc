@@ -29,7 +29,7 @@ You can access the Keystone dashboard through:
 * *NetApp Console*: Access the dashboard from *Storage > Keystone > Overview* in the Console. To learn more, refer to link:../integrations/keystone-console.html[Keystone dashboard in NetApp Console^].
 * *Active IQ Digital Advisor* (also known as Digital Advisor): Access the dashboard from *General > Keystone Subscriptions* in Digital Advisor. To learn more, refer to link:../integrations/keystone-aiq.html[Keystone dashboard in Digital Advisor^].
 
-=== About NetApp Console:
+=== About NetApp Console
 
 Keystone is accessible through the NetApp Console.
 
@@ -37,17 +37,17 @@ The NetApp Console provides centralized management of NetApp storage and data se
 
 You don’t need a license or subscription to start using NetApp Console and you only incur charges when you need to deploy Console agents in your cloud to ensure connectivity to your storage systems or NetApp data services. However, some NetApp data services accessible from the Console are licensed or subscription-based.
 
-Learn more about NetApp Console at link:https://docs.netapp.com/us-en/bluexp-setup-admin/concept-overview.html[NetApp Console^].
+Learn more about the NetApp Console at link:https://docs.netapp.com/us-en/bluexp-setup-admin/concept-overview.html[NetApp Console^].
 
 Note the following:
 
-* While NetApp Console and Digital Advisor offer some exclusive features, NetApp Console provides administrative functionality for Keystone, allowing you to manage subscriptions and make necessary adjustments.
+* While the NetApp Console and Digital Advisor offer some exclusive features, the NetApp Console provides administrative functionality for Keystone, allowing you to manage subscriptions and make necessary adjustments.
 * You must be assigned to the *Keystone admin* role to modify subscriptions. To learn more, refer to link:https://docs.netapp.com/console-setup-admin/reference-iam-predefined-roles.html[Learn about NetApp Console access roles^].
-* Digital Advisor is integrated with NetApp Console, allowing you to access all Digital Advisor features, including the Keystone dashboard, directly from NetApp Console. To learn more, refer to link:https://docs.netapp.com/us-en/active-iq/digital-advisor-integration-with-console.html#netapp-console[Digital Advisor integration with NetApp Console^].
+* Digital Advisor is integrated with the NetApp Console, allowing you to access all Digital Advisor features, including the Keystone dashboard, directly from the NetApp Console. To learn more, refer to link:https://docs.netapp.com/us-en/active-iq/digital-advisor-integration-with-console.html#netapp-console[Digital Advisor integration with NetApp Console^].
 
 == Keystone features in NetApp Console and Digital Advisor
 
-The following table shows the availability of features in NetApp Console and Digital Advisor, helping you quickly identify the right platform for your needs:
+The following table shows the availability of features in the NetApp Console and Digital Advisor, helping you quickly identify the right platform for your needs:
 
 |===
 
@@ -66,6 +66,9 @@ a|link:../integrations/assets-tab.html[View assets associated with a Keystone su
 |Yes
 |Yes
 |link:../integrations/assets.html[View assets across multiple Keystone subscriptions]
+|Yes
+|No
+a|link:../integrations/monitoring-alerts.html[View and manage alerts and monitors]
 |Yes
 |No
 a|link:../integrations/modify-subscription.html[Modify your subscriptions] (only for Keystone administrators)

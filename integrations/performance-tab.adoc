@@ -16,7 +16,7 @@ summary: To monitor the performance of your systems, you can view performance me
 To monitor the performance of your systems, you can view performance metrics of the ONTAP volumes managed by your Keystone subscriptions.
 
 [TIP]
-This tab is optionally available to you in Digital Advisor. Contact support for viewing this tab. It is not available in NetApp Console.
+This tab is optionally available to you in Digital Advisor. Contact support for viewing this tab. It is not available in the NetApp Console.
 
 To view this tab in Digital Advisor, follow these steps:
 

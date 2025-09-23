@@ -13,13 +13,13 @@ summary: View the subscription timeline from NetApp Console, which includes even
 :imagesdir: ../media/
 
 [.lead]
-The Keystone dashboard in NetApp Console provides a timeline view of your Keystone subscriptions, displaying events such as activation, modification, and renewal dates. This timeline view is not available in Digital Advisor.
+The Keystone dashboard in the NetApp Console provides a timeline view of your Keystone subscriptions, displaying events such as activation, modification, and renewal dates. This timeline view is not available in Digital Advisor.
 
 To view the subscription timeline, follow these steps:
 
 .Steps
 
-. From the left navigation menu, select *Storage > Keystone > Subscriptions*.
+. From the Console left navigation menu, select *Storage > Keystone > Subscriptions*.
 . Select the subscription number in the *Subscription number* column to view the subscription timeline.
 +
 You are redirected to the *Current consumption* tab. 
@@ -38,4 +38,5 @@ image:bxp-subscription-timeline.png[a screenshot to show subscription timeline i
 * link:../integrations/consumption-tab.html[View consumption trends]
 * link:../integrations/assets-tab.html[View your Keystone subscription assets]
 * link:../integrations/assets.html[View assets across your Keystone subscriptions]
+* link:../integrations/monitoring-alerts.html[View and manage alerts and monitors]
 * link:../integrations/volumes-objects-tab.html[View volumes & objects details]

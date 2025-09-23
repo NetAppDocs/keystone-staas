@@ -1,0 +1,115 @@
+---
+sidebar: sidebar
+permalink: integrations/monitoring-alert-monitors.html
+keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, monitoring, bluexp, netapp console
+summary: Use the Monitoring tab to view view and create alert monitors for your Keystone subscriptions.
+---
+
+= View and create alert monitors for Keystone subscriptions
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ../media/
+
+[.lead]
+You can view and create alert monitors for your Keystone subscriptions from the Keystone dashboard in the NetApp Console. The dashboard displays both system-generated and user-defined monitors for capacity usage and subscription expiration. You can create monitors to set thresholds, choose alert severity, and add email recipients for notifications. This functionality is not available in Digital Advisor.
+
+== View alert monitors
+
+To view alert monitors, follow these steps:
+
+.Steps
+. From the Console left navigation menu, select *Storage > Keystone > Monitoring > Alert monitors*.
++
+image:monitoring-alert-monitors-default-view.png[A screenshot of alert monitors for Keystone subscriptions]
++
+You can view a list of alert monitors across your Keystone subscriptions, including monitor names, alert conditions that trigger notifications, severity levels, subscription numbers, performance service levels, and status. You can check the *Created by* column to determine whether the alert monitors are system-generated or user-defined.
+
+== Create and manage alert monitors
+
+From the *Alert monitors* tab, you can create monitors to track capacity usage and subscription expiration. You can also edit, duplicate, or delete existing monitors as needed.
+
+[role="tabbed-block"]
+====
+.Create a monitor
+--
+To create a alert monitor, follow these steps:
+
+.Steps
+. Click the *Create monitor* button.
++
+The *Create alert monitor* page appears.
++
+image:create-alert-monitor.png[A screenshot of creating an alert monitor for Keystone subscriptions]
+. Select either *Capacity usage* or *Subscription expiration* to define the monitor type. Based on your selection, provide the following details:
++
+* *General details*: Provide an alert name and select the severity level.
+* *Resource selection*: Choose to create the monitor for specific subscriptions. Based on your monitor type selection, fill in the required fields that appear, such as subscription numbers and performance service levels for capacity usage monitors, or only subscription numbers for subscription expiration monitors.
+//Choose to create the monitor for specific subscriptions or all subscriptions. Based on your monitor type selection, fill in the required fields that appear, such as subscription numbers and performance service levels for capacity usage monitors, or only subscription numbers for subscription expiration monitors.
++
+image:resource-selection.png[A screenshot of resource selection for the capacity usage monitor]
+* *Condition*: Set the threshold condition that triggers the alert. For example, trigger an alert when capacity usage exceeds a specified percentage.
+* *Notifications*: Select the users to receive alert notifications.
+
+. Click *Create*.
++
+After you create the monitor, the system returns you to the *Alert monitors* page and displays the new alert monitor in the list with active status.
+--
+
+.Edit monitor
+--
+
+.Steps
+. Select the ellipsis icon for the alert monitor you want to change.
++
+image:edit-alert-monitor.png[A screenshot of editing an alert monitor for Keystone subscriptions]
+. Select *Edit*.
++
+The *Edit alert monitor* page appears with the current monitor configuration.
+. Change the needed fields. For field descriptions, refer to link:../integrations/monitoring-alert-monitors.html#create-and-manage-alert-monitors[Create a monitor].
++
+NOTE: For system-generated alert monitors, you can only modify subscription numbers and performance service levels for capacity usage monitors, and only subscription numbers for subscription expiration monitors.
+. Select *Save changes*.
++
+The system returns you to the *Alert monitors* page, where the updated monitor appears in the list.
+--
+
+.Duplicate monitor
+--
+
+.Steps
+. Select the ellipsis icon for the monitor you want to copy.
+. Select *Duplicate*.
++
+The *Create alert monitor* page appears with the existing field values already filled in.
+. Modify the fields as required and click *Create*.
++
+A new alert monitor is created with the updated configuration and appears in the *Alert monitors* list.
+--
+
+.Delete monitor
+--
+
+.Steps
+. Select the ellipsis icon for the monitor you want to remove.
+. Select *Delete* and confirm the deletion.
++
+After deletion, the subscriptions connected to the monitor stop getting notifications.
++
+NOTE: System-generated monitors cannot be deleted by users.
+
+--
+====
+
+*Related information*
+
+* link:../integrations/dashboard-overview.html[Understand the Keystone dashboard]
+* link:../integrations/subscriptions-tab.html[View your subscription details]
+* link:../integrations/current-usage-tab.html[View your current consumption details]
+* link:../integrations/consumption-tab.html[View consumption trends]
+* link:../integrations/subscription-timeline.html[View your subscription timeline]
+* link:../integrations/assets-tab.html[View your Keystone subscription assets]
+* link:../integrations/monitoring-alerts.html[View and manage alerts]
+* link:../integrations/volumes-objects-tab.html[View volumes & objects details]
+* link:../integrations/monitoring-alerts.html[View and manage alerts for Keystone subscriptions]

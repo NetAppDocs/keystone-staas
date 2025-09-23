@@ -13,23 +13,23 @@ summary: To learn more about your Keystone subscriptions, you can view a list of
 :imagesdir: ../media/
 
 [.lead]
-You can view a list of all your subscriptions from *Subscriptions* in both NetApp Console and Digital Advisor. This view provides easy-to-understand insights based on your subscription status and usage, helping you stay informed and take action when needed.
+You can view a list of all your subscriptions from *Subscriptions* in the NetApp Console and Digital Advisor. This view provides easy-to-understand insights based on your subscription status and usage, helping you stay informed and take action when needed.
 
 [role="tabbed-block"]
 ====
 
 .NetApp Console
 --
-The *Subscriptions* page in the Console is divided into two sections: *Subscriptions* and *Performance service levels*. Each section offers specific insights to help you manage and monitor your Keystone subscriptions. To view detailed information for your subscriptions, follow these steps:
+To view detailed information for your subscriptions, follow these steps:
 
 .Steps
 
-. From the left navigation menu, select *Storage > Keystone > Subscriptions*.
+. From the Console left navigation menu, select *Storage > Keystone > Subscriptions*.
 +
-image:bxp-subscription-list-1.png[view the subscription tab details]
+image:bxp-subscription-list-2.png[view the subscription tab details]
 +
-You see the key metrics such as capacity usage, subscription expiry status, and Keystone version across subscriptions. To learn more, refer to link:../integrations/keystone-console.html[Keystone dashboard in NetApp Console].
-+
+You see the key metrics such as capacity usage, subscription expiry status, and unresolved alerts. 
+
 You can see the following details from the table:
 +
 * *Subscription number*: The subscription number of the Keystone subscription assigned by NetApp.
@@ -42,15 +42,9 @@ You can see the following details from the table:
 * *Highest capacity*: The maximum capacity consumed within the subscription. 
 * *Days to subscription expiry*: The number of days remaining until the subscription expires.
 +
+NOTE: You can click the down arrow next to the *Expiration date* column to view the performance service levels information for each subscription. This shows detailed capacity information including current usage, committed capacity, provisioned capacity, burst capacity, and available capacity.
++
 TIP: You can customize the columns displayed in the table using the column selector image:column-selector.png[column selector icon] icon. For certain fields and columns, you might see information or warning icons and tooltips that provide you with additional information about the data.
-. You can select the *Performance service levels* sub-tab to view the performance service levels across all subscriptions.
-+
-image:bxp-performance-levels.png[view performance service levels across all subscriptions]
-
-* *Performance service levels across subscriptions*: Displays the number of performance service levels across the subscriptions.
-* *Provisioning consistency across subscriptions*: Shows the counts for over-provisioned and under-provisioned performance service levels.
-+
-You can see the listing of performance service levels, including key details such as the name of the customer, subscription number, type of performance service level, and total number of volumes. The table also displays the count of protected volumes, the total committed, consumed, provisioned, available capacity (with and without burst), and accrued burst capacity.
 --
 
 .Digital Advisor
@@ -97,5 +91,6 @@ image:icon-purple.png[purple dot icon] *Above burst limit*: Indicates consumptio
 * link:../integrations/subscription-timeline.html[View your subscription timeline]
 * link:../integrations/assets-tab.html[View your Keystone subscription assets]
 * link:../integrations/assets.html[View assets across your Keystone subscriptions]
+* link:../integrations/monitoring-alerts.html[View and manage alerts and monitors]
 * link:../integrations/volumes-objects-tab.html[View volumes & objects details]
 

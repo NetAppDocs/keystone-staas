@@ -13,7 +13,7 @@ summary: Use the Assets tab to view details of ONTAP clusters and nodes, and Sto
 :imagesdir: ../media/
 
 [.lead]
-You can view detailed information about ONTAP clusters and nodes, and StorageGRID grids, sites, and nodes, managed by a single Keystone subscription. You can access these subscription assets in the Keystone dashboard from NetApp Console or Digital Advisor. 
+You can view detailed information about ONTAP clusters and nodes, and StorageGRID grids, sites, and nodes, managed by a single Keystone subscription. You can access these subscription assets in the Keystone dashboard from the NetApp Console or Digital Advisor. 
 
 == View Keystone subscription assets from NetApp Console 
 
@@ -28,7 +28,7 @@ You can view this information by following these steps:
 .Volumes in clusters
 --
 .Steps
-. From the left navigation menu, select *Storage > Keystone > Subscriptions*.
+. From the Console left navigation menu, select *Storage > Keystone > Subscriptions*.
 . Select the subscription number in the *Subscription number* column of the table.
 +
 The system opens the *Current consumption* tab.
@@ -45,7 +45,7 @@ TIP: You can customize the table using the column selector image:column-selector
 .Nodes in clusters
 --
 .Steps
-. From the left navigation menu, select *Storage > Keystone > Subscriptions*.
+. From the Console left navigation menu, select *Storage > Keystone > Subscriptions*.
 . Select the subscription number in the *Subscription number* column of the table.
 +
 The system opens the *Current consumption* tab.
@@ -62,7 +62,7 @@ TIP: You can customize the table using the column selector image:column-selector
 .Nodes in grids
 --
 .Steps
-. From the left navigation menu, select *Storage > Keystone > Subscriptions*.
+. From the Console left navigation menu, select *Storage > Keystone > Subscriptions*.
 . Select the subscription number in the *Subscription number* column of the table.
 +
 The system opens the *Current consumption* tab.
@@ -116,4 +116,5 @@ image:assets-tab-storagegrid.png[screenshot to show grid-level information for S
 * link:../integrations/consumption-tab.html[View consumption trends]
 * link:../integrations/subscription-timeline.html[View your subscription timeline]
 * link:../integrations/assets.html[View assets across your Keystone subscriptions]
+* link:../integrations/monitoring-alerts.html[View and manage alerts and monitors]
 * link:../integrations/volumes-objects-tab.html[View volumes & objects details]

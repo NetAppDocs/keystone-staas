@@ -15,7 +15,7 @@ summary: As a NetApp Keystone STaaS subscriber, you can get an overview of your 
 [.lead]
 You can use the *Overview* page to quickly determine the workloads at risk, view the capacity and expiry status of subscriptions, identify the unresolved alerts, and view the subscriptions with the highest capacity utilization. You can also view the status of your subscriptions across different versions of Keystone, highlighting any issues that need your attention.
 
-To view the *Overview* page, from the left navigation menu, go to *Storage > Keystone > Overview*.
+To view the *Overview* page, from the Console left navigation menu, go to *Storage > Keystone > Overview*.
 
 image:bxp-dashboard-overview-1.png[a screenshot of the Overview page]
 

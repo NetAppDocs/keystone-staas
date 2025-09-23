@@ -13,7 +13,7 @@ summary: Modify your Keystone subscription to change the committed capacity for 
 :imagesdir: ../media/
 
 [.lead]
-You can modify the committed capacity of your Keystone subscription for the associated performance service levels through the Console.
+You can modify the committed capacity of your Keystone subscription for the associated performance service levels through the NetApp Console.
 
 
 [NOTE]
@@ -25,7 +25,7 @@ You can modify the committed capacity of your Keystone subscription for the asso
 To change the committed capacity, follow these steps:
 
 .Steps
-. From the left navigation menu, select *Storage > Keystone > Subscriptions*.
+. From the Console left navigation menu, select *Storage > Keystone > Subscriptions*.
 . Click the ellipsis icon from the table for the subscription you wish to modify, and then select *Modify*.
 +
 The *Modify subscription* page displays the details for the subscribed performance service levels associated with the selected subscription number.

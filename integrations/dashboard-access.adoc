@@ -13,7 +13,7 @@ summary: As a NetApp Keystone STaaS subscriber, you can get access the Keystone 
 :imagesdir: ../media/
 
 [.lead]
-You can access the Keystone dashboard through NetApp Console or Digital Advisor after subscribing to NetApp Keystone services.
+You can access the Keystone dashboard through the NetApp Console or Digital Advisor after subscribing to NetApp Keystone services.
 
 [role="tabbed-block"]
 ====
@@ -24,7 +24,7 @@ Log in to the Console using your NetApp Support Site credentials or sign up for 
 
 .Steps
 . Log in to the Console.
-. From the left navigation menu, select *Storage > Keystone*.
+. From the Console left navigation menu, select *Storage > Keystone*.
 +
 The Keystone dashboard appears.
 +

@@ -15,7 +15,7 @@ summary: To understand your subscription usage, you can view the committed capac
 [.lead]
 You can gain insights into your subscription usage by viewing detailed information such as committed capacity, consumed capacity, and available capacity, with the current consumption status displayed and segregated by performance service levels.
 
-To view the current consumption status of your subscriptions through NetApp Console or Digital Advisor, follow these steps:
+To view the current consumption status of your subscriptions through the NetApp Console or Digital Advisor, follow these steps:
 
 [role="tabbed-block"]
 ====
@@ -24,7 +24,7 @@ To view the current consumption status of your subscriptions through NetApp Cons
 --
 .Steps
 
-. From the left navigation menu, select *Storage > Keystone > Subscriptions*.
+. From the Console left navigation menu, select *Storage > Keystone > Subscriptions*.
 . Select the subscription number in the *Subscription number* column of the table to view the current consumption.
 +
 You are redirected to the *Current consumption* tab.
@@ -70,6 +70,7 @@ For information about your Keystone storage services and the relevant performanc
 * link:../integrations/subscription-timeline.html[View your subscription timeline]
 * link:../integrations/assets-tab.html[View your Keystone subscription assets]
 * link:../integrations/assets.html[View assets across your Keystone subscriptions]
+* link:../integrations/monitoring-alerts.html[View and manage alerts and monitors]
 * link:../integrations/volumes-objects-tab.html[View volumes & objects details]
 
 //image:aiq-ks-dtls-3.png[Current Consumption tab]

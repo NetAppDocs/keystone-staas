@@ -41,4 +41,4 @@ In addition to the storage equipment, two monitoring tools are provisioned for s
 
 image:data-collector-flow.png[collector data flow]
 
-You can view the subscription and consumption details for your Keystone subscriptions through NetApp Console or Digital Advisor. To learn more about Keystone reporting, refer to link:../integrations/dashboard-overview.html[Keystone dashboard overview].
+You can view the subscription and consumption details for your Keystone subscriptions through the NetApp Console or Digital Advisor. To learn more about Keystone reporting, refer to link:../integrations/dashboard-overview.html[Keystone dashboard overview].

@@ -23,6 +23,8 @@ include::_whatsnew/2025-10-06.adoc[]
 
 == 22 September 2025
 
+include::_whatsnew/2025-09-22.adoc[]
+
 == 28 August 2025
 
 include::_whatsnew/2025-08-25.adoc[]
