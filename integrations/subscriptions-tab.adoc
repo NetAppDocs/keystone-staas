@@ -26,10 +26,10 @@ To view detailed information for your subscriptions, follow these steps:
 
 . From the Console left navigation menu, select *Storage > Keystone > Subscriptions*.
 +
-image:bxp-subscription-list-2.png[view the subscription tab details]
+image:bxp-subscription-list-3.png[view the subscription tab details]
 +
 You see the key metrics such as capacity usage, subscription expiry status, and unresolved alerts. 
-
++
 You can see the following details from the table:
 +
 * *Subscription number*: The subscription number of the Keystone subscription assigned by NetApp.

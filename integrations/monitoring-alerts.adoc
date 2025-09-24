@@ -25,7 +25,7 @@ To view active alerts, follow these steps:
 
 . From the Console left navigation menu, select *Storage > Keystone > Monitoring > Alerts*.
 +
-image:monitoring-alerts-default-view.png[A screenshot of active alerts for Keystone subscriptions]
+image:monitoring-alerts-default-view-1.png[A screenshot of active alerts for Keystone subscriptions]
 +
 You can view alert details such as severity, ID, description, triggered time, subscription number, tracking ID, performance service level, and status. The page also shows the total unresolved alerts by severity and type.
 

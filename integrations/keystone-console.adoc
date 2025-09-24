@@ -17,7 +17,7 @@ You can use the *Overview* page to quickly determine the workloads at risk, view
 
 To view the *Overview* page, from the Console left navigation menu, go to *Storage > Keystone > Overview*.
 
-image:bxp-dashboard-overview-1.png[a screenshot of the Overview page]
+image:bxp-dashboard-overview-2.png[a screenshot of the Overview page]
 
 The *Overview* page offers the following insights:
 

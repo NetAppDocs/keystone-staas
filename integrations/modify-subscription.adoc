@@ -32,7 +32,7 @@ The *Modify subscription* page displays the details for the subscribed performan
 +
 NOTE: Optionally, you can access the *Modify subscription* page by clicking *Manage subscription* in the subscription details section, and then selecting *Modify*.
 +
-image:bxp-modify-subscription-1.png[a screenshot displaying modify option from the subscription list]
+image:console-modify-subscription.png[a screenshot displaying modify option from the subscription list]
 . Click *Edit capacity* to modify committed capacity for the performance service levels, provide the necessary details, and click *Submit*.
 +
 You see the request in the *Modifications* section on the same page. 

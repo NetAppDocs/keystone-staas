@@ -23,7 +23,7 @@ To view the progress or cancel a request, follow these steps:
 You see a list of all service requests, including the request number, type of request, and current status.
 . You can click the image:down-arrow.png[down arrow icon] icon next to the *Submission date* column to expand the request number and view details. You see the performance service levels for which the requests are raised.
 +
-image:bxp-service-request-list.png[a screenshot shows for which performance service levels for which the modification requests are raised]
+image:console-service-request-list.png[a screenshot shows for which performance service levels for which the modification requests are raised]
 . Select the request number to view detailed information, including modification details for the requested subscription and the current progress status.
 +
 image:bxp-service-progress.png[a screenshot that shows current progress status] 

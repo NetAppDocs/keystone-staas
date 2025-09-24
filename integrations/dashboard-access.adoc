@@ -20,7 +20,7 @@ You can access the Keystone dashboard through the NetApp Console or Digital Advi
 
 .NetApp Console
 --
-Log in to the Console using your NetApp Support Site credentials or sign up for a NetApp Console login using your email and a password. For details, see link:https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-logging-in.html[logging in to the Console^].
+Log in to the Console using your NetApp Support Site credentials or sign up for a NetApp cloud login using your email and a password. For details, see link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-logging-in.html[logging in to the Console^].
 
 .Steps
 . Log in to the Console.
@@ -28,7 +28,7 @@ Log in to the Console using your NetApp Support Site credentials or sign up for 
 +
 The Keystone dashboard appears.
 +
-image:discover-subscriptions-1.png[the Keystone dashboard page ]
+image:discover-subscriptions-2.png[the Keystone dashboard page ]
 +
 NOTE: Contact NetApp Keystone support if your login credentials are not linked to any Keystone subscriptions.
 
