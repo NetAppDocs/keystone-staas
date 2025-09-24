@@ -59,7 +59,7 @@ You can click a subscription number in the *Subscription number* column to go to
 . From the Console left navigation menu, select *Storage > Keystone > Assets*.
 . Select the *Nodes in grids* tab. 
 +
-image:bxp-nodes-grids-multiple-sub.png[A screenshot of nodes in grids for multiple subscriptions]
+image:console-nodes-grids-multiple-sub.png[A screenshot of nodes in grids for multiple subscriptions]
 +
 You can view detailed information about all nodes in grids across Keystone subscriptions including node name, node ID, subscription number, grid name, node type, and customer. You can monitor the consumed and available data capacity, CPU usage, and usable data capacity. 
 +

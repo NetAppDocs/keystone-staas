@@ -20,7 +20,7 @@ At a high level, the workflow to interact with Digital Advisor REST API involves
 . Set up your Digital Advisor account. You must have valid NetApp Support site credentials to log in to Digital Advisor. To learn more, refer to https://docs.netapp.com/us-en/active-iq/task_login_activeiq.html[Log in to Digital Advisor.]
 . Understand the two-step authentication process.
 
-.. *Generate a refresh token*: A refresh token is obtained through Digital Advisor console using NetApp credentials. This token is used to ensure continuous access without the need for repeated logins.
+.. *Generate a refresh token*: A refresh token is obtained through the Digital Advisor console using NetApp credentials. This token is used to ensure continuous access without the need for repeated logins.
 .. *Generate an access token*: The refresh token is used to generate access tokens. An access token is required to authorize API calls to the Keystone service and is valid for one hour.
 . Execute an API call to retrieve the desired data.You can programmatically retrieve lists of customers, customer subscription data, and customer consumption details.
 
