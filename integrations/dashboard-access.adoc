@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar
 permalink: integrations/dashboard-access.html
-keywords: Keystone, Digital Advisor, keystone-aiq, aiq, BlueXP, Keystone dashboard, Keystone subscriptions
-summary: As a NetApp Keystone STaaS subscriber, you can get access the Keystone dashboard through NetApp BlueXP or Digital Advisor
+keywords: Keystone, Digital Advisor, keystone-aiq, aiq, BlueXP, Keystone dashboard, Keystone subscriptions, NetApp Console, Console
+summary: As a NetApp Keystone STaaS subscriber, you can get access the Keystone dashboard through NetApp Console or Digital Advisor
 ---
 
 = Get started with the Keystone dashboard
@@ -13,22 +13,22 @@ summary: As a NetApp Keystone STaaS subscriber, you can get access the Keystone 
 :imagesdir: ../media/
 
 [.lead]
-You can access the Keystone dashboard through NetApp BlueXP or Digital Advisor after subscribing to NetApp Keystone services.
+You can access the Keystone dashboard through the NetApp Console or Digital Advisor after subscribing to NetApp Keystone services.
 
 [role="tabbed-block"]
 ====
 
-.BlueXP
+.NetApp Console
 --
-To log in to BlueXP, you can use your NetApp Support Site credentials or you can sign up for BlueXP using your email and a password. Learn more about link:https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-logging-in.html[logging in to BlueXP^].
+Log in to the Console using your NetApp Support Site credentials or sign up for a NetApp cloud login using your email and a password. For details, see link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-logging-in.html[logging in to the Console^].
 
 .Steps
-. Log in to BlueXP.
-. From the BlueXP left navigation menu, select *Storage > Keystone*.
+. Log in to the Console.
+. From the Console left navigation menu, select *Storage > Keystone*.
 +
 The Keystone dashboard appears.
 +
-image:discover-subscriptions-1.png[the Keystone dashboard page ]
+image:discover-subscriptions-2.png[the Keystone dashboard page ]
 +
 NOTE: Contact NetApp Keystone support if your login credentials are not linked to any Keystone subscriptions.
 
@@ -59,7 +59,7 @@ You can view the details of your subscription and usage, and see a summary of ca
 
 *Related information*
 
-* link:../integrations/keystone-bluexp.html[Keystone dashboard in BlueXP]
+* link:../integrations/keystone-console.html[Keystone dashboard in NetApp Console]
 * link:..//integrations/keystone-aiq.html[Keystone dashboard in Digital Advisor]
 * link:../integrations/subscriptions-tab.html[View your subscription details]
 

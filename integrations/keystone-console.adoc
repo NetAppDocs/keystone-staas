@@ -1,11 +1,11 @@
 ---
 sidebar: sidebar
-permalink: integrations/keystone-bluexp.html
-keywords: Keystone, BlueXP, Keystone dashboard, overview, subscription manage, monitor
-summary: As a NetApp Keystone STaaS subscriber, you can get an overview of your subscriptions from  NetApp BlueXP.
+permalink: integrations/keystone-console.html
+keywords: Keystone, BlueXP, Keystone dashboard, overview, subscription manage, monitor, NetApp Console, Console
+summary: As a NetApp Keystone STaaS subscriber, you can get an overview of your subscriptions from  NetApp Console.
 ---
 
-= Keystone dashboard in BlueXP
+= Keystone dashboard in NetApp Console
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,13 +13,13 @@ summary: As a NetApp Keystone STaaS subscriber, you can get an overview of your 
 :imagesdir: ../media/
 
 [.lead]
-You can use the *Overview* tab to quickly determine the workloads at risk, view the capacity and expiry status of subscriptions, identify the unresolved alerts, and view the subscriptions with the highest capacity utilization. You can also view the status of your subscriptions across different versions of Keystone, highlighting any issues that need your attention.
+You can use the *Overview* page to quickly determine the workloads at risk, view the capacity and expiry status of subscriptions, identify the unresolved alerts, and view the subscriptions with the highest capacity utilization. You can also view the status of your subscriptions across different versions of Keystone, highlighting any issues that need your attention.
 
-To view the *Overview* tab, from the BlueXP left navigation menu, go to *Storage > Keystone > Overview*.
+To view the *Overview* page, from the Console left navigation menu, go to *Storage > Keystone > Overview*.
 
-image:bxp-dashboard-overview-1.png[a screenshot of the Overview tab]
+image:bxp-dashboard-overview-2.png[a screenshot of the Overview page]
 
-The *Overview* tab offers the following insights:
+The *Overview* page offers the following insights:
 
 * *Summary*: Displays the total number of subscriptions, ONTAP clusters, StorageGRID nodes, and ONTAP nodes. Each category has a *View* button to easily navigate to detailed sections on the *Subscriptions* or *Assets* tab.
 //* *Alerts by severity*: Lists the total alerts based on severity—Critical, Warning, and Informational. Each category includes a *View* button to review details and take further action.
@@ -41,7 +41,6 @@ The *Overview* tab offers the following insights:
 * link:..//integrations/keystone-aiq.html[Keystone dashboard in Digital Advisor]
 * link:../integrations/subscriptions-tab.html[View your subscription details]
 * link:../integrations/current-usage-tab.html[View your current consumption details]
-* link:../integrations/monitoring-alerts.html[View and manage alerts and monitors]
 * link:../integrations/consumption-tab.html[View consumption trends]
 
 

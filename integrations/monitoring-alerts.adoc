@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: integrations/monitoring-alerts.html
-keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, monitoring, bluexp. console
+keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, monitoring, bluexp, console
 summary: Use the Monitoring tab to view view and manage alerts for your Keystone subscriptions.
 ---
 
@@ -13,7 +13,7 @@ summary: Use the Monitoring tab to view view and manage alerts for your Keystone
 :imagesdir: ../media/
 
 [.lead]
-The Keystone dashboard in BlueXP allows you to view and manage active alerts in your Keystone storage environment. You can see both system-generated alerts and user-defined alerts for capacity usage and subscription expiration. From this view, you can quickly assess alert severity, identify storage issues, and take corrective actions. This view is not available in Digital Advisor.
+The Keystone dashboard in the NetApp Console allows you to view and manage active alerts in your Keystone storage environment. You can see both system-generated alerts and user-defined alerts for capacity usage and subscription expiration. From this view, you can quickly assess alert severity, identify storage issues, and take corrective actions. This view is not available in Digital Advisor.
 
 To configure user-defined alerts, refer to link:../integrations/monitoring-alert-monitors.html#create-and-manage-alert-monitors[Create and manage alert monitors].
 
@@ -23,9 +23,9 @@ To view active alerts, follow these steps:
 
 .Steps
 
-. From the BlueXP left navigation menu, select *Storage > Keystone > Monitoring > Alerts*.
+. From the Console left navigation menu, select *Storage > Keystone > Monitoring > Alerts*.
 +
-image:monitoring-alerts-default-view.png[A screenshot of active alerts for Keystone subscriptions]
+image:monitoring-alerts-default-view-1.png[A screenshot of active alerts for Keystone subscriptions]
 +
 You can view alert details such as severity, ID, description, triggered time, subscription number, tracking ID, performance service level, and status. The page also shows the total unresolved alerts by severity and type.
 

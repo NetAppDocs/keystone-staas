@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: integrations/current-usage-tab.html
-keywords: keystone-aiq, digital advisor keystone, current consumption tab, performance service levels, subscriptions
+keywords: keystone-aiq, digital advisor keystone, current consumption tab, performance service levels, subscriptions, NetApp Console, Console
 summary: To understand your subscription usage, you can view the committed capacity, consumed capacity, available capacity, and more.
 ---
 
@@ -15,16 +15,16 @@ summary: To understand your subscription usage, you can view the committed capac
 [.lead]
 You can gain insights into your subscription usage by viewing detailed information such as committed capacity, consumed capacity, and available capacity, with the current consumption status displayed and segregated by performance service levels.
 
-To view the current consumption status of your subscriptions through BlueXP or Digital Advisor, follow these steps:
+To view the current consumption status of your subscriptions through the NetApp Console or Digital Advisor, follow these steps:
 
 [role="tabbed-block"]
 ====
 
-.BlueXP
+.NetApp Console
 --
 .Steps
 
-. From the BlueXP left navigation menu, select *Storage > Keystone > Subscriptions*.
+. From the Console left navigation menu, select *Storage > Keystone > Subscriptions*.
 . Select the subscription number in the *Subscription number* column of the table to view the current consumption.
 +
 You are redirected to the *Current consumption* tab.

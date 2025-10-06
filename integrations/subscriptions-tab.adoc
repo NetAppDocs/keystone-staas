@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: integrations/subscriptions-tab.html
-keywords: keystone-aiq, digital advisor keystone, subscriptions-tab, performance levels, keystone-bluexp
+keywords: keystone-aiq, digital advisor keystone, subscriptions-tab, performance levels, keystone-bluexp, NetApp Console, Console
 summary: To learn more about your Keystone subscriptions, you can view a list of all your subscriptions from the Subscriptions tab.
 ---
 
@@ -13,22 +13,23 @@ summary: To learn more about your Keystone subscriptions, you can view a list of
 :imagesdir: ../media/
 
 [.lead]
-You can view a list of all your subscriptions from the *Subscriptions* tab in both BlueXP and Digital Advisor. This tab provides easy-to-understand insights based on your subscription status and usage, helping you stay informed and take action when needed.
+You can view a list of all your subscriptions from *Subscriptions* in the NetApp Console and Digital Advisor. This view provides easy-to-understand insights based on your subscription status and usage, helping you stay informed and take action when needed.
 
 [role="tabbed-block"]
 ====
 
-.BlueXP
+.NetApp Console
 --
 To view detailed information for your subscriptions, follow these steps:
 
 .Steps
 
-. From the BlueXP left navigation menu, go to *Storage > Keystone > Subscriptions*.
+. From the Console left navigation menu, select *Storage > Keystone > Subscriptions*.
 +
-image:bxp-subscription-list-2.png[view the subscription tab details]
+image:bxp-subscription-list-3.png[view the subscription tab details]
 +
 You see the key metrics such as capacity usage, subscription expiry status, and unresolved alerts. 
++
 You can see the following details from the table:
 +
 * *Subscription number*: The subscription number of the Keystone subscription assigned by NetApp.
