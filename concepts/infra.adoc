@@ -25,7 +25,7 @@ NetApp reserves the rights to take the following actions:
 The Keystone infrastructure includes multiple components, such as the following, among others:
 
 *	The Keystone infrastructure, including NetApp storage systems.
-*	Tools to manage and operate the service such as the ITOM monitoring solution, BlueXP, Active IQ, and Active IQ Unified Manager.
+*	Tools to manage and operate the service such as the ITOM monitoring solution, NetApp Console, Active IQ, and Active IQ Unified Manager.
 
 == Storage platforms 
 
@@ -41,4 +41,4 @@ In addition to the storage equipment, two monitoring tools are provisioned for s
 
 image:data-collector-flow.png[collector data flow]
 
-You can view the subscription and consumption details for your Keystone subscriptions through BlueXP or Digital Advisor. To learn more about Keystone reporting, refer to link:../integrations/dashboard-overview.html[Keystone dashboard overview].
+You can view the subscription and consumption details for your Keystone subscriptions through the NetApp Console or Digital Advisor. To learn more about Keystone reporting, refer to link:../integrations/dashboard-overview.html[Keystone dashboard overview].

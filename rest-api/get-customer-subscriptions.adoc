@@ -13,7 +13,7 @@ summary: Digital Advisor REST API retrieves a list of all the subscriptions and 
 :imagesdir: ../media/
 
 [.lead]
-This API retrieves a list of all the subscriptions and service levels associated with the given customerID.
+This API retrieves a list of all the subscriptions and performance service levels associated with the given customerID.
 
 
 *Request:*
@@ -36,7 +36,7 @@ This API retrieves a list of all the subscriptions and service levels associated
 
 *Response:*
 
-The API will respond with a JSON object containing a list of all the subscriptions and associated service level details for the given customer. Here's an example response:
+The API will respond with a JSON object containing a list of all the subscriptions and associated performance service level details for the given customer. Here's an example response:
 
 ----
 [
