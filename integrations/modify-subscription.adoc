@@ -19,7 +19,7 @@ You can modify the committed capacity of your Keystone subscription for the asso
 [NOTE]
 ====
 * You can modify the committed capacity if the subscription has more than 90 days remaining before it expires.
-* You must be assigned to the *Keystone admin* role to modify the committed capacity. To learn more, refer to link:https://docs.netapp.com/console-setup-admin/reference-iam-predefined-roles.html[Learn about NetApp Console access roles^].
+* You must be assigned to the *Keystone admin* role to modify the committed capacity. To learn more, refer to link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html[Learn about NetApp Console access roles^].
 ====
 
 To change the committed capacity, follow these steps:

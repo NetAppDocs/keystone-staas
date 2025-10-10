@@ -4,3 +4,6 @@ The *Volumes in clusters* tab within the *Assets* tab now includes a *QoS policy
 NOTE: For Keystone v3 subscriptions, this column displays *N/A* as QoS policies are not applicable in the v3 offering.
 
 //NSEKEY-18824
+
+=== Enhanced alerts visibility in Overview page
+The *Overview* page in NetApp Console now includes two new alert sections named *Unresolved alerts by severity* and *Oldest unresolved Keystone alerts*. To learn more, refer to link:https://docs.netapp.com/us-en/keystone-staas/integrations/keystone-console.html[Keystone dashboard in NetApp Console].

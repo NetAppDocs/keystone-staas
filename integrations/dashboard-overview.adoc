@@ -42,7 +42,7 @@ Learn more about the link:https://docs.netapp.com/us-en/bluexp-setup-admin/conce
 Note the following:
 
 * While the Console and Digital Advisor offer some exclusive features, the Console provides administrative functionality for Keystone, allowing you to manage subscriptions and make necessary adjustments.
-* You must be assigned to the *Keystone admin* role to modify subscriptions. To learn more, refer to link:https://docs.netapp.com/console-setup-admin/reference-iam-predefined-roles.html[Learn about NetApp Console access roles^].
+* You must be assigned to the *Keystone admin* role to modify subscriptions. To learn more, refer to link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html[Learn about NetApp Console access roles^].
 * Digital Advisor is integrated with the Console, allowing you to access all Digital Advisor features, including the Keystone dashboard, directly from the Console. To learn more, refer to link:https://docs.netapp.com/us-en/active-iq/digital-advisor-integration-with-console.html#netapp-console[Digital Advisor integration with NetApp Console^].
 
 == Keystone features in NetApp Console and Digital Advisor
