@@ -1,0 +1,5 @@
+=== QoS policy override column in Assets tab
+The *Volumes in clusters* tab within the *Assets* tab now includes a *QoS policy override* column that indicates whether QoS rules are bypassed for backup and mirror volumes, displaying *true* (rules ignored), *false* (rules enforced), or *N/A* (for mirror volumes). This column is available in both the single subscription view and the multiple subscription view. 
+NOTE: For Keystone v3 subscriptions, this column displays *N/A* as QoS policies are not applicable in the v3 offering.
+
+//NSEKEY-18824
