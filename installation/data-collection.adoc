@@ -61,10 +61,10 @@ The following list is a representative sample of the capacity consumption data c
 **	StorageType
 **	Aggregate Name
 **	Aggregate UUID
-**	##Physical Used##
-**	##Available Size##
-**	##Size##
-**	##Used Size##
+**	Physical Used
+**	Available Size
+**	Size
+**	Used Size
 *	Aggregate object stores
 **	ObjectStoreName
 **	ObjectStoreUUID
@@ -138,7 +138,7 @@ The following list is a representative sample of the capacity consumption data c
 ** TotalFootprint
 ** VolumeBlocksFootprintBin0
 ** VolumeBlocksFootprintBin1
-* ##MetroCluster##
+* MetroCluster
 ** Node 
 ** Aggregate 
 ** LIFs 
@@ -153,7 +153,7 @@ The following list is a representative sample of the capacity consumption data c
 ** RemoteCluserName
 ** LocalConfigurationState
 ** RemoteConfigurationState
-* ##MetroCluster nodes##
+* MetroCluster nodes
 ** DR Mirroring State
 ** Intercluster LIF 
 ** Node reachability
@@ -161,7 +161,7 @@ The following list is a representative sample of the capacity consumption data c
 ** DR Aux Partner node 
 ** DR, DR Aux, and HA node symmetric relationship
 ** Automatic Unplanned Switchover
-* ##MetroCluster Config Replication##
+* MetroCluster Config Replication
 ** Remote Heartbeat 
 ** Last Heartbeat Sent 
 ** Last Heartbeat Received 
@@ -169,7 +169,7 @@ The following list is a representative sample of the capacity consumption data c
 ** Cluster Stream 
 ** Storage
 ** Storage in use Volume
-* ##MetroCluster mediators##
+* MetroCluster mediators
 ** Mediator Address
 ** Mediator Port
 ** Mediator Configured
@@ -229,7 +229,7 @@ The following list is a representative sample of the performance data collected 
 *	QoSPolicyGroupLatency
 *	ReadMBps
 *	QoSSyncSnapmirrorLatency
-*   ##System level data##
+*   System level data
 **  Write/Read/Other/Total IOPS
 **  Write/Read/Other/Total Throughput
 **  Write/Read/Other/Total Latency
@@ -285,7 +285,7 @@ The following list is a representative sample of the `Physical Data` collected f
 *	StorageGRID storage utilization Bytes
 *	StorageGRID storage utilization metadata Bytes
 
-##The following list is a representative sample of the `Availability/Uptime Data` collected for StorageGRID:##
+The following list is a representative sample of the `Availability/Uptime Data` collected for StorageGRID:
 
 *	SLA Uptime percentage
 
