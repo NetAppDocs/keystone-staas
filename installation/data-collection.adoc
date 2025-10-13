@@ -168,7 +168,7 @@ The following list is a representative sample of the capacity consumption data c
 ** Vserver Stream 
 ** Cluster Stream 
 ** Storage
-** Storage in use Volume
+** Storage in use volume
 * MetroCluster mediators
 ** Mediator Address
 ** Mediator Port
