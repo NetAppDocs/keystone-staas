@@ -1,0 +1,12 @@
+
+New enhancements in the Keystone dashboard in the NetApp Console:
+
+=== QoS policy override column in Assets tab
+The *Volumes in clusters* tab within the *Assets* tab now includes a *QoS policy override* column that indicates whether QoS rules are bypassed for backup and mirror volumes, displaying *true* (rules ignored), *false* (rules enforced), or *N/A* (for mirror volumes).
+
+NOTE: For Keystone v3 subscriptions, this column displays *N/A* as QoS policies are not applicable in the v3 offering.
+
+//NSEKEY-18824
+
+=== Enhanced alerts visibility in Overview page
+The *Overview* page now includes two new alert sections named *Unresolved alerts by severity* and *Oldest unresolved Keystone alerts*. To learn more, refer to link:https://docs.netapp.com/us-en/keystone-staas/integrations/keystone-console.html[Keystone dashboard in NetApp Console].

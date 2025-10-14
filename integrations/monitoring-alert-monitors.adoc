@@ -45,10 +45,9 @@ image:create-alert-monitor.png[A screenshot of creating an alert monitor for Key
 . Select either *Capacity usage* or *Subscription expiration* to define the monitor type. Based on your selection, provide the following details:
 +
 * *General details*: Provide an alert name and select the severity level.
-* *Resource selection*: Choose to create the monitor for specific subscriptions. Based on your monitor type selection, fill in the required fields that appear, such as subscription numbers and performance service levels for capacity usage monitors, or only subscription numbers for subscription expiration monitors.
-//Choose to create the monitor for specific subscriptions or all subscriptions. Based on your monitor type selection, fill in the required fields that appear, such as subscription numbers and performance service levels for capacity usage monitors, or only subscription numbers for subscription expiration monitors.
+* *Resource selection*: Choose to create the monitor for specific subscriptions or all subscriptions. Based on your monitor type selection, fill in the required fields that appear, such as subscription numbers and performance service levels for capacity usage monitors, or only subscription numbers for subscription expiration monitors.
 +
-image:resource-selection.png[A screenshot of resource selection for the capacity usage monitor]
+image:resource-selection-1.png[A screenshot of resource selection for the capacity usage monitor]
 * *Condition*: Set the threshold condition that triggers the alert. For example, trigger an alert when capacity usage exceeds a specified percentage.
 * *Notifications*: Select the users to receive alert notifications.
 

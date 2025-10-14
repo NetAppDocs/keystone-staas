@@ -29,15 +29,15 @@ To view the current consumption status of your subscriptions through the NetApp 
 +
 You are redirected to the *Current consumption* tab.
 +
-image:bxp-current-consumption-graph-1.png[current consumption details in the graphical format]
+image:console-current-consumption-graph.png[current consumption details in the graphical format]
 +
 For the selected subscription, you can view consumption details in either table or graphical format using the *Table* or *Graph* option from the *View as* dropdown. In the graphical view, you can see the current consumption per performance service level, including used capacity, provisioned capacity, committed capacity limit, and burst capacity limit.
 +
 NOTE: If a performance service level has multiple instances, you can expand *View by instances* in either view to see current consumption details for each instance separately. For example, if you have two instances of the Extreme performance service level within a subscription, each instance will display its own committed, consumed, and available capacities separately.
 +
-In the table view, you can see details like maximum capacity consumed and days remaining until expiration. As part of monitoring your subscription usage, you can view the performance service level name, consumption status, committed and used capacities, provisioned and burst capacities, available capacity, and volumes. You can customize the table using the column selector image:column-selector.png[column selector icon] icon.
+In the table view, you can see details like maximum capacity consumed and days remaining until expiration. As part of monitoring your subscription usage, you can view the performance service level name, capacity usage, committed and used capacities, provisioned and burst capacities, available capacity, and volumes. You can customize the table using the column selector image:column-selector.png[column selector icon] icon.
 +
-image:bxp-current-consumption-table-1.png[current consumption details in the table format]
+image:console-current-consumption-table.png[current consumption details in the table format]
 
 --
 
