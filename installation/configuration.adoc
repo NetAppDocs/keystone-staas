@@ -80,7 +80,7 @@ If you use SSL/TLS inspection in your system firewall, it results in the interne
 . Prepare the CA certificate. It should be in _base64-encoded X.509_ file format.
 [NOTE]
 The supported file extensions are `.pem`, `.crt`, `.cert`. Ensure that the certificate is in one of these formats.
-. Copy the certificate to the Keystone Collector server. Make a note of the location where the file is copied.
+. Copy the certificate to the Keystone Collector server. ##The CA certificate will be copied to `/opt/netapp/ks-collector/ca.pem`##. Make a note of the location where the file is copied.
 . Open a terminal on the server and run the management TUI utility.
 `$ keystone-collector-tui`
 . Go to *Configuration > Advanced*.
