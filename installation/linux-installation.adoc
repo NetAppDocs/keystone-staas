@@ -26,7 +26,7 @@ You can install the Keystone Collector software on a Linux server using an RPM o
 . Ensure that the correct public certificate has been imported by checking the fingerprint for Keystone Billing Platform in the RPM database: 
 `# rpm -qa gpg-pubkey --qf '%{Description}'|gpg --show-keys --fingerprint`
 The correct fingerprint looks like this:
-`92970DB6086722E77646E40044935CBBC9E9FEDC`
+`9297 0DB6 0867 22E7 7646 E400 4493 5CBB C9E9 FEDC`
 . Download the `keystonerepo.rpm` file:
 `curl -O https://keystone.netapp.com/repo1/keystonerepo.rpm`
 . Verify the authenticity of the file:
