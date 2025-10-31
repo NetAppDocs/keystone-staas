@@ -91,6 +91,8 @@ The supported file extensions are `.pem`, `.crt`, `.cert`. Ensure that the certi
 . Press Enter. You return to the *Advanced* screen.
 . Select *Save*. The configuration is applied.
 
+NOTE: The CA certificate is copied to `/opt/netapp/ks-collector/ca.pem` on the Keystone Collector server.
+
 image:kc-custom-ca.png[TUI screen for CA customization]
 
 == Create Performance Service Levels
