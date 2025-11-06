@@ -122,7 +122,7 @@ To fix subscriptions without monitors or unused monitors, follow these steps:
 . Choose one:
 * *Add to existing monitor*: A pop-up appears. Select a monitor and confirm.
 * *Create new monitor*: The system displays the *Create alert monitor* page. Follow the steps in link:../integrations/monitoring-alert-monitors.html#create-and-manage-alert-monitors[Create a monitor] to create a new monitor.
-
++
 The subscription disappears from the tab after coverage is added.
 --
 .Unused monitors
@@ -133,7 +133,7 @@ The subscription disappears from the tab after coverage is added.
 . Choose one:
 * *Edit*: The system displays the *Edit alert monitor* page. Change the needed fields and save. To learn more, refer to see link:../integrations/monitoring-alert-monitors.html#create-and-manage-alert-monitors[Edit monitor].
 * *Delete*: Confirm the deletion to remove the monitor.
-
++
 The monitor is removed from the tab after you add subscriptions or delete it.
 --
 ====
