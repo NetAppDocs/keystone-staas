@@ -1,0 +1,2 @@
+=== ##Complete your coverage notification box##
+The *Alerts monitors* tab includes a *Complete your coverage* notification box that appears when coverage gaps exist. This box shows subscriptions missing capacity or expiration monitors, and monitors with no subscriptions. You can address the gaps by adding subscriptions to existing monitors, creating new monitors, or deleting unused monitors. To learn more, refer to link:../integrations/monitoring-alert-monitors.html#manage-coverage-gaps[Manage coverage gaps for alert monitors].
