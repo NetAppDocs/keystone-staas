@@ -1,6 +1,8 @@
 ---
 settings:
   name: Keystone
+  release_notes_autogen:
+    release_notes_repo: console-relnotes  
   internal:
     pdf_enabled: true
   prod:
