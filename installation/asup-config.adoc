@@ -34,11 +34,25 @@ You should note the following before configuring AutoSupport to include Keystone
 autosupport trigger modify -node * -autosupport-message management.log -basic-additional wafl,performance,snapshot,object_store_server,san,raid,snapmirror -troubleshooting-additional wafl
 ----
 +
+If the cluster is in a MetroCluster configuration, run this command:
++
+[source]    
+----
+autosupport trigger modify -node * -autosupport-message management.log -basic-additional wafl,performance,snapshot,object_store_server,san,raid,snapmirror,metrocluster -troubleshooting-additional wafl
+----
++
 ** For earlier ONTAP versions, run this command to modify the daily log content:
 +
 [source]    
 ----
 autosupport trigger modify -node * -autosupport-message management.log -basic-additional wafl,performance,snapshot,platform,object_store_server,san,raid,snapmirror -troubleshooting-additional wafl
+----
++
+If the cluster is in a MetroCluster configuration, run this command:
++
+[source]    
+----    
+autosupport trigger modify -node * -autosupport-message management.log -basic-additional wafl,performance,snapshot,platform,object_store_server,san,raid,snapmirror,metrocluster -troubleshooting-additional wafl 
 ----
 +
 ** Run this command to modify the weekly log content:
