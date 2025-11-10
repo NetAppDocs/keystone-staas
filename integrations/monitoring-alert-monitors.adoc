@@ -13,7 +13,7 @@ summary: Use the Monitoring tab to view view and create alert monitors for your 
 :imagesdir: ../media/
 
 [.lead]
-You can view and create alert monitors for your Keystone subscriptions from the Keystone dashboard in the NetApp Console. The dashboard shows both system-generated and user-defined monitors for capacity usage and subscription expiration. You can create monitors to set thresholds, choose alert severity, and add email recipients for notifications. ##You can address coverage gaps by adding monitors to uncovered subscriptions or resolving unused monitors##. This functionality is not available in Digital Advisor.
+You can view and create alert monitors for your Keystone subscriptions from the Keystone dashboard in the NetApp Console. The dashboard shows both system-generated and user-defined monitors for capacity usage and subscription expiration. You can create monitors to set thresholds, choose alert severity, and add email recipients for notifications. You can address coverage gaps by adding monitors to uncovered subscriptions or resolving unused monitors. This functionality is not available in Digital Advisor.
 
 == View alert monitors
 
@@ -101,7 +101,7 @@ NOTE: System-generated monitors cannot be deleted by users.
 --
 ====
 
-== ##Manage coverage gaps##
+== Manage coverage gaps
 
 A collapsible *Complete your coverage* notification box appears above the alert monitors list when action is required. It helps you:
 
