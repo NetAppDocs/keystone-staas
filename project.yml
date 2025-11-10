@@ -1,11 +1,15 @@
 ---
 settings:
   name: Keystone
+  release_notes_autogen:
+    release_notes_repo: console-relnotes  
   internal:
     pdf_enabled: true
   prod:
     pdf_enabled: true
     harmony_enabled: true
+    release_notes_autogen:
+      release_notes_repo: console-relnotes
   versions:
     - version-number: "3.0"
       url: /keystone-staas  
