@@ -16,6 +16,10 @@ summary: NetApp offers you new and enhanced features in every release of Keyston
 Learn about the latest features and enhancements in Keystone STaaS services.
 
 
+== 10 November 2025
+
+include::_whatsnew/2025-11-10.adoc[]
+
 == 13 October 2025
 
 include::_whatsnew/2025-10-13.adoc[]
