@@ -73,4 +73,3 @@ For information about your Keystone storage services and the relevant performanc
 * link:../integrations/monitoring-alerts.html[View and manage alerts and monitors]
 * link:../integrations/volumes-objects-tab.html[View volumes & objects details]
 
-//image:aiq-ks-dtls-3.png[Current Consumption tab]
