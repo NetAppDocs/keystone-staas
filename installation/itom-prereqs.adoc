@@ -21,8 +21,8 @@ Before installing ITOM Collector, ensure that your systems are prepared with the
 ** Debian 12 or later
 ** Windows Server 2016 or later
 ** Ubuntu 20.04 LTS or later
-** ##Red Hat Enterprise Linux (RHEL) 8.x##
-** ##Red Hat Enterprise Linux 9.0 or later##
+** Red Hat Enterprise Linux (RHEL) 8.x
+** Red Hat Enterprise Linux 9.0 or later
 ** Amazon Linux 2023 or later
 +
 NOTE: The recommended operating systems are Debian 12, Windows Server 2016, or newer versions.
