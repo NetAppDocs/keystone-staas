@@ -24,7 +24,10 @@ Before installing Keystone Collector in an environment without internet access, 
 
 == Requirements for Linux
 
-* Operating system: Debian 12, or ##Red Hat Enterprise Linux (RHEL) 9.0 or later versions## 
+* ##Operating system (choose one):##
+** Red Hat Enterprise Linux (RHEL) 8.6 or any later 8.x series
+** Red Hat Enterprise Linux (RHEL) 9.0 or later versions
+** Debian 12
 * Core: 2 CPU
 * RAM: 4 GB
 * Disk space: 50 GB vDisk
@@ -33,9 +36,15 @@ Before installing Keystone Collector in an environment without internet access, 
 
 The same server should also have the following third-party packages installed. If available through the repository, these packages will be automatically installed as prerequisites:
 
-* ##RHEL9##
+* ##RHEL 8.6+ (8.x)##
 ** python3 >=v3.6.8, python3 \<=v3.9.13
 ** podman
+** sos
+** yum-utils
+** python3-dnf-plugin-versionlock
+* ##RHEL 9.0+##
+** python3 >= v3.9.0, python3 \<= v3.9.13
+** podman   
 ** sos
 ** yum-utils
 ** python3-dnf-plugin-versionlock
