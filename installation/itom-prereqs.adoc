@@ -17,7 +17,7 @@ Before installing ITOM Collector, ensure that your systems are prepared with the
 
 .Prerequisites for the ITOM Collector server VM:
 
-* Supported operating system: Debian 12, Windows Server 2016, Ubuntu 20.04 LTS, Red Hat Enterprise Linux (RHEL) 9.0, Amazon Linux 2023, or newer versions of these operating systems.
+* Supported operating system: Debian 12, Windows Server 2016, Ubuntu 20.04 LTS, ##Red Hat Enterprise Linux (RHEL) 9.0##, Amazon Linux 2023, or newer versions of these operating systems.
 +
 NOTE: The recommended operating systems are Debian 12, Windows Server 2016, or newer versions.
 +
