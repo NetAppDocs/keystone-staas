@@ -98,5 +98,5 @@ image:sla-breach.png[excel sheet template]
 ====
 * A service credit request should be initiated within six weeks after NetApp Keystone support has validated a breach. All service credits should be acknowledged and approved by NetApp. 
 
-* Service credits may be applied to a future invoice. Service credits do not apply to expired Keystone subscriptions. To learn more, refer to link:../concepts/gssc.html[NetApp Keystone support].
+* Service credits may be applied to a future invoice. Service credits do not apply to expired Keystone subscriptions. To learn more, refer to link:../concepts/support-services.html[NetApp Keystone support].
 ====

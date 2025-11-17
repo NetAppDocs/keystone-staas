@@ -40,7 +40,7 @@ Virtual machines are required for the deployment of Keystone Collector and ITOM 
 Keystone Collector can be deployed through the following methods:
 
 *	VMware OVA template (VMware vCenter Server 6.7 or later is required)
-*	Customer provides a Linux server running on one of the following operating systems: Debian 12, Red Hat Enterprise Linux 8.6 or later 8.x versions, or CentOS 7 (for existing environments only). The Keystone software is installed using the `.deb` or `.rpm` package, depending on the Linux distribution.
+*	Customer provides a Linux server running on one of the following operating systems: Debian 12, Red Hat Enterprise Linux 9.0 or later versions, or CentOS 7 (for existing environments only). The Keystone software is installed using the `.deb` or `.rpm` package, depending on the Linux distribution.
 
 ITOM Collector can be deployed through the following methods:
 

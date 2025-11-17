@@ -21,7 +21,7 @@ Ensure that your Linux and Keystone Collector server VM have these configuration
 
 * Operating system: Any one of the following:
     ** Debian 12
-    ** Red Hat Enterprise Linux 8.6 or later 8.x versions
+    ** Red Hat Enterprise Linux 9.0 or later versions
     ** CentOS 7 (for existing environments only)
 * Chronyd time synchronized
 * Access to the standard Linux software repositories
