@@ -52,7 +52,7 @@ indexpage:
     - title: Do more with Keystone services
       links:
         - title: Learn about your support team
-          url: /concepts/gssc.html
+          url: /concepts/support-services.html
         - title: Increase burst capacity
           url: /concepts/burst-capacity.html
         - title: What can I do with my cold or less-used data?
