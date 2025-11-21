@@ -25,6 +25,8 @@ To view alert monitors, follow these steps:
 image:monitoring-alert-monitors-default-view-1.png[A screenshot of alert monitors for Keystone subscriptions]
 +
 You can view a list of alert monitors across your Keystone subscriptions, including monitor names, alert conditions that trigger notifications, severity levels, subscription numbers, performance service levels, and status. You can check the *Created by* column to see whether the alert monitors are system-generated or user-defined.
++
+NOTE: The *Reports* tab is not enabled for Keystone subscriptions.
 
 == Create and manage alert monitors
 
@@ -108,7 +110,7 @@ A collapsible *Complete your coverage* notification box appears above the alert 
 * Identify and address subscriptions that do not have a capacity usage or subscription expiration monitor.
 * Review and manage monitors that are not currently associated with any subscriptions.
 +
-image:coverage-gaps.png[A screenshot of coverage gaps for alert monitors for Keystone subscriptions]
+image:coverage-gaps-1.png[A screenshot of coverage gaps for alert monitors for Keystone subscriptions]
 
 To fix subscriptions without monitors or unused monitors, follow these steps:
 
