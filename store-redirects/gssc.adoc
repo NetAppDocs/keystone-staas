@@ -1,5 +1,5 @@
 ---
 permalink: concepts/gssc.html
-redirect: concepts/support-services.html
+redirect: keystone-staas/concepts/support-services.html
 ---
 
