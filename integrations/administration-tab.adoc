@@ -18,12 +18,14 @@ You can view and track service requests for modifying Keystone subscriptions thr
 To view the progress or cancel a request, follow these steps:
 
 .Steps
-. From the Console left navigation menu, select *Storage > Keystone > Administration*.
+. From the Console left navigation menu, select *Storage > Keystone > Administration > Requests*.
 +
 You see a list of all service requests, including the request number, type of request, and current status.
++
+NOTE: The *Agent management* and *Reports* tabs are currently unavailable for Keystone subscriptions.
 . You can click the image:down-arrow.png[down arrow icon] icon next to the *Submission date* column to expand the request number and view details. You see the performance service levels for which the requests are raised.
 +
-image:console-service-request-list.png[a screenshot shows for which performance service levels for which the modification requests are raised]
+image:console-service-request-list.png[a screenshot shows performance service levels for the modification requests]
 . Select the request number to view detailed information, including modification details for the requested subscription and the current progress status.
 +
 image:bxp-service-progress.png[a screenshot that shows current progress status] 

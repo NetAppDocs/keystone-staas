@@ -1,0 +1,4 @@
+New enhancements in the Keystone dashboard in the NetApp Console:
+
+=== Tracking ID for coverage gap subscriptions
+In the *Complete your coverage* notification box on *Monitoring > Alert monitors*, each subscription now displays its tracking ID beside the subscription number.
