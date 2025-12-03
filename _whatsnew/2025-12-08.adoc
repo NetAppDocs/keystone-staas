@@ -1,4 +1,4 @@
 New enhancements in the Keystone dashboard in the NetApp Console:
 
-== Renamed Accrued burst capacity label 
+=== Renamed Accrued burst capacity label 
 The label *Accrued burst capacity* is renamed to *Accrued burst*.
