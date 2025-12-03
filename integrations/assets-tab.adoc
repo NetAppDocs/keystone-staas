@@ -19,7 +19,12 @@ You can view detailed information about ONTAP clusters and nodes, and StorageGRI
 
 The *Assets* tab in the *Subscriptions* page shows detailed information about volumes in clusters, StorageGRID nodes, and ONTAP nodes associated with the subscription, including various details and capacity status. 
 
-NOTE: This view is limited to one Keystone subscription at a time. You can also see the assets of other subscriptions by selecting from the *Tracking ID* dropdown list. The Keystone dashboard in NetApp Console allows you to view assets across multiple Keystone subscriptions. To learn more, refer to link:../integrations/assets.html[View assets across your Keystone subscriptions].
+[NOTE]
+====
+* This view is limited to one Keystone subscription at a time. You can also see the assets of other subscriptions by selecting from the *Tracking ID* dropdown list. The Keystone dashboard in NetApp Console allows you to view assets across multiple Keystone subscriptions. To learn more, refer to link:../integrations/assets.html[View assets across your Keystone subscriptions].
+
+* ##The *View* dropdown options depend on your storage platforms. *Volumes in clusters* and *Nodes in clusters* are available for ONTAP. *Nodes in grids* is available for StorageGRID.##
+====
 
 You can view this information by following these steps:
 
@@ -30,8 +35,6 @@ You can view this information by following these steps:
 .Steps
 . From the Console left navigation menu, select *Storage > Keystone > Subscriptions*.
 . Select the subscription number in the *Subscription number* column of the table.
-+
-The system opens the *Current consumption* tab.
 . Select the *Assets* tab.
 . Select *Volumes in cluster* from the *View* dropdown.
 +
