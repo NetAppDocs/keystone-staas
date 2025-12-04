@@ -15,6 +15,8 @@ summary: Use the Assets tab to view details of ONTAP clusters and nodes, and Sto
 [.lead]
 The Keystone dashboard in the NetApp Console allows you to view detailed information about nodes in clusters, provisioned volumes, and StorageGRID nodes across multiple Keystone subscriptions, according to your access permissions. This view is not available in Digital Advisor.
 
+NOTE: The *Assets* tab displays tabs based on the platforms associated with your Keystone subscriptions. For ONTAP, both *Nodes in clusters* and *Volumes in clusters* tabs are available. For StorageGRID, the *Nodes in grids* table displays directly without a tab selection. If subscriptions include both platforms, all three tabs are available.
+
 [role="tabbed-block"]
 ====
 .Nodes in clusters
