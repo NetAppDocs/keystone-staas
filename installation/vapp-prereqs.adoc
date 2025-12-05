@@ -17,7 +17,7 @@ Your VMware vSphere system must meet several requirements before you can install
 
 .Prerequisites for the Keystone Collector server VM:
 
-* Operating system: VMware vCentre server and ESXi 6.7 or later
+* Operating system: VMware vCentre server and ESXi 8.0 or later
 * Core: 1 CPU
 * RAM: 2 GB RAM
 * Disk space: 20 GB vDisk
