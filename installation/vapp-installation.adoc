@@ -33,7 +33,7 @@ The vCenter root trust store contains only VMware certificates. NetApp uses Entr
 .. Download the code-signing CA certificate from Sectigo https://comodoca.my.salesforce.com/sfc/p/1N000002Ljih/a/3l000000oAhy/QCCby12C7cYo50nNyic6AuG1KFcwe1rDn1EknfTaUzY[here^].
 .. Follow the steps in the `Resolution` section of this knowledge base (KB) article: https://kb.vmware.com/s/article/84240[^].
 +
-NOTE: For vCenter versions 7.x and earlier, you must update vCenter and ESXi to version 8.0 or later.
+NOTE: For vCenter versions 7.x and earlier, you must update vCenter and ESXi to version 8.0 or later. Earlier versions are no longer supported.
 +
 When the integrity and authenticity of the Keystone Collector OVA are validated, you can see the text `(Trusted certificate)` with the publisher.
 image:ova-deploy-1.png[OVA UI displaying a verified certificate]
