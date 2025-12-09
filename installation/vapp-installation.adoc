@@ -27,27 +27,14 @@ Follow these steps:
 . On _Step 2_, specify the VM name and select the VM folder.
 . On _Step 3_, specify the required compute resource that is to run the VM.
 . On _Step 4: Review details_, verify the correctness and authenticity of the OVA file. 
-vCentre versions prior to 7.0u2 are unable to automatically verify the authenticity of the code signing certificate. vCentre 7.0u2 and later can perform the verifications, however, for this, the signing certificate authority should be added to vCentre. Follow these instructions for your version of vCentre:
 +
-.vCentre 7.0u1 and earlier: Learn more
-[%collapsible]
-====
-vCentre validates the integrity of the OVA file contents and that a valid code-signing digest is provided for the files contained in the OVA file. However, it does not validate the authenticity of the code-signing certificate. For verifying the integrity, you should download the full signing digest certificate, and verify it against the public certificate published by Keystone.
-
-.. Click the *Publisher* link to download the full signing digest certificate.
-.. Download the _Keystone Billing_ public certificate from https://keystone.netapp.com/downloads/OVA-SSL-NetApp-Keystone-20251020.pem[this link^].
-.. Verify the authenticity of the OVA signing certificate against the public certificate by using OpenSSL:
-`openssl verify -CAfile OVA-SSL-NetApp-Keystone-20251020.pem keystone-collector.cert`
-====
-+
-.vCentre 7.0u2 and later: Learn more
-[%collapsible]
-====
-7.0u2 and later versions of vCenter are capable of validating the integrity of the OVA file contents and the authenticity of the code-signing certificate, when a valid code-signing digest is provided. The vCenter root trust store contains only VMware certificates. NetApp uses Entrust as a certifying authority, and those certificates need to be added to the vCenter trust store.
+The vCenter root trust store contains only VMware certificates. NetApp uses Entrust as a certifying authority, and those certificates need to be added to the vCenter trust store.
 
 .. Download the code-signing CA certificate from Sectigo https://comodoca.my.salesforce.com/sfc/p/1N000002Ljih/a/3l000000oAhy/QCCby12C7cYo50nNyic6AuG1KFcwe1rDn1EknfTaUzY[here^].
 .. Follow the steps in the `Resolution` section of this knowledge base (KB) article: https://kb.vmware.com/s/article/84240[^].
-====
++
+NOTE: For vCenter versions 7.x and earlier, you must update vCenter and ESXi to version 8.0 or later. Earlier versions are no longer supported.
++
 When the integrity and authenticity of the Keystone Collector OVA are validated, you can see the text `(Trusted certificate)` with the publisher.
 image:ova-deploy-1.png[OVA UI displaying a verified certificate]
 +

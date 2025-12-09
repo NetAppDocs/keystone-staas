@@ -19,6 +19,10 @@ Issues that were found in previous releases of NetApp Keystone STaaS services ha
 |===
 |Issue description |After the fix |Fixed in release
 
+a|Subscriptions incorrectly display *Above Burst Limit* status in the Digital Advisor dashboard despite consumption being within allowed burst limits.
+a|Fixed
+a|December 08, 2025
+//NSEKEY-20670
 a|Missing burst threshold line from consumption trend charts for subscriptions configured with a MetroCluster configuration in the Digital Advisor dashboard, showing an incorrect *Above Burst Limit* status.
 a|Fixed
 a| August 28, 2025
