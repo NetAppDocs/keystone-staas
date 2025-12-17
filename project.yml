@@ -118,6 +118,8 @@ sidebar:
               url: /integrations/consumption-tab.html
             - title: View your subscription timeline
               url: /integrations/subscription-timeline.html
+            - title: View MetroCluster subscriptions consumption and health 
+              url: /integrations/adp-tab.html                  
         - title: View assets
           entries:
             - title: View assets associated with a subscription
@@ -153,7 +155,9 @@ sidebar:
             - title: Capacity requirements for performance service levels
               url: /concepts/capacity-requirements.html 
         - title: Add-on services
-          entries:  
+          entries: 
+            - title: Advanced data protection
+              url: /concepts/adp.html 
             - title: Burst capacity options
               url: /concepts/burst-capacity.html
             - title: Data Infrastructure Insights
