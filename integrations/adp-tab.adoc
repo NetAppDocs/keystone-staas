@@ -33,7 +33,7 @@ When you subscribe to the advanced data protection add-on service, you can view 
 
 For more information, refer to link:../concepts/adp.html[Advanced data protection add-on for Keystone].
 
-== View MetroCluster subscription consumption and health status
+== View MetroCluster subscriptions consumption and health status
 
 Follow the steps below:
 
