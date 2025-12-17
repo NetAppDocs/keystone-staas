@@ -15,21 +15,27 @@ summary: View consumption data and monitor health status for your MetroCluster p
 [.lead]
 When you subscribe to the advanced data protection add-on service, you can view consumption data for your MetroCluster partner sites in either the NetApp Console or Digital Advisor. In the NetApp Console, you can also monitor the replication status and health of your MetroCluster setup and ##take action when synchronization issues occur. (For Sushant-Need to verify whether customers can currently create custom alerts. As of now, automatic alerts are not available. )##
 
-== Understand MetroCluster billing
+== Understand MetroCluster consumption data 
+
+##(Sushant-please confirm if this is correct)##
 
 *Base performance service levels:*
+
 * Each volume is charged at both primary and mirror sites.
 * Consumption charts display usage split between both sites.
 
-*Advanced Data Protection performance service levels:*
+*Advanced data protection performance service levels:*
+
 * Total consumption is split between partner sites.
 * Each site has a separate subscription (primary and mirror).
-* Consumption at each site includes both source and mirror volumes.
+* Consumption at each site includes both primary and mirror volumes.
 * Selecting a subscription shows only that site's consumption.
 
-For detailed pricing information, refer to link:../concepts/adp.html[Understand pricing].
+For more information, refer to link:../concepts/adp.html[Advanced data protection add-on for Keystone].
 
-To view MetroCluster subscription consumption and health data, follow the steps below:
+== View MetroCluster subscription consumption and health status
+
+Follow the steps below:
 
 [role="tabbed-block"]
 ====
@@ -39,12 +45,12 @@ To view MetroCluster subscription consumption and health data, follow the steps 
 . From the Console left navigation menu, select *Storage > Keystone > Subscriptions*.
 . Select the MetroCluster subscription in the *Subscription number* column.
 +
-NOTE: MetroCluster subscriptions are identified by the image:metrocluster-icon.png[MetroCluster subscription symbol] icon.
+TIP: MetroCluster subscriptions are identified by the image:metrocluster-icon.png[MetroCluster subscription symbol] icon.
 +
-The *Current consumption* tab opens and displays consumption insights for your subscribed base performance service levels and their corresponding advanced data protection performance service levels. You can view this information in a tabular or graphical format. To learn more, refer to link:../integrations/current-consumption-tab.html[View the current consumption of your Keystone subscriptions].
+The *Current consumption* tab opens and displays consumption insights for your subscribed base performance service levels and their corresponding advanced data protection performance service levels. You can view this information in a tabular or graphical format. To learn more, refer to link:../integrations/current-usage-tab.html[View the current consumption of your Keystone subscriptions].
 . Select the *Advanced data protection (ADP)* tab.
 +
-On this tab, you can view consumption data for your base performance service levels at both primary and mirror sites ##(Sushant-confirm we see data only for base service levels)##, monitor the health status of your MetroCluster setup, and track its sync status.
+On this tab, you can view consumption data for your base performance service levels at both primary and mirror sites ##(Sushant-confirm if we see data only for base service levels)##, monitor the health status of your MetroCluster setup, and track its sync status.
 +
 * View the consumption distribution chart for your selected time period.
 +
@@ -53,11 +59,11 @@ The chart shows consumption for both your primary and mirror sites. Hover over t
 *Example:*
 The tooltip displays consumption values such as 1.15 TiB for the primary site and 4.22 TiB for the mirror site.
 +
-image:adp-consumption-chart.png[Bar chart showing MetroCluster consumption distribution with 1.15 TiB at primary site and 4.22 TiB at mirror site displayed in tooltip]
+image:adp-consumption-chart.png[Line chart showing MetroCluster consumption distribution with 1.15 TiB at primary site and 4.22 TiB at mirror site displayed in tooltip]
 
-* Monitor the health status of the MetroCluster setup in the *ADP Topology* view.
+* Monitor the health status of your MetroCluster setup in the *ADP Topology* view.
 +
-The topology displays the connection status (normal, degraded, disconnected, or initializing), shows whether data is in sync or out of sync, and displays the ONTAP Mediator status if configured. To learn more about ONTAP Mediator, refer to link:https://docs.netapp.com/us-en/ontap/mediator/mediator-overview-concept.html[Learn about ONTAP Mediator^]. ##(Sushant- please confirm I have mentioned the correct name for the Mediator, I have given the link)##
+The topology displays the connection status (normal, degraded, disconnected, or initializing), shows whether data is in sync or out of sync, and displays the ONTAP Mediator status if configured. To learn more about ONTAP Mediator, refer to link:https://docs.netapp.com/us-en/ontap/mediator/mediator-overview-concept.html[Learn about ONTAP Mediator^]. ##(Sushant- please confirm if I have mentioned the correct name for the Mediator, I have given the link)##
 +
 image:adp-topology.png[Image of ADP topology displaying primary site (Cluster A), mirror site (Cluster B), connection status indicators, sync status, and ONTAP Mediator]
 +
@@ -69,7 +75,7 @@ NOTE: You can select the Cluster B subscription (mirror) from the ADP topology t
 +
 Under *Capacity utilization*, select *View* next to either Cluster A (primary) or Cluster B (mirror).
 +
-The *Consumption trend* tab opens and displays historical consumption data for the selected cluster over a specified date range. You can analyze capacity usage trends for both base and advanced data protection performance service levels. To learn more, refer to link:../integrations/consumption-trend-tab.html[View consumption trends for your Keystone subscriptions].
+The *Consumption trend* tab opens and displays historical consumption data for the selected cluster over a specified date range. You can analyze capacity usage trends for both base and advanced data protection performance service levels. To learn more, refer to link:../integrations/consumption-tab.html[View consumption trends for your Keystone subscriptions].
 +
 *Example:*
 The following chart shows consumption for the _Premium_ performance service level (base) for the primary site (Cluster A):
@@ -80,7 +86,7 @@ The following chart shows consumption for the _Advanced data-protect premium_ pe
 +
 image:adp-consumption.png[Advanced Data Protection Premium consumption chart for primary site]
 +
-NOTE: Advanced Data Protection splits consumption between partner sites with separate subscriptions. Each chart displays only the capacity utilization for the selected site.
+NOTE: Advanced data protection splits consumption between partner sites with separate subscriptions. Each chart displays only the capacity utilization for the selected site.
 
 For information about how MetroCluster protects your data, see https://docs.netapp.com/us-en/ontap-metrocluster/manage/concept_understanding_mcc_data_protection_and_disaster_recovery.html[Understanding MetroCluster data protection and disaster recovery^].
 
@@ -101,7 +107,7 @@ The tooltip next to the tracking ID of your subscription in the *Current Consump
 +
 *Primary subscription view*
 +
-The following image displays the charts for the _Performance_ performance service level (base performance service level) and a primary subscription number. The same historical data chart also indicates the mirror site consumption in a lighter shade of the same color code used for the primary site. The tooltip on mouse hover displays the consumption breakup (in TiB) for the primary and mirror sites, 95.04 TiB and 93.38 TiB respectively.
+The following image displays the charts for the _Performance_ performance service level (base performance service level). The same historical data chart also indicates the mirror site consumption in a lighter shade of the same color code used for the primary site. The tooltip on mouse hover displays the consumption breakup (in TiB) for the primary and mirror sites, 95.04 TiB and 93.38 TiB respectively.
 +
 image:mcc-chart-2.png[mcc primary]
 +
@@ -109,7 +115,7 @@ For the _Advanced Data-Protect_ performance service level, the charts appear lik
 +
 image:adp-src-2.png[mcc primary base]
 +
-The displayed consumption of 94.21 TiB represents the usage for the primary subscription. Given that advanced data protection splits consumption between partner sites with separate subscriptions, this chart shows only the primary site usage. The displayed consumption of 94.21 TiB represents the usage for the primary subscription. Given that advanced data protection splits consumption between partner sites with separate subscriptions, this chart shows only the primary site usage. To learn about pricing for the advanced data protection add-on service, refer to link:../concepts/adp.html#understand-pricing[Understand pricing].
+The displayed consumption of 94.21 TiB represents the usage for the primary subscription. Given that advanced data protection splits consumption between partner sites with separate subscriptions, this chart shows only the primary site usage. To learn about pricing for the advanced data protection add-on service, refer to link:../concepts/adp.html#understand-pricing[Understand pricing].
 +
 *Mirror subscription view*
 +
