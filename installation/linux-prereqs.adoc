@@ -5,7 +5,7 @@ keywords: prerequisites, Linux
 summary: Prepare your Linux system with the required software before you install Keystone Collector.
 ---
 
-= Linux system requirements
+= Linux requirements for Keystone Collector 
 :hardbreaks:
 :nofooter:
 :icons: font

@@ -5,7 +5,7 @@ keywords: infrastructure component, deployment requirement, installation require
 summary: Learn about the components that are required to enable NetApp Keystone STaaS services in your environment.
 ---
 
-= Components required for deployment
+= Components required for Keystone services 
 :hardbreaks:
 :nofooter:
 :icons: font

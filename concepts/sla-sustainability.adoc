@@ -5,7 +5,7 @@ keywords: sustainability, sla, service level agreement, slo, service level objec
 summary: Keystone delivers a guaranteed measurement of maximum number of actual watts per tebibyte (W/TiB) for storage services based on ONTAP flash storage arrays with Sustainability SLO.
 ---
 
-= Sustainability SLO 
+= Keystone sustainability SLO 
 :hardbreaks:
 :nofooter:
 :icons: font
