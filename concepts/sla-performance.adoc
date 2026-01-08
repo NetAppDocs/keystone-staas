@@ -5,7 +5,7 @@ keywords: sustainability, sla, service level agreement, slo, service level objec
 summary: Keystone offers latency-based SLO per performance service level, as described in the Keystone order for consumed capacity up to the burst limit.
 ---
 
-= Keystone performance SLO 
+= Performance SLO for Keystone
 :hardbreaks:
 :nofooter:
 :icons: font
