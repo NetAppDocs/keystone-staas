@@ -187,7 +187,7 @@ sidebar:
             - title: Miscellaneous scenarios for Keystone billing
               url: /concepts/misc-volume-billing.html
             - title: Billing schedules
-              url: /concepts/billing-schedules.html                                                                   
+              url: /concepts/billing-schedules.html                                                              
     - title: Access Keystone from Digital Advisor REST API
       entries:
         - title: Get started using the Digital Advisor REST API to retrieve Keystone data
