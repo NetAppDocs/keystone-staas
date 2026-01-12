@@ -5,7 +5,7 @@ keywords: consumed capacity billing, billing and consumed capacity
 summary: Consumed capacity is the capacity that your workloads actually use during your service usage.
 ---
 
-= Keystone consumed capacity metering
+= Understand Keystone consumed capacity metering
 :hardbreaks:
 :nofooter:
 :icons: font

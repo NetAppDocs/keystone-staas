@@ -5,7 +5,7 @@ keywords: burst consumption billing
 summary: Keystone STaaS billing is based on burst capacity, which is the capacity consumed by you, on top of the committed capacity of your subscription.
 ---
 
-= Keystone burst consumption billing
+= Understand Keystone burst consumption billing
 :hardbreaks:
 :nofooter:
 :icons: font

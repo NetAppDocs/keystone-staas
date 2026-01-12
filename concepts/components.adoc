@@ -13,7 +13,7 @@ summary: Learn about the components that are required to enable NetApp Keystone 
 :imagesdir: ../media/
 
 [.lead]
-Several components are required to enable NetApp Keystone STaaS services in your environment. You should review details about these components before you get started.
+You need several components to enable NetApp Keystone STaaS services. Review these components before you begin.
 
 == Site requirements
 There are some site-specific requirements, such as space, racks, PDUs, power, and cooling, with additional network and security requirements discussed here.
