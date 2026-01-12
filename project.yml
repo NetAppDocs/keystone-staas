@@ -184,7 +184,7 @@ sidebar:
               url: /concepts/consumed-capacity-billing.html
             - title: Billing based on burst consumption
               url: /concepts/burst-consumption-billing.html
-            - title: Miscellaneous scenarios for Keystone billing
+            - title: Billing for specific volume configurations
               url: /concepts/misc-volume-billing.html
             - title: Billing schedules
               url: /concepts/billing-schedules.html                                                              
