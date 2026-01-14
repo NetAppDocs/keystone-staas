@@ -33,6 +33,8 @@ NOTE: The *Reports* tab is currently unavailable for Keystone subscriptions.
 
 From the *Alert monitors* tab, you can create monitors to track capacity usage and subscription expiration. You can also edit, duplicate, or delete existing monitors as needed.
 
+NOTE: ##You must be assigned to the *Keystone admin* role to create and manage alert monitors. To learn more, refer to link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-keystone-roles.html[Keystone access roles in NetApp Console^].##
+
 [role="tabbed-block"]
 ====
 .Create a monitor

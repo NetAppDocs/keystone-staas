@@ -39,6 +39,8 @@ From the *Alerts* tab, you can perform the following actions:
 +
 ** Mark the alert as resolved by selecting the *Edit* button after addressing the issue.
 ** Add supporting notes by selecting the *Add note* button if required.
++
+NOTE: ##Editing alerts requires the *Keystone admin* role. The *Keystone viewer* role can view alert details and add supporting notes. To learn more, refer to link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-keystone-roles.html[Keystone access roles in NetApp Console^].##
 
 * *Filter alerts*: Use the filter icon in the *Status* column to view only active alerts, resolved alerts, or both.
 
