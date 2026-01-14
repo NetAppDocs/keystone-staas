@@ -5,7 +5,7 @@ keywords: availability, sla, service level agreement, slo, service level objecti
 summary: Availability SLO targets an uptime of 99.999% during a billing period for all NetApp ONTAP flash storage arrays deployed to deliver the Keystone order.
 ---
 
-= Availability SLO 
+= Availability SLO for Keystone
 :hardbreaks:
 :nofooter:
 :icons: font

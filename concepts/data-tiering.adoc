@@ -5,7 +5,7 @@ keywords: add-on services, add-on, data tiering
 summary: The data tiering add-on service identifies less-frequently used data and tiers it to supported storage.
 ---
 
-= Learn about data tiering 
+= Data tiering add-on service for Keystone
 :hardbreaks:
 :nofooter:
 :icons: font

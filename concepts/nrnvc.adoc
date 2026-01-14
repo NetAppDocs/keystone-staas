@@ -5,7 +5,7 @@ keywords: Non-returnable, non-volatile components, SnapLock compliance, add-on s
 summary: As a part of your NetApp Keystone subscription, NetApp extends the NRNVC offering for your file, block, and object services.
 ---
 
-= Non-returnable, non-volatile components, and SnapLock compliance
+= Non-returnable, non-volatile components, and SnapLock compliance add-on service for Keystone
 :hardbreaks:
 :nofooter:
 :icons: font
