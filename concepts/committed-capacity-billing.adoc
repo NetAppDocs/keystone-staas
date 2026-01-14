@@ -5,7 +5,7 @@ keywords: Billing based on committed capacity, committed capacity billing
 summary: Committed capacity is the capacity committed for a particular service level while purchasing the subscription.
 ---
 
-= Billing based on committed capacity
+= Understand Keystone committed capacity billing
 :hardbreaks:
 :nofooter:
 :icons: font

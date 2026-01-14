@@ -5,7 +5,7 @@ keywords: prerequisites, ITOM,
 summary: Your systems must meet several requirements before you can install ITOM Collector.
 ---
 
-= Installation requirements for ITOM Collector
+= Installation requirements for Keystone ITOM Collector
 :hardbreaks:
 :nofooter:
 :icons: font

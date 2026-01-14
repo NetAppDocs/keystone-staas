@@ -5,7 +5,7 @@ keywords: pricing, billing introduction, Keystone billing
 summary: Keystone offers a pay-as-you-grow model for your flexible and scalable consumption needs.
 ---
 
-= Keystone pricing
+= Learn about Keystone pricing
 :hardbreaks:
 :nofooter:
 :icons: font

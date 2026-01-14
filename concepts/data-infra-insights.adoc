@@ -5,7 +5,7 @@ keywords: add-on services, add-on, data infrastructure insights, DII, deployment
 summary: Data Infrastructure Insights boosts Keystone STaaS efficiency by monitoring, troubleshooting, and optimizing storage in public clouds and private data centers.
 ---
 
-= Learn about Data Infrastructure Insights
+= Data Infrastructure Insights add-on for Keystone
 :hardbreaks:
 :nofooter:
 :icons: font
