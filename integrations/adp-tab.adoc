@@ -13,7 +13,7 @@ summary: View consumption data and monitor health status for your MetroCluster p
 :imagesdir: ../media/
 
 [.lead]
-When you subscribe to the advanced data protection add-on service, you can view consumption data for your MetroCluster partner sites in either the NetApp Console or Digital Advisor. In the NetApp Console, you can also monitor the replication status and health of your MetroCluster setup and ##take action when synchronization issues occur. (For Sushant-Need to verify whether customers can currently create custom alerts. As of now, automatic alerts are not available. )##
+[Review]When you subscribe to the advanced data protection add-on service, you can view consumption data for your MetroCluster partner sites in either the NetApp Console or Digital Advisor. In the NetApp Console, you can also monitor the replication status and health of your MetroCluster setup and ##take action when synchronization issues occur. (For Sushant-Need to verify whether customers can currently create custom alerts. As of now, automatic alerts are not available. )##
 
 == Understand MetroCluster consumption data 
 
