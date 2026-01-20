@@ -1,0 +1,4 @@
+Updates in the Keystone dashboard in the NetApp Console:
+
+=== Modify subscription unavailable
+The option to modify the committed capacity for Keystone subscriptions is currently unavailable. This functionality will be reintroduced in a future release.
