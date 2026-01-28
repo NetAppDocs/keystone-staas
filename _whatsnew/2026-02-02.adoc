@@ -5,7 +5,7 @@ The *Accrued burst by days* table in the *Consumption trend* tab now supports in
 //NSEKEY-21650
 
 === Enhanced date range display in accrued burst graph
-The accrued burst billing graph in *Consumption trend* tab now displays full date ranges for each billing period, such as Oct 01, 2025 to Oct 31, 2025, instead of only the month and year.
+The accrued burst billing graph in the *Consumption trend* tab now displays full date ranges for each billing period, such as Oct 01, 2025 to Oct 31, 2025, instead of only the month and year.
 //NSEKEY-21659, NSEKEY-19930
 
 === Expandable subscription details view
