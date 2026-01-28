@@ -1,4 +1,4 @@
-New enhancements in the Keystone dashboard in the NetApp Console:
+##New enhancements in the Keystone dashboard in the NetApp Console:##
 
 === Interactive filtering for daily accrued burst data
 The *Accrued burst by days* table in the *Consumption trend* tab now supports interactive filtering. Select any bar in the accrued burst billing graph to view only the days within that billing period. To learn more, refer to link:./integrations/consumption-tab.html#view-daily-accrued-burst-data-usage[View daily accrued burst data usage].
