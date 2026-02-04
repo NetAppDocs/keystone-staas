@@ -13,7 +13,7 @@ summary: View consumption data and monitor health status for your MetroCluster p
 :imagesdir: ../media/
 
 [.lead]
-When you subscribe to the advanced data protection add-on service, you can view consumption data for your MetroCluster partner sites in either the NetApp Console or Digital Advisor. In the NetApp Console, you can also monitor the replication status and health of your MetroCluster setup.
+##When you subscribe to the advanced data protection add-on service, you can view consumption data for your MetroCluster partner sites in either the NetApp Console or Digital Advisor. In the NetApp Console, you can also monitor the replication status and health of your MetroCluster setup.##
 
 
 //Summary for future use: When you subscribe to the advanced data protection add-on service, you can view consumption data for your MetroCluster partner sites in either the NetApp Console or Digital Advisor. In the NetApp Console, you can also monitor the replication status and health of your MetroCluster setup and ##take action when synchronization issues occur. 
@@ -50,13 +50,13 @@ image:adp-consumption-chart.png[Line chart showing MetroCluster consumption dist
 
 * Monitor the health status of your MetroCluster setup in the *ADP Topology* view.
 +
-The topology displays the connection status (normal, degraded, disconnected, or initializing), shows whether data is in sync or out of sync, and displays the ONTAP Mediator status if configured. To learn more about ONTAP Mediator, refer to link:https://docs.netapp.com/us-en/ontap/mediator/mediator-overview-concept.html[Learn about ONTAP Mediator^]. 
+The topology displays the connection status between the primary and mirror sites (normal, degraded, disconnected, or initializing), the data synchronization status (in sync or out of sync), and the ONTAP Mediator status if configured. To learn more about ONTAP Mediator, refer to link:https://docs.netapp.com/us-en/ontap/mediator/mediator-overview-concept.html[Learn about ONTAP Mediator^]. 
 +
 image:adp-topology.png[Image of ADP topology displaying primary site (Cluster A), mirror site (Cluster B), connection status indicators, sync status, and ONTAP Mediator]
 +
 TIP: You can select the Cluster B subscription (mirror) from the ADP topology to view it as the primary site.
 +
-TIP: ##If the sync status shows out of sync or the connection status shows degraded, refer to link:../support/get-help.html[Get help with Keystone] to troubleshoot the issue.##
+TIP: ##If the sync status shows out of sync or the connection status shows degraded, refer to link:../concepts/support-services.html[Get help with Keystone] to troubleshoot the issue.##
 +
 * View historical consumption trends for the primary or mirror site.
 +
@@ -73,7 +73,7 @@ For the _Advanced Data-Protect premium_ performance service level, the chart app
 +
 image:adp-consumption.png[Advanced Data Protection Premium consumption chart for primary site]
 +
-##For the _Advanced Data-Protect_ performance service level, the total consumption is split between the partner sites, and the usage at each partner site is reflected and billed in a separate subscription; one subscription for the primary site, and another for the mirror site. That is the reason why, when you select the subscription number for the primary site on the *Consumption trend* tab, the consumption charts for the advanced data protection add-on service display the discrete consumption details of only the primary site. Because each partner site in a MetroCluster configuration acts both as a source and mirror, the total consumption at each site includes the source and the mirror volumes created at that site. For more information, refer to link:../concepts/adp.html[Advanced data protection add-on for Keystone].##
+##For the _Advanced Data-Protect_ performance service level, the total consumption is split between the primary and mirror sites, and the usage at each site is reflected and billed in a separate subscription; one subscription for the primary site, and another for the mirror site. That is the reason why, when you select the subscription number for the primary site on the *Consumption trend* tab, the consumption charts for the advanced data protection add-on service display the discrete consumption details of only the primary site. Because each partner site in a MetroCluster configuration acts both as a source and mirror, the total consumption at each site includes the source and the mirror volumes created at that site. For more information, refer to link:../concepts/adp.html[Advanced data protection add-on for Keystone].##
 
 For information about how MetroCluster protects your data, see https://docs.netapp.com/us-en/ontap-metrocluster/manage/concept_understanding_mcc_data_protection_and_disaster_recovery.html[Understanding MetroCluster data protection and disaster recovery^].
 

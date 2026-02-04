@@ -13,7 +13,7 @@ summary: Use the advanced data protection add-on service to ensure efficient dat
 :imagesdir: ../media/
 
 [.lead]
-You can subscribe to the advanced data protection add-on service with your Keystone STaaS subscription. While standard Keystone services include default data protection using SnapMirror, SnapVault, and Snapshot, this add-on service uses NetApp MetroCluster technology to ensure efficient data protection of your mission-critical workloads with a recovery point objective (RPO) of 0.
+You can subscribe to the advanced data protection (ADP) add-on service with your Keystone STaaS subscription. While standard Keystone services include default data protection using SnapMirror, SnapVault, and Snapshot, this add-on service uses NetApp MetroCluster technology to ensure efficient data protection of your mission-critical workloads with a recovery point objective (RPO) of 0.
 
 
 Keystone advanced data protection service can synchronously mirror data to a secondary site. In case of a disaster at the primary site, the secondary site can take over, without any loss of data. This feature uses the link:https://docs.netapp.com/us-en/ontap-metrocluster[MetroCluster^] configuration between two sites to enable data protection. You can use the advanced data protection add-on services for only your file and block storage services. As a part of this add-on service, the `Advanced Data-Protect` performance service level is assigned to your subscription.
@@ -39,20 +39,20 @@ Keystone supports the following MetroCluster deployment scenarios:
 Active/Passive configuration::
 In this configuration, primary data at one site is mirrored to a secondary site. For example, if 100 TiB of logical data is consumed at the primary site, it is replicated to the secondary site. Both sites require identical subscriptions:
 +
-* *Subscription 1 (Primary site):* 100 TiB storage service + 100 TiB Advanced Data Protection
-* *Subscription 2 (Secondary site):* 100 TiB storage service + 100 TiB Advanced Data Protection
+* *Subscription 1 (Primary site):* 100 TiB storage service + 100 TiB ADP
+* *Subscription 2 (Secondary site):* 100 TiB storage service + 100 TiB ADP
 
 Active/Active configuration with full mirroring::
 In this configuration, both sites host primary data that is mirrored bidirectionally. For example, 100 TiB of primary data at Site A is mirrored to Site B, and 100 TiB of primary data at Site B is mirrored to Site A. Both sites require subscriptions for the combined capacity:
 +
-* *Subscription 1 (Site A):* 200 TiB storage service + 200 TiB Advanced Data Protection
-* *Subscription 2 (Site B):* 200 TiB storage service + 200 TiB Advanced Data Protection
+* *Subscription 1 (Site A):* 200 TiB storage service + 200 TiB ADP
+* *Subscription 2 (Site B):* 200 TiB storage service + 200 TiB ADP
 
 Active/Active configuration with partial mirroring::
 In this configuration, one site hosts mirrored data while the other site hosts both mirrored and unmirrored data. For example, 100 TiB of primary data at Site A is mirrored to Site B, while Site B also hosts an additional 100 TiB of unmirrored data. The subscriptions differ based on the capacity at each site:
 +
-* *Subscription 1 (Site A):* 100 TiB storage service + 100 TiB Advanced Data Protection
-* *Subscription 2 (Site B):* 200 TiB storage service + 200 TiB Advanced Data Protection
+* *Subscription 1 (Site A):* 100 TiB storage service + 100 TiB ADP
+* *Subscription 2 (Site B):* 200 TiB storage service + 200 TiB ADP
 
 The following diagram shows these supported MetroCluster configurations:
 
