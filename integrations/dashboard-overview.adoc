@@ -80,9 +80,9 @@ a|link:../integrations/options.html#generate-reports-from-netapp-console-or-digi
 a|link:../integrations/volumes-objects-tab.html[View volumes and objects details]
 |Yes
 |Yes
-a|##link:../integrations/adp-tab.html[View MetroCluster consumption and health]##
-|##Yes## (includes health status, topology view, and sync monitoring)
-|##Yes## (consumption data only)
+a|link:../integrations/adp-tab.html[View MetroCluster consumption and health]
+|Yes (includes health status, topology view, and sync monitoring)
+|Yes (consumption data only)
 a|link:../integrations/performance-tab.html[View performance metrics]
 |No
 |Yes

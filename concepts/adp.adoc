@@ -32,27 +32,27 @@ Note the following:
 * Charges apply to both primary and secondary sites, covering both source and destination clusters.
 * Charges apply only to your file and block storage services.
 
-== ##Supported MetroCluster configurations##
+== Supported MetroCluster configurations
 
 Keystone supports the following MetroCluster deployment scenarios:
 
 Active/Passive configuration::
-In this configuration, primary data at one site is mirrored to a secondary site. For example, if 100 TiB of logical data is consumed at the primary site, it is replicated to the secondary site. Both sites require identical subscriptions:
+In this configuration, primary data at one site is mirrored to a secondary site. For example, if 100 TiB of logical data is consumed at site A, it is replicated to site B. Both sites require identical subscriptions:
 +
-* *Subscription 1 (Primary site):* 100 TiB storage service + 100 TiB ADP
-* *Subscription 2 (Secondary site):* 100 TiB storage service + 100 TiB ADP
+* *Subscription 1 (site A):* 100 TiB storage service + 100 TiB ADP
+* *Subscription 2 (site B):* 100 TiB storage service + 100 TiB ADP
 
 Active/Active configuration with full mirroring::
-In this configuration, both sites host primary data that is mirrored bidirectionally. For example, 100 TiB of primary data at Site A is mirrored to Site B, and 100 TiB of primary data at Site B is mirrored to Site A. Both sites require subscriptions for the combined capacity:
+In this configuration, both sites host primary data that is mirrored bidirectionally. For example, 100 TiB of primary data at site A is mirrored to site B, and 100 TiB of primary data at site B is mirrored to site A. Both sites require subscriptions for the combined capacity:
 +
-* *Subscription 1 (Site A):* 200 TiB storage service + 200 TiB ADP
-* *Subscription 2 (Site B):* 200 TiB storage service + 200 TiB ADP
+* *Subscription 1 (site A):* 200 TiB storage service + 200 TiB ADP
+* *Subscription 2 (site B):* 200 TiB storage service + 200 TiB ADP
 
 Active/Active configuration with partial mirroring::
-In this configuration, one site hosts mirrored data while the other site hosts both mirrored and unmirrored data. For example, 100 TiB of primary data at Site A is mirrored to Site B, while Site B also hosts an additional 100 TiB of unmirrored data. The subscriptions differ based on the capacity at each site:
+In this configuration, one site hosts mirrored data while the other site hosts both mirrored and unmirrored data. For example, 100 TiB of primary data at site A is mirrored to site B, while site B also hosts an additional 100 TiB of unmirrored data. The subscriptions differ based on the capacity at each site:
 +
-* *Subscription 1 (Site A):* 100 TiB storage service + 100 TiB ADP
-* *Subscription 2 (Site B):* 200 TiB storage service + 200 TiB ADP
+* *Subscription 1 (site A):* 100 TiB storage service + 100 TiB ADP
+* *Subscription 2 (site B):* 200 TiB storage service + 200 TiB ADP
 
 The following diagram shows these supported MetroCluster configurations:
 
