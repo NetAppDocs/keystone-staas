@@ -31,17 +31,22 @@ The following terms and definitions are used within the Keystone STaaS service t
 * *Durability*: Percentage of data accessed without loss of fidelity, excluding customer-caused deletion or corruption.
 * *Latency*: Time to service an I/O request received from a client, measured at the service demarcation (storage controller I/O port).
 
-=== Performance metrics
-The following performance metrics are applicable to unified and block-optimized services:
+=== ##Performance metrics##
+##The following performance metrics are applicable to unified, block-optimized, and AFX services:##
 
-*Unified services:*
+*Unified:*
 
 * *IOPS*: For ONTAP 9.16.1 with NFS, each performance level instance supports random access with a 70% read and 30% write ratio, an 8 KB block size, and a latency of 1 ms (4 ms for Standard).
 * *Throughput*: For ONTAP 9.16.1 with NFS, each performance level instance supports sequential access with 100% read and a 32 KB block size.
 
-*Block optimized services:*
+*Block-optimized:*
 
 * *IOPS*: For ONTAP 9.16.1 with FCP, each performance level instance supports random access with a 70% read and 30% write ratio, an 8 KB block size, and a latency of 1 ms.
 * *Throughput*: For ONTAP 9.16.1 with FCP, each performance level instance supports sequential access with 100% read and a 64 KB block size.
+
+*##AFX##:*
+
+* *IOPS*: For ONTAP 9.18.1 with NFSv4, each performance level instance supports random access with a 70% read and 30% write ratio, and a 4 KB block size.
+* *Throughput*: For ONTAP 9.18.1 with NFSv4, each performance level instance supports sequential access with 100% read and a 64 KB block size.
 
 

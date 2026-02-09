@@ -35,16 +35,25 @@ a|Incremental capacity (and in multiples) allowed as add-on during subscription 
 *Block optimized storage*
 
 |===
-|Capacity |Extreme |Premium
-a|Minimum capacity [in TiB]
-2+|50
+|Capacity |Extreme |Premium |##Standard##
+a|Minimum capacity [in TiB] |50 | 50 | 100
 a|Incremental capacity (and in multiples) allowed at start of subscription [in TiB]
-2+|25
+3+|25
 a|Incremental capacity (and in multiples) allowed as add-on during subscription [in TiB]
-2+|25
+3+|25
 |===
 
 The minimum capacity for each performance service level is the same across all Keystone sales.
+
+== ##Minimum capacity requirements for AFX storage##
+You can see the minimum capacity requirements for AFX storage in the following table:
+
+|===
+|Capacity |Extreme
+a|Minimum capacity [in TiB] per AFX cluster |200
+a|Incremental capacity (and in multiples) allowed at start of subscription [in TiB] |100
+a|Incremental capacity (and in multiples) allowed as add-on during subscription [in TiB] |100
+|===
 
 == Minimum capacity requirements for object storage
 You can see the minimum capacity requirements for object storage in the following table:
