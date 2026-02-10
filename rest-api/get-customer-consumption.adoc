@@ -5,7 +5,7 @@ keywords: api, consumption, subscriptions, customerID, keystone, Digital Advisor
 summary: Digital Advisor REST API retrieves the current consumption details for all the subscriptions associated with the given customerID.
 ---
 
-= Get customer consumption details using the Digital Advisor REST API 
+= Get Keystone customer consumption details using the Digital Advisor REST API 
 :hardbreaks:
 :nofooter:
 :icons: font

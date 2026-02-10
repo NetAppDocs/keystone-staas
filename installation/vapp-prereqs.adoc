@@ -5,7 +5,7 @@ keywords: prerequisites, VMware vSphere, vApp
 summary: Your VMware vSphere system must meet several requirements before you can install Keystone Collector.
 ---
 
-= Virtual infrastructure requirements
+= Virtual infrastructure requirements for Keystone Collector
 :hardbreaks:
 :nofooter:
 :icons: font

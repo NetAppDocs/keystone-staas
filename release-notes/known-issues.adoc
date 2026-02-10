@@ -21,6 +21,10 @@ The following known issues are reported in NetApp Keystone STaaS:
 |===
 |Known issue |Description |Workaround
 
+a|Modify subscription unavailable
+a|The option to modify the committed capacity for Keystone subscriptions is currently unavailable in the NetApp Console. This functionality will be reintroduced in a future release.
+a|None
+//NSEKEY-21369
 a|Incorrect invoice due to data mismatch
 a|A mismatch in consumption data for AutoSupport subscriptions leads to the generation of incorrect invoices, causing billing inaccuracies.
 a|None
@@ -34,8 +38,3 @@ a|The *Volume Summary* tab shows zero for the total number of volumes, QoS compl
 a|None
 //NSEKEY-11333
 |===
-
-
-
-
-

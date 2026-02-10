@@ -5,7 +5,7 @@ keywords: keystone-aiq, digital advisor keystone, volumes-objects-tab, StorageGR
 summary: View capacity details at the volume or object storage level.
 ---
 
-= View details about ONTAP volumes and object storage
+= View ONTAP volumes and object storage details for Keystone subscriptions
 :hardbreaks:
 :nofooter:
 :icons: font

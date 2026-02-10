@@ -5,7 +5,7 @@ keywords: billing schedules, schedule for payment
 summary: Keystone STaaS subscriptions are billed monthly, quarterly, semi-annually, or annually.
 ---
 
-= Billing schedules
+= Learn about Keystone billing schedules
 :hardbreaks:
 :nofooter:
 :icons: font

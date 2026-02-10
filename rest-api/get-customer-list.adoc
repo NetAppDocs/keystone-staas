@@ -6,7 +6,7 @@ summary:  Digital Advisor REST API retrieves a list of all the customerIDs assoc
 
 ---
 
-= Get a list of all customers using the Digital Advisor REST API
+= Get a list of all Keystone customers using the Digital Advisor REST API
 :hardbreaks:
 :nofooter:
 :icons: font

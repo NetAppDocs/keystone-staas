@@ -5,7 +5,7 @@ keywords: storage capacity requirement for service levels, capacity definition p
 summary: Capacity requirements for service levels differ with the file, block, object, or cloud storage supported by the Keystone STaaS subscription.
 ---
 
-= Capacity requirements for performance service levels
+= Capacity requirements for Keystone performance service levels
 :hardbreaks:
 :nofooter:
 :icons: font

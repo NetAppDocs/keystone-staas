@@ -5,7 +5,7 @@ keywords: Billing and miscellaneous scenarios
 summary: Learn about Keystone billing for specific configurations, including cloned volumes, advanced data protection, and more.
 ---
 
-= Miscellaneous scenarios for Keystone billing
+= Learn about Keystone billing for specific volume configurations
 :hardbreaks:
 :nofooter:
 :icons: font

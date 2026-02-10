@@ -5,7 +5,7 @@ keywords: keystone infrastructure, infra
 summary: Keystone infrastructure, design, choice of technology, and component products reside solely with NetApp.
 ---
 
-= Keystone infrastructure
+= Understand Keystone infrastructure
 :hardbreaks:
 :nofooter:
 :icons: font

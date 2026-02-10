@@ -5,7 +5,7 @@ keywords: subscriptions, service levels, customer IDs, keystone, api
 summary: Digital Advisor REST API retrieves a list of all the subscriptions and service levels associated with the given customerID.
 ---
 
-= Get customer subscriptions using the Digital Advisor REST API
+= Get Keystone customer subscriptions using the Digital Advisor REST API
 :hardbreaks:
 :nofooter:
 :icons: font

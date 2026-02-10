@@ -5,7 +5,7 @@ keywords: add-on services, add-on, data infrastructure insights, DII, deployment
 summary: Data Infrastructure Insights boosts Keystone STaaS efficiency by monitoring, troubleshooting, and optimizing storage in public clouds and private data centers.
 ---
 
-= Learn about Data Infrastructure Insights
+= Data Infrastructure Insights add-on for Keystone
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -26,11 +26,11 @@ image:keystone-widget-dii.png[Screenshot of Keystone Subscriptions widget that s
 == Deployment of DII for Keystone
 Customers can integrate DII for Keystone in two ways: either as part of an existing instance that monitors other non-Keystone environments, or as part of a new instance. It is the customer's responsibility to set up DII. If help is needed for setting up DII in a complex environment, the account team can engage link:https://www.netapp.com/services/[NetApp Professional Services^].
 
-To set up DII, refer to link:https://docs.netapp.com/us-en/data-infrastructure-insights/task_cloud_insights_onboarding_1.html[Data Infrastructure Insights onboarding^].
+To set up DII, refer to link:https://docs.netapp.com/us-en/data-infrastructure-insights/task_getting_started_with_cloud_insights.html[Data Infrastructure Insights onboarding^].
 
 Note the following:
 
-* If the customer is starting a new DII instance, it is recommended to begin with a link:https://docs.netapp.com/us-en/data-infrastructure-insights/task_cloud_insights_onboarding_1.html#starting-your-data-infrastructure-insights-free-trial[DII free trial^]. To learn about this feature and the required startup checklist, refer to link:https://docs.netapp.com/us-en/data-infrastructure-insights/concept_feature_tutorials.html[Feature Tutorials^].
+* If the customer is starting a new DII instance, it is recommended to begin with a link:https://docs.netapp.com/us-en/data-infrastructure-insights/concept_subscribing_to_cloud_insights.html#trial-edition[DII free trial^]. To learn about this feature and the required startup checklist, refer to link:https://docs.netapp.com/us-en/data-infrastructure-insights/concept_feature_tutorials.html[Feature Tutorials^].
 
 
 * For each site, an Acquisition Unit is required. To install an Acquisition Unit, refer to link:https://docs.netapp.com/us-en/data-infrastructure-insights/task_getting_started_with_cloud_insights.html#install-an-acquisition-unit[Install an Acquisition Unit^]. If the customer already has a DII instance and Acquisition Unit set up, they can proceed with configuring the data collector.
