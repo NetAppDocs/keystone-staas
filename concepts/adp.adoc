@@ -1,4 +1,59 @@
 ---
+sidebar: sidebar
 permalink: concepts/adp.html
-redirect: keystone-staas/concepts/metrics.html
+keywords: data protection advanced
+summary: Use the advanced data protection add-on service to ensure efficient data protection of mission-critical workloads.
 ---
+
+= Advanced data protection add-on for Keystone
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ../media/
+
+[.lead]
+You can subscribe to the advanced data protection (ADP) add-on service with your Keystone STaaS subscription. While standard Keystone services include default data protection using SnapMirror, SnapVault, and Snapshot, this add-on service uses NetApp MetroCluster technology to ensure efficient data protection of your mission-critical workloads with a recovery point objective (RPO) of 0.
+
+
+Keystone advanced data protection service can synchronously mirror data to a secondary site. In case of a disaster at the primary site, the secondary site can take over, without any loss of data. This feature uses the link:https://docs.netapp.com/us-en/ontap-metrocluster[MetroCluster^] configuration between two sites to enable data protection. You can use the advanced data protection add-on services for only your file and block storage services. As a part of this add-on service, the `Advanced Data-Protect` performance service level is assigned to your subscription.
+
+
+You can monitor consumption and health metrics for your MetroCluster configuration. For more information, see link:../integrations/adp-tab.html[View consumption and health of your MetroCluster subscriptions].
+
+== Understand pricing
+The advanced data protection add-on service is priced based on the committed capacity at each site. This helps determine the actual cost of advanced data protection service in $/TiB. The add-on charges apply to all capacities in your subscription, including source data, mirrored copies, and unmirrored data.
+
+For the MetroCluster configuration, each site requires its own subscription, and you are charged for the committed capacity at each site independently. 
+
+Note the following:
+
+* The service uses 100% of the committed capacity on associated storage as committed capacity.
+* Charges apply to both primary and secondary sites, covering both source and destination clusters.
+* Charges apply only to your file and block storage services.
+
+== Supported MetroCluster configurations
+
+Keystone supports the following MetroCluster deployment scenarios:
+
+Active/Passive configuration::
+In this configuration, primary data at one site is mirrored to a secondary site. For example, if 100 TiB of logical data is consumed at site A, it is replicated to site B. Both sites require identical subscriptions:
++
+* *Subscription 1 (site A):* 100 TiB storage service + 100 TiB ADP
+* *Subscription 2 (site B):* 100 TiB storage service + 100 TiB ADP
+
+Active/Active configuration with full mirroring::
+In this configuration, both sites host primary data that is mirrored bidirectionally. For example, 100 TiB of primary data at site A is mirrored to site B, and 100 TiB of primary data at site B is mirrored to site A. Both sites require subscriptions for the combined capacity:
++
+* *Subscription 1 (site A):* 200 TiB storage service + 200 TiB ADP
+* *Subscription 2 (site B):* 200 TiB storage service + 200 TiB ADP
+
+Active/Active configuration with partial mirroring::
+In this configuration, one site hosts mirrored data while the other site hosts both mirrored and unmirrored data. For example, 100 TiB of primary data at site A is mirrored to site B, while site B also hosts an additional 100 TiB of unmirrored data. The subscriptions differ based on the capacity at each site:
++
+* *Subscription 1 (site A):* 100 TiB storage service + 100 TiB ADP
+* *Subscription 2 (site B):* 200 TiB storage service + 200 TiB ADP
+
+The following diagram shows these supported MetroCluster configurations:
+
+image:mcc-1.png[Diagram showing three MetroCluster configurations: Active/Passive with symmetric mirroring, Active/Active with full bidirectional mirroring, and Active/Active with partial mirroring]
