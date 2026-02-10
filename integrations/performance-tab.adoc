@@ -5,7 +5,7 @@ keywords: keystone-aiq, digital advisor keystone, performance tab
 summary: To monitor the performance of your systems, you can view performance metrics of the ONTAP volumes managed by your Keystone subscriptions.
 ---
 
-= View performance metrics
+= View performance metrics for Keystone subscriptions
 :hardbreaks:
 :nofooter:
 :icons: font

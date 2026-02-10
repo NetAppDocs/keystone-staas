@@ -5,7 +5,7 @@ keywords: prerequisites, Linux
 summary: Prepare your Linux system with the required software before you install Keystone Collector.
 ---
 
-= Linux system requirements
+= Linux requirements for Keystone Collector 
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -32,7 +32,7 @@ The same server should also have the following third-party packages:
 *	podman (POD Manager)
 *	sos
 *	chrony 
-*	python 3 (3.6.8 to 3.9.13)
+*	python 3 (3.9.14 to 3.11.8)
 
 .Keystone Collector server VM:
 

@@ -26,7 +26,7 @@ To view detailed information for your subscriptions, follow these steps:
 
 . From the Console left navigation menu, select *Storage > Keystone > Subscriptions*.
 +
-image:bxp-subscription-list-3.png[view the subscription tab details]
+image:bxp-subscription-list-4.png[view the subscription tab details]
 +
 You see the key metrics such as capacity usage, subscription expiry status, and unresolved alerts. 
 +
@@ -37,14 +37,16 @@ You can see the following details from the table:
 * *Customer name*: The name of the customer associated with the Keystone subscription.
 * *Linked subscriptions*: If you have any secondary subscriptions linked to your primary subscription, this column lists the linked subscription numbers for the primary subscription. This subscription number can be of your primary or secondary (linked) subscription.
 * *Keystone version*: The version of the Keystone service that is being used for the subscription. The rate plan rules for performance service levels may differ between subscription versions. To learn more about version v1, refer to https://docs.netapp.com/us-en/keystone/index.html[Keystone subscription services | Version 1 documentation^].
+* *Usage type*: You might have subscribed to multiple Keystone versions. The rate plan rules for performance service levels may differ between subscription versions. By looking at the value in this column, you know whether the usage type is billed as per the provisioned, physical, or logical usage. To learn more about version 1, refer to https://docs.netapp.com/us-en/keystone/index.html[Keystone subscription services | Version 1 documentation^].
 * *Billing period*: The invoicing period of the subscription.
 * *Performance service levels*: The number of rate plans associated with the subscription, with each rate plan corresponding to a specific performance service level and committed capacity. 
 * *Highest capacity*: The maximum capacity consumed within the subscription. 
 * *Days to subscription expiry*: The number of days remaining until the subscription expires.
 +
-NOTE: You can click the down arrow next to the *Expiration date* column to view the performance service levels information for each subscription. This shows detailed capacity information including current usage, committed capacity, provisioned capacity, burst capacity, and available capacity.
+NOTE: You can click the down arrow image:down-arrow.png[expand icon] in the table header to expand all subscriptions and view the performance service levels information for each subscription simultaneously. This shows detailed capacity information including current usage, committed capacity, provisioned capacity, burst capacity, and available capacity for all subscriptions. Alternatively, you can click the down arrow next to the *Expiration date* column in individual subscription rows to expand them one at a time.
 +
 TIP: You can customize the columns displayed in the table using the column selector image:column-selector.png[column selector icon] icon. For certain fields and columns, you might see information or warning icons and tooltips that provide you with additional information about the data.
+
 --
 
 .Digital Advisor
