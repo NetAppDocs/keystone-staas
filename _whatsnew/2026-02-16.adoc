@@ -1,7 +1,7 @@
 ##New enhancements in the Keystone dashboard in the NetApp Console:##
 
 === Support for linked subscriptions
-The Keystone dashboard now supports linked subscriptions, allowing you to group subscriptions and view consumption distribution across primary and secondary subscriptions. To learn more, refer to link:./concepts/linked-subscriptions.html[Learn about linked subscriptions in Keystone] and link:./integrations/view-linked-subscriptions.html[View and monitor linked Keystone subscriptions].
+The Keystone dashboard supports linked subscriptions, allowing you to group subscriptions and view consumption distribution across primary and secondary subscriptions. To learn more, refer to link:./concepts/linked-subscriptions.html[Learn about linked Keystone subscriptions] and link:./integrations/view-linked-subscriptions.html[View and monitor linked Keystone subscriptions].
 
 === DII add-on consumption display
 The Data Infrastructure Insights (DII) add-on consumption now displays in the *Current consumption* and *Consumption trend* tabs. To learn more, refer to link:./concepts/data-infra-insights.html#view-dii-consumption[View DII consumption].

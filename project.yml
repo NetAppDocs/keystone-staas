@@ -119,7 +119,9 @@ sidebar:
             - title: View your subscription timeline
               url: /integrations/subscription-timeline.html
             - title: View MetroCluster subscriptions consumption and health 
-              url: /integrations/adp-tab.html                  
+              url: /integrations/adp-tab.html 
+            - title: View and monitor linked subscriptions 
+              url: /integrations/view-linked-subscriptions.html                 
         - title: View assets
           entries:
             - title: View assets associated with a subscription
@@ -152,6 +154,8 @@ sidebar:
               url: /concepts/service-levels.html
             - title: Capacity requirements for performance service levels
               url: /concepts/capacity-requirements.html 
+        - title: Learn about linked subscriptions
+          url: /concepts/linked-subscriptions.html      
         - title: Learn about add-on services
           entries: 
             - title: Advanced data protection

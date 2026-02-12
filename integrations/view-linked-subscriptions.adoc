@@ -96,7 +96,7 @@ From the *Consumption trend* tab, click *Download* to export historical consumpt
 .Digital Advisor
 --
 In Digital Advisor, when you select a subscription (primary or secondary) from the *Consumption Trend* tab, the consumption trend displays data for that subscription only. For more information, see link:../integrations/consumption-tab.html[View consumption trends of your Keystone subscriptions].
-+
+
 NOTE: Accrued burst is available only for primary subscriptions. Secondary subscriptions do not have accrued burst data.
 --
 ====

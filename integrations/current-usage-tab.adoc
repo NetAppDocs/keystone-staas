@@ -39,7 +39,7 @@ In the table view, you can see details like maximum capacity consumed and days r
 +
 image:console-current-consumption-table.png[current consumption details in the table format]
 +
-NOTE: ##If you have subscribed to add-on services such as advanced data protection (ADP) or Data Infrastructure Insights (DII), the current consumption for these services appears alongside your base performance service levels in both graphical and table views. To learn more about add-on services, refer to link:../cocnepts/adp.html[Learn about add-on services].##
+NOTE: ##If you have subscribed to add-on services such as advanced data protection (ADP) or Data Infrastructure Insights (DII), the current consumption for these services appears alongside your base performance service levels in both graphical and table views. To learn more about add-on services, refer to link:../concepts/adp.html[Learn about add-on services].##
 
 --
 
