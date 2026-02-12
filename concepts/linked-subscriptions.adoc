@@ -1,0 +1,44 @@
+---
+sidebar: sidebar
+permalink: concepts/linked-subscriptions.html
+keywords: linked subscriptions, primary subscription, secondary subscription, subscription grouping, rate plan, consumption distribution
+summary: Linked subscriptions allow you to add capacity to an existing subscription while keeping all reporting in one place.
+---
+
+= Learn about linked subscriptions in Keystone
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ../media/
+
+[.lead]
+Linked subscriptions include one main subscription and one or more secondary subscriptions. You can link multiple Keystone subscriptions, with secondary subscriptions adding committed capacity to a primary subscription's rate plan. All consumption and reporting remain against the primary subscription, simplifying capacity management and billing visibility.
+
+When you link subscriptions:
+
+* One subscription acts as the primary subscription, where all usage metrics, volumes, and reports appear.
+* One or more secondary subscriptions add committed capacity to the primary subscription's rate plan.
+* All linked subscriptions must have the same rate plan but can have different pricing. For example, both your primary and secondary subscriptions can use the _Premium_ performance service level, but each can be purchased at a different rate.
+* Linking subscriptions does not move volumes. Volumes stay assigned to their original subscription. Linking only affects billing calculations.
+
+== Consumption calculation for linked subscriptions
+Consumption for linked subscriptions is calculated and distributed in a specific order, separately for each performance service level. First, consumption is calculated for each volume based on its assigned subscription and performance service level. The total consumption is then distributed to secondary subscriptions, beginning with the oldest secondary subscription. Each secondary subscription is allocated consumption up to its committed capacity. If a secondary subscription reaches its committed capacity, excess consumption flows to the next secondary subscription. Secondary subscriptions do not burst. After all secondary subscriptions are at capacity, the primary subscription receives any remaining consumption. Only the primary subscription can burst when consumption exceeds its committed capacity.
+
+For example, primary subscription SUB-001 (10 TiB) is linked to SUB-002 (50 TiB, created December 2025) and SUB-003 (30 TiB, created January 2026) for the Value service level. With total consumption of 95 TiB, SUB-002 (the oldest secondary subscription) receives 50 TiB, which fills its committed capacity. The remaining 45 TiB flows to SUB-003, which receives 30 TiB to fill its committed capacity. The remaining 15 TiB goes to SUB-001 (the primary subscription). Because SUB-001 has only 10 TiB committed capacity, it bursts by 5 TiB.
+
+
+[NOTE]
+Consumption distribution happens separately for each performance service level. For example, consumption for the _Standard_ performance service level is only distributed to secondary subscriptions with the _Standard_ performance service level.
+
+== View linked subscriptions
+
+You can view and monitor linked subscriptions from the NetApp Console and Digital Advisor. For more information, see link:../integrations/view-linked-subscriptions.html[View and monitor linked Keystone subscriptions].
+
+*Related information*
+
+* link:../concepts/overview.html[Learn about NetApp Keystone]
+* link:../concepts/committed-capacity-billing.html[Understand Keystone committed capacity billing]
+* link:../concepts/service-levels.html[Performance service levels in Keystone]
+* link:../integrations/subscriptions-tab.html[View details about your Keystone subscriptions]
+* link:../integrations/view-linked-subscriptions.html[View and monitor linked Keystone subscriptions]

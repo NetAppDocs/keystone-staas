@@ -1,0 +1,131 @@
+---
+sidebar: sidebar
+permalink: integrations/view-linked-subscriptions.html
+keywords: linked subscriptions, primary subscription, secondary subscription, subscriptions tab, current consumption, consumption trend, NetApp Console, Digital Advisor
+summary: You can view linked subscription details and monitor consumption across primary and secondary subscriptions from the Subscriptions tab in the NetApp Console and Digital Advisor.
+---
+
+= View and monitor linked Keystone subscriptions
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ../media/
+
+[.lead]
+You can view subscription details, monitor current consumption, and analyze historical trends for linked Keystone subscriptions from the NetApp Console and Digital Advisor. Use the Console to view consumption distribution across primary and secondary subscriptions and track subscription events.
+
+== View linked subscription details
+
+You can identify linked subscriptions from the *Linked subscriptions* column in the *Subscriptions* view in the Console and Digital Advisor. The column lists linked secondary subscription numbers for the primary subscription.
+
+//To access the *Subscriptions* view:
+
+//* *NetApp Console*: Select *Storage > Keystone > Subscriptions* from the Console left navigation menu.
+//* *Digital Advisor*: Go to *General > Keystone Subscriptions > Subscriptions* from Digital Advisor left navigation pane.
+
+image:linked-subs.png[subscription list showing linked subscriptions]
+
+For more information about the *Subscriptions* view, see link:../integrations/subscriptions-tab.html[View details about your Keystone subscriptions].
+
+== View current consumption for linked subscriptions
+You can view current consumption details for linked subscriptions in the Console and Digital Advisor. To view how consumption is distributed across primary and secondary subscriptions, use the Console. In Digital Advisor, each subscription displays consumption separately.
+
+[role="tabbed-block"]
+====
+.NetApp Console
+--
+.Steps
+
+. From the Console left navigation menu, select *Storage > Keystone > Subscriptions*.
+. Select the primary subscription number.
++
+The Console redirects you to the *Current consumption* tab, which displays consumption details segregated by performance service level. For more information, see link:../integrations/current-usage-tab.html[View the current consumption of your Keystone subscriptions].
++
+You can view consumption details in either graphical or table format by selecting *Graph* or *Table* from the *View as* dropdown. In graphical format, click *View usage details* for a specific performance service level to view detailed usage information including linked subscription consumption. The detailed view displays total consumption for that performance service level, including consumption from both the primary and linked secondary subscriptions.
++
+image:linked-subs-usage-details.png[usage details showing primary and linked subscription consumption]
++
+NOTE: The consumption displayed follows the distribution logic where secondary subscriptions receive consumption first (oldest to newest), followed by the primary subscription. To learn more, see link:../concepts/linked-subscriptions.html#consumption-calculation-for-linked-subscriptions[Consumption calculation for linked subscriptions].
++
+In table format, expand a performance service level with the image:down-arrow.png[down arrow icon] to view capacity usage, committed capacity, used capacity, and available capacity for the primary and linked secondary subscriptions.
++
+image:linked-subs-table-view.png[table view showing linked subscription details]
++
+To filter consumption for a specific linked secondary subscription, select the secondary subscription number in the table. 
+
+--
+
+.Digital Advisor
+--
+In Digital Advisor, when you select a subscription (primary or secondary) from the *Current Consumption* tab, the consumption details display for that subscription only. For more information, see link:../integrations/current-usage-tab.html[View the current consumption of your Keystone subscriptions].
+
+--
+====
+
+== View consumption trends for linked subscriptions
+You can view historical consumption data for linked subscriptions in the Console and Digital Advisor. The Console displays consumption distribution across primary and secondary subscriptions and combined historical consumption. Digital Advisor shows each subscription separately.
+
+[role="tabbed-block"]
+====
+
+.NetApp Console
+--
+.Steps
+. From the Console left navigation menu, select *Storage > Keystone > Subscriptions*.
+. Select the primary subscription number, and navigate to the *Consumption trend* tab.
+. Select *Historical consumption* from the *View* dropdown and choose a time range.
++
+The Console displays the consumption trend, which includes total consumption for the primary subscription and all linked secondary subscriptions for the selected period.
+. To view historical consumption for a specific subscription, select *Filter by instance* and choose the primary subscription or a specific secondary subscription from the list. The graph updates to show consumption for the selected subscription only.
++
+image:linked-subs-consumption-trend.png[consumption trend for linked subscriptions]
++
+NOTE: The *Subscriptions* table displays the burst limit for each subscription in the *Burst* column. Secondary subscriptions do not burst, so the burst column shows their committed capacity limit.
++
+NOTE: Accrued burst is available only for primary subscriptions. Secondary subscriptions do not have accrued burst data.
++
+For more information about consumption trends and accrued burst, see link:../integrations/consumption-tab.html[View consumption trends of your Keystone subscriptions].
++
+*Download consumption reports*
++
+From the *Consumption trend* tab, click *Download* to export historical consumption and accrued burst reports in CSV or Excel format. Excel reports organize data in separate tabs: total consumption, primary subscription, and linked subscriptions. CSV reports combine all data in a single view with the same sequence. Accrued burst reports are available only for primary subscriptions.
+
+--
+
+.Digital Advisor
+--
+In Digital Advisor, when you select a subscription (primary or secondary) from the *Consumption Trend* tab, the consumption trend displays data for that subscription only. For more information, see link:../integrations/consumption-tab.html[View consumption trends of your Keystone subscriptions].
++
+NOTE: Accrued burst is available only for primary subscriptions. Secondary subscriptions do not have accrued burst data.
+--
+====
+
+== View subscription timeline for linked subscriptions
+
+You can view important events such as activation, modification, and renewal dates for primary and secondary subscriptions in the Console subscription timeline. This timeline view is not available in Digital Advisor.
+
+.Steps
+
+. From the Console left navigation menu, select *Storage > Keystone > Subscriptions*.
+. Select the primary subscription number and navigate to the *Subscription timeline* tab.
++
+The Console timeline displays events for the primary subscription and all linked secondary subscriptions.
++
+image:linked-subs-timeline.png[subscription timeline showing linked subscriptions events]
+
+For more information about the subscription timeline, see link:../integrations/subscription-timeline.html[View the timeline of your Keystone subscriptions].
+
+
+*Related information*
+
+* link:../concepts/linked-subscriptions.html[Learn about linked subscriptions in Keystone]
+* link:../concepts/committed-capacity-billing.html[Understand Keystone committed capacity billing]
+* link:../concepts/service-levels.html[Performance service levels in Keystone]
+* link:../integrations/dashboard-overview.html[Understand the Keystone dashboard]
+* link:../integrations/subscriptions-tab.html[View details about your Keystone subscriptions]
+* link:../integrations/current-usage-tab.html[View the current consumption of your Keystone subscriptions]
+* link:../integrations/consumption-tab.html[View consumption trends of your Keystone subscriptions]
+* link:../integrations/subscription-timeline.html[View the timeline of your Keystone subscriptions] 
+
+

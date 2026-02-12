@@ -40,6 +40,8 @@ The historical consumption data for each performance service level is displayed 
 +
 NOTE: You can select *Accrued burst* from the *View* dropdown if you want to view the historical burst usage data for which invoices have been generated. You can use this data to analyze the billed usage reflected in your invoice. To learn more, refer to link:../integrations/consumption-tab.html#view-accrued-burst[View accrued burst].
 +
+NOTE: ##If you have subscribed to add-on services such as advanced data protection (ADP) or Data Infrastructure Insights (DII), the consumption data for these services appears alongside your base performance service levels in both historical consumption and accrued burst views. To learn more about add-on services, refer to link:../cocnepts/adp.html[Learn about add-on services].##
++
 image:bxp-consumption-trend-1.png[screenshot displaying historical consumption]  
 +
 The line graph displays historical consumption data and allows users to analyze trends over a selected date range. The graph shows metrics such as used capacity (total storage capacity, including both data and snapshot data), data (storage capacity used by user data), and snapshot (storage capacity used by snapshot data), along with committed and burst capacity. The date and time of each data point are displayed at the bottom of the graph. Based on the date range of your query, the usage charts show up to 30 data collection points. You can hover your mouse cursor over the graph to view the usage breakdown at each data collection point.
@@ -188,3 +190,14 @@ You can switch to a table view by clicking the *Table* option at the top right c
 //For information about how MetroCluster protects your data, see https://docs.netapp.com/us-en/ontap-metrocluster/manage/concept_understanding_mcc_data_protection_and_disaster_recovery.html[Understanding MetroCluster data protection and disaster recovery^].
 
 
+*Related information*
+
+* link:../integrations/dashboard-overview.html[Understand the Keystone dashboard]
+* link:../integrations/subscriptions-tab.html[View details about your Keystone subscriptions]
+* link:../integrations/current-usage-tab.html[View the current consumption of your Keystone subscriptions]
+* link:../concepts/linked-subscriptions.html[Learn about linked subscriptions in Keystone]
+* link:../integrations/view-linked-subscriptions.html[View and monitor linked Keystone subscriptions]
+* link:../integrations/subscription-timeline.html[View the timeline of your Keystone subscriptions]
+* link:../integrations/assets-tab.html[View assets associated with a Keystone subscription]
+* link:../integrations/monitoring-alerts.html[View and manage alerts and monitors]
+* link:../integrations/volumes-objects-tab.html[View volumes and objects details]
