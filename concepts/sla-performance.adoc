@@ -13,25 +13,35 @@ summary: Keystone offers latency-based SLO per performance service level, as des
 :imagesdir: ../media/
 
 [.lead]
-NetApp Keystone offers latency-based SLO per performance service level, as described in the Keystone order for consumed capacity up to the burst limit, according to the following listed terms and conditions.
+option 1: ##NetApp Keystone offers latency-based SLO targeting 90^th^ percentile latency per performance service level instance, up to target maximum IOPs, for unified (excluding Value performance service level), block-optimized, and AFX data storage types, as described in the Keystone order for consumed capacity up to the burst limit, according to the following listed terms and conditions.##
+
+or,
+
+option 2: ##NetApp Keystone offers latency-based SLO per performance service level instance, as described in the Keystone order for consumed capacity up to the burst limit, according to the following listed terms and conditions.
+
 
 == Metrics
 * *Degraded performance*: The amount of time, in minutes, per incident, during which the 90^th^ percentile latency target is not met.
-* The *90^th^ percentile latency* is measured per volume, per performance level, for all volumes within a Keystone Order. Latency is sampled every five minutes, and the 90^th^ percentile value calculated over a 24-hour period is used as the daily measure, considering the following points:
+* The *90^th^ percentile latency* is measured per volume, per ##performance service level instance##, for all volumes within a Keystone Order. Latency is sampled every five minutes, and the 90^th^ percentile value calculated over a 24-hour period is used as the daily measure, considering the following points:
 ** The volumes that record at least five IOPS at the time of metrics collection are considered for a sample.
 ** Volumes with greater than 30% write operations at the time of metrics collection are excluded from the sample.
-** Latency added by AQoS for requested IOPS/TiB that is greater than target IOPS/TiB are excluded from the sample.
-** Latency added by AQoS to maintain minimum IOPS per volume are excluded from the sample.
+** ##do we need to include this as we don't have AQoS for v3##Latency added by AQoS for requested IOPS/TiB that is greater than target IOPS/TiB are excluded from the sample.
+** ##do we need to include this as we don't have AQoS for v3##Latency added by AQoS to maintain minimum IOPS per volume are excluded from the sample.
 ** For volumes that have FabricPool enabled, the latency incurred due to the transfer of data to and from the target (cold) storage is not counted.
 ** Latency caused by the application, host, or customer network outside of the ONTAP cluster is not counted.
 //** When using the advanced data protection add-on service, the target latency includes only IO operations to and from the local storage array.
-** During a 24-hour period, at least ten valid metrics should be available. If not, the metrics will be discarded.
-** If one or more volumes on a storage array do not have a valid AQoS policy applied, then number of IOPS available to other volumes may be affected, and NetApp will not be responsible for targeting or meeting performance levels on that storage array.
+** Latency caused by the application, host, or customer network outside of the ONTAP cluster is not counted.
+** ##do we need to include this as we don't have AQoS for v3## If one or more volumes on a storage array do not have a valid AQoS policy applied, then number of IOPS available to other volumes may be affected, and NetApp will not be responsible for targeting or meeting performance levels on that storage array.
 ** In FabricPool configurations, performance levels are applicable when all requested data blocks are on FabricPool source (hot) storage and the source storage is not in a SnapMirror Synchronous relationship.
+* ##<must review> <to match option 2:Applicable only to NetApp AFF platforms (for unified and block-optimized data storage types, not including Value performance service level) and AFX platforms (for AFX data storage type), up to target maximum IOPs., or ##
+to match option 1: Applicable only to NetApp AFF and AFX platforms only##
+* ##All minimum and maximum capacity and other limits per performance service level instance, as specified in the Keystone order, are applicable.##
+* ##< do we need this in metrics>All performance service level instances require full and continuous enablement of the monitoring tool and AutoSupport (ASUP).##
 
 
 == Performance service levels
-All performance service levels that ONTAP flash storage arrays support are eligible for Performance SLO and guarantee meeting the following target latency:
+##<must review, if this statement is applicable or not anymore> All performance service levels that ONTAP flash storage arrays support are eligible for Performance SLO and guarantee meeting the following target latency:##
+
 
 |===
 |*Service level* | Extreme |Premium |Performance |Standard
@@ -39,7 +49,7 @@ a|
 *Target 90^th^ percentile latency* |<1ms |<2ms |<4ms |<4ms
 |===
 
-To learn more about the latency requirements of the performance service levels, refer to link:../concepts/service-levels.html[Perfromance service Levels in Keystone].
+To learn more about the latency requirements of the performance service levels, refer to link:../concepts/service-levels.html[Performance service levels in Keystone].
 
 == Service credits
 

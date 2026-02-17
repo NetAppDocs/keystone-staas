@@ -28,7 +28,7 @@ The minimum logical capacity billed each month during the subscription:
 During the tenure of a subscription, you can change the committed capacities. However, there are certain preconditions:
 
 * *Committed capacity increase*: You can request an increase to the committed capacity of an existing performance service level instance or AFX cluster up to 90 days prior to the scheduled expiration of the subscription term. Once the additional committed capacity is activated, the increase remains in effect for the remainder of the subscription term, and the minimum payment is revised accordingly.
-* *Committed capacity decrease*: The committed capacity can be decreased based on certain conditions. This applies to Keystone on-premises service only if you have selected a subscription term of not less than 24 months. For information, see link:../concepts/capacity-requirements.html[Capacity reduction].
+* *Committed capacity decrease*: The committed capacity can be decreased based on certain conditions. This applies to Keystone on-premises service only if you have selected a subscription term of not less than 24 months. For more information, see link:../concepts/capacity-requirements.html[Capacity reduction].
 * You can request changes to committed capacity through the Console or from your Keystone Success Manager (KSM). For information about requesting changes, see link:../concepts/support-services.html[NetApp Keystone support].
 
 == Consumed capacity

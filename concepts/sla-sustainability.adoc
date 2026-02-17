@@ -13,11 +13,11 @@ summary: Keystone delivers a guaranteed measurement of maximum number of actual 
 :imagesdir: ../media/
 
 [.lead]
-NetApp Keystone delivers a guaranteed measurement of maximum number of actual watts per tebibyte (W/TiB) for storage services based on ONTAP flash storage arrays with Sustainability SLO. Sustainability SLO defines the maximum consumption of W/TiB for each eligible performance service level, helping organizations meet their sustainability goals.
+##NetApp Keystone delivers a guaranteed measurement of maximum watts per tebibyte (W/TiB) per performance service level instance for unified (excluding Value performance service level) and block-optimized data storage types, or per AFX Cluster. Sustainability SLO defines the maximum power consumption per TiB for each eligible performance service level, helping organizations meet their sustainability goals.##
 
 == Metrics
 
-* *Watts*: The power consumption reported from daily AutoSupport, including the usage by the controller and attached disk shelves. 
+* *Watts*: ##The power consumed by the storage arrays, or AFX Cluster, as reported by the monitoring tool.##
 * *Tebibyte*: The maximum of:
 ** the committed capacity + allocated burst capacity for the performance service level, or
 ** the effective deployed capacity, assuming a storage efficiency factor of `2:1`. 
@@ -29,7 +29,7 @@ To learn more about storage efficiency ratio, refer to https://docs.netapp.com/u
 Sustainability SLO is based on the following consumption criteria: 
 
 |===
-|*Service level* | *SLO criteria* |*Minimum committed capacity* |*Platform*
+|*Service level* | *SLO criteria* |*Minimum committed capacity* |*##Platform (suggest AFX changes here)##*
 a|
 Extreme |&lt;= 8 W/TiB |200 TiB |AFF A800 and AFF A900
 a|
