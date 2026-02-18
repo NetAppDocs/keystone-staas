@@ -13,7 +13,7 @@ summary: Availability SLO targets an uptime of 99.999% during a billing period f
 :imagesdir: ../media/
 
 [.lead]
-##Availability SLO targets an uptime of 99.999% per performance service level instance during a billing period for unified and block Optimized data storage types, or per AFX storage controller.##
+##Availability SLO targets an uptime of 99.999% per performance service level instance during a billing period for unified and block-optimized data storage types, or per AFX storage controller.##
 
 == Metrics
 
