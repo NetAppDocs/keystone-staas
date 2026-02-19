@@ -35,8 +35,6 @@ image:bxp-subscription-timeline.png[a screenshot to show subscription timeline i
 
 * link:../integrations/dashboard-overview.html[Understand the Keystone dashboard]
 * link:../integrations/subscriptions-tab.html[View your subscription details]
-* link:../concepts/linked-subscriptions.html[Learn about linked subscriptions in Keystone]
-* link:../integrations/view-linked-subscriptions.html[View and monitor linked Keystone subscriptions]
 * link:../integrations/consumption-tab.html[View consumption trends]
 * link:../integrations/assets-tab.html[View your Keystone subscription assets]
 * link:../integrations/assets.html[View assets across your Keystone subscriptions]

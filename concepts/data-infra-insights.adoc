@@ -53,7 +53,7 @@ Once configured, the DII instance will begin monitoring the NetApp storage resou
 
 NOTE: While DII offers extensive monitoring capabilities for the deployed hardware, it does not provide insights into your Keystone subscription, such as subscription usage or details on performance service levels. For subscription insights, see link:../integrations/keystone-aiq.html[Keystone dashboard and reporting].
 
-== ##View DII consumption##
+== View DII consumption
 
 You can view the consumption for your DII add-on services through the NetApp Console or Digital Advisor. The consumption data for DII performance service levels (such as DII Extreme, DII Premium, and DII Performance) appears alongside your base performance service levels in the current consumption and consumption trend views.
 
