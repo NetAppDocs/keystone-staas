@@ -15,7 +15,7 @@ summary: As a NetApp Keystone STaaS subscriber, you can get an overview of your 
 [.lead]
 The Keystone dashboard is your go-to solution for efficiently monitoring, analyzing, and managing your Keystone subscriptions. Through the Keystone dashboard, you can achieve the following goals:
 
-* *Monitor subscription details*: View detailed information about your Keystone subscriptions, including performance service levels, capacity usage, assets, and alerts. 
+* *Monitor subscription details*: View detailed information about your Keystone subscriptions, including performance service levels (base and add-on services such as advanced data protection and Data Infrastructure Insights), capacity usage, assets, and alerts.
 * *Track capacity usage and generate reports*: Keep track of current and historical capacity usage, and generate reports to analyze subscription data and make informed decisions.
 * *View subscription timeline*: Stay informed about key dates and events by monitoring the timeline of your subscriptions.
 //* *Manage subscriptions*: Request changes for your service levels to ensure your subscriptions align with your needs.
