@@ -25,20 +25,25 @@ To view active alerts, follow these steps:
 
 . From the Console left navigation menu, select *Storage > Keystone > Monitoring > Alerts*.
 +
-image:monitoring-alerts-default-view-1.png[A screenshot of active alerts for Keystone subscriptions]
+image:monitoring-alerts-default-view-2.png[A screenshot of active alerts for Keystone subscriptions]
 +
-You can view alert details such as severity, ID, description, triggered time, subscription number, tracking ID, performance service level, and status. The page also shows the total unresolved alerts by severity and type.
+You can view alert details such as severity, ID, type and condition, description, triggered time, subscription number, tracking ID, performance service level, and status. The page also shows the total unresolved alerts by severity and type.
 +
 NOTE: The *Reports* tab is currently unavailable for Keystone subscriptions.
++
+TIP: You can customize the table using the column selector image:column-selector.png[column selector icon] icon. 
 
 == Manage alerts
 
 From the *Alerts* tab, you can perform the following actions:
 
-* *Review and resolve alerts*: Select the alert ID number to open a detailed view of the alert. This view displays the alert description and suggested resolution steps. From this detailed view, you can:
+* *Review and resolve alerts*: ##Select the alert ID to open a detailed view of the alert. This view displays the alert description and suggested resolution steps. From this detailed view, you can mark the alert as resolved using the *Edit* button or add supporting notes using the *Add note* button.##
 +
-** Mark the alert as resolved by selecting the *Edit* button after addressing the issue.
-** Add supporting notes by selecting the *Add note* button if required.
+##You can also use the ellipsis icon next to the *Status* column to perform the following actions:##
++
+** *Edit*: ##Opens a pop-up to change the alert status and add resolution details.##
+** *Add note*: ##Opens a pop-up to add a note to the alert.##
+** *View*: ##Opens the same detailed view as selecting the alert ID.##
 +
 NOTE: Editing alerts requires the *Keystone admin* role. The *Keystone viewer* role can only view alert details. To learn more, refer to link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-keystone-roles.html[Keystone access roles in NetApp Console^].
 

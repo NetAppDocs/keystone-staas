@@ -114,7 +114,13 @@ You can calculate the accrued burst for short periods, such as every two minutes
 The burst is the difference between the consumed capacity and the committed capacity. For example, with a 30-day in month, if the consumed capacity reaches 120 TiB and the committed capacity is 100 TiB for a 2-minute interval, this results in a burst capacity of 20 TiB, equating to an accrued burst usage of 0.000925926 TiB for that interval.
 
 == View accrued burst
-You can view the accrued burst data usage through the Console or Digital Advisor. If you have selected *Accrued burst* from the *View* dropdown in the *Consumption trend* tab in the Console, or the *Invoiced Accrued Burst* option from the *Consumption Trend* tab in Digital Advisor, you can see accrued burst data usage on a monthly or quarterly basis, depending on your selected billing period. This data is available for the last 12 months that have been billed, and you can query by the date range for up to past 30 months.  
+You can view the accrued burst data usage through the Console or Digital Advisor. If you have selected *Accrued burst* from the *View* dropdown in the *Consumption trend* tab in the Console, or the *Invoiced Accrued Burst* option from the *Consumption Trend* tab in Digital Advisor, you can see accrued burst data usage on a monthly or quarterly basis, depending on your selected billing period. This data is available for the last 12 months that have been billed, and you can query by the date range for up to past 30 months. 
+
+##In the Console, alongside invoiced burst usage, you can also view uninvoiced burst usage (accrued but not yet billed) and provisional burst usage (accrued in the current billing period and not yet invoiced).##
+
+image not available
+
+image: accr-burst-provision-invoice.png[screenshot showing accrued burst usage in the Console]
 
 [TIP]
 ====
