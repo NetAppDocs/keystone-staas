@@ -94,7 +94,7 @@ If a breach of the SLA is detected, open a priority 3 (P3) support ticket with N
 .. Calculated time duration of latency detection
 .. Measurement tools and methods
 .. Any other applicable document
-** Provide the details in the excel sheet as shown below for a P3 ticket opened with NetApp Keystone support.
+** Provide the details in the Excel sheet as shown below for a P3 ticket opened with NetApp Keystone support.
 +
 image:sla-breach.png[excel sheet template]
 
