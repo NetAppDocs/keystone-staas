@@ -33,7 +33,7 @@ All performance service levels that ONTAP flash storage arrays support are eligi
 |===
 |*Service level* | Extreme |Premium |Standard |Value
 a|
-*Target 90^th^ percentile latency* |&lt;=1ms |&lt;=2ms |&lt;=4ms |&gt;=4ms
+*Target 90^th^ percentile latency* |&lt;=1ms |&lt;=1ms |&lt;=4ms |&gt;=4ms
 |===
 
 To learn more about the latency requirements of the performance service levels, refer to link:../concepts/service-levels.html[Performance service levels in Keystone].
