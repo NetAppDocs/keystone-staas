@@ -4,8 +4,8 @@
 Three new columns, *Hot data*, *Cold tier (%)*, and *Hot tier (%)*, are added to the *Volumes in clusters* tab in *Assets*. To learn more, refer to link:./integrations/assets-tab.html[View assets associated with a Keystone subscription] and link:./integrations/assets.html[View assets across your Keystone subscriptions].##
 //NSEKEY-22255
 
-=== Provisional accrued burst in Consumption trend
-The accrued burst billing graph in the *Consumption trend* tab now displays provisional burst usage. To learn more, refer to link:./integrations/consumption-tab.html#view-accrued-burst[View accrued burst].
+=== Invoiced, uninvoiced, and provisional burst usage in Consumption trend
+The accrued burst billing graph in the *Consumption trend* tab now displays invoiced, uninvoiced, and provisional burst usage. To learn more, refer to link:./integrations/consumption-tab.html#view-accrued-burst[View accrued burst].
 //NSEKEY-22253
 
 === Enhancements to the Monitoring view

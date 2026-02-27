@@ -34,7 +34,7 @@ The same server should also have the following third-party packages:
 *	chrony 
 *	python 3 (3.9.14 to 3.11.8)
 
-NOTE: ##Only the third-party packages listed above are supported on Keystone Collector. Installing additional software is not supported and may impact collector performance, data collection, and billing accuracy. To install specific software on Keystone Collector, contact NetApp Keystone support before proceeding.##
+NOTE: ##Only the third-party packages listed above are supported on Keystone Collector. Installing additional software is not supported and may impact collector performance, data collection, and billing accuracy.##
 
 .Keystone Collector server VM:
 
