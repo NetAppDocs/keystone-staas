@@ -144,6 +144,8 @@ In the Console, you can filter the table by selecting any bar that represents a 
 
 image:bxp-accrued-burst-days-1.png[screenshot showing the accrued burst by days table]
 
+You can also download the data in Excel format, including burst status (invoiced, uninvoiced, or provisional) and billing period.
+
 In Digital Advisor, when you click the bar that displays the invoiced data from the *Invoiced Accrued Burst* option, you see the Billable Provisioned Capacity section below the bar chart, offering both graph and table viewing options. The default graph view displays daily accrued burst data usage in a line graph format, showing changes in usage over time.
 
 image:invoiced-daily-accr-burst-1.png[screenshot showing the bar chart]
