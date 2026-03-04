@@ -1,7 +1,7 @@
-##New enhancements in the Keystone dashboard in the NetApp Console:
+New enhancements in the Keystone dashboard in the NetApp Console:
 
 === New columns in the Volumes in clusters tab
-Three new columns, *Hot data*, *Cold tier (%)*, and *Hot tier (%)*, are added to the *Volumes in clusters* tab in *Assets*. To learn more, refer to link:./integrations/assets-tab.html[View assets associated with a Keystone subscription] and link:./integrations/assets.html[View assets across your Keystone subscriptions].##
+Three new columns, *Hot data*, *Cold tier (%)*, and *Hot tier (%)*, are added to the *Volumes in clusters* tab in *Assets*. To learn more, refer to link:./integrations/assets-tab.html[View assets associated with a Keystone subscription] and link:./integrations/assets.html[View assets across your Keystone subscriptions].
 //NSEKEY-22255
 
 === Invoiced, uninvoiced, and provisional burst usage in Consumption trend

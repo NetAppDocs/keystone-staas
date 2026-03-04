@@ -69,7 +69,7 @@ After you create the monitor, the system returns you to the *Alert monitors* pag
 +
 image:edit-alert-monitor.png[A screenshot of editing an alert monitor for Keystone subscriptions]
 +
-NOTE: ##System-generated monitors cannot be edited.##
+NOTE: System-generated monitors cannot be edited.
 . Select *Edit*.
 +
 The *Edit alert monitor* page appears with the current monitor configuration.
@@ -100,7 +100,7 @@ A new alert monitor is created with the updated configuration and appears in the
 .Steps
 . Select the ellipsis icon for the monitor you want to remove.
 +
-NOTE: ##System-generated monitors cannot be deleted.##
+NOTE: System-generated monitors cannot be deleted.
 . Select *Delete* and confirm the deletion.
 +
 After deletion, the subscriptions connected to the monitor stop getting notifications.

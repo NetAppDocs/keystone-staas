@@ -50,7 +50,7 @@ You see the detailed information about all volumes in clusters across Keystone s
 * The total number of subscriptions, clusters, and volumes.
 * Volume compliance and protection status, with a *View* button to filter the table and display assets based on criteria such as compliant, not compliant, or not protected.
 +
-NOTE: ##The *Cold tier %* and *Hot tier %* columns show the percentage of data on each tier, calculated as (Cold data / Total footprint) × 100 and (Hot data / Total footprint) × 100 respectively.##
+NOTE: The *Cold tier %* and *Hot tier %* columns show the percentage of data on each tier, calculated as (Cold data / Total footprint) × 100 and (Hot data / Total footprint) × 100 respectively.
 +
 TIP: You can customize the table using the column selector image:column-selector.png[column selector icon] icon and use the search bar at the top to search and filter Keystone data based on the column parameters.
 +

@@ -42,7 +42,7 @@ image:bxp-volumes-clusters-single-subscription-1.png[A screenshot of volumes in 
 +
 You see the detailed information about volumes in clusters including volume name, node serial number, cluster name, host name, and performance service levels. You can also monitor the provisioned capacity, logical and physical utilization, cold data, and hot data. 
 +
-NOTE: ##The *Cold tier %* and *Hot tier %* columns show the percentage of data on each tier, calculated as (Cold data / Total footprint) × 100 and (Hot data / Total footprint) × 100 respectively.##
+NOTE: The *Cold tier %* and *Hot tier %* columns show the percentage of data on each tier, calculated as (Cold data / Total footprint) × 100 and (Hot data / Total footprint) × 100 respectively.
 +
 TIP: You can customize the table using the column selector image:column-selector.png[column selector icon] icon and use the search bar at the top to search and filter table data based on the column parameters.
 --

@@ -46,7 +46,7 @@ image:bxp-consumption-trend-1.png[screenshot displaying historical consumption]
 +
 The line graph displays historical consumption data and allows users to analyze trends over a selected date range. The graph shows metrics such as used capacity (total storage capacity, including both data and snapshot data), data (storage capacity used by user data), and snapshot (storage capacity used by snapshot data), along with committed and burst capacity. Based on the date range of your query, the usage charts show up to 30 data collection points. You can hover your mouse cursor over the graph to view the usage breakdown at each data collection point.
 +
-NOTE: ##The date range you select determines the level of detail shown at the bottom of the graph. For periods of 30 days or fewer, both the date and time are displayed for each data point. For periods greater than 30 days, only the date is displayed.##
+NOTE: The date range you select determines the level of detail shown at the bottom of the graph. For periods of 30 days or fewer, both the date and time are displayed for each data point. For periods greater than 30 days, only the date is displayed.
 +
 NOTE: If a performance service level has multiple instances, you can filter by instance to view historical data for each one separately.
 +
@@ -118,9 +118,7 @@ The burst is the difference between the consumed capacity and the committed capa
 == View accrued burst
 You can view the accrued burst data usage through the Console or Digital Advisor. If you have selected *Accrued burst* from the *View* dropdown in the *Consumption trend* tab in the Console, or the *Invoiced Accrued Burst* option from the *Consumption Trend* tab in Digital Advisor, you can see accrued burst data usage on a monthly or quarterly basis, depending on your selected billing period. This data is available for the last 12 months that have been billed, and you can query by the date range for up to past 30 months. 
 
-##In the Console, alongside invoiced burst usage, you can also view uninvoiced burst usage (accrued but not yet billed) and provisional burst usage (accrued in the current billing period and not yet invoiced).##
-
-image not available
+In the Console, alongside invoiced burst usage, you can also view uninvoiced burst usage (accrued but not yet billed) and provisional burst usage (accrued in the current billing period and not yet invoiced).
 
 image: accr-burst-provision-invoice.png[screenshot showing accrued burst usage in the Console]
 
