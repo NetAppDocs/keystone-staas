@@ -1,0 +1,18 @@
+New enhancements in the Keystone dashboard in the NetApp Console:
+
+=== New columns in the Volumes in clusters tab
+Three new columns, *Hot data*, *Cold tier (%)*, and *Hot tier (%)*, are added to the *Volumes in clusters* tab in *Assets*. To learn more, refer to link:./integrations/assets-tab.html[View assets associated with a Keystone subscription] and link:./integrations/assets.html[View assets across your Keystone subscriptions].
+//NSEKEY-22255
+
+=== Invoiced, uninvoiced, and provisional burst usage in Consumption trend
+The accrued burst billing graph in the *Consumption trend* tab now displays invoiced, uninvoiced, and provisional burst usage. To learn more, refer to link:./integrations/consumption-tab.html#view-accrued-burst[View accrued burst].
+//NSEKEY-22253
+
+=== Enhancements to the Monitoring view
+The *Monitoring* view includes the following updates:
+
+* *Alerts tab*: The *Alert* column is renamed to *Alert type & condition*. You can now also use the ellipsis icon next to the *Status* column to edit an alert, add a note, or view alert details.
+* *Alert monitors tab*: The *Condition* column is renamed to *Monitor type & condition*. 
+
+To learn more, refer to link:./integrations/monitoring-alerts.html[View and manage alerts for Keystone subscriptions] and link:./integrations/monitoring-alert-monitors.html[View and create alert monitors for Keystone subscriptions].
+//NSEKEY-22295
