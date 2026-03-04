@@ -53,6 +53,7 @@ The same server should also have the following third-party packages installed. I
 ** podman
 ** sosreport
 
+NOTE: Only the third-party packages listed above are supported on Keystone Collector. Installing additional software is not supported and may impact collector performance, data collection, and billing accuracy.
 
 == Networking requirements
 
