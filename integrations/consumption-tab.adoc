@@ -120,7 +120,7 @@ You can view the accrued burst data usage through the Console or Digital Advisor
 
 In the Console, alongside invoiced burst usage, you can also view uninvoiced burst usage (accrued but not yet billed) and provisional burst usage (accrued in the current billing period and not yet invoiced).
 
-image: accr-burst-provision-invoice.png[screenshot showing accrued burst usage in the Console]
+image:accr-burst-provision-invoice.png[screenshot showing accrued burst usage in the Console]
 
 [TIP]
 ====
