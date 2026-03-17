@@ -31,23 +31,6 @@ summary: Keystone offers latency-based SLO per performance service level, as des
 * ##All performance service level instances require full and continuous enablement of the monitoring tool and AutoSupport (ASUP).##
 
 
-== <must review> ##Performance service levels##
-##<must review the entire topic>##
-The performance SLO applies to unified (excluding the Value performance service level), block-optimized, and AFX storage, and guarantees meeting the following target latency:
-
-|===
-|*Data storage type* |*Service level* | *Target 90^th^ percentile latency*
-|Unified |Extreme | &lt;=1ms
-|Unified |Premium | &lt;=1ms
-|Unified |Standard | &lt;=4ms
-|Block-optimized |Extreme | &lt;=1ms
-|Block-optimized |Premium | &lt;=1ms
-|Block-optimized |Standard | &lt;=4ms
-|AFX |Extreme | &lt;=1ms
-|===
-
-To learn more about the performance service levels, refer to link:../concepts/service-levels.html[Performance service levels in Keystone].
-
 == Service credits
 
 NOTE: SLAs and guarantees are available on a nomination basis.
