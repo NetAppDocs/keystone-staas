@@ -13,9 +13,9 @@ summary: Use the advanced data protection add-on service to ensure efficient dat
 :imagesdir: ../media/
 
 [.lead]
-You can subscribe to the advanced data protection (ADP) add-on service with your Keystone STaaS subscription. While standard Keystone services include default data protection using SnapMirror, SnapVault, and Snapshot, this add-on service uses NetApp MetroCluster technology to ensure efficient data protection of your mission-critical workloads with a recovery point objective (RPO) of 0.
+##Subscribe to the advanced data protection (ADP) add-on with your Keystone STaaS subscription. ADP uses NetApp MetroCluster technology for synchronous site-to-site data mirroring. With a recovery point objective (RPO) of 0, you avoid data loss during site failures. Learn how ADP works, supported configurations, and pricing.##
 
-NOTE: ##The advanced data protection add-on service provides MetroCluster IP synchronous mirroring feature on supported unified data storage type only, AFF storage arrays. <is this correct, AFF??##
+NOTE: ##<must review>The advanced data protection add-on service is available for unified storage on AFF storage arrays only (_Extreme_, _Premium_, and _Standard_ performance service levels). It is not supported on FAS storage arrays (_Value_ performance service level). ##
 
 
 Keystone advanced data protection service can synchronously mirror data to a secondary site. In case of a disaster at the primary site, the secondary site can take over, without any loss of data. This feature uses the link:https://docs.netapp.com/us-en/ontap-metrocluster[MetroCluster^] configuration between two sites to enable data protection. You can use the advanced data protection add-on services for only your file and block storage services. As a part of this add-on service, the `Advanced Data-Protect` performance service level is assigned to your subscription.
@@ -24,7 +24,7 @@ Keystone advanced data protection service can synchronously mirror data to a sec
 You can monitor consumption and health metrics for your MetroCluster configuration. For more information, see link:../integrations/adp-tab.html[View consumption and health of your MetroCluster subscriptions].
 
 == Understand pricing
-The advanced data protection add-on service is priced based on the committed capacity at each site. This helps determine the actual cost of advanced data protection service in $/TiB. The add-on charges apply to all capacities in your subscription, including source data, mirrored copies, and unmirrored data.
+The advanced data protection add-on service is priced based on the committed capacity at each site. The add-on charges apply to all capacities in your subscription, including source data, mirrored copies, and unmirrored data.
 
 For the MetroCluster configuration, each site requires its own subscription, and you are charged for the committed capacity at each site independently. 
 
@@ -32,7 +32,7 @@ Note the following:
 
 * The service uses 100% of the committed capacity on associated storage as committed capacity.
 * Charges apply to both primary and secondary sites, covering both source and destination clusters.
-* ## is this correct: Charges apply only to your file and block storage services.##
+* Charges apply only to your file and block storage services.
 
 == Supported MetroCluster configurations
 

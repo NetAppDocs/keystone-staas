@@ -13,13 +13,18 @@ summary: Keystone STaaS for version 3 offers storage capacity at pre-defined ser
 :imagesdir: ../media/
 
 [.lead]
-Keystone STaaS offers data storage capacity at pre-defined performance service levels (PSLs). Each volume managed by Keystone services is associated with a performance service level.
+##Keystone STaaS offers pre-defined performance service levels (PSLs) for each storage type. Each PSL specifies the performance targets (IOPS, throughput, and latency), supported protocols, platform, and minimum capacity requirements. Review the available PSLs to select the right service level for your workload and plan your subscription.##
 
-A subscription can have multiple rate plans and each rate plan corresponds to a performance service level. Each rate plan has a committed capacity per performance service level. 
+##A Keystone subscription can include multiple PSLs across one or more storage types. Each PSL has a committed capacity, which is the minimum capacity billed for that service level during the subscription term.##
 
-##<must review> Each performance service level can have multiple instances in your environment, with each instance representing a separate storage system assigned to that performance service level. For unified or block-optimized storage, an instance is a storage array (a data storage device consisting of two storage controllers in an HA pair and dedicated internal or externally attached storage media). For AFX storage, an instance is an AFX storage controller. Performance metrics such as input/output operations per second (IOPS), throughput (GBps), and latency (ms) are measured and applied per instance.##
+== Performance service levels instances
+##<must review>##
+A performance service level (PSL) can have multiple instances, called performance service level instances (PSLIs), in your environment. Each PSLI is a separate storage system assigned to that performance service level, with committed capacity measured per PSLI.
 
-You select performance service levels based on your storage environment and consumption needs. The base performance service levels are available by default. Specific performance service levels are additionally available if you have opted for add-on services.
+* For unified or block-optimized storage, a PSLI is a storage array consisting of two storage controllers in an HA pair with internal or externally attached storage media.
+* For AFX storage, a PSLI is a single AFX storage controller. AFX uses a disaggregated architecture where controllers (compute) and drive shelves (storage) are independent and can be scaled separately. IOPS and throughput targets apply per controller; committed capacity is measured at the AFX cluster level, which includes all controllers and drive shelves in the cluster.
+
+Performance metrics such as IOPS, throughput (GBps), and latency (ms) are measured per PSLI.
 
 //For example, for the advanced data protection add-on service, the _Advanced Data-Protect_ performance service level is assigned to your subscription.
 
@@ -29,11 +34,12 @@ A detailed service description for NetApp Keystone STaaS performance service lev
 The base performance service levels for the supported data storage types: unified, block-optimized, AFX, object, and cloud services are described in the following sections:
 
 == ##Performance service levels for unified storage##
-*Supported protocols*: FC, iSCSI, NFS, NFSv4/RDMA, NVMe/FC, NVMe/TCP, SMB, S3
 
 |===
 |*Performance service level*
 (all specifications per performance service level instance [HA pair])|*Extreme* |*Premium* |*Standard* |*Value*
+|*Supported protocols*
+4+| FC, iSCSI, NFS, NFSv4/RDMA, NVMe/FC, NVMe/TCP, SMB, S3
 |*Sample workload types* |AI/ML, HPC, InMem DB |Analytics, EDA, OLTP | OLAP, IoT, Containers |Backup, Archive
 |*Target 90^th^ percentile latency* | &lt;=1 ms | &lt;=1 ms | &lt;=4 ms | >4 ms 
 |*Target maximum IOPS*^1^ |1M |550K |250K | NA
@@ -47,11 +53,12 @@ The base performance service levels for the supported data storage types: unifie
 |===
 
 == ##Performance service levels for block-optimized storage##
-*Supported protocols*: NVMe/TCP, NVMe/FC, FC, iSCSI
 
 |===
 |*Performance service level*
 (all specifications per performance service level instance [HA pair])|*Extreme* |*Premium* | *Standard* 
+|*Supported protocols*
+3+| NVMe/TCP, NVMe/FC, FC, iSCSI
 |*Sample workload types*
 3+| SAP HANA, Oracle, MS SQL Server, EPIC
 |*Target 90^th^ percentile latency* | &lt;=1 ms | &lt;=1 ms | &lt;=4 ms
@@ -65,25 +72,29 @@ The base performance service levels for the supported data storage types: unifie
 3+| Logical or physical
 |===
 
-== ##Performance service levels for AFX storage##
-*Supported protocols*: NFSv3, NFSv4/RDMA, pNFS, SMB, S3
+== ##<must review>Performance service levels for AFX storage##
 
 |===
 |*Performance service level*
 (all specifications per performance service level instance [one AFX storage controller])|*Extreme* 
+|*Supported protocols*| NFSv3, NFSv4/RDMA, pNFS, SMB, S3
 |*Sample workload types*| AI/ML, HPC, InMem DB
 |*Target 90^th^ percentile latency* | &lt;=1 ms
 |*Target maximum IOPS*^1^|625K
 |*Target maximum GBps* |20
 |*Platform* |AFX
-|*Minimum committed capacity per AFX cluster* | 200 TiB  
+|*Minimum committed capacity per AFX cluster*^2^ | 200 TiB  
 |*Incremental committed capacity increase* | 100 TiB
 |*Committed and metered capacity type*| Physical
 |===
 
-NOTE: ^1^Mutually exclusive targets. Actual performance may differ based on various factors, including the operating system version, hardware, workload type, and number of concurrent operations.
+[NOTE]
+====
+* ^1^Mutually exclusive targets. Actual performance may differ based on various factors, including the operating system version, hardware, workload type, and number of concurrent operations.
+* ##^2^<must review>In an AFX cluster, performance targets apply per storage controller. Each controller added to the cluster contributes the same IOPS and throughput. Committed capacity and incremental increases apply to the total drive shelf capacity across the cluster.##
+====
 
-=== More on performance service levels for unified, block-optimized, and AFX storage
+== Performance measurement conditions for unified, block-optimized, and AFX storage
 
 The base performance service level metrics depend on the following conditions:
 
@@ -108,10 +119,11 @@ The base performance service level metrics depend on the following conditions:
 * _Expected IOPS_ is targeted for FabricPool only if the tiering policy is set to "none" and no blocks are in the cloud. _Expected IOPS_ is targeted for volumes that are not in a SnapMirror synchronous relationship.
 
 == Performance service levels for object storage
-*Supported protocol*: S3
 
 |===
 |*Performance service level* | *Standard* | *Value* 
+|*Supported protocol*
+2+| S3
 |*##Platform##* | SGF6112 | SG6160
 |*Minimum committed capacity per order* | 200 TiB | 500 TiB 
 |*Incremental committed capacity increase* | 25 TiB | 100 TiB
@@ -121,10 +133,9 @@ The base performance service level metrics depend on the following conditions:
 
 == Cloud storage
 
-*Supported protocols*: NFS, CIFS, iSCSI, and S3 (AWS and Azure only)
-
 |===
 |*Performance service level* | *Cloud Volumes ONTAP*
+|*Supported protocols*| NFS, CIFS, iSCSI, and S3 (AWS and Azure only)
 |*##Platform##* | Cloud Volumes ONTAP
 |*Minimum committed capacity per order* | 4 TiB  
 |*Incremental committed capacity increase* | 1 TiB 
@@ -139,6 +150,6 @@ The base performance service level metrics depend on the following conditions:
 
 *Related information*
 
-* link:../concepts/supported-storage-capacity.html[Supported storage capacities]
+* link:../concepts/supported-storage-capacity.html[Storage capacity types in Keystone]
 * link:..//concepts/metrics.html[Metrics and definitions used in Keystone Services]
 * link:../concepts/pricing.html[Keystone pricing]
