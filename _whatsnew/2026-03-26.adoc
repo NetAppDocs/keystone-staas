@@ -1,6 +1,0 @@
-##New enhancements in the Keystone dashboard in Digital Advisor:##
-
-=== Simplified CSV download for consumption trend data
-The CSV download for the *Consumption Trend* tab in Digital Advisor is simplified. The previous options to select data points before downloading are removed. You can now click *Download CSV* to export consumption data directly.
-//NSEKEY-23431
-
