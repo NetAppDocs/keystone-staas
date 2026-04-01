@@ -1,4 +1,4 @@
-##New enhancements in the Keystone dashboard in the NetApp Console:##
+New enhancements in the Keystone dashboard in the NetApp Console:
 
 === Above burst capacity on the historical consumption chart
 The historical consumption chart in the *Consumption trend* tab now highlights usage that exceeds the burst limit. To learn more, refer to link:./integrations/consumption-tab.html[View consumption trends of your Keystone subscriptions].

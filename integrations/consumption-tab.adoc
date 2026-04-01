@@ -44,14 +44,14 @@ NOTE: If you have subscribed to add-on services such as advanced data protection
 +
 image:consumption-trend-burst.png[screenshot displaying historical consumption]  
 +
-##The line graph displays historical consumption data and allows users to analyze trends over a selected date range. The graph shows the following metrics:##
+The line graph displays historical consumption data and allows users to analyze trends over a selected date range. The graph shows the following metrics:
 +
-** *Used capacity*: ##Total storage in use, including both data and snapshot capacity.##
-** *Data*: ##Storage capacity used by user data.##
-** *Snapshot*: ##Storage capacity used by snapshot data.##
-** *Committed*: ##The contracted committed capacity.##
-** *Burst capacity*: ##The maximum allowed burst limit for your subscription.##
-** *Above burst capacity*: ##Storage consumption beyond the burst limit. This metric appears only when the burst limit is exceeded.##
+** *Used capacity*: Total storage in use, including both data and snapshot capacity.
+** *Data*: Storage capacity used by user data.
+** *Snapshot*: Storage capacity used by snapshot data.
+** *Committed*: The contracted committed capacity.
+** *Burst capacity*: The maximum allowed burst limit for your subscription.
+** *Above burst capacity*: Storage consumption beyond the burst limit. This metric appears only when the burst limit is exceeded.
 +
 Based on the date range of your query, the usage charts show up to 30 data collection points. You can hover your mouse cursor over the graph to view the usage breakdown at each data collection point. 
 +
@@ -115,11 +115,11 @@ You can click the toggle button *Show Current Usage* to view the consumption, bu
 --
 ====
 
-== ##View forecast data##
+== View forecast data
 
 You can view projected capacity usage for the next 120 days from the current date through the *Forecast* toggle available in the *Historical consumption* view of the *Consumption trend* tab in the Console. The toggle is enabled by default.
 
-##is this correct-By default, please confirm-the graph displays the last 30 days of historical consumption and a 120-day projection from the current date on the same chart.## Up to 30 data points are plotted in total (20 for historical data and 10 for forecast data), with a vertical line separating the two segments.
+By default, the graph displays the last 30 days of historical consumption and a 120-day projection from the current date on the same chart. Up to 30 data points are plotted in total (20 for historical data and 10 for forecast data), with a vertical line separating the two segments.
 
 image:forecast-1.png[screenshot showing forecast data]
 
