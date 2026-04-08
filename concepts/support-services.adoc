@@ -38,9 +38,6 @@ If you prefer to speak with a support representative directly, call one of the f
 == Support monitoring
 NetApp uses the ITOM monitoring solution to proactively monitor the health of your products and subscribed services and connect to the NetApp Keystone environment for troubleshooting.
 
-[NOTE]
-In a partner-operated model, service requests are assigned to the partner's service desk. The partner's support tool might have integration with the ITOM solution.
-
 == Additional resources
 For more information about Keystone services, see:
 
