@@ -1,0 +1,17 @@
+New enhancements in the Keystone dashboard in the NetApp Console:
+
+=== Above burst capacity on the historical consumption chart
+The historical consumption chart in the *Consumption trend* tab now highlights usage that exceeds the burst limit. To learn more, refer to link:./integrations/consumption-tab.html[View consumption trends of your Keystone subscriptions].
+//NSEKEY-22696
+
+=== Forecast for capacity usage
+You can use the *Forecast* toggle in the *Historical consumption* view of the *Consumption trend* tab to project capacity usage for the next 120 days from the current date. To learn more, refer to link:./integrations/consumption-tab.html#view-forecast-data[View forecast data].
+//NSEKEY-22695
+
+=== Tracking ID in subscription export
+The subscriptions report downloaded from the *Subscriptions* page now includes the *Tracking ID* in the performance service level data for both Excel and CSV formats. 
+//NSEKEY-22747
+
+=== Subscriptions page column visibility updates
+On the *Subscriptions* page, the *Keystone version* column is now hidden by default, and the *Linked subscriptions* column appears only when linked subscriptions are available. 
+//NSEKEY-22699
