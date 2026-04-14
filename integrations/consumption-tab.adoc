@@ -161,7 +161,9 @@ image:accrued-burst-forecast.png[screenshot showing accrued burst forecast]
 
 If you select a date range that does not end on the current date, the forecast is automatically disabled. To re-enable it, a confirmation dialog informs you that forecast data is available only when the selected timeline ends with the current date. If you confirm the dialog, the view resets to the default range for the selected view: the last 30 days of historical data plus the next 120 days of forecast in the *Historical consumption* view, or the last 6 months of accrued burst history plus the next 120 days of forecast in the *Accrued burst* view.
 
-If projected consumption is expected to exceed the burst capacity, an alert indicator appears on the graph, recommending a capacity upgrade.
+If projected consumption is expected to cross the committed capacity, an orange alert indicator appears on the graph, recommending a capacity upgrade. If it is expected to cross the burst capacity, a red alert indicator also appears, recommending a capacity upgrade.
+
+NOTE: For subscriptions with zero committed capacity rate plans, alert indicators are not shown because no capacity threshold is available for comparison. (##please check if this note requires documentation##)
 
 == View daily accrued burst data usage
 You can view daily accrued burst data usage for a monthly or quarterly billing period through the Console or Digital Advisor. In the Console, the *Accrued burst by days* table provides detailed data including the timestamp, committed, consumed, and accrued burst capacity if you select *Accrued burst* from the *View* dropdown in the *Consumption trend* tab. 
