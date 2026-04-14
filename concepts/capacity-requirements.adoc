@@ -66,40 +66,55 @@ a|Incremental capacity (and in multiples) allowed at start of subscription [in T
 a|Incremental capacity (and in multiples) allowed as add-on during subscription [in TiB] | 1 
 |===
 
-== 	Capacity adjustments
-Learn more about capacity adjustments:
+== Capacity adjustments
+Communicate any planned capacity changes to NetApp in a timely manner to allow for planning and deployment. The following conditions apply to all capacity adjustments:
 
-* Capacity can be added anytime during the term, except for the last 90 days of the contract term, in the increments per performance service level as described in the tables in the previous section. Addition of capacity or services is allowed within the last 90 days of the contract term as long as there is a consent of service renewal. Any addition in capacity, new service on-prem or cloud can co-term with the existing term. The invoice sent to you following the activation of the new services reflects the revised billing. Committed capacity of cloud services cannot be reduced at any point during the subscription term. Meanwhile, committed capacity and committed spend on the on-premises services during the term of the contract can be reduced based on certain criteria as defined in the following section _Capacity reduction_. 
-* A burst capacity is available at each site, based on the Keystone agreement. Usually, it is set up to 20% above the committed capacity for a performance service level. Any burst usage is billed only for that billing period. If you have additional burst requirement greater than the capacity you agreed upon, contact support. 
-* Committed capacity can be altered during a contract term, only under certain conditions, as described in the following section _Capacity reduction_.
-* Increasing capacity or changing to higher performance service level during a subscription term is allowed. However, moving from a higher performance service level to a lower performance service level is not permitted.
-* Any change request in the last 90 days of the service term requires a renewal of the service for a minimum of one year.
+* *Capacity increases*:  Committed capacity can be increased during the subscription term in the specified increments, except within the last 90 days before expiry unless the subscription is being renewed. Once confirmed by NetApp, the increase applies for the remainder of the term and the minimum payment is revised accordingly. All capacity additions and new services, whether on-premises or cloud, co-term with the existing subscription. Committed capacity for cloud services cannot be reduced at any point during the subscription term.
+* *Billing for increases*: For subscriptions on the _Annual in Advance_ payment model, NetApp will invoice for any pro-rated increase in minimum payments owed for the remainder of the current billing period. The invoice sent following the activation of the new services reflects the revised billing.
+* *Burst capacity*: Additional capacity above the committed level is available at each site, typically up to 20% per performance service level. For details on burst limits and billing, see link:../concepts/supported-storage-capacity.html[Supported storage capacities in Keystone].
+* *Performance service level changes*: Increasing to a higher performance service level is allowed during the subscription term. Reducing to a lower performance service level is not permitted.
+* *On-premises capacity reduction*: Committed capacity for on-premises services can be reduced under certain conditions. See _Capacity reduction_ for details.
 
 === Capacity reduction
-Capacity reduction (annual) is applicable to the _Annual in Advance_ payment model and on-premises only deployments. It is not available for cloud services or hybrid cloud services. It provides provision for on-premises capacity, which can be reduced by up to 25% per service level per subscription. This reduction is allowed once every year to be made effective at the beginning of the next annual billing period. On-premises service-based annual payments should be >=$200K anytime during the term in order to take advantage of capacity reduction. Because it is supported only for on-premises deployments, this billing model does not provide reallocation in spending from on-premises to cloud services. An example of annual capacity reduction is illustrated in the following image.
+Committed capacity reduction applies to the _Annual in Advance_ payment model and on-premises Keystone deployments only. A minimum subscription term of 24 months is required to be eligible. Cloud services and hybrid cloud deployments are not eligible for capacity reduction.
 
-image:reallocation.png[reallocation logic explained]
+The following conditions govern all committed capacity reduction requests:
+
+* *Written request*: Requests must be submitted in writing and received by NetApp at least 60 days before the next annual subscription period in which the reduction takes effect.
+* *Permitted reductions per term*:
+** For 2- or 3-year subscription terms: one reduction is permitted during the subscription term.
+** For 4- or 5-year subscription terms: two reductions are permitted during the subscription term.
+* *Reduction cap per request*: A single reduction cannot exceed 25% of the committed capacity at the time of the request.
+* *Minimum capacity threshold*: A reduction cannot cause the committed capacity to fall below the minimum committed capacity requirement for the applicable performance service level.
+* *Effective date*: Approved reductions take effect at the start of the next annual subscription period.
+
+For a reduction request to be approved, the on-premises service-based annual payments must remain at or above USD 200K after the reduction is applied.
+
+The following image shows an example of how capacity reductions apply to a 3-year Keystone subscription.
+
+image:capacity-reduction.png[reallocation logic explained]
+
+In this example, the initial committed capacity is 300 TiB (USD 300K annual payment). In year 1, a request to reduce capacity to 225 TiB is received. NetApp validates the reduction (75 TiB) is within the 25% cap and the resulting payment stays at or above USD 200K. The request is approved and takes effect at the start of year 2. In year 2, a request to reduce capacity to 100 TiB is received. NetApp declines the request because the reduction exceeds 25% of the current committed capacity (225 TiB) and the one permitted reduction for this 3-year term has already been used. Capacity for year 3 remains at 225 TiB (USD 225K annual payment), and no further reductions are permitted.
 
 === Quarterly spend reallocation
-Keystone STaaS offers you the option to reallocate on-premises service spend to Cloud Volumes ONTAP spend.
+Quarterly spend reallocation is available for hybrid cloud services only. It allows you to reallocate on-premises service spend to cloud services spend on a quarterly basis. Reallocation from cloud services back to on-premises is not permitted.
 
-Requirements and conditions at a subscription level:
+The following conditions apply to all reallocation requests:
 
-*	Applies only to monthly billing in arrear model.
-*	Applies only to subscriptions with 1, 2, or 3-year term commitments.
-*	Capacity for Cloud Volumes ONTAP and Cloud Backup service should be purchased through Keystone.
-*	Up to 25% of the existing on-premises, service-based monthly payments can be used for reallocation to cloud services.
-*	Reallocation requests are made effective only after 90 days from the previous activation date of the reallocation.
-*	Reallocation cannot be done from cloud services back to on-premises services.
-*	A request to reallocate should be formally submitted by the customer or partner to Keystone Success Manager (KSM) at least one week before the next billing cycle.
-*	New requests go into effect only from the consecutive billing cycle.
+* *Reallocation limit*: Up to 25% of the annual contract value (ACV) at the time of the request can be reallocated.
+* *Minimum payment after reallocation*: Post-reallocation, the on-premises monthly minimum payment per subscription must remain at or above USD 16,667.
+* *90-day lock*: A new reallocation request cannot be activated until at least 90 days after the activation of the previous reallocation.
+* *End-of-term restriction*: Reallocation is not permitted during the last 90 days of the subscription term, unless the subscription is being renewed.
+* *Request deadline*: Requests must be submitted at least 5 business days before the next billing cycle.
+* *Effective date*: Approved requests take effect on the first day of the next billing cycle.
 
-You can allocate a portion of your expenses towards your subscribed file, block, or object storage performance service levels to hybrid cloud storage services. Up to 25% of the Annual Contract Value (ACV) can be reallocated on a quarterly basis to Cloud Volumes ONTAP Primary and Cloud Volumes ONTAP Secondary services: 
+The following image illustrates how quarterly spend reallocation works.
 
 image:reallocation.png[reallocation logic explained]
 
-This table provides a set of sample values to demonstrate how the reallocation of expenses works. In this example, `$5000` from the monthly spend is reallocated to hybrid cloud storage service.
+In this example, on-premises spending is USD 30K/month. In February, Request A to move USD 5K to cloud services is approved and activated in March, triggering a 90-day lock through May. Request B, submitted during the lock period, activates after the lock expires, reducing on-premises spend to USD 20K and increasing cloud services spend to USD 10K from July. No reallocation is permitted in the last 90 days of the term.
 
+This table provides a set of sample values to demonstrate how the reallocation of expenses works. In this example, USD 5,000 from the monthly spend is reallocated to hybrid cloud storage service.
 
 |===
 |*Before allocation* | *Capacity (TiB)* |*Monthly designated expense* 
@@ -113,4 +128,6 @@ This table provides a set of sample values to demonstrate how the reallocation o
 
 The reduction is of (125-108) = 17 TiB of the capacity allocated for the Extreme performance service level. On spend reallocation, the allotted hybrid cloud storage is not of 17 TiB but an equivalent capacity that $5000 can purchase. In this example, for $5000, you can get 17 TiB on-prem storage capacity for the Extreme performance service level and 47 TiB hybrid cloud capacity of Cloud Volumes ONTAP performance service level. Therefore, the reallocation is with respect to the spend, not capacity.
 
-Contact your Keystone Success Manager (KSM) if you want to reallocate expenses from your on-premises services to cloud services.
+Contact your Keystone Success Manager (KSM) to submit a reallocation request.
+
+To learn more, refer to the https://fieldportal.netapp.com/s/article/Changes-to-Keystone-STaaS-Service-Description-and-Supplement-v3-Reference-Guide[Keystone STaaS v3 Service Description and Supplement reference guide^].
