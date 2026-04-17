@@ -13,7 +13,7 @@ summary: Keystone offers latency-based SLO per performance service level, as des
 :imagesdir: ../media/
 
 [.lead]
-Keystone STaaS offers a latency-based performance service level objective (SLO), targeting the 90th percentile latency per performance service level instance (PSLI) for unified (excluding the _Value_ performance service level), block-optimized, and AFX storage.Learn how to check performance, which rules apply, and how to receive service credits if Keystone does not meet the latency goal for used capacity up to the burst limit, as specified in the Keystone order terms and conditions.
+Keystone STaaS offers a latency-based performance service level objective (SLO), targeting the 90th percentile latency per performance service level instance (PSLI) for unified (excluding the _Value_ performance service level), block-optimized, and AFX storage. Learn how to check performance, which rules apply, and how to receive service credits if Keystone does not meet the latency goal for used capacity up to the burst limit, as specified in the Keystone order terms and conditions.
 
 
 == Metrics
