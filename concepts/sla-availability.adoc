@@ -22,9 +22,6 @@ The availability service level objective (SLO) targets 99.999% service availabil
 * *Service unavailability*: The period during which data read or write operations are not serviced by a PSLI, as reported by the monitoring tool. It excludes time when STaaS services are unavailable due to planned maintenance, upgrades, or support activities agreed upon with NetApp, or due to circumstances outside NetApp's control or responsibility.
 * *Eligible seconds*: Seconds in a month that count toward the uptime calculation, excluding any period of service unavailability as defined above.
 
-== Performance service levels
-All performance service levels that ONTAP flash storage arrays support are eligible for Availability SLO. To learn more, refer to link:https://docs.netapp.com/us-en/keystone-staas/concepts/service-levels.html#service-levels-for-file-and-block-storage[Performance service levels in Keystone].
-
 == Service credits
 
 NOTE: SLAs and guarantees are available on a nomination basis.
