@@ -43,7 +43,7 @@ You can click *View All Subscriptions* to view the usage details and alerts on y
 The details of the subscriptions, usage charts for each performance service level, and volume details are displayed in the different tabs on the *Keystone Subscriptions* screen.
 
 NOTE: Capacity consumption in Keystone subscriptions is displayed in TiBs on the dashboards and reports, and is rounded off to two decimal places. If the usage is less than 0.01 TiB, then the value is shown as 0 or No Usage. The data on these screens is displayed in UTC time (server timezone). When you enter a date for query, it is automatically considered to be in UTC time.
-To learn more about usage metrics, refer to link:../concepts/metrics.html#metrics-measurement[Metrics measurement]. For information about different capacities used in Keystone, see link:../concepts/supported-storage-capacity.html[Supported storage capacities].
+To learn more about usage metrics, refer to link:../concepts/metrics.html#metrics-measurement[Metrics measurement]. For information about different capacities used in Keystone, see link:../concepts/supported-storage-capacity.html[Storage capacity types in Keystone].
 
 == Search by Keystone watchlists
 Watchlist is a feature available in Digital Advisor. For information, see https://docs.netapp.com/us-en/active-iq/concept_overview_dashboard.html[Understand watchlist^]. For information about creating watchlists, see https://docs.netapp.com/us-en/active-iq/task_add_watchlist.html[Create a watchlist^].

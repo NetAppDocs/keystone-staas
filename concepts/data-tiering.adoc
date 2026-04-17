@@ -13,14 +13,14 @@ summary: The data tiering add-on service identifies less-frequently used data an
 :imagesdir: ../media/
 
 [.lead]
-Keystone STaaS standard services for file and block storage include tiering capabilities that identify less-frequently used data, and tiers it to Keystone STaaS-supported NetApp cold storage. You can use data tiering as an add-on service if you want to tier your cold data to any Keystone STaaS-supported, non-NetApp storage.
+Keystone STaaS standard services for file and block storage include tiering capabilities that identify less-frequently used data, and tiers it to Keystone STaaS-supported NetApp cold storage. You can use data tiering as an add-on service if you want to tier your cold data to any Keystone STaaS-supported, non-NetApp storage. This add-on service is supported on unified data storage type only.
 
 For information about standard and add-on services, see link:../concepts/supported-storage-services.html[Keystone STaaS services].
 For information about performance service Levels, see link:../concepts/service-levels.html[Performance service levels in Keystone].
 
 
 [NOTE]
-The tiering add-on service is required only when data is tiered to any non-NetApp storage such as Amazon Web Services (AWS) S3, Azure Blob, Google Cloud Platform (GCP), and other Keystone STaaS-supported, S3-compatible, third party object storage.
+The tiering add-on service is required only when data is tiered to any non-NetApp storage such as Amazon Web Services (AWS) S3, Azure Blob, Google Cloud Platform (GCP), and other Keystone STaaS-supported, S3-compatible, third party object storage. This service is available for unified data storage type only.
 
 The tiering capability leverages the NetApp FabricPool technology that enables automated tiering of infrequently accessed data to object storage tiers on and off premises.
 

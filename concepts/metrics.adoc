@@ -5,7 +5,7 @@ keywords: metrics, GiB, IOPS, latency, durability, v3, version 3
 summary: The NetApp Keystone STaaS service uses several terms to measure metrics. You might want to learn more about these terms as you use Keystone for version 3 of the service.
 ---
 
-= Metrics and definitions used in Keystone
+= Understand storage metrics and definitions in Keystone
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,15 +13,7 @@ summary: The NetApp Keystone STaaS service uses several terms to measure metrics
 :imagesdir: ../media/
 
 [.lead]
-The NetApp Keystone STaaS service uses several terms to measure metrics. You might want to learn more about these terms as you use Keystone.
-
-The following terms and definitions are used within the Keystone STaaS service to measure metrics:
-
-* Capacity: Measured in GiB, TiB, and PiB.
-* IOPS: Number of input/output operations processed per second.
-* Service availability
-* Durability in accurate data access
-* Latency and speed
+Learn the key terms Keystone STaaS uses to measure and report on your storage subscription, including capacity units, performance metrics, and availability definitions.
 
 == Metrics measurement
 
@@ -30,18 +22,4 @@ The following terms and definitions are used within the Keystone STaaS service t
 * *Availability*: Measured as a percentage of the number of I/O requests successfully responded to by the service, divided by total number of I/O requests made to the service. This is measured at the service demarcation in a month and does not include the scheduled service downtime or unavailability of the facilities, network, or other services provided by the customer.
 * *Durability*: Percentage of data accessed without loss of fidelity, excluding customer-caused deletion or corruption.
 * *Latency*: Time to service an I/O request received from a client, measured at the service demarcation (storage controller I/O port).
-
-=== Performance metrics
-The following performance metrics are applicable to unified and block-optimized services:
-
-*Unified services:*
-
-* *IOPS*: For ONTAP 9.16.1 with NFS, each performance level instance supports random access with a 70% read and 30% write ratio, an 8 KB block size, and a latency of 1 ms (4 ms for Standard).
-* *Throughput*: For ONTAP 9.16.1 with NFS, each performance level instance supports sequential access with 100% read and a 32 KB block size.
-
-*Block optimized services:*
-
-* *IOPS*: For ONTAP 9.16.1 with FCP, each performance level instance supports random access with a 70% read and 30% write ratio, an 8 KB block size, and a latency of 1 ms.
-* *Throughput*: For ONTAP 9.16.1 with FCP, each performance level instance supports sequential access with 100% read and a 64 KB block size.
-
 
