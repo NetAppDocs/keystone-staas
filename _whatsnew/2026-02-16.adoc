@@ -1,0 +1,4 @@
+New enhancements in the Keystone dashboard in the NetApp Console:
+
+=== DII add-on consumption display
+The Data Infrastructure Insights (DII) add-on consumption now displays in the *Current consumption* and *Consumption trend* tabs. To learn more, refer to link:./concepts/data-infra-insights.html#view-dii-consumption[View DII consumption].

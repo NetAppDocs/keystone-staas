@@ -38,6 +38,8 @@ NOTE: If a performance service level has multiple instances, you can expand *Vie
 In the table view, you can see details like maximum capacity consumed and days remaining until expiration. As part of monitoring your subscription usage, you can view the performance service level name, capacity usage, committed and used capacities, provisioned and burst capacities, available capacity, and volumes. You can customize the table using the column selector image:column-selector.png[column selector icon] icon.
 +
 image:console-current-consumption-table.png[current consumption details in the table format]
++
+NOTE: If you have subscribed to add-on services such as advanced data protection (ADP) or Data Infrastructure Insights (DII), the current consumption for these services appears alongside your base performance service levels in both graphical and table views. To learn more about add-on services, refer to link:../concepts/adp.html[Learn about add-on services].
 
 --
 

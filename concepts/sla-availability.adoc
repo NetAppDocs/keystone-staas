@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: concepts/sla-availability.html
 keywords: availability, sla, service level agreement, slo, service level objectives
-summary: Availability SLO targets 99.999% service availability per PSLI for unified and block-optimized storage, or per AFX storage controller.
+summary: Availability SLO targets an uptime of 99.999 percentage during a billing period for all NetApp ONTAP flash storage arrays deployed to deliver the Keystone order.
 ---
 
 = Availability SLO for Keystone
@@ -95,7 +95,7 @@ If a breach of the SLA is detected, open a priority 3 (P3) support ticket with N
 .. Calculated time duration of latency detection
 .. Measurement tools and methods
 .. Any other applicable document
-** Provide the details in the excel sheet as shown below for a P3 ticket opened with NetApp Keystone support.
+** Provide the details in the Excel sheet as shown below for a P3 ticket opened with NetApp Keystone support.
 +
 image:sla-breach.png[excel sheet template]
 
@@ -103,6 +103,6 @@ image:sla-breach.png[excel sheet template]
 ====
 * A service credit request should be initiated within six weeks after NetApp Keystone support has validated a breach. All service credits should be acknowledged and approved by NetApp. 
 
-* Service credits may be applied to a future invoice. Service credits do not apply to expired Keystone subscriptions. To learn more, refer to link:../concepts/support-services.html[NetApp Keystone support].
+* Service credits might be applied to a future invoice. Service credits do not apply to expired Keystone subscriptions. To learn more, refer to link:../concepts/support-services.html[NetApp Keystone support].
 ====
 

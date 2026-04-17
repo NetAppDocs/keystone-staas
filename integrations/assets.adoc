@@ -45,10 +45,12 @@ TIP: You can customize the table using the column selector image:column-selector
 +
 image:console-volumes-clusters-multiple-sub.png[A screenshot of volumes in clusters for multiple subscriptions]
 +
-You see the detailed information about all volumes in clusters across Keystone subscriptions including volume name, subscription number, node serial number, compliance with QoS policies, cluster name, host name, and performance service levels. You can monitor the provisioned capacity, logical and physical utilization, and cold data. You also get an overview of:
+You see the detailed information about all volumes in clusters across Keystone subscriptions including volume name, subscription number, node serial number, compliance with QoS policies, cluster name, host name, and performance service levels. You can monitor the provisioned capacity, logical and physical utilization, cold data, and hot data. You also get an overview of:
 +
 * The total number of subscriptions, clusters, and volumes.
 * Volume compliance and protection status, with a *View* button to filter the table and display assets based on criteria such as compliant, not compliant, or not protected.
++
+NOTE: The *Cold tier %* and *Hot tier %* columns show the percentage of data on each tier, calculated as (Cold data / Total footprint) × 100 and (Hot data / Total footprint) × 100 respectively.
 +
 TIP: You can customize the table using the column selector image:column-selector.png[column selector icon] icon and use the search bar at the top to search and filter Keystone data based on the column parameters.
 +
