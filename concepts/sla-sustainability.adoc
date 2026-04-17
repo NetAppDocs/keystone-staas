@@ -66,5 +66,4 @@ Note the following conditions for service credit requests:
 * NetApp determines whether a service level breach has occurred.
 * You must provide additional information as requested by NetApp, including your wattage consumption data and measurement method.
 * Service credits are calculated based on committed capacity only.
-* Service credits can be applied to the next month's invoice only. They do not apply to expired Keystone subscriptions.
-* To learn more, refer to link:../concepts/support-services.html[NetApp Keystone support].
+* Service credits can be applied to the next month's invoice only. They do not apply to expired Keystone subscriptions. To contact NetApp support and open the support case required for a service credit request, see link:../concepts/support-services.html[Get help with Keystone].

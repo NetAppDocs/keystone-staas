@@ -25,7 +25,7 @@ The minimum logical capacity billed each month during the subscription:
 ** Committed capacity and additional performance service levels can be added during the term.
 
 === Changes to committed capacity
-During a subscription, you can change committed capacities subject to certain conditions. For full details on capacity increase and decrease rules, see link:../concepts/capacity-requirements.html[Capacity requirements for Keystone performance service levels]. To request a change, contact your Keystone Success Manager (KSM) or see link:../concepts/support-services.html[NetApp Keystone support].
+During a subscription, you can change committed capacities subject to certain conditions. For full details on capacity increase and decrease rules, see link:../concepts/capacity-requirements.html[Capacity requirements for Keystone performance service levels]. To request a change, contact your Keystone Success Manager (KSM) or link:../concepts/support-services.html[NetApp support].
 
 == Consumed capacity
 Consumed capacity refers to the capacity (in TiB of storage) currently being consumed on the service. It is calculated differently based on the data storage type:
