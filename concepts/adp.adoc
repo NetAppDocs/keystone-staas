@@ -13,9 +13,9 @@ summary: Use the advanced data protection add-on service to ensure efficient dat
 :imagesdir: ../media/
 
 [.lead]
-##Subscribe to the advanced data protection (ADP) add-on with your Keystone STaaS subscription. ADP uses NetApp MetroCluster technology for synchronous site-to-site data mirroring. With a recovery point objective (RPO) of 0, you avoid data loss during site failures. Learn how ADP works, supported configurations, and pricing.##
+Subscribe to the advanced data protection (ADP) add-on with your Keystone STaaS subscription. ADP uses NetApp MetroCluster technology for synchronous site-to-site data mirroring. With a recovery point objective (RPO) of 0, you avoid data loss during site failures. Learn how ADP works, supported configurations, and pricing.
 
-NOTE: ##<must review>The advanced data protection add-on service is available for unified storage on AFF storage arrays only (_Extreme_, _Premium_, and _Standard_ performance service levels). It is not supported on FAS storage arrays (_Value_ performance service level). ##
+NOTE: The advanced data protection add-on service is available for unified storage on AFF storage arrays only (_Extreme_, _Premium_, and _Standard_ performance service levels). It is not supported on FAS storage arrays (_Value_ performance service level). 
 
 
 Keystone advanced data protection service can synchronously mirror data to a secondary site. In case of a disaster at the primary site, the secondary site can take over, without any loss of data. This feature uses the link:https://docs.netapp.com/us-en/ontap-metrocluster[MetroCluster^] configuration between two sites to enable data protection. You can use the advanced data protection add-on services for only your file and block storage services. As a part of this add-on service, the `Advanced Data-Protect` performance service level is assigned to your subscription.

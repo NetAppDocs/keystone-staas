@@ -13,12 +13,13 @@ summary: Keystone STaaS for version 3 offers storage capacity at pre-defined ser
 :imagesdir: ../media/
 
 [.lead]
-##Keystone STaaS offers pre-defined performance service levels (PSLs) for each storage type. Each PSL specifies the performance targets (IOPS, throughput, and latency), supported protocols, platform, and minimum capacity requirements. Review the available PSLs to select the right service level for your workload and plan your subscription.##
+Keystone STaaS offers pre-defined performance service levels (PSLs) for each storage type. Each PSL specifies the performance targets (IOPS, throughput, and latency), supported protocols, platform, and minimum capacity requirements. Review the available PSLs to select the right service level for your workload and plan your subscription.
 
-##A Keystone subscription can include multiple PSLs across one or more storage types. Each PSL has a committed capacity, which is the minimum capacity billed for that service level during the subscription term.##
+A Keystone subscription can include multiple PSLs across one or more storage types. Each PSL has a committed capacity, which is the minimum capacity billed for that service level during the subscription term.
+
+NOTE: An AFX subscription is limited to the AFX storage type and currently offers only one PSL, Extreme.
 
 == Performance service levels instances
-##<must review>##
 A performance service level (PSL) can have multiple instances, called performance service level instances (PSLIs), in your environment. Each PSLI is a separate storage system assigned to that performance service level, with committed capacity measured per PSLI.
 
 * For unified or block-optimized storage, a PSLI is a storage array consisting of two storage controllers in an HA pair with internal or externally attached storage media.
@@ -33,7 +34,7 @@ A detailed service description for NetApp Keystone STaaS performance service lev
 
 The base performance service levels for the supported data storage types: unified, block-optimized, AFX, object, and cloud services are described in the following sections:
 
-== ##Performance service levels for unified storage##
+== Performance service levels for unified storage
 
 |===
 |*Performance service level*
@@ -52,7 +53,7 @@ The base performance service levels for the supported data storage types: unifie
 4+|Logical or physical
 |===
 
-== ##Performance service levels for block-optimized storage##
+== Performance service levels for block-optimized storage
 
 |===
 |*Performance service level*
@@ -72,7 +73,7 @@ The base performance service levels for the supported data storage types: unifie
 3+| Logical or physical
 |===
 
-== ##<must review>Performance service levels for AFX storage##
+== Performance service levels for AFX storage
 
 |===
 |*Performance service level*
@@ -91,7 +92,7 @@ The base performance service levels for the supported data storage types: unifie
 [NOTE]
 ====
 * ^1^Mutually exclusive targets. Actual performance may differ based on various factors, including the operating system version, hardware, workload type, and number of concurrent operations.
-* ##^2^<must review>In an AFX cluster, performance targets apply per storage controller. Each controller added to the cluster contributes the same IOPS and throughput. Committed capacity and incremental increases apply to the total drive shelf capacity across the cluster.##
+* ^2^In an AFX cluster, performance targets apply per storage controller. Each controller added to the cluster contributes the same IOPS and throughput. Committed capacity and incremental increases apply to the total drive shelf capacity across the cluster.
 ====
 
 == Performance measurement conditions for unified, block-optimized, and AFX storage
@@ -107,7 +108,7 @@ The base performance service level metrics depend on the following conditions:
 +
 ** *IOPS*: For ONTAP 9.16.1 with FCP, each performance level instance supports random access with a 70% read and 30% write ratio, an 8 KB block size, and a latency of 1 ms.
 ** *Throughput*: For ONTAP 9.16.1 with FCP, each performance level instance supports sequential access with 100% read and a 64 KB block size.
-* ##For AFX storage##,
+* For AFX storage,
 +
 ** *IOPS*: For ONTAP 9.18.1 with NFSv4, each performance level instance supports random access with a 70% read and 30% write ratio, and a 4 KB block size.
 ** *Throughput*: For ONTAP 9.18.1 with NFSv4, each performance level instance supports sequential access with 100% read and a 64 KB block size.
@@ -124,7 +125,7 @@ The base performance service level metrics depend on the following conditions:
 |*Performance service level* | *Standard* | *Value* 
 |*Supported protocol*
 2+| S3
-|*##Platform##* | SGF6112 | SG6160
+|*Platform* | SGF6112 | SG6160
 |*Minimum committed capacity per order* | 200 TiB | 500 TiB 
 |*Incremental committed capacity increase* | 25 TiB | 100 TiB
 |*Committed and metered capacity type*
@@ -136,7 +137,7 @@ The base performance service level metrics depend on the following conditions:
 |===
 |*Performance service level* | *Cloud Volumes ONTAP*
 |*Supported protocols*| NFS, CIFS, iSCSI, and S3 (AWS and Azure only)
-|*##Platform##* | Cloud Volumes ONTAP
+|*Platform* | Cloud Volumes ONTAP
 |*Minimum committed capacity per order* | 4 TiB  
 |*Incremental committed capacity increase* | 1 TiB 
 |*Committed and metered capacity type*| Logical

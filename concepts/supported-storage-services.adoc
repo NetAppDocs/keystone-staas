@@ -13,7 +13,7 @@ summary: Keystone STaaS services supports ONTAP and StorageGRID.
 :imagesdir: ../media/
 
 [.lead]
-##Keystone STaaS supports unified, block-optimized, AFX, and object storage on NetApp platforms, as well as Cloud Volumes ONTAP. Each storage type is defined as a data storage type (DST) and is available with standard services included in the base subscription, along with optional add-on services.##
+Keystone STaaS supports unified, block-optimized, AFX, and object storage on NetApp platforms, as well as Cloud Volumes ONTAP. Each storage type is defined as a data storage type (DST) and is available with standard services included in the base subscription, along with optional add-on services.
 
 == Keystone STaaS standard and add-on services
 
@@ -23,12 +23,11 @@ Keystone STaaS provides standard and optional services for your storage.
 
 *Keystone STaaS add-on services*: These are optional, chargeable services that provide additional utilities and benefits on top of standard Keystone STaaS subscription services.
 
-##<must review>##
-##You can subscribe to multiple Keystone STaaS services at the same time. When cloud services are added to a subscription, they share the same term as unified, block-optimized, and/or object storage. A cloud service can be added at any point during an active storage subscription. However, if you do not plan to renew an existing unified, block-optimized, or object storage subscription, a cloud service cannot be added during the last 90 days of that subscription.##
+You can subscribe to multiple Keystone STaaS services at the same time. When cloud services are added to a subscription, they share the same term as unified, block-optimized, and/or object storage. A cloud service can be added at any point during an active storage subscription. However, if you do not plan to renew an existing unified, block-optimized, or object storage subscription, a cloud service cannot be added during the last 90 days of that subscription.
 
-NOTE: ##An AFX subscription is standalone and cannot be combined with unified, block-optimized, or object storage in the same subscription. If you need AFX alongside other storage types, you must order them as separate subscriptions.##
+NOTE: An AFX subscription is standalone and cannot be combined with unified, block-optimized, or object storage in the same subscription. If you need AFX alongside other storage types, you must order them as separate subscriptions.
 
-== ##<must review>##Supported data storage types
+== Supported data storage types
 Keystone STaaS services for unified, block-optimized, object, and AFX storage, support multiple features and protocols, and described in the following table:
 
 |===
@@ -45,7 +44,7 @@ a|NVMe/TCP, NVMe/FC, FC, iSCSI
 a|FC and iSCSI 
 a|Supports all ONTAP One for SAN features
 a|AFX
-a|Includes file and block storage on a disaggregated storage platform
+a|Includes file and object storage on a disaggregated storage platform
 a|ONTAP on AFX systems
 a|NFSv3, NFSv4/RDMA, pNFS, SMB, S3
 a|Supports all ONTAP One features

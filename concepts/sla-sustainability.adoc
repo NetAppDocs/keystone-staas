@@ -13,19 +13,19 @@ summary: Learn how Keystone's sustainability SLO defines power consumption targe
 :imagesdir: ../media/
 
 [.lead]
-##<must review>The sustainability service level objective (SLO) targets power consumption up to the maximum rated watts for STaaS products deployed to deliver the performance service level instance (PSLI) for unified (excluding the _Value_ performance service level) and block-optimized storage, or per AFX cluster. Learn how Keystone's sustainability goal affects your STaaS setup and how to earn service credits if limits are not met.##
+The sustainability service level objective (SLO) targets power consumption up to the maximum rated watts for STaaS products deployed to deliver the performance service level instance (PSLI) for unified (excluding the _Value_ performance service level) and block-optimized storage, or per AFX cluster. Learn how Keystone's sustainability goal affects your STaaS setup and how to earn service credits if limits are not met.
 
 
 == Metrics
 
-* *Watts*: ##<must review>The power consumed by the storage arrays, or AFX cluster, as reported by the monitoring tool. The reference maximum power consumption limits are provided in the link:https://hwu.netapp.com[NetApp Hardware Universe^].##
+* *Watts*: The power consumed by the storage arrays, or AFX cluster, and as reported by the monitoring tool. The reference maximum power consumption limits are provided in the link:https://hwu.netapp.com[NetApp Hardware Universe^].
 * *Tebibyte*: The maximum of:
 ** the committed capacity + allocated burst capacity for the performance service level, or
 ** the effective deployed capacity, assuming a storage efficiency factor of `2:1`.
 
 To learn more about storage efficiency ratio, refer to https://docs.netapp.com/us-en/active-iq/task_analyze_storage_efficiency.html[Analyze capacity and storage efficiency savings^].
 
-=== ##<must review>Supported configurations##
+=== Supported configurations
 The sustainability SLO applies to standard Keystone STaaS orders with the following supported configurations:
 
 * ONTAP AFF A-Series storage arrays or AFX clusters only. 
@@ -36,11 +36,11 @@ The sustainability SLO applies to standard Keystone STaaS orders with the follow
 * Ambient operating environment temperature during power consumption measurement must be between 25°C and 27°C.
 
 
-== ##<must review>Service credits##
+== Service credits
 
 NOTE: SLAs and guarantees are available on a nomination basis.
 
-##If power consumption during a billing period exceeds the maximum rated watts for the deployed STaaS products, then NetApp issues service credits based on committed capacity as follows:##
+If power consumption during a billing period exceeds the maximum rated watts for the deployed STaaS products, then NetApp issues service credits based on committed capacity as follows:
 
 |===
 |Days SLA missed in billing period|Service credit
@@ -57,11 +57,11 @@ a|50%
 |===
 
 === Service credit request
-##<must review>To request a service credit, open a priority 3 (P3) support ticket with NetApp Keystone support within 7 days from the end of the service month, and provide the details as requested in the excel sheet as shown below:##
+To request a service credit, open a priority 3 (P3) support ticket with NetApp Keystone support within 7 days from the end of the service month, and provide the details as requested in the excel sheet as shown below:
 
 image:sla-breach.png[excel sheet template]
 
-##Note the following conditions for service credit requests:##
+Note the following conditions for service credit requests:
 
 * NetApp determines whether a service level breach has occurred.
 * You must provide additional information as requested by NetApp, including your wattage consumption data and measurement method.

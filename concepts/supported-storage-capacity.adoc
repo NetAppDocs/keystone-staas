@@ -13,7 +13,7 @@ summary: Learn about the types of storage capacities supported by the NetApp Key
 :imagesdir: ../media/
 
 [.lead]
-##Keystone STaaS uses several capacity terms to measure, commit, and bill for storage. Understanding these terms will help you plan your subscription and interpret your usage reports and invoices.##
+Keystone STaaS uses several capacity terms to measure, commit, and bill for storage. Understanding these terms will help you plan your subscription and interpret your usage reports and invoices.
 
 == Logical capacity
 This is the amount of storage capacity required to store user data before any data efficiencies provided by the storage array are applied. 
@@ -21,7 +21,7 @@ This is the amount of storage capacity required to store user data before any da
 == Committed capacity
 The minimum logical capacity billed each month during the subscription:
 
-** ##Capacity is committed to each performance service level instance for unified or block-optimized storage, or per AFX cluster.##
+** Capacity is committed to each performance service level instance for unified or block-optimized storage, or per AFX cluster.
 ** Committed capacity and additional performance service levels can be added during the term.
 
 === Changes to committed capacity
@@ -44,7 +44,7 @@ Consumed capacity refers to the capacity (in TiB of storage) currently being con
 ** Physical capacity used to store metadata and differential data of snapshots.
 ** Any thick-provisioned physical capacity.
 
-* ##*AFX storage*:## It is calculated per AFX cluster as the sum of:
+* *AFX storage*: It is calculated per AFX cluster as the sum of:
 +
 ** Metered physical capacity, after storage array data efficiencies, to store all instances and types of customer data, such as copies, mirrored copies, versions, and clones.
 ** Physical capacity used to store metadata and differential data of snapshots.
@@ -59,8 +59,8 @@ The NetApp Keystone STaaS service enables you to use additional capacity on top 
 
 Note these points:
 
-* ##Burst capacity limit is agreed upon in the Keystone agreement. It is usually set to a default of 20% above the committed capacity per performance service level instance or per AFX cluster, with additional options available for unified and block-optimized storage to select burst capacity limits of 40% or 60% of committed capacity.##
-* ##Burst capacity consumption is invoiced at the same rate as the committed capacity corresponding to the selected data storage type (DST) and performance service level.##
+* Burst capacity limit is agreed upon in the Keystone order. It is usually set to a default of 20% above the committed capacity per performance service level instance or per AFX cluster, with additional options available for unified and block-optimized storage to select burst capacity limits of 40% or 60% of committed capacity.
+* Burst capacity consumption is invoiced at the same rate as the committed capacity corresponding to the selected data storage type (DST) and performance service level.
 * Keystone STaaS services provide a burst waiver period of 60 days from the start date. 
 
 == Billed capacity

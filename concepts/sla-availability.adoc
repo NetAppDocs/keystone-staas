@@ -13,10 +13,10 @@ summary: Availability SLO targets an uptime of 99.999 percentage during a billin
 :imagesdir: ../media/
 
 [.lead]
-##The availability service level objective (SLO) targets 99.999% service availability per performance service level instance (PSLI) for unified and block-optimized storage, or per AFX storage controller. Details include how availability is measured, included storage types and performance service levels, and service credits if goals are not met.##
+The availability service level objective (SLO) targets 99.999% service availability per performance service level instance (PSLI) for unified and block-optimized storage, or per AFX storage controller. Details include how availability is measured, included storage types and performance service levels, and service credits if goals are not met.
 
 
-== ##<must review>##Metrics##
+== Metrics
 
 * *Monthly uptime percentage* = [(number of eligible seconds in a month - number of seconds of service unavailability for a PSLI in that month) / number of eligible seconds in a month] x 100%
 * *Service unavailability*: The period during which data read or write operations are not serviced by a PSLI, as reported by the monitoring tool. It excludes time when STaaS services are unavailable due to planned maintenance, upgrades, or support activities agreed upon with NetApp, or due to circumstances outside NetApp's control or responsibility.
@@ -67,7 +67,7 @@ The following example shows the method of calculation for service credits:
 . Calculate monthly uptime to determine the service credit percentage :
 +
 ** Eligible seconds in a 30-day month: 30 (days) X 24 (hours/day) X 60 (minutes/hour) X 60 (seconds/minute) = 2,592,000 seconds
-** ##Service unavailability in seconds##: 95 seconds
+** Service unavailability in seconds: 95 seconds
 +
 Using the formula:
 Monthly uptime percentage = [(2,592,000 - 95)/(2,592,000)] X 100 

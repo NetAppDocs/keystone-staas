@@ -13,7 +13,7 @@ summary: Keystone offers latency-based SLO per performance service level, as des
 :imagesdir: ../media/
 
 [.lead]
-##Keystone STaaS offers a latency-based performance service level objective (SLO), targeting the 90th percentile latency per performance service level instance (PSLI) for unified (excluding the _Value_ performance service level), block-optimized, and AFX storage.Learn how to check performance, which rules apply, and how to receive service credits if Keystone does not meet the latency goal for used capacity up to the burst limit, as specified in the Keystone order terms and conditions.##
+Keystone STaaS offers a latency-based performance service level objective (SLO), targeting the 90th percentile latency per performance service level instance (PSLI) for unified (excluding the _Value_ performance service level), block-optimized, and AFX storage.Learn how to check performance, which rules apply, and how to receive service credits if Keystone does not meet the latency goal for used capacity up to the burst limit, as specified in the Keystone order terms and conditions.
 
 
 == Metrics
@@ -26,10 +26,9 @@ summary: Keystone offers latency-based SLO per performance service level, as des
 ** When using the advanced data protection add-on service, the target latency includes only IO operations to and from the local storage array.
 ** During a 24-hour period, at least ten valid metrics should be available. If the condition is not met, the metrics will be discarded.
 ** In FabricPool configurations, performance levels are applicable when all requested data blocks are on FabricPool source (hot) storage and the source storage is not in a SnapMirror Synchronous relationship.
-* ##Applicable only to NetApp AFF and AFX platforms only.##
-* ##All minimum and maximum capacity and other limits per performance service level instance, as specified in the Keystone order, are applicable.##
-* ##All performance service level instances require full and continuous enablement of the monitoring tool and AutoSupport (ASUP).##
-
+* Applicable only to NetApp AFF and AFX platforms only.
+* All minimum and maximum capacity and other limits per performance service level instance, as specified in the Keystone order, are applicable.
+* All performance service level instances require full and continuous enablement of the monitoring tool and AutoSupport (ASUP).
 == Service credits
 
 NOTE: SLAs and guarantees are available on a nomination basis.

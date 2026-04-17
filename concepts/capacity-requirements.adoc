@@ -13,7 +13,7 @@ summary: Capacity requirements for service levels differ with the file, block, o
 :imagesdir: ../media/
 
 [.lead]
-##The minimum capacity requirements and incremental increases for Keystone STaaS performance service levels differ by storage type. This page also describes how committed capacity can be increased, decreased, or reallocated during the subscription term.##
+The minimum capacity requirements and incremental increases for Keystone STaaS performance service levels differ by storage type. This page also describes how committed capacity can be increased, decreased, or reallocated during the subscription term.
 
 
 == Minimum capacity requirements for unified and block-optimized storage
@@ -23,7 +23,7 @@ You can see the minimum capacity and incremental capacity allowed per subscripti
 
 |===
 |Capacity |Extreme |Premium |Standard |Value
-a|Minimum capacity ##per PSLI## [in TiB]
+a|Minimum capacity per PSLI [in TiB]
 2+|50
 2+|100
 a|Incremental capacity (and in multiples) allowed at start of subscription [in TiB]
@@ -32,11 +32,11 @@ a|Incremental capacity (and in multiples) allowed as add-on during subscription 
 4+|25
 |===
 
-*Block optimized storage*##<must review>##
+*Block optimized storage*
 
 |===
-|Capacity |Extreme |Premium |##Standard##
-a|Minimum capacity ##per PSLI## [in TiB] |50 | 50 | 100
+|Capacity |Extreme |Premium |Standard
+a|Minimum capacity per PSLI [in TiB] |50 | 50 | 100
 a|Incremental capacity (and in multiples) allowed at start of subscription [in TiB]
 3+|25
 a|Incremental capacity (and in multiples) allowed as add-on during subscription [in TiB]
@@ -45,7 +45,7 @@ a|Incremental capacity (and in multiples) allowed as add-on during subscription 
 
 The minimum capacity for each performance service level is the same across all Keystone sales.
 
-== ##<must review>Minimum capacity requirements for AFX storage##
+== Minimum capacity requirements for AFX storage
 You can see the minimum capacity requirements for AFX storage in the following table:
 
 |===
@@ -55,7 +55,7 @@ a|Incremental capacity (and in multiples) allowed at start of subscription [in T
 a|Incremental capacity (and in multiples) allowed as add-on during subscription [in TiB] |100
 |===
 
-NOTE: ##<must review>For AFX storage, capacity is committed and measured at the AFX cluster level, across all drive shelves in the cluster. This is independent of the number of AFX storage controllers in the cluster.##
+NOTE: For AFX storage, capacity is committed and measured at the AFX cluster level, across all drive shelves in the cluster. This is independent of the number of AFX storage controllers in the cluster.
 
 == Minimum capacity requirements for object storage
 You can see the minimum capacity requirements for object storage in the following table:
@@ -141,4 +141,4 @@ The reduction is of (125-108) = 17 TiB of the capacity allocated for the Extreme
 
 Contact your Keystone Success Manager (KSM) to submit a reallocation request.
 
-To learn more, refer to the https://fieldportal.netapp.com/s/article/Changes-to-Keystone-STaaS-Service-Description-and-Supplement-v3-Reference-Guide[Keystone STaaS v3 Service Description and Supplement reference guide^].
+
