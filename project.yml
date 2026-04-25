@@ -146,7 +146,7 @@ sidebar:
               url: /concepts/metrics.html
             - title: Supported storage
               url: /concepts/supported-storage-services.html
-            - title: Supported capacity
+            - title: Storage capacity types
               url: /concepts/supported-storage-capacity.html 
             - title: Performance service levels
               url: /concepts/service-levels.html
