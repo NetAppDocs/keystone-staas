@@ -1,0 +1,9 @@
+New enhancements in the Keystone dashboard in the NetApp Console:
+
+=== Renamed Provisioned capacity label
+The label *Provisioned capacity* is renamed to *Provisioned volume capacity*. The updated label is also reflected in the related CSV and Excel reports.
+//NSEKEY-23492
+
+=== Forecast toggle for accrued burst
+You can now use the *Forecast* toggle in the *Accrued burst* view of the *Consumption trend* tab to project accrued burst usage for the next 120 days from the current date. To learn more, refer to link:./integrations/consumption-tab.html#view-forecast-data[View forecast data].
+//NSEKEY-23493

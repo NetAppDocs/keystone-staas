@@ -40,6 +40,8 @@ The historical consumption data for each performance service level is displayed 
 +
 NOTE: You can select *Accrued burst* from the *View* dropdown if you want to view the historical burst usage data for which invoices have been generated. You can use this data to analyze the billed usage reflected in your invoice. To learn more, refer to link:../integrations/consumption-tab.html#view-accrued-burst[View accrued burst].
 +
+NOTE: You can use the *Forecast* toggle to view projected capacity usage in the *Historical consumption* view and projected accrued burst in the *Accrued burst* view. To learn more, refer to link:../integrations/consumption-tab.html#view-forecast-data[View forecast data].
++
 NOTE: If you have subscribed to add-on services such as advanced data protection (ADP) or Data Infrastructure Insights (DII), the consumption data for these services appears alongside your base performance service levels in both historical consumption and accrued burst views. To learn more about add-on services, refer to link:../concepts/adp.html[Learn about add-on services].
 +
 image:consumption-trend-burst.png[screenshot displaying historical consumption]  
@@ -115,18 +117,6 @@ You can click the toggle button *Show Current Usage* to view the consumption, bu
 --
 ====
 
-== View forecast data
-
-You can view projected capacity usage for the next 120 days from the current date through the *Forecast* toggle available in the *Historical consumption* view of the *Consumption trend* tab in the Console. The toggle is enabled by default.
-
-By default, the graph displays the last 30 days of historical consumption and a 120-day projection from the current date on the same chart. Up to 30 data points are plotted in total (20 for historical data and 10 for forecast data), with a vertical line separating the two segments.
-
-image:forecast-1.png[screenshot showing forecast data]
-
-If you select a date range that does not end on the current date, the forecast is automatically disabled. To re-enable it, a confirmation dialog informs you that forecast data is only available when the selected timeline ends with the current date. Confirming resets the view to the default range of the last 30 days of historical data plus the next 120 days of forecast.
-
-If projected consumption is expected to exceed the burst capacity, an alert indicator appears on the graph, recommending a capacity upgrade.
-
 == Accrued burst computation
 The accrued burst usage for an entire month is calculated as this:
 
@@ -139,9 +129,9 @@ You can calculate the accrued burst for short periods, such as every two minutes
 The burst is the difference between the consumed capacity and the committed capacity. For example, with a 30-day in month, if the consumed capacity reaches 120 TiB and the committed capacity is 100 TiB for a 2-minute interval, this results in a burst capacity of 20 TiB, equating to an accrued burst usage of 0.000925926 TiB for that interval.
 
 == View accrued burst
-You can view the accrued burst data usage through the Console or Digital Advisor. If you have selected *Accrued burst* from the *View* dropdown in the *Consumption trend* tab in the Console, or the *Invoiced Accrued Burst* option from the *Consumption Trend* tab in Digital Advisor, you can see accrued burst data usage on a monthly or quarterly basis, depending on your selected billing period. This data is available for the last 12 months that have been billed, and you can query by the date range for up to past 30 months. 
+You can view the accrued burst data usage through the Console or Digital Advisor. If you have selected *Accrued burst* from the *View* dropdown in the *Consumption trend* tab in the Console, or the *Invoiced Accrued Burst* option from the *Consumption Trend* tab in Digital Advisor, you can see accrued burst data usage on a monthly or quarterly basis, depending on your selected billing period. 
 
-In the Console, alongside invoiced burst usage, you can also view uninvoiced burst usage (accrued but not yet billed) and provisional burst usage (accrued in the current billing period and not yet invoiced).
+In the Console, when the *Forecast* toggle is disabled, you can view invoiced burst usage along with uninvoiced burst usage (accrued but not yet billed) and provisional burst usage (accrued in the current billing period and not yet invoiced). When the *Forecast* toggle is enabled, the graph also displays projected accrued burst usage for the next 120 days from the current date. To learn more about the *Forecast* toggle, refer to link:../integrations/consumption-tab.html#view-forecast-data[View forecast data].
 
 image:accr-burst-provision-invoice.png[screenshot showing accrued burst usage in the Console]
 
@@ -157,15 +147,33 @@ If you switch from quarterly to monthly billing, the quarterly invoice will stil
 
 image:accr-burst-2.png[accrued burst usage quarterly]
 
+== View forecast data
+
+In the Console, you can use the *Forecast* toggle in the *Consumption trend* tab to view projected capacity usage in the *Historical consumption* view and projected accrued burst in the *Accrued burst* view. The toggle is enabled by default in both views.
+
+In the *Historical consumption* view, the graph displays the last 30 days of historical consumption and a 120-day projection from the current date on the same chart. Up to 30 data points are plotted in total (20 for historical data and 10 for forecast data), with a vertical line separating the two segments.
+
+image:forecast-1.png[screenshot showing forecast data]
+
+In the *Accrued burst* view, the graph displays the last 6 months of accrued burst history and a 120-day projection from the current date, with a vertical line separating the historical and forecast data. The current billing period bar displays both provisional burst usage and forecast data for the remaining days. You can click any bar to view the day-by-day breakdown in the *Accrued burst by days* table. To learn more about the *Accrued burst by days* table, refer to link:../integrations/consumption-tab.html#view-daily-accrued-burst-data-usage[View daily accrued burst data usage].
+
+image:accrued-burst-forecast.png[screenshot showing accrued burst forecast]
+
+If you select a date range that does not end on the current date, the forecast is automatically disabled. To re-enable it, a confirmation dialog informs you that forecast data is available only when the selected timeline ends with the current date. If you confirm the dialog, the view resets to the default range for the selected view: the last 30 days of historical data plus the next 120 days of forecast in the *Historical consumption* view, or the last 6 months of accrued burst history plus the next 120 days of forecast in the *Accrued burst* view.
+
+If projected consumption is expected to cross the committed capacity, an orange alert indicator appears on the graph, recommending a capacity upgrade. If it is expected to cross the burst capacity, a red alert indicator also appears, recommending a capacity upgrade.
+
 
 == View daily accrued burst data usage
 You can view daily accrued burst data usage for a monthly or quarterly billing period through the Console or Digital Advisor. In the Console, the *Accrued burst by days* table provides detailed data including the timestamp, committed, consumed, and accrued burst capacity if you select *Accrued burst* from the *View* dropdown in the *Consumption trend* tab. 
 
 In the Console, you can filter the table by selecting any bar that represents a billing period in the accrued burst billing graph. When filtered, the table displays only the days within the selected billing period. To view the complete dataset again, use the *Clear filters* option. If no data is available for the selected period, a message displays indicating that no data is available.
 
+NOTE: The data shown in the graph depends on whether the *Forecast* toggle is enabled or disabled.
+
 image:bxp-accrued-burst-days-1.png[screenshot showing the accrued burst by days table]
 
-You can also download the data in Excel format, including burst status (invoiced, uninvoiced, or provisional) and billing period.
+You can also download the available data in Excel format, including burst status (invoiced, uninvoiced, provisional, or forecast, as applicable) and billing period.
 
 In Digital Advisor, when you click the bar that displays the invoiced data from the *Invoiced Accrued Burst* option, you see the Billable Provisioned Capacity section below the bar chart, offering both graph and table viewing options. The default graph view displays daily accrued burst data usage in a line graph format, showing changes in usage over time.
 
