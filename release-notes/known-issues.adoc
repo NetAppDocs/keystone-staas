@@ -21,6 +21,10 @@ The following known issues are reported in NetApp Keystone STaaS:
 |===
 |Known issue |Description |Workaround
 
+a|Inaccurate downward trend in forecast consumption data
+a|In the *Consumption trend* tab, when the *Forecast* toggle is enabled in the *Historical consumption* view, the projected capacity usage shows a significant and inaccurate downward trend.
+a|None
+//NSEKEY-24551
 a|Modify subscription unavailable
 a|The option to modify the committed capacity for Keystone subscriptions is currently unavailable in the NetApp Console. This functionality will be reintroduced in a future release.
 a|None
