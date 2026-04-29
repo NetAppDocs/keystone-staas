@@ -1,4 +1,4 @@
-##New enhancements in the Keystone dashboard in the NetApp Console:##
+New enhancements in the Keystone dashboard in the NetApp Console:
 
 === Renamed Provisioned capacity label
 The label *Provisioned capacity* is renamed to *Provisioned volume capacity*. The updated label is also reflected in the related CSV and Excel reports.
