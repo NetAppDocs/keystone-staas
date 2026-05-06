@@ -1,0 +1,4 @@
+---
+permalink: concepts/burst-consumption-billing.html
+redirect: keystone-staas/concepts/pricing.html
+---

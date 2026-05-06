@@ -1,11 +1,11 @@
 ---
 sidebar: sidebar
 permalink: concepts/pricing.html
-keywords: pricing, billing introduction, Keystone billing
-summary: Keystone offers a pay-as-you-grow model for your flexible and scalable consumption needs.
+keywords: pricing, Keystone billing, committed capacity, consumed capacity, burst consumption, billing schedules
+summary: With NetApp Keystone STaaS, you pay for what you commit to and only extra for what you use beyond that. This page explains how the pay-as-you-grow model works — from how your storage commitment is priced, to how capacity is measured and billed, to when invoices are generated.
 ---
 
-= Learn about Keystone pricing
+= Learn about Keystone billing
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,7 +13,10 @@ summary: Keystone offers a pay-as-you-grow model for your flexible and scalable 
 :imagesdir: ../media/
 
 [.lead]
-The NetApp Keystone STaaS pay-as-you-go subscription service offers flexible and scalable consumption with predictable and upfront pricing for your storage requirements.
+With NetApp Keystone STaaS, you pay for what you commit to and only extra for what you use beyond that. This page explains how the pay-as-you-grow model works, including how your storage commitment is priced, how capacity is measured and billed, and when invoices are generated.
+
+== Keystone pricing model
+Your Keystone subscription gives you predictable monthly costs with the flexibility to scale up when workloads demand it. Keystone charges are based on the performance service level you select and the capacity you commit to. 
 
 Keystone provides you with the following billing facilities:
 
@@ -26,10 +29,64 @@ Keystone billing is based on committed capacity and variable burst consumption.
 
 For information about different capacities supported in Keystone, see link:../concepts/supported-storage-capacity.html[Storage capacity types in Keystone].
 
-*Related information*
+== How Keystone measures capacity
+Keystone uses three capacity concepts to calculate your bill. Knowing each helps you avoid unexpected charges.
 
-* link:../concepts/committed-capacity-billing.html[Billing based on committed capacity]
-* link:../concepts/consumed-capacity-billing.html[Metering based on consumed capacity]
-* link:../concepts/burst-consumption-billing.html[Billing based on burst consumption]
-* link:../concepts/misc-volume-billing.html[Billing based on miscellaneous volume types]
-* link:../concepts/billing-schedules.html[Billing schedules]
+=== Committed capacity
+Committed capacity is the capacity you agree to purchase for a specific performance service level when you sign your Keystone subscription. This amount is fixed on your Keystone order and billed in full each billing period, regardless of how much capacity your workloads actually use.
+
+For example, if you commit to 100 TiB at the Premium service level, you are billed for 100 TiB even if actual usage that month is 80 TiB.
+
+Committed capacity can span multiple performance service levels within a single subscription, as agreed upon by you and NetApp or your partner. 
+
+To view your committed capacity and track actual usage against it, see link:../integrations/current-usage-tab.html[View your current consumption details].
+
+=== Consumed capacity
+Consumed capacity is the capacity that your workloads actually use at any point in time. Keystone continuously monitors and measures your consumption throughout the billing period. At least once every five minutes, a consumption record is generated that captures the current consumed capacity for your subscription. These records are aggregated over the billing period to generate invoices and usage reports.
+
+The five-minute monitoring interval ensures granular tracking, so burst usage is detected and billed accurately — not estimated at the end of the period.
+
+When consumed capacity stays at or below your committed capacity, only the committed capacity rate applies. When consumed capacity exceeds your committed capacity, burst billing applies.
+
+=== Burst consumption
+Burst consumption is the capacity you use above your committed capacity. Your burst limit is determined and specified in your Keystone agreement. By default, it is set at 20% above the committed capacity. You can also choose burst capacity limits of 40% or 60% of the committed capacity. To learn more, refer to link:../concepts/burst-capacity.html[Burst capacity options].
+
+For example, if your committed capacity is 100 TiB and you use 115 TiB, the extra 15 TiB is charged at the burst rate.
+
+When the consumed capacity is greater than the committed capacity for a performance service level, burst consumption is recorded and charged accordingly. Usage above the burst capacity limit is flagged as "Above burst limit".
+
+Burst consumption is calculated for each consumption record generated throughout the billing period. It reflects both the amount and duration of your over-consumed capacity on top of your committed capacity. To view burst consumption trends for your subscription, see link:../integrations/consumption-tab.html[View consumption trends of your Keystone subscriptions].
+
+== Billing schedules
+Your billing frequency is set in your Keystone agreement. The following table shows when to expect invoices for committed capacity and burst usage under each option.
+
+[cols="1,2,2",options="header"]
+|===
+|Billing frequency |Invoice for committed capacity |Invoice for burst usage
+
+|Monthly
+|Sent the following month
+|Included in the same invoice
+
+|Quarterly
+|Sent at the start of each quarter
+|Sent at the end of each quarter
+
+|Semi-annually
+|Sent at the start of each 6-month period
+|Sent at the end of each quarter
+
+|Annually
+|Sent at the start of each subscription year
+|Sent at the end of each quarter
+|===
+
+NOTE: For quarterly, semi-annual, and annual billing, if your committed capacity changes during a subscription, an invoice is sent on the same day for the prorated minimum payments for the rest of that subscription year. Billing is calculated from the day the committed capacity change becomes effective.
+
+
+== Related information
+
+* link:../concepts/supported-storage-capacity.html[Storage capacity types in Keystone]
+* link:../concepts/burst-capacity.html[Burst capacity options]
+* link:../integrations/current-usage-tab.html[View your current consumption details]
+* link:../integrations/consumption-tab.html[View consumption trends of your Keystone subscriptions]

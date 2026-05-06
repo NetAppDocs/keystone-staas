@@ -1,0 +1,4 @@
+---
+permalink: concepts/billing-schedules.html
+redirect: keystone-staas/concepts/pricing.html
+---
