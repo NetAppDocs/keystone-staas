@@ -13,7 +13,7 @@ summary: With NetApp Keystone STaaS, you pay for what you commit to and only ext
 :imagesdir: ../media/
 
 [.lead]
-With NetApp Keystone STaaS, you pay for what you commit to and only extra for what you use beyond that. This page explains how the pay-as-you-grow model works, including how your storage commitment is priced, how capacity is measured and billed, and when invoices are generated.
+With NetApp Keystone STaaS, you pay for what you commit to and only extra for what you use beyond that. This page explains how the pay-as-you-go model works, including how your storage commitment is priced, how capacity is measured and billed, and when invoices are generated.
 
 == Keystone pricing model
 Your Keystone subscription gives you predictable monthly costs with the flexibility to scale up when workloads demand it. Keystone charges are based on the performance service level you select and the capacity you commit to. 
