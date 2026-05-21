@@ -42,13 +42,13 @@ indexpage:
       - title: Learn about Keystone pricing
         url: /concepts/pricing.html
       - title: How does Keystone measure capacity?
-        url: /concepts/pricing.html#_how_keystone_measures_capacity
+        url: /concepts/pricing.html#how-keystone-measures-capacity
       - title: What is committed capacity?
-        url: /concepts/pricing.html#_committed_capacity
+        url: /concepts/pricing.html#committed-capacity
       - title: What happens when I exceed my committed capacity?
-        url: /concepts/pricing.html#_burst_consumption
+        url: /concepts/pricing.html#burst-consumption
       - title: When are invoices generated?
-        url: /concepts/pricing.html#_billing_schedules
+        url: /concepts/pricing.html#billing-schedules
     - title: Do more with Keystone services
       links:
         - title: Learn about your support team
