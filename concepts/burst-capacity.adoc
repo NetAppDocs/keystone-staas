@@ -19,4 +19,4 @@ Burst capacity refers to the additional storage capacity that can be utilized be
 
 To change your burst limit to 40% or 60%, contact the NetApp Keystone support team.
 
-To learn more about how burst capacity is billed, refer to link:../concepts/burst-consumption-billing.html[Billing based on burst consumption].
+To learn more about how burst capacity is billed, refer to link:../concepts/pricing.html[Learn about Keystone billing].
