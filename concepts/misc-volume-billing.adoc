@@ -22,7 +22,7 @@ The following table summarizes the billing rules for each volume type.
 |Volume type |Billing rule
 
 |Cloned volumes
-|##Billed as standard volumes##
+|Billed as standard volumes
 
 |Temporary volumes
 |Not billed
@@ -38,7 +38,7 @@ The following table summarizes the billing rules for each volume type.
 |===
 
 == Billing for cloned volumes
-##Cloned volumes are billed as standard volumes at the same performance service level as the volume they were cloned from. All cloned volumes are measured and charged regardless of their size or purpose.##
+Cloned volumes are billed as standard volumes at the same performance service level as the volume they were cloned from. All cloned volumes are measured and charged regardless of their size or purpose.
 
 //== Billing for advanced data protection
 //Advanced data protection uses NetApp MetroCluster to mirror data between two physically separated clusters. For MetroCluster mirrored aggregates, data is written twice, once on each cluster. The Keystone service charges for consumption on each side independently, resulting in two identical consumption records. The add-on charges are applied on all the capacities in the subscription, irrespective of whether the data is at the source, or it is mirrored or unmirrored data.
