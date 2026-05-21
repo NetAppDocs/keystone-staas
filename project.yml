@@ -176,20 +176,12 @@ sidebar:
               url: /concepts/sla-sustainability.html 
             - title: Ransomware Recovery Guarantee 
               url: /concepts/sla-ransomware.html 
-        - title: Understand billing
+        - title: Understand Keystone billing
           entries:
-            - title: Keystone pricing
+            - title: Learn about Keystone billing
               url: /concepts/pricing.html
-            - title: Billing based on committed capacity
-              url: /concepts/committed-capacity-billing.html
-            - title: Metering based on consumed capacity
-              url: /concepts/consumed-capacity-billing.html
-            - title: Billing based on burst consumption
-              url: /concepts/burst-consumption-billing.html
-            - title: Billing for specific volume configurations
-              url: /concepts/misc-volume-billing.html
-            - title: Billing schedules
-              url: /concepts/billing-schedules.html                                                              
+            - title: Keystone billing for specific volume types
+              url: /concepts/misc-volume-billing.html                                                              
     - title: Access Keystone from Digital Advisor REST API
       entries:
         - title: Get started using the Digital Advisor REST API to retrieve Keystone data
