@@ -21,7 +21,7 @@ The following known issues are reported in NetApp Keystone STaaS:
 |===
 |Known issue |Description |Workaround
 
-a|##Incorrect expiration date for expired subscriptions##
+a|Incorrect expiration date for expired subscriptions
 a|In the *Subscriptions* tab, expired subscriptions display yesterday's date as the expiration date instead of the actual subscription end date.
 a|None
 //NSEKEY-16594
