@@ -41,14 +41,14 @@ indexpage:
       links:
       - title: Learn about Keystone pricing
         url: /concepts/pricing.html
-      - title: My billing schedules
-        url: /concepts/billing-schedules.html
-      - title: Billing based on committed capacity
-        url: /concepts/committed-capacity-billing.html
-      - title: Metering based on consumed capacity
-        url: /concepts/consumed-capacity-billing.html
-      - title: What happens if I have consumed more than my committed capacity?
-        url: /concepts/burst-consumption-billing.html
+      - title: How does Keystone measure capacity?
+        url: /concepts/pricing.html#how-keystone-measures-capacity
+      - title: What is committed capacity?
+        url: /concepts/pricing.html#committed-capacity
+      - title: What happens when I exceed my committed capacity?
+        url: /concepts/pricing.html#burst-consumption
+      - title: When are invoices generated?
+        url: /concepts/pricing.html#billing-schedules
     - title: Do more with Keystone services
       links:
         - title: Learn about your support team
