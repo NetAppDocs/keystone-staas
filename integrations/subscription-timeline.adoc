@@ -25,11 +25,13 @@ To view the subscription timeline, follow these steps:
 You are redirected to the *Current consumption* tab. 
 . Select the *Subscription timeline* tab. 
 +
-image:bxp-subscription-timeline-graph.png[a screenshot to show subscription timeline in a line graph format along with important event]
+image:console-subscription-timeline-graph.png[a screenshot to show subscription timeline in a line graph format along with important event]
 +
-The subscription timeline is displayed as a line graph by default, with icons marking important events. Hover over an event to view details, including the date and committed capacity changes. To view these events in a table, select the *Table* option from the *View as* dropdown. To view other subscription timelines, select or search from the *Tracking ID* dropdown.
+The subscription timeline is displayed as a line graph by default, with icons marking important events. When multiple subscription updates of different types occur on the same day, the chart displays a number instead of separate icons. Hover over the number to see all the update types that occurred on that day, or over any event icon for details such as the date and committed capacity changes. To view these events in a table, select the *Table* option from the *View as* dropdown. To view other subscription timelines, select or search from the *Tracking ID* dropdown.
 +
-image:bxp-subscription-timeline.png[a screenshot to show subscription timeline in a table graph format along with important event]
+image:console-subscription-timeline.png[a screenshot to show subscription timeline in a table graph format along with important event]
+
+
 
 *Related information*
 
