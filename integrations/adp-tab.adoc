@@ -34,7 +34,7 @@ TIP: MetroCluster subscriptions are identified by the image:metrocluster-icon.pn
 The *Current consumption* tab opens and displays consumption insights for your subscribed base performance service levels and their corresponding advanced data protection performance service levels. You can view this information in a tabular or graphical format. To learn more, refer to link:../integrations/current-usage-tab.html[View the current consumption of your Keystone subscriptions].
 . Select the *Advanced data protection (ADP)* tab.
 +
-##On this tab, you can view consumption data for your base performance service levels at both primary and mirror sites, monitor the health status and sync status of your MetroCluster setup, and view ADP license utilization and distribution across both clusters.##
+##On this tab, you can view consumption data for your base performance service levels at both primary and mirror sites, monitor the health and synchronization status of your MetroCluster setup, and view ADP license utilization and distribution across both clusters.##
 +
 * View the consumption distribution chart for your selected time period.
 +

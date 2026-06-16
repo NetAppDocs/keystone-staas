@@ -1,7 +1,7 @@
 ##New enhancements in the Keystone dashboard in the NetApp Console:##
 
 === View ADP license distribution for MetroCluster subscriptions
-A new *License Distribution* sub-tab is now available on the *Advanced data protection (ADP)* tab, giving you visibility into ADP license usage across your MetroCluster partner clusters. To learn more, refer to link:./integrations/adp-tab.html[View consumption and health of your Keystone MetroCluster subscriptions].
+A new *License distribution* sub-tab is now available on the *Advanced data protection (ADP)* tab, giving you visibility into ADP license usage across your MetroCluster partner clusters. To learn more, refer to link:./integrations/adp-tab.html[View consumption and health of your Keystone MetroCluster subscriptions].
 
 //NSEKEY-23178
 
