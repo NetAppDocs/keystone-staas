@@ -43,7 +43,7 @@ The chart shows consumption for both your primary and mirror sites. Hover over t
 NOTE: For the base performance service levels, each volume is charged as provisioned at both the primary and mirror sites. The chart is therefore split to reflect consumption at each site.
 +
 *Example:*
-The tooltip displays consumption values such as 1.15 TiB for the primary site and 4.22 TiB for the mirror site.
+The tooltip displays consumption values such as 109.29 TiB for the primary site and 111.97 TiB for the mirror site.
 +
 image:adp-consumption-chart-1.png[Line chart showing MetroCluster consumption distribution with 1.15 TiB at primary site and 4.22 TiB at mirror site displayed in tooltip]
 
