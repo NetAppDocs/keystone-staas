@@ -13,7 +13,7 @@ summary: View consumption data, monitor health status, and track ADP license dis
 :imagesdir: ../media/
 
 [.lead]
-##When you subscribe to the advanced data protection add-on service, you can view consumption data for your MetroCluster partner sites in either the NetApp Console or Digital Advisor. In the NetApp Console, you can also monitor the health of your MetroCluster setup and track the distribution of your advanced data protection licenses.##
+When you subscribe to the advanced data protection add-on service, you can view consumption data for your MetroCluster partner sites in either the NetApp Console or Digital Advisor. In the NetApp Console, you can also monitor the health of your MetroCluster setup and track the distribution of your advanced data protection licenses.
 
 //Summary for future use: When you subscribe to the advanced data protection add-on service, you can view consumption data for your MetroCluster partner sites in either the NetApp Console or Digital Advisor. In the NetApp Console, you can also monitor the replication status and health of your MetroCluster setup and take action when synchronization issues occur. 
 
@@ -34,7 +34,7 @@ TIP: MetroCluster subscriptions are identified by the image:metrocluster-icon.pn
 The *Current consumption* tab opens and displays consumption insights for your subscribed base performance service levels and their corresponding advanced data protection performance service levels. You can view this information in a tabular or graphical format. To learn more, refer to link:../integrations/current-usage-tab.html[View the current consumption of your Keystone subscriptions].
 . Select the *Advanced data protection (ADP)* tab.
 +
-##On this tab, you can view consumption data for your base performance service levels at both primary and mirror sites, monitor the health and synchronization status of your MetroCluster setup, and view ADP license utilization and distribution across both clusters.##
+On this tab, you can view consumption data for your base performance service levels at both primary and mirror sites, monitor the health and synchronization status of your MetroCluster setup, and view ADP license utilization and distribution across both clusters.
 +
 * View the consumption distribution chart for your selected time period.
 +
@@ -47,13 +47,13 @@ The tooltip displays consumption values such as 1.15 TiB for the primary site an
 +
 image:adp-consumption-chart-1.png[Line chart showing MetroCluster consumption distribution with 1.15 TiB at primary site and 4.22 TiB at mirror site displayed in tooltip]
 
-* ##View the license distribution chart for your selected time period.##
+* View the license distribution chart for your selected time period.
 +
-##The chart shows ADP license consumption across Cluster A (primary) and Cluster B (mirror). Depending on the license version associated with your subscription, the chart displays consumption for each ADP add-on performance service level, such as _Advanced data-protect premium tiering_ and Data-protect premium tiering, at each site.##
+The chart shows ADP license consumption across Cluster A (primary) and Cluster B (mirror). Depending on the license version associated with your subscription, the chart displays consumption for each ADP add-on performance service level, such as _Advanced data-protect premium tiering_ and Data-protect premium tiering, at each site.
 +
 image:adp-license-distribution.png[Stacked bar chart showing ADP license distribution across Cluster A and Cluster B for different license versions]
 +
-##You can use this data to verify whether billing for a given date is correct and to cross-check usage debit values for your subscription.##
+You can use this data to verify whether billing for a given date is correct and to cross-check usage debit values for your subscription.
 
 * Monitor the health status of your MetroCluster setup in the *ADP Topology* view.
 +
