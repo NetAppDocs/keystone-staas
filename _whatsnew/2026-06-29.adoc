@@ -1,0 +1,32 @@
+New enhancements in the Keystone dashboard in the NetApp Console:
+
+=== View ADP license distribution for MetroCluster subscriptions
+A new *License distribution* sub-tab is now available on the *Advanced data protection (ADP)* tab, giving you visibility into ADP license usage across your MetroCluster partner clusters. To learn more, refer to link:./integrations/adp-tab.html[View consumption and health of your Keystone MetroCluster subscriptions].
+
+//NSEKEY-23178
+
+=== View ransomware protection status for your volumes
+The *Volumes in clusters* tab in *Assets* now includes an *ARP status* column that displays whether Autonomous Ransomware Protection (ARP) is enabled or disabled for each volume, giving you visibility into your ransomware protection posture across managed assets. To learn more about ARP, refer to link:https://docs.netapp.com/us-en/ontap/anti-ransomware/[Autonomous Ransomware Protection (ARP) in ONTAP].
+
+//NSEKEY-25148
+
+=== Share feedback using the Feedback tab
+You can now provide feedback from any screen in the Keystone dashboard using the new *Feedback* tab, anchored to the bottom-right edge of the screen. Clicking it opens a panel where you can share your experience and submit comments directly to NetApp.
+
+//NSEKEY-24903
+
+=== Improve alerting for capacity usage and subscription expiration
+System-generated monitors now provide more granular alerting for capacity usage and subscription expiration.
+
+For subscription expiration, alerts now trigger at five thresholds: 180, 90, 60, 30, and 7 days before expiration, with severity escalating from informational to critical as the date approaches.
+
+For capacity usage, the burst alert threshold is now based on your subscription's committed burst percentage instead of a fixed 20%. For example, if your committed burst is 40%, the critical alert triggers at 140% of committed capacity utilization.
+
+To learn more, refer to link:./integrations/monitoring-alert-monitors.html[View and create alert monitors for Keystone subscriptions].
+
+//NSEKEY-24381
+//NSEKEY-24386
+
+
+
+

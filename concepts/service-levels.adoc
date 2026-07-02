@@ -13,7 +13,7 @@ summary: Keystone STaaS for version 3 offers storage capacity at pre-defined ser
 :imagesdir: ../media/
 
 [.lead]
-Keystone STaaS offers pre-defined performance service levels (PSLs) for each storage type. Each PSL specifies the performance targets (IOPS, throughput, and latency), supported protocols, platform, and minimum capacity requirements. Review the available PSLs to select the right service level for your workload and plan your subscription.
+Keystone STaaS offers pre-defined performance service levels (PSLs), also called base performance service levels, for each storage type. Each PSL specifies the performance targets (IOPS, throughput, and latency), supported protocols, platform, and minimum capacity requirements. Review the available PSLs to select the right service level for your workload and plan your subscription.
 
 A Keystone subscription can include multiple PSLs across one or more storage types. Each PSL has a committed capacity, which is the minimum capacity billed for that service level during the subscription term.
 
