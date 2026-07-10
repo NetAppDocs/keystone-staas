@@ -1,6 +1,6 @@
 New enhancements in the Keystone dashboard in the NetApp Console:
 
 === Improved display of multiple updates on the same day in the subscription timeline
-The subscription timeline chart now shows a number when multiple subscription updates of different types occur on the same day, instead of separate icons. Hover over the number to see all update types for that day. The downloaded report includes a separate row for each update, giving you a complete record of all changes. To learn more, refer to link:./integrations/subscription-timeline.html[View the timeline of your Keystone subscriptions].
+The subscription timeline chart now shows a number when multiple subscription updates of different types occur on the same day, instead of separate icons. Hover over the number to see all update types for that day. The downloaded report includes a separate row for each update, giving you a complete record of all changes. To learn more, refer to https://docs.netapp.com/us-en/keystone-staas/integrations/subscription-timeline.html[View the timeline of your Keystone subscriptions].
 
 //NSEKEY-24613
