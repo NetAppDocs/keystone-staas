@@ -50,7 +50,7 @@ You can see the following details from the table:
 ** *Red*: Fewer than 90 days remain until expiry. To avoid service disruption, submit a renewal request to NetApp Keystone support.
 ** *Gray*: The subscription has expired.
 +
-##For subscriptions with auto-renewal on or a month-on-month billing cycle, an auto-renewal icon is displayed. For month-on-month subscriptions, this indicates the subscription has no fixed end date and renews automatically every month until cancelled. For other subscriptions, it indicates the subscription will renew automatically at the end of the current term.##
+##For subscriptions with auto-renewal on, an auto-renewal icon is displayed, indicating the subscription will renew automatically at the end of the current term.##
 +
 NOTE: You can click the down arrow image:down-arrow.png[expand icon] in the table header to expand all subscriptions and view the performance service levels information for each subscription simultaneously. This shows detailed capacity information including current usage, committed capacity, provisioned capacity, burst capacity, and available capacity for all subscriptions. Alternatively, you can click the down arrow next to the *Expiration date* column in individual subscription rows to expand them one at a time.
 +
