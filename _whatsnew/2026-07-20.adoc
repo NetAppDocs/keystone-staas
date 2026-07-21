@@ -1,0 +1,8 @@
+New enhancements in the Keystone dashboard in the NetApp Console:
+
+=== View subscription expiry and auto-renewal status
+The *Days to subscription expiry* column in the subscriptions table (*Storage > Keystone > Subscriptions*) now displays an icon alongside the expiration date. The icon color indicates expiry proximity when auto-renewal is off: green (>120 days), orange (91–120 days), red (<90 days), or gray (expired). For subscriptions with auto-renewal on, an auto-renewal icon is shown, indicating the subscription will renew automatically at the end of the current term. The status is read-only and reflects your contract terms. Once you open a subscription, these icons appear in the subscription details header across the *Current consumption*, *Consumption trend*, *Subscription timeline*, and *Assets* tabs, giving you visibility into expiry and renewal status as you navigate.
+
+To learn more, refer to https://docs.netapp.com/us-en/keystone-staas/integrations/subscriptions-tab.html[View details about your Keystone subscriptions].
+
+//NSEKEY-25941
