@@ -41,7 +41,7 @@ NetApp uses the ITOM monitoring solution to proactively monitor the health of yo
 == Additional resources
 For more information about Keystone services, see:
 
-* link:https://www.netapp.com/us/solutions/keystone/index.aspx[NetApp Keystone^]
+* link:https://www.netapp.com/keystone/[NetApp Keystone^]
 * link:https://docs.netapp.com[NetApp Product Documentation^]
 
 *Related information*
