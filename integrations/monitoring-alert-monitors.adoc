@@ -13,7 +13,14 @@ summary: Use the Monitoring tab to view view and create alert monitors for your 
 :imagesdir: ../media/
 
 [.lead]
-You can view and create alert monitors for your Keystone subscriptions from the Keystone dashboard in the NetApp Console. The dashboard shows both system-generated and user-defined monitors for capacity usage and subscription expiration. You can create monitors to set thresholds, choose alert severity, and add email recipients for notifications. You can address coverage gaps by adding monitors to uncovered subscriptions or resolving unused monitors. This functionality is not available in Digital Advisor.
+You can view and create alert monitors for your Keystone subscriptions from the Keystone dashboard in the NetApp Console. The dashboard shows both system-generated and user-defined monitors for capacity usage and subscription expiration.## System-generated monitors are automatically created for all subscriptions and come with pre-defined thresholds.## You can also create user-defined monitors to set custom thresholds, choose alert severity, and add email recipients for notifications. You can address coverage gaps by adding monitors to uncovered subscriptions or resolving unused monitors. This functionality is not available in Digital Advisor.
+
+== ##System-generated monitors##
+
+Keystone automatically creates system-generated monitors for all your subscriptions. These monitors cannot be deleted. Editing is limited to modifying subscription numbers and performance service levels for capacity usage monitors, and modifying subscription numbers for subscription expiration monitors.
+
+* *Subscription expiration monitor*: Alerts trigger at five thresholds before the subscription expiration date (180, 90, 60, 30, and 7 days). Severity escalates from informational to critical as the expiration date approaches.
+* *Capacity usage monitor*: Alerts are based on your subscription's committed burst percentage rather than a fixed value. For example, if your committed burst is 40%, the critical alert triggers when capacity utilization reaches 140% of committed capacity.
 
 == View alert monitors
 
