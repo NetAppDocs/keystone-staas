@@ -19,6 +19,10 @@ Issues that were found in previous releases of NetApp Keystone STaaS services ha
 |===
 |Issue description |After the fix |Fixed in release
 
+a|In the *Consumption Trend* tab in Digital Advisor, the consumption trend chart does not display consumption data for the current day, showing data only through the previous day.
+a|Fixed
+a|August 10, 2026
+//NSEKEY-26526
 a|Subscriptions incorrectly display *Above Burst Limit* status in the Digital Advisor dashboard despite consumption being within allowed burst limits.
 a|Fixed
 a|March 30, 2026
