@@ -5,7 +5,7 @@ keywords: Keystone Flex Subscriptions, kfs v1, keystone legacy, Keystone subscri
 summary: Keystone STaaS over Keystone Flex Subscription services
 ---
 
-= Legacy Keystone subscription services documentation
+= Keystone subscription services | Version 1
 :hardbreaks:
 :nofooter:
 :icons: font
