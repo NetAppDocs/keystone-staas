@@ -63,7 +63,7 @@ image:adp-topology.png[Image of ADP topology displaying primary site (Cluster A)
 +
 TIP: You can select the Cluster B subscription (mirror) from the ADP topology to view it as the primary site.
 +
-TIP: If the sync status shows out of sync or the connection status shows degraded, refer to link:../concepts/support-services.html[Get help with Keystone] to troubleshoot the issue.
+TIP: If the sync status shows out of sync or the connection status shows degraded, refer to link:../concepts/support-services.html[Support services for Keystone] to troubleshoot the issue.
 +
 * View historical consumption trends for the primary or mirror site.
 +
