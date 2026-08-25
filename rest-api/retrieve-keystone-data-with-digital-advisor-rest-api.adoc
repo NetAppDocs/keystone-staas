@@ -5,7 +5,7 @@ keywords: Keystone, Active IQ, Digital Advisor, APIs, programmatic interface
 summary: Digital Advisor APIs provide a programmatic interface for fetching Keystone service details and metrics.
 ---
 
-= Get started using the Digital Advisor REST API to retrieve Keystone data
+= Retrieve Keystone data with the Digital Advisor REST API
 :hardbreaks:
 :nofooter:
 :icons: font

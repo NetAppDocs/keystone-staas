@@ -64,4 +64,4 @@ a|Support
 
 |===
 
-For more information on deployment, see link:../concepts/infra.html[Keystone infrastructure] and link:..//concepts/components.html[Components for deployment].
+For more information on deployment, see link:../concepts/infra.html[Learn about Keystone infrastructure] and link:..//concepts/components.html[Components required for Keystone services].
