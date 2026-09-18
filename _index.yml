@@ -68,7 +68,7 @@ indexpage:
         - title: Active IQ Digital Advisor
           url: https://docs.netapp.com/us-en/active-iq/index.html
         - title: NetApp Console
-          url: https://docs.netapp.com/us-en/cloud-manager-family/
+          url: https://docs.netapp.com/us-en/console-family/
         - title: Active IQ Unified Manager
           url: https://docs.netapp.com/us-en/active-iq-unified-manager/
 
