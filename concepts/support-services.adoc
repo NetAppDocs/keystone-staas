@@ -2,10 +2,10 @@
 sidebar: sidebar
 permalink: concepts/support-services.html
 keywords:  Keystone support, service request, support ticket
-summary: Use the NetApp Support Site to create a support case or find contact information for your Keystone subscriptions.
+summary: Use the NetApp Support Site to create a support case or find contact information for your Keystone STaaS subscriptions.
 ---
 
-= Support services for Keystone
+= Support services for Keystone STaaS
 :hardbreaks:
 :nofooter:
 :icons: font

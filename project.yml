@@ -30,7 +30,7 @@ sidebar:
           url: /release-notes/known-limitations.html          
     - title: Get started
       entries:
-      - title: Learn about Keystone STaaS
+      - title: Learn about NetApp Keystone
         url: /concepts/overview.html
       - title: Keystone infrastructure
         url: /concepts/infra.html
