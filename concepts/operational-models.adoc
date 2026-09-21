@@ -18,9 +18,9 @@ Keystone is delivered through two primary operational models: partner-operated a
 == Partner-operated model
 
 This model offers two options:
-
-* *Service provider*: A service provider operates the services for their end customers. As the contracted party with NetApp, the service provider manages a multi-tenant environment. Each tenant is a customer of the service provider and has a separate subscription that the service provider bills directly. The service provider administrator is responsible for performing all administrative tasks for the tenants.
-* *Reseller*: As a reseller, a partner acts as a bridge between NetApp and the customer. The partner sells Keystone services to the end customer and manages the invoicing. While the partner takes care of billing, NetApp provides direct support to the customer. Keystone support interacts with the customer and handles all administrative tasks for the tenants.
++
+** *Service provider*: A service provider operates the services for their end customers. As the contracted party with NetApp, the service provider manages a multi-tenant environment. Each tenant is a customer of the service provider and has a separate subscription that the service provider bills directly. The service provider administrator is responsible for performing all administrative tasks for the tenants.
+** *Reseller*: As a reseller, a partner acts as a bridge between NetApp and the customer. The partner sells Keystone services to the end customer and manages the invoicing. While the partner takes care of billing, NetApp provides direct support to the customer. Keystone support interacts with the customer and handles all administrative tasks for the tenants.
 
 == Customer-operated model
 

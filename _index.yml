@@ -1,7 +1,7 @@
 # Start snippet: landing page
 indexpage:
   title: Keystone documentation
-  lead: NetApp Keystone is a platform that delivers Keystone Storage-as-a-Service (STaaS), a pay-as-you-go subscription offering for on-premises and cloud data storage services. This library documents the Keystone STaaS offering and its services.
+  lead: NetApp Keystone is NetApp's storage-as-a-service platform, consumed through a pay-as-you-go subscription model. This library documents Keystone Storage-as-a-Service (STaaS), the NetApp-delivered offering for on-premises and cloud data storage services.
   summary: NetApp Keystone is a storage-as-a-service platform consumed through a subscription model. This library documents the Keystone STaaS offering.
   keywords: NetApp Keystone, Keystone STaaS, storage as a service, subscription
   tiles:

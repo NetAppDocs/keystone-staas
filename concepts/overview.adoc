@@ -44,6 +44,6 @@ Keystone STaaS can be operated under a partner-operated or customer-operated mod
 * link:../concepts/pricing.html[Keystone pricing]
 * link:../concepts/adp.html[Add-on services in Keystone STaaS]
 * link:../concepts/supported-storage-services.html[Keystone STaaS services]
-* link:../concepts/service-levels.html[Performance service levels in Keystone]
+* link:../concepts/service-levels.html[Performance service levels in Keystone STaaS]
 * link:../concepts/infra.html[Learn about Keystone infrastructure]
 * link:../concepts/operational-models.html[Operational models in Keystone]
