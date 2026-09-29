@@ -1,0 +1,84 @@
+---
+sidebar: sidebar
+permalink: integrations/health-assessment-reports.html
+keywords: keystone-aiq, keystone reports, health assessment report, health reports, keystone dashboard, monitoring, console
+summary: Use Keystone health assessment reports in the NetApp Console to view subscription details, evaluate health, analyze usage trends, and identify risks and vulnerabilities across one or more subscriptions. You can generate reports on demand or schedule them to share accurate operational and compliance information with stakeholders.
+---
+
+= Generate and schedule health reports for Keystone subscriptions
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ../media/
+
+[.lead]
+Generate or schedule health assessment reports for one or more Keystone subscriptions to review subscription usage, operational health, risks, and vulnerabilities in a consolidated report that can be shared with intended recipients.
+
+.About this task
+Health assessment reports are PowerPoint presentations that provide a consistent view of subscription usage, operational health, and identified risks across the selected subscriptions. Use the *Report configuration panel* to define the report scope and options, and use the *Report template preview* area to review the slide order and layout before you generate or schedule the report. The preview helps you confirm the report structure, but it does not display actual subscription data.
+
+NOTE: Health assessment reports are available only in the NetApp Console. Digital Advisor supports consolidated reports, but it does not support health report generation or scheduling. To learn more about consolidated reports in Digital Advisor, see link:../integrations/options.html#generate-consolidated-report-from-digital-advisor[Generate consolidated report from Digital Advisor].
+
+Follow these steps to generate a report for immediate download or to schedule a one-time or recurring report for later delivery:
+
+.Steps
+. From the Console left navigation menu, select *Storage > Keystone > Monitoring > Health reports*.
+. Select *New report*.
+. In the *Report configuration panel*, enter a name in the *Report name* field.
+. Select a time range from the *Time range* dropdown.
++
+Select a preset range from 7 to 90 days, or select *Custom* to define your own date range. The selected range determines the historical data shown in the *Consumption trend* section and other time-based sections. For scheduled reports, the range is calculated backward from each run date. For example, a 60-day range in a monthly schedule shows the 60 days leading up to that month's run date. If you select *Custom*, you cannot schedule the report.
++
+image:../media/schedule-report.png[health report configuration showing that scheduling is disabled when a custom date range is selected]
+. Select one or more subscriptions from the *Subscriptions* dropdown.
++
+In the partner-operated model, you can select subscriptions from one or more managed customers. In the customer-operated model, you can select only your own subscriptions. For more information, see link:../concepts/operational-models.html[Operational models in Keystone].
+. Under *Report sections*, select the sections you want to include.
++
+Each selected section appears in the *Report template preview* area and is included in the generated PowerPoint report. Depending on your selections, the report can include high-level health indicators, subscription and contract details, current capacity usage, consumption trends and forecasts, physical capacity details, system health indicators, and identified risks and vulnerabilities.
+. Select a presentation theme.
+. Review the sections listed in the *Report template preview* area to confirm that they match your selections.
+. Choose how you want to create the report.
++
+* *Generate report*
++
+Select *Generate report* to download the report immediately.
++
+The report is submitted for generation, and you are returned to the *Health assessment reports* page. The report appears with a status of *Running*.
++
+After the status changes to *Generated*, select the ellipsis icon next to the report and select *Download*. ##On-demand reports are available in the *Reports* tab for 90 days and are removed automatically after that.##
++
+* *Schedule report*
++
+Select *Schedule* to create a one-time or recurring report, and complete the following steps:
++
+.. Select a frequency: *One time*, *Weekly*, *Monthly*, or *Quarterly*.
+.. Select a *Start date*.
++
+image:../media/schedule-dialog.png[Schedule report dialog showing weekly frequency selected, empty start date and end date fields, a Recipients field, and PPT format selected]
++
+The start date determines when the report first runs. For recurring frequencies, the report runs again according to the selected weekly, monthly, or quarterly schedule.
+.. Optionally, select an *End date*.
++
+If you don't select an end date, the schedule continues until you change or cancel it.
+.. Enter one or more email addresses in the *Recipients* field.
+.. Confirm that the format is *PPT (PowerPoint presentation)*.
+.. Select *Schedule report*.
++
+The schedule is created, and the report appears on the *Health assessment reports* page with an execution type of *Scheduled run* and a status of *Scheduled*. While the report status is *Scheduled*, select the ellipsis icon next to the report and select *Edit schedule* to modify the schedule. You can review the *Last run*, *Next run*, and *Status* columns to track each run.
++
+After the status changes to *Generated*, select the ellipsis icon next to the report and select *Download*.
+
+.Result
+Generated reports download as PowerPoint presentations. You can select *Generate again* from the ellipsis menu to create a new report with the same configuration. 
+
+*Related information*
+
+* link:../integrations/dashboard-access.html[Get started with the Keystone dashboard]
+* link:../integrations/subscriptions-tab.html[View details about your Keystone subscriptions]
+* link:../integrations/current-usage-tab.html[View current usage]
+* link:../integrations/consumption-tab.html[View consumption trends]
+* link:../integrations/assets-tab.html[View assets associated with your subscriptions]
+* link:../integrations/monitoring-alerts.html[View and manage alerts]
+* link:../integrations/monitoring-alert-monitors.html[View and create alert monitors]

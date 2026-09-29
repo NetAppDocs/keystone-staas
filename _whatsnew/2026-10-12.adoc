@@ -1,0 +1,6 @@
+New enhancements in the Keystone dashboard in the NetApp Console:
+
+=== Generate health insights for Keystone subscriptions
+You can now download on-demand PowerPoint reports or schedule one-time, weekly, monthly, or quarterly delivery from *Storage > Keystone > Monitoring > Health reports* in the NetApp Console. Each report combines subscription usage, operational health, risks, and vulnerabilities across selected subscriptions, helping you identify concerns and share actionable insights with recipients. To learn more, refer to https://docs.netapp.com/us-en/keystone-staas/integrations/health-assessment-reports.html[Generate and schedule health reports for Keystone subscriptions].
+
+//NSEKEY-25929
