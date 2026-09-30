@@ -1,9 +1,9 @@
-New enhancements in the Keystone dashboard in the NetApp Console:
+This Keystone STaaS release includes the following updates in the Keystone dashboard in the NetApp Console.
 
 === Generate health insights for Keystone subscriptions
-You can now download on-demand PowerPoint reports or schedule one-time, weekly, monthly, or quarterly delivery from *Storage > Keystone > Monitoring > Health reports* in the NetApp Console. Each report combines subscription usage, operational health, risks, and vulnerabilities across selected subscriptions, helping you identify concerns and share actionable insights with recipients. To learn more, refer to https://docs.netapp.com/us-en/keystone-staas/integrations/health-assessment-reports.html[Generate and schedule health reports for Keystone subscriptions].
+You can download on-demand PowerPoint reports or schedule one-time, weekly, monthly, or quarterly delivery from *Storage > Keystone > Monitoring > Health reports* in the NetApp Console. Each report combines subscription usage, operational health, risks, and vulnerabilities across selected subscriptions, helping you identify concerns and share actionable insights with recipients. To learn more, refer to https://docs.netapp.com/us-en/keystone-staas/integrations/health-assessment-reports.html[Generate and schedule health reports for Keystone subscriptions].
 
 //NSEKEY-25929
 
 === View ONTAP cluster and aggregate capacity
-The new *Clusters and aggregates* tab in *Assets* provides physical, logical, and storage efficiency metrics across subscriptions or for a selected subscription. You can expand each cluster to view aggregate details, compare available capacity, and identify aggregates with high capacity usage. To learn more, refer to https://docs.netapp.com/us-en/keystone-staas/integrations/assets.html[View assets across your Keystone subscriptions] and https://docs.netapp.com/us-en/keystone-staas/integrations/assets-tab.html[View assets associated with a Keystone subscription].
+The *Clusters and aggregates* tab in *Assets* provides physical, logical, and storage efficiency metrics across subscriptions or for a selected subscription. You can expand each cluster to view aggregate details, compare available capacity, and identify aggregates with high capacity usage. To learn more, refer to https://docs.netapp.com/us-en/keystone-staas/integrations/assets.html[View assets across your Keystone subscriptions] and https://docs.netapp.com/us-en/keystone-staas/integrations/assets-tab.html[View assets associated with a Keystone subscription].

@@ -19,7 +19,7 @@ summary: Use the Assets tab to view details of ONTAP volumes, clusters, aggregat
 
 The *Assets* tab in the *Subscriptions* page shows detailed information about ONTAP volumes, clusters, aggregates, and nodes, and StorageGRID nodes associated with the subscription, including capacity status.
 
-[NOTE]##
+[NOTE]
 ====
 * This view is limited to one Keystone subscription at a time. You can also see the assets of other subscriptions by selecting from the *Tracking ID* dropdown list. The Keystone dashboard in NetApp Console allows you to view assets across multiple Keystone subscriptions. To learn more, refer to link:../integrations/assets.html[View assets across your Keystone subscriptions].
 
