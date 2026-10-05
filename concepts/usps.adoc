@@ -2,10 +2,10 @@
 sidebar: sidebar
 permalink: concepts/usps.html
 keywords: netapp, keystone, US citizen support, USPS, Keystone Success Manager, USPS support
-summary: "United States Protected Support is an add-on service that provides delivery and support of ongoing Keystone services from U.S. citizens on U.S. soil."
+summary: "United States Protected Support is an add-on service for NetApp Keystone STaaS subscriptions that provides delivery and support of ongoing Keystone services from U.S. citizens on U.S. soil."
 ---
 
-= USPS add-on for Keystone
+= U.S. Protected Support add-on for Keystone STaaS
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,7 +13,7 @@ summary: "United States Protected Support is an add-on service that provides del
 :imagesdir: ../media/
 
 [.lead]
-United States Protected Support (USPS) is an add-on offering for NetApp Keystone Subscriptions. It entitles you to receive delivery and support of ongoing Keystone services from U.S. citizens on U.S. soil.
+United States Protected Support (USPS) is an add-on service for NetApp Keystone STaaS subscriptions. It entitles you to receive delivery and support of ongoing Keystone services from U.S. citizens on U.S. soil.
 
 Read the following sections to understand which elements of your subscriptions are bound by this add-on service and are provided under the terms of NetApp Keystone Agreement.footnote:disclaimer1[The services and offerings described here are subject to, and limited and governed by a fully-executed Keystone Agreement.]
 

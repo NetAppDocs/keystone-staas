@@ -2,10 +2,10 @@
 sidebar: sidebar
 permalink: concepts/misc-volume-billing.html
 keywords: Keystone billing, special volume types, cloned volumes, SnapMirror destinations, LUNs, temporary volumes
-summary: Keystone billing rules differ for certain volume configurations. This page explains billing for cloned volumes, SnapMirror destinations, LUNs, temporary volumes, and system volumes.
+summary: Keystone STaaS billing rules differ for certain volume configurations. This page explains billing for cloned volumes, SnapMirror destinations, LUNs, temporary volumes, and system volumes.
 ---
 
-= Keystone billing for specific volume types
+= Keystone STaaS billing for specific volume types
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,7 +13,7 @@ summary: Keystone billing rules differ for certain volume configurations. This p
 :imagesdir: ../media/
 
 [.lead]
-Keystone billing rules differ for certain volume configurations. Knowing these exceptions helps you avoid unexpected charges when working with cloned volumes, SnapMirror destinations, LUNs, or temporary storage.
+Keystone STaaS billing rules differ for certain volume configurations. Knowing these exceptions helps you avoid unexpected charges when working with cloned volumes, SnapMirror destinations, LUNs, or temporary storage.
 
 The following table summarizes the billing rules for each volume type.
 

@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: concepts/overview.html
 keywords: learn about keystone, keystone introduction, keystone platform, keystone STaaS, storage as a service, subscription, overview
-summary: NetApp Keystone is a storage-as-a-service platform consumed through a subscription model. This documentation describes the Keystone STaaS offering and its services.
+summary: NetApp Keystone is NetApp's storage-as-a-service platform and brand. Keystone STaaS is its primary subscription offering for file, block, and object storage services.
 ---
 
 = Learn about NetApp Keystone
@@ -18,7 +18,7 @@ NetApp Keystone is a platform that delivers Keystone Storage-as-a-Service (STaaS
 
 == Keystone STaaS offering and services
 
-Keystone STaaS provides a public cloud-like model for procuring, deploying, and managing storage infr astructure. When you subscribe to Keystone STaaS, you select the data storage types and performance service levels that meet your requirements.
+Keystone STaaS provides a public cloud-like model for procuring, deploying, and managing storage infrastructure. When you subscribe to Keystone STaaS, you select the data storage types and performance service levels that meet your requirements.
 
 Keystone STaaS is the offering that defines how storage capabilities are delivered and consumed. Services are the capabilities available with that offering, standard services are included in the base subscription, while add-on services can be purchased when you need additional capabilities. For example, advanced data protection (ADP) is an add-on service that provides synchronous site-to-site mirroring for supported configurations.
 
@@ -32,7 +32,7 @@ Keystone STaaS can be operated under a partner-operated or customer-operated mod
 
 == Key benefits of Keystone STaaS
 
-* *Cost efficiency*: Pay only for the storage you need, with the flexibility to handle extra capacity when required.
+* *Cost efficiency*: Get predictable costs for committed capacity, with usage-based charges for consumption above that commitment.
 * *Capital efficiency*: Access enterprise storage without large upfront investments.
 * *Scalability*: Increase your storage capacity as your business grows.
 * *Flexibility*: Adjust your storage plan and move workloads to the cloud when it makes sense.
@@ -41,9 +41,9 @@ Keystone STaaS can be operated under a partner-operated or customer-operated mod
 
 *Related information*
 
-* link:../concepts/pricing.html[Keystone pricing]
-* link:../concepts/adp.html[Add-on services in Keystone STaaS]
+* link:../concepts/pricing.html[Keystone STaaS billing]
+* link:../concepts/adp.html[Advanced data protection add-on service]
 * link:../concepts/supported-storage-services.html[Keystone STaaS services]
 * link:../concepts/service-levels.html[Performance service levels in Keystone STaaS]
-* link:../concepts/infra.html[Learn about Keystone infrastructure]
+* link:../concepts/infra.html[Learn about Keystone STaaS infrastructure]
 * link:../concepts/operational-models.html[Operational models in Keystone]

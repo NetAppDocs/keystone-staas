@@ -32,7 +32,7 @@ sidebar:
       entries:
       - title: Learn about NetApp Keystone
         url: /concepts/overview.html
-      - title: Keystone infrastructure
+      - title: Keystone STaaS infrastructure
         url: /concepts/infra.html
       - title: Keystone Collector
         url: /installation/installation-overview.html
@@ -42,7 +42,7 @@ sidebar:
         url: /concepts/data-flow.html   
       - title: Operational models
         url: /concepts/operational-models.html 
-    - title: Set up and configure Keystone
+    - title: Set up and configure Keystone STaaS
       entries:
         - title: Requirements
           entries:
@@ -80,7 +80,7 @@ sidebar:
               url: /installation/upgrade.html 
         - title: Keystone Collector security
           url: /installation/security.html
-        - title: Data collected for billing
+        - title: Data collected by Keystone Collector
           url: /installation/data-collection.html
         - title: Keystone in private mode
           entries:
@@ -152,7 +152,7 @@ sidebar:
               url: /concepts/service-levels.html
             - title: Capacity requirements for performance service levels
               url: /concepts/capacity-requirements.html 
-        - title: Learn about add-on services
+        - title: Keystone STaaS add-on services
           entries: 
             - title: Advanced data protection
               url: /concepts/adp.html
@@ -176,11 +176,11 @@ sidebar:
               url: /concepts/sla-sustainability.html 
             - title: Ransomware Recovery Guarantee 
               url: /concepts/sla-ransomware.html 
-        - title: Understand Keystone billing
+        - title: Understand Keystone STaaS billing
           entries:
-            - title: Learn about Keystone billing
+            - title: Learn about Keystone STaaS billing
               url: /concepts/pricing.html
-            - title: Keystone billing for specific volume types
+            - title: Keystone STaaS billing for specific volume types
               url: /concepts/misc-volume-billing.html                                                              
     - title: Digital Advisor REST API for Keystone
       entries:
@@ -196,7 +196,7 @@ sidebar:
           url: /rest-api/get-customer-consumption.html 
     - title: Keystone subscription services version 1
       url: /subscription-services-v1.html 
-    - title: Support services for Keystone
+    - title: Support services for Keystone STaaS
       url: /concepts/support-services.html
     - title: Legal notices
       url: /legal-notices.html
