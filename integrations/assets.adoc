@@ -13,9 +13,9 @@ summary: Use the Assets tab to view details of ONTAP clusters and nodes, and Sto
 :imagesdir: ../media/
 
 [.lead]
-##The Keystone dashboard in the NetApp Console allows you to view detailed information about ONTAP nodes, volumes, clusters, and aggregates, and StorageGRID nodes across multiple Keystone subscriptions, according to your access permissions. This view is not available in Digital Advisor.##
+The Keystone dashboard in the NetApp Console allows you to view detailed information about ONTAP nodes, volumes, clusters, and aggregates, and StorageGRID nodes across multiple Keystone subscriptions, according to your access permissions. This view is not available in Digital Advisor.
 
-NOTE: ##The *Assets* page displays tabs based on the platforms associated with your Keystone subscriptions. For ONTAP, the *Nodes in clusters*, *Volumes in clusters*, and *Clusters and aggregates* tabs are available. For StorageGRID, the *Nodes in grids* table displays directly without a tab selection. If your subscriptions include both platforms, all ONTAP tabs and the StorageGRID table are available.##
+NOTE: The *Assets* page displays tabs based on the platforms associated with your Keystone subscriptions. For ONTAP, the *Nodes in clusters* and *Volumes in clusters* tabs are available. ##The *Clusters and aggregates* tab is available only if you have a Keystone STaaS version 3 subscription billed on physical (usable) capacity.## For StorageGRID, the *Nodes in grids* table displays directly without a tab selection. If your subscriptions include both platforms, all ONTAP tabs and the StorageGRID table are available.
 
 [role="tabbed-block"]
 ====
@@ -59,6 +59,8 @@ You can click a subscription number in the *Subscription number* column to go to
 
 .Clusters and aggregates
 --
+NOTE: ##The *Clusters and aggregates* view is available only for Keystone STaaS version 3 subscriptions billed on physical (usable) capacity.##
+
 .Steps
 . From the Console left navigation menu, select *Storage > Keystone > Assets*.
 . Select the *Clusters and aggregates* tab.
