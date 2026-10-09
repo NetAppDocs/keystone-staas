@@ -16,7 +16,7 @@ summary: Use Keystone health assessment reports in the NetApp Console to view su
 ##Generate or schedule health reports for one or more Keystone subscriptions from the Keystone dashboard in the NetApp Console. These reports provide a consolidated view of subscription usage, operational health, risks, and vulnerabilities that you can share with intended recipients. This functionality is not available in Digital Advisor.##
 
 .About this task
-##Health reports give you a consistent view of subscription usage, operational health, and identified risks across the subscriptions you select.## On the *New report* page, use the *Report configuration* panel to define the scope and options for the report. Use the preview area to review the slide order and layout before you generate or schedule the report. The preview shows the report structure only and does not display actual subscription data.
+##Health reports give you a view of subscription usage, operational health, and identified risks across the subscriptions you select.## On the *New report* page, use the *Report configuration* panel to define the scope and options for the report. Use the preview area to review the slide order and layout before you generate or schedule the report. The preview shows the report structure only and does not display actual subscription data.
 
 Follow these steps to generate a report for immediate download or to schedule a one-time or recurring report for later delivery:
 
@@ -26,12 +26,12 @@ Follow these steps to generate a report for immediate download or to schedule a 
 . In the *Report configuration panel*, enter a name in the *Report name* field.
 . Select a time range from the *Time range* dropdown.
 +
-##Select a preset range, such as *Last 60 days*, or select *Custom* to enter your own dates.## The selected range determines the historical data shown in the *Consumption trend* section and other time-based sections. For a scheduled report, the range is calculated backward from each run date. For example, a 60-day range in a monthly schedule shows the 60 days leading up to that month's run date. If you select *Custom*, you cannot schedule the report.
+##Select a preset range, such as *Last 60 days*, or select *Custom* to enter your own dates.## The selected range determines the historical data shown in the *Consumption trend* section and other time-based sections. If you select *Custom*, you cannot schedule the report.
 +
 image:../media/schedule-report.png[health report configuration showing that scheduling is disabled when a custom date range is selected]
 . Select one or more subscriptions from the *Subscriptions* dropdown.
 +
-In the partner-operated model, you can select subscriptions from one or more managed customers. In the customer-operated model, you can select only your own subscriptions. For more information, see link:../concepts/operational-models.html[Operational models in Keystone].
+NOTE: NetApp partners can select subscriptions across one or more of their managed Keystone customer accounts.
 . Under *Report sections*, select the sections you want to include.
 +
 ##Each section you select appears in the preview area and is included in the generated report. For example, you can include a summary of your subscriptions, current capacity usage, consumption trends, physical capacity, system health, and risks and vulnerabilities. For *Consumption trend*, you can also choose whether to include a chart or a forecast.##
