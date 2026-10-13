@@ -34,7 +34,7 @@ image:../media/schedule-report.png[health report configuration showing that sche
 NOTE: NetApp partners can select subscriptions across one or more of their managed Keystone customer accounts.
 . Under *Report sections*, select the sections you want to include.
 +
-Each section you select appears in the preview area and is included in the generated report. For example, you can include a summary of your subscriptions, current capacity usage, consumption trends, physical capacity, system health, and risks and vulnerabilities. For *Consumption trend*, you can display historical consumption data as a chart and optionally include a forecast of future consumption.
+Each section you select appears in the preview area and is included in the generated report. For example, you can include a summary of your subscriptions, current capacity usage, consumption trends, physical capacity, system health, and risks and vulnerabilities. For *Consumption trend*, you can you can include a chart of historical consumption and, optionally, a forecast of future consumption.
 . Select a presentation theme.
 . Review the sections shown in the preview area to confirm that they match your selections.
 . Choose how you want to create the report.
