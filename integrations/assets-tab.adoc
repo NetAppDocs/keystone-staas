@@ -23,7 +23,7 @@ The *Assets* tab in the *Subscriptions* page shows detailed information about ON
 ====
 * This view is limited to one Keystone subscription at a time. You can also see the assets of other subscriptions by selecting from the *Tracking ID* dropdown list. The Keystone dashboard in NetApp Console allows you to view assets across multiple Keystone subscriptions. To learn more, refer to link:../integrations/assets.html[View assets across your Keystone subscriptions].
 
-* The *View* dropdown options depend on your Keystone subscription platforms. *Volumes in clusters* and *Nodes in clusters* are available for ONTAP. ##*Clusters and aggregates* is available for ONTAP only if you have a Keystone STaaS subscription billed on physical capacity.## For StorageGRID, the *View* dropdown is not available, and the *Nodes in grids* table displays automatically. If your subscription includes both platforms, all views are available in the *View* dropdown.
+* The *View* dropdown options depend on your Keystone subscription platforms. *Volumes in clusters* and *Nodes in clusters* are available for ONTAP. *Clusters and aggregates* is available for ONTAP only if you have a Keystone STaaS subscription billed on physical capacity. For StorageGRID, the *View* dropdown is not available, and the *Nodes in grids* table displays automatically. If your subscription includes both platforms, all views are available in the *View* dropdown.
 ====
 
 You can view this information by following these steps:
@@ -64,9 +64,9 @@ You see ONTAP cluster details, broken down by storage efficiency settings, platf
 TIP: You can customize the table using the column selector image:column-selector.png[column selector icon] icon and use the search bar at the top to search and filter table data based on the column parameters.
 --
 
-.##Clusters and aggregates##
+.Clusters and aggregates
 --
-NOTE: ##The *Clusters and aggregates* view is available only for a Keystone STaaS subscription billed on physical capacity.##
+NOTE: The *Clusters and aggregates* view is available only for a Keystone STaaS subscription billed on physical capacity.
 
 .Steps
 . From the Console left navigation menu, select *Storage > Keystone > Subscriptions*.
@@ -78,7 +78,7 @@ The system opens the *Current consumption* tab.
 +
 image:console-clusters-aggregates-single-subscription.png[Clusters and aggregates capacity details for a Keystone subscription]
 +
-##You see physical used capacity, physical usable capacity, physical available capacity, storage efficiency ratio, logical effective capacity, logical used capacity, and ONTAP version. Expand a cluster to view the corresponding details for its aggregates.##
+You see physical used capacity, physical usable capacity, physical available capacity, storage efficiency ratio, logical effective capacity, logical used capacity, and ONTAP version. Expand a cluster to view the corresponding details for its aggregates.
 +
 This view helps you identify clusters and aggregates driving usage and billed consumption, compare available capacity, and relate infrastructure usage to subscription consumption.
 +

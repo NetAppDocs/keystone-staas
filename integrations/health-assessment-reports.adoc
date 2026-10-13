@@ -13,10 +13,10 @@ summary: Use Keystone health assessment reports in the NetApp Console to view su
 :imagesdir: ../media/
 
 [.lead]
-##Generate or schedule health reports for one or more Keystone subscriptions from the Keystone dashboard in the NetApp Console. These reports provide a consolidated view of subscription usage, operational health, risks, and vulnerabilities that you can share with intended recipients. This functionality is not available in Digital Advisor.##
+Generate or schedule health reports for one or more Keystone subscriptions from the Keystone dashboard in the NetApp Console. These reports provide a consolidated view of subscription usage, operational health, risks, and vulnerabilities that you can share with intended recipients. This functionality is not available in Digital Advisor.
 
 .About this task
-##Health reports give you a view of subscription usage, operational health, and identified risks across the subscriptions you select.## On the *New report* page, use the *Report configuration* panel to define the scope and options for the report. Use the preview area to review the slide order and layout before you generate or schedule the report. The preview shows the report structure only and does not display actual subscription data.
+Health reports give you a view of subscription usage, operational health, and identified risks across the subscriptions you select. On the *New report* page, use the *Report configuration* panel to define the scope and options for the report. Use the preview area to review the slide order and layout before you generate or schedule the report. The preview shows the report structure only and does not display actual subscription data.
 
 Follow these steps to generate a report for immediate download or to schedule a one-time or recurring report for later delivery:
 
@@ -26,7 +26,7 @@ Follow these steps to generate a report for immediate download or to schedule a 
 . In the *Report configuration panel*, enter a name in the *Report name* field.
 . Select a time range from the *Time range* dropdown.
 +
-##Select a preset range, such as *Last 60 days*, or select *Custom* to enter your own dates.## The selected range determines the historical data shown in the *Consumption trend* section and other time-based sections. If you select *Custom*, you cannot schedule the report.
+Select a preset range, such as *Last 60 days*, or select *Custom* to enter your own dates. The selected range determines the historical data shown in the *Consumption trend* section and other time-based sections. If you select *Custom*, you cannot schedule the report.
 +
 image:../media/schedule-report.png[health report configuration showing that scheduling is disabled when a custom date range is selected]
 . Select one or more subscriptions from the *Subscriptions* dropdown.
@@ -34,7 +34,7 @@ image:../media/schedule-report.png[health report configuration showing that sche
 NOTE: NetApp partners can select subscriptions across one or more of their managed Keystone customer accounts.
 . Under *Report sections*, select the sections you want to include.
 +
-##Each section you select appears in the preview area and is included in the generated report. For example, you can include a summary of your subscriptions, current capacity usage, consumption trends, physical capacity, system health, and risks and vulnerabilities. For *Consumption trend*, you can also choose whether to include a chart or a forecast.##
+Each section you select appears in the preview area and is included in the generated report. For example, you can include a summary of your subscriptions, current capacity usage, consumption trends, physical capacity, system health, and risks and vulnerabilities. For *Consumption trend*, you can display historical consumption data as a chart and optionally include a forecast of future consumption.
 . Select a presentation theme.
 . Review the sections shown in the preview area to confirm that they match your selections.
 . Choose how you want to create the report.
@@ -59,12 +59,12 @@ image:../media/schedule-dialog.png[Schedule report dialog showing weekly frequen
 The start date determines when the report first runs. For recurring frequencies, the report runs again according to the selected weekly, monthly, or quarterly schedule.
 .. Optionally, select an *End date*.
 +
-##If you don't select an end date, the schedule continues until you change it.##
+If you don't select an end date, the schedule continues until you change it.
 .. Select *Schedule report*.
 +
-##The schedule is created, and the report appears on the *Reports* tab with an execution type of *Scheduled run*. Use the *Last run*, *Next run*, and *Status* columns to track each run.##
+The schedule is created, and the report appears on the *Reports* tab with an execution type of *Scheduled run*. Use the *Last run*, *Next run*, and *Status* columns to track each run.
 +
-##To change the schedule, select the ellipsis icon at the end of the report's row, and then select *Edit schedule*. You can edit the schedule at any time, whether the status is *Scheduled* or *Generated*.##
+To edit a weekly, monthly, or quarterly schedule, select the ellipsis icon at the end of the report's row, and then select *Edit schedule*. You can do this whether the status is *Scheduled* or *Generated*. You cannot edit a *One time* schedule after the report is generated.
 +
 After the status changes to *Generated*, select the ellipsis icon next to the report and select *Download*.
 

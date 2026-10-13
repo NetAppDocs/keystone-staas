@@ -61,7 +61,6 @@ image:watchlist.png[watchlist screen]
 //NSEKEY-8885
 //NSEKEY-8043
 
-NOTE: ##To generate or schedule health reports, use the NetApp Console. Digital Advisor does not support health report generation or scheduling. To learn more, refer to link:../integrations/health-assessment-reports.html[Generate and schedule health reports for Keystone subscriptions].##
 
 *Related information*
 

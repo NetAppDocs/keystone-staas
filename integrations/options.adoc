@@ -31,7 +31,7 @@ You can generate and view reports for your Keystone data using the download butt
 
 The details are generated in CSV format that you can save for future use and comparison.
 
-== ##Generate health reports from NetApp Console##
+== Generate health reports from NetApp Console
 
 Use the NetApp Console to generate or schedule health reports for one or more subscriptions. These PowerPoint reports consolidate subscription usage, operational health, risks, and vulnerabilities. Digital Advisor does not support health assessment report generation or scheduling.
 

@@ -6,4 +6,4 @@ You can download on-demand PowerPoint reports or schedule one-time, weekly, mont
 //NSEKEY-25929
 
 === View ONTAP cluster and aggregate capacity
-##You can view physical capacity, logical capacity, and storage efficiency for ONTAP clusters and their aggregates in *Assets > Clusters and aggregates*. This is available only for Keystone STaaS subscriptions billed on physical capacity..## To learn more, refer to https://docs.netapp.com/us-en/keystone-staas/integrations/assets.html[View assets across your Keystone subscriptions] and https://docs.netapp.com/us-en/keystone-staas/integrations/assets-tab.html[View assets associated with a Keystone subscription].
+You can view physical capacity, logical capacity, and storage efficiency for ONTAP clusters and their aggregates in *Assets > Clusters and aggregates*. This is available only for Keystone STaaS subscriptions billed on physical capacity. To learn more, refer to https://docs.netapp.com/us-en/keystone-staas/integrations/assets.html[View assets across your Keystone subscriptions] and https://docs.netapp.com/us-en/keystone-staas/integrations/assets-tab.html[View assets associated with a Keystone subscription].
