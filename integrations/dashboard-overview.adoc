@@ -17,6 +17,7 @@ The Keystone dashboard is your go-to solution for efficiently monitoring, analyz
 
 * *Monitor subscription details*: View detailed information about your Keystone subscriptions, including performance service levels (base and add-on services such as advanced data protection and Data Infrastructure Insights), capacity usage, assets, and alerts.
 * *Track capacity usage and generate reports*: Keep track of current and historical capacity usage, and generate reports to analyze subscription data and make informed decisions.
+* *Generate health reports*: Create on-demand or scheduled health assessment reports to review subscription usage, operational health, risks, and vulnerabilities.
 * *View subscription timeline*: Stay informed about key dates and events by monitoring the timeline of your subscriptions.
 //* *Manage subscriptions*: Request changes for your service levels to ensure your subscriptions align with your needs.
 * *Manage subscriptions*: Submit requests to modify performance service levels or other subscription parameters as your needs change.
@@ -73,6 +74,9 @@ a|link:../integrations/monitoring-alerts.html[View and manage alerts and monitor
 a|link:../integrations/options.html#generate-reports-from-netapp-console-or-digital-advisor[Generate reports]
 |Yes
 |Yes
+a|link:../integrations/health-assessment-reports.html[Generate and schedule health reports]
+|Yes
+|No
 a|link:../integrations/volumes-objects-tab.html[View volumes and objects details]
 |Yes
 |Yes
@@ -89,6 +93,7 @@ a|link:../integrations/performance-tab.html[View performance metrics]
 *Related information*
 
 * link:../integrations/dashboard-access.html[Get started with the Keystone dashboard]
+* link:../integrations/health-assessment-reports.html[Generate and schedule health reports]
 * link:../integrations/keystone-console.html[Keystone dashboard in NetApp Console]
 * link:..//integrations/keystone-aiq.html[Keystone dashboard in Digital Advisor]
 

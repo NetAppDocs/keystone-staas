@@ -31,6 +31,12 @@ You can generate and view reports for your Keystone data using the download butt
 
 The details are generated in CSV format that you can save for future use and comparison.
 
+== Generate health reports from NetApp Console
+
+Use the NetApp Console to generate or schedule health reports for one or more subscriptions. These PowerPoint reports consolidate subscription usage, operational health, risks, and vulnerabilities. Digital Advisor does not support health assessment report generation or scheduling.
+
+To learn more, refer to link:../integrations/health-assessment-reports.html[Generate and schedule health reports for Keystone subscriptions].
+
 == Generate consolidated report from Digital Advisor
 
 In Digital Advisor, you can generate and view a consolidated report for your subscriptions, historical usage, burst usage, performance, assets, and volumes and objects. To do this, select *Keystone Subscriptions* as the report type from the Report feature in Digital Advisor. You can generate these reports at the customer, cluster, watchlist, or subscription level.
