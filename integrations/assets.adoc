@@ -13,9 +13,9 @@ summary: Use the Assets tab to view details of ONTAP clusters and nodes, and Sto
 :imagesdir: ../media/
 
 [.lead]
-The Keystone dashboard in the NetApp Console allows you to view detailed information about nodes in clusters, provisioned volumes, and StorageGRID nodes across multiple Keystone subscriptions, according to your access permissions. This view is not available in Digital Advisor.
+The Keystone dashboard in the NetApp Console allows you to view detailed information about ONTAP nodes, volumes, clusters, and aggregates, and StorageGRID nodes across multiple Keystone subscriptions, according to your access permissions. This view is not available in Digital Advisor.
 
-NOTE: The *Assets* page displays tabs based on the platforms associated with your Keystone subscriptions. For ONTAP, both *Nodes in clusters* and *Volumes in clusters* tabs are available. For StorageGRID, the *Nodes in grids* table displays directly without a tab selection. If subscriptions include both platforms, all three tabs are available.
+NOTE: The *Assets* page displays tabs based on the platforms associated with your Keystone subscriptions. For ONTAP, the *Nodes in clusters* and *Volumes in clusters* tabs are available. The *Clusters and aggregates* tab is available for ONTAP only if you have Keystone STaaS subscriptions billed on physical capacity. For StorageGRID, the *Nodes in grids* table displays directly without a tab selection. If your subscriptions include both platforms, all tabs are available.
 
 [role="tabbed-block"]
 ====
@@ -55,6 +55,23 @@ NOTE: The *Cold tier %* and *Hot tier %* columns show the percentage of data on 
 TIP: You can customize the table using the column selector image:column-selector.png[column selector icon] icon and use the search bar at the top to search and filter Keystone data based on the column parameters.
 +
 You can click a subscription number in the *Subscription number* column to go to the *Subscriptions* tab, where you can view subscription consumption details, timelines, and associated asset information. To learn more, refer to link:../integrations/current-usage-tab.html[View your current consumption details].
+--
+
+.Clusters and aggregates
+--
+NOTE: The *Clusters and aggregates* tab appears only for Keystone STaaS subscriptions billed on physical capacity.
+
+.Steps
+. From the Console left navigation menu, select *Storage > Keystone > Assets*.
+. Select the *Clusters and aggregates* tab.
++
+image:console-clusters-aggregates-multiple-subscriptions.png[Clusters and aggregates across multiple Keystone subscriptions]
++
+You can view capacity details for ONTAP clusters across your Keystone subscriptions. For each cluster, the table displays physical used capacity, physical usable capacity, physical available capacity, storage efficiency ratio, logical effective capacity, logical used capacity, and ONTAP version. Expand a cluster to view the corresponding details for its aggregates.
++
+This information helps you identify which clusters and aggregates drive capacity consumption, compare available capacity across your deployed infrastructure, and understand how usage at the cluster and aggregate levels contributes to overall subscription consumption.
++
+TIP: You can customize the table using the column selector image:column-selector.png[column selector icon] icon and use the search bar to filter the table by the available column values.
 --
 
 .Nodes in grids

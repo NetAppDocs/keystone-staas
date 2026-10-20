@@ -15,6 +15,10 @@ summary: Learn about the latest features and enhancements in Keystone STaaS.
 [.lead]
 Learn about the latest features and enhancements in Keystone STaaS.
 
+== 12 October 2026
+
+include::_whatsnew/2026-10-12.adoc[]
+
 == 20 July 2026
 
 include::_whatsnew/2026-07-20.adoc[]

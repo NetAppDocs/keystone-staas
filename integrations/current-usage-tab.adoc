@@ -69,6 +69,7 @@ For information about your Keystone storage services and the relevant performanc
 * link:../integrations/dashboard-overview.html[Understand the Keystone dashboard]
 * link:../integrations/subscriptions-tab.html[View your subscription details]
 * link:../integrations/consumption-tab.html[View consumption trends]
+* link:../integrations/health-assessment-reports.html[Generate and schedule health reports]
 * link:../integrations/subscription-timeline.html[View your subscription timeline]
 * link:../integrations/assets-tab.html[View your Keystone subscription assets]
 * link:../integrations/assets.html[View assets across your Keystone subscriptions]
