@@ -2,10 +2,10 @@
 sidebar: sidebar
 permalink: concepts/infra.html
 keywords: keystone infrastructure, infra
-summary: Keystone infrastructure, design, choice of technology, and component products reside solely with NetApp.
+summary: Keystone STaaS infrastructure, design, choice of technology, and component products reside solely with NetApp.
 ---
 
-= Learn about Keystone infrastructure
+= Learn about Keystone STaaS infrastructure
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,7 +13,7 @@ summary: Keystone infrastructure, design, choice of technology, and component pr
 :imagesdir: ../media/
 
 [.lead]
-NetApp is solely responsible for the infrastructure, design, technology choices, and components of Keystone, which applies to both NetApp and customer-operated environments.
+NetApp is solely responsible for the infrastructure, design, technology choices, and components of Keystone STaaS, which applies to both NetApp and customer-operated environments.
 
 NetApp reserves the rights to take the following actions:
 

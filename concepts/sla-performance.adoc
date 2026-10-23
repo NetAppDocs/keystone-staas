@@ -2,10 +2,10 @@
 sidebar: sidebar
 permalink: concepts/sla-performance.html
 keywords: sustainability, sla, service level agreement, slo, service level objectives
-summary: Keystone offers latency-based SLO per performance service level, as described in the Keystone order for consumed capacity up to the burst limit.
+summary: Keystone STaaS offers latency-based SLO per performance service level, as described in the Keystone order for consumed capacity up to the burst limit.
 ---
 
-= Performance SLO for Keystone
+= Performance SLO for Keystone STaaS
 :hardbreaks:
 :nofooter:
 :icons: font

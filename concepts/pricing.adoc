@@ -2,10 +2,10 @@
 sidebar: sidebar
 permalink: concepts/pricing.html
 keywords: pricing, Keystone billing, committed capacity, consumed capacity, burst consumption, billing schedules
-summary: With NetApp Keystone STaaS, you pay for what you commit to and only extra for what you use beyond that. This page explains how the pay-as-you-grow model works — from how your storage commitment is priced, to how capacity is measured and billed, to when invoices are generated.
+summary: With NetApp Keystone STaaS, you pay for what you commit to and only extra for what you use beyond that. This page explains how the pay-as-you-go model works — from how your storage commitment is priced, to how capacity is measured and billed, to when invoices are generated.
 ---
 
-= Learn about Keystone billing
+= Learn about Keystone STaaS billing
 :hardbreaks:
 :nofooter:
 :icons: font

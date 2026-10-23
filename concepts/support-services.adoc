@@ -2,10 +2,10 @@
 sidebar: sidebar
 permalink: concepts/support-services.html
 keywords:  Keystone support, service request, support ticket
-summary: Use the NetApp Support Site to create a support case or find contact information for your Keystone subscriptions.
+summary: Use the NetApp Support Site to create a support case or find contact information for your Keystone STaaS subscriptions.
 ---
 
-= Support services for Keystone
+= Support services for Keystone STaaS
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,10 +13,10 @@ summary: Use the NetApp Support Site to create a support case or find contact in
 :imagesdir: ../media/
 
 [.lead]
-NetApp provides Keystone customers with operational services. Customers receive a dedicated Keystone Success Manager (KSM), direct support contact options, and proactive monitoring through the ITOM solution.
+NetApp provides Keystone STaaS customers with operational services. Customers receive a dedicated Keystone Success Manager (KSM), direct support contact options, and proactive monitoring through the ITOM solution.
 
 == NetApp support services
-NetApp provides operational services remotely to Keystone customers. These services span a range of storage management activities, including asset and configuration management, capacity and performance management, change management, event and incident management, service request fulfillment, and reporting.
+NetApp provides operational services remotely to Keystone STaaS customers. These services span a range of storage management activities, including asset and configuration management, capacity and performance management, change management, event and incident management, service request fulfillment, and reporting.
 
 .Keystone Success Manager
 Your KSM works closely with you on your Keystone services and provides weekly or monthly billing and operational reports. Specific responsibilities are defined in your NetApp Keystone agreement.
