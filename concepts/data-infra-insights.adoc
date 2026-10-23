@@ -5,7 +5,7 @@ keywords: add-on services, add-on, data infrastructure insights, DII, deployment
 summary: Data Infrastructure Insights boosts Keystone STaaS efficiency by monitoring, troubleshooting, and optimizing storage in public clouds and private data centers.
 ---
 
-= Data Infrastructure Insights add-on for Keystone
+= Data Infrastructure Insights add-on for Keystone STaaS
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,7 +13,7 @@ summary: Data Infrastructure Insights boosts Keystone STaaS efficiency by monito
 :imagesdir: ../media/
 
 [.lead]
-NetApp Data Infrastructure Insights (DII, formerly known as Cloud Insights) is an add-on offering for Keystone STaaS. The integration of this service with Keystone STaaS enhances the monitoring, troubleshooting, and optimization capabilities of Keystone-provided storage resources across public clouds and private data centers.
+NetApp Data Infrastructure Insights (DII, formerly known as Cloud Insights) is an add-on service for Keystone STaaS. The integration of this service with Keystone STaaS enhances the monitoring, troubleshooting, and optimization capabilities of Keystone-provided storage resources across public clouds and private data centers.
 
 To learn more about Data Infrastructure Insights, refer to link:https://docs.netapp.com/us-en/data-infrastructure-insights/[Data Infrastructure Insights documentation^].
 

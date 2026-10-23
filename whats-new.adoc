@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: whats-new.html
 keywords: new features, release notes, enhancements, what's new
-summary: NetApp offers you new and enhanced features in every release of Keystone STaaS services. 
+summary: Learn about the latest features and enhancements in Keystone STaaS.
 ---
 
 = What's new in Keystone STaaS
@@ -13,7 +13,7 @@ summary: NetApp offers you new and enhanced features in every release of Keyston
 :imagesdir: ./media/
 
 [.lead]
-Learn about the latest features and enhancements in Keystone STaaS services.
+Learn about the latest features and enhancements in Keystone STaaS.
 
 == 12 October 2026
 
